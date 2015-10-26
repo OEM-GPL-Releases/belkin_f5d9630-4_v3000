@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/kernel/linux/net/8021q"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   committed-rev="3"
+   name="vlan_dev.c"
+   text-time="2008-02-22T08:21:30.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="f9771f3eeb578926d1b8ce2318649ebd"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:30.000000Z"/>
+<entry
+   committed-rev="3"
+   name="vlan.c"
+   text-time="2008-02-22T08:21:30.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="643311ffc7f6e083d73b103e49572b26"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:30.000000Z"/>
+<entry
+   committed-rev="3"
+   name="vlanproc.c"
+   text-time="2008-02-22T08:21:30.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="96cdb493afadd65b88a24aa1e951ba82"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:30.000000Z"/>
+<entry
+   committed-rev="3"
+   name="vlan.h"
+   text-time="2008-02-22T08:21:30.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="434e2d44d87b72a73bf5fc83515e0e94"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:30.000000Z"/>
+<entry
+   committed-rev="3"
+   name="vlanproc.h"
+   text-time="2008-02-22T08:21:30.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="1dc2a2bca7a9be932b6e201347ab38cd"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:30.000000Z"/>
+<entry
+   name="CVS"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name=".cvsignore"
+   text-time="2008-02-22T08:21:30.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="d8b65572e25962faaf07c20bb34d224e"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:30.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Makefile"
+   text-time="2008-02-22T08:21:30.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="89b01773f6321419237aeee3d1af2b72"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:30.000000Z"/>
+</wc-entries>

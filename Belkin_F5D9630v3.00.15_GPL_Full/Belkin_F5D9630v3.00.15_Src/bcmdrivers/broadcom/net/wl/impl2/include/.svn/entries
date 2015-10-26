@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/bcmdrivers/broadcom/net/wl/impl2/include"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   committed-rev="3"
+   name="sbconfig.h"
+   text-time="2008-02-22T08:20:59.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="c2018c86132ff9f658bf7bc9522c424c"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:20:59.000000Z"/>
+<entry
+   committed-rev="3"
+   name="pcicfg.h"
+   text-time="2008-02-22T08:20:59.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="199db20a0cff180223ba26375bba435a"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:20:59.000000Z"/>
+<entry
+   committed-rev="3"
+   name="osl.h"
+   text-time="2008-02-22T08:20:59.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="9ed2e650916599bd084a718a474f576b"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:20:59.000000Z"/>
+<entry
+   committed-rev="3"
+   name="bcmsrom.h"
+   text-time="2008-02-22T08:20:59.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="5a1cd840fa56357d2cf5fb4811f10a88"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:20:59.000000Z"/>
+<entry
+   committed-rev="3"
+   name="bcmdefs.h"
+   text-time="2008-02-22T08:20:59.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="6565fe2948cc4de3c6c92dfc4cd354fd"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:20:59.000000Z"/>
+<entry
+   committed-rev="3"
+   name="bcmnvram.h"
+   text-time="2008-02-22T08:20:59.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="0d29cc6000289babdca3ef1f1b94f19d"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:20:59.000000Z"/>
+<entry
+   committed-rev="3"
+   name="sbhndpio.h"
+   text-time="2008-02-22T08:20:59.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="dcee42db5ff044b81ac664c43afa1688"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:20:59.000000Z"/>
+<entry
+   committed-rev="3"
+   name="linux_osl.h"
+   text-time="2008-02-22T08:20:59.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="4fc23b7b4c8a80a342cd1d331310b40e"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:20:59.000000Z"/>
+<entry
+   committed-rev="3"
+   name="linuxver.h"
+   text-time="2008-02-22T08:20:59.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="6b13c27ae55f300e619f6abb6c070b1a"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:20:59.000000Z"/>
+<entry
+   name="bcmcrypto"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="wlioctl.h"
+   text-time="2008-02-22T08:20:59.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="19770b890cbe3c6e6b15908547580dea"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:20:59.000000Z"/>
+<entry
+   committed-rev="3"
+   name="epivers.h"
+   text-time="2008-02-22T08:20:59.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="d2e3c2228ede6b91e6607f1911a8100e"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:20:59.000000Z"/>
+<entry
+   name="proto"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="bcmendian.h"
+   text-time="2008-02-22T08:20:59.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="5cdff4b33f70dee8e7091b211d5c9953"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:20:59.000000Z"/>
+<entry
+   committed-rev="3"
+   name="bcmwifi.h"
+   text-time="2008-02-22T08:20:59.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="982927b917c0354cd0379f3746034e84"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:20:59.000000Z"/>
+<entry
+   committed-rev="3"
+   name="sbhnddma.h"
+   text-time="2008-02-22T08:20:59.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="53345883b4976c5feb779ce15cc74a75"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:20:59.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ezc.h"
+   text-time="2008-02-22T08:20:59.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="e70eecb4a30ce0e66a3a9c9d530ad0c9"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:20:59.000000Z"/>
+<entry
+   committed-rev="3"
+   name="sbpcmcia.h"
+   text-time="2008-02-22T08:20:59.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="9071ae8668730fd98e722386188ad765"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:20:59.000000Z"/>
+<entry
+   committed-rev="3"
+   name="bcmutils.h"
+   text-time="2008-02-22T08:20:59.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="5aeef4a6c53101c24a16f13d7d309287"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:20:59.000000Z"/>
+<entry
+   committed-rev="3"
+   name="bcmdevs.h"
+   text-time="2008-02-22T08:20:59.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="8307350c60b304f02cc64bbb88564fb2"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:20:59.000000Z"/>
+<entry
+   committed-rev="3"
+   name="typedefs.h"
+   text-time="2008-02-22T08:20:59.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="4aea1685f186d4bfe86cfddda28ea4a3"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:20:59.000000Z"/>
+<entry
+   committed-rev="3"
+   name="d11.h"
+   text-time="2008-02-22T08:20:59.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="74da785d65cd4ce60a4b85af5398153f"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:20:59.000000Z"/>
+<entry
+   committed-rev="3"
+   name="sbutils.h"
+   text-time="2008-02-22T08:20:59.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="85144054ba4f754bd68151bc86aa0b29"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:20:59.000000Z"/>
+<entry
+   committed-rev="3"
+   name="bcmconfig.h"
+   text-time="2008-02-22T08:20:59.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="408d24b315a9a1c4b69a0f0de5c56147"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:20:59.000000Z"/>
+</wc-entries>

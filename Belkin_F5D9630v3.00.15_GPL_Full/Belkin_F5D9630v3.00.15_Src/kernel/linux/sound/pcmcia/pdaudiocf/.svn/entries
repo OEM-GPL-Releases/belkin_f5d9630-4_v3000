@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/kernel/linux/sound/pcmcia/pdaudiocf"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   committed-rev="3"
+   name="pdaudiocf.c"
+   text-time="2008-02-22T08:21:36.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="81630f8f0d11130e58a6628ea922025e"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:36.000000Z"/>
+<entry
+   committed-rev="3"
+   name="pdaudiocf.h"
+   text-time="2008-02-22T08:21:36.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="eb0a40878c8c16c82f839069eb0ca5e6"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:36.000000Z"/>
+<entry
+   committed-rev="3"
+   name="pdaudiocf_core.c"
+   text-time="2008-02-22T08:21:36.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="7e964f4104c6ffe0fb82333b497666ad"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:36.000000Z"/>
+<entry
+   committed-rev="3"
+   name="pdaudiocf_irq.c"
+   text-time="2008-02-22T08:21:36.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="7fbf1b8edefe2d1f65f3c6cca3ed9a3b"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:36.000000Z"/>
+<entry
+   name="CVS"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="Makefile"
+   text-time="2008-02-22T08:21:36.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="1a20f4d2f0482da54b811cc448dea382"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:36.000000Z"/>
+<entry
+   committed-rev="3"
+   name="pdaudiocf_pcm.c"
+   text-time="2008-02-22T08:21:36.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="915a67f8d2741e579b8f4c4e3955e91a"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:36.000000Z"/>
+</wc-entries>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/kernel/linux/Documentation/powerpc"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   committed-rev="3"
+   name="hvcs.txt"
+   text-time="2008-02-22T08:22:00.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="b676dde12f4705a783f239a9cb3bfe6c"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:00.000000Z"/>
+<entry
+   committed-rev="3"
+   name="00-INDEX"
+   text-time="2008-02-22T08:22:00.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="7fc8d464adc05ba0690b39a946ab4b2c"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:00.000000Z"/>
+<entry
+   committed-rev="3"
+   name="mpc52xx.txt"
+   text-time="2008-02-22T08:22:00.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="9cbf7a57e0ecefd2d783a94d82b51c51"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:00.000000Z"/>
+<entry
+   committed-rev="3"
+   name="sound.txt"
+   text-time="2008-02-22T08:22:00.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="a428bdd0823771ac25750363c437a589"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:00.000000Z"/>
+<entry
+   committed-rev="3"
+   name="zImage_layout.txt"
+   text-time="2008-02-22T08:22:00.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="28a491381e6e5ed65a10e646d86dd3a7"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:00.000000Z"/>
+<entry
+   committed-rev="3"
+   name="SBC8260_memory_mapping.txt"
+   text-time="2008-02-22T08:22:00.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="014ad5110f610d6069bc2da038b9f057"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:00.000000Z"/>
+<entry
+   name="CVS"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="smp.txt"
+   text-time="2008-02-22T08:22:00.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="227c00162ff02abc3a982a8775db8267"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:00.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ppc_htab.txt"
+   text-time="2008-02-22T08:22:00.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="2828672ac12068bc6526cfc037907e30"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:00.000000Z"/>
+</wc-entries>

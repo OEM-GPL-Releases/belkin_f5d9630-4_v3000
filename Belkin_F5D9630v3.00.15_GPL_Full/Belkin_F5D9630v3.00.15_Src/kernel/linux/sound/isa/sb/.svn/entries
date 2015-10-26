@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/kernel/linux/sound/isa/sb"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   committed-rev="3"
+   name="sb8_midi.c"
+   text-time="2008-02-22T08:21:41.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="bbc32dd0cc5550ff279e07334ab0565a"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:41.000000Z"/>
+<entry
+   committed-rev="3"
+   name="emu8000.c"
+   text-time="2008-02-22T08:21:41.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="524931662e5d4984a094f9564cd1774a"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:41.000000Z"/>
+<entry
+   committed-rev="3"
+   name="sb8_main.c"
+   text-time="2008-02-22T08:21:41.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="130a1d39124f4e809f61e8fabc1ce4be"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:41.000000Z"/>
+<entry
+   committed-rev="3"
+   name="sbawe.c"
+   text-time="2008-02-22T08:21:41.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="e6f63cd51d5ca741440d8a3ff95de3a2"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:41.000000Z"/>
+<entry
+   committed-rev="3"
+   name="sb16_csp_codecs.h"
+   text-time="2008-02-22T08:21:41.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="a816870b8320718a8f6c2ac6b3baedd7"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:41.000000Z"/>
+<entry
+   committed-rev="3"
+   name="sb_mixer.c"
+   text-time="2008-02-22T08:21:41.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="c6246e6e0c7e7f2c94821b730a19224b"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:41.000000Z"/>
+<entry
+   committed-rev="3"
+   name="emu8000_callback.c"
+   text-time="2008-02-22T08:21:41.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="95e7cefca2a32e4ae6ddf8980aeb2f44"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:41.000000Z"/>
+<entry
+   name="CVS"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="sb16.c"
+   text-time="2008-02-22T08:21:41.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="1d4aec83a2c84cc68a772e00861a2dfd"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:41.000000Z"/>
+<entry
+   committed-rev="3"
+   name="sb_common.c"
+   text-time="2008-02-22T08:21:41.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="8575b712eacf1b61d50bfa46b238ba9a"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:41.000000Z"/>
+<entry
+   committed-rev="3"
+   name="emu8000_local.h"
+   text-time="2008-02-22T08:21:41.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="52420af3965a9f6e6dd96566fe9aab19"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:41.000000Z"/>
+<entry
+   committed-rev="3"
+   name="emu8000_patch.c"
+   text-time="2008-02-22T08:21:41.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="2432c2928cac0991c7d91d9b8306346e"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:41.000000Z"/>
+<entry
+   committed-rev="3"
+   name="es968.c"
+   text-time="2008-02-22T08:21:41.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="3acac9dd938f8c1875c13d90bff70866"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:41.000000Z"/>
+<entry
+   committed-rev="3"
+   name="sb16_main.c"
+   text-time="2008-02-22T08:21:41.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="0414354acc0f62a6f044c5fad3e39cf8"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:41.000000Z"/>
+<entry
+   committed-rev="3"
+   name="sb16_csp.c"
+   text-time="2008-02-22T08:21:41.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="3c9054a10bb95bc484b5e9def0fa3f1f"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:41.000000Z"/>
+<entry
+   committed-rev="3"
+   name="emu8000_synth.c"
+   text-time="2008-02-22T08:21:41.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="62400188b3d6fdecc02d37a27fe50c1a"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:41.000000Z"/>
+<entry
+   committed-rev="3"
+   name="sb8.c"
+   text-time="2008-02-22T08:21:41.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="d9f692e951618c603f0024beb0498d88"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:41.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Makefile"
+   text-time="2008-02-22T08:21:41.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="bab2cb1d4d37d42e83f7ac823a2df275"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:41.000000Z"/>
+<entry
+   committed-rev="3"
+   name=".cvsignore"
+   text-time="2008-02-22T08:21:41.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="d8b65572e25962faaf07c20bb34d224e"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:41.000000Z"/>
+<entry
+   committed-rev="3"
+   name="emu8000_pcm.c"
+   text-time="2008-02-22T08:21:41.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="460beb21821634d4e1c3671f93b2e7fd"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:41.000000Z"/>
+</wc-entries>

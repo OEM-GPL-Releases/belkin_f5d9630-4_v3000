@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/kernel/linux/drivers/isdn/capi"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   committed-rev="3"
+   name="Kconfig"
+   text-time="2008-02-22T08:23:38.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="553c6561ccd44f7c282703c9d53c5e8f"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:37.000000Z"/>
+<entry
+   committed-rev="3"
+   name="capilib.c"
+   text-time="2008-02-22T08:23:38.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="a2ab938db61b0afa47ef2235fab9e600"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:37.000000Z"/>
+<entry
+   committed-rev="3"
+   name="capifs.c"
+   text-time="2008-02-22T08:23:38.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="aee1dfe2cf7c92570afc68e651d966e4"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:37.000000Z"/>
+<entry
+   committed-rev="3"
+   name="kcapi.c"
+   text-time="2008-02-22T08:23:38.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="d7e51c684ef18e7dbd035a7d1c602ff6"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:37.000000Z"/>
+<entry
+   committed-rev="3"
+   name="capidrv.c"
+   text-time="2008-02-22T08:23:38.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="9902241c9bd486d2f64c0ac314803468"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:37.000000Z"/>
+<entry
+   name="CVS"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="capifs.h"
+   text-time="2008-02-22T08:23:38.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="8f0a611033c40ec3ccd713855f77f613"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:37.000000Z"/>
+<entry
+   committed-rev="3"
+   name="capiutil.c"
+   text-time="2008-02-22T08:23:38.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="d11cce50a4030f80ff081bcc79d9a654"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:37.000000Z"/>
+<entry
+   committed-rev="3"
+   name="kcapi_proc.c"
+   text-time="2008-02-22T08:23:38.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="5f7ae25c5257e461452ac4f59003eced"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:38.000000Z"/>
+<entry
+   committed-rev="3"
+   name=".cvsignore"
+   text-time="2008-02-22T08:23:38.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="d8b65572e25962faaf07c20bb34d224e"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:38.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Makefile"
+   text-time="2008-02-22T08:23:38.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="fe64431df65e9db97f5110eede5885a4"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:38.000000Z"/>
+<entry
+   committed-rev="3"
+   name="capi.c"
+   text-time="2008-02-22T08:23:38.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="bd73079377e318ae8cd93c9f479eb1c4"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:38.000000Z"/>
+<entry
+   committed-rev="3"
+   name="kcapi.h"
+   text-time="2008-02-22T08:23:38.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="f19c9ce1e689963a77525ff922b37f3c"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:38.000000Z"/>
+<entry
+   committed-rev="3"
+   name="capidrv.h"
+   text-time="2008-02-22T08:23:38.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="d997a1399dcc872f3d7e6a7ca9bf6f90"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:38.000000Z"/>
+</wc-entries>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/kernel/linux/drivers/media/common"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   committed-rev="3"
+   name="saa7146_core.c"
+   text-time="2008-02-22T08:23:24.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="1670f08b034c8bb461a84bfea9f4af26"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:23.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Kconfig"
+   text-time="2008-02-22T08:23:24.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="778643a7b5dab7a610bfbe538344fb18"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:23.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ir-common.c"
+   text-time="2008-02-22T08:23:24.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="37532580c0c079e6fc6c284ccbe32856"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:23.000000Z"/>
+<entry
+   committed-rev="3"
+   name="saa7146_i2c.c"
+   text-time="2008-02-22T08:23:24.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="94db7c6345d10b8d40870af43a2a837a"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:23.000000Z"/>
+<entry
+   committed-rev="3"
+   name="saa7146_vbi.c"
+   text-time="2008-02-22T08:23:24.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="31d8cec55ed2280d944a6dc37254ceac"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:23.000000Z"/>
+<entry
+   committed-rev="3"
+   name="saa7146_vv_ksyms.c"
+   text-time="2008-02-22T08:23:24.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="6e88d064995629806a0072210e0a04d4"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:23.000000Z"/>
+<entry
+   committed-rev="3"
+   name="saa7146_hlp.c"
+   text-time="2008-02-22T08:23:24.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="bb3d7d867b2d13f7248e3bed448df159"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:23.000000Z"/>
+<entry
+   name="CVS"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name=".cvsignore"
+   text-time="2008-02-22T08:23:24.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="d8b65572e25962faaf07c20bb34d224e"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:24.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Makefile"
+   text-time="2008-02-22T08:23:24.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="283c342004498d1128385ebea15a788a"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:24.000000Z"/>
+<entry
+   committed-rev="3"
+   name="saa7146_video.c"
+   text-time="2008-02-22T08:23:24.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="a7966f00d4b0a284b5751e417a5bb59b"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:24.000000Z"/>
+<entry
+   committed-rev="3"
+   name="saa7146_fops.c"
+   text-time="2008-02-22T08:23:24.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="a6a75d2fb87aea26bb61f6ccd540bb79"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:24.000000Z"/>
+</wc-entries>

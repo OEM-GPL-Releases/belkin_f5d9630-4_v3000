@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/kernel/linux/arch/h8300/platform/h8300h"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   committed-rev="3"
+   name="entry.S"
+   text-time="2008-02-22T08:22:48.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="fdb24bc7153e3b4fa49c50fd0b5485ab"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:48.000000Z"/>
+<entry
+   name="h8max"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="ints_h8300h.c"
+   text-time="2008-02-22T08:22:48.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="188ffd2968eaaad59df02288535c654c"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:48.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ptrace_h8300h.c"
+   text-time="2008-02-22T08:22:48.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="f878bc9692c4f55a48440d91201a4db2"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:48.000000Z"/>
+<entry
+   name="CVS"
+   kind="dir"/>
+<entry
+   name="aki3068net"
+   kind="dir"/>
+<entry
+   name="generic"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="Makefile"
+   text-time="2008-02-22T08:22:48.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="cfd0c3eb75b7d25c66c92ed45fe56cae"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:48.000000Z"/>
+</wc-entries>

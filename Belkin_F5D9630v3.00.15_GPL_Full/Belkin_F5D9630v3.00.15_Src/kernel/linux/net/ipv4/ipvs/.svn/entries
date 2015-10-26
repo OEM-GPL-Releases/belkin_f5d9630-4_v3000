@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/kernel/linux/net/ipv4/ipvs"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   committed-rev="3"
+   name="ip_vs_lblcr.c"
+   text-time="2008-02-22T08:21:31.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="b07d88ff093c67b1810a3b6366bd5ec6"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:31.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ip_vs_lc.c"
+   text-time="2008-02-22T08:21:31.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="f63d0ec0eb61d5c7b59441fae3ec75b9"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:31.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Kconfig"
+   text-time="2008-02-22T08:21:31.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="439cfef8a2c73fe7c4c15d1cff3087a7"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:31.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ip_vs_proto.c"
+   text-time="2008-02-22T08:21:31.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="34fec5e14f749d83119303ca9a11207a"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:31.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ip_vs_proto_tcp.c"
+   text-time="2008-02-22T08:21:31.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="de463fc0a46a062a9951aa456bbe8cbb"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:31.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ip_vs_wrr.c"
+   text-time="2008-02-22T08:21:31.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="c8608c062f78dbca6662aef742fe98fe"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:31.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ip_vs_sh.c"
+   text-time="2008-02-22T08:21:31.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="a8d7eaad0b3eadfbd754b9dda510229d"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:31.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ip_vs_proto_esp.c"
+   text-time="2008-02-22T08:21:31.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="b4552e23a0c5195a7cc2c062f480cd69"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:31.000000Z"/>
+<entry
+   name="CVS"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="ip_vs_sed.c"
+   text-time="2008-02-22T08:21:31.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="2b4a6afb5b1670331f38f3cca0d68288"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:31.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ip_vs_proto_udp.c"
+   text-time="2008-02-22T08:21:31.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="8d941ed09871ed47cf80c2833e290bad"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:31.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ip_vs_proto_icmp.c"
+   text-time="2008-02-22T08:21:31.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="f7682859f381b17a35a1079cba76f05b"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:31.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ip_vs_proto_ah.c"
+   text-time="2008-02-22T08:21:31.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="9b90a10dfe7bf248b280457384709aac"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:31.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ip_vs_sync.c"
+   text-time="2008-02-22T08:21:31.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="e4170db266f19a41f1b57b08fbd1c26e"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:31.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ip_vs_lblc.c"
+   text-time="2008-02-22T08:21:31.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="e3564f9e789e08c0fd9efe6d4ef7c463"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:31.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ip_vs_nq.c"
+   text-time="2008-02-22T08:21:31.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="65ccdb24b73ea4ff5f99f5170484a2aa"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:31.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ip_vs_app.c"
+   text-time="2008-02-22T08:21:31.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="c9144a6b2d5ba6ec9b7962c7e216ac0d"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:31.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ip_vs_xmit.c"
+   text-time="2008-02-22T08:21:31.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="2fa0b86fc004c4811e6101a098896ac9"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:31.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ip_vs_ctl.c"
+   text-time="2008-02-22T08:21:31.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="df436ae6cf504cc9ad61f51ee795b153"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:31.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ip_vs_rr.c"
+   text-time="2008-02-22T08:21:31.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="c11ae5a4c7b072a565e8d13f585c95bb"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:31.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ip_vs_wlc.c"
+   text-time="2008-02-22T08:21:31.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="008f805c3d973ea00cb0a25b838a180e"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:31.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ip_vs_sched.c"
+   text-time="2008-02-22T08:21:31.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="a867caadfeb462e939e2f62ae7e09c73"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:31.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ip_vs_core.c"
+   text-time="2008-02-22T08:21:31.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="ad90753a1a1daa90ec79ffb60d8627f7"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:31.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ip_vs_ftp.c"
+   text-time="2008-02-22T08:21:31.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="168594c4ec2b4c3ffcb0596e51a4a138"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:31.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ip_vs_est.c"
+   text-time="2008-02-22T08:21:31.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="8f9b78abf4fccde59ae8ad888af55458"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:31.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ip_vs_dh.c"
+   text-time="2008-02-22T08:21:31.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="c922242d5e2fab22ed55682efce77acf"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:31.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Makefile"
+   text-time="2008-02-22T08:21:31.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="fc05f2eb3b14f19bf4b3361aaaa4f372"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:31.000000Z"/>
+<entry
+   committed-rev="3"
+   name=".cvsignore"
+   text-time="2008-02-22T08:21:31.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="735ab631b67b75d07a52edc9e01aed4c"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:31.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ip_vs_conn.c"
+   text-time="2008-02-22T08:21:31.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="de34947c9ecc6cd1ae40e95750001509"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:31.000000Z"/>
+</wc-entries>

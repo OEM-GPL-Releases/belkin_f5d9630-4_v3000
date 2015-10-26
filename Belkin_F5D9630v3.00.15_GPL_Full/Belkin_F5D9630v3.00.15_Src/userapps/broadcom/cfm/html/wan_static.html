@@ -1,0 +1,373 @@
+<html>
+   <head>
+   	<meta http-equiv="refresh" content="<%ejGet(timeout_refresh)%>">
+      <meta HTTP-EQUIV='Pragma' CONTENT='no-cache'>
+         <link rel="stylesheet" href="main_router.css" type='text/css'>
+		<%ejGet("curLanguage")%>
+		<SCRIPT>assign_var();</SCRIPT>
+
+		 
+		 <title>WAN > Connection Type > Static IP (IPoA)</title>
+		 			<SCRIPT language=JavaScript src="showMenu.js"></SCRIPT>
+
+            <script language="javascript" src="util.js"></script>
+            <script language="javascript">
+<!-- hide
+
+strHtml='<title>'+wc_1+' &gt; '+wc_2+' &gt; '+wcs_1+'</title>';
+dw(strHtml);
+
+var prtcl = '<%ejGetOther(memInfo, ntwkPrtcl)%>';
+var eMode = '<%ejGet(encapMode)%>';
+var vpi = '<%ejGet(atmVpi)%>';
+var vci = '<%ejGet(atmVci)%>';
+var addr = '<%ejGet(wanIpAddress)%>';
+if ( addr == '&nbsp' || addr == '') addr = '0.0.0.0';
+
+var mask = '<%ejGet(wanSubnetMask)%>';
+if ( mask == '&nbsp' || mask == '') mask = '0.0.0.0';
+
+var enblAuto = '<%ejGet(enblAuto)%>';
+var gtwyIfc = '<%ejGetOther(sysInfo, dfltGwIfc)%>';
+if ( gtwyIfc == '&nbsp' ) gtwyIfc = '';
+//if ( gtwyIfc == '&nbsp' || gtwyIfc == '' ) gtwyIfc = '0.0.0.0';
+//var gtwy = '<%ejGetOther(sysInfo, dfltGw)%>';
+var gtwy = '<%ejGet(defaultGateway)%>';
+if ( gtwy == '&nbsp' || gtwy == '') gtwy = '0.0.0.0';
+var dnsAuto = '<%ejGetOther(sysInfo,dnsAuto)%>';
+var dnsDynamic ='<%ejGet(dnsDynamic)%>';
+var dns1Mem = '<%ejGet(dnsPrimary)%>';
+var dns1 = '<%ejGetOther(sysInfo, dns)%>';
+if ( dns1 == '&nbsp' )
+   dns1 = '';
+var dns2Mem = '<%ejGet(dnsSecondary)%>';
+var dns2 = '<%ejGetOther(sysInfo, dns2)%>';
+if ( dns2 == '&nbsp' )
+   dns2 = '';
+var qs = '<%ejGet(quickSetup)%>';
+var srvId = parseInt('<%ejGet(serviceId)%>');
+var isWizard = '<%ejGet(wizardType)%>';
+
+var enblNat = '<%ejGet(enblNat)%>';
+
+
+function disableGwInfo() {
+   with ( document.forms[0] ) {
+      gwAddr.disabled = 1;
+      gwAddr.checked = false;
+      
+	  defaultGateway0.disabled = 1;
+	  defaultGateway1.disabled = 1;
+	  defaultGateway2.disabled = 1;
+	  defaultGateway3.disabled = 1;
+	  
+	  defaultGateway0.value = '';
+	  defaultGateway1.value = '';
+	  defaultGateway2.value = '';
+	  defaultGateway3.value = '';
+   }
+}
+
+function GwInfo(show) {
+  with ( document.forms[0] ) {
+    if (show) {
+	  gwAddr.disabled = 0;
+	  defaultGateway0.disabled = 0;
+	  defaultGateway1.disabled = 0;
+	  defaultGateway2.disabled = 0;
+	  defaultGateway3.disabled = 0;
+	  //defaultGateway.disabled = 0;
+	}
+	else {
+	  gwAddr.disabled = 1;
+	  defaultGateway0.disabled = 1;
+	  defaultGateway1.disabled = 1;
+	  defaultGateway2.disabled = 1;
+	  defaultGateway3.disabled = 1;
+	  
+	  //defaultGateway.disabled = 1;	
+	}
+  }
+}
+
+function frmLoad() {
+   with ( document.forms[0] ) {
+
+      encSel.options[0].text = wcp_12;
+      encSel.options[1].text = wcp_13;
+      encSel.selectedIndex = eMode;
+	  
+	  atmVpi.value = vpi;
+	  atmVci.value = vci;
+      //modifyWanIf();
+	  
+	var dot=".";	  
+	if(addr == '')
+	{
+	   wanIpAddress0.value = '';
+	   wanIpAddress1.value = '';
+	   wanIpAddress2.value = '';
+	   wanIpAddress3.value = '';
+	
+	}
+	else
+	{
+   		arrayOfStrings = addr.split(dot)
+   
+	   wanIpAddress0.value = arrayOfStrings[0];
+	   wanIpAddress1.value = arrayOfStrings[1];
+	   wanIpAddress2.value = arrayOfStrings[2];
+	   wanIpAddress3.value = arrayOfStrings[3];
+	}	  
+
+
+	if(mask == '')
+	{
+	   wanSubnetMask0.value = '';
+	   wanSubnetMask1.value = '';
+	   wanSubnetMask2.value = '';
+	   wanSubnetMask3.value = '';
+	
+	}
+	else
+	{
+   		MaskString = mask.split(dot)
+   
+	   wanSubnetMask0.value = MaskString[0];
+	   wanSubnetMask1.value = MaskString[1];
+	   wanSubnetMask2.value = MaskString[2];
+	   wanSubnetMask3.value = MaskString[3];
+	}	  
+	  
+	var default_gtwy = gtwy.split(dot);	  
+	defaultGateway0.value = default_gtwy[0]; 
+	defaultGateway1.value = default_gtwy[1]; 
+	defaultGateway2.value = default_gtwy[2]; 
+	defaultGateway3.value = default_gtwy[3]; 		 
+   }
+}
+
+function btnNext() {
+   var loc,IP,Mask,DefaultGW;
+   if (enblNat== '1')
+     loc = 'ntwksum2.cgi?';
+   else
+     loc = 'ntwksum2.cgi?enblNat=1&ntwkPrtcl=5&';
+
+   with ( document.forms[0] ) 
+   {  
+   	  IP = wanIpAddress0.value +'.'+ wanIpAddress1.value +'.'+ wanIpAddress2.value +'.'+ wanIpAddress3.value;
+	  Mask = wanSubnetMask0.value +'.'+ wanSubnetMask1.value +'.'+ wanSubnetMask2.value +'.'+ wanSubnetMask3.value;
+   	  DefaultGW = defaultGateway0.value +'.'+ defaultGateway1.value +'.'+ defaultGateway2.value +'.'+ defaultGateway3.value;
+
+     if ( isNaN(atmVpi.value) == true || isValidNum(atmVpi.value) == false) 
+	 {
+         alert('VPI "' + atmVpi.value + '" is invalid.');
+         return;
+      }
+      if ( isNaN(atmVci.value) == true || isValidNum(atmVci.value) == false) 
+	  {
+         alert('VCI "' + atmVci.value + '" is invalid.');
+         return;
+      }
+      vpi = parseInt(atmVpi.value);
+      if ( vpi < 0 || vpi > 255 ) 
+	  {
+         alert('VPI "' + atmVpi.value + '" is out of range [0-255].');
+         return;
+      }
+      vci = parseInt(atmVci.value);
+      if ( vci < 32 || vci > 65535 ) 
+	  {
+         alert('VCI "' + atmVci.value + '" is out of range [32-65535].');
+         return;
+      }
+   
+      // ipoa always uses static wan ip address
+      loc += 'enblDhcpClnt=0';
+      // wan IP address
+      if ( isValidIpAddress(IP) == false ) 
+	  {
+         alert(wcd_2);
+         return;
+      }
+      loc += '&wanIpAddress=' + IP;
+      // wan subnet mask
+      if ( isValidSubnetMask(Mask) == false &&  Mask != '255.255.255.255') 
+	  {
+         alert(wcd_3);
+         return;
+      }
+      loc += '&wanSubnetMask=' + Mask;
+      // default gateway
+      if ( isValidIpAddress(DefaultGW) == false ) 
+		 {
+               alert(wcd_4);
+               return;
+            }
+			
+			if(isSameSubNet(IP,Mask,DefaultGW,Mask) == false)	
+			{
+				alert(wcd_4);
+				return;			
+			}
+            loc += '&defaultGateway=' + DefaultGW;
+          
+      loc += '&wanIfName=';
+			
+         // use static default gateway
+         loc += '&enblAuto=0';
+	  
+	  if ((atmVpi.value < 0) || (atmVpi.value > 255)) 
+	  {
+	    alert('VPI\'s range is from 0 to 255');
+               return;
+            }
+	  
+	  if ((atmVci.value < 32) || (atmVci.value > 65535)) 
+		{
+	    alert('VCI\'s range is from 32 to 65535');
+		return;
+   }
+      loc += '&atmVpi=' + atmVpi.value;
+      loc += '&atmVci=' + atmVci.value;
+	  loc += '&atmServiceCategory=UBR';  
+      loc += '&encapMode=' + encSel.options[encSel.selectedIndex].value;
+	  loc += '&usrPassword=pass';	  
+ }
+  alert(wcs_3);
+   window.location = loc;
+}
+
+
+function modifyWanIf()
+{
+  with ( document.forms[0] ) {  
+    wanIf.value = 'ipa_' + atmVpi.value + '_' + atmVci.value;  
+  }
+}
+
+function write_encSel()
+{
+	with(document.write)
+	{
+		document.write("<option value=\"0\">"+wcp_12+"</option>");
+		document.write("<option value=\"1\">"+wcp_13+"</option>");
+	}
+}
+// done hiding -->
+</script>
+   </head>
+   <body onLoad='frmLoad()' bgColor="#ffffff" leftMargin="0" topMargin="0" marginheight="0" marginwidth="0">
+   
+         <form>
+    <SCRIPT language=JavaScript>
+	var helpItem 	='Connection Type';
+	var menuSection	='WAN';
+	var menuItem	='Connection Type';
+	var isAPmode = '<%ejGet(enblNat)%>';
+		
+	var wanStatus = '<%ejGetOther(isUp)%>';
+	showHead(wanStatus,helpItem);
+	showMenu(menuSection,menuItem,isAPmode)
+	</SCRIPT>  
+<TD class=head_bold width="90%" valign="top"><Br>
+
+            <font class="head_bold"><b>
+			<script language="javascript">
+			  document.write("&nbsp;&nbsp;"+wc_1+" &gt; "+wc_2+" &gt; "+wcs_1);
+			</script>
+			
+			</b></font><br>
+            <br>
+			
+			
+      		<TABLE class=copy_1 cellSpacing=0 cellPadding=0 width=620  border=0>
+        		<TR>
+          			<TD vAlign=top><SPAN>&nbsp;&nbsp;
+					<script>dw(wcs_4);</script>
+					<a href="javascript:void(0);" onClick="window.open('glossary.html#static_ip','help','toolbar=0,status=0,menubar=0,scrollbars=1,resizable=1,width=640,height=400,left=150,top=150');">
+            <font color="#0066FF"><b><script>dw(wd_8);</script></b></font></a>
+					<br><Br></SPAN>
+					</TD>
+				</TR>
+				<tr>
+					<td>
+            <table width="602" border="0" cellpadding="0" cellspacing="0">
+               <tr>
+                  <td width="207" class="copy_1">&nbsp;&nbsp;&nbsp;<b><script>dw(wcs_7);</script> &gt;</b></td>
+                  <td><input type='text' name='wanIpAddress0' size="4" maxlength="3">.
+				  	  <input type='text' name='wanIpAddress1' size="4" maxlength="3">.
+					  <input type='text' name='wanIpAddress2' size="4" maxlength="3">.
+					  <input type='text' name='wanIpAddress3' size="4" maxlength="3">
+			   
+				  </td>
+               </tr>
+
+               <tr>
+                  <td class="copy_1"><br>&nbsp;&nbsp;&nbsp;<b><script>dw(ls_6);</script> &gt;</b></td>
+                  <td><br><input type='text' name='wanSubnetMask0' size="4" maxlength="3">.
+				  		  <input type='text' name='wanSubnetMask1' size="4" maxlength="3">.
+						  <input type='text' name='wanSubnetMask2' size="4" maxlength="3">.
+						  <input type='text' name='wanSubnetMask3' size="4" maxlength="3">
+				  
+				  </td>
+               </tr>
+			   			   
+               <tr>
+               
+                  <td class="copy_1"><br>&nbsp;&nbsp;<input type="hidden" name='gwAddr' value="ON">&nbsp;<b><script>dw(wcs_5);</script>&gt;</b></td>
+                                    <td><br><input type='text' name='defaultGateway0' size="4" maxlength="3">.
+				  		  <input type='text' name='defaultGateway1' size="4" maxlength="3">.
+						  <input type='text' name='defaultGateway2' size="4" maxlength="3">.
+						  <input type='text' name='defaultGateway3' size="4" maxlength="3">				  
+
+               </tr>
+               <tr>
+                  <td width="207" class="copy_1"><Br>
+                 &nbsp;&nbsp;&nbsp;<b><script>dw(wcp_10);</script> &gt;</b></td>
+                  <td width="299"><br>
+                    <input type='text' name='atmVpi' size='5' value="0"  maxlength="3"> /
+                  				  <input type='text' name='atmVci' size='5' value="38"  maxlength="5">
+                 </td>
+               </tr>
+			   
+               <tr>
+                  <td width="207" class="copy_1"><br>
+                 &nbsp;&nbsp;&nbsp;<b><script>dw(wcp_11);</script> &gt;</b></td>
+                  <td width="299" class="copy_1"><br>
+                    <select name='encSel' id='encSel'><script language="javascript">write_encSel()</script></select>
+                 </td>
+               </tr>
+			   
+               <tr>
+                  <td colspan="2" class="copy_1"><br>&nbsp;&nbsp;&nbsp;<a href='wan_dns.html'><font color="#0066FF"><b><script>dw(wcd_5);</script></b></font></a>
+				   
+                 </td>
+               </tr>
+
+			   
+            </table>
+			
+			<br><Br><br>
+			<table border="0" cellpadding="0" cellspacing="0" width="500">
+				<tr><td align="center">
+				<script>
+					var info ="<input type='button' class='submitBtn' style='height:22px;width:180px;' onClick='frmLoad()' value='"+wd_9+"'><input type='button' class='submitBtn' style='height:22px;width:180px;' onClick='btnNext()' value='"+wd_10+"'>";
+					dw(info);						
+				</script>
+        	       
+				</td></tr>
+			</table>
+
+			</td>
+		</tr>
+	</TABLE>			
+			
+						
+
+ 
+ </TD></TR></TBODY></TABLE></TD>
+         </form>
+   </body>
+</html>

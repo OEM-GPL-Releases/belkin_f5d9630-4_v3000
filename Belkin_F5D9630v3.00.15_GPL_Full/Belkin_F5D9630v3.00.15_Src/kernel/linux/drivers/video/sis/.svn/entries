@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/kernel/linux/drivers/video/sis"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   committed-rev="3"
+   name="300vtbl.h"
+   text-time="2008-02-22T08:23:44.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="e2fa783a4d6dd4cb3b57c3d9992d3750"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:44.000000Z"/>
+<entry
+   committed-rev="3"
+   name="310vtbl.h"
+   text-time="2008-02-22T08:23:44.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="0c690246ca0f6ea5d9e1c429f7c98c11"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:44.000000Z"/>
+<entry
+   committed-rev="3"
+   name="sis_main.c"
+   text-time="2008-02-22T08:23:44.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="86224962a072bdb94905747f878171fb"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:44.000000Z"/>
+<entry
+   committed-rev="3"
+   name="init.c"
+   text-time="2008-02-22T08:23:44.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="ebbd42a61cdbc03acfb644e42c8e2012"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:44.000000Z"/>
+<entry
+   committed-rev="3"
+   name="sis.h"
+   text-time="2008-02-22T08:23:44.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="67f2ad3d7c2b5e27cce4b91f87e89059"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:44.000000Z"/>
+<entry
+   committed-rev="3"
+   name="osdef.h"
+   text-time="2008-02-22T08:23:44.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="57737c66efbaefa897868aa46836c904"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:44.000000Z"/>
+<entry
+   committed-rev="3"
+   name="vgatypes.h"
+   text-time="2008-02-22T08:23:44.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="beaa7becb36b22109eacee90149f20c0"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:44.000000Z"/>
+<entry
+   committed-rev="3"
+   name="sis_main.h"
+   text-time="2008-02-22T08:23:44.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="ae0ee1191960789c8018bc05975aa5c6"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:44.000000Z"/>
+<entry
+   committed-rev="3"
+   name="init.h"
+   text-time="2008-02-22T08:23:44.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="0ff99518659f2ad5422163554449a8e7"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:44.000000Z"/>
+<entry
+   committed-rev="3"
+   name="oem300.h"
+   text-time="2008-02-22T08:23:44.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="7a95d471a29593320c78e705648e0092"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:44.000000Z"/>
+<entry
+   committed-rev="3"
+   name="oem310.h"
+   text-time="2008-02-22T08:23:44.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="f5625a49324abb156802b6ef6276b939"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:44.000000Z"/>
+<entry
+   name="CVS"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="vstruct.h"
+   text-time="2008-02-22T08:23:44.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="6927c5a8a9f12f34aed0322861fc95ce"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:44.000000Z"/>
+<entry
+   committed-rev="3"
+   name="sis_accel.c"
+   text-time="2008-02-22T08:23:44.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="c7233e184a1ab98facf97620b06305df"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:44.000000Z"/>
+<entry
+   committed-rev="3"
+   name="initdef.h"
+   text-time="2008-02-22T08:23:44.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="bd0890a31f5706fef92bf65377401a85"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:44.000000Z"/>
+<entry
+   committed-rev="3"
+   name="init301.c"
+   text-time="2008-02-22T08:23:44.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="f55ba61afd709189935cdbacb565c302"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:44.000000Z"/>
+<entry
+   committed-rev="3"
+   name="sis_accel.h"
+   text-time="2008-02-22T08:23:44.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="e10e3846d56fde6ba3460fd38262ad25"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:44.000000Z"/>
+<entry
+   committed-rev="3"
+   name="init301.h"
+   text-time="2008-02-22T08:23:44.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="79d00c351507f429c2b554bbf02df607"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:44.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Makefile"
+   text-time="2008-02-22T08:23:44.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="ed051ff8112e9515b428974bbe076253"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:44.000000Z"/>
+<entry
+   committed-rev="3"
+   name=".cvsignore"
+   text-time="2008-02-22T08:23:44.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="d8b65572e25962faaf07c20bb34d224e"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:44.000000Z"/>
+</wc-entries>

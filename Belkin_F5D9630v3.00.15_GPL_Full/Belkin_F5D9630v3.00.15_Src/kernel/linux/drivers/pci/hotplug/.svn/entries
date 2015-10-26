@@ -1,0 +1,565 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/kernel/linux/drivers/pci/hotplug"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   committed-rev="3"
+   name="Kconfig"
+   text-time="2008-02-22T08:23:49.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="86c00deff303fdf88c311bc0f183e691"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:48.000000Z"/>
+<entry
+   committed-rev="3"
+   name="pciehp_sysfs.c"
+   text-time="2008-02-22T08:23:49.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="2e19735627dc87272032486864822c8f"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:48.000000Z"/>
+<entry
+   committed-rev="3"
+   name="rpaphp.h"
+   text-time="2008-02-22T08:23:49.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="683f1fc67df0e00f577b6afc23638a77"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:48.000000Z"/>
+<entry
+   committed-rev="3"
+   name="shpchprm_nonacpi.h"
+   text-time="2008-02-22T08:23:49.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="46e4e01e69061603aa204d78d4fe83ec"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:48.000000Z"/>
+<entry
+   committed-rev="3"
+   name="cpcihp_generic.c"
+   text-time="2008-02-22T08:23:49.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="607c152d5f1fceade71aa2e588161c71"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:48.000000Z"/>
+<entry
+   committed-rev="3"
+   name="cpcihp_zt5550.c"
+   text-time="2008-02-22T08:23:49.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="cca7ebb33987793fc548b0f04fa59948"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:48.000000Z"/>
+<entry
+   committed-rev="3"
+   name="rpaphp_core.c"
+   text-time="2008-02-22T08:23:49.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="3b5718612c1f387f84b35431b331a809"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:48.000000Z"/>
+<entry
+   committed-rev="3"
+   name="cpqphp_core.c"
+   text-time="2008-02-22T08:23:49.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="f4028038c94ba88b8a99dfaccefdee65"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:48.000000Z"/>
+<entry
+   committed-rev="3"
+   name="pciehp_pci.c"
+   text-time="2008-02-22T08:23:49.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="ea2505e40a3921ae799848fb09b569b9"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:48.000000Z"/>
+<entry
+   committed-rev="3"
+   name="cpcihp_zt5550.h"
+   text-time="2008-02-22T08:23:49.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="4ffdb8666f11b3c7aa343e5caefdc67b"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:48.000000Z"/>
+<entry
+   committed-rev="3"
+   name="pcihp_skeleton.c"
+   text-time="2008-02-22T08:23:49.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="aac0eb84432d20174172fd25e0857c77"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:48.000000Z"/>
+<entry
+   committed-rev="3"
+   name="shpchprm_legacy.c"
+   text-time="2008-02-22T08:23:49.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="a3267441758e234fc88872c700662fc7"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:48.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ibmphp_hpc.c"
+   text-time="2008-02-22T08:23:49.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="f7dc9272c1a068dedbd57eb61400336a"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:48.000000Z"/>
+<entry
+   committed-rev="3"
+   name="cpci_hotplug_pci.c"
+   text-time="2008-02-22T08:23:49.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="8ccc40aa75d15c6c46b11b58b380e680"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:48.000000Z"/>
+<entry
+   committed-rev="3"
+   name="shpchp_sysfs.c"
+   text-time="2008-02-22T08:23:49.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="557ac3101fbfc32973a90ca5fb3e8bd6"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:48.000000Z"/>
+<entry
+   committed-rev="3"
+   name="pciehprm.h"
+   text-time="2008-02-22T08:23:49.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="008e33acdc2d6b69d11f5a79b231cf54"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:48.000000Z"/>
+<entry
+   committed-rev="3"
+   name="shpchprm_legacy.h"
+   text-time="2008-02-22T08:23:49.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="ba0e74fffb885a29012e1abb979afb30"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:48.000000Z"/>
+<entry
+   committed-rev="3"
+   name="rpadlpar_core.c"
+   text-time="2008-02-22T08:23:49.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="1e33b0b0d88f1ab187f1ad131d751eb7"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:48.000000Z"/>
+<entry
+   committed-rev="3"
+   name="acpiphp_pci.c"
+   text-time="2008-02-22T08:23:49.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="3d045f7fd8c6924fe8fe1068ff45885c"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:48.000000Z"/>
+<entry
+   committed-rev="3"
+   name="cpqphp_ctrl.c"
+   text-time="2008-02-22T08:23:49.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="6839cddcd09bcdeaf44a310a628f71eb"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:48.000000Z"/>
+<entry
+   committed-rev="3"
+   name="shpchprm_acpi.c"
+   text-time="2008-02-22T08:23:49.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="f38b7ed6e024b9ffb13690b9f92a6d1f"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:48.000000Z"/>
+<entry
+   committed-rev="3"
+   name="shpchp_pci.c"
+   text-time="2008-02-22T08:23:49.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="370fdb1f6930104d9353a39769fe3e96"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:48.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ibmphp.h"
+   text-time="2008-02-22T08:23:49.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="ae4e68e9fa2ccc89d38ae87f88f59773"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:48.000000Z"/>
+<entry
+   committed-rev="3"
+   name="rpaphp_pci.c"
+   text-time="2008-02-22T08:23:49.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="a4747267279c31173c32fcacce8b8427"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:48.000000Z"/>
+<entry
+   committed-rev="3"
+   name="pci_hotplug_core.c"
+   text-time="2008-02-22T08:23:49.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="b8563e37dc76af8fd8f378c232c5aa3c"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:48.000000Z"/>
+<entry
+   committed-rev="3"
+   name="shpchprm.h"
+   text-time="2008-02-22T08:23:49.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="9645b06fe41baba4897b055bae2bfda8"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:48.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ibmphp_ebda.c"
+   text-time="2008-02-22T08:23:49.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="f56c9f0c608afa0eb9de14d3a65cc5cd"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:48.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Makefile"
+   text-time="2008-02-22T08:23:49.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="6372f5eb1dce2e7e8cc2ea7c4839123c"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:49.000000Z"/>
+<entry
+   committed-rev="3"
+   name=".cvsignore"
+   text-time="2008-02-22T08:23:49.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="36335ad6d14960ac0d1b12f0c2b104db"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:48.000000Z"/>
+<entry
+   committed-rev="3"
+   name="acpiphp_res.c"
+   text-time="2008-02-22T08:23:49.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="3d5a1f49c3a5abcef70b831f8ff57bc2"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:49.000000Z"/>
+<entry
+   committed-rev="3"
+   name="shpchp_core.c"
+   text-time="2008-02-22T08:23:49.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="90def7344a4f2b4241caa3c63696fc1c"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:49.000000Z"/>
+<entry
+   committed-rev="3"
+   name="cpqphp_nvram.c"
+   text-time="2008-02-22T08:23:49.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="027ca6d2d6c90151a3e7b54989e72fe3"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:49.000000Z"/>
+<entry
+   committed-rev="3"
+   name="acpiphp_glue.c"
+   text-time="2008-02-22T08:23:49.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="5a7ae63e88633608c85a57e1815e35e4"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:49.000000Z"/>
+<entry
+   committed-rev="3"
+   name="cpqphp.h"
+   text-time="2008-02-22T08:23:49.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="9cfe62b27926dfafb6de2fc55dcf5de7"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:49.000000Z"/>
+<entry
+   committed-rev="3"
+   name="pciehp_hpc.c"
+   text-time="2008-02-22T08:23:49.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="965d574a9c7bab32cc5fdded78b22718"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:49.000000Z"/>
+<entry
+   committed-rev="3"
+   name="cpqphp_nvram.h"
+   text-time="2008-02-22T08:23:49.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="8c4bd422df571ee9ddcf057d32ce7097"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:49.000000Z"/>
+<entry
+   committed-rev="3"
+   name="pciehprm_acpi.c"
+   text-time="2008-02-22T08:23:49.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="152f35dd0bf6a4601728494d67c6a99e"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:49.000000Z"/>
+<entry
+   committed-rev="3"
+   name="rpaphp_vio.c"
+   text-time="2008-02-22T08:23:49.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="451df8de6176e534166ac10e85f274cf"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:49.000000Z"/>
+<entry
+   committed-rev="3"
+   name="shpchp_ctrl.c"
+   text-time="2008-02-22T08:23:49.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="d7b481b06b088c609e173b2fb90fdb76"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:49.000000Z"/>
+<entry
+   name="CVS"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="ibmphp_pci.c"
+   text-time="2008-02-22T08:23:49.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="a53cf8aeb580ebe942271bd0f96c25c2"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:49.000000Z"/>
+<entry
+   committed-rev="3"
+   name="rpadlpar.h"
+   text-time="2008-02-22T08:23:49.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="9d221fec8bdb24669d533dae14d6e9f2"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:49.000000Z"/>
+<entry
+   committed-rev="3"
+   name="pciehp.h"
+   text-time="2008-02-22T08:23:49.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="716d866b217c1a057f8b7ab7ec77c4e4"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:49.000000Z"/>
+<entry
+   committed-rev="3"
+   name="fakephp.c"
+   text-time="2008-02-22T08:23:49.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="45475ea091009f2cbec446e0c08b87f2"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:49.000000Z"/>
+<entry
+   committed-rev="3"
+   name="pciehprm_nonacpi.c"
+   text-time="2008-02-22T08:23:49.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="0e81bd03c85f76a964c714d7bfcae03f"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:49.000000Z"/>
+<entry
+   committed-rev="3"
+   name="shpchp_hpc.c"
+   text-time="2008-02-22T08:23:49.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="b0dddc434a90b33ee6cfeceb3832ce94"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:49.000000Z"/>
+<entry
+   committed-rev="3"
+   name="pciehp_core.c"
+   text-time="2008-02-22T08:23:49.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="1147dcded23ce7e6595c7ded2ff9a69b"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:49.000000Z"/>
+<entry
+   committed-rev="3"
+   name="pci_hotplug.h"
+   text-time="2008-02-22T08:23:49.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="e6857db61cb66472ca58f31bde2c8fd3"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:49.000000Z"/>
+<entry
+   committed-rev="3"
+   name="cpqphp_sysfs.c"
+   text-time="2008-02-22T08:23:49.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="c1d3ec9ed78ea3c1e8b4d62f533efaa5"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:49.000000Z"/>
+<entry
+   committed-rev="3"
+   name="pciehprm_nonacpi.h"
+   text-time="2008-02-22T08:23:49.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="ca6819137e13060a9d2c5d636110ba98"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:49.000000Z"/>
+<entry
+   committed-rev="3"
+   name="cpci_hotplug.h"
+   text-time="2008-02-22T08:23:49.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="7f8722997fb3104b28ada392663723d3"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:49.000000Z"/>
+<entry
+   committed-rev="3"
+   name="cpqphp_pci.c"
+   text-time="2008-02-22T08:23:49.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="832b38c0732022de5e0710ab0e4ec981"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:49.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ibmphp_core.c"
+   text-time="2008-02-22T08:23:49.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="1e2d1301ad9cbf9c99f6eb22d8720b6e"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:49.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ibmphp_res.c"
+   text-time="2008-02-22T08:23:49.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="31bd35749521dded1c52b0acac172704"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:49.000000Z"/>
+<entry
+   committed-rev="3"
+   name="cpci_hotplug_core.c"
+   text-time="2008-02-22T08:23:49.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="809ac7d016d661961879d5f489a8f737"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:49.000000Z"/>
+<entry
+   committed-rev="3"
+   name="acpiphp.h"
+   text-time="2008-02-22T08:23:49.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="cbabbe56269d84a9b8a047945964914d"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:49.000000Z"/>
+<entry
+   committed-rev="3"
+   name="shpchp.h"
+   text-time="2008-02-22T08:23:49.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="3622322c7b33ad5bfc92e4b57eeb6c4d"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:49.000000Z"/>
+<entry
+   committed-rev="3"
+   name="rpaphp_slot.c"
+   text-time="2008-02-22T08:23:49.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="a6eff5c36923c0f2c5df2001b0f49aed"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:49.000000Z"/>
+<entry
+   committed-rev="3"
+   name="shpchprm_nonacpi.c"
+   text-time="2008-02-22T08:23:49.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="3579ba08c1da7295f8faae6382fc1889"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:49.000000Z"/>
+<entry
+   committed-rev="3"
+   name="acpiphp_core.c"
+   text-time="2008-02-22T08:23:49.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="43caaa5d6f0880599a8a6f67249d41af"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:49.000000Z"/>
+<entry
+   committed-rev="3"
+   name="pciehp_ctrl.c"
+   text-time="2008-02-22T08:23:49.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="120da9a2549b23fd6efbf975798f801b"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:49.000000Z"/>
+<entry
+   committed-rev="3"
+   name="rpadlpar_sysfs.c"
+   text-time="2008-02-22T08:23:49.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="12fcf03d7bedda14e7dda96c4ac996c6"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:49.000000Z"/>
+</wc-entries>

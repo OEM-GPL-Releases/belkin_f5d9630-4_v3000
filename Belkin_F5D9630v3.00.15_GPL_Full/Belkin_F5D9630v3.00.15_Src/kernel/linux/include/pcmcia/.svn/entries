@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/kernel/linux/include/pcmcia"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   committed-rev="3"
+   name="ciscode.h"
+   text-time="2008-02-22T08:21:17.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="e835eb9d90211d2f80354b8f44b7ebec"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:17.000000Z"/>
+<entry
+   committed-rev="3"
+   name="cs_types.h"
+   text-time="2008-02-22T08:21:17.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="6b94166ca5b6134d7b42bb9aa3a04ba0"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:17.000000Z"/>
+<entry
+   committed-rev="3"
+   name="bulkmem.h"
+   text-time="2008-02-22T08:21:17.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="f5a62ecd58a104903d9c830a2270e3e0"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:17.000000Z"/>
+<entry
+   committed-rev="3"
+   name="cisreg.h"
+   text-time="2008-02-22T08:21:17.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="c55688658565b9b67215e2eb35c6b1a3"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:17.000000Z"/>
+<entry
+   committed-rev="3"
+   name="mem_op.h"
+   text-time="2008-02-22T08:21:17.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="17b0790884b1c3c3b06a17ffa998d205"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:17.000000Z"/>
+<entry
+   committed-rev="3"
+   name="cistpl.h"
+   text-time="2008-02-22T08:21:17.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="0d5e253519e004bd1e213eff632522b2"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:17.000000Z"/>
+<entry
+   name="CVS"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="cs.h"
+   text-time="2008-02-22T08:21:17.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="227a019fba25241c0af18dd0f6b6b145"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:17.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ftl.h"
+   text-time="2008-02-22T08:21:17.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="c45583afd3edd9ffde0671af6d72aa4e"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:17.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ss.h"
+   text-time="2008-02-22T08:21:17.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="c2482d0f935a9afda60010effd287e78"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:17.000000Z"/>
+<entry
+   committed-rev="3"
+   name="version.h"
+   text-time="2008-02-22T08:21:17.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="9b72da3117ffae79f2b4a1df88c5eaac"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:17.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ds.h"
+   text-time="2008-02-22T08:21:17.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="aa6f980738e74eeedb1c80a0752770cb"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:17.000000Z"/>
+<entry
+   committed-rev="3"
+   name="memory.h"
+   text-time="2008-02-22T08:21:17.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="c3b750223ed2d057df12d4f052c73caf"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:17.000000Z"/>
+</wc-entries>

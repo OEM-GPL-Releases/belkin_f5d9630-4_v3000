@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/userapps/opensource/libosip2/debian"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   committed-rev="3"
+   name="control"
+   text-time="2008-02-22T08:25:01.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="856ec2c00149f88e5e0518b109591f64"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:25:01.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Makefile.in"
+   text-time="2008-02-22T08:25:01.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="01e0b7d6cf0ae3d8528600b6dc1465c4"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:25:01.000000Z"/>
+<entry
+   committed-rev="3"
+   name="manpage.1.ex"
+   text-time="2008-02-22T08:25:01.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="5f1348477618b85597a99ba1858fed1f"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:25:01.000000Z"/>
+<entry
+   committed-rev="3"
+   name="conffiles.ex"
+   text-time="2008-02-22T08:25:01.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="96cd69af901bf7dec1be2d8fc6641e8f"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:25:01.000000Z"/>
+<entry
+   committed-rev="3"
+   name="libosip2.dirs"
+   text-time="2008-02-22T08:25:01.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="3dbf8c38685cfb2a60a98bddcf25b292"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:25:01.000000Z"/>
+<entry
+   committed-rev="3"
+   name="libosip2.files"
+   text-time="2008-02-22T08:25:01.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="002e9f3037dda6f1ab9fcc816371043c"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:25:01.000000Z"/>
+<entry
+   committed-rev="3"
+   name="manpage.sgml.ex"
+   text-time="2008-02-22T08:25:01.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="7ab2295cdfafef4bba60a0d5350dfdc5"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:25:01.000000Z"/>
+<entry
+   committed-rev="3"
+   name="changelog"
+   text-time="2008-02-22T08:25:01.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="84b1bad28762372b8a4731f87b2b7b5b"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:25:01.000000Z"/>
+<entry
+   committed-rev="3"
+   name="docs"
+   text-time="2008-02-22T08:25:01.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="1be2bdb2e248772efdd86717a236aa9e"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:25:01.000000Z"/>
+<entry
+   committed-rev="3"
+   name="rules"
+   text-time="2008-02-22T08:25:01.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="39a4b9eedc01ea16a98002b18e46b35f"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:25:01.000000Z"/>
+<entry
+   committed-rev="3"
+   name="libosip2-dev.dirs"
+   text-time="2008-02-22T08:25:01.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="42e0d81175f6f5a2916cad7f958870d5"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:25:01.000000Z"/>
+<entry
+   committed-rev="3"
+   name="libosip2-dev.files"
+   text-time="2008-02-22T08:25:01.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="6dd51ce4c8711d6a37bb3aed8b7a5958"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:25:01.000000Z"/>
+<entry
+   committed-rev="3"
+   name="dirs"
+   text-time="2008-02-22T08:25:01.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="a4dbeb198d9817a5770d68f9e548ba44"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:25:01.000000Z"/>
+<entry
+   committed-rev="3"
+   name="copyright"
+   text-time="2008-02-22T08:25:01.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="55a33a08af7ed8b733875233daa672b1"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:25:01.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Makefile.am"
+   text-time="2008-02-22T08:25:01.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="98f5f0c591f49e90815e7b14f7cbf423"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:25:01.000000Z"/>
+<entry
+   committed-rev="3"
+   name="shlibs.local"
+   text-time="2008-02-22T08:25:01.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="2e52c2c4975d59e76682c706477f3461"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:25:01.000000Z"/>
+<entry
+   committed-rev="3"
+   name="README.Debian"
+   text-time="2008-02-22T08:25:01.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="6d3d5b1b12f2722da996c7c004403ff7"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:25:01.000000Z"/>
+</wc-entries>

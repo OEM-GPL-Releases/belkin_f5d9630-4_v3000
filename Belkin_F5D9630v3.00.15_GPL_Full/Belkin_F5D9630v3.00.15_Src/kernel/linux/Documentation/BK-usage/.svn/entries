@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/kernel/linux/Documentation/BK-usage"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   committed-rev="3"
+   name="bz64wrap"
+   text-time="2008-02-22T08:22:03.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="7940943ca5d686f1ea4827a61e23fda0"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:03.000000Z"/>
+<entry
+   committed-rev="3"
+   name="cpcset"
+   text-time="2008-02-22T08:22:03.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="b2748e13258780d57d3aa3a2da5c853d"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:03.000000Z"/>
+<entry
+   committed-rev="3"
+   name="unbz64wrap"
+   text-time="2008-02-22T08:22:03.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="46c3c8d6592b420c1c81e0e6d3232397"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:03.000000Z"/>
+<entry
+   committed-rev="3"
+   name="00-INDEX"
+   text-time="2008-02-22T08:22:03.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="bdaa8228dfdec29d6aa9ec0c2a63d141"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:03.000000Z"/>
+<entry
+   committed-rev="3"
+   name="bk-kernel-howto.txt"
+   text-time="2008-02-22T08:22:03.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="8d7ccc8342d7d5511b4d43fd1e741437"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:03.000000Z"/>
+<entry
+   committed-rev="3"
+   name="bksend"
+   text-time="2008-02-22T08:22:03.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="a7d5009b8b23445b078d47833e5f2510"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:03.000000Z"/>
+<entry
+   committed-rev="3"
+   name="cset-to-linus"
+   text-time="2008-02-22T08:22:03.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="e4a547d06d179cba26da960f437502ae"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:03.000000Z"/>
+<entry
+   committed-rev="3"
+   name="csets-to-patches"
+   text-time="2008-02-22T08:22:03.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="f05807e2609a06c960dd89cd1bce9ae8"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:03.000000Z"/>
+<entry
+   committed-rev="3"
+   name="bk-make-sum"
+   text-time="2008-02-22T08:22:03.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="b18af86685c869805888895e99f4691e"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:03.000000Z"/>
+<entry
+   committed-rev="3"
+   name="gcapatch"
+   text-time="2008-02-22T08:22:03.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="27fb9454018c893365c782138e481051"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:03.000000Z"/>
+<entry
+   name="CVS"
+   kind="dir"/>
+</wc-entries>

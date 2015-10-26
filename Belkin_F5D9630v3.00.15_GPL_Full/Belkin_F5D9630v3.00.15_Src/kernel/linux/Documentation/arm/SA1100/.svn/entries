@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/kernel/linux/Documentation/arm/SA1100"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   committed-rev="3"
+   name="CERF"
+   text-time="2008-02-22T08:22:03.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="c442a589bcb17af2e3ff4561cad92118"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:03.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Tifon"
+   text-time="2008-02-22T08:22:03.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="69abb0449901d39e68a7407a19291c01"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:03.000000Z"/>
+<entry
+   committed-rev="3"
+   name="HUW_WEBPANEL"
+   text-time="2008-02-22T08:22:03.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="a71d5270aac5a91f67b3dbfbe78dce06"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:03.000000Z"/>
+<entry
+   committed-rev="3"
+   name="nanoEngine"
+   text-time="2008-02-22T08:22:03.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="6e44f7f0534aefbc2a85a2c338437cca"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:03.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ADSBitsy"
+   text-time="2008-02-22T08:22:03.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="c99112cdc93bc1507f71fe7776bd52b3"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:03.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Assabet"
+   text-time="2008-02-22T08:22:03.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="ad8a9159c4dbb743642b4d99af5af098"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:03.000000Z"/>
+<entry
+   committed-rev="3"
+   name="FreeBird"
+   text-time="2008-02-22T08:22:03.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="eee8fcdb076cca89318a18c44ce28290"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:03.000000Z"/>
+<entry
+   committed-rev="3"
+   name="PLEB"
+   text-time="2008-02-22T08:22:03.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="a27d52c69783b720ba120f194df2d1a4"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:03.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Brutus"
+   text-time="2008-02-22T08:22:03.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="cabd298f031d81ff3c65828c764f81d7"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:03.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Itsy"
+   text-time="2008-02-22T08:22:03.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="3de5741fb477e2ac1e58e80f7dc09ec7"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:03.000000Z"/>
+<entry
+   name="CVS"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="empeg"
+   text-time="2008-02-22T08:22:03.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="328606c9db99fa1e51028b617bd63f3d"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:03.000000Z"/>
+<entry
+   committed-rev="3"
+   name="GraphicsClient"
+   text-time="2008-02-22T08:22:03.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="d908db37297faf79904a5a5d2ee82f89"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:03.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Yopy"
+   text-time="2008-02-22T08:22:03.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="270e892bfe6aca94e522385433721766"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:03.000000Z"/>
+<entry
+   committed-rev="3"
+   name="LART"
+   text-time="2008-02-22T08:22:03.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="b469185befed84775fab429fd73d1b83"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:03.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Victor"
+   text-time="2008-02-22T08:22:03.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="0567cce6d37e5aaa7644d89aae84cc01"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:03.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Pangolin"
+   text-time="2008-02-22T08:22:03.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="d07535e9dce2e3e8af0e276ba559d5d3"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:03.000000Z"/>
+<entry
+   committed-rev="3"
+   name="serial_UART"
+   text-time="2008-02-22T08:22:03.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="820dc10d04e060b3bc5dff5e8314a86d"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:03.000000Z"/>
+<entry
+   committed-rev="3"
+   name="GraphicsMaster"
+   text-time="2008-02-22T08:22:03.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="02e52e8ef4b271a09a0d90b2c8d0a2f2"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:03.000000Z"/>
+</wc-entries>

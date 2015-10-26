@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/kernel/linux/arch/ppc/8260_io"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   committed-rev="3"
+   name="Kconfig"
+   text-time="2008-02-22T08:22:17.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="00176e2f1367ed437307e2e44eac6bdd"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:17.000000Z"/>
+<entry
+   committed-rev="3"
+   name="fcc_enet.c"
+   text-time="2008-02-22T08:22:17.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="f0804c9a203407ba2711ee26008764ee"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:17.000000Z"/>
+<entry
+   name="CVS"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="enet.c"
+   text-time="2008-02-22T08:22:17.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="3150e77cc4af62108bbe5a3e2edfa922"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:17.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Makefile"
+   text-time="2008-02-22T08:22:17.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="baf372ed8ecf35c1f46346a532380ae3"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:17.000000Z"/>
+</wc-entries>

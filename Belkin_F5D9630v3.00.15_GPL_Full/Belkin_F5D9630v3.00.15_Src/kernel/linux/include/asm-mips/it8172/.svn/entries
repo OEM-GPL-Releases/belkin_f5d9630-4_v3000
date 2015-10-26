@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/kernel/linux/include/asm-mips/it8172"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   committed-rev="3"
+   name="it8172_pci.h"
+   text-time="2008-02-22T08:21:07.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="a2521b1c8d7b3eac51cc2106d433aa3e"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:07.000000Z"/>
+<entry
+   committed-rev="3"
+   name="it8172_dbg.h"
+   text-time="2008-02-22T08:21:07.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="f8f506b8c5401c61c2419b9e0929d91d"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:07.000000Z"/>
+<entry
+   committed-rev="3"
+   name="it8172_cir.h"
+   text-time="2008-02-22T08:21:07.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="4369caa1bea1e0c637311f43754ab6e8"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:07.000000Z"/>
+<entry
+   committed-rev="3"
+   name="it8172_lpc.h"
+   text-time="2008-02-22T08:21:07.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="2d02d0e5c4849bd724df63ae63830ffb"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:07.000000Z"/>
+<entry
+   committed-rev="3"
+   name="it8172.h"
+   text-time="2008-02-22T08:21:07.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="857760e40316625bd82f265a05645cdd"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:07.000000Z"/>
+<entry
+   name="CVS"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="it8172_int.h"
+   text-time="2008-02-22T08:21:07.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="efe0622cfcf37626838e9ff36a569a34"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:07.000000Z"/>
+</wc-entries>

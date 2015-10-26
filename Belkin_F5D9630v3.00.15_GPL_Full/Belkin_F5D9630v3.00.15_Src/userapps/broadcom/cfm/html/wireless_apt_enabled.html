@@ -1,0 +1,244 @@
+<html>
+   <head>
+      <meta HTTP-EQUIV='Pragma' CONTENT='no-cache'>
+         <link rel="stylesheet" href="main_router.css" type='text/css'>
+		 
+		<%ejGet("curLanguage")%>
+		<SCRIPT>assign_var();</SCRIPT>
+		 
+		 
+		 <SCRIPT language=JavaScript src="showMenu.js"></SCRIPT>
+            <script language="javascript" src="util.js"></script>
+			<script language="javascript" src="field_check.js"></script>
+            <script language="javascript">
+<!-- hide
+
+strHtml='<title>'+wlm_1+' &gt; '+wlap_2+'</title>';
+dw(strHtml);
+
+
+var IPstring = '<%ejGet(ethIpAddress_AP)%>';
+var Maskstring = '<%ejGet(ethSubnetMask)%>';
+var nat = '<%ejGet(enblNat)%>';
+
+var autoup = '<%ejGet(autoUpgrade_flag)%>';
+
+if(autoup == '1')
+{
+	newwin=window.open("checkfw.html","Firmware","toolbar=no,location=no,directories=no,status=no,menubar=no,scrollbars=yes,width=395,height=200,resizable=0");
+	newwin.focus();
+}
+
+
+
+function ipcheck() 
+{
+	with(document.forms[0])
+	{
+		if(ethIpAddress1.value<128)
+		{
+			ethSubnetMask2.value = 0;
+			ethSubnetMask3.value = 0;
+			ethSubnetMask4.value = 0;
+		}
+
+		if((ethIpAddress1.value<192)&&(ethIpAddress1.value>127))
+		{
+			ethSubnetMask2.value = 255;
+			ethSubnetMask3.value = 0;
+			ethSubnetMask4.value = 0;
+		}
+
+		if((ethIpAddress1.value<240)&&(ethIpAddress1.value>191))
+		{
+			ethSubnetMask2.value = 255;
+			ethSubnetMask3.value = 255;
+			ethSubnetMask4.value = 0;
+		}
+	}
+}
+
+function splitIPString (stringToSplit,separator) {
+
+   arrayOfStrings = stringToSplit.split(separator)
+   with ( document.forms[0] ) {
+
+   ethIpAddress1.value = arrayOfStrings [0];
+   ethIpAddress2.value = arrayOfStrings [1];
+   ethIpAddress3.value = arrayOfStrings [2];
+   ethIpAddress4.value = arrayOfStrings [3];
+         }
+      }
+
+function splitMaskString (stringToSplit,separator) {
+
+   arrayOfStrings = stringToSplit.split(separator)
+   with ( document.forms[0] ) {
+
+   ethSubnetMask1.value = arrayOfStrings [0];
+   ethSubnetMask2.value = arrayOfStrings [1];
+   ethSubnetMask3.value = arrayOfStrings [2];
+   ethSubnetMask4.value = arrayOfStrings [3];
+         }
+      }
+
+
+function frmLoad() 
+{
+   with ( document.forms[0] ) 
+   {
+   		var dot=".";
+      
+
+	    splitIPString(IPstring,dot);
+    	splitMaskString(Maskstring,dot);
+		
+		nat_ap[0].checked =true;
+		
+    }
+}
+
+function btnApply() 
+{
+   var loc = 'wlap.cgi?';
+
+   with ( document.forms[0] ) 
+   {
+   
+      ethIpAddress5.value = ethIpAddress1.value + "." + ethIpAddress2.value + "." + ethIpAddress3.value + "." + ethIpAddress4.value ;
+
+      /* check if Lan IP address is private */
+	  if (ethIpAddress1.value == 10)
+	  {
+	  }
+	  else if ((ethIpAddress1.value == 172) && (ethIpAddress2.value >= 16) && (ethIpAddress2.value <= 31))
+	  {
+	  }
+	  else if ((ethIpAddress1.value == 192) && (ethIpAddress2.value == 168))
+	  {
+	  }
+	  else
+	  {
+	    alert(wlap_5);
+         return;
+      }
+ 
+      ethSubnetMask5.value = ethSubnetMask1.value + "." + ethSubnetMask2.value + "." + ethSubnetMask3.value + "." + ethSubnetMask4.value ;
+
+      if ( isValidIpAddress(ethIpAddress5.value) == false ) 
+	  {
+         alert(ls_37);
+         return;
+      }
+	  
+      if ( isValidSubnetMask(ethSubnetMask5.value) == false ) 
+	  {
+         alert(ls_30);
+         return;
+      }
+
+      loc += 'ethIpAddress_AP=' + ethIpAddress5.value;
+      loc += '&ethSubnetMask=' + ethSubnetMask5.value;
+	  loc+='&usrPassword=pass&enblNat=0';
+
+   alert(wlap_1);	
+
+   }
+   window.location.href = loc;
+}
+
+function apmode()
+{
+	if(document.forms[0].nat_ap[1].checked == true)
+		window.location.href = 'wireless_apt_disabled.html'
+
+}
+
+
+
+// done hiding -->
+</script>
+</head>
+   <body onLoad='frmLoad()' bgColor="#ffffff" leftMargin="0" topMargin="0" marginheight="0" marginwidth="0">
+         <form onSubmit='return false'>
+       <SCRIPT language=JavaScript>
+	var helpItem 	='Use as Access Point';
+	var menuSection	='WLAN';
+	var menuItem	='Use as Access Point';
+	var isAPmode = '<%ejGet(enblNat)%>';
+		
+	var wanStatus = '<%ejGetOther(isUp)%>';
+	showHead(wanStatus,helpItem);
+	showMenu(menuSection,menuItem,isAPmode)
+	</SCRIPT>  
+<TD class=head_bold height="100%" width="99%" valign="top"><Br>
+
+            <font face="Verdana" size="2" class="head_bold"><b>&nbsp;&nbsp;&nbsp;<script>dw(wlm_1);</script>&nbsp;&gt;&nbsp;<script>dw(wlap_2);</script></b></font>
+            <br>
+            <br>
+			<br>
+               <table border="0" cellpadding="0" cellspacing="0">
+                  <tr>
+				  	 <Td width="69"></Td>
+                     <td width="162" class="copy_1"><b><script>dw(wlap_3);</script> / <script>dw(wlap_4);</script> &gt;</b></td>
+					 <td width="228"><font face="Verdana" color="#333333" size=1>
+                      <input type='radio' name='nat_ap' onClick="apmode()"><script>dw(wlap_3);</script>
+                    <input type='radio' name='nat_ap' onClick="apmode()"><script>dw(wlap_4);</script></font></td>
+               </tr>
+            </table>
+			
+			<Br>
+            
+			<table border="0" cellpadding="0" cellspacing="0" >
+               <tr>
+			   	  <td width="69"></td>
+                  <td width="162" class="copy_1"><b><script>dw(wlap_6);</script> </b>&nbsp;></td>
+                  <td width="366" bordercolorlight="#FFFFFF" bordercolordark="#FF00FF" bordercolor="#00FFFF">
+                  <font face="Verdana" color="#003366">
+                  <input type='text' name='ethIpAddress1' onKeyUp="ipcheck()" style="border-color:#3399cc; border-style:solid;
+				   border-width: 1px;" maxLength="3" size="5">.<input type='text' name='ethIpAddress2' style="border-color:#3399cc; border-style:solid;
+				   border-width: 1px;" maxLength="3" size="5">.<input type='text' name='ethIpAddress3' style="border-color:#3399cc; border-style:solid;
+				   border-width: 1px;" maxLength="3" size="5">.<input type='text' name='ethIpAddress4' style="border-color:#3399cc; border-style:solid;
+				   border-width: 1px;" maxLength="3" size="5">&nbsp;&nbsp;
+                 <input type='hidden' name='ethIpAddress5' style="border-color:#3399cc; border-style:solid;
+				   border-width: 1px;" size="10"></font></td>
+               </tr>
+            </table>
+			<BR>
+            <table border="0" cellpadding="0" cellspacing="0" >
+               <tr>
+			   	  <td width="69"></td>
+                  <td width="162" height="22"  class="copy_1"><b><script>dw(ls_6);</script></b>&nbsp;&gt;</td>
+                  <td width="366" height="22">
+                  <font face="Verdana" color="#003366">
+                  <input type='text' name='ethSubnetMask1' style="border-color:#3399cc; border-style:solid; border-width: 1px;" size="5" maxLength="3" disabled="disabled">.<input type='text' name='ethSubnetMask2' style="border-color:#3399cc; border-style:solid; border-width: 1px;" size="5" maxLength="3">.<input type='text' name='ethSubnetMask3' style="border-color:#3399cc; border-style:solid; border-width: 1px;" size="5" maxLength="3">.<input type='text' name='ethSubnetMask4' style="border-color:#3399cc; border-style:solid; border-width: 1px;" size="5" maxLength="3">&nbsp;&nbsp;&nbsp;
+                 <input type='hidden' name='ethSubnetMask5' style="border-color:#3399cc; border-style:solid; border-width: 1px;" size="10"></font></td>
+               </tr>
+            </table>
+			<br><br>
+	        <table width="597" height="26" border="0" cellpadding="0" cellspacing="0" >
+				<tr>
+					<td width="122"></td>
+					<td width="475">
+					<script>
+						var info="<input type='button' name='btncancel' style='width:180px' onClick='frmLoad()' value='"+wd_9+"' class='submitBtn'><input type='button' style='width:180px' name='btnSave' onClick='btnApply()' value='"+wd_10+"' class='submitBtn'>";
+						dw(info);									
+					</script>
+                  		
+				  </td>
+				</tr>
+	</table>
+			
+             <center>
+               <p align="left">
+                  <font color="#003366">
+                  <span style="background-color: #FFFFFF">
+                  
+
+                  </font>
+               </p>
+            </center>
+ </TD></TR></TBODY></TABLE></TD>
+         </form>
+   </body>
+</html>

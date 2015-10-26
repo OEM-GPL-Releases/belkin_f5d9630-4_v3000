@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/userapps/opensource/sshd/libtomcrypt/src/encauth/gcm"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   committed-rev="3"
+   name="gcm_memory.c"
+   text-time="2008-02-22T08:25:16.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="04ace3fb9835e3de0d8281c6e2206659"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:25:16.000000Z"/>
+<entry
+   committed-rev="3"
+   name="gcm_add_aad.c"
+   text-time="2008-02-22T08:25:16.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="4eec8946280aee435be237d14828a0c6"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:25:16.000000Z"/>
+<entry
+   committed-rev="3"
+   name="gcm_gf_mult.c"
+   text-time="2008-02-22T08:25:16.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="f15da099247ae00a4066c792c8054fe5"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:25:16.000000Z"/>
+<entry
+   committed-rev="3"
+   name="gcm_process.c"
+   text-time="2008-02-22T08:25:16.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="1e29f80afb97e32f88f92411d3b9a2ba"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:25:16.000000Z"/>
+<entry
+   committed-rev="3"
+   name="gcm_test.c"
+   text-time="2008-02-22T08:25:16.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="bfbc7366541f27316dc3f80e6cf6b199"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:25:16.000000Z"/>
+<entry
+   committed-rev="3"
+   name="gcm_reset.c"
+   text-time="2008-02-22T08:25:16.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="006f25f452aa259d04070205f0f45f13"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:25:16.000000Z"/>
+<entry
+   committed-rev="3"
+   name="gcm_init.c"
+   text-time="2008-02-22T08:25:16.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="011974bb2b141f690e1bbda7e0675147"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:25:16.000000Z"/>
+<entry
+   committed-rev="3"
+   name="gcm_done.c"
+   text-time="2008-02-22T08:25:16.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="f7fbd39d1b4a4b467be4cc08d1ac4084"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:25:16.000000Z"/>
+<entry
+   committed-rev="3"
+   name="gcm_add_iv.c"
+   text-time="2008-02-22T08:25:16.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="da0907ad89d792b73d98afd0d9e70775"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:25:16.000000Z"/>
+</wc-entries>

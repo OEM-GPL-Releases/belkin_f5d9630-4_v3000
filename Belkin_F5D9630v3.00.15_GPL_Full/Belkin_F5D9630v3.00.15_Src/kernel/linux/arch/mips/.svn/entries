@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/kernel/linux/arch/mips"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   name="oprofile"
+   kind="dir"/>
+<entry
+   name="mips-boards"
+   kind="dir"/>
+<entry
+   name="kernel"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="Kconfig"
+   text-time="2008-02-22T08:23:13.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="4bc84eb64be2d178eb4165527ef10151"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:59.000000Z"/>
+<entry
+   name="tx4927"
+   kind="dir"/>
+<entry
+   name="baget"
+   kind="dir"/>
+<entry
+   name="ite-boards"
+   kind="dir"/>
+<entry
+   name="sni"
+   kind="dir"/>
+<entry
+   name="brcm-boards"
+   kind="dir"/>
+<entry
+   name="dec"
+   kind="dir"/>
+<entry
+   name="sgi-ip22"
+   kind="dir"/>
+<entry
+   name="lib-64"
+   kind="dir"/>
+<entry
+   name="momentum"
+   kind="dir"/>
+<entry
+   name="sgi-ip27"
+   kind="dir"/>
+<entry
+   name="pmc-sierra"
+   kind="dir"/>
+<entry
+   name="boot"
+   kind="dir"/>
+<entry
+   name="cobalt"
+   kind="dir"/>
+<entry
+   name="lasat"
+   kind="dir"/>
+<entry
+   name="au1000"
+   kind="dir"/>
+<entry
+   name="lib"
+   kind="dir"/>
+<entry
+   name="gt64120"
+   kind="dir"/>
+<entry
+   name="hp-lj"
+   kind="dir"/>
+<entry
+   name="pci"
+   kind="dir"/>
+<entry
+   name="jmr3927"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name=".cvsignore"
+   text-time="2008-02-22T08:23:13.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="82b40f5411c9d97e9b6cb8561fd38e38"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:10.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Makefile"
+   text-time="2008-02-22T08:23:13.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="a2f8c73e35211ec6e1c615775f173eb4"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:10.000000Z"/>
+<entry
+   name="galileo-boards"
+   kind="dir"/>
+<entry
+   name="ddb5xxx"
+   kind="dir"/>
+<entry
+   name="configs"
+   kind="dir"/>
+<entry
+   name="lib-32"
+   kind="dir"/>
+<entry
+   name="ramdisk"
+   kind="dir"/>
+<entry
+   name="CVS"
+   kind="dir"/>
+<entry
+   name="sgi-ip32"
+   kind="dir"/>
+<entry
+   name="sibyte"
+   kind="dir"/>
+<entry
+   name="arc"
+   kind="dir"/>
+<entry
+   name="vr4181"
+   kind="dir"/>
+<entry
+   name="mm"
+   kind="dir"/>
+<entry
+   name="vr41xx"
+   kind="dir"/>
+<entry
+   name="math-emu"
+   kind="dir"/>
+<entry
+   name="jazz"
+   kind="dir"/>
+</wc-entries>

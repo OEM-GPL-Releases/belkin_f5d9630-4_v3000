@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/kernel/linux/security/selinux"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   committed-rev="3"
+   name="Kconfig"
+   text-time="2008-02-22T08:21:46.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="d70136810c720898b27c8f6f51d1369e"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:46.000000Z"/>
+<entry
+   committed-rev="3"
+   name="selinuxfs.c"
+   text-time="2008-02-22T08:21:46.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="01ec810638934335c6c6cc8cb90b65a9"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:46.000000Z"/>
+<entry
+   name="include"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="hooks.c"
+   text-time="2008-02-22T08:21:46.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="43149a8465051ec2ad1cba7b76eef280"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:46.000000Z"/>
+<entry
+   name="ss"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="netlink.c"
+   text-time="2008-02-22T08:21:46.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="b2472689cb657a62019f2b66f2cf8ac2"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:46.000000Z"/>
+<entry
+   committed-rev="3"
+   name="netif.c"
+   text-time="2008-02-22T08:21:46.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="6d3db229ddd7d4c93e1f5a060e4a2b8b"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:46.000000Z"/>
+<entry
+   committed-rev="3"
+   name="nlmsgtab.c"
+   text-time="2008-02-22T08:21:46.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="48437c3ea56cc2f4c38c8dde577bed1d"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:46.000000Z"/>
+<entry
+   committed-rev="3"
+   name="avc.c"
+   text-time="2008-02-22T08:21:46.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="a91b58349f81c9f412e9622a89b85cf7"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:46.000000Z"/>
+<entry
+   name="CVS"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="Makefile"
+   text-time="2008-02-22T08:21:46.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="8ef6479e399cfa4ea0d5215873f456c1"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:46.000000Z"/>
+</wc-entries>

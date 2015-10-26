@@ -1,0 +1,94 @@
+<html>
+   <head>
+   <meta http-equiv="refresh" content="<%ejGet(timeout_refresh)%>">
+<link rel="stylesheet" href="main_router.css" type='text/css'>
+		<%ejGet("curLanguage")%>
+		<SCRIPT>assign_var();</SCRIPT>
+
+<SCRIPT language=JavaScript src="showMenu.js"></SCRIPT>
+            <meta http-equiv="Pragma" content="no-cache">
+
+<script language="javascript">
+strHtml='<title>'+utm_1+' &gt; </title>';
+dw(strHtml);
+
+
+var autoup = '<%ejGet(autoUpgrade_flag)%>';
+
+if(autoup == '1')
+{
+	newwin=window.open("checkfw.html","Firmware","toolbar=no,location=no,directories=no,status=no,menubar=no,scrollbars=yes,width=395,height=200,resizable=0");
+	newwin.focus();
+}
+
+</script>
+</head>
+
+   <body bgColor="#ffffff" leftMargin="0" topMargin="0" marginheight="0" marginwidth="0">
+         <form>
+       <SCRIPT language=JavaScript>
+	var helpItem 	='Utilities';
+	var menuSection	='Util';
+	var menuItem	='Utilities';
+	var isAPmode = '<%ejGet(enblNat)%>';
+		
+	var wanStatus = '<%ejGetOther(isUp)%>';
+	showHead(wanStatus,helpItem);
+	showMenu(menuSection,menuItem,isAPmode)
+	</SCRIPT>  
+<TD class=head_bold width="90%" valign="top"><Br>
+<font class="head_bold"><b>&nbsp;&nbsp;&nbsp;<script>dw(utm_1);</script> &gt;</b></font><Br><br>
+
+               <table width="650" height="24" border="0" cellpadding="0" cellspacing="0">
+                  <tr>
+				  	 <Td width="15"></Td>
+                     <td width="635" class="copy_1"><script>dw(utm_2);</script>	</td>
+				 </tr>	 
+	</table>
+
+		<br>
+
+						<table  border="0" cellspacing="3" cellpadding="0" align=left class="copy_1">
+							<tr>
+								<Td width="0"></Td>
+								<td width="625" class="copy_1">
+									<ul>
+									<li>                                    
+                                    <a href="util_reset.html"><b>
+                                    <script>dw(utm_3);</script></b></a></li><br>
+									<script>dw(utm_4);</script><br>&nbsp;                                
+									<li>
+                                    <a href="util_factory.html"><b>
+                                    <script>dw(utm_5);</script></b></a></li><br>
+									<script>dw(utm_6);</script><br>&nbsp;
+                                    
+									<li>
+                                    <a href="util_save.html"><b>
+                                    <script>dw(utm_7);</script></b></a></li><u><br>
+									</u><script>dw(utm_8);</script><br>&nbsp;
+									<li>
+
+                                    <a href="util_prev.html"><b>
+                                    <script>dw(utm_13);</script></b></a></li><u><br>
+									</u><script>dw(utm_14);</script><br>&nbsp;                                
+									<li>
+
+                                    <a href="util_firmware.html"><b>
+                                    <script>dw(utm_9);</script></b></a></li><br>
+									<script>dw(utm_10);</script><br>&nbsp;
+                                    </font>
+									<li>
+
+                                    <a href="util_system.html"  ><b>
+                                    <script>dw(utm_11);</script></b></a></li><br>
+									<script>dw(utm_12);</script>
+
+									</ul>
+							  </td>
+							</tr>
+</table>
+ </TD></TR></TBODY></TABLE></TD>
+ </form>
+</body>
+
+</html>

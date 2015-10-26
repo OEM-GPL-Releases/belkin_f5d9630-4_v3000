@@ -1,0 +1,213 @@
+<html><head>
+<meta HTTP-EQUIV='Pragma' CONTENT='no-cache'>
+<meta http-equiv="refresh" content="<%ejGet(timeout_refresh)%>">
+<link rel=stylesheet href="main_router.css" type='text/css'>
+
+		<%ejGet("curLanguage")%>
+		<SCRIPT>assign_var();</SCRIPT>
+
+<SCRIPT language=JavaScript src="showMenu.js"></SCRIPT>
+<script language='javascript' src='util.js'></script>
+<script language='javascript'>
+<!-- hide
+
+strHtml='<title>'+wlm_1+' &gt; '+wlm_9+'</title>';
+dw(strHtml);
+
+
+var autoup = '<%ejGet(autoUpgrade_flag)%>';
+
+if(autoup == '1')
+{
+	newwin=window.open("checkfw.html","Firmware","toolbar=no,location=no,directories=no,status=no,menubar=no,scrollbars=yes,width=395,height=200,resizable=0");
+	newwin.focus();
+}
+
+
+
+var wlRefresh = '<%ejGetWl(wlRefresh)%>'; 
+var enbl = '<%ejGetWl(wlEnbl)%>';
+var mode = '<%ejGetWl(wlFltMacMode)%>';
+
+
+if ( wlRefresh == '1' ) { 
+   var code = 'location="wlmacflt.cmd?action=refresh"';
+   eval(code);
+}
+
+function frmLoad() {
+   with ( document.forms[0] ) {
+      if ( mode == 'disabled' )
+         wlFltMacMode[2].checked = true;
+      else if ( mode == 'allow' )
+         wlFltMacMode[0].checked = true;
+      else
+         wlFltMacMode[1].checked = true;
+	Mac0.value = '';
+	Mac1.value = '';
+	Mac2.value = '';
+	Mac3.value = '';
+	Mac4.value = '';
+	Mac5.value = '';
+		 
+   }
+}
+
+function btnApply() {
+   var loc = 'wlmacflt.cmd?action=add';
+   
+   
+   with ( document.forms[0] ) 
+   {
+      if ( wlFltMacMode[2].checked == true )
+         loc += '&wlFltMacMode=disabled';
+      else if ( wlFltMacMode[0].checked == true )
+         loc += '&wlFltMacMode=allow';
+      else
+         loc += '&wlFltMacMode=deny';
+   
+   	  if(mac_num.value == '50')
+	  {
+	  	alert("MAC filter Entries are full! Please remove a entry first!");
+		return;
+   	  }
+	  else
+	  {
+   	  var wlMac = Mac0.value +":"+ Mac1.value +":"+ Mac2.value +":"+ Mac3.value +":"+ Mac4.value +":"+ Mac5.value
+   
+      if ( isValidMacAddress(wlMac) == false ) 
+	  {
+         msg = 'MAC address "' + wlMac + '" is invalid MAC address.';
+         alert(msg);
+		return;
+	  }
+      loc += '&wlFltMacAddr=' + wlMac;
+   }
+   }
+   window.location.href = loc;
+}
+
+function removeClick(mac) 
+{
+
+   var loc = 'wlmacflt.cmd?action=remove&rmLst=' + mac;
+
+   var code = 'location="' + loc + '"';
+   eval(code);
+}
+
+function btnModeApply() 
+{
+   var loc = 'wlmacflt.cmd?action=save';
+
+
+   with ( document.forms[0] ) 
+   {
+      if ( wlFltMacMode[2].checked == true )
+         loc += '&wlFltMacMode=disabled';
+      else if ( wlFltMacMode[0].checked == true )
+         loc += '&wlFltMacMode=allow';
+      else
+         loc += '&wlFltMacMode=deny';
+   }
+
+   var code = 'location="' + loc + '"';
+   eval(code);
+}
+
+// done hiding -->
+</script>
+</head>
+   <body onLoad='frmLoad()' bgColor="#ffffff" leftMargin="0" topMargin="0" marginheight="0" marginwidth="0">
+         <form>
+       <SCRIPT language=JavaScript>
+	var helpItem 	='MAC Address Control';
+	var menuSection	='WLAN';
+	var menuItem	='MAC Address Control';
+	var isAPmode = '<%ejGet(enblNat)%>';
+		
+	var wanStatus = '<%ejGetOther(isUp)%>';
+	showHead(wanStatus,helpItem);
+	showMenu(menuSection,menuItem,isAPmode)
+	</SCRIPT>  
+<TD class=head_bold width="90%" valign="top"><Br>
+<b><font class='head_bold'>&nbsp;&nbsp;&nbsp;<script>dw(wlm_1);</script> &gt;  <script>dw(wlmac_1);</script></font></b>
+<br><br>
+
+               <table width="803" height="24" border="0" cellpadding="0" cellspacing="0">
+                  <tr>
+				  	 <Td width="45"></Td>
+                     <td width="927" class="copy_1">Mac Address Control is the ability to set up a list of clients that you want to allow or 
+					 								deny access to the wireless network.
+<A onClick="window.open('glossary.html#wireless_mac_ctrl','help','toolbar=0,status=0,menubar=0,scrollbars=1,resizable=1,width=530,height=400,left=150,top=150');" href='javascript:void(0);'><font color='#0066FF' style='font-weight:bold'> <script>dw(wd_8);</script> </font></A>					
+					 </td>
+				 </tr>	 
+	</table>
+
+						<table border='0' cellpadding='4' cellspacing='0'>
+						   <tr>
+						   	  <Td width="77"></Td>
+						     <td width="65" class='copy_1'><input type='radio' name='wlFltMacMode'>&nbsp;&nbsp;<B>Allow</B></td>
+						     <td width="65" class='copy_1'><input type='radio' name='wlFltMacMode'>&nbsp;&nbsp;<B>Deny</B></td>
+						     <td width="528" class='copy_1'><input type='radio' name='wlFltMacMode'>&nbsp;&nbsp;<B><script>dw(home_44);</script></B></td>	  
+						   </tr>
+				</table>
+
+				<br><br>
+
+				<table width="612" border='0' cellpadding='0' cellspacing='1'>
+				   <tr>
+				   	<Td width="33">&nbsp;</Td>
+					  <td width="92" bgcolor='#666666' class='hd'></td>
+					 <td width="394" align='center' bgcolor='#666666' class='hd'>
+					 		<font color='#FFFFFF' style='font-family:Arial, Helvetica, sans-serif; font-weight:bold'><script>dw(wlmac_2);</script></font></td>
+					 <td width="88" bgcolor='#666666' class='hd'></td>
+				   </tr>
+				   
+				   <tr>
+				   	<td></td>
+					<td class='hd' bgcolor='#CCCCCC'></td>
+						<td class='hd' align='center' bgcolor='#CCCCCC'>
+							<input type='text' name='Mac0' size='3' maxlength='2'> :
+							<input type='text' name='Mac1' size='3' maxlength='2'> :
+							<input type='text' name='Mac2' size='3' maxlength='2'> :
+							<input type='text' name='Mac3' size='3' maxlength='2'> :
+							<input type='text' name='Mac4' size='3' maxlength='2'> :
+							<input type='text' name='Mac5' size='3' maxlength='2'>
+						</td>
+						<td class='hd'  bgcolor='#CCCCCC' align='center'>
+							<script>
+								var info = "<input type='button' class='submitBtn' style='width:90px' onClick='btnApply()' value='<<"+wlmac_3+"'>";
+								dw(info);							
+							</script>
+							
+						</td>
+			      </tr>
+
+					
+					<%ejGet(wlMAC)%>
+
+	</table>
+
+
+				
+				<br><br>
+
+	        <table width="600" border="0" cellpadding="0" cellspacing="0" >
+				<tr>
+					<td width="150"></td>
+					<td width="450">
+						<script>
+							var info ="<input type='button' style='width:180px' onClick='frmLoad()' value='"+wd_9+"' class='submitBtn'><input type='button' style='width:180px' onClick='btnModeApply()' value='"+wd_10+"' class='submitBtn'>";
+							dw(info);
+						</script>
+                  		
+				  </td>
+				</tr>
+			</table>
+			
+ </TD></TR></TBODY></TABLE></TD>
+
+</form>
+</body>
+</html>

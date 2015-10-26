@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/bcmdrivers/opensource/char/serial"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   committed-rev="3"
+   name="bcm96348"
+   text-time="2008-02-22T08:20:58.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="4aac218165df45ad81098333a9c71ab6"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:20:58.000000Z"/>
+<entry
+   name="impl1"
+   kind="dir"/>
+</wc-entries>

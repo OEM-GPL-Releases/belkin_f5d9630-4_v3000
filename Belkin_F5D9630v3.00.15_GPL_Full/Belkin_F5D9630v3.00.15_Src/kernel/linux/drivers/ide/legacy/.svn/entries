@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/kernel/linux/drivers/ide/legacy"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   committed-rev="3"
+   name="ht6560b.c"
+   text-time="2008-02-22T08:24:19.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="15c0e709e5e57796cf6ce5bde32d3a7a"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:19.000000Z"/>
+<entry
+   committed-rev="3"
+   name="qd65xx.c"
+   text-time="2008-02-22T08:24:19.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="8b48d87d76fa76a66e901b53574ce759"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:19.000000Z"/>
+<entry
+   committed-rev="3"
+   name="gayle.c"
+   text-time="2008-02-22T08:24:19.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="84f88d68e6bc429f0908b522dd9ca60e"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:19.000000Z"/>
+<entry
+   committed-rev="3"
+   name="qd65xx.h"
+   text-time="2008-02-22T08:24:19.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="b2fce074562b54239560e633ed0b81f8"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:19.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ide-cs.c"
+   text-time="2008-02-22T08:24:19.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="093f507e679f4c90f20251204cb7bb5d"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:19.000000Z"/>
+<entry
+   name="CVS"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="umc8672.c"
+   text-time="2008-02-22T08:24:19.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="2136d77816ac7f7a4cd37e4f12064b15"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:19.000000Z"/>
+<entry
+   committed-rev="3"
+   name="pdc4030.c"
+   text-time="2008-02-22T08:24:19.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="f50871816d95c6305becdfbe43c22b41"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:19.000000Z"/>
+<entry
+   committed-rev="3"
+   name="macide.c"
+   text-time="2008-02-22T08:24:19.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="a9e6b2f148cc89b7525f5c4505153231"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:19.000000Z"/>
+<entry
+   committed-rev="3"
+   name="pdc4030.h"
+   text-time="2008-02-22T08:24:19.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="4f9923cd2483e118ce52470d5a01f9db"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:19.000000Z"/>
+<entry
+   committed-rev="3"
+   name="falconide.c"
+   text-time="2008-02-22T08:24:19.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="8cf50b76b1116ac3336e29b482f6d98f"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:19.000000Z"/>
+<entry
+   committed-rev="3"
+   name="q40ide.c"
+   text-time="2008-02-22T08:24:19.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="ee9305c791bf944631f37e24b792f98d"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:19.000000Z"/>
+<entry
+   committed-rev="3"
+   name="buddha.c"
+   text-time="2008-02-22T08:24:19.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="22569f0c6c1ceb5486656a0edcc05d80"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:19.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ali14xx.c"
+   text-time="2008-02-22T08:24:19.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="5ea9cca8b431e5a18dd5fee4a141c3c7"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:19.000000Z"/>
+<entry
+   committed-rev="3"
+   name="hd.c"
+   text-time="2008-02-22T08:24:19.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="351e744115e238ab5d33fd5fc83fb056"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:19.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Makefile"
+   text-time="2008-02-22T08:24:19.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="c4b6dabd612909381e777b2b48527849"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:19.000000Z"/>
+<entry
+   committed-rev="3"
+   name=".cvsignore"
+   text-time="2008-02-22T08:24:19.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="d8b65572e25962faaf07c20bb34d224e"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:19.000000Z"/>
+<entry
+   committed-rev="3"
+   name="dtc2278.c"
+   text-time="2008-02-22T08:24:19.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="07f4c94e248b69b18e6a255560fdf13d"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:19.000000Z"/>
+</wc-entries>

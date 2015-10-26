@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/kernel/linux/lib/zlib_deflate"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   committed-rev="3"
+   name="deftree.c"
+   text-time="2008-02-22T08:21:44.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="95cd46a4d265a41e5d4fce4781bc7dd4"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:44.000000Z"/>
+<entry
+   committed-rev="3"
+   name="deflate_syms.c"
+   text-time="2008-02-22T08:21:44.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="20f5a9940c4fbed5414dd95f807b5a9f"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:44.000000Z"/>
+<entry
+   committed-rev="3"
+   name="defutil.h"
+   text-time="2008-02-22T08:21:44.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="36afebdf441f22f5bb562eb0ea778e30"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:44.000000Z"/>
+<entry
+   committed-rev="3"
+   name="deflate.c"
+   text-time="2008-02-22T08:21:44.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="0de55d25027441f2231417c21b98d311"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:44.000000Z"/>
+<entry
+   name="CVS"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name=".cvsignore"
+   text-time="2008-02-22T08:21:44.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="735ab631b67b75d07a52edc9e01aed4c"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:44.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Makefile"
+   text-time="2008-02-22T08:21:44.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="3ed82418d6e0660af0cc86ac34cc74c6"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:44.000000Z"/>
+</wc-entries>

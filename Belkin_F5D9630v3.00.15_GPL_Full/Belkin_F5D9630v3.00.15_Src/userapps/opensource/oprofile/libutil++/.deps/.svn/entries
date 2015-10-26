@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/userapps/opensource/oprofile/libutil++/.deps"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   committed-rev="3"
+   name="file_manip.Po"
+   text-time="2008-02-22T08:24:46.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="df6272527e7ca7fa9a9306307358dc62"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:46.000000Z"/>
+<entry
+   committed-rev="3"
+   name="child_reader.Po"
+   text-time="2008-02-22T08:24:46.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="96aa630a869a01c57d5af544f8df8b52"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:46.000000Z"/>
+<entry
+   committed-rev="3"
+   name="bfd_support.Po"
+   text-time="2008-02-22T08:24:46.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="2dfd92246b7e0c79cf04af70245eec01"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:46.000000Z"/>
+<entry
+   committed-rev="3"
+   name="glob_filter.Po"
+   text-time="2008-02-22T08:24:46.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="49b794b9487783fbdbcfb84c58600307"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:46.000000Z"/>
+<entry
+   committed-rev="3"
+   name="stream_util.Po"
+   text-time="2008-02-22T08:24:46.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="0611fb0b754488acc568e4206dd401ab"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:46.000000Z"/>
+<entry
+   committed-rev="3"
+   name="op_bfd.Po"
+   text-time="2008-02-22T08:24:46.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="99c3ccd35f2343195926c8227a2f2a50"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:46.000000Z"/>
+<entry
+   committed-rev="3"
+   name="string_manip.Po"
+   text-time="2008-02-22T08:24:46.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="44dbeec088d2e519f8cfa6388912b7ca"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:46.000000Z"/>
+<entry
+   committed-rev="3"
+   name="string_filter.Po"
+   text-time="2008-02-22T08:24:46.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="0af90462af0aab11c96a17b10062f0cc"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:46.000000Z"/>
+<entry
+   committed-rev="3"
+   name="op_exception.Po"
+   text-time="2008-02-22T08:24:46.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="b04a5abfb9a46041046f8055068ecffe"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:46.000000Z"/>
+<entry
+   committed-rev="3"
+   name="cverb.Po"
+   text-time="2008-02-22T08:24:46.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="8599463e980e9a9a451336d638450b0c"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:46.000000Z"/>
+<entry
+   committed-rev="3"
+   name="path_filter.Po"
+   text-time="2008-02-22T08:24:46.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="ac54dbbf984b6a18c95db6ac5e0df77d"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:46.000000Z"/>
+</wc-entries>

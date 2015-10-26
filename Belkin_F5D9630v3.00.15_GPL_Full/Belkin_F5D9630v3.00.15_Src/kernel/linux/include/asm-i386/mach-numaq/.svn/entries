@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/kernel/linux/include/asm-i386/mach-numaq"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   committed-rev="3"
+   name="mach_ipi.h"
+   text-time="2008-02-22T08:21:12.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="b4c241543736e03d662b1d331ca62088"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:12.000000Z"/>
+<entry
+   committed-rev="3"
+   name="mach_mpparse.h"
+   text-time="2008-02-22T08:21:12.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="bc3f1fe0da9914a19c6b479c7750aa37"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:12.000000Z"/>
+<entry
+   committed-rev="3"
+   name="mach_mpspec.h"
+   text-time="2008-02-22T08:21:12.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="c61a612ac2a04df0f2ade781a4777a54"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:12.000000Z"/>
+<entry
+   committed-rev="3"
+   name="mach_apicdef.h"
+   text-time="2008-02-22T08:21:12.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="0f641c3b90e697353c90fa1e02f6219f"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:12.000000Z"/>
+<entry
+   committed-rev="3"
+   name="mach_apic.h"
+   text-time="2008-02-22T08:21:12.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="fdcd0dd0f2a68d73e6a0b9496e99267a"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:12.000000Z"/>
+<entry
+   name="CVS"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="mach_wakecpu.h"
+   text-time="2008-02-22T08:21:12.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="b97f103ed7f374f079318d147e2305fa"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:12.000000Z"/>
+</wc-entries>

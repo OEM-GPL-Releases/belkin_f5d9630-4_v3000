@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/kernel/linux/lib/zlib_inflate"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   committed-rev="3"
+   name="infcodes.h"
+   text-time="2008-02-22T08:21:45.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="3a3cfb50a8ee6028893139da5b4d00bd"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:44.000000Z"/>
+<entry
+   committed-rev="3"
+   name="inffast.h"
+   text-time="2008-02-22T08:21:45.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="5b36574bf548e373ea14cd1008bb982d"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:44.000000Z"/>
+<entry
+   committed-rev="3"
+   name="inffixed.h"
+   text-time="2008-02-22T08:21:45.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="ed3cba1221a8f4fc6a746bef36382405"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:44.000000Z"/>
+<entry
+   committed-rev="3"
+   name="infutil.c"
+   text-time="2008-02-22T08:21:45.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="78f9e69cea4cc04a68fb1ca32f26984b"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:44.000000Z"/>
+<entry
+   name="CVS"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="inftrees.c"
+   text-time="2008-02-22T08:21:45.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="1caff8eb1faea861e925e337305b6fc4"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:45.000000Z"/>
+<entry
+   committed-rev="3"
+   name="infutil.h"
+   text-time="2008-02-22T08:21:45.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="f73faa1bc71a87fd7246be5c9f472585"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:45.000000Z"/>
+<entry
+   committed-rev="3"
+   name="inflate.c"
+   text-time="2008-02-22T08:21:45.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="0384c485d0efb41d2224012ebb9e7436"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:45.000000Z"/>
+<entry
+   committed-rev="3"
+   name="inftrees.h"
+   text-time="2008-02-22T08:21:45.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="8790a90f94334d96aae05388499b6502"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:45.000000Z"/>
+<entry
+   committed-rev="3"
+   name="infblock.c"
+   text-time="2008-02-22T08:21:45.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="1fa98f2d03e1076c5b23f7b43d2ea282"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:45.000000Z"/>
+<entry
+   committed-rev="3"
+   name="infcodes.c"
+   text-time="2008-02-22T08:21:45.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="a4bd965a50e43a55ad0ec0a221d00128"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:45.000000Z"/>
+<entry
+   committed-rev="3"
+   name="inffast.c"
+   text-time="2008-02-22T08:21:45.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="ee2efe26271e82814bcd85ddd632382c"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:45.000000Z"/>
+<entry
+   committed-rev="3"
+   name=".cvsignore"
+   text-time="2008-02-22T08:21:45.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="735ab631b67b75d07a52edc9e01aed4c"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:45.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Makefile"
+   text-time="2008-02-22T08:21:45.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="688a2948bac3235be4e24f4007387a0c"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:45.000000Z"/>
+<entry
+   committed-rev="3"
+   name="infblock.h"
+   text-time="2008-02-22T08:21:45.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="1e1d3a84fdfa741c456b29a3d4a36146"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:45.000000Z"/>
+<entry
+   committed-rev="3"
+   name="inflate_syms.c"
+   text-time="2008-02-22T08:21:45.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="252045a772172e406ce450b098302176"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:45.000000Z"/>
+</wc-entries>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/kernel/linux/include/asm-sh/ec3104"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   committed-rev="3"
+   name="ec3104.h"
+   text-time="2008-02-22T08:21:16.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="e044cc4cf05b0bae76bbb87fc20ac4ee"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:16.000000Z"/>
+<entry
+   committed-rev="3"
+   name="serial.h"
+   text-time="2008-02-22T08:21:16.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="712c7aab111ee63d2b1a066337b5a6d0"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:16.000000Z"/>
+<entry
+   committed-rev="3"
+   name="keyboard.h"
+   text-time="2008-02-22T08:21:16.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="79a5a0f50dcf8bd10f5e44332250882d"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:16.000000Z"/>
+<entry
+   name="CVS"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="io.h"
+   text-time="2008-02-22T08:21:16.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="24e5f1abdfb3026afa569a0254714d4a"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:16.000000Z"/>
+</wc-entries>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/kernel/linux/arch/m68k"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   name="sun3x"
+   kind="dir"/>
+<entry
+   name="kernel"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="Kconfig"
+   text-time="2008-02-22T08:22:28.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="841c9d50eee51f4f04ee0b3d630e5539"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:26.000000Z"/>
+<entry
+   committed-rev="3"
+   name="defconfig"
+   text-time="2008-02-22T08:22:28.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="e4d13ffb38f33157217ec281515b1654"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:26.000000Z"/>
+<entry
+   name="apollo"
+   kind="dir"/>
+<entry
+   name="sun3"
+   kind="dir"/>
+<entry
+   name="hp300"
+   kind="dir"/>
+<entry
+   name="CVS"
+   kind="dir"/>
+<entry
+   name="fpsp040"
+   kind="dir"/>
+<entry
+   name="bvme6000"
+   kind="dir"/>
+<entry
+   name="tools"
+   kind="dir"/>
+<entry
+   name="mvme147"
+   kind="dir"/>
+<entry
+   name="atari"
+   kind="dir"/>
+<entry
+   name="mac"
+   kind="dir"/>
+<entry
+   name="mvme16x"
+   kind="dir"/>
+<entry
+   name="q40"
+   kind="dir"/>
+<entry
+   name="lib"
+   kind="dir"/>
+<entry
+   name="ifpsp060"
+   kind="dir"/>
+<entry
+   name="mm"
+   kind="dir"/>
+<entry
+   name="math-emu"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="Makefile"
+   text-time="2008-02-22T08:22:28.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="ce414aea29dd173b1ab65fa30d624937"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:27.000000Z"/>
+<entry
+   name="amiga"
+   kind="dir"/>
+</wc-entries>

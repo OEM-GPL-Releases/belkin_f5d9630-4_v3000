@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/bcmdrivers/broadcom/net/wl/impl2/wl/config"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   committed-rev="3"
+   name="wlconfig_lx_router_apsta"
+   text-time="2008-02-22T08:20:59.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="21a77a222ae35bbe8c16cc266ccc5027"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:20:59.000000Z"/>
+<entry
+   committed-rev="3"
+   name="wl_default_nomimo"
+   text-time="2008-02-22T08:20:59.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="71c92e14d8f8889fc91abf5181464bdb"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:20:59.000000Z"/>
+<entry
+   committed-rev="3"
+   name="wlconfig_lx_router_apsta_mimo"
+   text-time="2008-02-22T08:20:59.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="d3eda40c0a1337e9c2fe4828dd970f20"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:20:59.000000Z"/>
+<entry
+   committed-rev="3"
+   name="wl_default"
+   text-time="2008-02-22T08:20:59.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="9d2cce5d646e2b96db0672d4576a3474"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:20:59.000000Z"/>
+<entry
+   committed-rev="3"
+   name="wltunable_lx_router.h"
+   text-time="2008-02-22T08:20:59.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="27d249344c0df8276483e77b079e4277"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:20:59.000000Z"/>
+<entry
+   committed-rev="3"
+   name="wlconfig_apdef"
+   text-time="2008-02-22T08:20:59.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="21c6763c03b6b0a064214455d8c6bb83"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:20:59.000000Z"/>
+<entry
+   committed-rev="3"
+   name="wlconfig_lx_wl_dslcpe"
+   text-time="2008-02-22T08:20:59.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="e696565fd3c3f6842ca450979fd9b649"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:20:59.000000Z"/>
+<entry
+   committed-rev="3"
+   name="wltunable_lx_router_mimo.h"
+   text-time="2008-02-22T08:20:59.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="27d249344c0df8276483e77b079e4277"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:20:59.000000Z"/>
+<entry
+   committed-rev="3"
+   name="wl.mk"
+   text-time="2008-02-22T08:20:59.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="c018a50916deca5e0328fd9323940cef"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:20:59.000000Z"/>
+<entry
+   committed-rev="3"
+   name="wl_hnd"
+   text-time="2008-02-22T08:20:59.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="92c3bbde8713b8f9b502b4482691cfeb"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:20:59.000000Z"/>
+<entry
+   committed-rev="3"
+   name="wlconfig_lx_router_ap"
+   text-time="2008-02-22T08:20:59.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="f72e6d7c793737682fd53d5ba70b4124"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:20:59.000000Z"/>
+<entry
+   committed-rev="3"
+   name="wlconfig_lx_router_ap_mimo"
+   text-time="2008-02-22T08:20:59.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="006a7da91d51440033aa3c2ab7c6a61c"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:20:59.000000Z"/>
+</wc-entries>

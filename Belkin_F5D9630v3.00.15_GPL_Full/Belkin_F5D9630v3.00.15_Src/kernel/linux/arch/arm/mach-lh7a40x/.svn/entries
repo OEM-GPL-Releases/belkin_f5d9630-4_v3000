@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/kernel/linux/arch/arm/mach-lh7a40x"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   committed-rev="3"
+   name="arch-lpd7a40x.c"
+   text-time="2008-02-22T08:22:09.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="02f4aa89cec5bfc52c1a0fca13ba4603"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:09.000000Z"/>
+<entry
+   committed-rev="3"
+   name="time.c"
+   text-time="2008-02-22T08:22:09.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="5454b9e0b71bce00a39b801bc76a55bf"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:09.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Kconfig"
+   text-time="2008-02-22T08:22:09.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="21fc8834c540d8b4d529fa332b0440cc"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:09.000000Z"/>
+<entry
+   committed-rev="3"
+   name="irq-lh7a400.c"
+   text-time="2008-02-22T08:22:09.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="717940261901894b5d329d8dd31e2833"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:09.000000Z"/>
+<entry
+   name="CVS"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="irq-kev7a400.c"
+   text-time="2008-02-22T08:22:09.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="31ee09a665ab7b94df7f22db95b9b1fb"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:09.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Makefile"
+   text-time="2008-02-22T08:22:09.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="a67e04b1ab3def17e5c3d8b1864bb6d4"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:09.000000Z"/>
+<entry
+   committed-rev="3"
+   name="arch-kev7a400.c"
+   text-time="2008-02-22T08:22:09.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="2ff33ce96a14d24de0aef9898222f6d7"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:09.000000Z"/>
+<entry
+   committed-rev="3"
+   name="irq-lh7a404.c"
+   text-time="2008-02-22T08:22:09.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="468c03084d39bb238fe4ab7d89e7a2b4"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:09.000000Z"/>
+<entry
+   committed-rev="3"
+   name="irq-lpd7a40x.c"
+   text-time="2008-02-22T08:22:09.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="099df8f424d8d36514ec7ecd421ee906"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:09.000000Z"/>
+</wc-entries>

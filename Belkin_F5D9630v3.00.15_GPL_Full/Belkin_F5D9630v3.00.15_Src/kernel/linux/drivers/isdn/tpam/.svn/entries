@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/kernel/linux/drivers/isdn/tpam"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   committed-rev="3"
+   name="Kconfig"
+   text-time="2008-02-22T08:23:34.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="5ec97165b91e7966312242a1305fda94"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:34.000000Z"/>
+<entry
+   committed-rev="3"
+   name="tpam_nco.c"
+   text-time="2008-02-22T08:23:34.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="af6f3a4c056d4f656db92e61e8eca74f"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:34.000000Z"/>
+<entry
+   committed-rev="3"
+   name="tpam_commands.c"
+   text-time="2008-02-22T08:23:34.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="9a1c63f04afaafb4d18114bf081c0a23"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:34.000000Z"/>
+<entry
+   committed-rev="3"
+   name="tpam_main.c"
+   text-time="2008-02-22T08:23:34.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="d83711a646b6ffee052ea458deb13d1e"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:34.000000Z"/>
+<entry
+   committed-rev="3"
+   name="tpam.h"
+   text-time="2008-02-22T08:23:34.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="5702515362d0c3ab0b83fb750b5d4840"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:34.000000Z"/>
+<entry
+   committed-rev="3"
+   name="tpam_queues.c"
+   text-time="2008-02-22T08:23:34.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="f95f82c587e8a53a7edf78d14468d74e"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:34.000000Z"/>
+<entry
+   committed-rev="3"
+   name="tpam_memory.c"
+   text-time="2008-02-22T08:23:34.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="686bcd06356e3093fa249ddd01f75c46"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:34.000000Z"/>
+<entry
+   name="CVS"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="tpam_crcpc.c"
+   text-time="2008-02-22T08:23:34.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="59e26d253722ff0e62fd8f0b11d2ee7c"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:34.000000Z"/>
+<entry
+   committed-rev="3"
+   name="tpam_hdlc.c"
+   text-time="2008-02-22T08:23:34.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="cb55ddbf484d4bfbbd734773bf75f4e3"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:34.000000Z"/>
+<entry
+   committed-rev="3"
+   name=".cvsignore"
+   text-time="2008-02-22T08:23:34.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="d8b65572e25962faaf07c20bb34d224e"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:34.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Makefile"
+   text-time="2008-02-22T08:23:34.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="dddf8b73eba64b34fded4870f8061cfc"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:34.000000Z"/>
+</wc-entries>

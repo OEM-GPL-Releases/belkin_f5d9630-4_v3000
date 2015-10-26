@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/kernel/linux/include/asm-mips/mach-jazz"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   committed-rev="3"
+   name="floppy.h"
+   text-time="2008-02-22T08:21:07.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="4b296db8860a96edc249f6af5c9ac899"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:07.000000Z"/>
+<entry
+   committed-rev="3"
+   name="param.h"
+   text-time="2008-02-22T08:21:07.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="15c6d5da0743851c2aaf1cf6ea2eb09d"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:07.000000Z"/>
+<entry
+   committed-rev="3"
+   name="mc146818rtc.h"
+   text-time="2008-02-22T08:21:07.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="b0f570df6425d9368fdf4ff124d08101"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:07.000000Z"/>
+<entry
+   name="CVS"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="timex.h"
+   text-time="2008-02-22T08:21:07.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="5135d3fc1e3f3488a39ad3cf57d1cb73"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:07.000000Z"/>
+</wc-entries>

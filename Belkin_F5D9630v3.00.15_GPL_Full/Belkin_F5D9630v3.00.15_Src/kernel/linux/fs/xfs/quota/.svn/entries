@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/kernel/linux/fs/xfs/quota"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   committed-rev="3"
+   name="xfs_quota_priv.h"
+   text-time="2008-02-22T08:21:49.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="83b94b3ca2f5131fe875edf072a479b4"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:48.000000Z"/>
+<entry
+   committed-rev="3"
+   name="xfs_dquot_item.h"
+   text-time="2008-02-22T08:21:49.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="5e5354e576b174c22b0ccecae72520d2"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:48.000000Z"/>
+<entry
+   committed-rev="3"
+   name="xfs_qm_stats.h"
+   text-time="2008-02-22T08:21:49.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="8fc653400e6c95c52cc3494443bbb7f1"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:48.000000Z"/>
+<entry
+   committed-rev="3"
+   name="xfs_dquot.h"
+   text-time="2008-02-22T08:21:49.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="c8de8857c0af7eae0354803a43a02fd8"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:48.000000Z"/>
+<entry
+   committed-rev="3"
+   name="xfs_qm.h"
+   text-time="2008-02-22T08:21:49.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="9c626b6806f29118c1abfe6cbe87016d"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:48.000000Z"/>
+<entry
+   committed-rev="3"
+   name="xfs_trans_dquot.c"
+   text-time="2008-02-22T08:21:49.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="94a2f37cda886da90a14a1fda926b6ab"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:48.000000Z"/>
+<entry
+   name="CVS"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="xfs_dquot_item.c"
+   text-time="2008-02-22T08:21:49.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="424620de1cf7c483d11e958e40b93dea"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:49.000000Z"/>
+<entry
+   committed-rev="3"
+   name="xfs_qm_syscalls.c"
+   text-time="2008-02-22T08:21:49.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="7f82ae81e331d62fa5034e781441f3e6"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:49.000000Z"/>
+<entry
+   committed-rev="3"
+   name="xfs_qm_stats.c"
+   text-time="2008-02-22T08:21:49.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="dcb5cdfed9f89d1701958818aa47b015"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:49.000000Z"/>
+<entry
+   committed-rev="3"
+   name=".cvsignore"
+   text-time="2008-02-22T08:21:49.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="d8b65572e25962faaf07c20bb34d224e"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:49.000000Z"/>
+<entry
+   committed-rev="3"
+   name="xfs_dquot.c"
+   text-time="2008-02-22T08:21:49.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="23a8922402942f839c294bd23af1793e"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:49.000000Z"/>
+<entry
+   committed-rev="3"
+   name="xfs_qm_bhv.c"
+   text-time="2008-02-22T08:21:49.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="785221bb9025d07e06c2e359e26bf1d0"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:49.000000Z"/>
+<entry
+   committed-rev="3"
+   name="xfs_qm.c"
+   text-time="2008-02-22T08:21:49.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="d21cbd35fbed84322cb974d168fd9bfd"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:49.000000Z"/>
+</wc-entries>

@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/kernel/linux/drivers/s390/scsi"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   committed-rev="3"
+   name="zfcp_ccw.c"
+   text-time="2008-02-22T08:23:39.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="dc82a55da2e6bb608cef9a628afcb817"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:39.000000Z"/>
+<entry
+   committed-rev="3"
+   name="zfcp_fsf.c"
+   text-time="2008-02-22T08:23:39.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="3804a8dc7950a4821f218d1e8f87bc98"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:39.000000Z"/>
+<entry
+   committed-rev="3"
+   name="zfcp_sysfs_driver.c"
+   text-time="2008-02-22T08:23:39.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="5c147a97524c848a2e1716cda2265470"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:39.000000Z"/>
+<entry
+   committed-rev="3"
+   name="zfcp_fsf.h"
+   text-time="2008-02-22T08:23:39.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="4a68e6e008265a92d89207bde765ff20"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:39.000000Z"/>
+<entry
+   committed-rev="3"
+   name="zfcp_erp.c"
+   text-time="2008-02-22T08:23:39.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="05f326d3e1a1e1f1a687f3426513b779"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:39.000000Z"/>
+<entry
+   name="CVS"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="zfcp_qdio.c"
+   text-time="2008-02-22T08:23:39.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="a6f7c72c129f6115f74a1f697b30f9c0"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:39.000000Z"/>
+<entry
+   committed-rev="3"
+   name="zfcp_aux.c"
+   text-time="2008-02-22T08:23:39.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="03e8e33679d80d1de89523bc89c126b2"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:39.000000Z"/>
+<entry
+   committed-rev="3"
+   name="zfcp_scsi.c"
+   text-time="2008-02-22T08:23:39.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="ede9b5f29877b34802371ae1088b1768"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:39.000000Z"/>
+<entry
+   committed-rev="3"
+   name="zfcp_def.h"
+   text-time="2008-02-22T08:23:39.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="720e9d1c48e469bed918719277084447"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:39.000000Z"/>
+<entry
+   committed-rev="3"
+   name="zfcp_ext.h"
+   text-time="2008-02-22T08:23:39.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="17b5846b345d7c7cb4636bd8821b579a"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:39.000000Z"/>
+<entry
+   committed-rev="3"
+   name="zfcp_sysfs_unit.c"
+   text-time="2008-02-22T08:23:39.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="48f1cbc190dc4a6c0183ee991d0d28ff"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:39.000000Z"/>
+<entry
+   committed-rev="3"
+   name="zfcp_sysfs_adapter.c"
+   text-time="2008-02-22T08:23:39.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="3d4175456e8833451294206597aa2a30"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:39.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Makefile"
+   text-time="2008-02-22T08:23:39.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="cb3db2ef2b32a8e8d4a429fbedc324df"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:39.000000Z"/>
+<entry
+   committed-rev="3"
+   name="zfcp_sysfs_port.c"
+   text-time="2008-02-22T08:23:39.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="cebbb75e6be0b374c5c1f181afe5ec96"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:39.000000Z"/>
+</wc-entries>

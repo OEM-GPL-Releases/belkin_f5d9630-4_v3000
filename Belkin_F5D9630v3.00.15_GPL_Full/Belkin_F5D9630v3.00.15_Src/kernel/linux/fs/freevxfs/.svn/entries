@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/kernel/linux/fs/freevxfs"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   committed-rev="3"
+   name="vxfs_fshead.c"
+   text-time="2008-02-22T08:21:54.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="d0f081b271884cc95c308356d0944652"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:53.000000Z"/>
+<entry
+   committed-rev="3"
+   name="vxfs_immed.c"
+   text-time="2008-02-22T08:21:54.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="c66bbda2ff4f34600ba1acf4ea3c68d1"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:53.000000Z"/>
+<entry
+   committed-rev="3"
+   name="vxfs_super.c"
+   text-time="2008-02-22T08:21:54.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="8c2dd2b05042ab03ffadfb4ee29b39bd"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:54.000000Z"/>
+<entry
+   committed-rev="3"
+   name="vxfs_inode.c"
+   text-time="2008-02-22T08:21:54.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="ea90011600dd31e897fda8b2f00c92fd"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:54.000000Z"/>
+<entry
+   committed-rev="3"
+   name="vxfs_olt.c"
+   text-time="2008-02-22T08:21:54.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="c8bf6de9bf6e8041656dc7a90fc57a18"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:53.000000Z"/>
+<entry
+   committed-rev="3"
+   name="vxfs_fshead.h"
+   text-time="2008-02-22T08:21:54.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="3d85e5cdaf9dddc61191ca4b363971cf"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:54.000000Z"/>
+<entry
+   committed-rev="3"
+   name="vxfs_inode.h"
+   text-time="2008-02-22T08:21:54.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="8ca2204877cdf96330f5207c16e0bee5"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:54.000000Z"/>
+<entry
+   committed-rev="3"
+   name="vxfs_kcompat.h"
+   text-time="2008-02-22T08:21:54.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="811fe25ac377d7cd8e0e3b75cc7e0248"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:54.000000Z"/>
+<entry
+   committed-rev="3"
+   name="vxfs_olt.h"
+   text-time="2008-02-22T08:21:54.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="3f4597593494d4c86d6dafbbab5692d3"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:54.000000Z"/>
+<entry
+   name="CVS"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="vxfs_lookup.c"
+   text-time="2008-02-22T08:21:54.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="8330f5c95e6416888cc339f91fe19201"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:54.000000Z"/>
+<entry
+   committed-rev="3"
+   name="vxfs_extern.h"
+   text-time="2008-02-22T08:21:54.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="d4f1d64349990343bd7dbcc795117241"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:54.000000Z"/>
+<entry
+   committed-rev="3"
+   name="vxfs_subr.c"
+   text-time="2008-02-22T08:21:54.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="58a4ba298ab884350fe6ad27be0cf91e"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:54.000000Z"/>
+<entry
+   committed-rev="3"
+   name="vxfs_bmap.c"
+   text-time="2008-02-22T08:21:54.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="36d3ce2b01737f59a246781440563457"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:54.000000Z"/>
+<entry
+   committed-rev="3"
+   name="vxfs_dir.h"
+   text-time="2008-02-22T08:21:54.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="a0728a56864d48dbfbf8e63323bd3cc4"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:54.000000Z"/>
+<entry
+   committed-rev="3"
+   name="vxfs.h"
+   text-time="2008-02-22T08:21:54.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="1ea72064ed260c320f5ca0969ca6fdde"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:54.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Makefile"
+   text-time="2008-02-22T08:21:54.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="78b617d06af0c8277fd28213357a6273"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:54.000000Z"/>
+<entry
+   committed-rev="3"
+   name=".cvsignore"
+   text-time="2008-02-22T08:21:54.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="735ab631b67b75d07a52edc9e01aed4c"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:54.000000Z"/>
+</wc-entries>

@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/userapps/opensource/sshd/debian"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   committed-rev="3"
+   name="control"
+   text-time="2008-02-22T08:25:15.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="3ad792b103e6b83d4e2a16362bdb0d6d"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:25:15.000000Z"/>
+<entry
+   committed-rev="3"
+   name="dropbear.postinst"
+   text-time="2008-02-22T08:25:15.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="938c80e7a4325bd23a41839796d63a09"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:25:15.000000Z"/>
+<entry
+   committed-rev="3"
+   name="dropbear.default"
+   text-time="2008-02-22T08:25:15.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="d41d8cd98f00b204e9800998ecf8427e"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:25:15.000000Z"/>
+<entry
+   committed-rev="3"
+   name="dropbear.postrm"
+   text-time="2008-02-22T08:25:15.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="0d57427580ee5d4199a49f220dac1611"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:25:15.000000Z"/>
+<entry
+   committed-rev="3"
+   name="dropbear.prerm"
+   text-time="2008-02-22T08:25:15.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="914efd7ce8d2435ff233c4070feaea0d"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:25:15.000000Z"/>
+<entry
+   committed-rev="3"
+   name="dropbear.docs"
+   text-time="2008-02-22T08:25:15.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="81eff8690973161b74ac750f9d35aadd"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:25:15.000000Z"/>
+<entry
+   committed-rev="3"
+   name="changelog"
+   text-time="2008-02-22T08:25:15.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="ac30718712d35eb0ee7030a001d002d8"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:25:15.000000Z"/>
+<entry
+   committed-rev="3"
+   name="rules"
+   text-time="2008-02-22T08:25:15.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="bfb02e7ff0668f7c51751938d8bd6546"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:25:15.000000Z"/>
+<entry
+   committed-rev="3"
+   name="README.runit"
+   text-time="2008-02-22T08:25:15.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="28adedcb3c634b2f4c5423be25daf8c8"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:25:15.000000Z"/>
+<entry
+   committed-rev="3"
+   name="dropbear.init"
+   text-time="2008-02-22T08:25:15.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="84da1a64253ce9e3608eb341f376c8ca"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:25:15.000000Z"/>
+<entry
+   name="service"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="README.Debian.diet"
+   text-time="2008-02-22T08:25:15.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="c4a304c10862f62b6b8a107b4e1bccc3"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:25:15.000000Z"/>
+<entry
+   committed-rev="3"
+   name="dropbear.conffiles"
+   text-time="2008-02-22T08:25:15.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="778279f510df5c9ad2e57b64754dff1a"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:25:15.000000Z"/>
+<entry
+   committed-rev="3"
+   name="implicit"
+   text-time="2008-02-22T08:25:15.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="89ceefafa9c6abf29f20c4f7dd8ead07"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:25:15.000000Z"/>
+<entry
+   committed-rev="3"
+   name="dropbear.README.Debian"
+   text-time="2008-02-22T08:25:15.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="9e11f27173bb9f732bb81f692751f8e9"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:25:15.000000Z"/>
+<entry
+   committed-rev="3"
+   name="copyright.in"
+   text-time="2008-02-22T08:25:15.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="ccd97ae8f30a4a79d6538bc6cc43030d"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:25:15.000000Z"/>
+<entry
+   committed-rev="3"
+   name="README.Debian"
+   text-time="2008-02-22T08:25:15.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="9e11f27173bb9f732bb81f692751f8e9"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:25:15.000000Z"/>
+</wc-entries>

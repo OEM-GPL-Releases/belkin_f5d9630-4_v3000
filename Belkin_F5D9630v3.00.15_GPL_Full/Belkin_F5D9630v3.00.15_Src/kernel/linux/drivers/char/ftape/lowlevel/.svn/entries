@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/kernel/linux/drivers/char/ftape/lowlevel"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   committed-rev="3"
+   name="ftape-init.c"
+   text-time="2008-02-22T08:23:54.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="ccf91a560c2df7e235af0889ae5bd5bf"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:54.000000Z"/>
+<entry
+   committed-rev="3"
+   name="fdc-io.c"
+   text-time="2008-02-22T08:23:54.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="8c3921aedb22467ffa10dae927c16493"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:54.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ftape-io.c"
+   text-time="2008-02-22T08:23:54.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="d16b359447c7ee2281296d318647ab5a"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:54.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ftape-init.h"
+   text-time="2008-02-22T08:23:54.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="5e392ec85dc871350d8e95baee505cde"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:54.000000Z"/>
+<entry
+   committed-rev="3"
+   name="fdc-io.h"
+   text-time="2008-02-22T08:23:54.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="5473c1127e5687406593b2e78b294cae"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:54.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ftape-read.c"
+   text-time="2008-02-22T08:23:54.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="49089c7bd55fd63cdd377ed21e98f752"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:54.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ftape-io.h"
+   text-time="2008-02-22T08:23:54.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="5325027e929a78c58d18c6bf1b962329"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:54.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ftape_syms.c"
+   text-time="2008-02-22T08:23:54.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="aca649ee6a8670802306b168cf179a75"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:54.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ftape-read.h"
+   text-time="2008-02-22T08:23:54.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="3dd037f03e6e8158d02e0f8ddeb973f7"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:54.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ftape-bsm.c"
+   text-time="2008-02-22T08:23:54.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="76260bed7a49860f82ea8d1475140fa5"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:54.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ftape-bsm.h"
+   text-time="2008-02-22T08:23:54.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="e3dbf8a7d0b0b4af50ca27dc61746516"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:54.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ftape-write.c"
+   text-time="2008-02-22T08:23:54.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="9c56f7913114310337647ccd2ac099e9"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:54.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ftape-calibr.c"
+   text-time="2008-02-22T08:23:54.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="05588d54eae120016fe988dbce442872"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:54.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ftape-write.h"
+   text-time="2008-02-22T08:23:54.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="c8abbe9efc9759f83d35987e2871077e"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:54.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Makefile"
+   text-time="2008-02-22T08:23:54.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="019b27fd148069335fbd3c5861f981e7"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:54.000000Z"/>
+<entry
+   committed-rev="3"
+   name=".cvsignore"
+   text-time="2008-02-22T08:23:54.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="d8b65572e25962faaf07c20bb34d224e"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:54.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ftape-setup.c"
+   text-time="2008-02-22T08:23:54.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="d8a0e9d5177b00ff10d11c74ea58403e"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:54.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ftape-calibr.h"
+   text-time="2008-02-22T08:23:54.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="c17a780335a7ca39ea72623d96fe185e"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:54.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ftape-proc.c"
+   text-time="2008-02-22T08:23:54.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="44290e5796af2204725c8019fc6f7068"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:54.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ftape-proc.h"
+   text-time="2008-02-22T08:23:54.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="02e52ce72582f325b0f51a0ef3201903"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:54.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ftape-buffer.c"
+   text-time="2008-02-22T08:23:54.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="73ae48a651a22654efc049a78fff2eb9"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:54.000000Z"/>
+<entry
+   committed-rev="3"
+   name="fc-10.c"
+   text-time="2008-02-22T08:23:54.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="d65880c0c6181135f0c602c152b57b0e"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:54.000000Z"/>
+<entry
+   name="CVS"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="ftape-buffer.h"
+   text-time="2008-02-22T08:23:54.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="901be5d12a520506c2b17a46f62250e2"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:54.000000Z"/>
+<entry
+   committed-rev="3"
+   name="fc-10.h"
+   text-time="2008-02-22T08:23:54.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="e1a3e6485c4b7d9c9cea19f8243200c5"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:54.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ftape-ctl.c"
+   text-time="2008-02-22T08:23:54.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="a56a80c518fc388a705249d115fe1825"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:54.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ftape-tracing.c"
+   text-time="2008-02-22T08:23:54.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="6bd0328e8ee030725c92486a11e9c107"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:54.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ftape-ctl.h"
+   text-time="2008-02-22T08:23:54.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="9cc12f12a3b940d95c2310a4dc41fe28"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:54.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ftape-format.c"
+   text-time="2008-02-22T08:23:54.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="0f9c9f6980ffceb01e29bb3c1e4c3323"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:54.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ftape-rw.c"
+   text-time="2008-02-22T08:23:54.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="e69c643c3522a9f07fbaa76b877c2c46"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:54.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ftape-ecc.c"
+   text-time="2008-02-22T08:23:54.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="7bc822c81e378f15af63f52115cd5832"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:54.000000Z"/>
+<entry
+   committed-rev="3"
+   name="fdc-isr.c"
+   text-time="2008-02-22T08:23:54.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="cd84dc642f04a832e07d59b84b7eaf9a"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:54.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ftape-tracing.h"
+   text-time="2008-02-22T08:23:54.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="38cda4584ecbb74f3ac5782961526f2d"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:54.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ftape-rw.h"
+   text-time="2008-02-22T08:23:54.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="930a60a8ffe4afecc38ede4d23ae4cca"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:54.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ftape-format.h"
+   text-time="2008-02-22T08:23:54.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="bf27511e03e3a41b698ca63d6a7f2ffc"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:54.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ftape-ecc.h"
+   text-time="2008-02-22T08:23:54.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="b9cd0554406ec898c76b217e9db07c4c"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:54.000000Z"/>
+<entry
+   committed-rev="3"
+   name="fdc-isr.h"
+   text-time="2008-02-22T08:23:54.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="0d3d317059e2a7194aa03fba7b4ea853"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:54.000000Z"/>
+</wc-entries>

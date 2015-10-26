@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/kernel/linux/drivers/misc/ibmasm"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   committed-rev="3"
+   name="i2o.h"
+   text-time="2008-02-22T08:24:18.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="aea81987c853fc6417ed52c1336f79b5"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:18.000000Z"/>
+<entry
+   committed-rev="3"
+   name="lowlevel.h"
+   text-time="2008-02-22T08:24:18.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="240430aa73df6db0a130255d123ba254"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:18.000000Z"/>
+<entry
+   committed-rev="3"
+   name="heartbeat.c"
+   text-time="2008-02-22T08:24:18.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="db2d67595ba7dc40357e9fd6e8158682"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:18.000000Z"/>
+<entry
+   committed-rev="3"
+   name="remote.h"
+   text-time="2008-02-22T08:24:18.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="b5144ae072a05c946ab82f49dc755928"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:18.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ibmasmfs.c"
+   text-time="2008-02-22T08:24:18.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="a21f19ef4a20ab960f1de83547c4197a"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:18.000000Z"/>
+<entry
+   name="CVS"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="uart.c"
+   text-time="2008-02-22T08:24:18.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="8a3f19291323c0d499e0f8c02dfa7331"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:18.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ibmasm.h"
+   text-time="2008-02-22T08:24:18.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="8b1da0a52e29d32d76d90fef9622ffb0"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:18.000000Z"/>
+<entry
+   committed-rev="3"
+   name="command.c"
+   text-time="2008-02-22T08:24:18.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="7d926cb90533dec72183c01da3ea3002"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:18.000000Z"/>
+<entry
+   committed-rev="3"
+   name="r_heartbeat.c"
+   text-time="2008-02-22T08:24:18.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="36e3a2847ba9c0ddaf6874863e3fceb7"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:18.000000Z"/>
+<entry
+   committed-rev="3"
+   name="event.c"
+   text-time="2008-02-22T08:24:18.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="d0cc06a835d1ca8314f95e494b05a958"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:18.000000Z"/>
+<entry
+   committed-rev="3"
+   name="dot_command.c"
+   text-time="2008-02-22T08:24:18.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="1f561917478bc574d0d1403c26e5349f"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:18.000000Z"/>
+<entry
+   committed-rev="3"
+   name="module.c"
+   text-time="2008-02-22T08:24:18.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="c24dddbfbeb836c684ef41f4a44e4120"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:18.000000Z"/>
+<entry
+   committed-rev="3"
+   name="dot_command.h"
+   text-time="2008-02-22T08:24:18.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="76d4214dad757322053d9a6d44297e1f"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:18.000000Z"/>
+<entry
+   committed-rev="3"
+   name="lowlevel.c"
+   text-time="2008-02-22T08:24:18.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="d11c0f9c5a263bd4fb91118503a24a81"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:18.000000Z"/>
+<entry
+   committed-rev="3"
+   name="remote.c"
+   text-time="2008-02-22T08:24:18.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="17f9702c854b88b43543018ba0726610"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:18.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Makefile"
+   text-time="2008-02-22T08:24:18.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="09f5a43eb142b7875870aaf4444db889"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:18.000000Z"/>
+</wc-entries>

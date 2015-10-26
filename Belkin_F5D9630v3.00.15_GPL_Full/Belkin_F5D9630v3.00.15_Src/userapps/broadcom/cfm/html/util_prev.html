@@ -1,0 +1,110 @@
+<html>
+   <head>
+      <meta HTTP-EQUIV='Pragma' CONTENT='no-cache'>
+	  <meta http-equiv="refresh" content="<%ejGet(timeout_refresh)%>">
+<link rel="stylesheet" href="main_router.css" type='text/css'>
+
+		<%ejGet("curLanguage")%>
+		<SCRIPT>assign_var();</SCRIPT>
+
+
+<SCRIPT language=JavaScript src="showMenu.js"></SCRIPT>
+            <script language="javascript" src="util.js"></script>
+            <script language="javascript">
+<!-- hide
+strHtml='<title>'+utm_1+' &gt; '+utps_1+'</title>';
+dw(strHtml);
+
+
+
+var autoup = '<%ejGet(autoUpgrade_flag)%>';
+
+if(autoup == '1')
+{
+	newwin=window.open("checkfw.html","Firmware","toolbar=no,location=no,directories=no,status=no,menubar=no,scrollbars=yes,width=395,height=200,resizable=0");
+	newwin.focus();
+}
+
+
+
+var progress = 0;
+
+function isInProgress() {
+   if ( progress == 0 )  {
+      progress = 1;
+      return true;
+   }
+   alert(utps_2);
+   return false;
+}
+
+function btnApply()
+{
+	if(confirm(utps_3))
+	{	
+		alert(utps_4);
+		document.forms[0].submit();		
+	}
+
+
+}
+
+// done hiding -->
+</script>
+   </head>
+   <body  bgColor="#ffffff" leftMargin="0" topMargin="0" marginheight="0" marginwidth="0">
+         <form method='post' ENCTYPE='multipart/form-data' action='util_prev.cgi' onSubmit='return isInProgress();'>
+       <SCRIPT language=JavaScript>
+	var helpItem 	='Restore Previous Settings';
+	var menuSection	='Util';
+	var menuItem	='Restore Previous Settings';
+	var isAPmode = '<%ejGet(enblNat)%>';
+		
+	var wanStatus = '<%ejGetOther(isUp)%>';
+	showHead(wanStatus,helpItem);
+	showMenu(menuSection,menuItem,isAPmode)
+	</SCRIPT>  
+<TD class=head_bold width="90%" valign="top"><Br>
+<font class="head_bold"><b>&nbsp;&nbsp;&nbsp;<script>dw(utm_1);</script> &gt; <script>dw(utps_1);</script></b></font><Br><br>
+
+
+               <table width="518" height="24" border="0" cellpadding="0" cellspacing="0">
+                  <tr>
+				  	 <Td width="114"></Td>
+                     <td width="404" class="copy_1">
+
+					<script>dw(utps_5);</script>					</td>
+				 </tr>	 
+	</table>
+
+
+            <br><Br>
+
+            <table border="0" cellpadding="0" cellspacing="0" >
+               <tr>
+                  <td width="187"></td>
+                  <td width="492"><font face="Verdana">
+                 <input type='file'style="border-color:#3399cc; border-style:solid; border-width: 1px;"
+ 					  name='filename' size='29'></font></td>
+               </tr>
+               <tr>
+                  <td width="187"></td>
+                  <td width="492"></td>
+               </tr>
+               <tr>
+                  <td width="187"><Br><br></td>
+                  <td width="492"><Br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				  <script>
+				  	var info = "<input type='button' style='height:25px; width:120px;' value='"+utps_6+"' class='submitBtn' onClick='btnApply()' name='btn_restore'>";
+				  	dw(info);
+				  </script>
+			     </td>
+               </tr>
+            </table>
+            <p align="center"></p>	    
+
+		  </TD></TR></TBODY></TABLE></TD>
+
+         </form>  
+   </body>
+</html>

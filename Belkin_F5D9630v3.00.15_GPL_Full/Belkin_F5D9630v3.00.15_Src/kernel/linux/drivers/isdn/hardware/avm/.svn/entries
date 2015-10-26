@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/kernel/linux/drivers/isdn/hardware/avm"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   committed-rev="3"
+   name="b1pci.c"
+   text-time="2008-02-22T08:23:33.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="5fd9485b40542d7dd41ee9f2b2803895"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:33.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Kconfig"
+   text-time="2008-02-22T08:23:33.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="511a2251c9972d695f17783c0ee8d411"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:33.000000Z"/>
+<entry
+   committed-rev="3"
+   name="b1isa.c"
+   text-time="2008-02-22T08:23:33.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="030a0c8a371cc98825aa6648e84ea69b"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:33.000000Z"/>
+<entry
+   committed-rev="3"
+   name="b1pcmcia.c"
+   text-time="2008-02-22T08:23:33.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="4c464e3160ad4065193aa5c1f1856bd4"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:33.000000Z"/>
+<entry
+   committed-rev="3"
+   name="t1pci.c"
+   text-time="2008-02-22T08:23:33.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="b36dc8dd2d6fc41d0969c88e77633729"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:33.000000Z"/>
+<entry
+   committed-rev="3"
+   name="t1isa.c"
+   text-time="2008-02-22T08:23:33.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="b4f4137085888a40dfbee3312f6cabc9"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:33.000000Z"/>
+<entry
+   committed-rev="3"
+   name="avmcard.h"
+   text-time="2008-02-22T08:23:33.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="ba89603bfb368141dfd8cbdfcd78f015"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:33.000000Z"/>
+<entry
+   committed-rev="3"
+   name="b1.c"
+   text-time="2008-02-22T08:23:33.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="7abba41d007ee0cca49152b9c6f84e0b"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:33.000000Z"/>
+<entry
+   committed-rev="3"
+   name="b1dma.c"
+   text-time="2008-02-22T08:23:33.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="e115a69a65ef4ed9183a473c55928755"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:33.000000Z"/>
+<entry
+   committed-rev="3"
+   name="c4.c"
+   text-time="2008-02-22T08:23:33.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="33b76af8e029ebc8e6a327488b9a42f8"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:33.000000Z"/>
+<entry
+   committed-rev="3"
+   name="avm_cs.c"
+   text-time="2008-02-22T08:23:33.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="085512744026c5a6f6e720fc7c694988"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:33.000000Z"/>
+<entry
+   name="CVS"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name=".cvsignore"
+   text-time="2008-02-22T08:23:33.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="d8b65572e25962faaf07c20bb34d224e"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:33.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Makefile"
+   text-time="2008-02-22T08:23:33.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="d0fb9dd1f187abedadb026107c29d427"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:33.000000Z"/>
+</wc-entries>

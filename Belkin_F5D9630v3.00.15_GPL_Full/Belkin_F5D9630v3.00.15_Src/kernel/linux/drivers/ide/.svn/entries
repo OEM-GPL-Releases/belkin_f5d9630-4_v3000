@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/kernel/linux/drivers/ide"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   name="arm"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="Kconfig"
+   text-time="2008-02-22T08:24:20.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="4b6ef5c468ea2779bf9a700fdc8c61d2"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:19.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ide-dma.c"
+   text-time="2008-02-22T08:24:20.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="5b91fb6468aff643351f181fabdac45d"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:19.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ide.c"
+   text-time="2008-02-22T08:24:20.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="7084ab885d92b9d3ea8c469d400d8306"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:19.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ide-taskfile.c"
+   text-time="2008-02-22T08:24:20.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="3a3980f051ea2e831a2c767debacbc77"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:19.000000Z"/>
+<entry
+   name="ppc"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="ide-proc.c"
+   text-time="2008-02-22T08:24:20.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="937a4f7a6b8da743f3aedd762f7ab60f"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:19.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ide-lib.c"
+   text-time="2008-02-22T08:24:20.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="29aa1d5b0217d425ef2fd557d13eb55b"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:19.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ide-probe.c"
+   text-time="2008-02-22T08:24:20.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="d33d08a79713d0d6c6ec880ecf238d4d"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:19.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ide-io.c"
+   text-time="2008-02-22T08:24:20.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="548809a3059ae9a185fb90ed9b065664"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:19.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ide-floppy.c"
+   text-time="2008-02-22T08:24:20.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="7b47149e3d9ba9b3b89dec011608fc9d"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:19.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ide-iops.c"
+   text-time="2008-02-22T08:24:20.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="3bc8f1ab692ea3c53b7573cda67eb185"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:19.000000Z"/>
+<entry
+   committed-rev="3"
+   name="setup-pci.c"
+   text-time="2008-02-22T08:24:20.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="3e5730b3e5169fa68e9925ae76a3d3c7"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:19.000000Z"/>
+<entry
+   name="CVS"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="ide-generic.c"
+   text-time="2008-02-22T08:24:20.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="edadf25f8e1a8e2fe99806491745ac50"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:19.000000Z"/>
+<entry
+   name="h8300"
+   kind="dir"/>
+<entry
+   name="legacy"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="ide-default.c"
+   text-time="2008-02-22T08:24:20.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="fb7ff0f02f3b1b956de21a4cf80d7470"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:19.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ide-cd.c"
+   text-time="2008-02-22T08:24:20.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="e28e0e26a70632d6d6f7e0848238e185"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:19.000000Z"/>
+<entry
+   name="mips"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="ide-tape.c"
+   text-time="2008-02-22T08:24:20.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="a603fdacd29322b69b236ec23261cacd"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:20.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ide-disk.c"
+   text-time="2008-02-22T08:24:20.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="c9ff4065721950679ebe98dc03b1c3e4"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:20.000000Z"/>
+<entry
+   name="pci"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="ide-cd.h"
+   text-time="2008-02-22T08:24:20.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="7f9272781141b1dc9204069cac2b86ba"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:20.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ide-timing.h"
+   text-time="2008-02-22T08:24:20.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="e6bc834ba35bdb30e0c9c13d3b4e9063"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:20.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Makefile"
+   text-time="2008-02-22T08:24:20.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="a8519f50835be5f1d38c5df64d1c18a0"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:20.000000Z"/>
+<entry
+   committed-rev="3"
+   name=".cvsignore"
+   text-time="2008-02-22T08:24:20.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="735ab631b67b75d07a52edc9e01aed4c"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:20.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ide-pnp.c"
+   text-time="2008-02-22T08:24:20.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="7ff2aa6948f9514d19b07604abf65d26"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:20.000000Z"/>
+</wc-entries>

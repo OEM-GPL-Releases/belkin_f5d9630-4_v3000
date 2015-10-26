@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/kernel/linux/drivers/video/matrox"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   committed-rev="3"
+   name="matroxfb_Ti3026.h"
+   text-time="2008-02-22T08:23:44.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="6c809d63b7217f22354ceb4a8b795073"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:44.000000Z"/>
+<entry
+   committed-rev="3"
+   name="matroxfb_misc.h"
+   text-time="2008-02-22T08:23:44.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="f15d172845ac6b5ad3a066debb3ae5c2"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:44.000000Z"/>
+<entry
+   committed-rev="3"
+   name="matroxfb_DAC1064.c"
+   text-time="2008-02-22T08:23:44.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="45d8f09eae2db9524d0d363255619a63"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:44.000000Z"/>
+<entry
+   committed-rev="3"
+   name="matroxfb_maven.c"
+   text-time="2008-02-22T08:23:44.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="a97a4c1792952f189c82298ad096300f"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:44.000000Z"/>
+<entry
+   committed-rev="3"
+   name="matroxfb_DAC1064.h"
+   text-time="2008-02-22T08:23:44.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="3ab6a85b309c5ca300e6de1f928c6643"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:44.000000Z"/>
+<entry
+   committed-rev="3"
+   name="matroxfb_accel.c"
+   text-time="2008-02-22T08:23:44.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="9fdde6540f82c888eb374d626e9026df"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:44.000000Z"/>
+<entry
+   name="CVS"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="matroxfb_base.c"
+   text-time="2008-02-22T08:23:44.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="1bf30ac223ec40d6763acb56111fde85"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:44.000000Z"/>
+<entry
+   committed-rev="3"
+   name="matroxfb_maven.h"
+   text-time="2008-02-22T08:23:44.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="16760ca0cad3b02a5d93455a82b2b74a"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:44.000000Z"/>
+<entry
+   committed-rev="3"
+   name="matroxfb_accel.h"
+   text-time="2008-02-22T08:23:44.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="8708e63febc0e7989fd2646876173223"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:44.000000Z"/>
+<entry
+   committed-rev="3"
+   name="matroxfb_crtc2.c"
+   text-time="2008-02-22T08:23:44.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="1187326c58458e5c86d840d9cb8f4d78"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:44.000000Z"/>
+<entry
+   committed-rev="3"
+   name="matroxfb_g450.c"
+   text-time="2008-02-22T08:23:44.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="277d8d31ab04a16b211f70566cc68386"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:44.000000Z"/>
+<entry
+   committed-rev="3"
+   name="matroxfb_base.h"
+   text-time="2008-02-22T08:23:44.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="a1841dffade8b58b333365387dc1842d"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:44.000000Z"/>
+<entry
+   committed-rev="3"
+   name="matroxfb_crtc2.h"
+   text-time="2008-02-22T08:23:44.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="f3a2c6606653293a60ba9f9166ee7e0b"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:44.000000Z"/>
+<entry
+   committed-rev="3"
+   name="g450_pll.c"
+   text-time="2008-02-22T08:23:44.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="b32b96607ca95209682cf358be0ead40"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:44.000000Z"/>
+<entry
+   committed-rev="3"
+   name="matroxfb_g450.h"
+   text-time="2008-02-22T08:23:44.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="6175a544032223baa235e054f70e1982"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:44.000000Z"/>
+<entry
+   committed-rev="3"
+   name="matroxfb_Ti3026.c"
+   text-time="2008-02-22T08:23:44.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="1306ff41c7721dc6c2afff617b3251ec"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:44.000000Z"/>
+<entry
+   committed-rev="3"
+   name="g450_pll.h"
+   text-time="2008-02-22T08:23:44.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="fd561f9589217b92dd360f7eeec901ae"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:44.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Makefile"
+   text-time="2008-02-22T08:23:44.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="2e36e84b61dab5d991818c4a77c576c8"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:44.000000Z"/>
+<entry
+   committed-rev="3"
+   name=".cvsignore"
+   text-time="2008-02-22T08:23:44.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="d8b65572e25962faaf07c20bb34d224e"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:44.000000Z"/>
+<entry
+   committed-rev="3"
+   name="i2c-matroxfb.c"
+   text-time="2008-02-22T08:23:44.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="0ff073368743d5f06cd891a6844dd0f5"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:44.000000Z"/>
+<entry
+   committed-rev="3"
+   name="matroxfb_misc.c"
+   text-time="2008-02-22T08:23:44.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="b4e1b7175a13ecab6d5e0681b8614ef4"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:44.000000Z"/>
+</wc-entries>

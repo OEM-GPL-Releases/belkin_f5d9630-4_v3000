@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/kernel/linux/drivers/video/riva"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   committed-rev="3"
+   name="nv_driver.c"
+   text-time="2008-02-22T08:23:47.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="625386953d8c96924725d157fe3afeba"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:46.000000Z"/>
+<entry
+   committed-rev="3"
+   name="rivafb.h"
+   text-time="2008-02-22T08:23:47.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="c3a6fb06af5c86cb0e71fdfd774fe020"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:47.000000Z"/>
+<entry
+   committed-rev="3"
+   name="riva_hw.c"
+   text-time="2008-02-22T08:23:47.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="d47808b35ed3ed3126463cba206897b9"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:47.000000Z"/>
+<entry
+   committed-rev="3"
+   name="riva_hw.h"
+   text-time="2008-02-22T08:23:47.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="8e4187aec84d5a26e7b08022d603f3a1"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:47.000000Z"/>
+<entry
+   committed-rev="3"
+   name="rivafb-i2c.c"
+   text-time="2008-02-22T08:23:47.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="2eeac5c52f62a7d7a99d0733267d4909"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:47.000000Z"/>
+<entry
+   committed-rev="3"
+   name="fbdev.c"
+   text-time="2008-02-22T08:23:47.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="46f60e6f356a7722cc8dcbf3b1536844"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:47.000000Z"/>
+<entry
+   committed-rev="3"
+   name="nvreg.h"
+   text-time="2008-02-22T08:23:47.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="f75cb44114ed576625b0f83dd38996b6"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:47.000000Z"/>
+<entry
+   committed-rev="3"
+   name="riva_tbl.h"
+   text-time="2008-02-22T08:23:47.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="1eb038c01463fc463b43b9cc3b8ccf41"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:47.000000Z"/>
+<entry
+   committed-rev="3"
+   name="nv4ref.h"
+   text-time="2008-02-22T08:23:47.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="2e4f4ee7366af8d49b317d7346ec0e53"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:47.000000Z"/>
+<entry
+   committed-rev="3"
+   name="nv_type.h"
+   text-time="2008-02-22T08:23:47.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="d903603aac4e37e50e51c89a0a55598f"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:47.000000Z"/>
+<entry
+   name="CVS"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name=".cvsignore"
+   text-time="2008-02-22T08:23:47.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="d8b65572e25962faaf07c20bb34d224e"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:47.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Makefile"
+   text-time="2008-02-22T08:23:47.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="6f9a38036d60db8aced4a024d1eee782"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:47.000000Z"/>
+</wc-entries>

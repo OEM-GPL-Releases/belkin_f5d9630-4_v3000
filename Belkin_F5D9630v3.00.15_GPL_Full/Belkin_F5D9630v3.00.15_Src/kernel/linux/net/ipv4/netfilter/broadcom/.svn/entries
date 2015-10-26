@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/kernel/linux/net/ipv4/netfilter/broadcom"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   committed-rev="3"
+   name="nat_cache.o_save"
+   text-time="2008-02-22T08:21:31.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="6bdaa2ba7efd48c21dad40998929fb95"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:30.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ip_conntrack_dtx8.c"
+   text-time="2008-02-22T08:21:31.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="0a58c3a31d933ff83594ebc458f09440"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:31.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ip_nat_dtx8.c"
+   text-time="2008-02-22T08:21:31.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="57d1b6362347f56f89bddaf25d1a6638"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:31.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ip_conntrack_ipsec.c"
+   text-time="2008-02-22T08:21:31.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="2f675a10d00f44a258f54fc60b254d21"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:31.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ip_conntrack_pt.c"
+   text-time="2008-02-22T08:21:31.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="e3e9f7442285e5894d8afe9514b40f0e"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:31.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ip_conntrack_wm.c"
+   text-time="2008-02-22T08:21:31.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="31049de73515a656510b1abc8d804f81"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:31.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ip_nat_ipsec.c"
+   text-time="2008-02-22T08:21:31.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="0a139ebcc17c675f298775c2c4394db3"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:31.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ip_nat_pt.c"
+   text-time="2008-02-22T08:21:31.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="0c80778fb9da81fa10c77cf94ac7e7ff"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:31.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ip_nat_wm.c"
+   text-time="2008-02-22T08:21:31.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="2e9bb353b49fc93ed7a37a6431563707"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:31.000000Z"/>
+</wc-entries>

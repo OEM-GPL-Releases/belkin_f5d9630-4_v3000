@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/userapps/opensource/sshd/libtomcrypt"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   committed-rev="3"
+   name="mess.sh"
+   text-time="2008-02-22T08:25:20.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="a6569bbd77926fb1b60a8e77e0507756"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:25:15.000000Z"/>
+<entry
+   name="MT"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="LICENSE"
+   text-time="2008-02-22T08:25:20.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="6c4fa89d7c9f2c00b6507ef96934ed6a"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:25:15.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Makefile.in"
+   text-time="2008-02-22T08:25:20.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="e142d16cc55ab2c5409e6abdc54559b8"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:25:15.000000Z"/>
+<entry
+   committed-rev="3"
+   name="makefile.shared"
+   text-time="2008-02-22T08:25:20.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="e3cfab147b51483877e2c8316f31f2f4"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:25:15.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Doxyfile"
+   text-time="2008-02-22T08:25:20.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="35f908690c86a6dfcf7653e6cb2d8608"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:25:15.000000Z"/>
+<entry
+   committed-rev="3"
+   name="makefile.msvc"
+   text-time="2008-02-22T08:25:20.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="2ca672301ace7d9117d038091842e542"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:25:16.000000Z"/>
+<entry
+   name="src"
+   kind="dir"/>
+<entry
+   name="notes"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="crypt.tex"
+   text-time="2008-02-22T08:25:20.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="3e23ec727a48f8afaff339e8bc32202b"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:25:20.000000Z"/>
+<entry
+   committed-rev="3"
+   name="TODO"
+   text-time="2008-02-22T08:25:20.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="5eb89b9cf3a882b79b4a9beb28fe38f9"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:25:20.000000Z"/>
+<entry
+   name="doc"
+   kind="dir"/>
+<entry
+   name="testprof"
+   kind="dir"/>
+<entry
+   name="demos"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="changes"
+   text-time="2008-02-22T08:25:20.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="822c0bd99747940d9e9610df2d1e99a2"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:25:20.000000Z"/>
+<entry
+   committed-rev="3"
+   name="build.sh"
+   text-time="2008-02-22T08:25:20.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="49e4eaf5b29eae771f11498cb9e23191"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:25:20.000000Z"/>
+<entry
+   committed-rev="3"
+   name="parsenames.pl"
+   text-time="2008-02-22T08:25:20.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="4a5dc6a91d14e5d0040cb3c7726c9c6c"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:25:20.000000Z"/>
+<entry
+   committed-rev="3"
+   name="testbuild.sh"
+   text-time="2008-02-22T08:25:20.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="da31f7b6b016e5e942c1061c1c526b61"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:25:20.000000Z"/>
+<entry
+   committed-rev="3"
+   name="makefile.icc"
+   text-time="2008-02-22T08:25:20.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="5c4b6694e5d018e617d5227b05acd66f"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:25:20.000000Z"/>
+<entry
+   committed-rev="3"
+   name="testme.sh"
+   text-time="2008-02-22T08:25:20.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="473dda9df67e25019372a2687838995f"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:25:20.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Makefile"
+   text-time="2008-02-22T08:25:20.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="b402b1a58d618822a6888ac01074b663"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:25:20.000000Z"/>
+<entry
+   committed-rev="3"
+   name="run.sh"
+   text-time="2008-02-22T08:25:20.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="1481cbad4ee2e8605c8f519fa223e004"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:25:20.000000Z"/>
+<entry
+   committed-rev="3"
+   name="genlist.sh"
+   text-time="2008-02-22T08:25:20.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="c798f062654828792e09487d8066b976"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:25:20.000000Z"/>
+</wc-entries>

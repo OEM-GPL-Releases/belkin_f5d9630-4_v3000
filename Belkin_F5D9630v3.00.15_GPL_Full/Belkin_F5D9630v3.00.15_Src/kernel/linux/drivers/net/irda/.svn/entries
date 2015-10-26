@@ -1,0 +1,493 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/kernel/linux/drivers/net/irda"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   committed-rev="3"
+   name="w83977af_ir.h"
+   text-time="2008-02-22T08:23:59.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="bccd00b2b24996a575329a417853b07e"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:59.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Kconfig"
+   text-time="2008-02-22T08:23:59.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="cb541410de40b2945cda0ef5b9de8177"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:59.000000Z"/>
+<entry
+   committed-rev="3"
+   name="sa1100_ir.c"
+   text-time="2008-02-22T08:23:59.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="9fd1244500825f5fee0bb95f3ad4e424"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:59.000000Z"/>
+<entry
+   committed-rev="3"
+   name="sir_kthread.c"
+   text-time="2008-02-22T08:23:59.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="8e726439a707fd29bdb75da171f762a1"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:59.000000Z"/>
+<entry
+   committed-rev="3"
+   name="nsc-ircc.c"
+   text-time="2008-02-22T08:23:59.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="0321c12dde14df9b474143ce02e50b36"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:59.000000Z"/>
+<entry
+   committed-rev="3"
+   name="smsc-sio.h"
+   text-time="2008-02-22T08:23:59.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="91eb4fa9b419477cb056e181fe6dfd82"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:59.000000Z"/>
+<entry
+   committed-rev="3"
+   name="via-ircc.h"
+   text-time="2008-02-22T08:23:59.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="2b479fadfc7f38a74d536d384802f198"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:59.000000Z"/>
+<entry
+   committed-rev="3"
+   name="girbil-sir.c"
+   text-time="2008-02-22T08:23:59.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="4d37c2c7f79bee14e39def4536615f74"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:59.000000Z"/>
+<entry
+   committed-rev="3"
+   name="smsc-ircc2.c"
+   text-time="2008-02-22T08:23:59.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="f9e8147c0dd1ddd57112195096c5ba18"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:59.000000Z"/>
+<entry
+   committed-rev="3"
+   name="irtty-sir.c"
+   text-time="2008-02-22T08:23:59.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="584f6ac32ed98e5a87e9980d5a4b8468"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:59.000000Z"/>
+<entry
+   committed-rev="3"
+   name="irda-usb.c"
+   text-time="2008-02-22T08:23:59.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="0acafd12d28fae9449caa1e2cedb9aab"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:59.000000Z"/>
+<entry
+   committed-rev="3"
+   name="nsc-ircc.h"
+   text-time="2008-02-22T08:23:59.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="471085319abdfdf6497601ebc6b4952d"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:59.000000Z"/>
+<entry
+   committed-rev="3"
+   name="vlsi_ir.c"
+   text-time="2008-02-22T08:23:59.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="b139045ad5cd62945713aa86050c7938"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:59.000000Z"/>
+<entry
+   committed-rev="3"
+   name="girbil.c"
+   text-time="2008-02-22T08:23:59.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="058b718937c4731dad5c9e5f5ce946b7"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:59.000000Z"/>
+<entry
+   committed-rev="3"
+   name="smsc-ircc2.h"
+   text-time="2008-02-22T08:23:59.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="2c44430151ebc9550bd438751b05d251"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:59.000000Z"/>
+<entry
+   committed-rev="3"
+   name="au1000_ircc.h"
+   text-time="2008-02-22T08:23:59.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="583144389c059b6229e39481cb748a21"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:59.000000Z"/>
+<entry
+   committed-rev="3"
+   name="irda-usb.h"
+   text-time="2008-02-22T08:23:59.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="8a70bb1efd665bef87f73ca358b51e7d"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:59.000000Z"/>
+<entry
+   committed-rev="3"
+   name="irtty-sir.h"
+   text-time="2008-02-22T08:23:59.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="e2e843aae0a2a155d5af432a0c2f43ea"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:59.000000Z"/>
+<entry
+   committed-rev="3"
+   name="vlsi_ir.h"
+   text-time="2008-02-22T08:23:59.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="7fa34e45a9f3a68de0001c15c6bda7aa"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:59.000000Z"/>
+<entry
+   committed-rev="3"
+   name="tekram-sir.c"
+   text-time="2008-02-22T08:23:59.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="583544ab518e2a0d0dfdd0529ea494c1"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:59.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ma600-sir.c"
+   text-time="2008-02-22T08:23:59.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="73178a18cbb36b027b6cb69623e195b4"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:59.000000Z"/>
+<entry
+   committed-rev="3"
+   name="irport.c"
+   text-time="2008-02-22T08:23:59.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="3e7dced0e6c91a6e73a2968e1b880bd0"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:59.000000Z"/>
+<entry
+   committed-rev="3"
+   name="tekram.c"
+   text-time="2008-02-22T08:23:59.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="7452df666428304d2af6a9955bfb9c7b"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:59.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ali-ircc.c"
+   text-time="2008-02-22T08:23:59.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="a2fbc7fd1b999d97aade8410c7a0ecf5"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:59.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ma600.c"
+   text-time="2008-02-22T08:23:59.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="27609f2970c26b01ec29d993f57d62e1"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:59.000000Z"/>
+<entry
+   committed-rev="3"
+   name="irport.h"
+   text-time="2008-02-22T08:23:59.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="de344f881db2677e396f66c387b8c133"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:59.000000Z"/>
+<entry
+   committed-rev="3"
+   name="sir_dongle.c"
+   text-time="2008-02-22T08:23:59.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="0e125a07eff594ecc7362e13456ab0eb"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:59.000000Z"/>
+<entry
+   committed-rev="3"
+   name="stir4200.c"
+   text-time="2008-02-22T08:23:59.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="ce21fa971bc768c3ec33d8952e7d150e"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:59.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ali-ircc.h"
+   text-time="2008-02-22T08:23:59.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="9c8b32c1f31a6b1f72258e27d3f86f26"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:59.000000Z"/>
+<entry
+   committed-rev="3"
+   name="au1k_ir.c"
+   text-time="2008-02-22T08:23:59.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="77a70ee595bb98dbb07a325077052033"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:59.000000Z"/>
+<entry
+   committed-rev="3"
+   name="sir_dev.c"
+   text-time="2008-02-22T08:23:59.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="fcc79c4d86412fa0ac76e2d95237abc7"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:59.000000Z"/>
+<entry
+   committed-rev="3"
+   name=".cvsignore"
+   text-time="2008-02-22T08:23:59.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="d8b65572e25962faaf07c20bb34d224e"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:59.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Makefile"
+   text-time="2008-02-22T08:23:59.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="700bfd4fbe9aee992233b6ad10bbb07c"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:59.000000Z"/>
+<entry
+   committed-rev="3"
+   name="donauboe.c"
+   text-time="2008-02-22T08:23:59.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="cef0afa833fb8db21381413416e0507f"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:59.000000Z"/>
+<entry
+   committed-rev="3"
+   name="old_belkin-sir.c"
+   text-time="2008-02-22T08:23:59.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="adf4fa1f1310357149a386413c13c5c4"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:59.000000Z"/>
+<entry
+   committed-rev="3"
+   name="act200l-sir.c"
+   text-time="2008-02-22T08:23:59.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="2dbe30a1604837f6b97855e6805de56f"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:59.000000Z"/>
+<entry
+   committed-rev="3"
+   name="donauboe.h"
+   text-time="2008-02-22T08:23:59.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="66401f1c257a7bcb9e32a89416946237"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:59.000000Z"/>
+<entry
+   committed-rev="3"
+   name="old_belkin.c"
+   text-time="2008-02-22T08:23:59.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="14979987b32eeca7d6951b972d224a0c"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:59.000000Z"/>
+<entry
+   committed-rev="3"
+   name="w83977af.h"
+   text-time="2008-02-22T08:23:59.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="6c954df083edaf92ed9e9c77f8d21c7b"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:59.000000Z"/>
+<entry
+   committed-rev="3"
+   name="act200l.c"
+   text-time="2008-02-22T08:23:59.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="586b62d4a2c8492848cb5562999c5df3"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:59.000000Z"/>
+<entry
+   committed-rev="3"
+   name="sir_core.c"
+   text-time="2008-02-22T08:23:59.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="32603ff7704878279deda53e6ead4cfd"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:59.000000Z"/>
+<entry
+   committed-rev="3"
+   name="litelink-sir.c"
+   text-time="2008-02-22T08:23:59.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="25df6db635a437d65dc8d34790f55dbc"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:59.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ep7211_ir.c"
+   text-time="2008-02-22T08:23:59.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="efede0a4ccc0e60b47d54b98d74ae5b3"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:59.000000Z"/>
+<entry
+   name="CVS"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="actisys-sir.c"
+   text-time="2008-02-22T08:23:59.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="f5db572056c369009c2fb5265b8f2f0a"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:59.000000Z"/>
+<entry
+   committed-rev="3"
+   name="litelink.c"
+   text-time="2008-02-22T08:23:59.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="2cccc3c57550919a09a147d5c5421b6d"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:59.000000Z"/>
+<entry
+   committed-rev="3"
+   name="esi-sir.c"
+   text-time="2008-02-22T08:23:59.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="6975ee0c55625e21d388b8c8e43e5299"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:59.000000Z"/>
+<entry
+   committed-rev="3"
+   name="sir-dev.h"
+   text-time="2008-02-22T08:23:59.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="3de2ffc870cffc00fbbe8e1e5612f48b"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:59.000000Z"/>
+<entry
+   committed-rev="3"
+   name="mcp2120-sir.c"
+   text-time="2008-02-22T08:23:59.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="e56e92a9ea3024977de47bb10b7bb730"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:59.000000Z"/>
+<entry
+   committed-rev="3"
+   name="actisys.c"
+   text-time="2008-02-22T08:23:59.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="345610c5d565dae4c2e8fc8598f8e10f"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:59.000000Z"/>
+<entry
+   committed-rev="3"
+   name="esi.c"
+   text-time="2008-02-22T08:23:59.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="2dfca9988ef967c2edae2517c2c137f1"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:59.000000Z"/>
+<entry
+   committed-rev="3"
+   name="mcp2120.c"
+   text-time="2008-02-22T08:23:59.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="5df331e62e29ce58302c6c4ba16cb895"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:59.000000Z"/>
+<entry
+   committed-rev="3"
+   name="w83977af_ir.c"
+   text-time="2008-02-22T08:23:59.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="f6ddfe9dd8a4efd84f64cb77d0d63156"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:59.000000Z"/>
+<entry
+   committed-rev="3"
+   name="via-ircc.c"
+   text-time="2008-02-22T08:23:59.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="c9d424fbd181c05ca47878d3fc343db8"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:59.000000Z"/>
+</wc-entries>

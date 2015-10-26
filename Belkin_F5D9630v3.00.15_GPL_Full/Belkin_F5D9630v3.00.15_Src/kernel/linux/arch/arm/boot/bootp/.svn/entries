@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/kernel/linux/arch/arm/boot/bootp"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   committed-rev="3"
+   name="kernel.S"
+   text-time="2008-02-22T08:22:09.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="159326469fd4165d93b607b91e7aaec0"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:09.000000Z"/>
+<entry
+   committed-rev="3"
+   name="bootp.lds"
+   text-time="2008-02-22T08:22:09.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="6b7f1a9b29353857b68b09a39ab59bdb"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:09.000000Z"/>
+<entry
+   committed-rev="3"
+   name="init.S"
+   text-time="2008-02-22T08:22:09.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="58d67508b2e80aabaf282b177634322d"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:09.000000Z"/>
+<entry
+   committed-rev="3"
+   name="initrd.S"
+   text-time="2008-02-22T08:22:09.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="84b8509971a49e08f7c032143c94c531"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:09.000000Z"/>
+<entry
+   name="CVS"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="Makefile"
+   text-time="2008-02-22T08:22:09.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="6c0cd8ad5242f39171043363cb7827b5"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:09.000000Z"/>
+</wc-entries>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/kernel/linux/include/asm-sh/se7300"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   committed-rev="3"
+   name="se7300.h"
+   text-time="2008-02-22T08:21:16.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="2aa4d6c249ac612e6cecaad3e55ca456"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:16.000000Z"/>
+<entry
+   name="CVS"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="io.h"
+   text-time="2008-02-22T08:21:16.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="a61ec207af149bf20e3e9cb35dfab4d6"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:16.000000Z"/>
+</wc-entries>

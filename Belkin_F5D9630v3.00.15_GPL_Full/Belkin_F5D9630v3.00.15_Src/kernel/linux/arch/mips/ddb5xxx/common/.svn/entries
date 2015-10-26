@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/kernel/linux/arch/mips/ddb5xxx/common"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   committed-rev="3"
+   name="rtc_ds1386.c"
+   text-time="2008-02-22T08:23:11.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="9bc896be36ec14bec8fc9ebcd94f4a41"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:11.000000Z"/>
+<entry
+   name="CVS"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="nile4.c"
+   text-time="2008-02-22T08:23:11.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="b6cfcb0aa63bb56d1643c27688d9d7c0"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:11.000000Z"/>
+<entry
+   committed-rev="3"
+   name=".cvsignore"
+   text-time="2008-02-22T08:23:11.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="d8b65572e25962faaf07c20bb34d224e"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:11.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Makefile"
+   text-time="2008-02-22T08:23:11.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="50c484d78ad9e4cb3def3f042326e6c5"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:11.000000Z"/>
+<entry
+   committed-rev="3"
+   name="prom.c"
+   text-time="2008-02-22T08:23:11.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="df94fef671d6e83438fa8442d304b4fa"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:11.000000Z"/>
+</wc-entries>

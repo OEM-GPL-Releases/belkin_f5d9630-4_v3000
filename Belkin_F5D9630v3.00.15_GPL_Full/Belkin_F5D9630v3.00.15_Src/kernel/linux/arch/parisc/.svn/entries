@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/kernel/linux/arch/parisc"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   name="oprofile"
+   kind="dir"/>
+<entry
+   name="kernel"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="Kconfig"
+   text-time="2008-02-22T08:22:12.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="212ad0578f14685c1f1c27f76bd280ce"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:12.000000Z"/>
+<entry
+   name="hpux"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="defconfig"
+   text-time="2008-02-22T08:22:12.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="da92985b0400d08bd655a311b28cac1e"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:12.000000Z"/>
+<entry
+   name="lib"
+   kind="dir"/>
+<entry
+   name="configs"
+   kind="dir"/>
+<entry
+   name="mm"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="nm"
+   text-time="2008-02-22T08:22:12.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="609dfdae242a610c837c011b26a8b6af"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:12.000000Z"/>
+<entry
+   name="CVS"
+   kind="dir"/>
+<entry
+   name="math-emu"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="Makefile"
+   text-time="2008-02-22T08:22:12.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="ed438b04f775b0afdfee6b79311ea861"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:12.000000Z"/>
+<entry
+   committed-rev="3"
+   name="defpalo.conf"
+   text-time="2008-02-22T08:22:12.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="4c426f5649e5ba30f25bbcfc7dafe39e"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:12.000000Z"/>
+</wc-entries>

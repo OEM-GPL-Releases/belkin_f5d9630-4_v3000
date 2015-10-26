@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/userapps/opensource/libosip2/include/osip2"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   committed-rev="3"
+   name="osip_dialog.h"
+   text-time="2008-02-22T08:25:06.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="6c985fc144e6b2638749265ddbfa0108"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:25:06.000000Z"/>
+<entry
+   committed-rev="3"
+   name="osip.h"
+   text-time="2008-02-22T08:25:06.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="dad7a472e527eb4b85d838e29b4e3a85"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:25:06.000000Z"/>
+<entry
+   committed-rev="3"
+   name="osip_mt.h"
+   text-time="2008-02-22T08:25:06.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="5e2c2bec696e4518f6fd31ee36672129"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:25:06.000000Z"/>
+<entry
+   committed-rev="3"
+   name="osip_negotiation.h"
+   text-time="2008-02-22T08:25:06.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="61637b5cf6f0176ecbd490d6aec79afe"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:25:06.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Makefile.in"
+   text-time="2008-02-22T08:25:06.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="9e327a3eeaf02e17c2c5aa7149ce6b9e"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:25:06.000000Z"/>
+<entry
+   committed-rev="3"
+   name="internal.h"
+   text-time="2008-02-22T08:25:06.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="41ce2b711c7b770dd9df3aaba8faaa54"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:25:06.000000Z"/>
+<entry
+   committed-rev="3"
+   name="osip_fifo.h"
+   text-time="2008-02-22T08:25:06.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="47efe9e01e13e4bfd3e7a98875157d3e"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:25:06.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Makefile.am"
+   text-time="2008-02-22T08:25:06.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="91a4d64ddec6ba9c414503e62a195270"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:25:06.000000Z"/>
+<entry
+   committed-rev="3"
+   name="osip_condv.h"
+   text-time="2008-02-22T08:25:06.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="d073780340f58d0c41c43b66cfa84288"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:25:06.000000Z"/>
+</wc-entries>

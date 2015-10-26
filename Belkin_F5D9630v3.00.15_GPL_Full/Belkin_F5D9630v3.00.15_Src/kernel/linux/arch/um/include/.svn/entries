@@ -1,0 +1,430 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/kernel/linux/arch/um/include"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   committed-rev="3"
+   name="irq_user.h"
+   text-time="2008-02-22T08:22:16.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="9f216d90b7d6607df5486925e388e533"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:15.000000Z"/>
+<entry
+   committed-rev="3"
+   name="frame.h"
+   text-time="2008-02-22T08:22:16.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="b0bf1c4cbdd08edb04316aece04c292a"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:15.000000Z"/>
+<entry
+   committed-rev="3"
+   name="kern_util.h"
+   text-time="2008-02-22T08:22:16.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="812f84023dd99904beef715334520643"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:15.000000Z"/>
+<entry
+   committed-rev="3"
+   name="mconsole_kern.h"
+   text-time="2008-02-22T08:22:16.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="1601a5a1fd7eba1dc7ca270752ce52bb"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:15.000000Z"/>
+<entry
+   committed-rev="3"
+   name="umid.h"
+   text-time="2008-02-22T08:22:16.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="13ae9fbbf9f171879cfaf2ec1a3123df"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:15.000000Z"/>
+<entry
+   committed-rev="3"
+   name="hostaudio.h"
+   text-time="2008-02-22T08:22:16.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="2a2ef3c85c588f4bdc807693c0024d3a"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:15.000000Z"/>
+<entry
+   committed-rev="3"
+   name="skas_ptrace.h"
+   text-time="2008-02-22T08:22:16.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="10578ea309745546ff966b3fef440238"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:15.000000Z"/>
+<entry
+   committed-rev="3"
+   name="um_mmu.h"
+   text-time="2008-02-22T08:22:16.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="597cb17e8d783a46eaad859348ee598c"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:15.000000Z"/>
+<entry
+   committed-rev="3"
+   name="umn.h"
+   text-time="2008-02-22T08:22:16.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="8862e953f6ffd90e62f590fd477b3359"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:15.000000Z"/>
+<entry
+   name="sysdep-ppc"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="choose-mode.h"
+   text-time="2008-02-22T08:22:16.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="1ddbad079ac1f88a401a1dd875aed588"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:15.000000Z"/>
+<entry
+   committed-rev="3"
+   name="uml_uaccess.h"
+   text-time="2008-02-22T08:22:16.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="60010a238d9fbb05b19ee153ef66f03a"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:15.000000Z"/>
+<entry
+   committed-rev="3"
+   name="init.h"
+   text-time="2008-02-22T08:22:16.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="783eb98e965de18bcc904b62571b8ae9"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:15.000000Z"/>
+<entry
+   committed-rev="3"
+   name="tempfile.h"
+   text-time="2008-02-22T08:22:16.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="9416202a6ee9de6122f8f6aed09eb209"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:15.000000Z"/>
+<entry
+   committed-rev="3"
+   name="net_kern.h"
+   text-time="2008-02-22T08:22:16.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="2722723de67cf273df7f85f53346dc8e"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:15.000000Z"/>
+<entry
+   committed-rev="3"
+   name="chan_user.h"
+   text-time="2008-02-22T08:22:16.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="e3f8a2d83fd8462d63fb2cfe2b66f1c2"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:15.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ubd_user.h"
+   text-time="2008-02-22T08:22:16.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="11db9f91eb316a0312958f73ca8d701c"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:16.000000Z"/>
+<entry
+   committed-rev="3"
+   name="syscall_user.h"
+   text-time="2008-02-22T08:22:16.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="69b36dcaddd011585f82fda7cf99c508"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:15.000000Z"/>
+<entry
+   name="sysdep-i386"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="frame_kern.h"
+   text-time="2008-02-22T08:22:16.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="0ed294a7430d95f9502ce209f6ff469a"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:16.000000Z"/>
+<entry
+   committed-rev="3"
+   name="user_util.h"
+   text-time="2008-02-22T08:22:16.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="4da7b0d6a04fa73f7edffabbefa10a91"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:16.000000Z"/>
+<entry
+   committed-rev="3"
+   name="signal_user.h"
+   text-time="2008-02-22T08:22:16.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="c8d40fa9c77b2a98bcafd999cf7341ae"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:16.000000Z"/>
+<entry
+   committed-rev="3"
+   name="user.h"
+   text-time="2008-02-22T08:22:16.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="29e60e7eddcf6ad9b09501da7c9fad13"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:16.000000Z"/>
+<entry
+   committed-rev="3"
+   name="process.h"
+   text-time="2008-02-22T08:22:16.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="a1e14755342d29b58394547ef8d80379"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:16.000000Z"/>
+<entry
+   committed-rev="3"
+   name="mconsole.h"
+   text-time="2008-02-22T08:22:16.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="d89a6bc35b1235d3848486f7f682c212"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:16.000000Z"/>
+<entry
+   committed-rev="3"
+   name="tlb.h"
+   text-time="2008-02-22T08:22:16.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="e714dc518ebdd51e888cec28977b840d"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:16.000000Z"/>
+<entry
+   committed-rev="3"
+   name="os.h"
+   text-time="2008-02-22T08:22:16.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="be1bc14bbbd7d143c88531d4e323f95e"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:16.000000Z"/>
+<entry
+   committed-rev="3"
+   name="mode.h"
+   text-time="2008-02-22T08:22:16.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="e903ba575c09f1a9bde3022f9a7adc12"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:16.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Makefile"
+   text-time="2008-02-22T08:22:16.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="c0ea6488ef1147423bb62290ed396869"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:16.000000Z"/>
+<entry
+   committed-rev="3"
+   name="um_uaccess.h"
+   text-time="2008-02-22T08:22:16.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="f06447f8fd9cd1929ae7d749794f97b4"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:16.000000Z"/>
+<entry
+   committed-rev="3"
+   name="chan_kern.h"
+   text-time="2008-02-22T08:22:16.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="5be1af8d83463e09007ca335b30834e4"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:16.000000Z"/>
+<entry
+   committed-rev="3"
+   name="2_5compat.h"
+   text-time="2008-02-22T08:22:16.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="c29c527cbc50388409310c30f4c717e1"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:16.000000Z"/>
+<entry
+   committed-rev="3"
+   name="initrd.h"
+   text-time="2008-02-22T08:22:16.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="98a9afd3eb451d9c4338707cffdfb545"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:16.000000Z"/>
+<entry
+   committed-rev="3"
+   name="signal_kern.h"
+   text-time="2008-02-22T08:22:16.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="e1bc80355296e1146241de181bceec1b"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:16.000000Z"/>
+<entry
+   committed-rev="3"
+   name="time_user.h"
+   text-time="2008-02-22T08:22:16.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="85dcfd6d2f5843882ccd257c0688efd7"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:16.000000Z"/>
+<entry
+   committed-rev="3"
+   name="kern.h"
+   text-time="2008-02-22T08:22:16.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="69210c32b7f33023ca771cc498b4acfd"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:16.000000Z"/>
+<entry
+   committed-rev="3"
+   name="mode_kern.h"
+   text-time="2008-02-22T08:22:16.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="a02594005a211f1691bc4e04e83186c1"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:16.000000Z"/>
+<entry
+   name="CVS"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="sigio.h"
+   text-time="2008-02-22T08:22:16.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="e8ad22d2d8847743d2c6d51b0d0bd668"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:16.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ptrace_user.h"
+   text-time="2008-02-22T08:22:16.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="ae7cdadef49ed1e78170a9c7cb0fee91"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:16.000000Z"/>
+<entry
+   committed-rev="3"
+   name="mem_user.h"
+   text-time="2008-02-22T08:22:16.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="f3ee71c2f544fb63ac991bd312eeff9e"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:16.000000Z"/>
+<entry
+   committed-rev="3"
+   name="mem.h"
+   text-time="2008-02-22T08:22:16.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="b6d80813cdf0d20084195a439bf581e1"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:16.000000Z"/>
+<entry
+   committed-rev="3"
+   name="helper.h"
+   text-time="2008-02-22T08:22:16.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="5c9c9a3b6b377f034a41173212dfac92"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:16.000000Z"/>
+<entry
+   committed-rev="3"
+   name="sysrq.h"
+   text-time="2008-02-22T08:22:16.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="216d71a6573e1d57b9b37c681560bbef"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:16.000000Z"/>
+<entry
+   name="sysdep-ia64"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="net_user.h"
+   text-time="2008-02-22T08:22:16.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="02397fa1e9eeae27f9712d6dac6ebf18"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:16.000000Z"/>
+<entry
+   committed-rev="3"
+   name="sigcontext.h"
+   text-time="2008-02-22T08:22:16.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="990e1b26668c4518e5edc88d08b555fc"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:16.000000Z"/>
+<entry
+   committed-rev="3"
+   name="line.h"
+   text-time="2008-02-22T08:22:16.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="ce90fd69b473313ca17852879c24d086"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:16.000000Z"/>
+<entry
+   committed-rev="3"
+   name="frame_user.h"
+   text-time="2008-02-22T08:22:16.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="fe11dbd3f07f400b2ead42c1186aaa3b"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:16.000000Z"/>
+</wc-entries>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/kernel/linux/sound/oss/cs4281"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   committed-rev="3"
+   name="cs4281m.c"
+   text-time="2008-02-22T08:21:36.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="d8c777ffb4030497b86522e2f33dd928"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:36.000000Z"/>
+<entry
+   committed-rev="3"
+   name="cs4281pm-24.c"
+   text-time="2008-02-22T08:21:36.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="e32fd078dd9b305719a56bc70fb4a5fa"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:36.000000Z"/>
+<entry
+   committed-rev="3"
+   name="cs4281pm.h"
+   text-time="2008-02-22T08:21:36.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="bd4c0dd1f87b7b4d31d2b48143d3540a"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:36.000000Z"/>
+<entry
+   committed-rev="3"
+   name="cs4281_wrapper-24.c"
+   text-time="2008-02-22T08:21:36.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="64073b59dadcb638104d0abae578ede5"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:36.000000Z"/>
+<entry
+   committed-rev="3"
+   name="cs4281_hwdefs.h"
+   text-time="2008-02-22T08:21:36.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="1dd0ba03363b5117bef4a6a18cf84b8c"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:36.000000Z"/>
+<entry
+   name="CVS"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name=".cvsignore"
+   text-time="2008-02-22T08:21:36.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="d8b65572e25962faaf07c20bb34d224e"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:36.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Makefile"
+   text-time="2008-02-22T08:21:36.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="7525c99a91d8b3a5160ddb5fc1fea8a3"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:36.000000Z"/>
+</wc-entries>

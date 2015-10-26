@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/kernel/linux/include/scsi"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   committed-rev="3"
+   name="scsi_ioctl.h"
+   text-time="2008-02-22T08:21:26.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="670f689133407e16ea1d1a1b299108ee"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:26.000000Z"/>
+<entry
+   committed-rev="3"
+   name="scsi_host.h"
+   text-time="2008-02-22T08:21:26.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="ad8805020b36e4e4d23dca72795202ff"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:26.000000Z"/>
+<entry
+   committed-rev="3"
+   name="scsi.h"
+   text-time="2008-02-22T08:21:26.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="c12b509fc36e4b736faeb087bf144aa7"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:26.000000Z"/>
+<entry
+   committed-rev="3"
+   name="scsi_cmnd.h"
+   text-time="2008-02-22T08:21:26.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="fb36de644b22537d79c86621f3bd1604"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:26.000000Z"/>
+<entry
+   name="CVS"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="scsi_tcq.h"
+   text-time="2008-02-22T08:21:26.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="151f48a24bf5d0cefde787ff65a1faad"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:26.000000Z"/>
+<entry
+   committed-rev="3"
+   name="sg.h"
+   text-time="2008-02-22T08:21:26.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="6223fc95a1f0d35d3b62b369f26dcfb6"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:26.000000Z"/>
+<entry
+   committed-rev="3"
+   name="scsi_request.h"
+   text-time="2008-02-22T08:21:26.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="70b1df36bf9c7e406a545a62eac9d821"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:26.000000Z"/>
+<entry
+   committed-rev="3"
+   name="scsi_devinfo.h"
+   text-time="2008-02-22T08:21:26.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="5035c4dc7762e72cff860f3dba482b8f"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:26.000000Z"/>
+<entry
+   committed-rev="3"
+   name="scsi_driver.h"
+   text-time="2008-02-22T08:21:26.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="72a1d263d6d3ef3879ca14e0c30e4b9f"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:26.000000Z"/>
+<entry
+   committed-rev="3"
+   name="scsi_dbg.h"
+   text-time="2008-02-22T08:21:26.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="b07f89df8c208237d7c5288f46b45b8d"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:26.000000Z"/>
+<entry
+   committed-rev="3"
+   name="scsi_eh.h"
+   text-time="2008-02-22T08:21:26.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="2718de5b4fdae1e040d316adff697497"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:26.000000Z"/>
+<entry
+   committed-rev="3"
+   name="scsi_transport.h"
+   text-time="2008-02-22T08:21:26.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="59e9f570fa1cbb7590afae6564715959"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:26.000000Z"/>
+<entry
+   committed-rev="3"
+   name="scsi_device.h"
+   text-time="2008-02-22T08:21:26.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="83dd084de4713303dcf01c1af811206f"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:26.000000Z"/>
+<entry
+   committed-rev="3"
+   name="scsicam.h"
+   text-time="2008-02-22T08:21:26.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="1aef6f1ddc8772dbdc4b7ab1917fe3e1"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:26.000000Z"/>
+<entry
+   committed-rev="3"
+   name="scsi_transport_fc.h"
+   text-time="2008-02-22T08:21:26.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="b4cf329d3781566619654c9eeacf00d5"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:26.000000Z"/>
+<entry
+   committed-rev="3"
+   name="scsi_transport_spi.h"
+   text-time="2008-02-22T08:21:26.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="10036dbe1418647cc4d29ad4a39b3521"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:26.000000Z"/>
+</wc-entries>

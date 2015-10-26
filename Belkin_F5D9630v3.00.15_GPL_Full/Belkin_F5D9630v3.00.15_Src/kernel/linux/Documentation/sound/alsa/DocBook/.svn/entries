@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/kernel/linux/Documentation/sound/alsa/DocBook"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   committed-rev="3"
+   name="writing-an-alsa-driver.tmpl"
+   text-time="2008-02-22T08:22:01.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="d9da856f0936450470d4f50320884ce2"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:01.000000Z"/>
+<entry
+   name="CVS"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="alsa-driver-api.tmpl"
+   text-time="2008-02-22T08:22:01.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="c167040a3b6d2a7de12f767afe45f186"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:01.000000Z"/>
+</wc-entries>

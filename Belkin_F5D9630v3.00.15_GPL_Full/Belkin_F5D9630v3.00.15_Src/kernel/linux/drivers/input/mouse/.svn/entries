@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/kernel/linux/drivers/input/mouse"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   committed-rev="3"
+   name="Kconfig"
+   text-time="2008-02-22T08:23:40.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="eb3b5c35e69115a87898a615e9a72cd1"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:40.000000Z"/>
+<entry
+   committed-rev="3"
+   name="psmouse.h"
+   text-time="2008-02-22T08:23:40.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="bcd7e8a456f56168a19f7683b9f75f91"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:40.000000Z"/>
+<entry
+   committed-rev="3"
+   name="vsxxxaa.c"
+   text-time="2008-02-22T08:23:40.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="691020f2c9793e59bd5ba34136d492b8"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:40.000000Z"/>
+<entry
+   committed-rev="3"
+   name="sermouse.c"
+   text-time="2008-02-22T08:23:40.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="4e8e80129c3d513ef3c9c72025002f6d"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:40.000000Z"/>
+<entry
+   committed-rev="3"
+   name="psmouse-base.c"
+   text-time="2008-02-22T08:23:40.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="c951cfbd11d847b87e11cdebeb536003"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:40.000000Z"/>
+<entry
+   committed-rev="3"
+   name="maplemouse.c"
+   text-time="2008-02-22T08:23:40.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="080ff0ef81f80088ee992e682352337b"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:40.000000Z"/>
+<entry
+   committed-rev="3"
+   name="logibm.c"
+   text-time="2008-02-22T08:23:40.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="3657118c60e1f97fca67839e2ebf459e"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:40.000000Z"/>
+<entry
+   committed-rev="3"
+   name="pc110pad.c"
+   text-time="2008-02-22T08:23:40.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="3236d5c20d6c2b255cfe1312a5dbe8e9"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:40.000000Z"/>
+<entry
+   name="CVS"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="inport.c"
+   text-time="2008-02-22T08:23:40.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="10004996c6d2c772d09b793d233ea2e8"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:40.000000Z"/>
+<entry
+   committed-rev="3"
+   name="synaptics.c"
+   text-time="2008-02-22T08:23:40.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="312c44bebc2acb4dc40e4b2e0a486891"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:40.000000Z"/>
+<entry
+   committed-rev="3"
+   name="amimouse.c"
+   text-time="2008-02-22T08:23:40.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="e6dab1427b553606a8fc9cb15689b207"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:40.000000Z"/>
+<entry
+   committed-rev="3"
+   name="logips2pp.c"
+   text-time="2008-02-22T08:23:40.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="76edd712d5a7d7a41363137664581ed3"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:40.000000Z"/>
+<entry
+   committed-rev="3"
+   name="synaptics.h"
+   text-time="2008-02-22T08:23:40.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="8ab5622cfe5a9e4a40b9b2bd44f07203"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:40.000000Z"/>
+<entry
+   committed-rev="3"
+   name="logips2pp.h"
+   text-time="2008-02-22T08:23:40.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="761e0d6403e671eaef13e583cc12ed80"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:40.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Makefile"
+   text-time="2008-02-22T08:23:40.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="97390c11166fb55f7416a14b9aacd978"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:40.000000Z"/>
+<entry
+   committed-rev="3"
+   name=".cvsignore"
+   text-time="2008-02-22T08:23:40.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="d8b65572e25962faaf07c20bb34d224e"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:40.000000Z"/>
+<entry
+   committed-rev="3"
+   name="rpcmouse.c"
+   text-time="2008-02-22T08:23:40.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="825134e525abf114cade1e43d0f56434"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:40.000000Z"/>
+</wc-entries>

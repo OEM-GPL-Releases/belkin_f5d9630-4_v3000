@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/kernel/linux/drivers/isdn"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   committed-rev="3"
+   name="Kconfig"
+   text-time="2008-02-22T08:23:39.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="b1c36ec446fc8df54f3b879a2ab198e4"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:33.000000Z"/>
+<entry
+   name="hysdn"
+   kind="dir"/>
+<entry
+   name="isdnloop"
+   kind="dir"/>
+<entry
+   name="i4l"
+   kind="dir"/>
+<entry
+   name="CVS"
+   kind="dir"/>
+<entry
+   name="divert"
+   kind="dir"/>
+<entry
+   name="eicon"
+   kind="dir"/>
+<entry
+   name="hardware"
+   kind="dir"/>
+<entry
+   name="tpam"
+   kind="dir"/>
+<entry
+   name="pcbit"
+   kind="dir"/>
+<entry
+   name="sc"
+   kind="dir"/>
+<entry
+   name="avmb1"
+   kind="dir"/>
+<entry
+   name="act2000"
+   kind="dir"/>
+<entry
+   name="icn"
+   kind="dir"/>
+<entry
+   name="capi"
+   kind="dir"/>
+<entry
+   name="hisax"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="Makefile"
+   text-time="2008-02-22T08:23:39.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="d08b302b910e10a7d684a0221101524f"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:39.000000Z"/>
+<entry
+   committed-rev="3"
+   name=".cvsignore"
+   text-time="2008-02-22T08:23:39.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="d8b65572e25962faaf07c20bb34d224e"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:39.000000Z"/>
+</wc-entries>

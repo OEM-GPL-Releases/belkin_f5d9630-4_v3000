@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/kernel/linux/arch/mips/baget"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   committed-rev="3"
+   name="bagetIRQ.S"
+   text-time="2008-02-22T08:22:59.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="62250dbea8fe3a8d667d4c99e2cb637f"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:59.000000Z"/>
+<entry
+   committed-rev="3"
+   name="time.c"
+   text-time="2008-02-22T08:22:59.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="3e3c19c18a10e615f5716b51d5e601dc"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:59.000000Z"/>
+<entry
+   committed-rev="3"
+   name="setup.c"
+   text-time="2008-02-22T08:22:59.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="979137b64476c65b3d3dfeb199509fdd"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:59.000000Z"/>
+<entry
+   committed-rev="3"
+   name="baget.c"
+   text-time="2008-02-22T08:22:59.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="736d0c911fffcc09a08fbb01e01b0014"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:59.000000Z"/>
+<entry
+   committed-rev="3"
+   name="reset.c"
+   text-time="2008-02-22T08:22:59.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="c822fc4a824e3f2c2f69b664b1be9775"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:59.000000Z"/>
+<entry
+   committed-rev="3"
+   name="balo_supp.S"
+   text-time="2008-02-22T08:22:59.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="60806f83b4d70d2cc739edd5613fc08f"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:59.000000Z"/>
+<entry
+   name="CVS"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="irq.c"
+   text-time="2008-02-22T08:22:59.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="b35a4d089c11f659ee9491fe376fc47a"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:59.000000Z"/>
+<entry
+   name="prom"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name=".cvsignore"
+   text-time="2008-02-22T08:22:59.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="d8b65572e25962faaf07c20bb34d224e"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:59.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Makefile"
+   text-time="2008-02-22T08:22:59.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="ea39a432d5d18d1b548da499c073d146"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:59.000000Z"/>
+<entry
+   committed-rev="3"
+   name="print.c"
+   text-time="2008-02-22T08:22:59.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="caadee3b2ef77bd0b6c48f0d74c072f5"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:59.000000Z"/>
+<entry
+   committed-rev="3"
+   name="balo.c"
+   text-time="2008-02-22T08:22:59.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="7688222feb3a4969c2933675c1052ff8"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:59.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ld.script.balo"
+   text-time="2008-02-22T08:22:59.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="aa8411d0eb136c60dadaba7fa9131763"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:59.000000Z"/>
+</wc-entries>

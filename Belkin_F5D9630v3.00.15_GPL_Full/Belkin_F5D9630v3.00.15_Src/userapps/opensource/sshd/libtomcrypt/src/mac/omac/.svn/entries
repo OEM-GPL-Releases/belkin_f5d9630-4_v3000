@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/userapps/opensource/sshd/libtomcrypt/src/mac/omac"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   committed-rev="3"
+   name="omac_file.c"
+   text-time="2008-02-22T08:25:16.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="09a82915b13cb1df14f44486360723de"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:25:16.000000Z"/>
+<entry
+   committed-rev="3"
+   name="omac_test.c"
+   text-time="2008-02-22T08:25:16.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="dabfd8b65c97004cd4491ff57b041013"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:25:16.000000Z"/>
+<entry
+   committed-rev="3"
+   name="omac_memory_multi.c"
+   text-time="2008-02-22T08:25:16.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="6b5563cacadd8135b849aac3a6a24098"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:25:16.000000Z"/>
+<entry
+   committed-rev="3"
+   name="omac_init.c"
+   text-time="2008-02-22T08:25:16.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="bdc5adcc2ba3d9d04160237cbed3904e"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:25:16.000000Z"/>
+<entry
+   committed-rev="3"
+   name="omac_done.c"
+   text-time="2008-02-22T08:25:16.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="4d4d901d0c208651ff84ba7fd5dc9f9f"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:25:16.000000Z"/>
+<entry
+   committed-rev="3"
+   name="omac_memory.c"
+   text-time="2008-02-22T08:25:16.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="6857dd053f962ed849cd3b54e314db3b"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:25:16.000000Z"/>
+<entry
+   committed-rev="3"
+   name="omac_process.c"
+   text-time="2008-02-22T08:25:16.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="0b4f6834a9e16bdc74942d5668461f90"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:25:16.000000Z"/>
+</wc-entries>

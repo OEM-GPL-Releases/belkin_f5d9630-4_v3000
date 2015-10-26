@@ -1,0 +1,82 @@
+<html>
+   <head>
+      <meta HTTP-EQUIV='Pragma' CONTENT='no-cache'>
+	  <meta http-equiv="refresh" content="<%ejGet(timeout_refresh)%>">
+<link rel="stylesheet" href="main_router.css" type='text/css'>
+
+		<%ejGet("curLanguage")%>
+		<SCRIPT>assign_var();</SCRIPT>
+
+
+<SCRIPT language=JavaScript src="showMenu.js"></SCRIPT>
+<script language="javascript" src="util.js"></script>
+<script language="javascript">
+
+
+strHtml='<title>'+utm_1+' &gt; '+utrst_3+'</title>';
+dw(strHtml);
+
+
+var autoup = '<%ejGet(autoUpgrade_flag)%>';
+
+if(autoup == '1')
+{
+	newwin=window.open("checkfw.html","Firmware","toolbar=no,location=no,directories=no,status=no,menubar=no,scrollbars=yes,width=395,height=200,resizable=0");
+	newwin.focus();
+}
+
+
+function btnReset() {
+   var code = 'location.assign("reset_success.cgi")';
+   
+   if (confirm(utrst_1))
+   {
+   	 alert(utrst_2);
+     window.location.href = 'reset_success.cgi';
+   }
+}
+
+
+// done hiding -->
+</script>
+   </head>
+   <body bgColor="#ffffff" leftMargin="0" topMargin="0" marginheight="0" marginwidth="0">
+         <form>
+       <SCRIPT language=JavaScript>
+	var helpItem 	='Restart Router';
+	var menuSection	='Util';
+	var menuItem	='Restart Router';
+	var isAPmode = '<%ejGet(enblNat)%>';
+		
+	var wanStatus = '<%ejGetOther(isUp)%>';
+	showHead(wanStatus,helpItem);
+	showMenu(menuSection,menuItem,isAPmode)
+	</SCRIPT>  
+<TD class=head_bold width="90%" valign="top"><Br>
+<font class="head_bold"><b>&nbsp;&nbsp;&nbsp;<script>dw(utm_1);</script> &gt; <script>dw(utrst_3);</script></b></font><Br><br>
+<br>
+               <table width="560" height="24" border="0" cellpadding="0" cellspacing="0">
+                  <tr>
+				  	 <Td width="15"></Td>
+                     <td width="545" class="copy_1"><script>dw(utrst_4);</script>
+				    </td>
+				 </tr>	 
+  </table>
+	
+	<Br><br>
+
+               <table width="559" height="24" border="0" cellpadding="0" cellspacing="0">
+                  <tr><Td width="226"></Td>
+						<td width="333">
+						<script>
+							var info="<input type='button' style='height:22px; width:160px' onClick='btnReset()' value='"+utrst_3+"' class='submitBtn'>";
+							dw(info);
+						</script>
+         					
+	 				</td>
+				</tr>
+  </table>
+   </TD></TR></TBODY></TABLE></TD>
+
+   </body>
+</html>

@@ -1,0 +1,1084 @@
+<html>
+  <head>
+    <meta HTTP-EQUIV='Pragma' CONTENT='no-cache'>
+	<meta http-equiv="refresh" content="<%ejGet(timeout_refresh)%>">
+<link rel="stylesheet" href="main_router.css" type='text/css'>
+
+		<%ejGet("curLanguage")%>
+		<SCRIPT>assign_var();</SCRIPT>
+
+
+<SCRIPT language=JavaScript src="showMenu.js"></SCRIPT>
+            <script language="javascript" src="util.js"></script>
+            <script language="javascript">
+<!-- hide
+strHtml='<title>'+utm_1+' &gt; '+utsys_1+'</title>';
+dw(strHtml);
+
+
+
+var autoup = '<%ejGet(autoUpgrade_flag)%>';
+
+if(autoup == '1')
+{
+	newwin=window.open("checkfw.html","Firmware","toolbar=no,location=no,directories=no,status=no,menubar=no,scrollbars=yes,width=395,height=200,resizable=0");
+	newwin.focus();
+}
+
+
+var login_timeout = '<%ejGet(timeout)%>';
+var buildUpnp = '<%ejGetOther(sysInfo, buildUpnp)%>';
+var enblUpnp = '<%ejGet(enblUpnp)%>';
+var usrUser = '<%ejGet(usrUserName)%>';
+
+var pwdAdmin = '<%ejGet(sysPassword)%>';
+var pwdSupport = '<%ejGet(sptPassword)%>';
+
+var Remote_State = '<%ejGet(remoteAdminState)%>';
+var Remote_Type = '<%ejGet(remoteAdminType)%>';
+var Remote_AnyIP = '<%ejGet(remoteAdminAnyIp)%>';
+var Remote_IPaddr = '<%ejGet(remoteSingleIp)%>'
+var Remote_Port = '<%ejGet(remoteAdminPort)%>';
+var autoUP = '<%ejGet(autoUpgrade)%>';
+
+var state = '<%ejGetSntp(sntpRefresh)%>';
+if ( state == '1' ) 
+{
+   //var code = 'location.assign("util_system.sntp?sntpRefresh=0")';
+   //eval(code);
+   var loc = 'util_system.sntp?sntpRefresh=0"';
+   window.location.href = loc;
+}
+
+var basetime = Date.parse('<%ejGetOther(sysInfo, dateTime)%>');
+var fullcone = '<%ejGet(enblFullcone)%>';
+
+function updateTime()
+{
+
+  time = new Date(basetime);
+
+  var weekday=new Array(utsys_2,utsys_3,utsys_4,utsys_5,utsys_6,utsys_7,utsys_8)
+	var monthname=new Array(utsys_9,utsys_10,utsys_11,utsys_12,utsys_13,utsys_14,utsys_15,utsys_16,utsys_17,utsys_18,utsys_19,utsys_20)
+  var year = time.getFullYear();
+  var month = time.getMonth();
+  var day = time.getDay();
+  var date = time.getDate()
+	var hours = time.getHours()
+	var minutes = time.getMinutes()
+	var seconds = time.getSeconds()
+
+  minutes=((minutes < 10) ? "0" : "") + minutes
+	seconds=((seconds < 10) ? "0" : "") + seconds
+
+    document.getElementById("timeDiv").innerHTML = weekday[day] + " " + monthname[month] + " " +date + "," + year + "." + " " + hours + ":" + minutes + ":" + seconds
+
+
+   basetime+=1000;
+
+   setTimeout("updateTime()", 1000);
+}
+
+
+var ntpServers = new Array();
+var ntpServersshow = new Array();
+var ntpServersshow2 = new Array();
+
+ntpServers[0] = '132.163.4.102';
+ntpServers[1] = '192.5.41.41';
+ntpServers[2] = '192.5.41.209';
+ntpServers[3] = '207.200.81.113';
+ntpServers[4] = '208.184.49.9';
+ntpServers[5] = '129.132.2.21';
+ntpServers[6] = '130.149.17.8';
+ntpServers[7] = '128.250.36.3';
+ntpServers[8] = '137.189.8.174';
+
+ntpServersshow[0] = '132.163.4.102 - North America';
+ntpServersshow[1] = '192.5.41.41 -North America';
+ntpServersshow[2] = '192.5.41.209 - North America';
+ntpServersshow[3] = '207.200.81.113 - North America';
+ntpServersshow[4] = '208.184.49.9 - North America';
+ntpServersshow[5] = '129.132.2.21 - Europe';
+ntpServersshow[6] = '130.149.17.8 - Europe';
+ntpServersshow[7] = '128.250.36.3 - Australia';
+ntpServersshow[8] = '137.189.8.174 - Asia Pacific';
+
+ntpServersshow2[0] = utsys_21;
+ntpServersshow2[1] = utsys_22;
+ntpServersshow2[2] = utsys_23;
+ntpServersshow2[3] = utsys_24;
+ntpServersshow2[4] = utsys_25;
+ntpServersshow2[5] = utsys_26;
+ntpServersshow2[6] = utsys_27;
+ntpServersshow2[7] = utsys_28;
+ntpServersshow2[8] = utsys_29;
+
+var timeZones = new Array();
+
+timeZones[0] = '(GMT-12:00) International Date Line West';
+timeZones[1] = '(GMT-11:00) Midway Island, Samoa';
+timeZones[2] = '(GMT-10:00) Hawaii';
+timeZones[3] = '(GMT-09:00) Alaska';
+timeZones[4] = '(GMT-08:00) Pacific Time, Tijuana';
+timeZones[5] = '(GMT-07:00) Arizona, Mazatlan';
+timeZones[6] = '(GMT-07:00) Chihuahua, La Paz';
+timeZones[7] = '(GMT-07:00) Mountain Time';
+timeZones[8] = '(GMT-06:00) Central America';
+timeZones[9] = '(GMT-06:00) Central Time';
+timeZones[10] = '(GMT-06:00) Guadalajara, Mexico City, Monterrey';
+timeZones[11] = '(GMT-06:00) Saskatchewan';
+timeZones[12] = '(GMT-05:00) Bogota, Lima, Quito';
+timeZones[13] = '(GMT-05:00) Eastern Time';
+timeZones[14] = '(GMT-05:00) Indiana';
+timeZones[15] = '(GMT-04:00) Atlantic Time';
+timeZones[16] = '(GMT-04:00) Caracas, La Paz';
+timeZones[17] = '(GMT-04:00) Santiago';
+timeZones[18] = '(GMT-03:30) Newfoundland';
+timeZones[19] = '(GMT-03:00) Brasilia';
+timeZones[20] = '(GMT-03:00) Buenos Aires, Georgetown';
+timeZones[21] = '(GMT-03:00) Greenland';
+timeZones[22] = '(GMT-02:00) Mid-Atlantic';
+timeZones[23] = '(GMT-01:00) Azores';
+timeZones[24] = '(GMT-01:00) Cape Verde Is.';
+timeZones[25] = '(GMT) Casablanca, Monrovia';
+timeZones[26] = '(GMT) Greenwich Mean Time: Dublin, Edinburgh, Lisbon, London';
+timeZones[27] = '(GMT+01:00) Amsterdam, Berlin, Bern, Rome, Stockholm, Vienna';
+timeZones[28] = '(GMT+01:00) Belgrade, Bratislava, Budapest, Ljubljana, Prague';
+timeZones[29] = '(GMT+01:00) Brussels, Copenhagen, Madrid, Paris';
+timeZones[30] = '(GMT+01:00) Sarajevo, Skopje, Warsaw, Zagreb';
+timeZones[31] = '(GMT+01:00) West Central Africa';
+timeZones[32] = '(GMT+02:00) Athens, Istanbul, Minsk';
+timeZones[33] = '(GMT+02:00) Bucharest';
+timeZones[34] = '(GMT+02:00) Cairo';
+timeZones[35] = '(GMT+02:00) Harare, Pretoria';
+timeZones[36] = '(GMT+02:00) Helsinki, Kyiv, Riga, Sofia, Tallinn, Vilnius';
+timeZones[37] = '(GMT+02:00) Jerusalem';
+timeZones[38] = '(GMT+03:00) Baghdad';
+timeZones[39] = '(GMT+03:00) Kuwait, Riyadh';
+timeZones[40] = '(GMT+03:00) Moscow, St. Petersburg, Volgograd';
+timeZones[41] = '(GMT+03:00) Nairobi';
+timeZones[42] = '(GMT+03:30) Tehran';
+timeZones[43] = '(GMT+04:00) Abu Dhabi, Muscat';
+timeZones[44] = '(GMT+04:00) Baku, Tbilisi, Yerevan';
+timeZones[45] = '(GMT+04:30) Kabul';
+timeZones[46] = '(GMT+05:00) Ekaterinburg';
+timeZones[47] = '(GMT+05:00) Islamabad, Karachi, Tashkent';
+timeZones[48] = '(GMT+05:30) Chennai, Kolkata, Mumbai, New Delhi';
+timeZones[49] = '(GMT+05:45) Kathmandu';
+timeZones[50] = '(GMT+06:00) Almaty, Novosibirsk';
+timeZones[51] = '(GMT+06:00) Astana, Dhaka';
+timeZones[52] = '(GMT+06:00) Sri Jayawardenepura';
+timeZones[53] = '(GMT+06:30) Rangoon';
+timeZones[54] = '(GMT+07:00) Bangkok, Hanoi, Jakarta';
+timeZones[55] = '(GMT+07:00) Krasnoyarsk';
+timeZones[56] = '(GMT+08:00) Beijing, Chongquing, Hong Kong, Urumqi';
+timeZones[57] = '(GMT+08:00) Irkutsk, Ulaan Bataar';
+timeZones[58] = '(GMT+08:00) Kuala Lumpur, Singapore';
+timeZones[59] = '(GMT+08:00) Perth';
+timeZones[60] = '(GMT+08:00) Taipei';
+timeZones[61] = '(GMT+09:00) Osaka, Sapporo, Tokyo';
+timeZones[62] = '(GMT+09:00) Seoul';
+timeZones[63] = '(GMT+09:00) Yakutsk';
+timeZones[64] = '(GMT+09:30) Adelaide';
+timeZones[65] = '(GMT+09:30) Darwin';
+timeZones[66] = '(GMT+10:00) Brisbane';
+timeZones[67] = '(GMT+10:00) Canberra, Melbourne, Sydney';
+timeZones[68] = '(GMT+10:00) Guam, Port Moresby';
+timeZones[69] = '(GMT+10:00) Hobart';
+timeZones[70] = '(GMT+10:00) Vladivostok';
+timeZones[71] = '(GMT+11:00) Magadan';
+timeZones[72] = '(GMT+11:00) Solomon Is., New Caledonia';
+timeZones[73] = '(GMT+12:00) Auckland, Wellington';
+timeZones[74] = '(GMT+12:00) Fiji, Kamchatka, Marshall Is.';
+
+var timeZones2 = new Array();
+
+timeZones2[0] = '(GMT-12:00) '+utsys_30;
+timeZones2[1] = '(GMT-11:00) '+utsys_31;
+timeZones2[2] = '(GMT-10:00) '+utsys_32;
+timeZones2[3] = '(GMT-09:00) '+utsys_33;
+timeZones2[4] = '(GMT-08:00) '+utsys_34;
+timeZones2[5] = '(GMT-07:00) '+utsys_35;
+timeZones2[6] = '(GMT-07:00) '+utsys_36;
+timeZones2[7] = '(GMT-07:00) '+utsys_37;
+timeZones2[8] = '(GMT-06:00) '+utsys_38;
+timeZones2[9] = '(GMT-06:00) '+utsys_39;
+timeZones2[10] = '(GMT-06:00) '+utsys_40;
+timeZones2[11] = '(GMT-06:00) '+utsys_41;
+timeZones2[12] = '(GMT-05:00) '+utsys_42;
+timeZones2[13] = '(GMT-05:00) '+utsys_43;
+timeZones2[14] = '(GMT-05:00) '+utsys_44;
+timeZones2[15] = '(GMT-04:00) '+utsys_45;
+timeZones2[16] = '(GMT-04:00) '+utsys_46;
+timeZones2[17] = '(GMT-04:00) '+utsys_47;
+timeZones2[18] = '(GMT-03:30) '+utsys_48;
+timeZones2[19] = '(GMT-03:00) '+utsys_49;
+timeZones2[20] = '(GMT-03:00) '+utsys_50;
+timeZones2[21] = '(GMT-03:00) '+utsys_51;
+timeZones2[22] = '(GMT-02:00) '+utsys_52;
+timeZones2[23] = '(GMT-01:00) '+utsys_53;
+timeZones2[24] = '(GMT-01:00) '+utsys_54;
+timeZones2[25] = '(GMT) '+utsys_55;
+timeZones2[26] = '(GMT) '+utsys_56;
+timeZones2[27] = '(GMT+01:00) '+utsys_57;
+timeZones2[28] = '(GMT+01:00) '+utsys_58;
+timeZones2[29] = '(GMT+01:00) '+utsys_59;
+timeZones2[30] = '(GMT+01:00) '+utsys_60;
+timeZones2[31] = '(GMT+01:00) '+utsys_61;
+timeZones2[32] = '(GMT+02:00) '+utsys_62;
+timeZones2[33] = '(GMT+02:00) '+utsys_63;
+timeZones2[34] = '(GMT+02:00) '+utsys_64;
+timeZones2[35] = '(GMT+02:00) '+utsys_65;
+timeZones2[36] = '(GMT+02:00) '+utsys_66;
+timeZones2[37] = '(GMT+02:00) '+utsys_67;
+timeZones2[38] = '(GMT+03:00) '+utsys_68;
+timeZones2[39] = '(GMT+03:00) '+utsys_69;
+timeZones2[40] = '(GMT+03:00) '+utsys_70;
+timeZones2[41] = '(GMT+03:00) '+utsys_71;
+timeZones2[42] = '(GMT+03:30) '+utsys_72;
+timeZones2[43] = '(GMT+04:00) '+utsys_73;
+timeZones2[44] = '(GMT+04:00) '+utsys_74;
+timeZones2[45] = '(GMT+04:30) '+utsys_75;
+timeZones2[46] = '(GMT+05:00) '+utsys_76;
+timeZones2[47] = '(GMT+05:00) '+utsys_77;
+timeZones2[48] = '(GMT+05:30) '+utsys_78;
+timeZones2[49] = '(GMT+05:45) '+utsys_79;
+timeZones2[50] = '(GMT+06:00) '+utsys_80;
+timeZones2[51] = '(GMT+06:00) '+utsys_81;
+timeZones2[52] = '(GMT+06:00) '+utsys_82;
+timeZones2[53] = '(GMT+06:30) '+utsys_83;
+timeZones2[54] = '(GMT+07:00) '+utsys_84;
+timeZones2[55] = '(GMT+07:00) '+utsys_85;
+timeZones2[56] = '(GMT+08:00) '+utsys_86;
+timeZones2[57] = '(GMT+08:00) '+utsys_87;
+timeZones2[58] = '(GMT+08:00) '+utsys_88;
+timeZones2[59] = '(GMT+08:00) '+utsys_89;
+timeZones2[60] = '(GMT+08:00) '+utsys_90;
+timeZones2[61] = '(GMT+09:00) '+utsys_91;
+timeZones2[62] = '(GMT+09:00) '+utsys_92;
+timeZones2[63] = '(GMT+09:00) '+utsys_93;
+timeZones2[64] = '(GMT+09:30) '+utsys_94;
+timeZones2[65] = '(GMT+09:30) '+utsys_95;
+timeZones2[66] = '(GMT+10:00) '+utsys_96;
+timeZones2[67] = '(GMT+10:00) '+utsys_97;
+timeZones2[68] = '(GMT+10:00) '+utsys_98;
+timeZones2[69] = '(GMT+10:00) '+utsys_99;
+timeZones2[70] = '(GMT+10:00) '+utsys_100;
+timeZones2[71] = '(GMT+11:00) '+utsys_101;
+timeZones2[72] = '(GMT+11:00) '+utsys_102;
+timeZones2[73] = '(GMT+12:00) '+utsys_103;
+timeZones2[74] = '(GMT+12:00) '+utsys_104;
+
+function getTimeZoneIndex(timeZoneName) {
+  var i = 0, ret = 4;  // default to Pacific time
+
+  for ( var i = 0; i < timeZones.length; i++ ) {
+    if ( timeZones[i].search(timeZoneName) != -1 )
+      break;
+  }
+
+  if ( i < timeZones.length )
+    ret = i;
+
+  return ret;
+}
+
+function getTimeZoneName(idx) {
+  var str = timeZones[idx];
+  var ret = '';
+
+  if ( idx != 25 && idx != 26 )
+  ret = str.substr(12);
+  else
+    ret = str.substr(6);
+
+  return ret;
+}
+
+function getTimeZoneOffset(idx) {
+  var str = timeZones[idx];
+  var ret = '';
+
+  if ( idx != 25 && idx != 26 )
+    ret = str.substr(4, 6);
+
+  return ret;
+}
+
+function writeTimeZoneList() {
+  for( var i = 0; i < timeZones.length; i++ )
+    document.writeln("<option value=" + getTimeZoneOffset(i) + ">" + timeZones2[i] + "</option>");
+}
+
+function ntpChange(optionlist,textbox) {
+  if( optionlist[optionlist.selectedIndex].value == 'Other' )
+    textbox.disabled = false;
+  else {
+    textbox.value = "";
+    textbox.disabled = true;
+  }
+}
+
+
+function frmLoad() {
+  var i = 0;
+  var ntp1 = "<%ejGetSntp(ntpServer1)%>";
+  var ntp2 = "<%ejGetSntp(ntpServer2)%>";
+  var ntp_enabled = "<%ejGetSntp(ntp_enabled)%>";
+  var tz_name = "<%ejGetSntp(timezone)%>";
+  var dst = "<%ejGetSntp(use_dst)%>";  
+  var nat_state = "<%ejGet(enblNat)%>";
+
+  if(ntp1=="")
+  	ntp1 = "132.163.4.102";
+
+  if(ntp2=="")
+  {
+  	//ntp2 = "192.5.41.41";
+	document.forms[0].ntpServer2.selectedIndex = 0;
+  }
+  if(tz_name=="")
+  	tz_name = utsys_56;
+
+
+  with (document.forms[0]) 
+  {
+// Password
+	pwdOld.value ='';
+	pwdNew.value ='';  
+  	pwdCfm.value ='';
+	logtimeout.value = login_timeout;
+  
+// Nat state  
+  	if(nat_state == 0 || nat_state == 2)
+  		nat[1].checked = true;
+  	else
+  		nat[0].checked =true;
+/* 
+// Fullcone Nar state
+	if(fullcone	==0)
+		f_nat[1].checked = true;
+	else
+		f_nat[0].checked = true;
+*/
+// Remote mngr
+
+	if(Remote_IPaddr == '0.0.0.0')
+	{
+		remoteIP0.value = '';
+		remoteIP1.value = '';
+		remoteIP2.value = '';
+		remoteIP3.value = '';
+	}
+
+	if(Remote_State == '1')
+	{
+		enblRemote.checked = true;
+		
+		if(Remote_Type == '2')
+		{
+			anyIp[0].checked = true;
+			remoteIP0.disabled = true;
+			remoteIP1.disabled = true;
+			remoteIP2.disabled = true;
+			remoteIP3.disabled = true;
+		}
+		else
+		{
+			anyIp[1].checked = true;
+			var IP = Remote_IPaddr.split(".");	
+			remoteIP0.value = IP[0];
+			remoteIP1.value = IP[1];
+			remoteIP2.value = IP[2];
+			remoteIP3.value = IP[3];		
+		}		
+	}	
+	else
+		enblRemote.checked = false;
+	
+	remotePort.value = Remote_Port;
+
+// Auto firmware update state	
+	if(autoUP == 0)
+		auto_update[1].checked = true;
+	else
+		auto_update[0].checked = true;
+
+// UPNP state		
+    if ( enblUpnp == '1' )
+        chkUpnp[0].checked = true;
+    else
+        chkUpnp[1].checked = true;
+
+// Time server state
+	ntpEnabled.style.visibility='hidden';
+	ntpEnabled.checked=true;
+	logtimeout.value = login_timeout;
+
+  	setTimeout("updateTime()", 1000);
+
+    if( ntp_enabled == "1" ) 
+      ntpEnabled.checked = true;
+	else 
+      ntpEnabled.checked = false;
+
+	if(dst == "1")
+		daylight.checked = true;
+
+    if( ntp1.length ) 
+	{
+      for( i = 0; i < ntpServers.length; i++ ) 
+	  {
+        if( ntp1 == ntpServers[i] ) 
+		{
+          ntpServer1.selectedIndex = i;
+          break;
+        }
+      }
+      if( i == ntpServers.length ) 
+	  {
+        ntpServer1.selectedIndex = i; // Set to 'Other'
+        ntpServerOther1.value = ntp1;
+      }
+    }
+    ntpChange(ntpServer1,ntpServerOther1);
+
+    if( ntp2.length ) 
+	{
+      for( i = 0; i < ntpServers.length; i++ ) 
+	  {
+        if( ntp2 == ntpServers[i] ) 
+		{
+          ntpServer2.selectedIndex = i+1;
+          break;
+        }
+      }
+      if( i == ntpServers.length ) 
+	  {
+        ntpServer2.selectedIndex = i+1; // Set to 'Other'
+        ntpServerOther2.value = ntp2;
+      }
+    }
+    ntpChange(ntpServer2,ntpServerOther2);
+
+    cboTimeZone.selectedIndex = getTimeZoneIndex(tz_name);
+
+    ntpEnblChange();
+  }
+}
+
+function hideNtpConfig(hide) {
+  var status = 'visible';
+
+  if(hide)
+    status = 'hidden';
+
+  if( document.getElementById )
+    document.getElementById('ntpConfig').style.visibility = status;
+  else
+    if(!document.layers)
+      document.all.ntpConfig.style.visibility = status;
+}
+
+function ntpEnblChange() {
+  hideNtpConfig(0);
+}
+
+function writeNtpList(needed) {
+  if(!needed)
+    document.writeln("<option value=None>"+utsys_106+"</option>");
+  for( var i = 0; i < ntpServers.length; i++ )
+    document.writeln("<option value=" + ntpServersshow[i] + ">" + ntpServersshow2[i] + "</option>");
+  document.writeln("<option value=Other>"+utsys_105+"</option>");
+}
+
+
+function modeClick() 
+{
+	with(document.forms[0])
+	{
+		if(anyIp[0].checked == true)
+		{
+			enblRemote.checked = true;
+			alert(utsys_107);
+			remoteIP0.disabled = true;
+			remoteIP1.disabled = true;
+			remoteIP2.disabled = true;
+			remoteIP3.disabled = true;			
+		}
+		else
+		{
+			enblRemote.checked = true;
+			remoteIP0.disabled = false;
+			remoteIP1.disabled = false;
+			remoteIP2.disabled = false;
+			remoteIP3.disabled = false;			
+		}
+		
+	}
+	
+}
+
+
+
+
+function btnApply()
+{
+	var loc='util_system.cgi?';
+   	var tmp;
+
+
+	with(document.forms[0])
+	{
+		
+		//auto upgrade		
+		if(auto_update[0].checked == true)
+			loc += 'autoUpgrade=1';
+		else
+			loc += 'autoUpgrade=0';
+	
+		//remote management
+		var IP = remoteIP0.value +'.'+ remoteIP1.value +'.'+ remoteIP2.value +'.'+ remoteIP3.value;
+    	if (enblRemote.checked == true)
+		{
+			loc += '&remoteAdminState=1';
+			
+			if(anyIp[0].checked == true)
+				loc += '&remoteAdminType=2&remoteAdminAnyIp=1&remoteSingleIp='+Remote_IPaddr;	
+			else if(anyIp[1].checked == true)
+			{
+      			if ( isValidIpAddress(IP) == false )
+      			{
+					msg = 'IP address "' + IP + '" is invalid IP address.';
+					alert(msg);
+					return;
+      			}
+      			loc += '&remoteAdminState=1&remoteAdminType=0&remoteAdminAnyIp=0&remoteSingleIp='+IP;
+			}
+			else
+			{
+				alert(utsys_108);
+				return;			
+			}	
+		
+		
+		}
+		else
+			loc += '&remoteAdminState=0';
+		
+						        	
+		if(remotePort.value < 1 || remotePort.value > 65535)
+	  	{
+			alert(utsys_109);
+			remotePort.focus();
+			return;
+	  	}
+	  	else
+			loc += '&remoteAdminPort='+remotePort.value;
+		
+		//upnp
+      	if ( chkUpnp[0].checked == true )
+         	loc += '&enblUpnp=1';
+      	else
+         	loc += '&enblUpnp=0';
+					
+		//sntp server
+      	loc += '&ntp_enabled=1&ntpServer1=';
+      	if( ntpServer1.selectedIndex == ntpServers.length ) 
+		{
+        	if( ntpServerOther1.value.length == 0 ) 
+			{ 
+				// == Other
+          		alert(utsys_110);
+          		return;
+        	} 
+			else 
+			{
+			  	if ( isValidIpAddress(ntpServerOther1.value) == false ) 
+			  	{
+				 	alert(utsys_111);
+				 	return;
+			  	}
+		
+          		loc += ntpServerOther1.value;
+        	}
+      	} 
+		else 
+        	loc += ntpServer1[ntpServer1.selectedIndex].value;
+
+      	loc += '&ntpServer2=';
+      	if( ntpServer2.selectedIndex == ntpServers.length+1 ) 
+		{
+        	if( ntpServerOther2.value.length == 0 ) 
+			{ 
+				// == Other
+          		alert(utsys_112);
+          		return;
+        	} 
+			else 
+			{
+			  	if ( isValidIpAddress(ntpServerOther2.value) == false ) 
+				{
+				 	alert(utsys_111);
+				 	return;
+			  	}
+		
+          		loc += ntpServerOther2.value;
+        	}
+      	} 
+		else 
+		{
+        	if( ntpServer2.selectedIndex > 0 )
+          		loc += ntpServer2[ntpServer2.selectedIndex].value;
+      	}
+
+      	loc += '&timezone_offset=' + cboTimeZone[cboTimeZone.selectedIndex].value;
+      	loc += '&timezone=' + getTimeZoneName(cboTimeZone.selectedIndex);
+
+	  	if(daylight.checked == true)
+	      loc += '&use_dst=1';
+	  	else
+	      loc += '&use_dst=0';
+
+		//password
+		if(pwdOld.value !='' || pwdNew.value !='' || pwdCfm.value !='')
+		{
+		
+			if ( pwdOld.value != pwdAdmin )
+			{
+				alert(utsys_113);
+				return;
+			}
+		  
+			var str = new String();
+			str = pwdNew.value;
+			if(str.length > 0)
+			{
+				if (str.length < 3 || str.length > 12) 
+				{
+					alert(utsys_114);
+					pwdNew.focus();
+					return;
+				}
+			}
+		  
+			if ( pwdNew.value != pwdCfm.value ) 
+			{
+				alert(utsys_115);
+				return;
+			}	  
+			
+			loc += '&sysPassword=' + encodeUrl(pwdNew.value);
+		}	
+		else
+		{ 
+			if(pwdAdmin != '')			
+				loc += '&sysPassword=' + encodeUrl(pwdAdmin);	
+			else
+				loc += '&sysPassword=';	
+		}	
+      	
+
+      	if ( (isNaN(parseInt(logtimeout.value)) != true) && (parseInt(logtimeout.value) > 0) && (parseInt(logtimeout.value) < 100 ) )
+      		loc += '&timeout=' + logtimeout.value;
+      	else
+		{
+        	alert(utsys_116);
+			return;
+      	}
+
+		//fullcone nat
+		/*
+		if(f_nat[0].checked == true)
+			loc+='&enblFullcone=1';
+		else
+			loc+='&enblFullcone=0';
+
+                */
+		//nat
+		if(nat[0].checked == true)
+			loc+='&usrPassword=pass&enblNat=1';
+		else
+			loc+='&enblNat=0';	
+		
+	
+	} //with(document.forms[0])  end
+	
+	window.location.href = loc;
+}
+
+
+// done hiding -->
+    </script>
+  </head>
+
+   <body onLoad="frmLoad()"  bgColor="#ffffff" leftMargin="0" topMargin="0" marginheight="0" marginwidth="0">
+        <form>
+       <SCRIPT language=JavaScript>
+	var helpItem 	='System Settings';
+	var menuSection	='Util';
+	var menuItem	='System Settings';
+	var isAPmode = '<%ejGet(enblNat)%>';
+		
+	var wanStatus = '<%ejGetOther(isUp)%>';
+	showHead(wanStatus,helpItem);
+	showMenu(menuSection,menuItem,isAPmode)
+	</SCRIPT>  
+<TD class=head_bold width="90%" valign="top"><Br>
+<font class="head_bold"><b>&nbsp;&nbsp;&nbsp;<script>dw(utm_1);</script> &gt; <script>dw(utsys_1);</script> </b></font><Br><br>
+
+               <table width="571" height="55" border="0" cellpadding="0" cellspacing="0">
+                  <tr>
+				  	 <Td width="15"></Td>
+                     <td width="556" class="copy_1"><B><script>dw(utsys_117);</script>:</B></td>
+				  </tr>
+				  <tr>
+				  	 <Td width="15"></Td>	 
+					 <Td  width="556" class="copy_1"><script>dw(utsys_118);</script><a href="javascript:void(0);" onClick="window.open('glossary.html#PWD','help','toolbar=0,status=0,menubar=0,scrollbars=1,resizable=1, width=640,height=400,left=150,top=150');"><b><font  style="FONT-SIZE: 11px;" color="#0066FF"><script>dw(wd_8);</script></font></b></a>
+
+				    </Td>				  	 
+				 </tr>	 
+	</table>
+
+	<br>
+	
+	<table border="0" cellpadding="0" cellspacing="0" height="39">
+	<Tr><td width="15"></td>
+	<td width="723">
+       <table border="0" cellpadding="0" cellspacing="0"  height="140">
+               <tr>
+                  <td width="221" height="22" class="copy_1"><b>
+                  -<script>dw(utsys_119);</script> &gt;</b></td>
+                  <td width="502" height="22" class="copy_1">
+                 <input name='pwdOld' type="password" size="20" maxlength="16"></td>
+               </tr>
+               <tr>
+                  <td height="22" class="copy_1"><b>
+				  -<script>dw(utsys_120);</script> &gt;</b></td>
+                  <td width="502" height="22" class="copy_1">
+                 <input name='pwdNew' type="password" size="20" maxlength="16"></td>
+               </tr>
+               <tr>
+                  <td height="22" class="copy_1"><b>
+                  -<script>dw(utsys_121);</script> &gt;</b></td>
+                  <td width="502" height="22" class="copy_1">
+                 <input name='pwdCfm' type='password' size="20" maxlength="16"></td>
+               </tr>
+               <tr>
+                  <td height="14" class="copy_1"><b>
+                  -<script>dw(utsys_122);</script></b></td>
+                  <td width="502" height="14" class="copy_1">
+                 <input name='logtimeout' type='text' size="20" maxlength="2" >&nbsp;<b><script>dw(utsys_123);</script></b></td>
+               </tr>
+               <tr>
+                  <td height="14" colspan="2"></td>
+               </tr>
+       </table>
+	   </td>
+      </Tr>
+    </table>
+	   
+	   
+	<table width="630" border="0" cellpadding="0" cellspacing="0">
+	   	<tr><td width="16"></td>
+		<td width="726">
+	   <hr> 
+	   </td>
+	   </tr>
+    </table>   
+	
+	
+	   <table width="711" border="0" cellpadding="0" cellspacing="0">
+	   <Tr><td width="15"></td>
+	   <Td width="696">
+	
+       <table border="0" cellpadding="0" cellspacing="0">
+			   
+               <tr>
+                  <td width="260" height="1" class="copy_1">
+                  <b><script>dw(utsys_124);</script>:</b>
+                  <font color="#004263" face="Verdana"> <br></font>
+                  <font color="#004263" face="Verdana"><!--(Automatically adjust Daylight Saving)&nbsp; --></font>                  </font></td>
+                  <td><B><font color="#FF0000">
+                     <div id='timeDiv' class="copy_2"></div> </font></B>                </td>
+               </tr>
+    </table>
+	<Br>
+	<table width="605" height="15" border="0" cellpadding="0" cellspacing="0">
+		<tr><td></td>
+		<Td class="copy_1">
+			<script>dw(utsys_125);</script> <B>
+				  <a href="javascript:void(0);" onClick="window.open('glossary.html#TTZ','help','toolbar=0,status=0,menubar=0,scrollbars=1,resizable=1, width=640,height=400,left=150,top=150');">
+                  <font color="#0066FF"  style="FONT-SIZE: 11px;"><script>dw(wd_8);</script></font></a></B> 
+		</Td>
+		</tr>
+	</table>
+<Br>
+        <div id='ntpConfig'>
+		
+          <table height="25" border="0" cellpadding="0" cellspacing="0">
+            <tr>
+              <td width='205' class="copy_1"><b>- <script>dw(utsys_126);</script> &gt;</b></td>
+              <td width="141" colspan=2><font color="#004263" size="1" face="Verdana">
+                <select name='cboTimeZone' size="1">
+                    <script language="javascript">
+                      writeTimeZoneList();
+                    </script>
+              </select> </font>
+              </td>
+            </tr>
+          </table>
+		
+		  <table width="623" height="25" border="0" cellpadding="0" cellspacing="0">
+            <tr>
+              <td width="205" class="copy_1"><b>- <script>dw(utsys_127);</script> &gt;</b></td>
+		  	  <td width="418" class="copy_1"><input type="checkbox" name="daylight">&nbsp;<script>dw(utsys_128);</script></td>
+		  	</tr>
+		  </table>
+		
+          <table width="623" border="0" cellpadding="0" cellspacing="0">
+            <tr>
+              <td width='203' class="copy_1"><b>- <script>dw(utsys_129);</script>&gt;</b></td>
+              <td width="215" class="copy_1"><select name='ntpServer1' size="1" onChange='ntpChange(this.form.ntpServer1,this.form.ntpServerOther1)'>
+                    <script language="javascript">
+                      writeNtpList(true);
+                    </script>
+                  </select> </font>
+              </td>
+              <td width="190" class="copy_1"><input type='text' name='ntpServerOther1' size="20"></td>
+            </tr>
+            <tr>
+              <td class="copy_1"><b>- <script>dw(utsys_130);</script>&gt;</b></td>
+              <td><font color="#004263" size="1" face="Verdana"><select name='ntpServer2' size="1" onChange='ntpChange(this.form.ntpServer2,this.form.ntpServerOther2)'>
+                    <script language="javascript">
+                      writeNtpList(false);
+                    </script>
+                  </select> </font>
+              </td>
+              <td width="190"><font color="#004263" size="1" face="Verdana"><input type='text' name='ntpServerOther2' size="20"></font></td>
+            </tr>
+          </table>
+
+        <table width="567" border="0" cellpadding="0" cellspacing="0">
+               <tr>
+                  <td width="394" ></td>
+				  <td width="173"></td>
+			   </tr>
+        </table>
+		</div>
+		</td>
+		</tr>
+       <tr>
+			<Td></Td>
+            <td ><input type='checkbox' name='ntpEnabled' onClick='ntpEnblChange()' value="ON"></td>
+       </tr>
+		
+	</table>
+		
+	<table width="630" border="0" cellpadding="0" cellspacing="0">
+	   	<tr><td width="16"></td>
+		<td width="726">
+	   <hr> 
+	   </td>
+	   </tr>
+    </table>   
+		
+    <table border="0" cellpadding="0" cellspacing="0" height="9">
+	<tr><td width="15"></td>
+	<Td width="722">    
+        <table height="66" border="0" cellpadding="0" cellspacing="0">
+               <tr>
+                  <td width="521" class="copy_1"><b><script>dw(utsys_131);</script> :</b></td>
+               </tr>
+               <tr>
+                  <td width="521" class="copy_1"><script>dw(utsys_132);</script><b>
+                  <a href="javascript:void(0);" onClick="window.open('glossary.html#RMG','help','toolbar=0,status=0,menubar=0,scrollbars=1,resizable=1, width=640,height=400,left=150,top=150');">
+                  <font color="#0066FF"  style="FONT-SIZE: 11px;"><script>dw(wd_8);</script></font></a></b></td>
+               </tr>
+		</table>
+		<table height="30" border="0" cellpadding="0" cellspacing="0">	   
+			<Tr>
+			  <td width="37" class="copy_1"><input type='checkbox' name='enblRemote'></td>
+				<td width="685" class="copy_1"><b><script>dw(utsys_133);</script></b></td>
+			</Tr>
+		</table>
+		
+		<table height="10" border="0" cellpadding="0" cellspacing="0">	   
+			<Tr>
+				<td width="35"></td>
+			  <td width="52" class="copy_1"><input type='radio' name='anyIp' onClick="modeClick()" ></td>
+				<td width="635" class="copy_1"><b><script>dw(utsys_134);</script></b></td>
+			</Tr>
+		</table>
+		<table height="20" border="0" cellpadding="0" cellspacing="0">	   
+			<Tr>
+			<td width="35" ></td>
+			  <td width="52"  class="copy_1"><input type='radio' name='anyIp' onClick="modeClick()"></td>
+				<td width="229"  class="copy_1"><b><script>dw(utsys_135);</script> &gt;</b></td>
+				<td width="353">
+					<input type="text" size="6" maxlength="3" name="remoteIP0">.
+					<input type="text" size="6" maxlength="3" name="remoteIP1">.
+					<input type="text" size="6" maxlength="3" name="remoteIP2">.
+					<input type="text" size="6" maxlength="3" name="remoteIP3">
+				
+			  </td>
+			</Tr>
+		</table>
+		
+		<table width="721" height="50" border="0" cellpadding="0" cellspacing="0">	   	
+			<Tr>
+				<td width="35"></td>
+				<td width="148" class="copy_1"><b><script>dw(utsys_136);</script></b></td>
+			  <td width="538"><input type="text" size="6" maxlength="5" name="remotePort"></td>
+			</Tr>
+		</table>
+	
+	</Td>
+	</tr>
+	</table>
+	
+	<table width="630"  border="0" cellpadding="0" cellspacing="0">
+	   	<tr><td width="22"></td>
+		<td width="726">
+	   <hr> 
+	   </td>
+	   </tr>
+    </table>   
+
+
+	<table border="0" cellpadding="0" cellspacing="0" height="9">
+	<tr><td width="15"></td>
+	<Td width="942">
+
+        <table width="733" height="9" border="0" cellpadding="0" cellspacing="0">
+               <tr>
+                  <td width="218" height="25" class="copy_1"><b>
+                  <script>dw(utsys_137);</script> :</b></td>
+                  <td width="515" height="25"></td>
+               </tr>
+               <tr>
+                  <td height="14" class="copy_1" colspan="2"><script>dw(utsys_138);</script><b>
+                  <a href="javascript:void(0);" onClick="window.open('glossary.html#NATENBL','help','toolbar=0,status=0,menubar=0,scrollbars=1,resizable=1, width=640,height=400,left=150,top=150');">
+                  <font color="#0066FF"  style="FONT-SIZE: 11px;"><script>dw(wd_8);</script></font></a></b></td>
+               </tr>
+			   <tr>
+			   		<td class="copy_1"><br><b>- <script>dw(utsys_139);</script> &gt;</b></td>
+					<td class="copy_1"><Br>
+						<input type="radio" name="nat">&nbsp;<script>dw(wlap_3);</script>  &nbsp;&nbsp;
+						<input type="radio" name="nat">&nbsp;<script>dw(wlap_4);</script> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;						
+					</td>
+			   </tr>
+ <!--			  
+			   <tr>
+			   		<td class="copy_1"><br><b>- Fullcone NAT &gt;</b></td>
+					<td class="copy_1"><Br>
+						<input type="radio" name="f_nat">&nbsp;<script>dw(wlap_3);</script>  &nbsp;&nbsp;
+						<input type="radio" name="f_nat">&nbsp;<script>dw(wlap_4);</script> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;						
+					</td>
+			   </tr>
+ //-->			   
+			   
+    </table>
+
+	</Td>
+	</tr>
+	</table>
+
+
+	<table width="630" height="30" border="0" cellpadding="0" cellspacing="0">
+	   	<tr><td width="16"></td>
+		<td width="726">
+	   <hr> 
+	   </td>
+	   </tr>
+    </table>   
+
+
+<table border="0" cellpadding="0" cellspacing="0" height="9"> 
+	<Tr><td width="15"></td>
+	<Td width="722">
+
+			 <table border="0" cellpadding="0" cellspacing="0" height="9"> 
+               <tr>
+                  <td width="403" height="14" class="copy_1">
+                  <b><script>dw(utsys_140);</script>:</b>                  </td>
+                  <td width="319" height="14">                  </td>
+               </tr>
+               <tr>
+                  <td colspan="2" height="14" class="copy_1">
+                  <script>dw(utsys_141);</script><br>
+                  <a href="javascript:void(0);" onClick="window.open('glossary.html#UPNP','help','toolbar=0,status=0,menubar=0,scrollbars=1,resizable=1, width=640,height=400,left=150,top=150');">
+                  <font face="Verdana" color="#0066FF" style="FONT-SIZE: 11px;"><b><script>dw(wd_8);</script></b></font></a></font>
+                 </td>
+               </tr>
+			 </table>
+			 <table width="575" height="9" border="0" cellpadding="0" cellspacing="0">   
+			   <tr>
+			   	  <td width="220" class="copy_1"><b><script>dw(utsys_142);</script></b></td>
+			   	  <td width="355" class="copy_1">
+				  <input type='radio' name='chkUpnp'>&nbsp;<script>dw(ls_8);</script>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				  <input type='radio' name='chkUpnp'>&nbsp;<script>dw(ls_9);</script>		
+			     </td>				 
+			   </tr>
+       </table>
+	   
+	   
+	<table width="620" height="30" border="0" cellpadding="0" cellspacing="0">
+	   	<tr>
+		<td width="620">
+	   <hr> 
+	   </td>
+	   </tr>
+    </table>   
+
+
+	<table width="575" border="0" cellpadding="0" cellspacing="0">
+	<tr><td class="copy_1"><B><script>dw(utsys_143);</script> :</B></td></tr>
+	<tr><Td class="copy_1"><script>dw(utsys_144);</script>
+	<a href="javascript:void(0);" onClick="window.open('glossary.html#AutoUP','help','toolbar=0,status=0,menubar=0,scrollbars=1,resizable=1, width=640,height=400,left=150,top=150');">
+                  <font face="Verdana" color="#0066FF" style="FONT-SIZE: 11px;"><b><script>dw(wd_8);</script></b></font></a></font>
+	</Td></tr>
+	</table>
+	
+	<table width="575" border="0" cellpadding="0" cellspacing="0">
+	<Tr>
+		<Td width="220" class="copy_1"><b>- <script>dw(utsys_145);</script> &gt;</b></Td>
+		<td width="355" class="copy_1"><input type="radio" name="auto_update">&nbsp;<script>dw(wlap_3);</script>&nbsp;&nbsp;&nbsp;
+										<input type="radio" name="auto_update">&nbsp;<script>dw(wlap_4);</script>
+		</td>
+	</Tr>
+	</table>
+	
+	<table width="630" border="0" cellpadding="0" cellspacing="0">
+	<tr><td width="726"><hr></td><td></td></tr>
+    </table>   
+	
+	<table width="630" border="0" cellpadding="0" cellspacing="0">
+	<tr>
+		<Td width="163"></Td>
+		<Td width="412" ><Br>
+				<script>				
+					var info="<input type='button' style='width:180px' onClick='frmLoad()' value='"+ls_26+"' class='submitBtn'><input type='button' style='width:180px' onClick='btnApply()' value='"+ls_27+"' class='submitBtn'>"
+					dw(info);				
+				</script></Td>
+	</tr>
+    </table>   
+	
+		
+	<Br><Br>
+	   
+</td>
+</tr>
+
+</table>
+
+
+
+
+   </TD></TR></TBODY></TABLE></TD>          			
+
+      </form>
+        <!--/table-->
+  </body>
+</html>

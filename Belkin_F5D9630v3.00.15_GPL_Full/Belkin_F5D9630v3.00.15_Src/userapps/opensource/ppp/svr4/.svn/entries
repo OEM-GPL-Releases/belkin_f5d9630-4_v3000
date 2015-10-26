@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/userapps/opensource/ppp/svr4"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   committed-rev="3"
+   name="ppp_mod.c"
+   text-time="2008-02-22T08:25:09.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="a287c207c09f9fd7b35bee86e538a9f6"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:25:09.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Makedefs"
+   text-time="2008-02-22T08:25:09.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="71d1dd00cec4a2c6bc5133bcddb2e04e"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:25:09.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ppp_ahdl.Master"
+   text-time="2008-02-22T08:25:09.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="c3e2433e4fd112c3f116428f32e16b10"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:25:09.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Makefile.sol2-64"
+   text-time="2008-02-22T08:25:09.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="f93245ba14a36296d41b28f8e4f3f431"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:25:09.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ppp.System"
+   text-time="2008-02-22T08:25:09.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="4610454bd01c63a6141cdbe708ea829b"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:25:09.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ppp.Node"
+   text-time="2008-02-22T08:25:09.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="4ed02a82ea88585e5e978c778503a8de"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:25:09.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ppp.conf"
+   text-time="2008-02-22T08:25:09.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="11790624cb4e28299c8a91f80b827eb8"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:25:09.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ppp.Master"
+   text-time="2008-02-22T08:25:09.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="24faf63edf97252258f21690c303070a"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:25:09.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Makefile.sol2"
+   text-time="2008-02-22T08:25:09.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="e89fe6e1e9dae97c4415dd899e4d95ad"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:25:09.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Makedefs.sol2"
+   text-time="2008-02-22T08:25:09.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="fd703ac03479f605fb2db4ff9087380e"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:25:09.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ppp_comp_mod.c"
+   text-time="2008-02-22T08:25:09.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="3f6a304ef0bf4e99692e03febae8f77c"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:25:09.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ppp_comp.System"
+   text-time="2008-02-22T08:25:09.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="63be804bdd6bfbb2ef158830a8f9ed15"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:25:09.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ppp_comp.Master"
+   text-time="2008-02-22T08:25:09.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="f4aaf07f9291fb4bdc6e0d5fecda9538"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:25:09.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ppp_ahdl.System"
+   text-time="2008-02-22T08:25:09.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="0645d5afa6f646cfd82ffde5dea28c8e"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:25:09.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ppp_ahdlc_mod.c"
+   text-time="2008-02-22T08:25:09.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="346ab7a93de02c9561ba8aa338200e55"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:25:09.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Makefile.svr4"
+   text-time="2008-02-22T08:25:09.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="e4c704b7f09bcf239c303aa54f56c9f5"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:25:09.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Makefile.top"
+   text-time="2008-02-22T08:25:09.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="7c84a39b13539918befd58c8cfe55517"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:25:09.000000Z"/>
+</wc-entries>

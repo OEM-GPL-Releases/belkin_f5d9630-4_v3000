@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/kernel/linux/drivers/i2c"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   committed-rev="3"
+   name="Kconfig"
+   text-time="2008-02-22T08:24:36.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="bd0b49d4c3c9924da1e422310a716af6"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:35.000000Z"/>
+<entry
+   committed-rev="3"
+   name="i2c-max1617.c"
+   text-time="2008-02-22T08:24:36.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="cbb0f5b97831cf3eeed4f25039272462"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:35.000000Z"/>
+<entry
+   name="busses"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="i2c-core.c"
+   text-time="2008-02-22T08:24:36.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="40da061548b45c10a182fcb5934620f1"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:35.000000Z"/>
+<entry
+   name="algos"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="i2c-sensor.c"
+   text-time="2008-02-22T08:24:36.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="a53b8e1a59da60297ee307461beec1c4"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:35.000000Z"/>
+<entry
+   name="chips"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="i2c-dev.c"
+   text-time="2008-02-22T08:24:36.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="907f1103089181f414e05513dff37aaf"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:36.000000Z"/>
+<entry
+   name="CVS"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name=".cvsignore"
+   text-time="2008-02-22T08:24:36.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="d8b65572e25962faaf07c20bb34d224e"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:36.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Makefile"
+   text-time="2008-02-22T08:24:36.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="92faf9cc94498f7ee1feceb5ef6dbcfa"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:36.000000Z"/>
+</wc-entries>

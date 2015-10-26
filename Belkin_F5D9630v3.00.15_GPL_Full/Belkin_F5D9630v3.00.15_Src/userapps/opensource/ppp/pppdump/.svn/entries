@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/userapps/opensource/ppp/pppdump"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   committed-rev="3"
+   name="ppp-comp.h"
+   text-time="2008-02-22T08:25:09.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="882f9e13317078ab3f4851ea8c327175"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:25:09.000000Z"/>
+<entry
+   committed-rev="3"
+   name="zlib.c"
+   text-time="2008-02-22T08:25:09.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="b8aa90f66361a14ffc639cc4288de6b9"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:25:09.000000Z"/>
+<entry
+   committed-rev="3"
+   name="bsd-comp.c"
+   text-time="2008-02-22T08:25:09.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="9efb7b35da312a5a5d00db1d2951bb4f"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:25:09.000000Z"/>
+<entry
+   committed-rev="3"
+   name="deflate.c"
+   text-time="2008-02-22T08:25:09.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="8f39bf2ca5f8f801ad20e49f86ba04ed"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:25:09.000000Z"/>
+<entry
+   committed-rev="3"
+   name="pppdump.c"
+   text-time="2008-02-22T08:25:09.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="073bbd35fbef0ca532e8055cdb5446a3"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:25:09.000000Z"/>
+<entry
+   committed-rev="3"
+   name="zlib.h"
+   text-time="2008-02-22T08:25:09.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="8f346934147865a915817a42c80ae362"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:25:09.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Makefile.sunos4"
+   text-time="2008-02-22T08:25:09.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="ce9ceae85080caf45d078a48d445652a"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:25:09.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Makefile.linux"
+   text-time="2008-02-22T08:25:09.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="e994d925167cc94a37f80295be81d491"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:25:09.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Makefile.sol2"
+   text-time="2008-02-22T08:25:09.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="136c9af00f4aa72df5ff2c3c0ec80e34"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:25:09.000000Z"/>
+<entry
+   committed-rev="3"
+   name="pppdump.8"
+   text-time="2008-02-22T08:25:09.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="2eb1be145cf42d8896a5ebcc7ee009e5"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:25:09.000000Z"/>
+</wc-entries>

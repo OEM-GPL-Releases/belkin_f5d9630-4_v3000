@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/kernel/linux/arch/parisc/lib"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   committed-rev="3"
+   name="bitops.c"
+   text-time="2008-02-22T08:22:12.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="fcac5e2891becc4a3e3c5807dba91b66"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:12.000000Z"/>
+<entry
+   committed-rev="3"
+   name="checksum.c"
+   text-time="2008-02-22T08:22:12.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="ae860ac0aa288552af2e63c763f022cd"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:12.000000Z"/>
+<entry
+   committed-rev="3"
+   name="debuglocks.c"
+   text-time="2008-02-22T08:22:12.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="da824e1fe1865f5435e1bcb5e51aeba7"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:12.000000Z"/>
+<entry
+   committed-rev="3"
+   name="lusercopy.S"
+   text-time="2008-02-22T08:22:12.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="b5fd2a361ed171b051bf5d2e54b1c611"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:12.000000Z"/>
+<entry
+   committed-rev="3"
+   name="io.c"
+   text-time="2008-02-22T08:22:12.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="8dab155d03d2a219f7964b92b00d3ccc"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:12.000000Z"/>
+<entry
+   name="CVS"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="memset.c"
+   text-time="2008-02-22T08:22:12.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="e8068eac81722e0f7ba8086f37b22f1e"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:12.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Makefile"
+   text-time="2008-02-22T08:22:12.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="5f6ccbfcda9a98a3e299c6f94566eeb8"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:12.000000Z"/>
+</wc-entries>

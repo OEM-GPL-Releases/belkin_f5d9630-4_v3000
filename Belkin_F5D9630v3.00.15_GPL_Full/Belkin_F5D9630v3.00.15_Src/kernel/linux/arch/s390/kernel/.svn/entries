@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/kernel/linux/arch/s390/kernel"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   committed-rev="3"
+   name="smp.c"
+   text-time="2008-02-22T08:22:38.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="d48c9f5e27499006656bc731ae940ecc"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:38.000000Z"/>
+<entry
+   committed-rev="3"
+   name="setup.c"
+   text-time="2008-02-22T08:22:38.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="a4c74f690f6921f48e11485cef727a5f"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:38.000000Z"/>
+<entry
+   committed-rev="3"
+   name="profile.c"
+   text-time="2008-02-22T08:22:38.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="232502c9699388c7fe66b2e158c7677d"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:38.000000Z"/>
+<entry
+   committed-rev="3"
+   name="compat_wrapper.S"
+   text-time="2008-02-22T08:22:38.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="d2840138d0899d45f3ddd4488a6e8018"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:38.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ebcdic.c"
+   text-time="2008-02-22T08:22:38.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="c695bbde3c0914b35037c1d4c0c8aa5e"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:38.000000Z"/>
+<entry
+   committed-rev="3"
+   name="syscalls.S"
+   text-time="2008-02-22T08:22:38.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="d917f2fda0660e237c3a7c723c4a1b3a"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:38.000000Z"/>
+<entry
+   committed-rev="3"
+   name="process.c"
+   text-time="2008-02-22T08:22:38.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="db0e9d5f78830a7d49713d2f6bfa5b61"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:38.000000Z"/>
+<entry
+   committed-rev="3"
+   name="compat_exec_domain.c"
+   text-time="2008-02-22T08:22:38.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="bb0dfe6b14bff196947345c23fa4be20"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:38.000000Z"/>
+<entry
+   committed-rev="3"
+   name="semaphore.c"
+   text-time="2008-02-22T08:22:38.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="834864ecc96cc9514ce2c745136c7812"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:38.000000Z"/>
+<entry
+   committed-rev="3"
+   name="s390_ksyms.c"
+   text-time="2008-02-22T08:22:38.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="8b1800e6223f623c003a479ec3383c60"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:38.000000Z"/>
+<entry
+   committed-rev="3"
+   name="vtime.c"
+   text-time="2008-02-22T08:22:38.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="bcc6d9ad50813b9261be73217393d6ce"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:38.000000Z"/>
+<entry
+   committed-rev="3"
+   name="debug.c"
+   text-time="2008-02-22T08:22:38.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="72b13e79a20ade1f07cb1b2c2b7fac7d"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:38.000000Z"/>
+<entry
+   committed-rev="3"
+   name="asm-offsets.c"
+   text-time="2008-02-22T08:22:38.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="595ac2334cf8a0674b21dc62e07c1a69"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:38.000000Z"/>
+<entry
+   committed-rev="3"
+   name="entry64.S"
+   text-time="2008-02-22T08:22:38.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="c51d5538ed95811042e5d1d42f91eea6"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:38.000000Z"/>
+<entry
+   committed-rev="3"
+   name="head64.S"
+   text-time="2008-02-22T08:22:38.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="fee0c19dd2f4e91a9601f5668ec94b4a"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:38.000000Z"/>
+<entry
+   committed-rev="3"
+   name="sys_s390.c"
+   text-time="2008-02-22T08:22:38.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="684e453b63201b7c9890d06b860057ef"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:38.000000Z"/>
+<entry
+   committed-rev="3"
+   name="bitmap.S"
+   text-time="2008-02-22T08:22:38.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="9fd4c72a781701e07b492a36a68c9f40"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:38.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Makefile"
+   text-time="2008-02-22T08:22:38.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="f9b30f828ee24dbdb94bc53cddd187d6"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:38.000000Z"/>
+<entry
+   committed-rev="3"
+   name="time.c"
+   text-time="2008-02-22T08:22:38.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="780693b78ca44e688100d7f5730510b8"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:38.000000Z"/>
+<entry
+   committed-rev="3"
+   name="compat_linux.c"
+   text-time="2008-02-22T08:22:38.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="654dd0432a52e3f0babb353bac9fe87a"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:38.000000Z"/>
+<entry
+   committed-rev="3"
+   name="vmlinux.lds.S"
+   text-time="2008-02-22T08:22:38.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="f87f90b25a86e5435110ad04f7934fbd"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:38.000000Z"/>
+<entry
+   committed-rev="3"
+   name="reipl64.S"
+   text-time="2008-02-22T08:22:38.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="84a90b16ceb39de70a6fa5fa3c7b5130"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:38.000000Z"/>
+<entry
+   committed-rev="3"
+   name="compat_linux.h"
+   text-time="2008-02-22T08:22:38.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="dd61fc3e38278f491dfcc16206b86558"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:38.000000Z"/>
+<entry
+   committed-rev="3"
+   name="binfmt_elf32.c"
+   text-time="2008-02-22T08:22:38.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="0c14180eeb926b9be15e1b4ca2d35231"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:38.000000Z"/>
+<entry
+   name="CVS"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="compat_ioctl.c"
+   text-time="2008-02-22T08:22:38.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="4a451b71d27043a357af1ab5acc49aeb"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:38.000000Z"/>
+<entry
+   committed-rev="3"
+   name="signal.c"
+   text-time="2008-02-22T08:22:38.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="acfe5384d53a4b6a4b1b4885e20d5886"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:38.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ptrace.c"
+   text-time="2008-02-22T08:22:38.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="a53e57d1900e56302ef66284a1377a56"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:38.000000Z"/>
+<entry
+   committed-rev="3"
+   name="s390_ext.c"
+   text-time="2008-02-22T08:22:38.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="03ac7af49a32170ce834d9eae8c7f42d"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:38.000000Z"/>
+<entry
+   committed-rev="3"
+   name="compat_signal.c"
+   text-time="2008-02-22T08:22:38.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="0dfe242027e8479f528911fe6672fc45"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:38.000000Z"/>
+<entry
+   committed-rev="3"
+   name="head.S"
+   text-time="2008-02-22T08:22:38.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="1f439b1cb1b9c0f7cb35f00d3c1aca33"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:38.000000Z"/>
+<entry
+   committed-rev="3"
+   name="entry.S"
+   text-time="2008-02-22T08:22:38.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="b0428ef567c3ec8fd35d110295a2cc50"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:38.000000Z"/>
+<entry
+   committed-rev="3"
+   name="module.c"
+   text-time="2008-02-22T08:22:38.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="49b2627a5807d98ea01e3a59cdd70ed1"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:38.000000Z"/>
+<entry
+   committed-rev="3"
+   name="init_task.c"
+   text-time="2008-02-22T08:22:38.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="c3641c1247bd6fdc45cab1639d6a5110"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:38.000000Z"/>
+<entry
+   committed-rev="3"
+   name="compat_ptrace.h"
+   text-time="2008-02-22T08:22:38.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="bd30e7907c75d52e8ab47fbfcf94eda2"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:38.000000Z"/>
+<entry
+   committed-rev="3"
+   name="cpcmd.c"
+   text-time="2008-02-22T08:22:38.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="187947b957177c8db414bd277c524cf3"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:38.000000Z"/>
+<entry
+   committed-rev="3"
+   name="compat_exec.c"
+   text-time="2008-02-22T08:22:38.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="9425bed4f7d385f58c7204006adf7672"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:38.000000Z"/>
+<entry
+   committed-rev="3"
+   name="traps.c"
+   text-time="2008-02-22T08:22:38.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="d065376ff84cbc85b7d7fce0a365bf73"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:38.000000Z"/>
+<entry
+   committed-rev="3"
+   name="reipl.S"
+   text-time="2008-02-22T08:22:38.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="893721fd7f7e371b236adc708bc8d5b6"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:38.000000Z"/>
+</wc-entries>

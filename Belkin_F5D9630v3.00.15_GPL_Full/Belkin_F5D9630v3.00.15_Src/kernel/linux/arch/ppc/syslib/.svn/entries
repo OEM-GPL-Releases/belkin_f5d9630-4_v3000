@@ -1,0 +1,529 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/kernel/linux/arch/ppc/syslib"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   committed-rev="3"
+   name="ibm440gp_common.c"
+   text-time="2008-02-22T08:22:20.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="955e15c2f4e0490cc98c56438379ae37"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:17.000000Z"/>
+<entry
+   committed-rev="3"
+   name="m8260_pci_erratum9.c"
+   text-time="2008-02-22T08:22:20.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="5039745e9d46ec964ed386fdfe715b8f"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:17.000000Z"/>
+<entry
+   committed-rev="3"
+   name="prom_init.c"
+   text-time="2008-02-22T08:22:20.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="03c43f5de00f8c957c5ca7989269c330"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:17.000000Z"/>
+<entry
+   committed-rev="3"
+   name="cpc710.h"
+   text-time="2008-02-22T08:22:20.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="2d1eb271ba73ea8217ad595331565344"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:17.000000Z"/>
+<entry
+   committed-rev="3"
+   name="hawk_common.c"
+   text-time="2008-02-22T08:22:20.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="1b594c2e8a9e0381dd05c6600c9fe812"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:17.000000Z"/>
+<entry
+   committed-rev="3"
+   name="open_pic_defs.h"
+   text-time="2008-02-22T08:22:20.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="feea95735fcc8a4cadd794b5b17943c7"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:17.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ibm440gp_common.h"
+   text-time="2008-02-22T08:22:20.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="dcaf4a7f7a7ade2264bce9f9e4be1183"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:17.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ibm440gx_common.c"
+   text-time="2008-02-22T08:22:20.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="fd5622bb5bdf23ca6ee453a3e7eea074"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:17.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ppc4xx_setup.c"
+   text-time="2008-02-22T08:22:20.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="3ae33ef1411a66291dfe37a9bb35ad40"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:17.000000Z"/>
+<entry
+   committed-rev="3"
+   name="gt64260_pic.c"
+   text-time="2008-02-22T08:22:20.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="10cd7d1f829d06bc88eca9283e76e630"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:18.000000Z"/>
+<entry
+   committed-rev="3"
+   name="cpm2_common.c"
+   text-time="2008-02-22T08:22:20.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="855430004a9b9d7770a810ff3910ba92"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:18.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ibm440gx_common.h"
+   text-time="2008-02-22T08:22:20.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="36e251ea356c07a7d5daeeb13aa4f5bf"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:18.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ppc4xx_kgdb.c"
+   text-time="2008-02-22T08:22:20.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="6cfbba66c4324892068f5fb0e25ada5b"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:18.000000Z"/>
+<entry
+   committed-rev="3"
+   name="qspan_pci.c"
+   text-time="2008-02-22T08:22:20.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="19f70f7f97b2d02101437b605a3135d3"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:18.000000Z"/>
+<entry
+   committed-rev="3"
+   name="gen550_dbg.c"
+   text-time="2008-02-22T08:22:20.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="1bfcad26f785e8fb393bef6e30483978"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:18.000000Z"/>
+<entry
+   committed-rev="3"
+   name="mpc10x_common.c"
+   text-time="2008-02-22T08:22:20.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="90496415c052da82b2318ecd07b3afa1"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:18.000000Z"/>
+<entry
+   committed-rev="3"
+   name="of_device.c"
+   text-time="2008-02-22T08:22:20.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="4fa7780334dab2c64e66a00ee9ebef7c"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:18.000000Z"/>
+<entry
+   committed-rev="3"
+   name="gt64260_common.c"
+   text-time="2008-02-22T08:22:20.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="0b0b7eeba932944a85cc6a50398cb14c"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:18.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ppc4xx_serial.c"
+   text-time="2008-02-22T08:22:20.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="c24ede0c91f55dd115ae118152b10094"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:18.000000Z"/>
+<entry
+   committed-rev="3"
+   name="dcr.S"
+   text-time="2008-02-22T08:22:20.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="226b0607329d8a0ab75fee69c04f3d90"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:18.000000Z"/>
+<entry
+   committed-rev="3"
+   name="open_pic.c"
+   text-time="2008-02-22T08:22:20.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="6e82231415498686d2b4a894a2188103"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:18.000000Z"/>
+<entry
+   committed-rev="3"
+   name="cpm2_pic.c"
+   text-time="2008-02-22T08:22:20.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="8b558d05b24acfeaf681e8c066cc74de"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:18.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Makefile"
+   text-time="2008-02-22T08:22:20.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="b2f8138d6e36221a16e60bf7653b9fba"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:18.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ppc85xx_setup.c"
+   text-time="2008-02-22T08:22:20.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="dc6e18e4ff9126cc702cb84ed73b6a82"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:18.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ppc4xx_sgdma.c"
+   text-time="2008-02-22T08:22:20.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="f2fbaeac82d15ed0587fd32700dc4cd0"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:18.000000Z"/>
+<entry
+   committed-rev="3"
+   name="cpm2_pic.h"
+   text-time="2008-02-22T08:22:20.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="8f8d644cd4571e2646644df93a39858d"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:18.000000Z"/>
+<entry
+   committed-rev="3"
+   name="cpc700.h"
+   text-time="2008-02-22T08:22:20.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="968ac6431865e35141d40b4b1b64d48c"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:18.000000Z"/>
+<entry
+   committed-rev="3"
+   name="mpc52xx_pic.c"
+   text-time="2008-02-22T08:22:20.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="95cca018cc530456df5d6ba5088c65b7"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:18.000000Z"/>
+<entry
+   committed-rev="3"
+   name="pci_auto.c"
+   text-time="2008-02-22T08:22:20.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="232ee2da0c5931c176d806e7503fbebe"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:18.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ppc85xx_setup.h"
+   text-time="2008-02-22T08:22:20.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="032a8dd4fb97cdcec07678d96f4dce06"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:18.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ppc405_pci.c"
+   text-time="2008-02-22T08:22:20.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="70e9277182560377e0376e85835fe831"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:18.000000Z"/>
+<entry
+   committed-rev="3"
+   name="m8260_pci.c"
+   text-time="2008-02-22T08:22:20.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="a906ecbd8a95ae32a4d7685d03cbca56"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:18.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ppc4xx_dma.c"
+   text-time="2008-02-22T08:22:20.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="637e6c3aa8d544211df46179dfe4f861"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:18.000000Z"/>
+<entry
+   committed-rev="3"
+   name="todc_time.c"
+   text-time="2008-02-22T08:22:20.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="00554d8a72805b8ee542658b4ddbfd72"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:18.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ibm_ocp.c"
+   text-time="2008-02-22T08:22:20.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="2541222cacccf071786636eccaeb28b1"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:18.000000Z"/>
+<entry
+   committed-rev="3"
+   name="prep_nvram.c"
+   text-time="2008-02-22T08:22:20.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="e387b101f862ac0eb78cb69b79efb667"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:18.000000Z"/>
+<entry
+   name="CVS"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="m8260_pci.h"
+   text-time="2008-02-22T08:22:20.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="979b19c4c25ebcedec68d5ff3f1416de"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:19.000000Z"/>
+<entry
+   committed-rev="3"
+   name="prom.c"
+   text-time="2008-02-22T08:22:20.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="8d0436d5cbb3485a071d9b95160b14a1"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:19.000000Z"/>
+<entry
+   committed-rev="3"
+   name="open_pic2.c"
+   text-time="2008-02-22T08:22:20.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="52177f43ea33d43c638dc28939565496"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:19.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ibm44x_common.c"
+   text-time="2008-02-22T08:22:20.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="92587b8552c3a589be3458184f00b640"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:19.000000Z"/>
+<entry
+   committed-rev="3"
+   name="i8259.c"
+   text-time="2008-02-22T08:22:20.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="b61319e234f520b2576dede37eb906d1"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:19.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ocp.c"
+   text-time="2008-02-22T08:22:20.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="bc10b4e556b9b7448b670a23222a0104"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:19.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ppc4xx_pic.c"
+   text-time="2008-02-22T08:22:20.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="72ea2a420de722f2161a312671deeb8e"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:19.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ppc4xx_pm.c"
+   text-time="2008-02-22T08:22:20.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="3f9c5e994df53ba5ec40e449689c2b94"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:19.000000Z"/>
+<entry
+   committed-rev="3"
+   name="m8xx_setup.c"
+   text-time="2008-02-22T08:22:20.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="1b7d59471530ccb92c9c103126a1823b"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:19.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ibm44x_common.h"
+   text-time="2008-02-22T08:22:20.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="69b85e00c70e5cefd52002b504c9a007"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:19.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ppc8xx_pic.c"
+   text-time="2008-02-22T08:22:20.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="915e06f697c7239b38929e868bf361a2"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:19.000000Z"/>
+<entry
+   committed-rev="3"
+   name="btext.c"
+   text-time="2008-02-22T08:22:20.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="d7d5bc799b5e6526553f4f8b187116d3"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:19.000000Z"/>
+<entry
+   committed-rev="3"
+   name="mpc52xx_setup.c"
+   text-time="2008-02-22T08:22:20.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="3368c89ca638f4318375e13469dc0ded"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:19.000000Z"/>
+<entry
+   committed-rev="3"
+   name="cpc700_pic.c"
+   text-time="2008-02-22T08:22:20.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="9d73dc273259a976fc976d89bf8ad2c9"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:19.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ppc85xx_common.c"
+   text-time="2008-02-22T08:22:20.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="1f7bf5b60a4b6930e8668e49b26ac5c5"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:19.000000Z"/>
+<entry
+   committed-rev="3"
+   name="gen550_kgdb.c"
+   text-time="2008-02-22T08:22:20.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="0ff6be7e283a837219bd5ce5b5c25d21"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:19.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ppc8xx_pic.h"
+   text-time="2008-02-22T08:22:20.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="b7892402ad334d021ef85942d2bb7a6a"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:19.000000Z"/>
+<entry
+   committed-rev="3"
+   name="m8260_setup.c"
+   text-time="2008-02-22T08:22:20.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="270c2e24d96d971b44415830053da05f"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:19.000000Z"/>
+<entry
+   committed-rev="3"
+   name="indirect_pci.c"
+   text-time="2008-02-22T08:22:20.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="42717ad5840ef0f2db9af1597c02ab1f"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:19.000000Z"/>
+<entry
+   committed-rev="3"
+   name="harrier.c"
+   text-time="2008-02-22T08:22:20.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="d798df29de8af73fb82eb907d256becf"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:19.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ppc85xx_common.h"
+   text-time="2008-02-22T08:22:20.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="27a5eb03d1c72f1137e39a0ebd617244"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:19.000000Z"/>
+</wc-entries>

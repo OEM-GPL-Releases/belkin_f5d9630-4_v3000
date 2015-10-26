@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="6"
+   name=""
+   committed-date="2007-07-19T02:08:04.120186Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/userapps/opensource/ppp"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   name="chat"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="README.MSCHAP80"
+   text-time="2008-02-22T08:25:14.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="47b5dd4eb1f80c86ecde1360152724f2"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:25:09.000000Z"/>
+<entry
+   committed-rev="3"
+   name="configure"
+   text-time="2008-02-22T08:25:14.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="202ef320cbecabe2c4994237052ae289"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:25:09.000000Z"/>
+<entry
+   committed-rev="3"
+   name="PLUGINS"
+   text-time="2008-02-22T08:25:14.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="c12ce64c441abf32fc8fb8080785f6e0"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:25:09.000000Z"/>
+<entry
+   name="pppoe"
+   kind="dir"/>
+<entry
+   name="include"
+   kind="dir"/>
+<entry
+   name="pppdump"
+   kind="dir"/>
+<entry
+   name="scripts"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="README.sunos4"
+   text-time="2008-02-22T08:25:14.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="48229fd17aad28248ff887e82594a004"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:25:09.000000Z"/>
+<entry
+   name="common"
+   kind="dir"/>
+<entry
+   name="pppoecd"
+   kind="dir"/>
+<entry
+   name="sunos4"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="README.linux"
+   text-time="2008-02-22T08:25:14.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="f8449c84846739e8707a0f945696e5a6"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:25:09.000000Z"/>
+<entry
+   committed-rev="3"
+   name="README"
+   text-time="2008-02-22T08:25:14.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="3ac2302fbbd75003ba1664ad61c83570"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:25:09.000000Z"/>
+<entry
+   name="svr4"
+   kind="dir"/>
+<entry
+   name="linux"
+   kind="dir"/>
+<entry
+   name="contrib"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="SETUP"
+   text-time="2008-02-22T08:25:14.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="1356afd3ff87c738180e19765ee12a35"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:25:10.000000Z"/>
+<entry
+   name="pppd"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="README.cbcp"
+   text-time="2008-02-22T08:25:14.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="105c363514ea194fd7c0d2ace08e3752"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:25:10.000000Z"/>
+<entry
+   committed-rev="3"
+   name="FAQ"
+   text-time="2008-02-22T08:25:14.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="4e0d193191a6ee3a1cecade2de4a3ef0"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:25:10.000000Z"/>
+<entry
+   name="modules"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="Changes-2.3"
+   text-time="2008-02-22T08:25:14.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="341540831a25a7366d6faa5e994fe303"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:25:10.000000Z"/>
+<entry
+   name="etc.ppp"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="README.sol2"
+   text-time="2008-02-22T08:25:14.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="a0762a6da2d5ab4e921527b8f1f50ab4"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:25:13.000000Z"/>
+<entry
+   name="solaris"
+   kind="dir"/>
+<entry
+   name="pppstats"
+   kind="dir"/>
+</wc-entries>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/kernel/linux/arch/mips/ddb5xxx/ddb5074"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   committed-rev="3"
+   name="setup.c"
+   text-time="2008-02-22T08:23:11.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="91ee90ad13b640c578be889d28a4deb6"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:11.000000Z"/>
+<entry
+   committed-rev="3"
+   name="int-handler.S"
+   text-time="2008-02-22T08:23:11.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="c2ec5465ef03dfa127eeea5f43a741f3"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:11.000000Z"/>
+<entry
+   committed-rev="3"
+   name="nile4_pic.c"
+   text-time="2008-02-22T08:23:11.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="708a2f8e7ea1994f7cf6c5fcab3092a2"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:11.000000Z"/>
+<entry
+   name="CVS"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="irq.c"
+   text-time="2008-02-22T08:23:11.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="965d066cb9c32f3fbe1f60badf5d2770"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:11.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Makefile"
+   text-time="2008-02-22T08:23:11.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="afccb78e30ef05efad37f67c8f14428b"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:11.000000Z"/>
+</wc-entries>

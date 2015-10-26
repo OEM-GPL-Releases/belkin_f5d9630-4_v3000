@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/kernel/linux/arch/m68k/atari"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   committed-rev="3"
+   name="atasound.c"
+   text-time="2008-02-22T08:22:27.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="a3cbf89961fb1efcdbd445c4708cc852"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:27.000000Z"/>
+<entry
+   committed-rev="3"
+   name="time.c"
+   text-time="2008-02-22T08:22:27.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="34ff36c99783b9cf4ca1323b9babb9f6"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:27.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ataints.c"
+   text-time="2008-02-22T08:22:27.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="1ec32879972b439e6cf69c0663825c33"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:27.000000Z"/>
+<entry
+   committed-rev="3"
+   name="atasound.h"
+   text-time="2008-02-22T08:22:27.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="e6845a34687613d3b0747c1784c3bb0a"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:27.000000Z"/>
+<entry
+   committed-rev="3"
+   name="config.c"
+   text-time="2008-02-22T08:22:27.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="4e309271c6e844f3c369bccfa9408839"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:27.000000Z"/>
+<entry
+   committed-rev="3"
+   name="atari_ksyms.c"
+   text-time="2008-02-22T08:22:27.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="d8b34dcbdcbd438085affcd4d5992760"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:27.000000Z"/>
+<entry
+   committed-rev="3"
+   name="debug.c"
+   text-time="2008-02-22T08:22:27.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="8df77d126b393b29b72ba1da77adf5ea"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:27.000000Z"/>
+<entry
+   committed-rev="3"
+   name="stram.c"
+   text-time="2008-02-22T08:22:27.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="ca147b0c874c7fcc43b615b3a6a1e744"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:27.000000Z"/>
+<entry
+   committed-rev="3"
+   name="stdma.c"
+   text-time="2008-02-22T08:22:27.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="e487e06c8fb8fbfa4b2f2db29dc8fc1a"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:27.000000Z"/>
+<entry
+   name="CVS"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="Makefile"
+   text-time="2008-02-22T08:22:27.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="c85531382b44698c4090b469552b5d2b"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:27.000000Z"/>
+<entry
+   committed-rev="3"
+   name="hades-pci.c"
+   text-time="2008-02-22T08:22:27.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="5aca6d130d5c7480369b182d92bab1b7"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:27.000000Z"/>
+</wc-entries>

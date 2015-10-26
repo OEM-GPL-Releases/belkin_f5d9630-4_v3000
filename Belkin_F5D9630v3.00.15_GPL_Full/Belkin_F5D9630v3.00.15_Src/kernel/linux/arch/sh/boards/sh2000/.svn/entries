@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/kernel/linux/arch/sh/boards/sh2000"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   committed-rev="3"
+   name="setup.c"
+   text-time="2008-02-22T08:23:18.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="efb81c4afd13d49d1b3c4f6cd6baaf79"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:18.000000Z"/>
+<entry
+   name="CVS"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="Makefile"
+   text-time="2008-02-22T08:23:18.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="c0a93d169660fe1717de68efe38a6f06"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:18.000000Z"/>
+</wc-entries>

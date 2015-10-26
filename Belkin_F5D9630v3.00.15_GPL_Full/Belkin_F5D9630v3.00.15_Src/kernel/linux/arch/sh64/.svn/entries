@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/kernel/linux/arch/sh64"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   name="oprofile"
+   kind="dir"/>
+<entry
+   name="kernel"
+   kind="dir"/>
+<entry
+   name="mach-harp"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="Kconfig"
+   text-time="2008-02-22T08:22:26.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="d27d28b8f6cd0092399b521c3cfd5fdc"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:24.000000Z"/>
+<entry
+   name="boot"
+   kind="dir"/>
+<entry
+   name="mach-romram"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="defconfig"
+   text-time="2008-02-22T08:22:26.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="3dd4753a5d224cb98463b6b5b4f581b5"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:25.000000Z"/>
+<entry
+   name="lib"
+   kind="dir"/>
+<entry
+   name="configs"
+   kind="dir"/>
+<entry
+   name="mm"
+   kind="dir"/>
+<entry
+   name="CVS"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="Makefile"
+   text-time="2008-02-22T08:22:26.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="b4d6a9f4ca9f38c619ded5de704f3565"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:26.000000Z"/>
+<entry
+   name="mach-cayman"
+   kind="dir"/>
+<entry
+   name="mach-sim"
+   kind="dir"/>
+</wc-entries>

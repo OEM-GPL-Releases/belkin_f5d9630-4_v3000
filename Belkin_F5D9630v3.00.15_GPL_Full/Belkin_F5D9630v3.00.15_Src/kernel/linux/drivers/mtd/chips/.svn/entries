@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/kernel/linux/drivers/mtd/chips"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   committed-rev="3"
+   name="cfi_util.c"
+   text-time="2008-02-22T08:23:29.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="3a3440a122e0f58ceffef36583c88859"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:29.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Kconfig"
+   text-time="2008-02-22T08:23:29.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="2a3d0ed8a305bddcd6234d980ef216be"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:29.000000Z"/>
+<entry
+   committed-rev="3"
+   name="cfi_cmdset_0001.c"
+   text-time="2008-02-22T08:23:29.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="f505eed2e9adaecad0f4a25067d210dd"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:29.000000Z"/>
+<entry
+   committed-rev="3"
+   name="gen_probe.c"
+   text-time="2008-02-22T08:23:29.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="480a21b9b25567f756a50d0f9f6c9749"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:29.000000Z"/>
+<entry
+   committed-rev="3"
+   name="cfi_cmdset_0002.c"
+   text-time="2008-02-22T08:23:29.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="3e689fc03c337951f3a6858321fd8dc9"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:29.000000Z"/>
+<entry
+   committed-rev="3"
+   name="cfi_cmdset_0020.c"
+   text-time="2008-02-22T08:23:29.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="4f318346564b15a4cb40a4e65172c6a2"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:29.000000Z"/>
+<entry
+   committed-rev="3"
+   name="jedec_probe.c"
+   text-time="2008-02-22T08:23:29.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="22a8fb003fc566fb44e804547abff310"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:29.000000Z"/>
+<entry
+   committed-rev="3"
+   name="map_absent.c"
+   text-time="2008-02-22T08:23:29.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="ef84b4a3a462a69894dc8491cf4d4abe"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:29.000000Z"/>
+<entry
+   committed-rev="3"
+   name="jedec.c"
+   text-time="2008-02-22T08:23:29.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="8b4fff6c40fea90b6f54fae57b961f16"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:29.000000Z"/>
+<entry
+   name="CVS"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="map_ram.c"
+   text-time="2008-02-22T08:23:29.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="626665ea3fe5173120bc88f44c0101b8"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:29.000000Z"/>
+<entry
+   committed-rev="3"
+   name="sharp.c"
+   text-time="2008-02-22T08:23:29.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="f292365c894467290e1da0363ab28f67"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:29.000000Z"/>
+<entry
+   committed-rev="3"
+   name="amd_flash.c"
+   text-time="2008-02-22T08:23:29.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="84e31c6773e89a53f4301befe732e6bc"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:29.000000Z"/>
+<entry
+   committed-rev="3"
+   name="chipreg.c"
+   text-time="2008-02-22T08:23:30.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="da60130f5d377b792280de5c9ce956bf"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:29.000000Z"/>
+<entry
+   committed-rev="3"
+   name="cfi_probe.c"
+   text-time="2008-02-22T08:23:30.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="da55f3662609435026f745579918c2d6"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:29.000000Z"/>
+<entry
+   committed-rev="3"
+   name="map_rom.c"
+   text-time="2008-02-22T08:23:30.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="eb57ff9dee0878c3adb3d84610f1500e"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:29.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Makefile"
+   text-time="2008-02-22T08:23:30.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="fd1b845275980045ea68ec3860ca1e11"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:29.000000Z"/>
+<entry
+   committed-rev="3"
+   name=".cvsignore"
+   text-time="2008-02-22T08:23:30.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="d8b65572e25962faaf07c20bb34d224e"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:29.000000Z"/>
+</wc-entries>

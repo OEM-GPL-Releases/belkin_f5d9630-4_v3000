@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/kernel/linux/arch/m68k/sun3x"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   committed-rev="3"
+   name="time.c"
+   text-time="2008-02-22T08:22:26.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="9c5ffbfc88c503c6f37534074515e453"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:26.000000Z"/>
+<entry
+   committed-rev="3"
+   name="time.h"
+   text-time="2008-02-22T08:22:26.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="b3e994a82ea657eaf3b8b661f40fa26a"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:26.000000Z"/>
+<entry
+   committed-rev="3"
+   name="config.c"
+   text-time="2008-02-22T08:22:26.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="442f0b945a44f2e11bbec58307912124"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:26.000000Z"/>
+<entry
+   committed-rev="3"
+   name="sun3x_ksyms.c"
+   text-time="2008-02-22T08:22:26.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="0ff2017f101dd18cbaf0d45a700a0676"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:26.000000Z"/>
+<entry
+   committed-rev="3"
+   name="dvma.c"
+   text-time="2008-02-22T08:22:26.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="add56a4d70aba6696b5dc9d4c8bf3003"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:26.000000Z"/>
+<entry
+   name="CVS"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="Makefile"
+   text-time="2008-02-22T08:22:26.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="7ad5216f42f8f6455a81a92ab183a48e"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:26.000000Z"/>
+<entry
+   committed-rev="3"
+   name="prom.c"
+   text-time="2008-02-22T08:22:26.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="fcc94d1a9412638dc1b2ae94ca14d8c8"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:26.000000Z"/>
+</wc-entries>

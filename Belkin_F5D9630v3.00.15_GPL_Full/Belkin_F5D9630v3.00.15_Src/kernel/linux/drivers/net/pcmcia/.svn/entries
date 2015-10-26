@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/kernel/linux/drivers/net/pcmcia"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   committed-rev="3"
+   name="pcnet_cs.c"
+   text-time="2008-02-22T08:24:08.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="0addd57b21f50d447b06cd984bd11d5e"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:07.000000Z"/>
+<entry
+   committed-rev="3"
+   name="smc91c92_cs.c"
+   text-time="2008-02-22T08:24:08.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="3653c2ffdc0fc1a0b4139b0e3d5bd33c"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:07.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Kconfig"
+   text-time="2008-02-22T08:24:08.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="ad4060d8c3cf2e350adb28333ddff746"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:07.000000Z"/>
+<entry
+   committed-rev="3"
+   name="3c589_cs.c"
+   text-time="2008-02-22T08:24:08.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="fdbf69c65ed2e0eca549b71195e394d9"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:07.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ibmtr_cs.c"
+   text-time="2008-02-22T08:24:08.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="195e03a46916a5c082470aad075417d3"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:07.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ositech.h"
+   text-time="2008-02-22T08:24:08.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="7842397dd7d27d24d0f10c32c7c8127b"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:07.000000Z"/>
+<entry
+   committed-rev="3"
+   name="axnet_cs.c"
+   text-time="2008-02-22T08:24:08.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="c4e2a995beee3bea3b3d90f4c7a001f5"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:07.000000Z"/>
+<entry
+   name="CVS"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="xirc2ps_cs.c"
+   text-time="2008-02-22T08:24:08.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="628cf5ce92a0a3e8e7b20b8e69d430c1"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:07.000000Z"/>
+<entry
+   committed-rev="3"
+   name="com20020_cs.c"
+   text-time="2008-02-22T08:24:08.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="9d0d16a074e63ada58a4c8c55bdd0300"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:07.000000Z"/>
+<entry
+   committed-rev="3"
+   name="fmvj18x_cs.c"
+   text-time="2008-02-22T08:24:08.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="2e69a973d323001a665d1bbc2d8df08c"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:07.000000Z"/>
+<entry
+   committed-rev="3"
+   name="3c574_cs.c"
+   text-time="2008-02-22T08:24:08.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="40aacb6e2243b05404415f19d0414ba8"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:07.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Makefile"
+   text-time="2008-02-22T08:24:08.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="734c34655a6f05526c3629e5a010e339"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:08.000000Z"/>
+<entry
+   committed-rev="3"
+   name=".cvsignore"
+   text-time="2008-02-22T08:24:08.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="d8b65572e25962faaf07c20bb34d224e"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:08.000000Z"/>
+<entry
+   committed-rev="3"
+   name="nmclan_cs.c"
+   text-time="2008-02-22T08:24:08.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="5eb11cca7f0a7693e4505e6b816ed2cd"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:08.000000Z"/>
+</wc-entries>

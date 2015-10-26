@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/userapps/opensource/oprofile/libpp/.deps"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   committed-rev="3"
+   name="profile_container.Po"
+   text-time="2008-02-22T08:24:59.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="638cc87f24b844674dd8ce53f36f56ec"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:59.000000Z"/>
+<entry
+   committed-rev="3"
+   name="name_storage.Po"
+   text-time="2008-02-22T08:24:59.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="fed6d318ec5e1e0307519ecf07f9c866"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:59.000000Z"/>
+<entry
+   committed-rev="3"
+   name="symbol.Po"
+   text-time="2008-02-22T08:24:59.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="4f328853c3e67e3ec85adb14578a5fd3"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:59.000000Z"/>
+<entry
+   committed-rev="3"
+   name="symbol_container.Po"
+   text-time="2008-02-22T08:24:59.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="4cc9fce47ce94f6a80ea5cb646308585"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:59.000000Z"/>
+<entry
+   committed-rev="3"
+   name="format_output.Po"
+   text-time="2008-02-22T08:24:59.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="ac0282b100943c2c8f63f47781cd75a9"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:59.000000Z"/>
+<entry
+   committed-rev="3"
+   name="diff_container.Po"
+   text-time="2008-02-22T08:24:59.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="6b9174d1a137ddb89fa5438c87bb6064"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:59.000000Z"/>
+<entry
+   committed-rev="3"
+   name="parse_filename.Po"
+   text-time="2008-02-22T08:24:59.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="9fc6481b1df2985506769664b5106197"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:59.000000Z"/>
+<entry
+   committed-rev="3"
+   name="profile_spec.Po"
+   text-time="2008-02-22T08:24:59.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="cf0741202edf61ffc9e39cf6d6406865"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:59.000000Z"/>
+<entry
+   committed-rev="3"
+   name="symbol_sort.Po"
+   text-time="2008-02-22T08:24:59.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="0799ecff6606186ec5df0a3a16cb66f3"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:59.000000Z"/>
+<entry
+   committed-rev="3"
+   name="image_errors.Po"
+   text-time="2008-02-22T08:24:59.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="f9b81d2d5b6040dcbccd263e6a209a4d"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:59.000000Z"/>
+<entry
+   committed-rev="3"
+   name="arrange_profiles.Po"
+   text-time="2008-02-22T08:24:59.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="f0c962b134de45fadb988ebfec471b65"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:59.000000Z"/>
+<entry
+   committed-rev="3"
+   name="sample_container.Po"
+   text-time="2008-02-22T08:24:59.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="884d18715a2795e7942024fd15adfe46"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:59.000000Z"/>
+<entry
+   committed-rev="3"
+   name="op_header.Po"
+   text-time="2008-02-22T08:24:59.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="b0b80e1dce9089d84136fb46eb8e81a8"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:59.000000Z"/>
+<entry
+   committed-rev="3"
+   name="symbol_functors.Po"
+   text-time="2008-02-22T08:24:59.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="b880c1c6410378743ad1aff1def6fbab"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:59.000000Z"/>
+<entry
+   committed-rev="3"
+   name="populate.Po"
+   text-time="2008-02-22T08:24:59.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="3d68e00ddaaf2bd85b437fe4222b679c"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:59.000000Z"/>
+<entry
+   committed-rev="3"
+   name="filename_spec.Po"
+   text-time="2008-02-22T08:24:59.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="fe15398851e85e4938b20ec5946c4250"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:59.000000Z"/>
+<entry
+   committed-rev="3"
+   name="locate_images.Po"
+   text-time="2008-02-22T08:24:59.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="d056eba403a45931b584b8638d8ddf1c"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:59.000000Z"/>
+<entry
+   committed-rev="3"
+   name="callgraph_container.Po"
+   text-time="2008-02-22T08:24:59.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="928b7befe7a0648ef3efeda1e0b724b7"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:59.000000Z"/>
+<entry
+   committed-rev="3"
+   name="profile.Po"
+   text-time="2008-02-22T08:24:59.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="3a60259b3f5e2fb4e7d22b335f1be342"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:59.000000Z"/>
+</wc-entries>

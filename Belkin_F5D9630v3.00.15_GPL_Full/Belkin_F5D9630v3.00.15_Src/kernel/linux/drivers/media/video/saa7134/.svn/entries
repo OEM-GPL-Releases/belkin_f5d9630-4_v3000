@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/kernel/linux/drivers/media/video/saa7134"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   committed-rev="3"
+   name="saa7134-i2c.c"
+   text-time="2008-02-22T08:23:19.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="5851e97ede0a78b22cc61d8a90a17883"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:19.000000Z"/>
+<entry
+   committed-rev="3"
+   name="saa7134-input.c"
+   text-time="2008-02-22T08:23:19.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="1a5cdd5dd74bc05ddb0b76e5c33f182b"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:19.000000Z"/>
+<entry
+   committed-rev="3"
+   name="saa7134-vbi.c"
+   text-time="2008-02-22T08:23:19.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="6b810a330028b989f70b8e114bebc0d5"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:19.000000Z"/>
+<entry
+   committed-rev="3"
+   name="saa6752hs.c"
+   text-time="2008-02-22T08:23:19.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="367ee35620a79e644bc69bce6f1ef3ef"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:19.000000Z"/>
+<entry
+   committed-rev="3"
+   name="saa7134-reg.h"
+   text-time="2008-02-22T08:23:20.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="a5f63bd9cf43a7914e674f43c993fd1b"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:19.000000Z"/>
+<entry
+   committed-rev="3"
+   name="saa7134-oss.c"
+   text-time="2008-02-22T08:23:20.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="172514ccc3537e7a98e41560236be2f9"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:19.000000Z"/>
+<entry
+   committed-rev="3"
+   name="saa7134-ts.c"
+   text-time="2008-02-22T08:23:20.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="31522eef921778e728f16f5b0c11e6e1"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:19.000000Z"/>
+<entry
+   committed-rev="3"
+   name="saa7134-video.c"
+   text-time="2008-02-22T08:23:20.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="bec0819d33f2a9dec519b9402c209f27"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:19.000000Z"/>
+<entry
+   committed-rev="3"
+   name="saa7134.h"
+   text-time="2008-02-22T08:23:20.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="a4451923a9f5139e05ea934598cc7fd4"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:19.000000Z"/>
+<entry
+   committed-rev="3"
+   name="saa7134-core.c"
+   text-time="2008-02-22T08:23:20.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="fe0aef4473e7e80d5302a7bce0bd0f74"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:19.000000Z"/>
+<entry
+   name="CVS"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="Makefile"
+   text-time="2008-02-22T08:23:20.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="a4209449d7bc23887eb01ea44df9ff0d"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:19.000000Z"/>
+<entry
+   committed-rev="3"
+   name="saa7134-tvaudio.c"
+   text-time="2008-02-22T08:23:20.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="e10e500357f865b4266e1d8fd6fbf0c0"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:19.000000Z"/>
+<entry
+   committed-rev="3"
+   name="saa7134-cards.c"
+   text-time="2008-02-22T08:23:20.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="a171ea648ccce7aee06497b073a1ef9d"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:19.000000Z"/>
+</wc-entries>

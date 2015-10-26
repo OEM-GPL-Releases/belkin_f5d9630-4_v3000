@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/userapps/opensource/oprofile/libop/tests"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   committed-rev="3"
+   name="Makefile.in"
+   text-time="2008-02-22T08:24:50.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="34016eafd76b7dd7fc69954a75464701"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:50.000000Z"/>
+<entry
+   committed-rev="3"
+   name="mangle_tests.c"
+   text-time="2008-02-22T08:24:50.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="bb47b44afd98f03a8867b874e02f7960"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:50.000000Z"/>
+<entry
+   committed-rev="3"
+   name="load_events_files_tests.c"
+   text-time="2008-02-22T08:24:50.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="34f3ec53ecfae77d0a88c4a708430e2d"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:50.000000Z"/>
+<entry
+   name=".deps"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="Makefile.am"
+   text-time="2008-02-22T08:24:50.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="c2f043b04abae60e8f9bd56e7954ad0a"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:50.000000Z"/>
+<entry
+   committed-rev="3"
+   name="cpu_type_tests.c"
+   text-time="2008-02-22T08:24:50.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="f060bed15dba35e9a0862603f6dce474"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:50.000000Z"/>
+<entry
+   committed-rev="3"
+   name="alloc_counter_tests.c"
+   text-time="2008-02-22T08:24:50.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="06e1066ef43b8712d05d407dccb2f18a"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:50.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Makefile"
+   text-time="2008-02-22T08:24:50.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="2d9c55c70e7e62b8b58084d7f516e9d1"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:50.000000Z"/>
+<entry
+   committed-rev="3"
+   name="parse_event_tests.c"
+   text-time="2008-02-22T08:24:50.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="1b733d7e57a8c651787480688f5e42c4"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:50.000000Z"/>
+</wc-entries>

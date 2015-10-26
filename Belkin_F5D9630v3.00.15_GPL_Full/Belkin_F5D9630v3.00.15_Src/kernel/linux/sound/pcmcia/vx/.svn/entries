@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/kernel/linux/sound/pcmcia/vx"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   committed-rev="3"
+   name="vx_entry.c"
+   text-time="2008-02-22T08:21:36.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="3950b2f4643188b25d6bc14717d51482"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:36.000000Z"/>
+<entry
+   committed-rev="3"
+   name="vxp_ops.c"
+   text-time="2008-02-22T08:21:36.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="77bd36c00c010acec61a33a4119c28eb"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:36.000000Z"/>
+<entry
+   committed-rev="3"
+   name="vxp_mixer.c"
+   text-time="2008-02-22T08:21:36.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="71b2b32c2eb4307bc4a7c2aef7e9a1d8"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:36.000000Z"/>
+<entry
+   committed-rev="3"
+   name="vxpocket.c"
+   text-time="2008-02-22T08:21:36.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="78f858ec66be864e800ff5288c31bf3b"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:36.000000Z"/>
+<entry
+   committed-rev="3"
+   name="vxp440.c"
+   text-time="2008-02-22T08:21:36.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="39b90459cf694690f1a25151be143e51"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:36.000000Z"/>
+<entry
+   committed-rev="3"
+   name="vxpocket.h"
+   text-time="2008-02-22T08:21:36.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="bf7fd0dcae3c70ead1c2994888446452"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:36.000000Z"/>
+<entry
+   name="CVS"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="Makefile"
+   text-time="2008-02-22T08:21:36.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="649a14408231cd88dfabf12a3f373cb2"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:36.000000Z"/>
+</wc-entries>

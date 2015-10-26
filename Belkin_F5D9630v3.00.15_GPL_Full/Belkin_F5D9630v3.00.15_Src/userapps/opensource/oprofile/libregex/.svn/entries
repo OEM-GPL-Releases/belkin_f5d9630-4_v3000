@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/userapps/opensource/oprofile/libregex"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   name="tests"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="Makefile.in"
+   text-time="2008-02-22T08:24:46.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="1ea719a47acf3e8762faf7e9d73567ae"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:46.000000Z"/>
+<entry
+   committed-rev="3"
+   name="demangle_symbol.cpp"
+   text-time="2008-02-22T08:24:46.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="b367606611562e1d4ccc186a6daae2bf"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:46.000000Z"/>
+<entry
+   committed-rev="3"
+   name="stl.pat"
+   text-time="2008-02-22T08:24:46.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="67042f58ca41363de3b7ddc96c35ef91"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:46.000000Z"/>
+<entry
+   committed-rev="3"
+   name="demangle_symbol.h"
+   text-time="2008-02-22T08:24:46.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="3bb0601a5c66380f69da95a6c3c23e00"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:46.000000Z"/>
+<entry
+   name=".deps"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="Makefile.am"
+   text-time="2008-02-22T08:24:46.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="a7be7e4e981b9a03fd915d785c4ecc85"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:46.000000Z"/>
+<entry
+   committed-rev="3"
+   name="op_regex.cpp"
+   text-time="2008-02-22T08:24:46.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="991d318518b06514e22e078176ee167a"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:46.000000Z"/>
+<entry
+   committed-rev="3"
+   name="stl.pat.in"
+   text-time="2008-02-22T08:24:46.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="cf221f5435113031e03948760d0ba9ba"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:46.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Makefile"
+   text-time="2008-02-22T08:24:46.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="f7a3690a461af51815f46a605ff1f018"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:46.000000Z"/>
+<entry
+   committed-rev="3"
+   name="op_regex.h"
+   text-time="2008-02-22T08:24:46.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="86fd19716581ce4c95de4f6b7d010f60"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:46.000000Z"/>
+</wc-entries>

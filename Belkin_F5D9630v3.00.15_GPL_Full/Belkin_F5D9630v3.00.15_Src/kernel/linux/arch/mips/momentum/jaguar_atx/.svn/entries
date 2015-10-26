@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/kernel/linux/arch/mips/momentum/jaguar_atx"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   committed-rev="3"
+   name="setup.c"
+   text-time="2008-02-22T08:22:59.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="f30357ed424ae7c43ccc3f1540b414ca"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:59.000000Z"/>
+<entry
+   committed-rev="3"
+   name="reset.c"
+   text-time="2008-02-22T08:22:59.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="6091a05c572f807a402a8d0ba60092ec"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:59.000000Z"/>
+<entry
+   committed-rev="3"
+   name="dbg_io.c"
+   text-time="2008-02-22T08:22:59.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="ac26934d1e421424e6dc73e7f4e9a0d7"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:59.000000Z"/>
+<entry
+   committed-rev="3"
+   name="int-handler.S"
+   text-time="2008-02-22T08:22:59.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="c33f5f29b21309ba04bd3ec5f6920b2b"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:59.000000Z"/>
+<entry
+   committed-rev="3"
+   name="jaguar_atx_fpga.h"
+   text-time="2008-02-22T08:22:59.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="e334a7107663965f0c8828f87b907333"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:59.000000Z"/>
+<entry
+   name="CVS"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="ja-console.c"
+   text-time="2008-02-22T08:22:59.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="e61370e8aba15fbcd270d38890b74f27"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:59.000000Z"/>
+<entry
+   committed-rev="3"
+   name="irq.c"
+   text-time="2008-02-22T08:22:59.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="debb123da2e9d313b19accd675796f8f"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:59.000000Z"/>
+<entry
+   committed-rev="3"
+   name=".cvsignore"
+   text-time="2008-02-22T08:22:59.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="d8b65572e25962faaf07c20bb34d224e"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:59.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Makefile"
+   text-time="2008-02-22T08:22:59.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="69ee2ce0316a6b952986b4363cbf8ff0"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:59.000000Z"/>
+<entry
+   committed-rev="3"
+   name="prom.c"
+   text-time="2008-02-22T08:22:59.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="52c330860623994e3079414362de5992"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:59.000000Z"/>
+</wc-entries>

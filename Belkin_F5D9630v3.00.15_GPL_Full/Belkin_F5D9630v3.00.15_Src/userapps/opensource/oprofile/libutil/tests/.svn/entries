@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/userapps/opensource/oprofile/libutil/tests"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   committed-rev="3"
+   name="Makefile.in"
+   text-time="2008-02-22T08:24:49.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="7e176cf895dd1cc07c15bd055f212943"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:49.000000Z"/>
+<entry
+   committed-rev="3"
+   name="file_tests.c"
+   text-time="2008-02-22T08:24:49.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="3c1b73b8d58e286a8adc47ae42d623a9"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:49.000000Z"/>
+<entry
+   name=".deps"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="Makefile.am"
+   text-time="2008-02-22T08:24:49.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="70f6778cf87345b2430206cd67e7eaac"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:49.000000Z"/>
+<entry
+   committed-rev="3"
+   name="string_tests.c"
+   text-time="2008-02-22T08:24:49.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="376231885814e3d2c5ea31bd5a0b4db0"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:49.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Makefile"
+   text-time="2008-02-22T08:24:49.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="83b7887a4253c3a98af69998c2419b7a"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:49.000000Z"/>
+</wc-entries>

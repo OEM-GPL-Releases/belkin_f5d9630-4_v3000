@@ -1,0 +1,109 @@
+<html>
+	<head>
+	<meta http-equiv="refresh" content="<%ejGet(timeout_refresh)%>">
+<link rel="stylesheet" href="main_router.css" type='text/css'>
+
+		<%ejGet("curLanguage")%>
+		<SCRIPT>assign_var();</SCRIPT>
+
+
+<SCRIPT language=JavaScript src="showMenu.js"></SCRIPT>
+<meta HTTP-EQUIV='Pragma' CONTENT='no-cache'>
+<script language='javascript'>
+strHtml='<title>'+fwm_1+' &gt; '+fwsl_1+'</title>';
+dw(strHtml);
+
+var autoup = '<%ejGet(autoUpgrade_flag)%>';
+
+if(autoup == '1')
+{
+	newwin=window.open("checkfw.html","Firmware","toolbar=no,location=no,directories=no,status=no,menubar=no,scrollbars=yes,width=395,height=200,resizable=0");
+	newwin.focus();
+}
+
+
+
+function saveClick() {
+  window.location = 'syslog.txt';
+}
+</script>
+
+</head>
+   <body bgColor="#ffffff" leftMargin="0" topMargin="0" marginheight="0" marginwidth="0">
+         <form>
+       <SCRIPT language=JavaScript>
+	var helpItem 	='Security Log';
+	var menuSection	='Fire';
+	var menuItem	='Security Log';
+	var isAPmode = '<%ejGet(enblNat)%>';
+		
+	var wanStatus = '<%ejGetOther(isUp)%>';
+	showHead(wanStatus,helpItem);
+	showMenu(menuSection,menuItem,isAPmode)
+	</SCRIPT>  
+<TD class=head_bold width="90%" valign="top"><Br>
+            <b><font class="head_bold">&nbsp;&nbsp;&nbsp;<script>dw(fwm_1);</script> &gt; <script>dw(fwsl_1);</script></font></b>
+            <br><Br>
+
+
+	               <table width="595" height="24" border="0" cellpadding="0" cellspacing="0">
+                  <tr>
+				  	 <Td width="13"></Td>
+                     <td width="582" class="copy_1"><script>dw(fwsl_2);</script></td>
+				 </tr>	 
+	</table>
+	
+	<br><br>
+
+
+<table cellSpacing=1 cellPadding=0 width=600 border=0>
+  <TR>
+  	<Td width="29" height="28"></Td>
+  	<TD width="571" bgColor=#666666  class="copy_1"><FONT face="Arial, Helvetica, sans-serif" color='#ffffc0' size=2><B>&nbsp;<script>dw(fwsl_3);</script></B></FONT></TD>
+  </TR>
+
+  <Tr>
+  	<Td></Td>
+  	<Td bgColor=#CCCCCC class="copy_1">
+		<%ejGet(syslog)%>	
+	</Td>  	
+  </Tr>
+</table>
+
+
+<Br><br>
+
+<table width="809" border='0' cellpadding='1' cellspacing='0'>
+<tr><td width="49"></td>
+<td width="156">
+<script>
+	var info="<input type='button' style='height:22px;width:120px;' onClick='window.location=\"syslog.txt\"' value='"+fwsl_4+"' class='submitBtn'>";
+	dw(info);
+</script>
+
+</td>
+<td width="42"></td>
+<Td width="156">
+<script>
+	var info = "<input type='button' style='height:22px;width:120px;' onClick='javascript:window.location.href=\"clearlog.cmd\"' value='"+fwsl_5+"' class='submitBtn'>";
+	dw(info);
+</script>
+
+</Td>
+<Td width="42"></Td>
+<Td width="352">
+<script>
+	var info = "<input type='button' style='height:22px;width:120px;' onClick='javascript:window.location.href=\"fw_security.html\"' value='"+ld_8+"' class='submitBtn'>";
+	dw(info);
+</script>
+
+</Td>
+</tr>
+</table>
+ </TD></TR></TBODY></TABLE></TD>
+
+</form>
+
+
+</body>
+</html>

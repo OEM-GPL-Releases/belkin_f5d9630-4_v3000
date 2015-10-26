@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/kernel/linux/Documentation/video4linux/bttv"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   committed-rev="3"
+   name="Tuners"
+   text-time="2008-02-22T08:22:03.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="674a22c0f525f97aa511cc427cf0d0fd"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:03.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Insmod-options"
+   text-time="2008-02-22T08:22:03.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="96e1f1ba8cdd5c7c8e6df317b2d2b454"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:03.000000Z"/>
+<entry
+   committed-rev="3"
+   name="PROBLEMS"
+   text-time="2008-02-22T08:22:03.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="5c71547c9976f90ce03f4cd439207d08"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:03.000000Z"/>
+<entry
+   committed-rev="3"
+   name="README.WINVIEW"
+   text-time="2008-02-22T08:22:03.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="d501af8ba79cec5a835d479b92d85256"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:03.000000Z"/>
+<entry
+   committed-rev="3"
+   name="THANKS"
+   text-time="2008-02-22T08:22:03.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="fb43f358c11d9824a00286f7d393198e"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:03.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Modprobe.conf"
+   text-time="2008-02-22T08:22:03.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="d4978989ce5dfbf1c3ca1ca4fa57d461"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:03.000000Z"/>
+<entry
+   name="CVS"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="Cards"
+   text-time="2008-02-22T08:22:03.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="caca04671fe806cc3290e6b208e7ce42"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:03.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Modules.conf"
+   text-time="2008-02-22T08:22:03.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="4670768f6001f17b9039b6046874b1b2"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:03.000000Z"/>
+<entry
+   committed-rev="3"
+   name="CONTRIBUTORS"
+   text-time="2008-02-22T08:22:03.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="577880c9a99d20e581b3d7d07f971763"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:03.000000Z"/>
+<entry
+   committed-rev="3"
+   name="README"
+   text-time="2008-02-22T08:22:03.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="9141f01688357f45e6c1cc5cce47623b"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:03.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Sound-FAQ"
+   text-time="2008-02-22T08:22:03.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="7114f6c2d2b1595bf41be0b2c687a86c"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:03.000000Z"/>
+<entry
+   committed-rev="3"
+   name="README.quirks"
+   text-time="2008-02-22T08:22:03.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="f7276eafe5576e9c69ccfba2dbffef55"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:03.000000Z"/>
+<entry
+   committed-rev="3"
+   name="MAKEDEV"
+   text-time="2008-02-22T08:22:03.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="0c412333c9acb1583488d77f1cad7251"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:03.000000Z"/>
+<entry
+   committed-rev="3"
+   name="README.freeze"
+   text-time="2008-02-22T08:22:03.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="ea7755e6d0d5eaed74a18bbc00fbc964"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:03.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Specs"
+   text-time="2008-02-22T08:22:03.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="db6cff29f363d27ecc858180e4e93b92"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:03.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ICs"
+   text-time="2008-02-22T08:22:03.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="28cae3401e2240fa14309cc5f0d9520d"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:03.000000Z"/>
+</wc-entries>

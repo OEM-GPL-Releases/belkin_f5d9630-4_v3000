@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/kernel/linux/Documentation/scsi"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   committed-rev="3"
+   name="scsi.txt"
+   text-time="2008-02-22T08:22:06.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="a1fc85d572f1894e087bf24ac5c5406a"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:06.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ChangeLog.sym53c8xx"
+   text-time="2008-02-22T08:22:06.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="0c96c4692191887bdac072f706de05e1"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:06.000000Z"/>
+<entry
+   committed-rev="3"
+   name="scsi_mid_low_api.txt"
+   text-time="2008-02-22T08:22:06.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="df1305701f1bf5f337f6d7a988f69ad4"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:06.000000Z"/>
+<entry
+   committed-rev="3"
+   name="00-INDEX"
+   text-time="2008-02-22T08:22:06.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="2b659787f315c5e680742c89b5071cbb"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:06.000000Z"/>
+<entry
+   committed-rev="3"
+   name="BusLogic.txt"
+   text-time="2008-02-22T08:22:06.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="522cded719c105ba94f0db9a467ef1fc"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:06.000000Z"/>
+<entry
+   committed-rev="3"
+   name="FlashPoint.txt"
+   text-time="2008-02-22T08:22:06.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="fe976fe8e38140ad14806a0585ca5618"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:06.000000Z"/>
+<entry
+   committed-rev="3"
+   name="in2000.txt"
+   text-time="2008-02-22T08:22:06.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="911b491db90e35a2c7e5411ff1e40684"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:06.000000Z"/>
+<entry
+   committed-rev="3"
+   name="scsi-generic.txt"
+   text-time="2008-02-22T08:22:06.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="fe1254433f8af9029c769bcd6777f89b"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:06.000000Z"/>
+<entry
+   committed-rev="3"
+   name="qla2xxx.revision.notes"
+   text-time="2008-02-22T08:22:06.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="304f66ecc9b134d688fc7836db18866c"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:06.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ppa.txt"
+   text-time="2008-02-22T08:22:06.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="0e983b24ba8e61c415c33a5ff4d4cfcd"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:06.000000Z"/>
+<entry
+   committed-rev="3"
+   name="NinjaSCSI.txt"
+   text-time="2008-02-22T08:22:06.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="6faf24d1202513b325702fdf0a956b29"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:06.000000Z"/>
+<entry
+   committed-rev="3"
+   name="st.txt"
+   text-time="2008-02-22T08:22:06.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="a7fced9a9e36e457c703208dad7411d3"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:06.000000Z"/>
+<entry
+   committed-rev="3"
+   name="osst.txt"
+   text-time="2008-02-22T08:22:06.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="bc62385e020a2bfeebaf38d661d8eea1"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:06.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ibmmca.txt"
+   text-time="2008-02-22T08:22:06.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="579ebe0c379d79cf410c7d604d04ad29"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:06.000000Z"/>
+<entry
+   committed-rev="3"
+   name="aic7xxx_old.txt"
+   text-time="2008-02-22T08:22:06.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="f68de0d2557562a1ff7b6719135ab4ac"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:06.000000Z"/>
+<entry
+   committed-rev="3"
+   name="aic7xxx.txt"
+   text-time="2008-02-22T08:22:06.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="e75b252ac84c26b661081d10e1021d9f"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:06.000000Z"/>
+<entry
+   committed-rev="3"
+   name="aic79xx.txt"
+   text-time="2008-02-22T08:22:06.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="01760f06254691827b9fe25b8147a77c"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:06.000000Z"/>
+<entry
+   committed-rev="3"
+   name="cpqfc.txt"
+   text-time="2008-02-22T08:22:06.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="b4cc69c0f379004fa4d06b0e6b68f0f6"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:06.000000Z"/>
+<entry
+   committed-rev="3"
+   name="sym53c500_cs.txt"
+   text-time="2008-02-22T08:22:06.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="f29b0580fb8e61925b0c797cf0e1206f"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:06.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Mylex.txt"
+   text-time="2008-02-22T08:22:06.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="cfdd473675617f79bd5e2e3656a4fecb"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:06.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ChangeLog.ips"
+   text-time="2008-02-22T08:22:06.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="9a67989ca5f5dd31e0d13a0a83a05493"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:06.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ncr53c7xx.txt"
+   text-time="2008-02-22T08:22:06.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="438ecd7166db9af4f8b7b0841c8b36a0"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:06.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ncr53c8xx.txt"
+   text-time="2008-02-22T08:22:06.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="15f76b33a83b5ca495cbf56e5c2d4043"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:06.000000Z"/>
+<entry
+   committed-rev="3"
+   name="g_NCR5380.txt"
+   text-time="2008-02-22T08:22:06.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="df60ad49f08bd8e34dd0f79fcd8dce31"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:06.000000Z"/>
+<entry
+   committed-rev="3"
+   name="qlogicfas.txt"
+   text-time="2008-02-22T08:22:06.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="55a34d16b5b10e0fbc0e367a63e9721a"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:06.000000Z"/>
+<entry
+   committed-rev="3"
+   name="aha152x.txt"
+   text-time="2008-02-22T08:22:06.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="cee3d0ad0035ab459ce280ef6fbbdb37"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:06.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ChangeLog"
+   text-time="2008-02-22T08:22:06.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="746a64fb46707b1a7032e947281d1ae9"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:06.000000Z"/>
+<entry
+   committed-rev="3"
+   name="LICENSE.FlashPoint"
+   text-time="2008-02-22T08:22:06.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="ef7704635ba02fb27f5e524565d54c10"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:06.000000Z"/>
+<entry
+   committed-rev="3"
+   name="sym53c8xx_2.txt"
+   text-time="2008-02-22T08:22:06.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="c5d07f89e2fec049e1d0fab9d277ac0a"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:06.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ChangeLog.ncr53c8xx"
+   text-time="2008-02-22T08:22:06.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="401aa83e17a9c61d0387d58fb0e33607"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:06.000000Z"/>
+<entry
+   name="CVS"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="dc395x.txt"
+   text-time="2008-02-22T08:22:06.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="7825330b917bffe272e831b546c1b8ea"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:06.000000Z"/>
+<entry
+   committed-rev="3"
+   name="tmscsim.txt"
+   text-time="2008-02-22T08:22:06.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="ccf663a12e484e93a3eaf699772c17f8"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:06.000000Z"/>
+<entry
+   committed-rev="3"
+   name="53c700.txt"
+   text-time="2008-02-22T08:22:06.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="97b8898010b41a77a5b326c7498a464c"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:06.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ChangeLog.megaraid"
+   text-time="2008-02-22T08:22:06.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="5ee0cc98a770a811aea1409eb94aa0e6"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:06.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ChangeLog.sym53c8xx_2"
+   text-time="2008-02-22T08:22:06.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="c20a59b90d92fb25aed678ebd4078607"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:06.000000Z"/>
+<entry
+   committed-rev="3"
+   name="qlogicisp.txt"
+   text-time="2008-02-22T08:22:06.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="89548a11780d2dd7e9a0e13d4eacde8a"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:06.000000Z"/>
+<entry
+   committed-rev="3"
+   name="dtc3x80.txt"
+   text-time="2008-02-22T08:22:06.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="9b070f875ea93c30e310fb0789219208"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:06.000000Z"/>
+<entry
+   committed-rev="3"
+   name="dpti.txt"
+   text-time="2008-02-22T08:22:06.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="6af5f60fe1b8009872c2b9928997da87"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:06.000000Z"/>
+</wc-entries>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/userapps/opensource/oprofile/libpopt/.deps"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   committed-rev="3"
+   name="test3.Po"
+   text-time="2008-02-22T08:24:51.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="858e7a64e377d0398f418ab407f0d7fe"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:51.000000Z"/>
+<entry
+   committed-rev="3"
+   name="poptconfig.Plo"
+   text-time="2008-02-22T08:24:51.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="942698142ed9dda9d3cdf653f5241b72"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:51.000000Z"/>
+<entry
+   committed-rev="3"
+   name="popthelp.Plo"
+   text-time="2008-02-22T08:24:51.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="12c2c75718cc89365d3c74e2313f6b34"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:51.000000Z"/>
+<entry
+   committed-rev="3"
+   name="poptparse.Plo"
+   text-time="2008-02-22T08:24:51.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="26a8875c54f4d8f1e6a214946e4d2745"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:51.000000Z"/>
+<entry
+   committed-rev="3"
+   name="findme.Plo"
+   text-time="2008-02-22T08:24:51.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="e271562c9ff56b1bc84d58c4cf69dd52"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:51.000000Z"/>
+<entry
+   committed-rev="3"
+   name="popt.Plo"
+   text-time="2008-02-22T08:24:51.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="ddfe61a860830b4157a011e8fcdc7e36"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:51.000000Z"/>
+<entry
+   committed-rev="3"
+   name="test1.Po"
+   text-time="2008-02-22T08:24:51.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="daf1c59cbec8864667249e71b5d03b48"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:51.000000Z"/>
+<entry
+   committed-rev="3"
+   name="test2.Po"
+   text-time="2008-02-22T08:24:51.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="239017137164ae61c346f9b246f3baef"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:51.000000Z"/>
+</wc-entries>

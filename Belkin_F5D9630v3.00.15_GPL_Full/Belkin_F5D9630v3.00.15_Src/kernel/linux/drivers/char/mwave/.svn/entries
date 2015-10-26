@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/kernel/linux/drivers/char/mwave"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   committed-rev="3"
+   name="smapi.h"
+   text-time="2008-02-22T08:23:53.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="045c92eff723bf7f9277d4d5520b9300"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:51.000000Z"/>
+<entry
+   committed-rev="3"
+   name="tp3780i.c"
+   text-time="2008-02-22T08:23:53.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="9f0641df249e9e3b4228956d939618cc"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:51.000000Z"/>
+<entry
+   committed-rev="3"
+   name="3780i.h"
+   text-time="2008-02-22T08:23:53.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="4f535f9cb48945d4515f135d14029a1f"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:51.000000Z"/>
+<entry
+   committed-rev="3"
+   name="tp3780i.h"
+   text-time="2008-02-22T08:23:53.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="351dae50aed541a360515a180ab559d4"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:51.000000Z"/>
+<entry
+   committed-rev="3"
+   name="mwavedd.c"
+   text-time="2008-02-22T08:23:53.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="8a191390ce78aeab92bf9f7a6104d2d5"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:51.000000Z"/>
+<entry
+   committed-rev="3"
+   name="smapi.c"
+   text-time="2008-02-22T08:23:53.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="da952979aeed8fc7f42aa1fa9908ef3e"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:51.000000Z"/>
+<entry
+   name="CVS"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="3780i.c"
+   text-time="2008-02-22T08:23:53.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="6ecca5929b23007186b52947b64422a3"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:51.000000Z"/>
+<entry
+   committed-rev="3"
+   name="mwavepub.h"
+   text-time="2008-02-22T08:23:53.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="d1dad656c802747e3dd49ada6b7bea96"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:53.000000Z"/>
+<entry
+   committed-rev="3"
+   name=".cvsignore"
+   text-time="2008-02-22T08:23:53.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="d8b65572e25962faaf07c20bb34d224e"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:53.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Makefile"
+   text-time="2008-02-22T08:23:53.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="38ebbb88d22f7e53f33cdafec443ad05"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:53.000000Z"/>
+<entry
+   committed-rev="3"
+   name="README"
+   text-time="2008-02-22T08:23:53.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="4f57b3e277e00eebebc33e3badcfaf4e"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:53.000000Z"/>
+<entry
+   committed-rev="3"
+   name="mwavedd.h"
+   text-time="2008-02-22T08:23:53.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="e2d9ae05022f66fc16c1ce54ef7c4cd9"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:53.000000Z"/>
+</wc-entries>

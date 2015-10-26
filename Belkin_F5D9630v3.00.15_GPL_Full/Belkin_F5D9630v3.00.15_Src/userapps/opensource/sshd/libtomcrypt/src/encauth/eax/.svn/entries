@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/userapps/opensource/sshd/libtomcrypt/src/encauth/eax"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   committed-rev="3"
+   name="eax_addheader.c"
+   text-time="2008-02-22T08:25:16.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="8ac716847f8a1a5eaee04695562ee817"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:25:16.000000Z"/>
+<entry
+   committed-rev="3"
+   name="eax_init.c"
+   text-time="2008-02-22T08:25:16.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="e06d6ef041d5fdcdee9512ef9cc3ac41"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:25:16.000000Z"/>
+<entry
+   committed-rev="3"
+   name="eax_encrypt.c"
+   text-time="2008-02-22T08:25:16.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="18ca464ff60fa2a22821064d96b19124"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:25:16.000000Z"/>
+<entry
+   committed-rev="3"
+   name="eax_done.c"
+   text-time="2008-02-22T08:25:16.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="743bc7b831fb3c5d30c006baf0b0d7ec"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:25:16.000000Z"/>
+<entry
+   committed-rev="3"
+   name="eax_decrypt_verify_memory.c"
+   text-time="2008-02-22T08:25:16.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="00656f60ea646c8cfb8b1750a3e06542"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:25:16.000000Z"/>
+<entry
+   committed-rev="3"
+   name="eax_decrypt.c"
+   text-time="2008-02-22T08:25:16.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="f8169cf964998e28ffea9d6773ec2077"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:25:16.000000Z"/>
+<entry
+   committed-rev="3"
+   name="eax_encrypt_authenticate_memory.c"
+   text-time="2008-02-22T08:25:16.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="6b97f43a0f0e65738e0cb6750c8faf40"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:25:16.000000Z"/>
+<entry
+   committed-rev="3"
+   name="eax_test.c"
+   text-time="2008-02-22T08:25:16.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="b28c52454c41738cdc47f3efdac5a3b6"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:25:16.000000Z"/>
+</wc-entries>

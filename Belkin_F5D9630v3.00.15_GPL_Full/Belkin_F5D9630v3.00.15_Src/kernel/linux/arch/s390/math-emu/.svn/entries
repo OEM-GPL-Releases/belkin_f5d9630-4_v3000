@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/kernel/linux/arch/s390/math-emu"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   committed-rev="3"
+   name="qrnnd.S"
+   text-time="2008-02-22T08:22:39.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="f3b9c4c4074f96f5f1122eef54c14d4c"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:39.000000Z"/>
+<entry
+   committed-rev="3"
+   name="sfp-util.h"
+   text-time="2008-02-22T08:22:39.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="5abe9298b3b9250482eda132447cb74f"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:39.000000Z"/>
+<entry
+   committed-rev="3"
+   name="math.c"
+   text-time="2008-02-22T08:22:39.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="af9b879659c3af44869c171d4be6d7aa"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:39.000000Z"/>
+<entry
+   name="CVS"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="Makefile"
+   text-time="2008-02-22T08:22:39.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="9c5dc59b5be61a5f11cdaa23745aa1e6"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:39.000000Z"/>
+</wc-entries>

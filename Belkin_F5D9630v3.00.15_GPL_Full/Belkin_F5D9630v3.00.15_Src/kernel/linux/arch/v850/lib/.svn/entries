@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/kernel/linux/arch/v850/lib"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   committed-rev="3"
+   name="checksum.c"
+   text-time="2008-02-22T08:22:49.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="a87fc1ad9bdc22e93ccb19e6472e8896"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:49.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ashldi3.c"
+   text-time="2008-02-22T08:22:49.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="b987104ef27e3f4f1758d3144319d07f"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:49.000000Z"/>
+<entry
+   committed-rev="3"
+   name="lshrdi3.c"
+   text-time="2008-02-22T08:22:49.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="10284390a28c0b7bfe2c091f841571e1"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:49.000000Z"/>
+<entry
+   committed-rev="3"
+   name="negdi2.c"
+   text-time="2008-02-22T08:22:49.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="17f9a94cab0d0d30a244d9f3462438ba"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:49.000000Z"/>
+<entry
+   name="CVS"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="memcpy.c"
+   text-time="2008-02-22T08:22:49.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="90014960adf176730e0d1e15d28993a8"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:49.000000Z"/>
+<entry
+   committed-rev="3"
+   name="memset.c"
+   text-time="2008-02-22T08:22:49.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="c255e988430419585d2d355f6d29410d"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:49.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Makefile"
+   text-time="2008-02-22T08:22:49.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="be3f30a3143baf831f0488762fc43804"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:49.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ashrdi3.c"
+   text-time="2008-02-22T08:22:49.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="48431b8c9849621fd58e407d4a8196bc"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:49.000000Z"/>
+<entry
+   committed-rev="3"
+   name="muldi3.c"
+   text-time="2008-02-22T08:22:49.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="18e614b19df8585f8d33a37007f10f1c"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:49.000000Z"/>
+</wc-entries>

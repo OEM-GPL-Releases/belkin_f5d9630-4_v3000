@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/kernel/linux/include/asm-mips/ddb5xxx"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   committed-rev="3"
+   name="ddb5074.h"
+   text-time="2008-02-22T08:21:07.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="c580679823e0db05c94dd47a900ba7fa"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:07.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ddb5476.h"
+   text-time="2008-02-22T08:21:07.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="fe18c51e908953d0d496bb6e00ebc270"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:07.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ddb5477.h"
+   text-time="2008-02-22T08:21:07.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="b539729898b5ca3cfd6291594649aa0a"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:07.000000Z"/>
+<entry
+   name="CVS"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="ddb5xxx.h"
+   text-time="2008-02-22T08:21:07.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="695d5e5398739564b824d81eba4434d1"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:07.000000Z"/>
+</wc-entries>

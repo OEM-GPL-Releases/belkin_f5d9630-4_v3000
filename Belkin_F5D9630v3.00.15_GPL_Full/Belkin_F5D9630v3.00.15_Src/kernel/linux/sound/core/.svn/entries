@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/kernel/linux/sound/core"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   committed-rev="3"
+   name="isadma.c"
+   text-time="2008-02-22T08:21:35.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="53f5540df209cc7fbbf0e95915a86964"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:34.000000Z"/>
+<entry
+   name="ioctl32"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="Kconfig"
+   text-time="2008-02-22T08:21:35.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="4e52f6ad32805b0af65c548bb0313b77"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:34.000000Z"/>
+<entry
+   committed-rev="3"
+   name="device.c"
+   text-time="2008-02-22T08:21:35.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="ae196670dd8a3bf8f513900899377fc4"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:34.000000Z"/>
+<entry
+   committed-rev="3"
+   name="wrappers.c"
+   text-time="2008-02-22T08:21:35.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="1f1224ab1654ca7e4288a03d92fc86f2"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:34.000000Z"/>
+<entry
+   committed-rev="3"
+   name="init.c"
+   text-time="2008-02-22T08:21:35.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="ab2ef87d36484a98791c22fca2a85842"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:34.000000Z"/>
+<entry
+   committed-rev="3"
+   name="pcm_lib.c"
+   text-time="2008-02-22T08:21:35.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="5d3fb87bb05e6d9aa3f0745a96cd2aae"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:34.000000Z"/>
+<entry
+   committed-rev="3"
+   name="sgbuf.c"
+   text-time="2008-02-22T08:21:35.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="2406489c9014e7c268f8d7e5587dea26"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:34.000000Z"/>
+<entry
+   committed-rev="3"
+   name="pcm_memory.c"
+   text-time="2008-02-22T08:21:35.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="c2aa7f9ffa3f1aed532a6aeb9ec6ca59"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:34.000000Z"/>
+<entry
+   committed-rev="3"
+   name="hwdep.c"
+   text-time="2008-02-22T08:21:35.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="ac809e92590bd6e97ff84a099ad1e00c"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:34.000000Z"/>
+<entry
+   name="seq"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="memory.c"
+   text-time="2008-02-22T08:21:35.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="9bc80d5f8e14332a66ace683626d4a9e"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:34.000000Z"/>
+<entry
+   name="CVS"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="sound_oss.c"
+   text-time="2008-02-22T08:21:35.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="606ed07bf250076332abfe127a92bebe"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:34.000000Z"/>
+<entry
+   committed-rev="3"
+   name="info_oss.c"
+   text-time="2008-02-22T08:21:35.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="8fcf2e604c60da3aa4554b55f7b2912d"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:34.000000Z"/>
+<entry
+   committed-rev="3"
+   name="pcm.c"
+   text-time="2008-02-22T08:21:35.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="efc93ef3319aca7e3fa769f9b1ac4427"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:34.000000Z"/>
+<entry
+   committed-rev="3"
+   name="pcm_timer.c"
+   text-time="2008-02-22T08:21:35.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="9527f965b4fe7e478408690539e8fc1a"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:34.000000Z"/>
+<entry
+   committed-rev="3"
+   name="control.c"
+   text-time="2008-02-22T08:21:35.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="e98bdb1877cfa23479f007b05807cee1"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:34.000000Z"/>
+<entry
+   committed-rev="3"
+   name="timer.c"
+   text-time="2008-02-22T08:21:35.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="2a0bec92e580c976551399ced9c25e68"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:34.000000Z"/>
+<entry
+   name="oss"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="pcm_native.c"
+   text-time="2008-02-22T08:21:35.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="0115dfc2a372dc013ea8634b30dd43e9"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:35.000000Z"/>
+<entry
+   committed-rev="3"
+   name="sound.c"
+   text-time="2008-02-22T08:21:35.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="8b8bf8e581678d633a748d5aacb3bdca"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:35.000000Z"/>
+<entry
+   committed-rev="3"
+   name="memalloc.c"
+   text-time="2008-02-22T08:21:35.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="b62726b99a4449cbb3dd332bfbea9d15"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:35.000000Z"/>
+<entry
+   committed-rev="3"
+   name="rtctimer.c"
+   text-time="2008-02-22T08:21:35.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="7b5760ae82424c1a835e9239e36ec091"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:35.000000Z"/>
+<entry
+   committed-rev="3"
+   name="pcm_misc.c"
+   text-time="2008-02-22T08:21:35.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="2eb31a15073e0ea02f24de23ce3ee59f"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:35.000000Z"/>
+<entry
+   committed-rev="3"
+   name="misc.c"
+   text-time="2008-02-22T08:21:35.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="4fe5a0d16ef8f5b518610d66a97ce992"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:35.000000Z"/>
+<entry
+   committed-rev="3"
+   name="info.c"
+   text-time="2008-02-22T08:21:35.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="b9cc61f4363c684a5a6657d892810b75"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:35.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Makefile"
+   text-time="2008-02-22T08:21:35.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="089e2240c9c1a801d3b155b6f5d672c0"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:35.000000Z"/>
+<entry
+   committed-rev="3"
+   name=".cvsignore"
+   text-time="2008-02-22T08:21:35.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="d8b65572e25962faaf07c20bb34d224e"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:35.000000Z"/>
+<entry
+   committed-rev="3"
+   name="rawmidi.c"
+   text-time="2008-02-22T08:21:35.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="4c6c273d41d07164678cab09b438b18c"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:35.000000Z"/>
+</wc-entries>

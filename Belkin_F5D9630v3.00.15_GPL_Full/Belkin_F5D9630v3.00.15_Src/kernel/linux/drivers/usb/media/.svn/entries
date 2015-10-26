@@ -1,0 +1,367 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/kernel/linux/drivers/usb/media"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   committed-rev="3"
+   name="pwc.h"
+   text-time="2008-02-22T08:24:12.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="0b045e189b06349b6d4f6515d7a69f5a"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:12.000000Z"/>
+<entry
+   committed-rev="3"
+   name="konicawc.c"
+   text-time="2008-02-22T08:24:12.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="0dc4ab5669dad0dc326eb35319c846cc"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:12.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Kconfig"
+   text-time="2008-02-22T08:24:12.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="adcd1685eea18544c26f910f0909147c"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:12.000000Z"/>
+<entry
+   committed-rev="3"
+   name="sn9c102_tas5110c1b.c"
+   text-time="2008-02-22T08:24:12.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="825f84ca909f8f8d225f16f20384d252"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:12.000000Z"/>
+<entry
+   committed-rev="3"
+   name="sn9c102.h"
+   text-time="2008-02-22T08:24:12.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="1d87c72551c30619484a2b3e1c339f0e"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:12.000000Z"/>
+<entry
+   committed-rev="3"
+   name="sn9c102_tas5130d1b.c"
+   text-time="2008-02-22T08:24:12.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="05e0d6c40ca5d935196ac55fb77cedc8"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:12.000000Z"/>
+<entry
+   committed-rev="3"
+   name="pwc-ioctl.h"
+   text-time="2008-02-22T08:24:12.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="c1a3e5a82ef24b6239795600be8a46fb"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:12.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ultracam.c"
+   text-time="2008-02-22T08:24:12.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="4ae32513991c5a4fa6c9c4c0933e3a97"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:12.000000Z"/>
+<entry
+   committed-rev="3"
+   name="w9968cf_vpp.h"
+   text-time="2008-02-22T08:24:12.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="0dadd931efd1e19e7e1620af86dafe2a"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:12.000000Z"/>
+<entry
+   committed-rev="3"
+   name="usbvideo.c"
+   text-time="2008-02-22T08:24:12.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="3b92ffe5312ab6a3b673e2e90ae9b6e5"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:12.000000Z"/>
+<entry
+   committed-rev="3"
+   name="pwc-misc.c"
+   text-time="2008-02-22T08:24:12.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="17d0f88a4864d4ddd5c5bfbcc8c941d9"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:12.000000Z"/>
+<entry
+   committed-rev="3"
+   name="pwc-if.c"
+   text-time="2008-02-22T08:24:12.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="99f93d47421e0eff085b5b0a267577c0"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:12.000000Z"/>
+<entry
+   committed-rev="3"
+   name="usbvideo.h"
+   text-time="2008-02-22T08:24:12.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="f26c397281cac4f2f793e375cfc76e95"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:12.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ibmcam.c"
+   text-time="2008-02-22T08:24:12.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="9ec8888e7af7cd515afe605e941b9f82"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:12.000000Z"/>
+<entry
+   committed-rev="3"
+   name="dabfirmware.h"
+   text-time="2008-02-22T08:24:12.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="4760de9d62f0e538325ee657449c989d"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:12.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Makefile"
+   text-time="2008-02-22T08:24:12.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="4e0319072beda675ca319bc7887befd4"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:12.000000Z"/>
+<entry
+   committed-rev="3"
+   name=".cvsignore"
+   text-time="2008-02-22T08:24:12.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="735ab631b67b75d07a52edc9e01aed4c"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:12.000000Z"/>
+<entry
+   committed-rev="3"
+   name="se401.c"
+   text-time="2008-02-22T08:24:12.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="2f8a4c924a8e42e36b5ac23a9938a103"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:12.000000Z"/>
+<entry
+   committed-rev="3"
+   name="vicam.c"
+   text-time="2008-02-22T08:24:12.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="ea0ffc87a4fd75dfdcbf67b80a6eac7d"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:12.000000Z"/>
+<entry
+   committed-rev="3"
+   name="dabusb.c"
+   text-time="2008-02-22T08:24:12.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="6c646ba8c4cb71fb712e431532b145d0"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:12.000000Z"/>
+<entry
+   committed-rev="3"
+   name="se401.h"
+   text-time="2008-02-22T08:24:12.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="c952414b98354be35c90e474da7e9e15"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:12.000000Z"/>
+<entry
+   committed-rev="3"
+   name="pwc_timon.h"
+   text-time="2008-02-22T08:24:12.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="a65f8be626677c5899ce007952517f6a"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:12.000000Z"/>
+<entry
+   committed-rev="3"
+   name="dabusb.h"
+   text-time="2008-02-22T08:24:12.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="4def374438ba34595e9c79074f4b3d88"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:12.000000Z"/>
+<entry
+   committed-rev="3"
+   name="pwc_kiara.h"
+   text-time="2008-02-22T08:24:12.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="d4a9312a32364ac80c9158a5d6a236dc"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:12.000000Z"/>
+<entry
+   committed-rev="3"
+   name="sn9c102_core.c"
+   text-time="2008-02-22T08:24:12.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="960fbdbb04cb475701d08908ad524884"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:12.000000Z"/>
+<entry
+   committed-rev="3"
+   name="w9968cf_decoder.h"
+   text-time="2008-02-22T08:24:12.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="793f20fe12b4e5031bac47e42f561561"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:12.000000Z"/>
+<entry
+   committed-rev="3"
+   name="stv680.c"
+   text-time="2008-02-22T08:24:12.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="1dd56ec25e48854273d53ef1aba51181"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:12.000000Z"/>
+<entry
+   name="CVS"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="ov511.c"
+   text-time="2008-02-22T08:24:12.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="ea902780f41009fb425834567525c834"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:12.000000Z"/>
+<entry
+   committed-rev="3"
+   name="dsbr100.c"
+   text-time="2008-02-22T08:24:12.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="b054cb24d02c64cdcdac9005b05ca798"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:12.000000Z"/>
+<entry
+   committed-rev="3"
+   name="stv680.h"
+   text-time="2008-02-22T08:24:12.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="c3a62b8cda295d0e8f20c91583637adc"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:12.000000Z"/>
+<entry
+   committed-rev="3"
+   name="w9968cf.c"
+   text-time="2008-02-22T08:24:12.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="e22cf30a4d47d7fe65b4065dc4543eb9"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:12.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ov511.h"
+   text-time="2008-02-22T08:24:12.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="12ca05141b74f682fa0af512f4165049"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:12.000000Z"/>
+<entry
+   committed-rev="3"
+   name="w9968cf.h"
+   text-time="2008-02-22T08:24:12.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="fc546c22c3364ca020afb3e42bb0ff6c"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:12.000000Z"/>
+<entry
+   committed-rev="3"
+   name="pwc-uncompress.c"
+   text-time="2008-02-22T08:24:12.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="e385d8126fb3ee7888dd39de8667760c"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:12.000000Z"/>
+<entry
+   committed-rev="3"
+   name="pwc_nala.h"
+   text-time="2008-02-22T08:24:12.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="464e7994510b681efc1450d9970ee464"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:12.000000Z"/>
+<entry
+   committed-rev="3"
+   name="pwc-uncompress.h"
+   text-time="2008-02-22T08:24:12.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="549f432389dd0fa58b6f0c56a03c4c7a"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:12.000000Z"/>
+<entry
+   committed-rev="3"
+   name="sn9c102_pas106b.c"
+   text-time="2008-02-22T08:24:12.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="30f9e41757239c317c5c4f5045db13f7"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:12.000000Z"/>
+<entry
+   committed-rev="3"
+   name="pwc-ctrl.c"
+   text-time="2008-02-22T08:24:12.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="9163ebbe583e494507bbe92ecff271e4"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:12.000000Z"/>
+<entry
+   committed-rev="3"
+   name="sn9c102_sensor.h"
+   text-time="2008-02-22T08:24:12.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="bbd102171202107546eeaa18d65a5b19"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:12.000000Z"/>
+</wc-entries>

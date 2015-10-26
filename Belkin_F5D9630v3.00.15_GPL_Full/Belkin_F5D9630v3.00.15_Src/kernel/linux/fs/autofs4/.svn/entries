@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/kernel/linux/fs/autofs4"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   committed-rev="3"
+   name="autofs_i.h"
+   text-time="2008-02-22T08:21:51.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="a179f907350ddb315600ed7ec3505f0c"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:51.000000Z"/>
+<entry
+   committed-rev="3"
+   name="inode.c"
+   text-time="2008-02-22T08:21:51.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="16d7db88bd5012f564f959cf9da4928f"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:51.000000Z"/>
+<entry
+   committed-rev="3"
+   name="init.c"
+   text-time="2008-02-22T08:21:51.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="f5aa8dda20895ef1ae4df866e6ead31a"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:51.000000Z"/>
+<entry
+   committed-rev="3"
+   name="root.c"
+   text-time="2008-02-22T08:21:51.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="9395b5aea30cb9193c7f23f16a41b258"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:51.000000Z"/>
+<entry
+   committed-rev="3"
+   name="waitq.c"
+   text-time="2008-02-22T08:21:51.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="91000a64ad1d5a2c36672d46b082c27a"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:51.000000Z"/>
+<entry
+   committed-rev="3"
+   name="symlink.c"
+   text-time="2008-02-22T08:21:51.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="1f035f801131a6c53386d0755b8d946a"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:51.000000Z"/>
+<entry
+   name="CVS"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name=".cvsignore"
+   text-time="2008-02-22T08:21:51.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="735ab631b67b75d07a52edc9e01aed4c"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:51.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Makefile"
+   text-time="2008-02-22T08:21:51.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="4c2c60a2e16a3ff780684915cfed6db4"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:51.000000Z"/>
+<entry
+   committed-rev="3"
+   name="expire.c"
+   text-time="2008-02-22T08:21:51.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="0602ea32eb7a4c5132f77084de890d01"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:51.000000Z"/>
+</wc-entries>

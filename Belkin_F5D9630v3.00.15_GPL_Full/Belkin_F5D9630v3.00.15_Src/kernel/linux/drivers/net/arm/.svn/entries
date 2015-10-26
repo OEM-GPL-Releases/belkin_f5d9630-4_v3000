@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/kernel/linux/drivers/net/arm"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   committed-rev="3"
+   name="Kconfig"
+   text-time="2008-02-22T08:24:08.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="e06796e988f4d257d69ec0e1d7cdad9c"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:08.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ether3.h"
+   text-time="2008-02-22T08:24:08.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="f375235afecab9ac7bc355ab24a764c8"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:08.000000Z"/>
+<entry
+   committed-rev="3"
+   name="etherh.c"
+   text-time="2008-02-22T08:24:08.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="560f14440734f8103c91121c208e7634"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:08.000000Z"/>
+<entry
+   committed-rev="3"
+   name="am79c961a.c"
+   text-time="2008-02-22T08:24:08.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="9cfc47d1b4363c81655da0f8da008a6b"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:08.000000Z"/>
+<entry
+   committed-rev="3"
+   name="am79c961a.h"
+   text-time="2008-02-22T08:24:08.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="857e6e5f20f22cb0240c63ad37e9d267"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:08.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ether00.c"
+   text-time="2008-02-22T08:24:08.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="94cb177bb8d080c282e897309fccf995"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:08.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ether1.c"
+   text-time="2008-02-22T08:24:08.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="896620bee9b76c91d12ad315d5c7599b"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:08.000000Z"/>
+<entry
+   name="CVS"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="ether3.c"
+   text-time="2008-02-22T08:24:08.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="064f2cd8d666c48a3e3e6afeb55943a2"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:08.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Makefile"
+   text-time="2008-02-22T08:24:08.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="8fea9759ef239a0182c888dca2b790f3"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:08.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ether1.h"
+   text-time="2008-02-22T08:24:08.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="81639c1348b30a24b958e8ae1d6c6f12"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:08.000000Z"/>
+</wc-entries>

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/userapps/opensource/ppp/pppd/plugins/pppoe"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   committed-rev="3"
+   name="pppoe_relay.c"
+   text-time="2008-02-22T08:25:10.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="a25a0412c28cc3c9fca7016fe65d76e8"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:25:10.000000Z"/>
+<entry
+   committed-rev="3"
+   name="utils.c"
+   text-time="2008-02-22T08:25:10.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="e5e5379812dee2c33b825ff2f38c587b"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:25:10.000000Z"/>
+<entry
+   committed-rev="3"
+   name="pppoe_client.c"
+   text-time="2008-02-22T08:25:10.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="a71c7e49f6c620be317fd85ff00fe289"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:25:10.000000Z"/>
+<entry
+   committed-rev="3"
+   name="pppd_utils.c"
+   text-time="2008-02-22T08:25:10.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="3794ed745c51e48667ba5b0db3618366"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:25:10.000000Z"/>
+<entry
+   committed-rev="3"
+   name="pppoe.c"
+   text-time="2008-02-22T08:25:10.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="cde60e1116a693dd716add0bbb060d64"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:25:10.000000Z"/>
+<entry
+   committed-rev="3"
+   name="pppoefwd.c"
+   text-time="2008-02-22T08:25:10.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="8a544563482480948852fadb62029209"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:25:10.000000Z"/>
+<entry
+   committed-rev="3"
+   name="pppoed.c"
+   text-time="2008-02-22T08:25:10.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="5095f5744f3371ff7df64eb49f8f408a"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:25:10.000000Z"/>
+<entry
+   committed-rev="3"
+   name="pppoehash.c"
+   text-time="2008-02-22T08:25:10.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="96a5f79a7ffa3cad7c6d3531ebe5e4d9"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:25:10.000000Z"/>
+<entry
+   committed-rev="3"
+   name="pppoe.h"
+   text-time="2008-02-22T08:25:10.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="ce8a063d94c766c3fe9349dc7e90b110"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:25:10.000000Z"/>
+<entry
+   committed-rev="3"
+   name="pppoe_server.c"
+   text-time="2008-02-22T08:25:10.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="b6b035d7333684e6a1829bf6301e9e78"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:25:10.000000Z"/>
+<entry
+   name="CVS"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="Makefile.linux"
+   text-time="2008-02-22T08:25:10.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="e81f60758d71736190ecdd569baca92c"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:25:10.000000Z"/>
+<entry
+   committed-rev="3"
+   name="libpppoe.c"
+   text-time="2008-02-22T08:25:10.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="fb0eb9991868a1abe1c0c775b94e0136"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:25:10.000000Z"/>
+</wc-entries>

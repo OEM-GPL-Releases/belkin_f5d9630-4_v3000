@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/kernel/linux/drivers/net/sk98lin"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   committed-rev="3"
+   name="skproc.c"
+   text-time="2008-02-22T08:24:03.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="85b6e4ff37375eb86f76f89a413a971d"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:03.000000Z"/>
+<entry
+   committed-rev="3"
+   name="skcsum.c"
+   text-time="2008-02-22T08:24:03.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="531acedb31a5cc98d8ad941dfff6e2b5"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:03.000000Z"/>
+<entry
+   name="h"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="skdim.c"
+   text-time="2008-02-22T08:24:03.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="3dbe269045b13881423be8f0da1caa41"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:03.000000Z"/>
+<entry
+   committed-rev="3"
+   name="skxmac2.c"
+   text-time="2008-02-22T08:24:03.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="a1ee58b3d18033ef9f9ec2fdbf1afe99"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:03.000000Z"/>
+<entry
+   committed-rev="3"
+   name="skaddr.c"
+   text-time="2008-02-22T08:24:03.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="2bb08d84ee3794c586bdff433abf3725"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:03.000000Z"/>
+<entry
+   name="CVS"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="ski2c.c"
+   text-time="2008-02-22T08:24:03.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="f51350d33ebaa1eda255fb97e7ae49dd"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:03.000000Z"/>
+<entry
+   committed-rev="3"
+   name="skrlmt.c"
+   text-time="2008-02-22T08:24:03.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="6d6345b134a0164843924a97074a19b4"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:03.000000Z"/>
+<entry
+   committed-rev="3"
+   name="skgehwt.c"
+   text-time="2008-02-22T08:24:03.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="f3e2f69d5c86be495176a3b56ac14d15"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:03.000000Z"/>
+<entry
+   committed-rev="3"
+   name="skgeinit.c"
+   text-time="2008-02-22T08:24:03.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="bb7c393a3980bfab1f0983949a1fd519"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:03.000000Z"/>
+<entry
+   committed-rev="3"
+   name="skgepnmi.c"
+   text-time="2008-02-22T08:24:03.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="363acde784dc04e0577fba9ab446cc3d"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:03.000000Z"/>
+<entry
+   committed-rev="3"
+   name="sktimer.c"
+   text-time="2008-02-22T08:24:03.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="3dc0d5f39adbd0fc27c4710172dc0b0c"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:03.000000Z"/>
+<entry
+   committed-rev="3"
+   name="sklm80.c"
+   text-time="2008-02-22T08:24:03.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="d8da1e36adc217a71b0c59ff3ae06abe"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:03.000000Z"/>
+<entry
+   committed-rev="3"
+   name="skgemib.c"
+   text-time="2008-02-22T08:24:03.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="3617afe59c40b85b275196f6cc249821"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:03.000000Z"/>
+<entry
+   committed-rev="3"
+   name="skqueue.c"
+   text-time="2008-02-22T08:24:03.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="301bb3868ee4fa28a833455bfc38b33f"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:03.000000Z"/>
+<entry
+   committed-rev="3"
+   name="skvpd.c"
+   text-time="2008-02-22T08:24:03.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="40b6163d0b11c3a46c5201b818798548"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:03.000000Z"/>
+<entry
+   committed-rev="3"
+   name="skgesirq.c"
+   text-time="2008-02-22T08:24:03.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="915ff589e73eca990c09187498183c7d"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:03.000000Z"/>
+<entry
+   committed-rev="3"
+   name="skge.c"
+   text-time="2008-02-22T08:24:03.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="634a5b024485350e93b8bb1fab01c70f"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:03.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Makefile"
+   text-time="2008-02-22T08:24:03.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="ea547660867bdba5c1e5cb56cc71147e"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:03.000000Z"/>
+<entry
+   committed-rev="3"
+   name=".cvsignore"
+   text-time="2008-02-22T08:24:03.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="d8b65572e25962faaf07c20bb34d224e"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:03.000000Z"/>
+</wc-entries>

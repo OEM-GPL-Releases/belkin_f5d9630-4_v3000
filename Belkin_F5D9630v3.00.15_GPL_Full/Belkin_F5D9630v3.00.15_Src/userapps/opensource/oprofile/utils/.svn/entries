@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/userapps/opensource/oprofile/utils"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   committed-rev="3"
+   name="opcontrol"
+   text-time="2008-02-22T08:24:58.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="e22b5adb6455d12f5872d9b1ef13293a"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:58.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Makefile.in"
+   text-time="2008-02-22T08:24:58.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="36149d2723e1427b017053c6b1744301"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:58.000000Z"/>
+<entry
+   committed-rev="3"
+   name="krange"
+   text-time="2008-02-22T08:24:58.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="fa1a2fcecc96ec2ac41af65005e23b5e"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:58.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ophelp.c"
+   text-time="2008-02-22T08:24:58.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="dfbbf23469a77e298554d571a300a007"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:58.000000Z"/>
+<entry
+   name=".deps"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="Makefile.am"
+   text-time="2008-02-22T08:24:58.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="bf55d3178d838bad51bc4d2bf6b0c812"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:58.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Makefile"
+   text-time="2008-02-22T08:24:58.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="744969212f77cefb230ab04a15fdad04"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:58.000000Z"/>
+</wc-entries>

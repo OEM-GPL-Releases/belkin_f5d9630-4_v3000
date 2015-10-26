@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/kernel/linux/drivers/usb/net"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   committed-rev="3"
+   name="Kconfig"
+   text-time="2008-02-22T08:24:13.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="1a4aaa2c442592dd1d782f629a508ac8"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:13.000000Z"/>
+<entry
+   committed-rev="3"
+   name="rtl8150.c"
+   text-time="2008-02-22T08:24:13.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="33a4bc5ef9d16c5c444859a180635a47"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:13.000000Z"/>
+<entry
+   committed-rev="3"
+   name="usbnet.c"
+   text-time="2008-02-22T08:24:13.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="df7505701bc0d9705cd9bd20acafe166"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:13.000000Z"/>
+<entry
+   committed-rev="3"
+   name="kaweth.c"
+   text-time="2008-02-22T08:24:13.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="cf5da199715af6565d30e32b27774b28"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:13.000000Z"/>
+<entry
+   committed-rev="3"
+   name="kawethfw.h"
+   text-time="2008-02-22T08:24:13.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="090034273f7c8ec7b0b146541d95322e"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:13.000000Z"/>
+<entry
+   committed-rev="3"
+   name="pegasus.c"
+   text-time="2008-02-22T08:24:13.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="7bca155992a2c2bdc9d671a41899886b"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:13.000000Z"/>
+<entry
+   name="CVS"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="catc.c"
+   text-time="2008-02-22T08:24:13.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="cff2d62e68243b397d5a5943afc3ac44"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:13.000000Z"/>
+<entry
+   committed-rev="3"
+   name=".cvsignore"
+   text-time="2008-02-22T08:24:13.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="735ab631b67b75d07a52edc9e01aed4c"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:13.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Makefile"
+   text-time="2008-02-22T08:24:13.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="6c11b2f4e08ff63bae2625bf92bb26c4"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:13.000000Z"/>
+<entry
+   committed-rev="3"
+   name="pegasus.h"
+   text-time="2008-02-22T08:24:13.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="c246559426f0517dc39aa551d2c070a1"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:13.000000Z"/>
+</wc-entries>

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/kernel/linux/sound"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   name="arm"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="Kconfig"
+   text-time="2008-02-22T08:21:44.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="f33b1f0ea83ec021da7ffefb1530aafb"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:33.000000Z"/>
+<entry
+   name="parisc"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="sound_core.c"
+   text-time="2008-02-22T08:21:44.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="261a43d267ec43f05652a80802b052b5"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:34.000000Z"/>
+<entry
+   name="ppc"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="last.c"
+   text-time="2008-02-22T08:21:44.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="3dd345194651a82ed47df273598081c6"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:34.000000Z"/>
+<entry
+   name="core"
+   kind="dir"/>
+<entry
+   name="usb"
+   kind="dir"/>
+<entry
+   name="CVS"
+   kind="dir"/>
+<entry
+   name="pcmcia"
+   kind="dir"/>
+<entry
+   name="oss"
+   kind="dir"/>
+<entry
+   name="synth"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="sound_firmware.c"
+   text-time="2008-02-22T08:21:44.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="91e7203f2103af76cb3f48e1c0b89da7"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:39.000000Z"/>
+<entry
+   name="sparc"
+   kind="dir"/>
+<entry
+   name="pci"
+   kind="dir"/>
+<entry
+   name="isa"
+   kind="dir"/>
+<entry
+   name="i2c"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="Makefile"
+   text-time="2008-02-22T08:21:44.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="12debb2c4d2e7ca4ca59ee85700be646"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:43.000000Z"/>
+<entry
+   committed-rev="3"
+   name=".cvsignore"
+   text-time="2008-02-22T08:21:44.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="d8b65572e25962faaf07c20bb34d224e"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:43.000000Z"/>
+<entry
+   name="drivers"
+   kind="dir"/>
+</wc-entries>

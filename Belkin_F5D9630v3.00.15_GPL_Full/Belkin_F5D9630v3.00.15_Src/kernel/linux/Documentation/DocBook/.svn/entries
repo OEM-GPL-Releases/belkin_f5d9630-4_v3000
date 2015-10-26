@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/kernel/linux/Documentation/DocBook"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   committed-rev="3"
+   name="z8530book.tmpl"
+   text-time="2008-02-22T08:22:04.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="a5c5bcf528c5f112304ba326bf999bfd"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:04.000000Z"/>
+<entry
+   committed-rev="3"
+   name="kernel-locking.tmpl"
+   text-time="2008-02-22T08:22:04.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="489a3ad080a59098c9d648001b220f38"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:04.000000Z"/>
+<entry
+   committed-rev="3"
+   name="writing_usb_driver.tmpl"
+   text-time="2008-02-22T08:22:04.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="c6a81eee5edf51307cc7933e92f73915"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:04.000000Z"/>
+<entry
+   committed-rev="3"
+   name="tulip-user.tmpl"
+   text-time="2008-02-22T08:22:04.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="9ec32a6ab984c34ec5f0ab97d6e4a9b6"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:04.000000Z"/>
+<entry
+   committed-rev="3"
+   name="mcabook.tmpl"
+   text-time="2008-02-22T08:22:04.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="7d6a9870e4713ec8defe4933e03c02a2"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:04.000000Z"/>
+<entry
+   committed-rev="3"
+   name="procfs_example.c"
+   text-time="2008-02-22T08:22:04.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="1e851375501814c76b2827c210e5b029"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:04.000000Z"/>
+<entry
+   committed-rev="3"
+   name="via-audio.tmpl"
+   text-time="2008-02-22T08:22:04.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="ce7752bb362dbe5ad2515a2a56ad747d"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:04.000000Z"/>
+<entry
+   name="CVS"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="videobook.tmpl"
+   text-time="2008-02-22T08:22:04.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="73af8b5b7bc1f1d4249f325816d44a3b"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:04.000000Z"/>
+<entry
+   committed-rev="3"
+   name="journal-api.tmpl"
+   text-time="2008-02-22T08:22:04.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="3eca34163766c560b49e60bf37346268"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:04.000000Z"/>
+<entry
+   committed-rev="3"
+   name="kernel-hacking.tmpl"
+   text-time="2008-02-22T08:22:04.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="b3865e9350dd4636ade05587d2d1abd8"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:04.000000Z"/>
+<entry
+   committed-rev="3"
+   name="kernel-api.tmpl"
+   text-time="2008-02-22T08:22:04.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="1cf0eb39bc3445d8b72de058f8ba383c"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:04.000000Z"/>
+<entry
+   committed-rev="3"
+   name="mousedrivers.tmpl"
+   text-time="2008-02-22T08:22:04.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="ef66863d0018d0a64b2287510be68203"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:04.000000Z"/>
+<entry
+   committed-rev="3"
+   name="procfs-guide.tmpl"
+   text-time="2008-02-22T08:22:04.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="ab25248c9c8dee5b9486bdb86da37077"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:04.000000Z"/>
+<entry
+   committed-rev="3"
+   name="sis900.tmpl"
+   text-time="2008-02-22T08:22:04.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="ceb632804307a3e9eab4ae5f8fe9fba0"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:04.000000Z"/>
+<entry
+   committed-rev="3"
+   name="usb.tmpl"
+   text-time="2008-02-22T08:22:04.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="3adac7174b4041861c40bb2e35ce9180"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:04.000000Z"/>
+<entry
+   committed-rev="3"
+   name="lsm.tmpl"
+   text-time="2008-02-22T08:22:04.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="6b5eaadb4c736f45e3522ded12e00138"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:04.000000Z"/>
+<entry
+   committed-rev="3"
+   name="gadget.tmpl"
+   text-time="2008-02-22T08:22:04.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="30e962d741fdec187387a377a9424c4c"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:04.000000Z"/>
+<entry
+   committed-rev="3"
+   name="libata.tmpl"
+   text-time="2008-02-22T08:22:04.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="d425e4f258afee928190bd56096abb17"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:04.000000Z"/>
+<entry
+   name="man"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="scsidrivers.tmpl"
+   text-time="2008-02-22T08:22:04.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="6087e8365d1ea5765ec0388de351baed"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:04.000000Z"/>
+<entry
+   committed-rev="3"
+   name="wanbook.tmpl"
+   text-time="2008-02-22T08:22:04.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="871f562db65752de55a6dde1b0c8a41d"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:04.000000Z"/>
+<entry
+   committed-rev="3"
+   name="deviceiobook.tmpl"
+   text-time="2008-02-22T08:22:04.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="d5ff25010ff2c250a0a1f67eef0435f8"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:04.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Makefile"
+   text-time="2008-02-22T08:22:04.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="8c3e355948f149d88d21b85132952929"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:04.000000Z"/>
+</wc-entries>

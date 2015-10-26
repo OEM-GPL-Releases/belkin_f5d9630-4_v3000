@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/userapps/opensource/sshd/libtomcrypt/src/pk/asn1/der/ia5"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   committed-rev="3"
+   name="der_length_ia5_string.c"
+   text-time="2008-02-22T08:25:17.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="0e034a7b8e0dd53052b60d976e6f50e7"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:25:17.000000Z"/>
+<entry
+   committed-rev="3"
+   name="der_decode_ia5_string.c"
+   text-time="2008-02-22T08:25:17.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="26bbebbccad196675e94825336bae4a6"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:25:17.000000Z"/>
+<entry
+   committed-rev="3"
+   name="der_encode_ia5_string.c"
+   text-time="2008-02-22T08:25:17.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="de7bc6e1615864f8ee4b2e3c3ffe67c1"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:25:17.000000Z"/>
+</wc-entries>

@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/kernel/linux/fs/partitions"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   committed-rev="3"
+   name="Kconfig"
+   text-time="2008-02-22T08:21:47.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="e702a91eab6fba2fbf1992285102ce03"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:47.000000Z"/>
+<entry
+   committed-rev="3"
+   name="acorn.c"
+   text-time="2008-02-22T08:21:47.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="ef9d143f502de4df9ada4df0ee967b45"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:47.000000Z"/>
+<entry
+   committed-rev="3"
+   name="efi.c"
+   text-time="2008-02-22T08:21:47.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="49a50f6a23beff443ed20eff7e4f5869"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:47.000000Z"/>
+<entry
+   committed-rev="3"
+   name="sun.c"
+   text-time="2008-02-22T08:21:47.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="819fcae043dd11fd44ddcb143d2d8262"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:47.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ibm.c"
+   text-time="2008-02-22T08:21:47.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="0ac68014822318c8752dc1bf45bda07c"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:47.000000Z"/>
+<entry
+   committed-rev="3"
+   name="acorn.h"
+   text-time="2008-02-22T08:21:47.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="072e3f72766dfb913a6b80cb2a4fbbe1"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:47.000000Z"/>
+<entry
+   committed-rev="3"
+   name="devfs.c"
+   text-time="2008-02-22T08:21:47.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="349bf44ccb175e1275ba5e753f13a2e7"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:47.000000Z"/>
+<entry
+   committed-rev="3"
+   name="efi.h"
+   text-time="2008-02-22T08:21:47.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="433f8adf5950200e754bedb864d52e8c"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:47.000000Z"/>
+<entry
+   committed-rev="3"
+   name="sun.h"
+   text-time="2008-02-22T08:21:47.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="b518286da5ca42ad4c1fde80c9a89db1"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:47.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ldm.c"
+   text-time="2008-02-22T08:21:47.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="30ee6a8d6c83927ef1cc6f105bad3a9a"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:47.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ibm.h"
+   text-time="2008-02-22T08:21:47.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="004a5ce3aa0139b6340af08611bd1625"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:47.000000Z"/>
+<entry
+   committed-rev="3"
+   name="devfs.h"
+   text-time="2008-02-22T08:21:47.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="93215b31548f21d4d0ad3d13ae799375"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:47.000000Z"/>
+<entry
+   committed-rev="3"
+   name="amiga.c"
+   text-time="2008-02-22T08:21:47.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="e506d8bb7af429e422c5a08a628c3dcc"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:47.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ldm.h"
+   text-time="2008-02-22T08:21:47.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="d75508ff5592b29d3328c4626167eef8"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:47.000000Z"/>
+<entry
+   committed-rev="3"
+   name="amiga.h"
+   text-time="2008-02-22T08:21:47.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="4d6e0fb06b8557d86abdf430dae418f9"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:47.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Makefile"
+   text-time="2008-02-22T08:21:47.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="d09dc5b105297c2461949b6b315c2db6"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:47.000000Z"/>
+<entry
+   committed-rev="3"
+   name=".cvsignore"
+   text-time="2008-02-22T08:21:47.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="d8b65572e25962faaf07c20bb34d224e"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:47.000000Z"/>
+<entry
+   committed-rev="3"
+   name="atari.c"
+   text-time="2008-02-22T08:21:47.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="5e11cbe7ec9f36de92c4cb6b87aec9da"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:47.000000Z"/>
+<entry
+   committed-rev="3"
+   name="mac.c"
+   text-time="2008-02-22T08:21:47.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="a25444dba40f8e120704498b9b94f2b8"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:47.000000Z"/>
+<entry
+   committed-rev="3"
+   name="atari.h"
+   text-time="2008-02-22T08:21:47.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="8a28cc904db2b7efeddd420387fdc8e0"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:47.000000Z"/>
+<entry
+   committed-rev="3"
+   name="mac.h"
+   text-time="2008-02-22T08:21:47.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="e115478631d86f368047bc52c0445d3c"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:47.000000Z"/>
+<entry
+   name="CVS"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="check.c"
+   text-time="2008-02-22T08:21:47.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="fe65469886f1afa96e81b955298d1aea"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:47.000000Z"/>
+<entry
+   committed-rev="3"
+   name="check.h"
+   text-time="2008-02-22T08:21:47.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="21d8aebd0f9bedc59bb4bb2e4e53a460"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:47.000000Z"/>
+<entry
+   committed-rev="3"
+   name="sgi.c"
+   text-time="2008-02-22T08:21:47.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="e329dba5b0131364387a9934004eb206"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:47.000000Z"/>
+<entry
+   committed-rev="3"
+   name="msdos.c"
+   text-time="2008-02-22T08:21:47.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="1e75c3e718388c5ff563caf498953019"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:47.000000Z"/>
+<entry
+   committed-rev="3"
+   name="osf.c"
+   text-time="2008-02-22T08:21:47.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="c54c18a34721b75f89afd85c5968daee"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:47.000000Z"/>
+<entry
+   committed-rev="3"
+   name="sgi.h"
+   text-time="2008-02-22T08:21:47.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="2e1401c177b8f53f66ed23a1793f7c01"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:47.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ultrix.c"
+   text-time="2008-02-22T08:21:47.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="879ebd9688c642a7aeab84ea51a00762"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:47.000000Z"/>
+<entry
+   committed-rev="3"
+   name="msdos.h"
+   text-time="2008-02-22T08:21:47.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="722f03cac8a79b01503f67358bd519c1"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:47.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ultrix.h"
+   text-time="2008-02-22T08:21:47.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="c0cb589d0c85ef3465f56cf9fa9a5ec7"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:47.000000Z"/>
+<entry
+   committed-rev="3"
+   name="osf.h"
+   text-time="2008-02-22T08:21:47.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="c2738ebbc71adc0f8917669add998fdd"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:47.000000Z"/>
+</wc-entries>

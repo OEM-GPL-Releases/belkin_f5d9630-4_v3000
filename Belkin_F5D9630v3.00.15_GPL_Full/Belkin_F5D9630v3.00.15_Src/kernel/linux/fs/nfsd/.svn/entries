@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/kernel/linux/fs/nfsd"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   committed-rev="3"
+   name="vfs.c"
+   text-time="2008-02-22T08:21:54.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="097efc4cf72d729012c0ccc702afda51"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:54.000000Z"/>
+<entry
+   committed-rev="3"
+   name="stats.c"
+   text-time="2008-02-22T08:21:54.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="1b5b5fbf61daf55a633d0ad48ca10d7d"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:54.000000Z"/>
+<entry
+   committed-rev="3"
+   name="nfs4proc.c"
+   text-time="2008-02-22T08:21:54.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="0d85eb661f27e34b2c7e3f472c02b832"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:54.000000Z"/>
+<entry
+   committed-rev="3"
+   name="auth.c"
+   text-time="2008-02-22T08:21:54.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="c0e685121542e5153b058157cd88c562"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:54.000000Z"/>
+<entry
+   committed-rev="3"
+   name="nfssvc.c"
+   text-time="2008-02-22T08:21:54.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="4aba16cc60bf85f2f457ead34f27561f"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:54.000000Z"/>
+<entry
+   committed-rev="3"
+   name="nfsxdr.c"
+   text-time="2008-02-22T08:21:54.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="1bbbaddae584b47ea0cdb9f5b1157d0f"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:54.000000Z"/>
+<entry
+   committed-rev="3"
+   name="nfsfh.c"
+   text-time="2008-02-22T08:21:54.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="baa4cd1ab2d1dced49d16d6ee1ae4a40"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:54.000000Z"/>
+<entry
+   committed-rev="3"
+   name="nfscache.c"
+   text-time="2008-02-22T08:21:54.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="f7ae744916388b812af5335d28b4fa75"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:54.000000Z"/>
+<entry
+   committed-rev="3"
+   name="nfsproc.c"
+   text-time="2008-02-22T08:21:54.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="f9042c2bf05efb32c948e0e0617f9f55"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:54.000000Z"/>
+<entry
+   name="CVS"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="nfs4state.c"
+   text-time="2008-02-22T08:21:54.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="a64117a00c690d78407d22e5c1e31ec3"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:54.000000Z"/>
+<entry
+   committed-rev="3"
+   name="export.c"
+   text-time="2008-02-22T08:21:54.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="03e85bb2ae13ff0d53c43bf16d75cccc"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:54.000000Z"/>
+<entry
+   committed-rev="3"
+   name="nfs4idmap.c"
+   text-time="2008-02-22T08:21:54.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="370cca95b6ce3195b421bdeb4e36922b"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:54.000000Z"/>
+<entry
+   committed-rev="3"
+   name="nfs3xdr.c"
+   text-time="2008-02-22T08:21:54.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="5be73434382c07391efd32f284e0d27b"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:54.000000Z"/>
+<entry
+   committed-rev="3"
+   name="nfs4xdr.c"
+   text-time="2008-02-22T08:21:54.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="c880738998172afc2b405305de6ec9b5"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:54.000000Z"/>
+<entry
+   committed-rev="3"
+   name="nfsctl.c"
+   text-time="2008-02-22T08:21:54.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="0eb40395f53382b4b53d5f2a04bf0a87"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:54.000000Z"/>
+<entry
+   committed-rev="3"
+   name="lockd.c"
+   text-time="2008-02-22T08:21:54.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="130f780af07c143bd2d6c666d06ca6c2"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:54.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Makefile"
+   text-time="2008-02-22T08:21:54.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="7dd9f189661db4e06dee52d7fed7fc9f"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:54.000000Z"/>
+<entry
+   committed-rev="3"
+   name=".cvsignore"
+   text-time="2008-02-22T08:21:54.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="735ab631b67b75d07a52edc9e01aed4c"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:54.000000Z"/>
+<entry
+   committed-rev="3"
+   name="nfs3proc.c"
+   text-time="2008-02-22T08:21:54.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="7c284b14ac5780f340612ecdf74cf3a1"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:54.000000Z"/>
+</wc-entries>

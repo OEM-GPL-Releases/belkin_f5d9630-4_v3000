@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/kernel/linux/sound/usb"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   committed-rev="3"
+   name="usbmixer.c"
+   text-time="2008-02-22T08:21:36.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="fc7a596cf4024426ff1ca032508ef812"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:35.000000Z"/>
+<entry
+   committed-rev="3"
+   name="usbmixer_maps.c"
+   text-time="2008-02-22T08:21:36.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="150ff51194b46977903c4d37e43b64be"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:35.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Kconfig"
+   text-time="2008-02-22T08:21:36.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="33bf17b4c53bcd7d73acc4f7894670bf"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:35.000000Z"/>
+<entry
+   committed-rev="3"
+   name="usbaudio.h"
+   text-time="2008-02-22T08:21:36.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="d58829b1f378e4bca9f191aabff84b7f"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:35.000000Z"/>
+<entry
+   name="CVS"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="usbaudio.c"
+   text-time="2008-02-22T08:21:36.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="63ae1c91b70b563a7bc1eacf603f907a"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:36.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Makefile"
+   text-time="2008-02-22T08:21:36.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="37da64c31f1d7c9b7dadd57e4b1efab7"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:36.000000Z"/>
+<entry
+   committed-rev="3"
+   name="usbmidi.c"
+   text-time="2008-02-22T08:21:36.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="e68cbef1374e6b2167ae91826e2d21d7"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:36.000000Z"/>
+<entry
+   committed-rev="3"
+   name="usbquirks.h"
+   text-time="2008-02-22T08:21:36.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="b53e91ff2b7c24f981a37414fa9dc848"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:36.000000Z"/>
+</wc-entries>

@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/kernel/linux/net/sunrpc/auth_gss"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   committed-rev="3"
+   name="gss_krb5_crypto.c"
+   text-time="2008-02-22T08:21:32.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="87a6bf7c86d3801cabc0c9cd018a04c8"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:32.000000Z"/>
+<entry
+   committed-rev="3"
+   name="sunrpcgss_syms.c"
+   text-time="2008-02-22T08:21:32.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="690acd48f2a3ffa9c22d87cd2b32b238"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:32.000000Z"/>
+<entry
+   committed-rev="3"
+   name="gss_krb5_seal.c"
+   text-time="2008-02-22T08:21:32.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="ba93afe4a986cdfd338d0e4c54cc2e26"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:32.000000Z"/>
+<entry
+   committed-rev="3"
+   name="gss_krb5_unseal.c"
+   text-time="2008-02-22T08:21:32.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="f9f24852fbef3d2aa082f55b61794ff2"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:32.000000Z"/>
+<entry
+   committed-rev="3"
+   name="gss_krb5_seqnum.c"
+   text-time="2008-02-22T08:21:32.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="a888d8643fcfdfe78100a67c6a5b1a61"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:32.000000Z"/>
+<entry
+   committed-rev="3"
+   name="gss_generic_token.c"
+   text-time="2008-02-22T08:21:32.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="7c876d28b2b396f73a27f19ce74c17fd"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:32.000000Z"/>
+<entry
+   committed-rev="3"
+   name="gss_pseudoflavors.c"
+   text-time="2008-02-22T08:21:32.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="02e6211e0effb090b1d3f92ce23c2a29"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:32.000000Z"/>
+<entry
+   committed-rev="3"
+   name="gss_mech_switch.c"
+   text-time="2008-02-22T08:21:32.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="34262e5a330f88b6b7ae2e390bb69667"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:32.000000Z"/>
+<entry
+   committed-rev="3"
+   name="svcauth_gss.c"
+   text-time="2008-02-22T08:21:32.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="cdd553c3bcaad3fc696f5669897d310b"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:32.000000Z"/>
+<entry
+   name="CVS"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="gss_krb5_mech.c"
+   text-time="2008-02-22T08:21:32.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="fcff2af6a2009dd3916c2e205830ea2f"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:32.000000Z"/>
+<entry
+   committed-rev="3"
+   name=".cvsignore"
+   text-time="2008-02-22T08:21:32.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="735ab631b67b75d07a52edc9e01aed4c"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:32.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Makefile"
+   text-time="2008-02-22T08:21:32.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="a4676018f537992a9c6d69e414ba8e1f"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:32.000000Z"/>
+<entry
+   committed-rev="3"
+   name="auth_gss.c"
+   text-time="2008-02-22T08:21:32.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="1e6b534342cc92e5c9a98cdb225ccacd"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:32.000000Z"/>
+</wc-entries>

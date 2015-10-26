@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/kernel/linux/scripts/basic"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   committed-rev="3"
+   name="fixdep.c"
+   text-time="2008-02-22T08:21:33.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="3fdf3baa19d8788d8ee988b096bb8887"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:33.000000Z"/>
+<entry
+   committed-rev="3"
+   name="docproc.c"
+   text-time="2008-02-22T08:21:33.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="0d0d37bb842c3f583b0fec07e4ca71f7"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:33.000000Z"/>
+<entry
+   name="CVS"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name=".cvsignore"
+   text-time="2008-02-22T08:21:33.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="8a5614f3d80cc8200284c7d45e12f058"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:33.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Makefile"
+   text-time="2008-02-22T08:21:33.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="f314cf8ba95131cfdbdd756a8c4bfe76"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:33.000000Z"/>
+<entry
+   committed-rev="3"
+   name="split-include.c"
+   text-time="2008-02-22T08:21:33.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="b1f8ea9a1f229e778d594d396ff1e220"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:33.000000Z"/>
+</wc-entries>

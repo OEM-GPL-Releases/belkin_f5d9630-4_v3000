@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/kernel/linux/sound/pci/vx222"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   committed-rev="3"
+   name="vx222.c"
+   text-time="2008-02-22T08:21:40.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="a719d2afa4bcafb856813501c934c199"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:40.000000Z"/>
+<entry
+   committed-rev="3"
+   name="vx222_ops.c"
+   text-time="2008-02-22T08:21:40.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="c9ed1db69af51426fc6a559f8136139b"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:40.000000Z"/>
+<entry
+   committed-rev="3"
+   name="vx222.h"
+   text-time="2008-02-22T08:21:40.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="187a07f09cea75e295ef2b40d516e98e"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:40.000000Z"/>
+<entry
+   name="CVS"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="Makefile"
+   text-time="2008-02-22T08:21:40.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="c585cbf6b8d681ba1c78105be93c39e9"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:40.000000Z"/>
+</wc-entries>

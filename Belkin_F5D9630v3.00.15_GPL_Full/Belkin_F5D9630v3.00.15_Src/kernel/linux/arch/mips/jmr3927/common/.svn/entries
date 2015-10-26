@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/kernel/linux/arch/mips/jmr3927/common"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   name="CVS"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="puts.c"
+   text-time="2008-02-22T08:23:06.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="9be28b9bb9080c0784cb3fc0ff49ebe6"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:05.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Makefile"
+   text-time="2008-02-22T08:23:06.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="f813bddda56af844aa1b593e9b423db0"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:05.000000Z"/>
+<entry
+   committed-rev="3"
+   name="rtc_ds1742.c"
+   text-time="2008-02-22T08:23:06.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="e8e3758d2819ac86c35ffbb6ff59b9c5"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:05.000000Z"/>
+<entry
+   committed-rev="3"
+   name="prom.c"
+   text-time="2008-02-22T08:23:06.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="055cd5b2f5f81f792bf967fcb53148fc"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:05.000000Z"/>
+</wc-entries>

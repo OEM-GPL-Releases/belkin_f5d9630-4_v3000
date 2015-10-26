@@ -1,0 +1,393 @@
+<html>
+   <head>
+      <meta HTTP-EQUIV='Pragma' CONTENT='no-cache'>
+	  <meta http-equiv="refresh" content="<%ejGet(timeout_refresh)%>">
+         <link rel="stylesheet" href="main_router.css" type='text/css'>
+		<%ejGet("curLanguage")%>
+		<SCRIPT>assign_var();</SCRIPT>
+		 
+		 <SCRIPT language=JavaScript src="showMenu.js"></SCRIPT>
+            <script language="javascript" src="util.js"></script>
+            <script language="javascript">
+<!-- hide
+strHtml='<title>'+wlm_1+' &gt; '+wlm_5+'</title>';
+dw(strHtml);
+
+var wlenbl  = '<%ejGetWl(wlEnbl)%>'; // '0': disabled
+
+var mode = '<%ejGetWl(wlAuthMode)%>';
+var auth = '<%ejGetWl(wlAuth)%>';
+var wpaGTKRekey = '<%ejGetWl(wlWpaGTKRekey)%>';
+var varNetReauth = '<%ejGetWl(wlNetReauth)%>';
+var radiusServerIP = '<%ejGetWl(wlRadiusServerIP)%>';
+var radiusPort = '<%ejGetWl(wlRadiusPort)%>';
+var radiusKey = '<%ejGetWl(wlRadiusKey)%>';
+var wep = '<%ejGetWl(wlWep)%>';
+var wpa = '<%ejGetWl(wlWpa)%>';
+var bit = '<%ejGetWl(wlKeyBit)%>';
+var varPreauth = '<%ejGetWl(wlPreauth)%>';
+var ssidIdx = '<%ejGetWl(wlSsidIdx)%>';
+var dot=".";
+
+
+function authModeChangeSet()
+{
+   var loc;
+   with ( document.forms[0] ) 
+   {
+      var authMode = wlAuthMode1[wlAuthMode1.selectedIndex].value;
+
+      switch ( authMode ) 
+	  {
+		case 'open':
+		   loc = 'wireless_encrypt_no.html';
+    	   break;
+      	case 'shared128':
+		   loc = 'wireless_encrypt_128.html';
+		   break;
+		case 'shared64':
+		   loc = 'wireless_encrypt_64.html';
+	       break;
+        case 'wpa':
+    	   loc = 'wireless_wpa_radius.html';
+           break;
+        case 'psk':
+    	   loc = 'wireless_wpa_psk.html';
+           break;
+        default:
+           loc = 'wireless_encrypt_no.html';
+      }
+   }
+   window.location.href = loc;
+}
+
+
+function btnApply(place) 
+{
+    if ( wlenbl == '0' )
+	{
+      alert(wlsw64_7);
+      return;
+    }
+
+   with ( document.forms[0] ) 
+   {
+      var value;
+
+	  var ipAddr = wlRadiusIPAddr1.value + '.' + wlRadiusIPAddr2.value + '.' + wlRadiusIPAddr3.value + '.' + wlRadiusIPAddr4.value
+
+      value = parseInt(wlWpaGtkRekey_1.value);
+		 
+	  var port = parseInt(wlRadiusPort_1.value);
+	  
+		 
+      if (  isNaN(value) == true || value < 0 || value > 0xffffffff ) 
+	  {
+          alert('WPA Group Rekey Interval should be between 0 and 4294967295.');
+          return;
+      }
+
+			
+      if ( isValidIpAddress(ipAddr) == false ) 
+	  {
+          alert('RADIUS Server IP Address is invalid IP address.');
+          return;
+      }
+
+	  if (isNaN(port) || port <= 0 || port > 65535) 
+	  {
+		  alert('RADIUS port is invalid value.');
+		  return;		 
+	  }
+
+	  if (wlRadiusKey_1.value =="")
+	  {
+		  alert(wlsr_1);
+		  return;
+	  }
+
+	  var len = wlRadiusKey_1.value
+  
+	  if(len.length <8 || len.length > 63)
+	  {
+		  alert('Minimum key length should not less than 8 characters , and maximum key length should not greater than 63 characters.');
+		  wlRadiusKey_1.focus();
+		  return;
+	  }
+	  
+
+	  wlAuthMode.value = wlAuthMode2[wlAuthMode2.selectedIndex].value;
+	  wlAuth.value = auth;
+	  wlWpaGtkRekey.value = wlWpaGtkRekey_1.value;
+	  wlRadiusServerIP.value = ipAddr;
+	  wlRadiusPort.value = wlRadiusPort_1.value;
+	  wlRadiusKey.value = wlRadiusKey_1.value;
+	  wlWpa.value = wlWpa_1[wlWpa_1.selectedIndex].value;
+	  wlKeyBit.value = bit;
+	  wlPreauth.value = varPreauth;
+	  wlSsidIdx.value = ssidIdx;
+   
+   }
+   document.forms[0].submit();
+   //window.location.href = loc;
+}
+
+
+
+function frmLoad() 
+{
+  with ( document.forms[0] ) 
+  {
+  
+      wlAuthMode1.selectedIndex = 4;
+	  
+	  if(mode =='wpa')
+      	wlAuthMode2.selectedIndex = 0;
+	  else if(mode =='wpa2')
+	  	wlAuthMode2.selectedIndex = 1;
+	  else
+	  	wlAuthMode2.selectedIndex = 2;
+		
+	  encryption_tech();			
+			
+
+     splitIPString(radiusServerIP,dot);
+	  	  
+     wlWpaGtkRekey_1.value = wpaGTKRekey;
+     wlRadiusPort_1.value = radiusPort;
+     wlRadiusKey_1.value = radiusKey;
+	 
+  	if (wlenbl == '0')
+  	{
+    	wlAuthMode1.disabled=true;
+    	wlAuthMode2.disabled=true;
+    	wlWpa_1.disabled=true;
+    	wlWpaGtkRekey_1.disabled=true;
+    	wlRadiusPort_1.disabled=true;
+    	wlRadiusKey_1.disabled=true;
+		wlRadiusIPAddr1.disabled = true;
+		wlRadiusIPAddr2.disabled = true;
+		wlRadiusIPAddr3.disabled = true;
+		wlRadiusIPAddr4.disabled = true;
+  	}   
+	 
+	 
+  }	  
+}
+
+function encryption_tech()
+{
+	var info="";
+	
+	with(document.forms[0])
+	{
+		if(wlAuthMode2.selectedIndex == 0)
+		{
+			info += "<select name='wlWpa_1'>";
+			info += "<option value='tkip'>"+wlswp_2+"</option>"
+			info += "</select>";
+		}
+		else if(wlAuthMode2.selectedIndex == 1)
+		{
+			info += "<select name='wlWpa_1'>";
+			info += "<option value='aes'>"+wlswp_3+"</option>";
+			info += "</select>";
+		}
+		else
+		{
+			info += "<select name='wlWpa_1'>";
+			info += "<option value=\"tkip+aes\">"+wlswp_2+"+"+wlswp_3+"</option>";
+			info += "</select>";		
+		}	
+	
+	}
+	document.getElementById('wlwpa_1').innerHTML = info;
+
+}
+
+function splitIPString (stringToSplit,separator) 
+{
+
+   arrayOfStrings = stringToSplit.split(separator)
+   with ( document.forms[0] ) 
+   {
+   	wlRadiusIPAddr1.value = arrayOfStrings [0];
+   	wlRadiusIPAddr2.value = arrayOfStrings [1];
+   	wlRadiusIPAddr3.value = arrayOfStrings [2];
+   	wlRadiusIPAddr4.value = arrayOfStrings [3];
+   }
+}
+
+function write_encMode()
+{
+	with(document.forms[0])
+	{
+		document.write("<option value=\"open\">"+home_44+"</option>");
+		document.write("<option value=\"psk\">"+wlsn_2+"</option>");
+		document.write("<option value=\"shared128\">"+wlsn_3+"</option>");
+		document.write("<option value=\"shared64\">"+wlsn_4+"</option>");
+		document.write("<option value=\"wpa\">"+wlsn_5+"</option>");
+	}
+}
+
+function write_wlAuth2()
+{
+	with(document.forms[0])
+	{
+		document.write("<option value=\"wpa\">"+wlsr_4+"</option>");
+		document.write("<option value=\"wpa2\">"+wlsr_5+"</option>");
+		document.write("<option value=\"wpa2mix\">"+wlsr_4+"+"+wlsr_5+"</option>");
+	}
+}
+
+// done hiding -->
+      </script>
+   </head>
+   <body onLoad='frmLoad()'  bgColor="#ffffff" leftMargin="0" topMargin="0" marginheight="0" marginwidth="0">
+         <form action="post.cgi" method="post">
+		    <input type="hidden" name="page" value="wlsecurity">
+		 	<input type="hidden" name="wlAuthMode">
+			<input type="hidden" name="wlAuth">
+			<input type="hidden" name="wlWpaPsk">
+			<input type="hidden" name="wlWpaGtkRekey">
+			<input type="hidden" name="wlNetReauth" value="36000">
+			<input type="hidden" name="wlRadiusServerIP">
+			<input type="hidden" name="wlRadiusPort">	
+			<input type="hidden" name="wlRadiusKey">			
+			<input type="hidden" name="wlWep" value="disabled">
+			<input type="hidden" name="wlWpa">
+			<input type="hidden" name="wlKeyBit">
+	        <input type='hidden' name='wlPreauth'>
+			<input type='hidden' name='wlSsidIdx'>
+		 		 
+       <SCRIPT language=JavaScript>
+	var helpItem 	='Security';
+	var menuSection	='WLAN';
+	var menuItem	='Security';
+	var isAPmode = '<%ejGet(enblNat)%>';
+		
+	var wanStatus = '<%ejGetOther(isUp)%>';
+	showHead(wanStatus,helpItem);
+	showMenu(menuSection,menuItem,isAPmode)
+	</SCRIPT>  
+<TD class=head_bold width="90%" valign="top"><Br>
+
+            <b><font class="head_bold">&nbsp;&nbsp;&nbsp;<script>dw(wlm_1);</script> &gt; <script>dw(wlm_5);</script></font></b>
+			   <br><br><Br>		
+			   
+			<table width="438" border="0" cellpadding="0" cellspacing="0" >
+               <tr>
+			   	  <td width="38"></td>
+                  <td width="160"  class="copy_1"><b><script>dw(wlsn_1);</script></b></td>
+                  <td width="240" class="copy_1"><select name='wlAuthMode1' size="1" onChange='authModeChangeSet()'><script language="javascript">write_encMode()</script></select> 
+                 </td>
+               </tr>
+    	</table>
+
+		<Br>
+
+            <div id="wpainfo">
+              <table width="623"  border="0" cellpadding="0" cellspacing="0" >
+                  <tr>
+				  	 <td width="38"></td>
+                     <td width="585" class="copy_1">
+                     <b><script>dw(wlsr_2);</script> </b><br>
+					 <script>dw(wlsr_3);</script>
+					 <b>           
+            <a href="javascript:void(0);" onClick="window.open('glossary.html#ENCRYPTION','help','toolbar=0,status=0,menubar=0,scrollbars=1,resizable=1,width=640,height=400,left=150,top=150');">
+            <font style="FONT-SIZE: 11px;" color="#0066FF"><script>dw(wd_8);</script></font></a></font></b>
+				    </font></td>
+                  </tr>
+              </table>
+            </div>
+			
+		<br>
+		
+   <table width="702" border="0" cellpadding="0" cellspacing="0">
+     <tr>
+	 	<td width="38"></td>
+	   <td width="160" class="copy_1">
+	     <b><script>dw(wlswp_4);</script></b>	   </td>
+	   <td width="504" class="copy_1">
+		   <select name="wlAuthMode2" onChange="encryption_tech()"><script language="javascript">write_wlAuth2()</script></select>
+	   </td>
+	 </tr>
+   </table>
+	<Br>   
+
+               <table width="504" border="0" cellpadding="0" cellspacing="0">
+                  <tr>
+				  	<td width="38"></td>
+                     <td width="160" class="copy_1">
+                     <b><script>dw(wlswp_7);</script></b>					 </td>
+                     <td width="306" class="copy_1">
+                     <div id='wlwpa_1'></div></td>
+                  </tr>
+    </table>   
+
+	<Br>
+	
+            <div id="wlRadius">
+               <table width="704" border="0" cellpadding="0" cellspacing="0" >
+                  <tr>
+                     <td width="38" ></td>				  
+                     <td width='160' class="copy_1"><b><script>dw(wlsr_6);</script></b></td>
+                    <td width="506" class="copy_1"><input type='text' name='wlRadiusIPAddr1' size='4' maxlength='3'>.
+										<input type='text' name='wlRadiusIPAddr2' size='4' maxlength='3'>.
+										<input type='text' name='wlRadiusIPAddr3' size='4' maxlength='3'>.
+										<input type='text' name='wlRadiusIPAddr4' size='4' maxlength='3'>
+					</td>
+                  </tr>
+		      </table>
+			   
+			   <Br>
+			   <table border="0" cellpadding="0" cellspacing="0" >	  
+				  <tr><td width="38" height="5"></td>
+				  </tr>
+                  <tr>
+                     <td></td>
+                     <td width="160" class="copy_1"><b><script>dw(wlsr_7);</script></b></td>
+                    <td width="478" class="copy_1"><input type='text' name='wlRadiusPort_1' size='20' maxlength='5'></td>
+                  </tr>
+				  
+				  <tr><td height="5"></td></tr>
+                  <tr>
+                     <td></td>
+                     <td width="160" class="copy_1"><Br>
+                    <b><script>dw(wlsr_8);</script></b></td>
+                     <td width="478" class="copy_1"><br>
+                    <input type='password' name='wlRadiusKey_1' size='20' maxlength='64'></td>
+                  </tr>
+               </table>
+			   
+			<Br>
+            
+			</div>
+           
+		    <div id="wpaGTKRekey">
+               <table border="0" cellpadding="0" cellspacing="0">
+                  <tr>
+				  	<td width="38"></td>
+                     <td width='160' class="copy_1">
+                     <b><script>dw(wlsr_9);</script></b></td>
+                    <td width="140" class="copy_1"><input type='text' name='wlWpaGtkRekey_1' size='20' maxlength='10'> </td>
+                     <td width="269" class="copy_1">&nbsp;<b><script>dw(wlsr_10);</script></b></td>
+                  </tr>
+               </table>
+			   <br>
+            </div>
+			<Br><br>
+            <table border="0" cellpadding="0" cellspacing="0">
+				<tr>
+					<td width="239"></td>
+					<td width="461">
+					<script>
+						var info="<input type='button' name='buttonclear' style='height:22px;width:180px;' onClick='frmLoad()' value='"+wd_9+"' class='submitBtn'><input type='button' name='buttonapply' style='height:22px;width:180px;' onClick='btnApply(\"wlsecurity.wl\")' value='"+wd_10+"' class='submitBtn'>";
+						dw(info);					
+					</script>
+				  </td>
+				</tr>
+			</table>
+         </TD></TR></TBODY></TABLE></TD></form>
+   </body>
+</html>

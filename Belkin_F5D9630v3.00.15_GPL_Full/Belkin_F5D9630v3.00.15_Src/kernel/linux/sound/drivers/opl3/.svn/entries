@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/kernel/linux/sound/drivers/opl3"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   committed-rev="3"
+   name="opl3_midi.c"
+   text-time="2008-02-22T08:21:44.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="2dbd3c24730d80454313e818be50c805"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:44.000000Z"/>
+<entry
+   committed-rev="3"
+   name="opl3_oss.c"
+   text-time="2008-02-22T08:21:44.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="e470da07fcc53eb74c56c5917159b4eb"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:44.000000Z"/>
+<entry
+   committed-rev="3"
+   name="opl3_synth.c"
+   text-time="2008-02-22T08:21:44.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="0268a05cd8ddf558f3eb55cf800ec1aa"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:44.000000Z"/>
+<entry
+   committed-rev="3"
+   name="opl3_lib.c"
+   text-time="2008-02-22T08:21:44.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="d3888ad6ec71f9e06c66e6ab9b64afbf"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:44.000000Z"/>
+<entry
+   committed-rev="3"
+   name="opl3_seq.c"
+   text-time="2008-02-22T08:21:44.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="55dcfb06f7f33bee8bc7f2f48ec597f0"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:44.000000Z"/>
+<entry
+   committed-rev="3"
+   name="opl3_drums.c"
+   text-time="2008-02-22T08:21:44.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="6fc9de32fbf73391781f1983c78e8f3f"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:44.000000Z"/>
+<entry
+   committed-rev="3"
+   name="opl3_voice.h"
+   text-time="2008-02-22T08:21:44.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="8b1417deaa4baac5e8629b764c401d35"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:44.000000Z"/>
+<entry
+   name="CVS"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name=".cvsignore"
+   text-time="2008-02-22T08:21:44.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="d8b65572e25962faaf07c20bb34d224e"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:44.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Makefile"
+   text-time="2008-02-22T08:21:44.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="02956020683e3e59fe5afb260c4793c9"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:44.000000Z"/>
+</wc-entries>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/kernel/linux/arch/sh/boards/bigsur"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   committed-rev="3"
+   name="setup.c"
+   text-time="2008-02-22T08:23:17.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="519f5e0a698f1d844f561a513a232ef1"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:17.000000Z"/>
+<entry
+   committed-rev="3"
+   name="led.c"
+   text-time="2008-02-22T08:23:17.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="ccde7e96b7e9f292552bf4c2c098daad"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:17.000000Z"/>
+<entry
+   committed-rev="3"
+   name="io.c"
+   text-time="2008-02-22T08:23:17.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="1eef54a172e247f352637e85d8e50994"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:17.000000Z"/>
+<entry
+   name="CVS"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="irq.c"
+   text-time="2008-02-22T08:23:17.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="f4381e84024c10148cda83af9bf7aa90"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:17.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Makefile"
+   text-time="2008-02-22T08:23:17.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="b5537e43b839b7b3d9760edb4c97942a"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:17.000000Z"/>
+</wc-entries>

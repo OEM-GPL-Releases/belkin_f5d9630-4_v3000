@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/kernel/linux/drivers/net/ixgb"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   committed-rev="3"
+   name="ixgb.h"
+   text-time="2008-02-22T08:24:08.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="757b5328e3d15b0dff55a6ddb596f116"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:08.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ixgb_ee.c"
+   text-time="2008-02-22T08:24:08.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="69f88be667c3505c5e0591b31d158c46"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:08.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ixgb_ee.h"
+   text-time="2008-02-22T08:24:08.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="7cc739ef763706c5db3459b646973526"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:08.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ixgb_ethtool.c"
+   text-time="2008-02-22T08:24:08.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="ef16c9db39b590719a63f4af5fb7d335"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:08.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ixgb_hw.c"
+   text-time="2008-02-22T08:24:08.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="a39ff197f99cdd332afa7fd6b709a5e7"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:08.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ixgb_osdep.h"
+   text-time="2008-02-22T08:24:08.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="e21adb8e0639f3c35542cd8b05f3f92b"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:08.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ixgb_param.c"
+   text-time="2008-02-22T08:24:08.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="0e405c9158a0bfa03d57cb3a5ab6c1f0"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:08.000000Z"/>
+<entry
+   name="CVS"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="Makefile"
+   text-time="2008-02-22T08:24:08.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="37a70e02c95238405ae68137864f06b3"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:08.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ixgb_hw.h"
+   text-time="2008-02-22T08:24:08.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="71026cccfd79955b83e46c97b749aa1e"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:08.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ixgb_ids.h"
+   text-time="2008-02-22T08:24:08.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="e515dad3ed435688ce81332d198c9289"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:08.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ixgb_main.c"
+   text-time="2008-02-22T08:24:08.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="33fb1220fc26a2233aa3affa1da015f1"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:08.000000Z"/>
+</wc-entries>

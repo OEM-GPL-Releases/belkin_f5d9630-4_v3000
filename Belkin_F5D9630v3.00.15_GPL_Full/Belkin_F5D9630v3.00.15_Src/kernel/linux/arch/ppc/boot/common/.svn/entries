@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/kernel/linux/arch/ppc/boot/common"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   committed-rev="3"
+   name="bootinfo.c"
+   text-time="2008-02-22T08:22:17.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="787e3e0b29f966f44af866d93e5af6e3"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:17.000000Z"/>
+<entry
+   committed-rev="3"
+   name="misc-common.c"
+   text-time="2008-02-22T08:22:17.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="dbf01411c15b665e1d0b06877f50e08f"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:17.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ns16550.c"
+   text-time="2008-02-22T08:22:17.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="ebf9313d5bc67d7f9e440063c538b271"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:17.000000Z"/>
+<entry
+   committed-rev="3"
+   name="string.S"
+   text-time="2008-02-22T08:22:17.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="d8c102dd0ff8426be2c15cfdedb9c2e4"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:17.000000Z"/>
+<entry
+   committed-rev="3"
+   name="crt0.S"
+   text-time="2008-02-22T08:22:17.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="a849c5966dca6f3662b472a0a8e03469"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:17.000000Z"/>
+<entry
+   name="CVS"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="Makefile"
+   text-time="2008-02-22T08:22:17.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="b45b14db28b55e23a49027e17dcf6377"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:17.000000Z"/>
+<entry
+   committed-rev="3"
+   name="serial_stub.c"
+   text-time="2008-02-22T08:22:17.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="fce644a5faf9d2c40694704f4a86ca0e"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:17.000000Z"/>
+<entry
+   committed-rev="3"
+   name="util.S"
+   text-time="2008-02-22T08:22:17.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="7e9ecd3d369d0b3205bb37919bfb8ec3"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:17.000000Z"/>
+</wc-entries>

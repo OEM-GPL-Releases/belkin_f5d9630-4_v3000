@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/kernel/linux/net/decnet/netfilter"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   committed-rev="3"
+   name="Kconfig"
+   text-time="2008-02-22T08:21:32.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="7239fc424a5b463b44d2d73aa81e5c23"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:32.000000Z"/>
+<entry
+   name="CVS"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name=".cvsignore"
+   text-time="2008-02-22T08:21:32.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="735ab631b67b75d07a52edc9e01aed4c"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:32.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Makefile"
+   text-time="2008-02-22T08:21:32.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="e9de586f0e9640dd0954a95d82d8bc72"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:32.000000Z"/>
+<entry
+   committed-rev="3"
+   name="dn_rtmsg.c"
+   text-time="2008-02-22T08:21:32.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="e3f87b828ccd8f18729265ce53becc40"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:32.000000Z"/>
+</wc-entries>

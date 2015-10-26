@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/kernel/linux/sound/pci/mixart"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   committed-rev="3"
+   name="mixart_hwdep.h"
+   text-time="2008-02-22T08:21:41.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="700f79db862bd0373b83700a4cbbb425"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:41.000000Z"/>
+<entry
+   committed-rev="3"
+   name="mixart_core.h"
+   text-time="2008-02-22T08:21:41.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="d0ae43c21b01ebcfabf6e87247c97050"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:41.000000Z"/>
+<entry
+   committed-rev="3"
+   name="mixart.c"
+   text-time="2008-02-22T08:21:41.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="92a684fc846e6918e6738a572d4f2208"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:41.000000Z"/>
+<entry
+   committed-rev="3"
+   name="mixart_mixer.c"
+   text-time="2008-02-22T08:21:41.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="3d6accd86f44404beae100161ab76568"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:41.000000Z"/>
+<entry
+   committed-rev="3"
+   name="mixart.h"
+   text-time="2008-02-22T08:21:41.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="36d7271fd0af29ed6281a95473e81e7d"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:41.000000Z"/>
+<entry
+   name="CVS"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="mixart_hwdep.c"
+   text-time="2008-02-22T08:21:41.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="7ed6a5bfdac2ccf75c059d834e718b20"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:41.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Makefile"
+   text-time="2008-02-22T08:21:41.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="70f12b09e73d233b8d99ab0a4400d549"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:41.000000Z"/>
+<entry
+   committed-rev="3"
+   name="mixart_core.c"
+   text-time="2008-02-22T08:21:41.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="22ed8a4ad13cb0e248abf928c4798933"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:41.000000Z"/>
+<entry
+   committed-rev="3"
+   name="mixart_mixer.h"
+   text-time="2008-02-22T08:21:41.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="de51722588bae29b12b5823bc1bddc9d"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:41.000000Z"/>
+</wc-entries>

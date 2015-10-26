@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/kernel/linux/fs/coda"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   committed-rev="3"
+   name="dir.c"
+   text-time="2008-02-22T08:21:57.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="bcfd76ebe0e572820ff8262014fac9b5"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:57.000000Z"/>
+<entry
+   committed-rev="3"
+   name="inode.c"
+   text-time="2008-02-22T08:21:57.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="14a1685b7e6438b4dc442c6a03fc089e"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:57.000000Z"/>
+<entry
+   committed-rev="3"
+   name="file.c"
+   text-time="2008-02-22T08:21:57.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="8dc30ae0d52e32f60d6aff90b765baa0"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:57.000000Z"/>
+<entry
+   committed-rev="3"
+   name="upcall.c"
+   text-time="2008-02-22T08:21:57.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="43ab40f4820f6692034f07f3de050fc3"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:57.000000Z"/>
+<entry
+   committed-rev="3"
+   name="psdev.c"
+   text-time="2008-02-22T08:21:57.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="66cc04eb2f5e97bdd68a27e65c99d51d"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:57.000000Z"/>
+<entry
+   committed-rev="3"
+   name="sysctl.c"
+   text-time="2008-02-22T08:21:57.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="ba443dd03586762c1a620b280b3205b8"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:57.000000Z"/>
+<entry
+   committed-rev="3"
+   name="cache.c"
+   text-time="2008-02-22T08:21:57.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="9ed1dda04d078de50b960f575cdccf8d"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:57.000000Z"/>
+<entry
+   committed-rev="3"
+   name="coda_linux.c"
+   text-time="2008-02-22T08:21:57.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="ba9b3a1fe9dc08f73228b6478a9909c0"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:57.000000Z"/>
+<entry
+   committed-rev="3"
+   name="symlink.c"
+   text-time="2008-02-22T08:21:57.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="db6415c77cb3e6013adaf48f28ef4c20"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:57.000000Z"/>
+<entry
+   committed-rev="3"
+   name="cnode.c"
+   text-time="2008-02-22T08:21:57.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="264d5859485e37c5a9eb5345e81f0e9a"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:57.000000Z"/>
+<entry
+   name="CVS"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="pioctl.c"
+   text-time="2008-02-22T08:21:57.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="3dbe1528238e1bc5d225c04c73efa8b6"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:57.000000Z"/>
+<entry
+   committed-rev="3"
+   name=".cvsignore"
+   text-time="2008-02-22T08:21:57.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="735ab631b67b75d07a52edc9e01aed4c"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:57.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Makefile"
+   text-time="2008-02-22T08:21:57.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="92e8a36edc377f25b3fa1d6b90c1edf0"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:57.000000Z"/>
+</wc-entries>

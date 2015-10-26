@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/kernel/linux/arch/m68k/ifpsp060"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   committed-rev="3"
+   name="os.S"
+   text-time="2008-02-22T08:22:27.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="118919445935bb4eb4f0f5e6a8dab0e9"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:27.000000Z"/>
+<entry
+   committed-rev="3"
+   name="TEST.DOC"
+   text-time="2008-02-22T08:22:27.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="dfea1487d53dbe6e53f138bc282842ee"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:27.000000Z"/>
+<entry
+   committed-rev="3"
+   name="fplsp.sa"
+   text-time="2008-02-22T08:22:27.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="db7ed7f94847eaf9d7ec8113ad41714c"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:27.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ftest.sa"
+   text-time="2008-02-22T08:22:27.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="8c621cd363599209b8cef608b87bc04f"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:27.000000Z"/>
+<entry
+   name="src"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="fplsp.doc"
+   text-time="2008-02-22T08:22:27.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="8216879c6dea170992427ac57df99bc4"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:27.000000Z"/>
+<entry
+   committed-rev="3"
+   name="pfpsp.sa"
+   text-time="2008-02-22T08:22:27.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="fec2e4320cddd750e563a0a6bb7fa7b9"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:27.000000Z"/>
+<entry
+   committed-rev="3"
+   name="itest.sa"
+   text-time="2008-02-22T08:22:27.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="3836b8fe3badbddea56ac7b32615ef3d"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:27.000000Z"/>
+<entry
+   committed-rev="3"
+   name="MISC"
+   text-time="2008-02-22T08:22:27.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="a527d71803bea61e18c51346f9bbb7c1"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:27.000000Z"/>
+<entry
+   committed-rev="3"
+   name="fskeleton.S"
+   text-time="2008-02-22T08:22:27.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="a0f3df1eb91e64f7629d13c498e45fcd"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:27.000000Z"/>
+<entry
+   name="CVS"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="isp.sa"
+   text-time="2008-02-22T08:22:27.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="8085083a75acab4bb39eb08fb3b8c43a"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:27.000000Z"/>
+<entry
+   committed-rev="3"
+   name="README"
+   text-time="2008-02-22T08:22:27.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="16fb3b175cca2148723425ec510a019d"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:27.000000Z"/>
+<entry
+   committed-rev="3"
+   name="iskeleton.S"
+   text-time="2008-02-22T08:22:27.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="e0f4b19f9537c113b8dc93de546f3b1a"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:27.000000Z"/>
+<entry
+   committed-rev="3"
+   name="isp.doc"
+   text-time="2008-02-22T08:22:27.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="c6de4543fb3721adbe351b17f99a35e0"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:27.000000Z"/>
+<entry
+   committed-rev="3"
+   name="CHANGES"
+   text-time="2008-02-22T08:22:27.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="9cabfdfc4b306b88f8b6200f01e88f03"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:27.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ilsp.sa"
+   text-time="2008-02-22T08:22:27.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="3ef4ed635ba7908121392c4540816364"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:27.000000Z"/>
+<entry
+   committed-rev="3"
+   name="fpsp.sa"
+   text-time="2008-02-22T08:22:27.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="9edb4fa52c1f3b4371855159a9fc5c84"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:27.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ilsp.doc"
+   text-time="2008-02-22T08:22:27.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="3cc51e68df0760847017fbb07148096a"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:27.000000Z"/>
+<entry
+   committed-rev="3"
+   name="fpsp.doc"
+   text-time="2008-02-22T08:22:27.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="7deab65cf4a45e0911cdb224bac7faca"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:27.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Makefile"
+   text-time="2008-02-22T08:22:27.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="014741911783d2eb07cfe29b097d321c"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:27.000000Z"/>
+</wc-entries>

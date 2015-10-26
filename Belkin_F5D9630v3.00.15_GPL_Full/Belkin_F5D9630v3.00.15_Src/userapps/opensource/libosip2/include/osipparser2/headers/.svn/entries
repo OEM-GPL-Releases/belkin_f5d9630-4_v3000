@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/userapps/opensource/libosip2/include/osipparser2/headers"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   committed-rev="3"
+   name="osip_accept.h"
+   text-time="2008-02-22T08:25:04.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="ad99bef572c105dccade5174eb531c32"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:25:03.000000Z"/>
+<entry
+   committed-rev="3"
+   name="osip_authorization.h"
+   text-time="2008-02-22T08:25:04.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="089f6cf983dc40e615685be09e0bec3d"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:25:03.000000Z"/>
+<entry
+   committed-rev="3"
+   name="osip_proxy_authorization.h"
+   text-time="2008-02-22T08:25:04.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="093eac5b10c7373280e9a9297d3d3f8d"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:25:03.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Makefile.in"
+   text-time="2008-02-22T08:25:04.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="88de89018b2de6babddddb5b169f1db2"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:25:03.000000Z"/>
+<entry
+   committed-rev="3"
+   name="osip_accept_language.h"
+   text-time="2008-02-22T08:25:04.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="7b7617c9a3d652a38905bbd6e34d4e41"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:25:03.000000Z"/>
+<entry
+   committed-rev="3"
+   name="osip_from.h"
+   text-time="2008-02-22T08:25:04.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="7b0fdaac02c28d0d196ae60785966d59"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:25:03.000000Z"/>
+<entry
+   committed-rev="3"
+   name="osip_error_info.h"
+   text-time="2008-02-22T08:25:04.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="2cff8f6c0aab202b99cda44605730462"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:25:03.000000Z"/>
+<entry
+   committed-rev="3"
+   name="osip_accept_encoding.h"
+   text-time="2008-02-22T08:25:04.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="a4f23844b802fc8d0d507ba8d55721e3"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:25:03.000000Z"/>
+<entry
+   committed-rev="3"
+   name="osip_content_length.h"
+   text-time="2008-02-22T08:25:04.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="c868f2d8b381d10333f3d261c879b657"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:25:03.000000Z"/>
+<entry
+   committed-rev="3"
+   name="osip_content_type.h"
+   text-time="2008-02-22T08:25:04.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="de6ac1cd2b03b611807a89d1f4f784ac"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:25:03.000000Z"/>
+<entry
+   committed-rev="3"
+   name="osip_allow.h"
+   text-time="2008-02-22T08:25:04.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="31e1d0cd0d69ebed43d631de9eee6246"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:25:03.000000Z"/>
+<entry
+   committed-rev="3"
+   name="osip_via.h"
+   text-time="2008-02-22T08:25:04.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="92f0648e5bafc38031eaf8e2dad5423d"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:25:03.000000Z"/>
+<entry
+   committed-rev="3"
+   name="osip_proxy_authenticate.h"
+   text-time="2008-02-22T08:25:04.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="d139cf292417e352635d68378344fa3d"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:25:03.000000Z"/>
+<entry
+   committed-rev="3"
+   name="osip_content_encoding.h"
+   text-time="2008-02-22T08:25:04.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="bb29f51cf7f59e975db963547b710842"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:25:03.000000Z"/>
+<entry
+   committed-rev="3"
+   name="osip_alert_info.h"
+   text-time="2008-02-22T08:25:04.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="fbef0bb935c2820efc484901370947e1"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:25:03.000000Z"/>
+<entry
+   committed-rev="3"
+   name="osip_to.h"
+   text-time="2008-02-22T08:25:04.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="daf9960139fcf2521f7a5cf574c585d6"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:25:03.000000Z"/>
+<entry
+   committed-rev="3"
+   name="osip_www_authenticate.h"
+   text-time="2008-02-22T08:25:04.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="7d5bb60cf391862fa874f66e06d38029"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:25:03.000000Z"/>
+<entry
+   committed-rev="3"
+   name="osip_call_info.h"
+   text-time="2008-02-22T08:25:04.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="01c6b613964c1add3685c655a6873973"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:25:03.000000Z"/>
+<entry
+   committed-rev="3"
+   name="osip_call_id.h"
+   text-time="2008-02-22T08:25:04.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="9315ba1686a3bdc15c257cbc717d6a66"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:25:03.000000Z"/>
+<entry
+   committed-rev="3"
+   name="osip_header.h"
+   text-time="2008-02-22T08:25:04.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="49261436a8fd2d1814003fa0cadfcf18"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:25:03.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Makefile.am"
+   text-time="2008-02-22T08:25:04.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="012dffb16591a3c153a5b63ddfc0ab54"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:25:03.000000Z"/>
+<entry
+   committed-rev="3"
+   name="osip_cseq.h"
+   text-time="2008-02-22T08:25:04.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="e28e6e2c3511bb80377a0299ff7f7e5f"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:25:03.000000Z"/>
+<entry
+   committed-rev="3"
+   name="osip_contact.h"
+   text-time="2008-02-22T08:25:04.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="f80480a2ad24fd656297522351d58944"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:25:03.000000Z"/>
+<entry
+   committed-rev="3"
+   name="osip_mime_version.h"
+   text-time="2008-02-22T08:25:04.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="699e7aa8db9fb905fa7b1a160e5f545f"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:25:03.000000Z"/>
+<entry
+   committed-rev="3"
+   name="osip_record_route.h"
+   text-time="2008-02-22T08:25:04.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="a12477126474fd4561dba0c95ca16e93"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:25:04.000000Z"/>
+<entry
+   committed-rev="3"
+   name="osip_content_disposition.h"
+   text-time="2008-02-22T08:25:04.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="8c6f8845dd9a89f2e21680617b8ee854"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:25:04.000000Z"/>
+<entry
+   committed-rev="3"
+   name="osip_route.h"
+   text-time="2008-02-22T08:25:04.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="1c9e9ffff663cdeacc1812bbd7757f67"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:25:04.000000Z"/>
+</wc-entries>

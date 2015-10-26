@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/kernel/linux/sound/ppc"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   committed-rev="3"
+   name="awacs.c"
+   text-time="2008-02-22T08:21:34.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="569e2ca85352bac3d1ddf34850d13d1f"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:34.000000Z"/>
+<entry
+   committed-rev="3"
+   name="burgundy.c"
+   text-time="2008-02-22T08:21:34.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="8e4cffbfbe1fbd048f4a48ecc29fc03a"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:34.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Kconfig"
+   text-time="2008-02-22T08:21:34.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="f1c29ecf67d582d86ff915354cfcaa9b"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:34.000000Z"/>
+<entry
+   committed-rev="3"
+   name="awacs.h"
+   text-time="2008-02-22T08:21:34.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="487221c48ec23d7e04097209e28f09e0"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:34.000000Z"/>
+<entry
+   committed-rev="3"
+   name="burgundy.h"
+   text-time="2008-02-22T08:21:34.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="ab3d02fcbf7a0019b82dc0be8732fa7d"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:34.000000Z"/>
+<entry
+   committed-rev="3"
+   name="tumbler_volume.h"
+   text-time="2008-02-22T08:21:34.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="9a9456995a314eeb51c59a1b4ab3bb74"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:34.000000Z"/>
+<entry
+   committed-rev="3"
+   name="tumbler.c"
+   text-time="2008-02-22T08:21:34.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="46b48a723552b02d6215beddfb013e36"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:34.000000Z"/>
+<entry
+   name="CVS"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="powermac.c"
+   text-time="2008-02-22T08:21:34.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="26f95d8399f445d3243949b918778794"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:34.000000Z"/>
+<entry
+   committed-rev="3"
+   name="pmac.c"
+   text-time="2008-02-22T08:21:34.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="17fca6ba60e622ab7bfbf535de1d06c6"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:34.000000Z"/>
+<entry
+   committed-rev="3"
+   name="pmac.h"
+   text-time="2008-02-22T08:21:34.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="ef5a3dd4bbb648fb49c5873b0a3feb46"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:34.000000Z"/>
+<entry
+   committed-rev="3"
+   name="daca.c"
+   text-time="2008-02-22T08:21:34.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="412b2a5bb63c48bb4d73622ad31c862b"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:34.000000Z"/>
+<entry
+   committed-rev="3"
+   name="keywest.c"
+   text-time="2008-02-22T08:21:34.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="b465045b9db8f9fc4dc6a17117de91d3"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:34.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Makefile"
+   text-time="2008-02-22T08:21:34.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="b0d0757cc7e966d33d40a93d658e6945"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:34.000000Z"/>
+<entry
+   committed-rev="3"
+   name=".cvsignore"
+   text-time="2008-02-22T08:21:34.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="d8b65572e25962faaf07c20bb34d224e"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:34.000000Z"/>
+</wc-entries>

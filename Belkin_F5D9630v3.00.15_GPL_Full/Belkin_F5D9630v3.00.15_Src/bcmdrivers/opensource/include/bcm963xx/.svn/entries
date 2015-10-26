@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="48"
+   name=""
+   committed-date="2007-09-05T03:01:13.994093Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/bcmdrivers/opensource/include/bcm963xx"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   committed-rev="3"
+   name="bcm_intr.h"
+   text-time="2008-02-22T08:20:58.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="175cd32819a22eba97153433cb11ff7e"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:20:58.000000Z"/>
+<entry
+   committed-rev="3"
+   name="bcmpci.h"
+   text-time="2008-02-22T08:20:58.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="753f26acca61e6338983957b2185510c"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:20:58.000000Z"/>
+<entry
+   committed-rev="3"
+   name="bcm_map_part.h"
+   text-time="2008-02-22T08:20:58.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="abbafced4e535abb1e36a765afecd274"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:20:58.000000Z"/>
+<entry
+   committed-rev="3"
+   name="bcmtypes.h"
+   text-time="2008-02-22T08:20:58.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="45e48a5d80ed5b280c1e797a103bb909"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:20:58.000000Z"/>
+<entry
+   committed-rev="48"
+   name="board.h"
+   text-time="2008-02-22T08:20:58.000000Z"
+   committed-date="2007-09-05T03:01:13.994093Z"
+   checksum="66a46df3fd2e770f96519e311ce3a4c9"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:20:58.000000Z"/>
+<entry
+   committed-rev="3"
+   name="bcm_cpu.h"
+   text-time="2008-02-22T08:20:58.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="9c5f0b9202bf85c7909b15c4edde6caa"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:20:58.000000Z"/>
+</wc-entries>

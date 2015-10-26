@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/kernel/linux/fs/vfat/CVS"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   committed-rev="3"
+   name="Repository"
+   text-time="2008-02-22T08:21:47.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="3f8963ad3c2b995cb0834cfdabd699f1"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:47.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Root"
+   text-time="2008-02-22T08:21:47.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="0f5d4b274fc9d6b07d3d3f39fec599fa"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:47.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Entries"
+   text-time="2008-02-22T08:21:47.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="d47b5e5a0f5f205739f1200c9241ca08"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:47.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Tag"
+   text-time="2008-02-22T08:21:47.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="782a9aa82ee14ecea666afe403327a9c"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:47.000000Z"/>
+</wc-entries>

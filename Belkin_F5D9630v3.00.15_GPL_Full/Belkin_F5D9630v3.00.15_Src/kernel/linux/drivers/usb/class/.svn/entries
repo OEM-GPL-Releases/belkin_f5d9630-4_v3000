@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/kernel/linux/drivers/usb/class"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   committed-rev="3"
+   name="usb-midi.h"
+   text-time="2008-02-22T08:24:16.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="78d7ce082a9bc7081f403adf3d20d794"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:16.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Kconfig"
+   text-time="2008-02-22T08:24:16.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="af2c9a3a771ac917eeda7942c98235ce"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:16.000000Z"/>
+<entry
+   committed-rev="3"
+   name="audio.c"
+   text-time="2008-02-22T08:24:16.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="38c3638bb7bd98f0414ff8f55a22b5e4"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:16.000000Z"/>
+<entry
+   committed-rev="3"
+   name="usblp.c"
+   text-time="2008-02-22T08:24:16.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="8275f924bce9b784cc0e8d6c4372b3a8"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:16.000000Z"/>
+<entry
+   committed-rev="3"
+   name="audio.h"
+   text-time="2008-02-22T08:24:16.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="c741f796b39e76ad105bc4675d2e31a2"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:16.000000Z"/>
+<entry
+   committed-rev="3"
+   name="cdc-acm.c"
+   text-time="2008-02-22T08:24:16.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="b165b95b108c5c39c2e7b25db9cc4471"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:16.000000Z"/>
+<entry
+   committed-rev="3"
+   name="bluetty.c"
+   text-time="2008-02-22T08:24:16.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="322a01736f14a582677abc1d52951ce1"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:16.000000Z"/>
+<entry
+   committed-rev="3"
+   name="usb-midi.c"
+   text-time="2008-02-22T08:24:16.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="b1d7abe71a168a77681730f528dc048e"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:16.000000Z"/>
+<entry
+   name="CVS"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name=".cvsignore"
+   text-time="2008-02-22T08:24:16.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="735ab631b67b75d07a52edc9e01aed4c"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:16.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Makefile"
+   text-time="2008-02-22T08:24:16.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="483620b3c6a9a977c019e3f8253da87d"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:16.000000Z"/>
+<entry
+   committed-rev="3"
+   name="cdc-acm.h"
+   text-time="2008-02-22T08:24:16.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="8aa47d44fca17af1310fb19e2721f3b1"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:16.000000Z"/>
+</wc-entries>

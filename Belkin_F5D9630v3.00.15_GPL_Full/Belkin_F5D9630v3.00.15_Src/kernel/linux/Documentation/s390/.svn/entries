@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/kernel/linux/Documentation/s390"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   name="crypto"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="CommonIO"
+   text-time="2008-02-22T08:22:00.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="895275099228f06aceda7e7661754b68"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:59.000000Z"/>
+<entry
+   committed-rev="3"
+   name="3270.ChangeLog"
+   text-time="2008-02-22T08:22:00.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="d85b24835e5a7d6a960a4dec88016b98"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:59.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Debugging390.txt"
+   text-time="2008-02-22T08:22:00.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="55eac4e37deb5f250b6c8ba05b0324e9"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:59.000000Z"/>
+<entry
+   committed-rev="3"
+   name="cds.txt"
+   text-time="2008-02-22T08:22:00.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="bb54ba01a3027f0d466155d8b4c04833"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:59.000000Z"/>
+<entry
+   committed-rev="3"
+   name="driver-model.txt"
+   text-time="2008-02-22T08:22:00.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="dbff6855eb2b473fe4528b4794a3b416"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:59.000000Z"/>
+<entry
+   committed-rev="3"
+   name="s390dbf.txt"
+   text-time="2008-02-22T08:22:00.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="2a63a3cb8be06e8d6683f4da14b9063a"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:59.000000Z"/>
+<entry
+   committed-rev="3"
+   name="3270.txt"
+   text-time="2008-02-22T08:22:00.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="14d319c27b550fe9d03737a131098c28"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:59.000000Z"/>
+<entry
+   committed-rev="3"
+   name="TAPE"
+   text-time="2008-02-22T08:22:00.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="8ee3ac277476248f0ea6203cc97097ff"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:59.000000Z"/>
+<entry
+   committed-rev="3"
+   name="config3270.sh"
+   text-time="2008-02-22T08:22:00.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="6e875b246aa2137cf84ea0005b5edae0"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:59.000000Z"/>
+<entry
+   name="CVS"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="DASD"
+   text-time="2008-02-22T08:22:00.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="380c7f863e8ea2098413875c881870fd"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:00.000000Z"/>
+</wc-entries>

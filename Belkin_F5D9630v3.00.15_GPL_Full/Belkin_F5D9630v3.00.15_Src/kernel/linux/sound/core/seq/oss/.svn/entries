@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/kernel/linux/sound/core/seq/oss"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   committed-rev="3"
+   name="seq_oss_init.c"
+   text-time="2008-02-22T08:21:34.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="ff01fddf618b5cbbc505ae36b8ded348"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:34.000000Z"/>
+<entry
+   committed-rev="3"
+   name="seq_oss_device.h"
+   text-time="2008-02-22T08:21:34.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="05ed1952ec872dfd2cfb45269eed21ab"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:34.000000Z"/>
+<entry
+   committed-rev="3"
+   name="seq_oss_synth.c"
+   text-time="2008-02-22T08:21:34.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="0401fa311707523abb70c0584db55783"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:34.000000Z"/>
+<entry
+   committed-rev="3"
+   name="seq_oss_synth.h"
+   text-time="2008-02-22T08:21:34.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="50fb8af6f4126fb57aa68e462da976de"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:34.000000Z"/>
+<entry
+   committed-rev="3"
+   name="seq_oss_ioctl.c"
+   text-time="2008-02-22T08:21:34.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="5b3222f14ee798d519309d801d98d1b9"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:34.000000Z"/>
+<entry
+   committed-rev="3"
+   name="seq_oss_writeq.c"
+   text-time="2008-02-22T08:21:34.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="894af68d245b4571bcfbf2501b0f508e"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:34.000000Z"/>
+<entry
+   name="CVS"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="seq_oss_writeq.h"
+   text-time="2008-02-22T08:21:34.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="26a8d7a45b3637d25ba729a3a155b49a"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:34.000000Z"/>
+<entry
+   committed-rev="3"
+   name="seq_oss_timer.c"
+   text-time="2008-02-22T08:21:34.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="e3ce93d592355aedd88cc584bc21b2c1"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:34.000000Z"/>
+<entry
+   committed-rev="3"
+   name="seq_oss.c"
+   text-time="2008-02-22T08:21:34.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="5c29fa9faf54689a850b4ace718c3776"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:34.000000Z"/>
+<entry
+   committed-rev="3"
+   name="seq_oss_event.c"
+   text-time="2008-02-22T08:21:34.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="77cdcc738661cad62bc510a492ff34c4"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:34.000000Z"/>
+<entry
+   committed-rev="3"
+   name="seq_oss_midi.c"
+   text-time="2008-02-22T08:21:34.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="fc66ae262396000c4db7c9a16cfcd7bf"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:34.000000Z"/>
+<entry
+   committed-rev="3"
+   name="seq_oss_timer.h"
+   text-time="2008-02-22T08:21:34.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="314bc8072e3b08f690e1e81ac337cbff"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:34.000000Z"/>
+<entry
+   committed-rev="3"
+   name="seq_oss_event.h"
+   text-time="2008-02-22T08:21:34.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="77df397577b30c687e9468895bf9c2dd"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:34.000000Z"/>
+<entry
+   committed-rev="3"
+   name="seq_oss_midi.h"
+   text-time="2008-02-22T08:21:34.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="958e415cd82776f60164fe1f0f788306"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:34.000000Z"/>
+<entry
+   committed-rev="3"
+   name="seq_oss_rw.c"
+   text-time="2008-02-22T08:21:34.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="b4934730722a7e3a9a71bace74b6920c"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:34.000000Z"/>
+<entry
+   committed-rev="3"
+   name="seq_oss_misc.c"
+   text-time="2008-02-22T08:21:34.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="0e1f1ce599c70b322aac12f35495dce2"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:34.000000Z"/>
+<entry
+   committed-rev="3"
+   name="seq_oss_readq.c"
+   text-time="2008-02-22T08:21:34.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="b7349d01b5953019b538c97ddd8c8e36"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:34.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Makefile"
+   text-time="2008-02-22T08:21:34.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="aa892246d07feac18ae09907bee07ead"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:34.000000Z"/>
+<entry
+   committed-rev="3"
+   name=".cvsignore"
+   text-time="2008-02-22T08:21:34.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="d8b65572e25962faaf07c20bb34d224e"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:34.000000Z"/>
+<entry
+   committed-rev="3"
+   name="seq_oss_readq.h"
+   text-time="2008-02-22T08:21:34.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="347d2bbbd04061506f1b94dc6a91d85a"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:34.000000Z"/>
+</wc-entries>

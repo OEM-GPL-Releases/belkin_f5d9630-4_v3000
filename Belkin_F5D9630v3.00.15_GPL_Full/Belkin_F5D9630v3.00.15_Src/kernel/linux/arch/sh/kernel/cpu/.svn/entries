@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/kernel/linux/arch/sh/kernel/cpu"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   committed-rev="3"
+   name="irq_imask.c"
+   text-time="2008-02-22T08:23:14.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="55bae9005cce9cc1a83a03f0a212435f"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:14.000000Z"/>
+<entry
+   committed-rev="3"
+   name="init.c"
+   text-time="2008-02-22T08:23:14.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="8a4a8de4cea1d66ec653655e41433111"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:14.000000Z"/>
+<entry
+   committed-rev="3"
+   name="irq_ipr.c"
+   text-time="2008-02-22T08:23:14.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="82d97e51b85c14b3fd23bf2142277ce5"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:14.000000Z"/>
+<entry
+   committed-rev="3"
+   name="adc.c"
+   text-time="2008-02-22T08:23:14.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="ea92d78c4d0430c5656fe9623b2dc443"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:14.000000Z"/>
+<entry
+   committed-rev="3"
+   name="rtc.c"
+   text-time="2008-02-22T08:23:14.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="ebdac51d7b672af3ff5e556186838856"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:14.000000Z"/>
+<entry
+   committed-rev="3"
+   name="bus.c"
+   text-time="2008-02-22T08:23:14.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="4720d71faf7577b60137ecafff2cdc8d"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:14.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ubc.S"
+   text-time="2008-02-22T08:23:14.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="48f5d096e74062a7763edc6c732acd20"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:14.000000Z"/>
+<entry
+   name="CVS"
+   kind="dir"/>
+<entry
+   name="sh2"
+   kind="dir"/>
+<entry
+   name="sh3"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="Makefile"
+   text-time="2008-02-22T08:23:14.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="72374472874f8a1710f1eadf9bb01c4e"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:14.000000Z"/>
+<entry
+   name="sh4"
+   kind="dir"/>
+</wc-entries>

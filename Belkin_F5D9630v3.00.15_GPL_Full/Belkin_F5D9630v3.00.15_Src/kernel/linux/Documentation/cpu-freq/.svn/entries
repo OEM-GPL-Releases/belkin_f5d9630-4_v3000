@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/kernel/linux/Documentation/cpu-freq"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   committed-rev="3"
+   name="cpu-drivers.txt"
+   text-time="2008-02-22T08:22:03.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="3657452d7e4c2870c942681cbeb9a248"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:03.000000Z"/>
+<entry
+   committed-rev="3"
+   name="governors.txt"
+   text-time="2008-02-22T08:22:03.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="1718a4432fdd02ab4c0cee98eabef2c5"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:03.000000Z"/>
+<entry
+   committed-rev="3"
+   name="index.txt"
+   text-time="2008-02-22T08:22:03.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="0bab13811a2cb6de394be55251c2f445"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:03.000000Z"/>
+<entry
+   committed-rev="3"
+   name="core.txt"
+   text-time="2008-02-22T08:22:03.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="2af81d434b6b5b23c8996f99584aac29"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:03.000000Z"/>
+<entry
+   committed-rev="3"
+   name="user-guide.txt"
+   text-time="2008-02-22T08:22:03.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="cbb952a35586b5f5c6340328715c37ec"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:03.000000Z"/>
+<entry
+   name="CVS"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="amd-powernow.txt"
+   text-time="2008-02-22T08:22:03.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="4c3c989f5d8f3e33060ee85f023c66a1"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:03.000000Z"/>
+</wc-entries>

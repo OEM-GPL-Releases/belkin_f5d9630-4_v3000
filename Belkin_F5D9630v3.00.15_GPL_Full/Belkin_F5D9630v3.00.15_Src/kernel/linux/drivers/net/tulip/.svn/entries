@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/kernel/linux/drivers/net/tulip"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   committed-rev="3"
+   name="de4x5.h"
+   text-time="2008-02-22T08:24:02.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="9a540e60791597d4cabd9ac7240dc71d"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:02.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Kconfig"
+   text-time="2008-02-22T08:24:02.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="d36ea5b37d8c9182505ee876bdfd5057"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:02.000000Z"/>
+<entry
+   committed-rev="3"
+   name="tulip.h"
+   text-time="2008-02-22T08:24:02.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="2a7d5b69a95cfacb14253182eeba9c30"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:02.000000Z"/>
+<entry
+   committed-rev="3"
+   name="xircom_cb.c"
+   text-time="2008-02-22T08:24:02.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="1e661b1cff8c54694575a3f994131858"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:02.000000Z"/>
+<entry
+   committed-rev="3"
+   name="tulip_core.c"
+   text-time="2008-02-22T08:24:02.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="7b1c29d9f5b7c2b56a659708b52c26bb"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:02.000000Z"/>
+<entry
+   committed-rev="3"
+   name="winbond-840.c"
+   text-time="2008-02-22T08:24:02.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="4df8397b50bee3073b53b36466818421"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:02.000000Z"/>
+<entry
+   committed-rev="3"
+   name="21142.c"
+   text-time="2008-02-22T08:24:02.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="8fbe511f953e8783fbf4254e74a20a3c"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:02.000000Z"/>
+<entry
+   name="CVS"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="dmfe.c"
+   text-time="2008-02-22T08:24:02.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="65debd0d4bbee8f6d5607cc76737b3b5"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:02.000000Z"/>
+<entry
+   committed-rev="3"
+   name="pnic2.c"
+   text-time="2008-02-22T08:24:02.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="cbdfe12675b6c8ebc80c6bac304c2121"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:02.000000Z"/>
+<entry
+   committed-rev="3"
+   name="media.c"
+   text-time="2008-02-22T08:24:02.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="6f8cc2193fb9108e9615737eb3ac690f"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:02.000000Z"/>
+<entry
+   committed-rev="3"
+   name="timer.c"
+   text-time="2008-02-22T08:24:02.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="6b7026983a3aaa5e178bb87c17c4c06b"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:02.000000Z"/>
+<entry
+   committed-rev="3"
+   name="xircom_tulip_cb.c"
+   text-time="2008-02-22T08:24:02.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="aa4e25214235eca71e040701cc98ab3f"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:02.000000Z"/>
+<entry
+   committed-rev="3"
+   name="de2104x.c"
+   text-time="2008-02-22T08:24:02.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="f8ff1e9a18d613ba57a4fa895938f70b"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:02.000000Z"/>
+<entry
+   committed-rev="3"
+   name="eeprom.c"
+   text-time="2008-02-22T08:24:02.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="f0afa60ada7a92d5ae8d1fcf039ebded"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:02.000000Z"/>
+<entry
+   committed-rev="3"
+   name="pnic.c"
+   text-time="2008-02-22T08:24:02.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="15cdb2b1c2c07c0db5ce6ae84beadaaf"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:02.000000Z"/>
+<entry
+   committed-rev="3"
+   name="de4x5.c"
+   text-time="2008-02-22T08:24:02.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="7ca90204cad9673cc2ef8d2b067514dc"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:02.000000Z"/>
+<entry
+   committed-rev="3"
+   name="interrupt.c"
+   text-time="2008-02-22T08:24:02.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="c13778a99be68ac628c006407c7faa41"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:02.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Makefile"
+   text-time="2008-02-22T08:24:02.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="056005aaa76d1514c0d3c7113265a730"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:02.000000Z"/>
+<entry
+   committed-rev="3"
+   name=".cvsignore"
+   text-time="2008-02-22T08:24:02.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="d8b65572e25962faaf07c20bb34d224e"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:02.000000Z"/>
+</wc-entries>

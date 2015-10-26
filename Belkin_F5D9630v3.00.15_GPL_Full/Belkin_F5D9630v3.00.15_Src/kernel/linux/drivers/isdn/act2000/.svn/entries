@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/kernel/linux/drivers/isdn/act2000"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   committed-rev="3"
+   name="act2000.h"
+   text-time="2008-02-22T08:23:34.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="ec9435bc6f5e269b914671cef8871fbd"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:34.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Kconfig"
+   text-time="2008-02-22T08:23:34.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="4b58c180e3be345a32da56fecd6bca70"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:34.000000Z"/>
+<entry
+   committed-rev="3"
+   name="capi.h"
+   text-time="2008-02-22T08:23:34.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="0db4624b9064a78b7ae655e58ec19bce"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:34.000000Z"/>
+<entry
+   committed-rev="3"
+   name="act2000_isa.c"
+   text-time="2008-02-22T08:23:34.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="24d757db3bde85939a44f78e0fa332b0"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:34.000000Z"/>
+<entry
+   committed-rev="3"
+   name="module.c"
+   text-time="2008-02-22T08:23:34.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="8f3ee3fcaad8c1c99c9b637a767feba1"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:34.000000Z"/>
+<entry
+   name="CVS"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="act2000_isa.h"
+   text-time="2008-02-22T08:23:34.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="dd2c76a9c7ebc7ba8ec8f0b8bebf0be9"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:34.000000Z"/>
+<entry
+   committed-rev="3"
+   name=".cvsignore"
+   text-time="2008-02-22T08:23:34.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="d8b65572e25962faaf07c20bb34d224e"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:34.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Makefile"
+   text-time="2008-02-22T08:23:34.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="379580f380408130dffe39cc6b25dc69"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:34.000000Z"/>
+<entry
+   committed-rev="3"
+   name="capi.c"
+   text-time="2008-02-22T08:23:34.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="f2b9005fc33df7fafcca5567b39cdf16"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:34.000000Z"/>
+</wc-entries>

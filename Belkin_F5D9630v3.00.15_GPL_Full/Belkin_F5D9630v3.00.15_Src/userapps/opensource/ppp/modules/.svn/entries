@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/userapps/opensource/ppp/modules"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   committed-rev="3"
+   name="ppp.c"
+   text-time="2008-02-22T08:25:12.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="7a744a9e2b31507c95d5c9019892d8ba"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:25:11.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ppp_mod.h"
+   text-time="2008-02-22T08:25:12.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="2fb48cd316712eff35f688330a0ff6fb"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:25:11.000000Z"/>
+<entry
+   committed-rev="3"
+   name="bsd-comp.c"
+   text-time="2008-02-22T08:25:12.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="8c22bdedb93b55beb683cbeef25d0ccd"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:25:11.000000Z"/>
+<entry
+   committed-rev="3"
+   name="deflate.c"
+   text-time="2008-02-22T08:25:12.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="c54da9e3396375f263b9fed0b6d43fe2"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:25:11.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ppp_ahdlc.c"
+   text-time="2008-02-22T08:25:12.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="74f4994a8dbf77216d93fd378d6887cd"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:25:12.000000Z"/>
+<entry
+   committed-rev="3"
+   name="vjcompress.c"
+   text-time="2008-02-22T08:25:12.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="b18fd294b31672f5b37ac2cd2b1b8f6a"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:25:12.000000Z"/>
+<entry
+   committed-rev="3"
+   name="if_ppp.c"
+   text-time="2008-02-22T08:25:12.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="f4b316c29dba7848ab0684cb0adf18f4"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:25:12.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ppp_comp.c"
+   text-time="2008-02-22T08:25:12.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="05e35934a50d100f06ddd1ee858648e4"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:25:12.000000Z"/>
+</wc-entries>

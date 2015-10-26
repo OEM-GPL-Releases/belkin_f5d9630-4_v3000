@@ -1,0 +1,28 @@
+<html>
+<head>
+
+</head>
+<%ejGet("curLanguage")%>
+<SCRIPT>assign_var();</SCRIPT>
+
+<script>
+
+strHtml='<title>'+apply_1+'</title>';
+dw(strHtml);
+
+
+window.status='Applying...';
+
+var next_page='<%ejGet(NextPage2)%>';
+function start_redirect()
+{
+	window.location.href = next_page;
+}
+setTimeout('start_redirect()',<%ejGet(rebootTime)%>);
+</script>
+
+<BODY bgColor=white >
+<P><FONT face=arial size=3>
+<P><FONT face=arial size=2><script>dw(apply_2);</script><BR>
+</FONT></FONT></BODY>
+</html>

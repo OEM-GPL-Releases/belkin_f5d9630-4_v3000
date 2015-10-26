@@ -1,0 +1,432 @@
+<html>
+   <head>
+      <meta HTTP-EQUIV='Pragma' CONTENT='no-cache'>
+	  <meta http-equiv="refresh" content="<%ejGet(timeout_refresh)%>">
+		 <link rel="stylesheet" href="main_router.css" type='text/css'>
+		 
+		<%ejGet("curLanguage")%>
+		<SCRIPT>assign_var();</SCRIPT>
+
+            <script language="javascript" src="util.js"></script>
+			<SCRIPT language=JavaScript src="showMenu.js"></SCRIPT>
+            <script language="javascript">
+<!-- hide
+strHtml='<title>'+wlm_1+' &gt; '+wlm_3+'</title>';
+dw(strHtml);
+
+var autoup = '<%ejGet(autoUpgrade_flag)%>';
+
+if(autoup == '1')
+{
+	newwin=window.open("checkfw.html","Firmware","toolbar=no,location=no,directories=no,status=no,menubar=no,scrollbars=yes,width=395,height=200,resizable=0");
+	newwin.focus();
+}
+
+
+
+var ssid = '<%ejGetWl(wlSsid)%>';
+var enbl = '<%ejGetWl(wlEnbl)%>';
+var hide = '<%ejGetWl(wlHide)%>';
+var wlRefresh = '<%ejGetWl(wlRefresh)%>';
+var channel = '<%ejGetWl(wlChannel)%>';  
+var wlCurrentChannel = '<%ejGetWl(wlCurrentChannel)%>';
+var pro = '<%ejGetWl(wlProtection)%>';   //11g protection
+var wl_Mode = '<%ejGetWl(WirelessMode)%>';	// Wireless Mode
+var wlRefresh = '<%ejGetWl(wlRefresh)%>';
+var wme='<%ejGetWl(wlWme)%>';
+
+
+
+if ( wlRefresh == '1' ) {
+   var code = 'location="wlcfgrefresh.wl?wlRefresh=0"';
+   eval(code);   
+}
+
+
+
+function wlLoadCountryList()
+{
+   var phytype = "b";
+   var cur = 0;
+   var sel = 0;
+   var i = 0;
+
+   if (band == "1") { // 5G
+      <%ejGetWl(wlCountryList, a)%>
+   } else {
+      <%ejGetWl(wlCountryList, b)%>
+   }
+
+   for (i=0; i< document.forms[0].wlCountry.options.length; i++) {
+      if (document.forms[0].wlCountry.options[i].value == country) {
+         document.forms[0].wlCountry.options[i].selected = true;
+         break;
+      }
+   }
+
+   /* set to all(the last one) if not found */
+   if( i == document.forms[0].wlCountry.options.length)   
+      document.forms[0].wlCountry.options[idx-1].selected = true;
+   
+}
+
+function frmLoad() 
+{
+  
+   with ( document.forms[0] ) 
+   {
+
+
+		if(enbl==0)
+	  	{
+	  		wlNmode.selectedIndex = 3;
+			wlChannel.disabled = true;
+			wlSsid.disabled = true;
+			wlHide.disabled = true;
+			wlProtection.disabled = true;
+			wlWme.disabled = true;
+			//wlWmeNoAck.disabled = true;		
+		}
+		else
+		{
+			if(wl_Mode == '0')	// g+b mode
+					wlNmode.selectedIndex = 0;
+			else if(wl_Mode == '2')	// g mode only
+				wlNmode.selectedIndex = 1;
+			else if(wl_Mode == '1')	// b mode only
+				wlNmode.selectedIndex = 2;
+
+			wlChannel.disabled = false;
+			wlSsid.disabled = false;
+			wlHide.disabled = false;
+			wlProtection.disabled = false;
+			
+			if(wme == '1')
+			{
+			wlWme.disabled = false;
+				wlWme.selectedIndex = 1;
+			}
+			else
+			{
+				wlWme.disabled = false;
+				wlWme.selectedIndex = 0;			
+			}	
+				
+		}	
+				
+	  if(hide == 0)
+	  	wlHide.checked = true;
+		
+	  	if(pro == 'on')
+			wlProtection.selectedIndex = 1;
+		else
+			wlProtection.selectedIndex = 0;
+
+          updateCurChannel();
+	  loadChannelList(true);
+      wlSsid.value = ssid;
+	  
+   }
+}
+
+
+function updateCurChannel() 
+{
+	if (document.getElementById)  // DOM3 = IE5, NS6
+    	document.getElementById("CurChannel").innerHTML = "<b>"+wlcs_1+" &gt; </b>" + wlCurrentChannel;
+    else 
+	{
+    	if (document.layers == false) // IE4
+        	document.all.CurChannel.innerHTML = "<b>"+wlcs_1+" &gt; </b>" + wlCurrentChannel;
+    }   
+}
+
+function loadChannelList(OnPageLoad)
+{
+   var sel_ch;
+   var sel_band;
+   var sel_nbw;
+   var sel_sb;
+   var idx;
+      
+   /* save selected */   
+   if(OnPageLoad) 
+   {      
+      sel_ch = channel;
+   } 
+   else 
+   {
+      sel_ch = document.forms[0].wlChannel.value;
+      sel_band = document.forms[0].wlBand.value;
+   }
+   
+   /* load list */
+   document.forms[0].wlChannel.length = 0;
+   
+    document.forms[0].wlChannel[0] = new Option("Auto", "0");
+	document.forms[0].wlChannel[1] = new Option("1", "1");
+	document.forms[0].wlChannel[2] = new Option("2", "2");
+	document.forms[0].wlChannel[3] = new Option("3", "3");
+	document.forms[0].wlChannel[4] = new Option("4", "4");
+	document.forms[0].wlChannel[5] = new Option("5", "5");
+	document.forms[0].wlChannel[6] = new Option("6", "6");
+	document.forms[0].wlChannel[7] = new Option("7", "7");
+	document.forms[0].wlChannel[8] = new Option("8", "8");
+	document.forms[0].wlChannel[9] = new Option("9", "9");
+	document.forms[0].wlChannel[10] = new Option("10", "10");
+	document.forms[0].wlChannel[11] = new Option("11", "11");
+	document.forms[0].wlChannel[12] = new Option("12", "12");
+	document.forms[0].wlChannel[13] = new Option("13", "13");
+
+         
+   /* mark selected */
+   for (idx=0; idx<document.forms[0].wlChannel.options.length; idx++) {
+      if (document.forms[0].wlChannel.options[idx].value == sel_ch) {
+         document.forms[0].wlChannel.options[idx].selected = true;
+         break;
+      }
+   }
+   
+   /* set to first channel none-auto if not found */   
+   if (idx == document.forms[0].wlChannel.options.length) {
+      document.forms[0].wlChannel.options[1].selected = true;
+   }
+   
+}
+
+
+
+function Wl_CountryChange()
+{
+	if(document.forms[0].wlCountry.options[document.forms[0].wlCountry.selectedIndex].value == 'JP')
+		country ='JP';
+	Wl_ModeChange();
+	
+
+}
+
+
+function btnApply() {
+   var loc = 'wlcfg.wl?';
+   var channel;
+
+   with ( document.forms[0] ) 
+   {
+         if ( wlSsid.value == '' ) 
+		 {
+            alert(wlcs_2);
+            return;
+         }
+
+         var str = new String();
+         str = wlSsid.value;
+         if ( str.length > 32 ) {
+            alert('SSID "' + wlSsid.value + '" should not be longer than 32 characters.');
+            return;
+         }
+
+		 var ssid = wlSsid.value;
+		 channel = wlChannel.options[wlChannel.selectedIndex].value;
+		 
+	  	 for(var i=0; i<ssid.length; i++)
+	  	 {
+			if(isSSIDUnsafe(ssid.charAt(i))==true)
+	  	 	{
+	  			alert("SSID contains following illegal characters :( \" ), ( \' ), ( # ),( > ),( < ), ( \\ ) and ( & )");
+				wlSsid.focus();
+	  			return;
+			}
+	  	 }
+
+		 if(wlNmode.selectedIndex == 3)		//disable wireless
+		 	loc += 'wlEnbl=0';
+		 else
+         	loc += 'wlEnbl=1';
+			
+			
+			
+		 loc += '&wlChannel=' + wlChannel.options[wlChannel.selectedIndex].value;
+			 
+		 
+		 if(wlNmode.selectedIndex == 0)		 // b+g mode
+		 {
+		 	loc += '&WirelessMode=0&wlProtection=' + wlProtection.options[wlProtection.selectedIndex].value;
+		 }
+		 else if(wlNmode.selectedIndex == 1)	// g mode
+		 {
+		 	loc += '&WirelessMode=2&wlProtection=' + wlProtection.options[wlProtection.selectedIndex].value;
+		 }
+		 else if(wlNmode.selectedIndex == 2)	// b mode
+		 {
+		 	loc += '&WirelessMode=1&wlProtection=' + wlProtection.options[wlProtection.selectedIndex].value;
+		 }
+
+		 
+		 if(wlHide.checked == true)		// if user enable Broadcast SSID, it means SSID should be shown in site survey
+		 	loc += '&wlHide=0';
+		 else
+		 	loc += '&wlHide=1';
+			
+         loc += '&wlSsid=' + encodeUrl(wlSsid.value);
+		 
+		 loc += '&wlWme=' + parseInt(wlWme.value);
+   }
+
+   var code = 'location="' + loc + '"';
+   eval(code);
+}
+
+function write_mode()
+{
+	with(document.write)
+	{
+		document.write("<option value=\"mixmode\">802.11g &amp; 802.11b</option>");
+		document.write("<option value=\"gmode\">"+wlcs_8+"</option>");
+		document.write("<option value=\"bmode\">"+wlcs_9+"</option>");
+		document.write("<option value=\"off\">"+wlcs_10+"</option>");
+	}
+}
+
+function write_wlPro()
+{
+	with(document.forms[0])
+	{
+		document.write("<option value=\"off\">"+wlcs_10+"</option>");
+		document.write("<option value=\"on\">"+ls_8+"</option>");
+	}
+}
+
+function write_wmm()
+{
+	with(document.forms[0])
+	{
+		document.write("<option value=\"0\">"+home_44+"</option>");
+		document.write("<option value=\"1\">"+home_43+"</option>");
+	}
+}
+
+function write_wmmNo()
+{
+	with(document.write)
+	{
+		document.write("<option value=\"0\">"+home_44+"</option>");
+		document.write("<option value=\"1\">"+home_43+"</option>");
+	}
+}
+// done hiding -->
+      </script>
+   <title>Wireless &gt; Channel and SSID</title></head>
+   <body onLoad='frmLoad()' bgColor="#ffffff" leftMargin="0" topMargin="0" marginheight="0" marginwidth="0">
+         <form onSubmit='return false'>
+       <SCRIPT language=JavaScript>
+	var helpItem 	='Channel and SSID';
+	var menuSection	='WLAN';
+	var menuItem	='Channel and SSID';
+	var isAPmode = '<%ejGet(enblNat)%>';
+		
+	var wanStatus = '<%ejGetOther(isUp)%>';
+	showHead(wanStatus,helpItem);
+	showMenu(menuSection,menuItem,isAPmode)
+	</SCRIPT>  
+<TD class=head_bold width="90%" valign="top"><Br>
+            <b><font class="head_bold">&nbsp;&nbsp;<script>dw(wlm_1);</script> &gt; <script>dw(wlm_3);</script></font></b>
+            <br><br>
+			
+      		<TABLE class=copy_1 cellSpacing=0 cellPadding=0 width=620  border=0>
+        		<TR>
+					<td width="72"></td>
+          			<TD width="548" vAlign=top><SPAN><script>dw(wlcs_3);</script>
+					<a href="javascript:void(0);" onClick="window.open('glossary.html#WLCHANNEL','help','toolbar=0,status=0,menubar=0,scrollbars=1,resizable=1,width=640,height=400,left=150,top=150');">
+            <font color="#6464c3"><b><script>dw(ls_5);</script></b></font></a>
+					<br><Br></SPAN>
+				  </TD>
+				</TR>
+				
+				<Tr>
+					<td width="72"></td>
+					<Td>
+											
+						<table border="0" cellpadding="4" cellspacing="0">				
+               				<tr>
+                 				 <td width="135" class="copy_1"><B><script>dw(wlcs_4);</script> &gt; </B></td>
+               				  <td td width="51" class="copy_1"><select name='wlChannel' size="1">
+                     												</select>
+                				 </td>
+                  				 <td width="324" class="copy_1"><div id="CurChannel"></div></td>                     
+               				</tr>
+			   
+               				<tr>
+                 				<td class="copy_1"><B><script>dw(wlcs_5);</script> &gt; </B></td>
+                     			<td class="copy_1" colspan="2"><input type='text' name='wlSsid' maxlength="32" size="32"></td>
+              	 			</tr>
+
+               				<tr>
+                 				<td class="copy_1"><B><script>dw(wlcs_6);</script> &gt; </B></td>
+                     			<td class="copy_1" colspan="2">
+                        				<select name='wlNmode' size="1"><script language="javascript">write_mode()</script></select><a href="javascript:void(0);" onClick="window.open('glossary.html#WLMODE','help','toolbar=0,status=0,menubar=0,scrollbars=1,resizable=1,width=640,height=400,left=150,top=150');">
+            <font color="#6464c3"><b><script>dw(ls_5);</script></b></font></a>
+
+					 			</td>
+               				</tr>
+
+               				<tr>
+                 				<td class="copy_1"><B><script>dw(wlcs_12);</script>  &gt; </B></td>
+                     			<td class="copy_1" colspan="2"><input type='checkbox' name='wlHide' value="ON">
+								<a href="javascript:void(0);" onClick="window.open('glossary.html#WLBSSID','help','toolbar=0,status=0,menubar=0,scrollbars=1,resizable=1,width=640,height=400,left=150,top=150');">
+            <font color="#6464c3"><b><script>dw(ls_5);</script></b></font></a>
+								</td>
+               				</tr>
+
+               				<tr>
+                 				<td class="copy_1"><B><script>dw(wlcs_13);</script> &gt; </B></td>
+		                     	<td class="copy_1" colspan="2"><select name="wlProtection" size="1"><script language="javascript">write_wlPro()</script></select><a href="javascript:void(0);" onClick="window.open('glossary.html#PTM','help','toolbar=0,status=0,menubar=0,scrollbars=1,resizable=1,width=640,height=400,left=150,top=150');">
+            <font color="#6464c3"><b><script>dw(ls_5);</script></b></font></a>
+						 		</td>
+               				</tr>
+				</table>			
+				
+				<table width="534" border="0" cellpadding="4" cellspacing="0">
+               				<tr>
+                 				<td width="134" class="copy_1"><B>
+               				  <script>dw(wlcs_15);</script> &gt;</B></td>
+		                     	<td class="copy_1" colspan="2"><select name='wlWme' size="1"><script language="javascript">write_wmm()</script></select><a href="javascript:void(0);" onClick="window.open('glossary.html#WMM','help','toolbar=0,status=0,menubar=0,scrollbars=1,resizable=1,width=640,height=400,left=150,top=150');">
+            <font color="#6464c3"><b><script>dw(ls_5);</script></b></font></a>
+						 		</td>
+								<Td width="3"></Td>
+               				</tr>
+				</table>
+			<!--	
+				<table width="534" border="0" cellpadding="4" cellspacing="0">			
+							<tr>							
+								<td width="134" class="copy_1" ><B><script>dw(wlcs_17);</script> &gt;</B></td>
+								<td width="365" class="copy_1"><select name='wlWmeNoAck' size="1">
+									<script language="javascript">write_wmmNo()</script></select><a href="javascript:void(0);" onClick="window.open('glossary.html#WMM_NOACK','help','toolbar=0,status=0,menubar=0,scrollbars=1,resizable=1,width=640,height=400,left=150,top=150');">
+            <font color="#6464c3"><b><script>dw(ls_5);</script></b></font></a>
+							  </td> 
+							  <td width="11"></td>													
+							</tr>
+           			  </table>
+				//-->	
+					</Td>
+				</Tr>
+				<tr>
+					<Td></Td>
+					<td align="center"><br><br>
+					<script>
+						var info ="<input type='button' style='height:22px;width:180px;' class='submitBtn' onClick='frmLoad()' value='"+wd_9+"'><input type='button' style='height:22px;width:180px;' class='submitBtn' onClick='btnApply()' value='"+wd_10+"'>";										
+						dw(info);
+					</script>
+					</td>
+				
+				</tr>
+			</TABLE>
+            <br>
+
+            
+            
+               
+           
+			
+         </TD></TR></TBODY></TABLE></TD></form>
+   </body>
+</html>

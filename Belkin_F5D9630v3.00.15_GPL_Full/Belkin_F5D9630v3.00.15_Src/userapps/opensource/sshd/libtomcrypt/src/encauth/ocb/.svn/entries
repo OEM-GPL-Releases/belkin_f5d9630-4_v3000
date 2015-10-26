@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/userapps/opensource/sshd/libtomcrypt/src/encauth/ocb"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   committed-rev="3"
+   name="ocb_ntz.c"
+   text-time="2008-02-22T08:25:16.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="4afc158fd684bbc2dae5c4bf09ae86a0"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:25:16.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ocb_done_decrypt.c"
+   text-time="2008-02-22T08:25:16.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="ecaf3938529530b7a296ac37a4baaa62"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:25:16.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ocb_test.c"
+   text-time="2008-02-22T08:25:16.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="0a211d5c4780054e63dbf8e4558044d3"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:25:16.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ocb_init.c"
+   text-time="2008-02-22T08:25:16.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="e47c9162f9d2a4e52e388e9c1c877787"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:25:16.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ocb_encrypt.c"
+   text-time="2008-02-22T08:25:16.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="8cd211af0993d802fccdc3c06d872dce"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:25:16.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ocb_shift_xor.c"
+   text-time="2008-02-22T08:25:16.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="82eddc3784283b9c4d2bf82ede0cd139"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:25:16.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ocb_decrypt_verify_memory.c"
+   text-time="2008-02-22T08:25:16.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="78347220500ef6fbc2b4eb7f95d87b8a"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:25:16.000000Z"/>
+<entry
+   committed-rev="3"
+   name="s_ocb_done.c"
+   text-time="2008-02-22T08:25:16.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="7848b2befc30b2a51064e7979048b6c6"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:25:16.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ocb_done_encrypt.c"
+   text-time="2008-02-22T08:25:16.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="b5a4d15e1e52d419ef01b93a29d2d574"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:25:16.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ocb_decrypt.c"
+   text-time="2008-02-22T08:25:16.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="5f128fb11e5136b67df337d92f4bc0b2"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:25:16.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ocb_encrypt_authenticate_memory.c"
+   text-time="2008-02-22T08:25:16.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="e99e6629519d8e0da438fcc6383a6ef7"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:25:16.000000Z"/>
+</wc-entries>

@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/kernel/linux/arch/mips/sgi-ip27"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   committed-rev="3"
+   name="ip27-timer.c"
+   text-time="2008-02-22T08:23:00.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="814c6e1ff2a0edb9c878cfa3347d2ea7"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:00.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ip27-reset.c"
+   text-time="2008-02-22T08:23:00.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="fff6f232af3a551a36cfe044d13d5d20"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:00.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ip27-xtalk.c"
+   text-time="2008-02-22T08:23:00.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="49e015b464f3ccf45b2aef4d5c14ef3b"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:00.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ip27-nmi.c"
+   text-time="2008-02-22T08:23:00.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="4c6acb4b2adeaf08acac5120378790b0"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:00.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ip27-klnuma.c"
+   text-time="2008-02-22T08:23:00.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="818840c40bc0a8523d70ac50145f35ad"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:00.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ip27-berr.c"
+   text-time="2008-02-22T08:23:00.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="6eb952bd2070fe6e277559c5e4012105"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:00.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ip27-irq.c"
+   text-time="2008-02-22T08:23:00.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="c20167eddb05d647abef16cedc713759"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:00.000000Z"/>
+<entry
+   name="CVS"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="ip27-klconfig.c"
+   text-time="2008-02-22T08:23:00.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="533af9fb0a0515eed0d03d109ea4a8a8"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:00.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ip27-smp.c"
+   text-time="2008-02-22T08:23:00.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="8751cf559ae5131b2ae09d7db07c219c"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:00.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ip27-console.c"
+   text-time="2008-02-22T08:23:00.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="ffaa4d4fc01fa5352e273bd2b68749f2"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:00.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ip27-init.c"
+   text-time="2008-02-22T08:23:00.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="9767dc36ff0a7ae18f8a85cbc8615502"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:00.000000Z"/>
+<entry
+   committed-rev="3"
+   name="TODO"
+   text-time="2008-02-22T08:23:00.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="e0509cec7a6fa1d53eab680b68a568e8"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:00.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ip27-irq-glue.S"
+   text-time="2008-02-22T08:23:00.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="e5b7eab59e57acabcdbd661effe8cdea"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:00.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ip27-hubio.c"
+   text-time="2008-02-22T08:23:00.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="1a75ed4d06fef9cf57fdedbd347c55a4"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:00.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ip27-memory.c"
+   text-time="2008-02-22T08:23:00.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="5e3619e9736777dfd8d24fb7885b0001"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:00.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Makefile"
+   text-time="2008-02-22T08:23:00.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="4cf4d386a58a9ad595e921f5afafe240"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:00.000000Z"/>
+<entry
+   committed-rev="3"
+   name=".cvsignore"
+   text-time="2008-02-22T08:23:00.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="d8b65572e25962faaf07c20bb34d224e"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:00.000000Z"/>
+</wc-entries>

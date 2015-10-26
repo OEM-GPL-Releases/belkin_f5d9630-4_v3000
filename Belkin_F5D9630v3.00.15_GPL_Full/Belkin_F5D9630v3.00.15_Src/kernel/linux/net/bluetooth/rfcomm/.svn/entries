@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/kernel/linux/net/bluetooth/rfcomm"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   committed-rev="3"
+   name="Kconfig"
+   text-time="2008-02-22T08:21:28.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="b4dbe51f420c8e424557403a1fc10dfa"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:28.000000Z"/>
+<entry
+   committed-rev="3"
+   name="sock.c"
+   text-time="2008-02-22T08:21:28.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="62ba7f6ffea820d2358a5da54feb0d43"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:28.000000Z"/>
+<entry
+   committed-rev="3"
+   name="tty.c"
+   text-time="2008-02-22T08:21:28.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="b14482b8887aa10a7e0707543aa2a2ab"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:28.000000Z"/>
+<entry
+   committed-rev="3"
+   name="crc.c"
+   text-time="2008-02-22T08:21:28.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="eecf1d87be37041bf751c5b333d4f0ce"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:28.000000Z"/>
+<entry
+   committed-rev="3"
+   name="core.c"
+   text-time="2008-02-22T08:21:28.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="7b34eff7f0729955b037a45c5777aa5b"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:28.000000Z"/>
+<entry
+   name="CVS"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="Makefile"
+   text-time="2008-02-22T08:21:28.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="d1576b49edbf1b77b986384859ce3130"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:28.000000Z"/>
+</wc-entries>

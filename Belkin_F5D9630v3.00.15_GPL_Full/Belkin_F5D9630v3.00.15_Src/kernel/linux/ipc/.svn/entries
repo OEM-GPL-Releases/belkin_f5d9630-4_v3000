@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/kernel/linux/ipc"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   committed-rev="3"
+   name="compat_mq.c"
+   text-time="2008-02-22T08:22:06.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="e5404c4d85d00a6fb5af805c2fc02a32"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:06.000000Z"/>
+<entry
+   committed-rev="3"
+   name="mqueue.c"
+   text-time="2008-02-22T08:22:06.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="c36c7ff39f09abf595b989b19c2f5bf7"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:06.000000Z"/>
+<entry
+   committed-rev="3"
+   name="util.h"
+   text-time="2008-02-22T08:22:06.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="c88ed288afa93e99ec810381b3b7c556"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:06.000000Z"/>
+<entry
+   committed-rev="3"
+   name="compat.c"
+   text-time="2008-02-22T08:22:06.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="0db1bc12d37697efbdb0f1e963cba4b0"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:06.000000Z"/>
+<entry
+   committed-rev="3"
+   name="msgutil.c"
+   text-time="2008-02-22T08:22:06.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="083d1738936b1828d6f07dfbf5dcae3d"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:06.000000Z"/>
+<entry
+   committed-rev="3"
+   name="sem.c"
+   text-time="2008-02-22T08:22:06.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="a7801d2c48730e28ce69556196529cd1"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:06.000000Z"/>
+<entry
+   committed-rev="3"
+   name="msg.c"
+   text-time="2008-02-22T08:22:06.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="7e51c80f612a14b6a2a8155332a61345"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:06.000000Z"/>
+<entry
+   committed-rev="3"
+   name="shm.c"
+   text-time="2008-02-22T08:22:06.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="37f086bbbb3e2329e444e344718db468"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:06.000000Z"/>
+<entry
+   name="CVS"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name=".cvsignore"
+   text-time="2008-02-22T08:22:06.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="d8b65572e25962faaf07c20bb34d224e"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:06.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Makefile"
+   text-time="2008-02-22T08:22:06.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="67ab888736373618d5a13c12e40f3680"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:06.000000Z"/>
+<entry
+   committed-rev="3"
+   name="util.c"
+   text-time="2008-02-22T08:22:06.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="28f3501c937f4c613d9844b9e8a002b0"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:06.000000Z"/>
+</wc-entries>

@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/kernel/linux/scripts/lxdialog"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   committed-rev="3"
+   name="msgbox.c"
+   text-time="2008-02-22T08:21:33.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="52963bbcf369b023b61832f30f38fe5f"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:33.000000Z"/>
+<entry
+   committed-rev="3"
+   name="lxdialog.c"
+   text-time="2008-02-22T08:21:33.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="976e235cc276b320fbe01e68c73a9098"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:33.000000Z"/>
+<entry
+   committed-rev="3"
+   name="dialog.h"
+   text-time="2008-02-22T08:21:33.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="3a4c919c942e6bc8f16b750f4d5ba16c"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:33.000000Z"/>
+<entry
+   committed-rev="3"
+   name="colors.h"
+   text-time="2008-02-22T08:21:33.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="a304272240937ccc86ff04b85e0d73f9"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:33.000000Z"/>
+<entry
+   committed-rev="3"
+   name="inputbox.c"
+   text-time="2008-02-22T08:21:33.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="2a0c80e9625fae5a7c898fdf731c965d"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:33.000000Z"/>
+<entry
+   committed-rev="3"
+   name="checklist.c"
+   text-time="2008-02-22T08:21:33.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="e67fae0e3f897efc0373bdae76f0c476"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:33.000000Z"/>
+<entry
+   name="CVS"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name=".cvsignore"
+   text-time="2008-02-22T08:21:33.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="2bb59e21ee5efea75fd8be928bb512f0"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:33.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Makefile"
+   text-time="2008-02-22T08:21:33.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="bf9736d4ba4011411d2407e721b115b3"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:33.000000Z"/>
+<entry
+   committed-rev="3"
+   name="BIG.FAT.WARNING"
+   text-time="2008-02-22T08:21:33.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="2e0bfdc0eb78ca744114b42489f077d3"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:33.000000Z"/>
+<entry
+   committed-rev="3"
+   name="menubox.c"
+   text-time="2008-02-22T08:21:33.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="c50b957691c222c2c996c192bdc69bad"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:33.000000Z"/>
+<entry
+   committed-rev="3"
+   name="textbox.c"
+   text-time="2008-02-22T08:21:33.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="b1128ea6763e7d727a2cda6944d5406e"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:33.000000Z"/>
+<entry
+   committed-rev="3"
+   name="util.c"
+   text-time="2008-02-22T08:21:33.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="558d639db5c18b914c9e401013a84d6e"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:33.000000Z"/>
+<entry
+   committed-rev="3"
+   name="yesno.c"
+   text-time="2008-02-22T08:21:33.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="ea0c4d6b6623370d2c7ab87564dfcde4"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:33.000000Z"/>
+</wc-entries>

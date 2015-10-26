@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/kernel/linux/sound/pci/trident"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   committed-rev="3"
+   name="trident_synth.c"
+   text-time="2008-02-22T08:21:41.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="7e868bd2c771c00be41a794409f6dba5"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:41.000000Z"/>
+<entry
+   committed-rev="3"
+   name="trident_memory.c"
+   text-time="2008-02-22T08:21:41.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="2faaa2755db160ccfb3c6561bcc26878"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:41.000000Z"/>
+<entry
+   committed-rev="3"
+   name="trident.c"
+   text-time="2008-02-22T08:21:41.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="388e137cf3ccaeb29720f877bfd7a14f"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:41.000000Z"/>
+<entry
+   name="CVS"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name=".cvsignore"
+   text-time="2008-02-22T08:21:41.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="d8b65572e25962faaf07c20bb34d224e"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:41.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Makefile"
+   text-time="2008-02-22T08:21:41.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="a75773768f415145b69b7608779db813"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:41.000000Z"/>
+<entry
+   committed-rev="3"
+   name="trident_main.c"
+   text-time="2008-02-22T08:21:41.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="54a07e33c76765d7c1e8a704eb628bc8"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:41.000000Z"/>
+</wc-entries>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/kernel/linux/arch/mips/brcm-boards/bcm963xx"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   committed-rev="3"
+   name="time.c"
+   text-time="2008-02-22T08:22:59.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="28d3918910dddf877681a6a6f3c5dd76"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:59.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Kconfig"
+   text-time="2008-02-22T08:22:59.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="9635bb3ea72ee319e8727232ac8177b6"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:59.000000Z"/>
+<entry
+   committed-rev="3"
+   name="setup.c"
+   text-time="2008-02-22T08:22:59.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="a9290e5c4a3f7d81676b83dcbe41c362"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:59.000000Z"/>
+<entry
+   committed-rev="3"
+   name="int-handler.S"
+   text-time="2008-02-22T08:22:59.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="360c5835b12e1fadc16bdadc64ffd2c6"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:59.000000Z"/>
+<entry
+   committed-rev="3"
+   name="irq.c"
+   text-time="2008-02-22T08:22:59.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="5aeb3ce1cd8af28a757e7dc24ec0a0bf"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:59.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Makefile"
+   text-time="2008-02-22T08:22:59.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="cfde9959ece824e31b3298a1ee434829"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:59.000000Z"/>
+<entry
+   committed-rev="3"
+   name="prom.c"
+   text-time="2008-02-22T08:22:59.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="3edb1591647419781e8af3ab0b8fa6f8"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:59.000000Z"/>
+</wc-entries>

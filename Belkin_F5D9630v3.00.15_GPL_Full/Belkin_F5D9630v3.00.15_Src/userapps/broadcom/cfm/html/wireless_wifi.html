@@ -1,0 +1,340 @@
+<html>
+   <head>
+      <meta HTTP-EQUIV='Pragma' CONTENT='no-cache'>
+	  <meta http-equiv="refresh" content="<%ejGet(timeout_refresh)%>">
+			<link rel="stylesheet" href="main_router.css" type='text/css'>
+			<%ejGet("curLanguage")%>
+			<SCRIPT>assign_var();</SCRIPT>
+			
+		 	<SCRIPT language=JavaScript src="showMenu.js"></SCRIPT>
+            <script language="javascript" src="util.js"></script>
+            <script language="javascript">
+<!-- hide
+var enblwl = '<%ejGetWl(wlEnbl)%>';
+var wlmode = '<%ejGetWl(WirelessMode)%>';
+var brate = '<%ejGetWl(wlBasicRate)%>';
+var txrate = '<%ejGetWl(wlRate)%>';
+var txburst = '<%ejGetWl(wlTxBurst)%>';
+var pktAggregate = '<%ejGetWl(wlPktAggregate)%>';
+var frg = '<%ejGetWl(wlFrgThrshld)%>';
+var rts = '<%ejGetWl(wlRtsThrshld)%>';
+var dtm = '<%ejGetWl(wlDtmIntvl)%>';
+var bcn = '<%ejGetWl(wlBcnIntvl)%>';
+var TxPwrPcnt = '<%ejGetWl(wlTxPwrPcnt)%>';
+var pro = '<%ejGetWl(wlProtection)%>';
+var wlRefresh = '<%ejGetWl(wlRefresh)%>';
+
+if ( wlRefresh == '1' ) 
+{
+   var code = 'location="wlcfgadvrefresh.wl?wlRefresh=0"';
+   eval(code);   
+}
+   
+function frmLoad()
+{
+	with(document.forms[0])
+	{
+		if(enblwl == '0')			//disable wireless
+			wireless_mode.selectedIndex = 3;
+
+		if(wlmode == '0')			//for b/g mix mode
+			wireless_mode.selectedIndex = 0;
+		else if(wlmode == '1')			//for b only mode	
+			wireless_mode.selectedIndex = 2;
+		else if(wlmode == '2')			//for g only mode	
+			wireless_mode.selectedIndex = 1;
+
+		//set Basic Rate
+		if(brate == 'default')
+			wlBasicRate.selectedIndex = 0;
+		else if(brate == '12')	
+			wlBasicRate.selectedIndex = 1;
+		else	
+			wlBasicRate.selectedIndex = 2;
+		
+		//set Transmission Rate
+		wlRate.selectedIndex = txrate;	
+		
+		//set Transmission Power
+		if(TxPwrPcnt == '20')
+			wlTxPower.selectedIndex=0;
+		else if(TxPwrPcnt == '40')
+			wlTxPower.selectedIndex=1;
+		else if(TxPwrPcnt == '60')
+			wlTxPower.selectedIndex=2;
+		else if(TxPwrPcnt == '80')
+			wlTxPower.selectedIndex=3;
+		else if(TxPwrPcnt == '100')
+			wlTxPower.selectedIndex=4;
+			
+		//set Tx Bust mode
+		wlTxBurst.selectedIndex = txburst;
+		
+		//set Packet Aggregate
+		wlPktAggregate.selectedIndex = pktAggregate;
+		
+		//set Beacon Inteval
+		wlBcnIntvl.value = bcn;
+		
+		//set DTIM 
+		wlDtmIntvl.value = dtm;
+		
+		//set Fragmentation Threshold
+		wlFrgThrshld.value = frg;
+		
+		//set RTS Threshold
+		wlRtsThrshld.value = rts;		
+	}
+}
+
+
+function btnApply() {
+   var loc = 'wlcfgadv.wl?';
+
+   if ( enblwl == '0' ) 
+   {
+      alert('Cannot apply the change since wireless is currently disabled.');
+      return;
+   }
+           
+   with ( document.forms[0] ) 
+   {
+      bcnNum = parseInt(wlBcnIntvl.value);
+      if ( isNaN(bcnNum) == true || bcnNum < 50 || bcnNum > 1024 ) {
+         alert('Beacon interval "' + wlBcnIntvl.value + '" should be between 50 and 1024.');
+         return;
+      }
+      
+      dtmNum = parseInt(wlDtmIntvl.value);
+      if ( isNaN(dtmNum) == true || dtmNum < 1 || dtmNum > 255 ) {
+         alert('DTIM interval "' + wlDtmIntvl.value + '" should be between 1 and 255.');
+         return;
+      }
+      
+      frgNum = parseInt(wlFrgThrshld.value);
+      if ( isNaN(frgNum) == true || frgNum < 256 || frgNum > 2346 ) {
+         alert('Fragmentation threshold "' + wlFrgThrshld.value + '" should be between 256 and 2346.');
+         return;
+      }
+
+      rtsNum = parseInt(wlRtsThrshld.value);
+      if ( isNaN(rtsNum) == true || rtsNum < 1 || rtsNum > 2347 ) {
+         alert('RTS threshold "' + wlRtsThrshld.value + '" should be between 1 and 2347.');
+         return;
+      }
+
+
+
+	  if(wireless_mode.selectedIndex == 0)		// b/g mix mode
+	  	loc += 'WirelessMode=0';
+	  else if(wireless_mode.selectedIndex == 2)		// b only mode		
+	  	loc += 'WirelessMode=1';
+	  else 	if(wireless_mode.selectedIndex == 1)		// g only mode		
+	  	loc += 'WirelessMode=2';
+	  else
+	  	loc += 'wlEnbl=0';
+		
+      loc += '&wlBasicRate=' + wlBasicRate.options[wlBasicRate.selectedIndex].value;
+	  loc += '&wlRate=' + wlRate.options[wlRate.selectedIndex].value;
+	  loc += '&wlTxPwrPcnt=' + wlTxPower.options[wlTxPower.selectedIndex].value;
+	  loc += '&wlTxBurst=' + wlTxBurst.options[wlTxBurst.selectedIndex].value;
+	  loc += '&wlPktAggregate=' + wlPktAggregate.options[wlPktAggregate.selectedIndex].value;	  
+      loc += '&wlFrgThrshld=' + wlFrgThrshld.value;
+      loc += '&wlRtsThrshld=' + wlRtsThrshld.value;
+      loc += '&wlDtmIntvl=' + wlDtmIntvl.value;
+      loc += '&wlBcnIntvl=' + wlBcnIntvl.value;
+   }
+   var code = 'location="' + loc + '"';
+    
+   eval(code);
+}
+
+
+function write_mode()
+{
+	with(document.write)
+	{
+		document.write("<option value=\"mixmode\">802.11g &amp; 802.11b</option>");
+		document.write("<option value=\"gmode\">"+wlcs_8+"</option>");
+		document.write("<option value=\"bmode\">"+wlcs_9+"</option>");
+		document.write("<option value=\"off\">"+wlcs_10+"</option>");
+	}
+}
+
+function write_basicrate()
+{
+	with(document.write)
+	{
+		document.write("<option value=\"default\">Default</option>");
+		document.write("<option value=\"12\">1~2 Mbps</option>");
+		document.write("<option value=\"all\">All</option>");
+	}
+
+}
+
+function write_txrate()
+{
+	with(document.write)
+	{
+		if(wlmode == '0')	//for b/g mix mode
+		{
+			document.write("<option value=\"0\">Auto</option>");
+			document.write("<option value=\"1\">1 Mbps</option>");
+			document.write("<option value=\"2\">2 Mbps</option>");
+			document.write("<option value=\"3\">5.5 Mbps</option>");
+			document.write("<option value=\"4\">11 Mbps</option>");
+			document.write("<option value=\"5\">6 Mbps</option>");
+			document.write("<option value=\"6\">9 Mbps</option>");
+			document.write("<option value=\"7\">12 Mbps</option>");
+			document.write("<option value=\"8\">18 Mbps</option>");
+			document.write("<option value=\"9\">24 Mbps</option>");
+			document.write("<option value=\"10\">36 Mbps</option>");
+			document.write("<option value=\"11\">48 Mbps</option>");
+			document.write("<option value=\"12\">54 Mbps</option>");
+		}
+		else if(wlmode == '1')		// for b only
+		{
+			document.write("<option value=\"0\">Auto</option>");
+			document.write("<option value=\"1\">1 Mbps</option>");
+			document.write("<option value=\"2\">2 Mbps</option>");
+			document.write("<option value=\"3\">5.5 Mbps</option>");
+			document.write("<option value=\"4\">6 Mbps</option>");
+			document.write("<option value=\"5\">11 Mbps</option>");
+		}
+		else
+		{
+			document.write("<option value=\"0\">Auto</option>");
+			document.write("<option value=\"1\">1 Mbps</option>");
+			document.write("<option value=\"2\">2 Mbps</option>");
+			document.write("<option value=\"3\">5.5 Mbps</option>");
+			document.write("<option value=\"4\">11 Mbps</option>");
+			document.write("<option value=\"5\">6 Mbps</option>");
+			document.write("<option value=\"6\">9 Mbps</option>");
+			document.write("<option value=\"7\">12 Mbps</option>");
+			document.write("<option value=\"8\">18 Mbps</option>");
+			document.write("<option value=\"9\">24 Mbps</option>");
+			document.write("<option value=\"10\">36 Mbps</option>");
+			document.write("<option value=\"11\">48 Mbps</option>");
+			document.write("<option value=\"12\">54 Mbps</option>");
+		}
+		
+	}
+}
+
+
+// done hiding -->
+            </script>
+	<title>Wireless &gt; Advanced</title>		
+   </head>
+   <body onLoad='frmLoad()' bgColor="#ffffff" leftMargin="0" topMargin="0" marginheight="0" marginwidth="0">
+
+    <form>
+
+       <SCRIPT language=JavaScript>
+	var helpItem 	='Channel and SSID';
+	var menuSection	='WLAN';
+	var menuItem	='Channel and SSID';
+	var isAPmode = '<%ejGet(enblNat)%>';
+		
+	var wanStatus = '<%ejGetOther(isUp)%>';
+	showHead(wanStatus,helpItem);
+	showMenu(menuSection,menuItem,isAPmode)
+	</SCRIPT>  
+<TD class=head_bold width="90%" valign="top"><Br>
+
+            <b><font class="head_bold">&nbsp;&nbsp;Wireless &gt; Advanced</font></b>
+            <br><br>
+
+
+
+            <br>
+            <br>
+            <br>
+
+			<table border="0" cellpadding="0" cellspacing="0" class="copy_1">                               
+              <tr><td width="108">&nbsp;</td>		
+				  <Td width="910" class="copy_1">
+
+			
+			<table width="559" border="0" cellpadding="0" cellspacing="0" class="copy_1">   
+               <tr>
+                  <td height="30" class="copy_1"><b> Wireless Mode : </b></td>
+                 <td  height="30" class="copy_1"><select name='wireless_mode' size="1"><script language="javascript">write_mode()</script></select></td>
+               </tr>
+               <tr>
+                  <td  height="30"  class="copy_1"><b>Basic Rate:</b></td>
+                  <td  height="30"  class="copy_1"><select name='wlBasicRate' size="1"><script language="javascript">write_basicrate()</script>
+                 </select> (Default: Default)</td>
+               </tr>
+               <tr>
+                  <td  height="30" class="copy_1"><b>Transmission Rate: </b></td>
+                  <td  height="30" class="copy_1"><select name='wlRate' size="1"><script language="javascript">write_txrate()</script></select> (Default: Auto)</td>
+               </tr>
+
+               <tr>
+                  <td width="180"><b>Transmit Power:</b></td>
+                  <td><select name="wlTxPower" size="1">
+                       <option value="20">20%</option>
+                       <option value="40">40%</option>
+                       <option value="60">60%</option>
+                       <option value="80">80%</option>
+                       <option value="100">100%</option>
+                        </select> (Default: 100%)
+                  </td>                     
+                 </tr>                   
+
+	          <tr> 
+                  <td height="30" class="copy_1"><B>Transmission Burst:</B></td>
+                  <td><select name='wlTxBurst' size="1">
+                        <option value="0">
+                        Disabled
+                        <option value="1">
+                        Enabled
+                     </select> (Default: Enable)</td>
+               </tr> 
+
+                  <tr>
+                  <td height="30" class="copy_1"><B>Packet Aggregate:</B></td>
+                  <td><select name='wlPktAggregate' size="1">
+                           <option value="0">
+                           Disabled
+                        <option value="1">
+                                Enabled
+                     </select> (Default: Enable)</td>
+                 </tr> 
+
+                  <tr>
+                  <td height="30" class="copy_1"><b>Beacon Interval:</b></td>
+                  <td><input type='text' name='wlBcnIntvl' size='10' maxlength="4"> (Default: 100, Milliseconds, Range: 50~1024 )</td>
+                  </tr>
+
+                  <tr>
+                  <td height="30" class="copy_1"><b>DTIM Interval:</b></td>
+                  <td height="30" class="copy_1"><input type='text' name='wlDtmIntvl' size='10' maxlength="3"> (Default: 1, Range: 1 - 255)</td>
+                  </tr>
+
+
+                  <tr>
+                  <td  height="30" class="copy_1"><b>Fragmentation Threshold:</b></td>
+                  <td  height="30" class="copy_1"><input type='text' name='wlFrgThrshld' size='10' maxlength="4"> (Default: 2346, Range: 256 - 2346)</td>
+                  </tr>
+                  <tr>
+                  <td  height="30" class="copy_1"><b>RTS Threshold:</b></td>
+                  <td  height="30" class="copy_1"><input type='text' name='wlRtsThrshld' size='10' maxlength="4"> (Default: 2347, Range: 1 - 2347)</td>
+                  </tr>
+			   
+               </table>
+            <br><br>
+            <table width="784" height="15" border="0" cellpadding="0" cellspacing="0" class="copy_1">
+				<tr><td width="156">&nbsp;</td>
+					<td width="628">
+				<script>				
+					var info="<input type='button' style='width:180px' onClick='frmLoad()' value='"+ls_26+"' class='submitBtn'><input type='button' style='width:180px' onClick='btnApply()' value='"+ls_27+"' class='submitBtn'>"
+					dw(info);				
+				</script>
+				</td></tr>
+    </table>
+</TD></TR></TBODY></TABLE></TD>			
+         </form>
+   </body>
+</html>

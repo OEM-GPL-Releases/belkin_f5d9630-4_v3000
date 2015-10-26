@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="97"
+   name=""
+   committed-date="2008-01-08T10:30:22.757828Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/bcmdrivers/opensource"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   name="include"
+   kind="dir"/>
+<entry
+   name="char"
+   kind="dir"/>
+</wc-entries>

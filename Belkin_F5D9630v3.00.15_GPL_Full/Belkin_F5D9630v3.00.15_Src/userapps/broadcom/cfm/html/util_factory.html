@@ -1,0 +1,90 @@
+<html>
+   <head>
+      <meta HTTP-EQUIV='Pragma' CONTENT='no-cache'>
+	  <meta http-equiv="refresh" content="<%ejGet(timeout_refresh)%>">
+<link rel="stylesheet" href="main_router.css" type='text/css'>
+
+		<%ejGet("curLanguage")%>
+		<SCRIPT>assign_var();</SCRIPT>
+
+
+<SCRIPT language=JavaScript src="showMenu.js"></SCRIPT>
+            <script language="javascript" src="util.js"></script>
+            <script language="javascript">
+<!-- hide
+
+strHtml='<title>'+utm_1+' &gt; '+utfd_1+'</title>';
+dw(strHtml);
+
+
+
+var autoup = '<%ejGet(autoUpgrade_flag)%>';
+
+if(autoup == '1')
+{
+	newwin=window.open("checkfw.html","Firmware","toolbar=no,location=no,directories=no,status=no,menubar=no,scrollbars=yes,width=395,height=200,resizable=0");
+	newwin.focus();
+}
+
+
+function restoreClick() {
+   var loc = 'restore_factory_default_success.cgi';
+
+   var code = 'location.assign("' + loc + '")';
+
+   if (confirm(utfd_2))
+   {
+    	alert(utfd_3);
+		window.location = loc;
+   }
+   else
+      alert(utfd_4);
+}
+
+// done hiding -->
+</script>
+   </head>
+   <body  bgColor="#ffffff" leftMargin="0" topMargin="0" marginheight="0" marginwidth="0">
+         <form>
+       <SCRIPT language=JavaScript>
+	var helpItem 	='Restore Factory Default';
+	var menuSection	='Util';
+	var menuItem	='Restore Factory Default';
+	var isAPmode = '<%ejGet(enblNat)%>';
+		
+	var wanStatus = '<%ejGetOther(isUp)%>';
+	showHead(wanStatus,helpItem);
+	showMenu(menuSection,menuItem,isAPmode)
+	</SCRIPT>  
+<TD class=head_bold width="90%" valign="top"><Br>
+<font class="head_bold"><b>&nbsp;&nbsp;&nbsp;<script>dw(utm_1);</script> &gt; <script>dw(utfd_1);</script></b></font><Br><br>
+<br>
+
+
+               <table width="631" height="24" border="0" cellpadding="0" cellspacing="0">
+                  <tr>
+				  	 <Td width="22"></Td>
+                     <td width="609" class="copy_1"><script>dw(utfd_5);</script>
+				    </td>
+				 </tr>	 
+	</table>
+
+<br><Br><br>
+               <table width="628" height="24" border="0" cellpadding="0" cellspacing="0">
+                  <tr>
+				  	 <Td width="215"></Td>
+					 <Td width="413">
+					 	<script>
+							var info="<input type='button' style='height:22px; width:255px' value='"+utfd_6+"' onClick='restoreClick()' class='submitBtn'>";
+							dw(info);
+						</script>
+            
+					</Td>
+				 </tr>
+	</table>
+					
+		  </TD></TR></TBODY></TABLE></TD>
+
+         </form>
+   </body>
+</html>

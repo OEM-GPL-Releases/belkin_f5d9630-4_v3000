@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/kernel/linux/drivers/net/hamradio"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   committed-rev="3"
+   name="z8530.h"
+   text-time="2008-02-22T08:24:07.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="33acdee96f4014b34a609616fa0a7174"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:07.000000Z"/>
+<entry
+   committed-rev="3"
+   name="yam1200.h"
+   text-time="2008-02-22T08:24:07.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="c25e624fe54520e34a330bf73d45664f"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:07.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Kconfig"
+   text-time="2008-02-22T08:24:07.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="ee82142a9ae3d81835e0b7b79f289f7c"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:07.000000Z"/>
+<entry
+   committed-rev="3"
+   name="6pack.c"
+   text-time="2008-02-22T08:24:07.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="7f80f52e2a990a2635ea71d19c2345ca"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:07.000000Z"/>
+<entry
+   committed-rev="3"
+   name="scc.c"
+   text-time="2008-02-22T08:24:07.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="4f43e81d390e95296b5be40ee6efe3e6"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:07.000000Z"/>
+<entry
+   committed-rev="3"
+   name="yam9600.h"
+   text-time="2008-02-22T08:24:07.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="74aa2807dda7f621be608447e3b2f90b"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:07.000000Z"/>
+<entry
+   committed-rev="3"
+   name="bpqether.c"
+   text-time="2008-02-22T08:24:07.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="b708f633a8d66d9515b9bbf8eeb7bf83"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:07.000000Z"/>
+<entry
+   name="CVS"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="baycom_par.c"
+   text-time="2008-02-22T08:24:07.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="acad97dfb31d74905d01311398421274"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:07.000000Z"/>
+<entry
+   committed-rev="3"
+   name="baycom_epp.c"
+   text-time="2008-02-22T08:24:07.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="15df7a565de3ed825a63f7e1ff05e3ee"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:07.000000Z"/>
+<entry
+   committed-rev="3"
+   name="baycom_ser_fdx.c"
+   text-time="2008-02-22T08:24:07.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="d1c8d975e334220171049f1e4d0a630d"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:07.000000Z"/>
+<entry
+   committed-rev="3"
+   name="baycom_ser_hdx.c"
+   text-time="2008-02-22T08:24:07.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="e48fa681c935e32c850c0d1111c5dce5"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:07.000000Z"/>
+<entry
+   committed-rev="3"
+   name="hdlcdrv.c"
+   text-time="2008-02-22T08:24:07.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="7f4b107f79589bcc4ad83781ba4e7ce6"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:07.000000Z"/>
+<entry
+   committed-rev="3"
+   name="mkiss.c"
+   text-time="2008-02-22T08:24:07.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="a6e9ff7c6df0ad3fd1049aeeec3d83ac"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:07.000000Z"/>
+<entry
+   committed-rev="3"
+   name="yam.c"
+   text-time="2008-02-22T08:24:07.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="fe3002ab51e13af3bfa93701722224cf"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:07.000000Z"/>
+<entry
+   committed-rev="3"
+   name="dmascc.c"
+   text-time="2008-02-22T08:24:07.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="3a333cf1d682c56a6d7db7da35d1717a"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:07.000000Z"/>
+<entry
+   committed-rev="3"
+   name="mkiss.h"
+   text-time="2008-02-22T08:24:07.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="1bb0f502506077441ca99ecfe38ca170"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:07.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Makefile"
+   text-time="2008-02-22T08:24:07.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="1b8cc5a779677d981b9d3c1042c35747"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:07.000000Z"/>
+<entry
+   committed-rev="3"
+   name=".cvsignore"
+   text-time="2008-02-22T08:24:07.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="735ab631b67b75d07a52edc9e01aed4c"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:07.000000Z"/>
+</wc-entries>

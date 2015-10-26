@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/kernel/linux/net/802"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   committed-rev="3"
+   name="sysctl_net_802.c"
+   text-time="2008-02-22T08:21:30.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="0200672b18c1f80d8566e1d1df0f0559"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:30.000000Z"/>
+<entry
+   committed-rev="3"
+   name="psnap.c"
+   text-time="2008-02-22T08:21:30.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="216ac8feeee71972fba05c324e56e560"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:30.000000Z"/>
+<entry
+   committed-rev="3"
+   name="tr.c"
+   text-time="2008-02-22T08:21:30.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="981dcc8aa107c24d0faa014694a48d7f"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:30.000000Z"/>
+<entry
+   committed-rev="3"
+   name="fddi.c"
+   text-time="2008-02-22T08:21:30.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="55fa4dc82d7efb40ecd148fcad50a0f1"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:30.000000Z"/>
+<entry
+   committed-rev="3"
+   name="fc.c"
+   text-time="2008-02-22T08:21:30.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="17854b45cc678e2c008d0017df0e488d"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:30.000000Z"/>
+<entry
+   committed-rev="3"
+   name="hippi.c"
+   text-time="2008-02-22T08:21:30.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="b7494e170392de24aa4d752f72e6a19a"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:30.000000Z"/>
+<entry
+   name="CVS"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="p8022.c"
+   text-time="2008-02-22T08:21:30.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="362ffe27c6c145b444463fe202ce2f8a"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:30.000000Z"/>
+<entry
+   committed-rev="3"
+   name=".cvsignore"
+   text-time="2008-02-22T08:21:30.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="d8b65572e25962faaf07c20bb34d224e"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:30.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Makefile"
+   text-time="2008-02-22T08:21:30.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="9b43be48601d26cf92f653c1a7285f42"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:30.000000Z"/>
+<entry
+   committed-rev="3"
+   name="p8023.c"
+   text-time="2008-02-22T08:21:30.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="6ef43d06b46faabdd6e92bf3939dbdd6"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:30.000000Z"/>
+</wc-entries>

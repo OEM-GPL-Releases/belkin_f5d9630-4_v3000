@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/kernel/linux/drivers/s390/block"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   committed-rev="3"
+   name="dasd_proc.c"
+   text-time="2008-02-22T08:23:39.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="51cb59ca9fe545da15ba421ff9c98682"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:39.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Kconfig"
+   text-time="2008-02-22T08:23:39.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="20eef382f3999ea422a0f2040bc1e564"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:39.000000Z"/>
+<entry
+   committed-rev="3"
+   name="dasd_diag.c"
+   text-time="2008-02-22T08:23:39.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="d26d69cf9970cde8073b3ab272230b70"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:39.000000Z"/>
+<entry
+   committed-rev="3"
+   name="dasd_eckd.c"
+   text-time="2008-02-22T08:23:39.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="5145a9ce5574a832f88774e8d41d69d4"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:39.000000Z"/>
+<entry
+   committed-rev="3"
+   name="dasd_9343_erp.c"
+   text-time="2008-02-22T08:23:39.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="fab69f0ff82d336160fe717e271f09a6"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:39.000000Z"/>
+<entry
+   committed-rev="3"
+   name="dasd_diag.h"
+   text-time="2008-02-22T08:23:39.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="210d0cc788a5910de06f299665a8335c"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:39.000000Z"/>
+<entry
+   committed-rev="3"
+   name="dasd_ioctl.c"
+   text-time="2008-02-22T08:23:39.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="c5f67fb7c701e38d0b6e93d7e5d146c0"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:39.000000Z"/>
+<entry
+   committed-rev="3"
+   name="dasd_3990_erp.c"
+   text-time="2008-02-22T08:23:39.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="453d92a0adc9174f4e25d66a418327b2"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:39.000000Z"/>
+<entry
+   committed-rev="3"
+   name="dasd_9336_erp.c"
+   text-time="2008-02-22T08:23:39.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="cf456e1048e33932d55e8fbfc4eb87e3"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:39.000000Z"/>
+<entry
+   committed-rev="3"
+   name="dasd_eckd.h"
+   text-time="2008-02-22T08:23:39.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="b322e96e0e185ea75c3423d42418dcef"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:39.000000Z"/>
+<entry
+   committed-rev="3"
+   name="dasd_devmap.c"
+   text-time="2008-02-22T08:23:39.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="ba81e6f8cb37e476c663f4f4b05eb412"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:39.000000Z"/>
+<entry
+   name="CVS"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="dasd.c"
+   text-time="2008-02-22T08:23:39.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="5895e055a59762f741c958e980ea5911"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:39.000000Z"/>
+<entry
+   committed-rev="3"
+   name="dasd_genhd.c"
+   text-time="2008-02-22T08:23:39.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="9920d5c419c46160bbd27caa364e73c8"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:39.000000Z"/>
+<entry
+   committed-rev="3"
+   name="dasd_erp.c"
+   text-time="2008-02-22T08:23:39.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="3b7c0e9d575b429f74d08a3168431370"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:39.000000Z"/>
+<entry
+   committed-rev="3"
+   name="dasd_fba.c"
+   text-time="2008-02-22T08:23:39.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="521969d66453e6ff3dfe97d3d91c7330"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:39.000000Z"/>
+<entry
+   committed-rev="3"
+   name="dcssblk.c"
+   text-time="2008-02-22T08:23:39.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="585aacbe8a3225a82c9b898566c28d51"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:39.000000Z"/>
+<entry
+   committed-rev="3"
+   name="xpram.c"
+   text-time="2008-02-22T08:23:39.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="bcd29f191a0bfdf07d8962d36bf8457b"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:39.000000Z"/>
+<entry
+   committed-rev="3"
+   name="dasd_fba.h"
+   text-time="2008-02-22T08:23:39.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="d4ae58398bb74b5b3bfb06d11713c7fb"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:39.000000Z"/>
+<entry
+   committed-rev="3"
+   name="dasd_int.h"
+   text-time="2008-02-22T08:23:39.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="93d2bfa9d9376d9dccf48cdabd84b787"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:39.000000Z"/>
+<entry
+   committed-rev="3"
+   name="dasd_cmb.c"
+   text-time="2008-02-22T08:23:39.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="90ca168d6186f372e77bae717d20df82"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:39.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Makefile"
+   text-time="2008-02-22T08:23:39.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="fbe4e2d843b21798e3f962aaf0f1a4a1"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:39.000000Z"/>
+<entry
+   committed-rev="3"
+   name="dasd_3370_erp.c"
+   text-time="2008-02-22T08:23:39.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="364116c22e4e325310daada516c93348"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:39.000000Z"/>
+</wc-entries>

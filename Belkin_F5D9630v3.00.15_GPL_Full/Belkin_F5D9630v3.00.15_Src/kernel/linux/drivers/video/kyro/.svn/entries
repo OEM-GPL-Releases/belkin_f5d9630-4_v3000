@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/kernel/linux/drivers/video/kyro"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   committed-rev="3"
+   name="STG4000VTG.c"
+   text-time="2008-02-22T08:23:45.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="0cce55bc410adc462e3023a460312b0a"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:45.000000Z"/>
+<entry
+   committed-rev="3"
+   name="STG4000OverlayDevice.c"
+   text-time="2008-02-22T08:23:45.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="5b0be62beecaac9641c5df4919113524"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:45.000000Z"/>
+<entry
+   committed-rev="3"
+   name="STG4000Reg.h"
+   text-time="2008-02-22T08:23:45.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="c35ee5bfa524234c98a160c0160c71af"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:45.000000Z"/>
+<entry
+   committed-rev="3"
+   name="STG4000InitDevice.c"
+   text-time="2008-02-22T08:23:45.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="9cf3001ae90e370281c9a4ae9567189a"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:45.000000Z"/>
+<entry
+   committed-rev="3"
+   name="fbdev.c"
+   text-time="2008-02-22T08:23:45.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="60702b7055499a31096cdd1f753ac6c2"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:45.000000Z"/>
+<entry
+   committed-rev="3"
+   name="STG4000Interface.h"
+   text-time="2008-02-22T08:23:45.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="86f2216466d765519483a38ca8f885ab"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:45.000000Z"/>
+<entry
+   committed-rev="3"
+   name="STG4000Ramdac.c"
+   text-time="2008-02-22T08:23:45.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="20536efd37635a2d4fd372c9915e4fdd"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:45.000000Z"/>
+<entry
+   name="CVS"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="Makefile"
+   text-time="2008-02-22T08:23:45.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="391abd3e1a219d18158a80063c567ef1"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:45.000000Z"/>
+</wc-entries>

@@ -1,0 +1,409 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/userapps/opensource/oprofile/libpopt"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   committed-rev="3"
+   name="configure"
+   text-time="2008-02-22T08:24:51.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="93a2f2b43b35f955a939b67c387cf219"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:50.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Makefile.in"
+   text-time="2008-02-22T08:24:51.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="1a837750012b724f5a53a78b752a7cfc"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:50.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Doxyfile"
+   text-time="2008-02-22T08:24:51.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="00f7b069b99f5b735e4af0b4542b4ff7"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:50.000000Z"/>
+<entry
+   committed-rev="3"
+   name="poptint.h"
+   text-time="2008-02-22T08:24:51.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="5ad71ebf9a9b6982c0f6cbb6e175cada"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:50.000000Z"/>
+<entry
+   committed-rev="3"
+   name="config.log"
+   text-time="2008-02-22T08:24:51.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="0282baa745816f0b63cf5543b97c8699"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:50.000000Z"/>
+<entry
+   committed-rev="3"
+   name="depcomp"
+   text-time="2008-02-22T08:24:51.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="0c452634f378895c5304eca13fa46cf1"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:50.000000Z"/>
+<entry
+   committed-rev="3"
+   name="poptconfig.c"
+   text-time="2008-02-22T08:24:51.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="07d1f41e88365078b69b20466d079a78"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:50.000000Z"/>
+<entry
+   committed-rev="3"
+   name="config.guess"
+   text-time="2008-02-22T08:24:51.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="253fc424977def9dd5b58f7a4b42612a"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:50.000000Z"/>
+<entry
+   committed-rev="3"
+   name="config.h"
+   text-time="2008-02-22T08:24:51.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="d508180924040055ef4f33119909e809"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:50.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ltmain.sh"
+   text-time="2008-02-22T08:24:51.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="b64b1eda8bdb13bc30f23e9377fa5648"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:50.000000Z"/>
+<entry
+   committed-rev="3"
+   name="config.sub"
+   text-time="2008-02-22T08:24:51.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="c31eb7b68f55a62a2223734c80c18d1f"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:50.000000Z"/>
+<entry
+   committed-rev="3"
+   name="poptparse.c"
+   text-time="2008-02-22T08:24:51.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="53f1b91df34524a95e9e23d993e8fcb1"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:50.000000Z"/>
+<entry
+   committed-rev="3"
+   name="popt.c"
+   text-time="2008-02-22T08:24:51.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="b3bcbb6c092fa8acdbc412dde57295ff"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:50.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ABOUT-NLS"
+   text-time="2008-02-22T08:24:51.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="953b14324a399f8d92f3ab414adc3516"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:50.000000Z"/>
+<entry
+   name="intl"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="popt.h"
+   text-time="2008-02-22T08:24:51.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="473e79c6a3b9ceb9d49965fdbb7052a2"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:50.000000Z"/>
+<entry
+   committed-rev="3"
+   name="COPYING"
+   text-time="2008-02-22T08:24:51.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="cb0613c30af2a8249b8dcc67d3edb06d"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:50.000000Z"/>
+<entry
+   committed-rev="3"
+   name="CHANGES"
+   text-time="2008-02-22T08:24:51.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="b0decc5bf25455b28ca165ddbba5c5aa"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:50.000000Z"/>
+<entry
+   name=".deps"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="system.h"
+   text-time="2008-02-22T08:24:51.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="31350576694084fb7772888c3cde37a0"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:51.000000Z"/>
+<entry
+   committed-rev="3"
+   name="autogen.sh"
+   text-time="2008-02-22T08:24:51.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="50c58af8f2acd136fdcf69be0489c9a9"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:51.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Makefile"
+   text-time="2008-02-22T08:24:51.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="329cb4d4cd400f562dff79c3f259c990"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:51.000000Z"/>
+<entry
+   name="po"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="mkinstalldirs"
+   text-time="2008-02-22T08:24:51.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="2831cad96e76b2e17f95d8ec8704959f"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:51.000000Z"/>
+<entry
+   committed-rev="3"
+   name="test1.c"
+   text-time="2008-02-22T08:24:51.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="a611bb623a24df8dc1c3becf45e925fe"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:51.000000Z"/>
+<entry
+   committed-rev="3"
+   name="test2.c"
+   text-time="2008-02-22T08:24:51.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="018c87aa03f58e6ab2f20435a4bd94c9"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:51.000000Z"/>
+<entry
+   committed-rev="3"
+   name="test3.c"
+   text-time="2008-02-22T08:24:51.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="3f0d34291238cfd18a3a1d0d68113270"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:51.000000Z"/>
+<entry
+   committed-rev="3"
+   name="findme.c"
+   text-time="2008-02-22T08:24:51.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="51e731ce4ec0d5f6a21681a2b54481fb"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:51.000000Z"/>
+<entry
+   committed-rev="3"
+   name="popt.3"
+   text-time="2008-02-22T08:24:51.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="fed907b3542d97fa1af1ab981f48ca41"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:51.000000Z"/>
+<entry
+   committed-rev="3"
+   name="test-poptrc"
+   text-time="2008-02-22T08:24:51.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="1bc9236cae0fdc28f8deb4b7045853b3"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:51.000000Z"/>
+<entry
+   committed-rev="3"
+   name="testit.sh"
+   text-time="2008-02-22T08:24:51.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="4a7fc78468f2d6b2f6910131663609be"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:51.000000Z"/>
+<entry
+   committed-rev="3"
+   name="configure.in"
+   text-time="2008-02-22T08:24:51.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="6ca23e8e9a01bc09ca9a9816ce66765b"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:51.000000Z"/>
+<entry
+   committed-rev="3"
+   name="config.status"
+   text-time="2008-02-22T08:24:51.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="5092de8c591a0d28954de86dd5812c3b"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:51.000000Z"/>
+<entry
+   committed-rev="3"
+   name="findme.h"
+   text-time="2008-02-22T08:24:51.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="5a0db835490f136091983f4dce67bf21"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:51.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Doxyfile.in"
+   text-time="2008-02-22T08:24:51.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="ff464871e0e9918fcdd4495dfe0fd8f0"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:51.000000Z"/>
+<entry
+   committed-rev="3"
+   name="stamp-h1"
+   text-time="2008-02-22T08:24:51.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="91023a1d58d69b4916a8609882d782a8"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:51.000000Z"/>
+<entry
+   committed-rev="3"
+   name="README"
+   text-time="2008-02-22T08:24:51.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="c4ad925504790aa55b609bb88864947b"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:51.000000Z"/>
+<entry
+   committed-rev="3"
+   name="config.h.in"
+   text-time="2008-02-22T08:24:51.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="3823f3c5c5575b0871673e79b661f8d3"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:51.000000Z"/>
+<entry
+   committed-rev="3"
+   name="popt.ps"
+   text-time="2008-02-22T08:24:51.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="86303104c44b44e419c4433b2e346ef1"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:51.000000Z"/>
+<entry
+   committed-rev="3"
+   name="libtool"
+   text-time="2008-02-22T08:24:51.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="0a14e3593187e5bfa9ef114ee2429709"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:51.000000Z"/>
+<entry
+   committed-rev="3"
+   name="missing"
+   text-time="2008-02-22T08:24:51.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="2a8eef1110e32e279e0bbbc228155171"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:51.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Makefile.am"
+   text-time="2008-02-22T08:24:51.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="171545adab7b51ebf6ec5575d3000a95"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:51.000000Z"/>
+<entry
+   committed-rev="3"
+   name="popt.spec"
+   text-time="2008-02-22T08:24:51.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="51b1eb2af709a6afef019df755c57eaf"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:51.000000Z"/>
+<entry
+   committed-rev="3"
+   name="popthelp.c"
+   text-time="2008-02-22T08:24:51.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="bb9907e606a4ed186ae08305731c82d7"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:51.000000Z"/>
+<entry
+   committed-rev="3"
+   name="aclocal.m4"
+   text-time="2008-02-22T08:24:51.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="7d54233647a186cff5d5cc5e9ad3197b"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:51.000000Z"/>
+<entry
+   committed-rev="3"
+   name="install-sh"
+   text-time="2008-02-22T08:24:51.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="e7e174685c6ae852e4b5e7431fddc5c8"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:51.000000Z"/>
+</wc-entries>

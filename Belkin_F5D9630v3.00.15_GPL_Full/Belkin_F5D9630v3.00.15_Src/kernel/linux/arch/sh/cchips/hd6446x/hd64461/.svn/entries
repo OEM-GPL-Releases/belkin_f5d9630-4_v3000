@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/kernel/linux/arch/sh/cchips/hd6446x/hd64461"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   committed-rev="3"
+   name="setup.c"
+   text-time="2008-02-22T08:23:14.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="e5c1dec98a46b577f02edc89b8800e31"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:14.000000Z"/>
+<entry
+   committed-rev="3"
+   name="io.c"
+   text-time="2008-02-22T08:23:14.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="bf5339efdca158812e36a78a621f61c2"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:14.000000Z"/>
+<entry
+   name="CVS"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="Makefile"
+   text-time="2008-02-22T08:23:14.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="7a8accc19c19cd41ee15e82ecc31db76"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:14.000000Z"/>
+</wc-entries>

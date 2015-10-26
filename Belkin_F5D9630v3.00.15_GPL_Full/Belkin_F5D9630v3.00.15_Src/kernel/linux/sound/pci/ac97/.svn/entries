@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/kernel/linux/sound/pci/ac97"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   committed-rev="3"
+   name="ac97_codec.c"
+   text-time="2008-02-22T08:21:41.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="18899fb1f5fdd949f0a0e6e973d313a9"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:41.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ac97_local.h"
+   text-time="2008-02-22T08:21:41.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="0e318139c8041ea436283f4611172af5"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:41.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ac97_patch.c"
+   text-time="2008-02-22T08:21:41.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="681c10839dbbf51e30477ac5f8ef03b2"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:41.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ac97_pcm.c"
+   text-time="2008-02-22T08:21:41.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="d22729fda97a3db250b54d7bf3ce2e50"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:41.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ac97_id.h"
+   text-time="2008-02-22T08:21:41.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="14628ed4e7e6d92f5928d584d87c232a"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:41.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ak4531_codec.c"
+   text-time="2008-02-22T08:21:41.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="08d79f92ba5e9dbbaaea8d2104f5657e"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:41.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ac97_proc.c"
+   text-time="2008-02-22T08:21:41.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="26c2131bbc4a5df7f722f79c1432aa06"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:41.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ac97_patch.h"
+   text-time="2008-02-22T08:21:41.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="d0b1fef5a34e3b10d9194d253022170f"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:41.000000Z"/>
+<entry
+   name="CVS"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name=".cvsignore"
+   text-time="2008-02-22T08:21:41.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="d8b65572e25962faaf07c20bb34d224e"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:41.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Makefile"
+   text-time="2008-02-22T08:21:41.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="175b648b3027428b676e5a8d32602fd6"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:41.000000Z"/>
+</wc-entries>

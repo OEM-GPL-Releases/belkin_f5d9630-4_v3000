@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/kernel/linux/arch/sh/configs"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   committed-rev="3"
+   name="se7751_defconfig"
+   text-time="2008-02-22T08:23:14.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="17444e7caa127122e7d34552f3266ef2"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:14.000000Z"/>
+<entry
+   committed-rev="3"
+   name="adx_defconfig"
+   text-time="2008-02-22T08:23:14.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="99baff4419d27df0b577521962d82514"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:14.000000Z"/>
+<entry
+   committed-rev="3"
+   name="systemh_defconfig"
+   text-time="2008-02-22T08:23:14.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="dc3fc39d09b3750bc08294da7c287392"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:14.000000Z"/>
+<entry
+   committed-rev="3"
+   name="snapgear_defconfig"
+   text-time="2008-02-22T08:23:14.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="3976e0d86c5dc78e56548aa38d279738"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:14.000000Z"/>
+<entry
+   committed-rev="3"
+   name="se7300_defconfig"
+   text-time="2008-02-22T08:23:14.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="ebfa09f2daba8ac05763a9df5fa8c728"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:14.000000Z"/>
+<entry
+   committed-rev="3"
+   name="dreamcast_defconfig"
+   text-time="2008-02-22T08:23:14.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="f563bfdf651cfc949dd0f2ab14e75e6e"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:14.000000Z"/>
+<entry
+   committed-rev="3"
+   name="rts7751r2d_defconfig"
+   text-time="2008-02-22T08:23:14.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="7e1a3a2570b27633c9ca03ca0ea6b23f"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:14.000000Z"/>
+<entry
+   committed-rev="3"
+   name="hp680_defconfig"
+   text-time="2008-02-22T08:23:14.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="e0090f7f06243a4620d3912e9a144a1d"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:14.000000Z"/>
+<entry
+   name="CVS"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="cqreek_defconfig"
+   text-time="2008-02-22T08:23:14.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="69ea4f2a670dc619754093619c95729a"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:14.000000Z"/>
+</wc-entries>

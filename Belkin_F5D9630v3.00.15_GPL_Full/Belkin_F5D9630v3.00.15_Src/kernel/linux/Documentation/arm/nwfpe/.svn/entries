@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/kernel/linux/Documentation/arm/nwfpe"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   committed-rev="3"
+   name="TODO"
+   text-time="2008-02-22T08:22:03.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="481496168a7cb47ea79cc803421f7b33"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:03.000000Z"/>
+<entry
+   committed-rev="3"
+   name="README.FPE"
+   text-time="2008-02-22T08:22:03.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="fae706d01052029d798214c1a296e06f"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:03.000000Z"/>
+<entry
+   committed-rev="3"
+   name="NOTES"
+   text-time="2008-02-22T08:22:03.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="6e5490e3fd7ce73630b782c18e9322a9"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:03.000000Z"/>
+<entry
+   name="CVS"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="README"
+   text-time="2008-02-22T08:22:03.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="290424785f145deb6c49916f833aeff0"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:03.000000Z"/>
+</wc-entries>

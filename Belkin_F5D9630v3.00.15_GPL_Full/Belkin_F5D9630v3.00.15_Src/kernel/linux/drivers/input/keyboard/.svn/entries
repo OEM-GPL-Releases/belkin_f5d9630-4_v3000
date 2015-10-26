@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/kernel/linux/drivers/input/keyboard"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   committed-rev="3"
+   name="Kconfig"
+   text-time="2008-02-22T08:23:41.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="f009bfe120606d9518b4e3abfded00cc"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:41.000000Z"/>
+<entry
+   committed-rev="3"
+   name="atkbd.c"
+   text-time="2008-02-22T08:23:41.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="246b668cac587c0c2f7900359ccb547e"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:41.000000Z"/>
+<entry
+   committed-rev="3"
+   name="sunkbd.c"
+   text-time="2008-02-22T08:23:41.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="ab01fa85768bb64946dc71dc55cce9ab"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:41.000000Z"/>
+<entry
+   committed-rev="3"
+   name="amikbd.c"
+   text-time="2008-02-22T08:23:41.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="5f72387ef248b51355ac276062fa4c80"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:41.000000Z"/>
+<entry
+   committed-rev="3"
+   name="hpps2atkbd.h"
+   text-time="2008-02-22T08:23:41.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="27b1930e82801aff50887b05527cf525"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:41.000000Z"/>
+<entry
+   committed-rev="3"
+   name="lkkbd.c"
+   text-time="2008-02-22T08:23:41.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="8af4aedad1ccbc1a058c85c81b01d922"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:41.000000Z"/>
+<entry
+   committed-rev="3"
+   name="maple_keyb.c"
+   text-time="2008-02-22T08:23:41.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="2d724ff3acc225576796f87ab7428ff6"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:41.000000Z"/>
+<entry
+   name="CVS"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="newtonkbd.c"
+   text-time="2008-02-22T08:23:41.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="5934e4109abd7a0cb5180f6294c669d5"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:41.000000Z"/>
+<entry
+   committed-rev="3"
+   name=".cvsignore"
+   text-time="2008-02-22T08:23:41.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="d8b65572e25962faaf07c20bb34d224e"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:41.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Makefile"
+   text-time="2008-02-22T08:23:41.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="c26559351c25629c8019b5d2b32150e7"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:41.000000Z"/>
+<entry
+   committed-rev="3"
+   name="xtkbd.c"
+   text-time="2008-02-22T08:23:41.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="6e9920d80669053e6128f25aea703d53"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:41.000000Z"/>
+</wc-entries>

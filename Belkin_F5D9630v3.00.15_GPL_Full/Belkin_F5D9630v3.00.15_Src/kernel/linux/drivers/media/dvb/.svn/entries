@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/kernel/linux/drivers/media/dvb"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   name="av7110"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="Kconfig"
+   text-time="2008-02-22T08:23:25.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="b6239cec4899a28cfb19bda28c139bc1"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:24.000000Z"/>
+<entry
+   name="dvb-core"
+   kind="dir"/>
+<entry
+   name="frontends"
+   kind="dir"/>
+<entry
+   name="ttpci"
+   kind="dir"/>
+<entry
+   name="b2c2"
+   kind="dir"/>
+<entry
+   name="ttusb-budget"
+   kind="dir"/>
+<entry
+   name="ttusb-dec"
+   kind="dir"/>
+<entry
+   name="CVS"
+   kind="dir"/>
+<entry
+   name="bt8xx"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name=".cvsignore"
+   text-time="2008-02-22T08:23:25.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="d8b65572e25962faaf07c20bb34d224e"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:25.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Makefile"
+   text-time="2008-02-22T08:23:25.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="705f0d89df4486857eab7e13d2bf6833"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:25.000000Z"/>
+</wc-entries>

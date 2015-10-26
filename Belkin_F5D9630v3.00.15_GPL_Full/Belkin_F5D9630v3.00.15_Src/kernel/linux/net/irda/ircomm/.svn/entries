@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/kernel/linux/net/irda/ircomm"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   committed-rev="3"
+   name="ircomm_core.c"
+   text-time="2008-02-22T08:21:27.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="d6a6921ae19d6af956de234bf16bc941"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:27.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ircomm_lmp.c"
+   text-time="2008-02-22T08:21:27.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="9c68ee0875c390dab2dba197b9c8c638"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:27.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Kconfig"
+   text-time="2008-02-22T08:21:27.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="5991befcbd98679120f87d7701a86d42"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:27.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ircomm_tty_ioctl.c"
+   text-time="2008-02-22T08:21:27.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="61e7e50f07427783e396bbd590f6b639"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:27.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ircomm_param.c"
+   text-time="2008-02-22T08:21:27.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="bdf864e5abb594bcfd535b8dc0ab4c73"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:27.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ircomm_tty.c"
+   text-time="2008-02-22T08:21:27.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="e06b1b50eec7725c5da2bb03559f9747"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:27.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ircomm_event.c"
+   text-time="2008-02-22T08:21:27.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="e5844dd668a5acf4e78c10341a49c774"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:27.000000Z"/>
+<entry
+   name="CVS"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="ircomm_tty_attach.c"
+   text-time="2008-02-22T08:21:27.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="69113e7c9bcd947d21972b6b304290e3"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:27.000000Z"/>
+<entry
+   committed-rev="3"
+   name=".cvsignore"
+   text-time="2008-02-22T08:21:27.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="d8b65572e25962faaf07c20bb34d224e"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:27.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Makefile"
+   text-time="2008-02-22T08:21:27.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="bc1ef28b678e262368c259c64469c223"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:27.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ircomm_ttp.c"
+   text-time="2008-02-22T08:21:27.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="144337a803a00847812fd53579e87eaa"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:27.000000Z"/>
+</wc-entries>

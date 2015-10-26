@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/kernel/linux/include/asm-sh/se"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   committed-rev="3"
+   name="smc37c93x.h"
+   text-time="2008-02-22T08:21:16.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="ddf426578c0d27de179d5545a06c59b8"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:16.000000Z"/>
+<entry
+   name="CVS"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="io.h"
+   text-time="2008-02-22T08:21:16.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="d50755a8dfe3f1b84e7a342ec13850d4"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:16.000000Z"/>
+<entry
+   committed-rev="3"
+   name="se.h"
+   text-time="2008-02-22T08:21:16.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="04f42ff76944b7698fb0beb37d0c9cc6"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:16.000000Z"/>
+</wc-entries>

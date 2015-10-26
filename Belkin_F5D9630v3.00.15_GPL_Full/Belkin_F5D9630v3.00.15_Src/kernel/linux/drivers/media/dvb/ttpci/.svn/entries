@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/kernel/linux/drivers/media/dvb/ttpci"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   committed-rev="3"
+   name="Kconfig"
+   text-time="2008-02-22T08:23:24.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="091118d3f36dbe41b051f0640940646f"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:24.000000Z"/>
+<entry
+   committed-rev="3"
+   name="budget-core.c"
+   text-time="2008-02-22T08:23:24.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="fa818023d173028102e74635ca0793c8"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:24.000000Z"/>
+<entry
+   committed-rev="3"
+   name="budget-ci.c"
+   text-time="2008-02-22T08:23:24.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="b5165b275b83cde2582ba5dc01aa7d21"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:24.000000Z"/>
+<entry
+   committed-rev="3"
+   name="av7110_v4l.c"
+   text-time="2008-02-22T08:23:24.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="f5c4a84f8c4994c36168f8bc7aa543b9"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:24.000000Z"/>
+<entry
+   committed-rev="3"
+   name="av7110_av.c"
+   text-time="2008-02-22T08:23:24.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="c75618830953c76a20d9907c3f69521e"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:24.000000Z"/>
+<entry
+   committed-rev="3"
+   name="budget-patch.c"
+   text-time="2008-02-22T08:23:24.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="1dd1c09da32dda6924557ad358af14a0"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:24.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ttpci-eeprom.c"
+   text-time="2008-02-22T08:23:24.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="35adb3371f27b14299c57d9fbb1a60f6"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:24.000000Z"/>
+<entry
+   committed-rev="3"
+   name="av7110_ir.c"
+   text-time="2008-02-22T08:23:24.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="f9d3723e40669f4d5dc80476267b0937"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:24.000000Z"/>
+<entry
+   committed-rev="3"
+   name="budget.c"
+   text-time="2008-02-22T08:23:24.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="faf6177d6d2295da92a710d46264cb54"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:24.000000Z"/>
+<entry
+   committed-rev="3"
+   name="av7110_av.h"
+   text-time="2008-02-22T08:23:24.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="492e2fd4d80b8a23664944f48e306ea6"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:24.000000Z"/>
+<entry
+   name="CVS"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="fdump.c"
+   text-time="2008-02-22T08:23:24.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="6045450772b501d90be24d772acc65eb"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:24.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ttpci-eeprom.h"
+   text-time="2008-02-22T08:23:24.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="8b48f1e5cd48c2103c33aa08e5183cc5"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:24.000000Z"/>
+<entry
+   committed-rev="3"
+   name="av7110_hw.c"
+   text-time="2008-02-22T08:23:24.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="81cacd1750dc315afbf04e2f7b2c9db3"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:24.000000Z"/>
+<entry
+   committed-rev="3"
+   name="budget-av.c"
+   text-time="2008-02-22T08:23:24.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="61f94e8d6ac4b192d09753545fd204d8"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:24.000000Z"/>
+<entry
+   committed-rev="3"
+   name="av7110.c"
+   text-time="2008-02-22T08:23:24.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="9f77292c25bcd821b0939f81142804fa"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:24.000000Z"/>
+<entry
+   committed-rev="3"
+   name="budget.h"
+   text-time="2008-02-22T08:23:24.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="d6d06805b8ba156aee06ebaebfec35aa"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:24.000000Z"/>
+<entry
+   committed-rev="3"
+   name="av7110_hw.h"
+   text-time="2008-02-22T08:23:24.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="ab1896657c1ea1c6e444ae22544ea6e7"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:24.000000Z"/>
+<entry
+   committed-rev="3"
+   name="av7110_ca.c"
+   text-time="2008-02-22T08:23:24.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="e4f1678fd7fa9c3d7beaf8f770299766"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:24.000000Z"/>
+<entry
+   committed-rev="3"
+   name="av7110.h"
+   text-time="2008-02-22T08:23:24.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="052fe5d32b66535f1ad024be42bd51ac"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:24.000000Z"/>
+<entry
+   committed-rev="3"
+   name="av7110_ipack.c"
+   text-time="2008-02-22T08:23:24.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="6bc43366dfa5d21ac5cbed99da51d5c5"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:24.000000Z"/>
+<entry
+   committed-rev="3"
+   name="av7110_ca.h"
+   text-time="2008-02-22T08:23:24.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="35ce0d90306a9c6c88fa0662d46611d3"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:24.000000Z"/>
+<entry
+   committed-rev="3"
+   name="av7110_ipack.h"
+   text-time="2008-02-22T08:23:24.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="ab609cbf14f94a932bd021d11bb86535"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:24.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Makefile"
+   text-time="2008-02-22T08:23:24.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="369f5a6f9354e76a6c03d285930bb12b"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:24.000000Z"/>
+<entry
+   committed-rev="3"
+   name=".cvsignore"
+   text-time="2008-02-22T08:23:24.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="d8b65572e25962faaf07c20bb34d224e"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:24.000000Z"/>
+</wc-entries>

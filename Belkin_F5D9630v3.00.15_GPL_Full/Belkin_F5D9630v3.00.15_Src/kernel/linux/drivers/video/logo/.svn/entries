@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/kernel/linux/drivers/video/logo"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   committed-rev="3"
+   name="Kconfig"
+   text-time="2008-02-22T08:23:44.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="fa604cbea710514fa76143e0ae82de2a"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:44.000000Z"/>
+<entry
+   committed-rev="3"
+   name="logo.c"
+   text-time="2008-02-22T08:23:44.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="66de8392ce9c1c9673599dda86d0a745"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:44.000000Z"/>
+<entry
+   committed-rev="3"
+   name="logo_linux_mono.pbm"
+   text-time="2008-02-22T08:23:44.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="c44e80f6c8801d34df7fefda83c1970c"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:44.000000Z"/>
+<entry
+   committed-rev="3"
+   name="logo_superh_vga16.ppm"
+   text-time="2008-02-22T08:23:44.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="a3b006bfdaab1d3b1929918150fce2e5"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:44.000000Z"/>
+<entry
+   committed-rev="3"
+   name="logo_dec_clut224.ppm"
+   text-time="2008-02-22T08:23:44.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="efd5677d063f6afda1733d4f05ca23f3"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:44.000000Z"/>
+<entry
+   committed-rev="3"
+   name="logo_linux_clut224.ppm"
+   text-time="2008-02-22T08:23:44.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="bc963a5297f6ee3d585d3d285dfb06b7"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:44.000000Z"/>
+<entry
+   committed-rev="3"
+   name="logo_mac_clut224.ppm"
+   text-time="2008-02-22T08:23:44.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="22a3a7e841b36043f82259b778954925"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:44.000000Z"/>
+<entry
+   committed-rev="3"
+   name="logo_superh_mono.pbm"
+   text-time="2008-02-22T08:23:44.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="6eb3c06d5004bd6835943bd7af3a31e2"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:44.000000Z"/>
+<entry
+   name="CVS"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="logo_sun_clut224.ppm"
+   text-time="2008-02-22T08:23:44.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="821d03f8e67237dcde3687724ea79db0"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:44.000000Z"/>
+<entry
+   committed-rev="3"
+   name="logo_superh_clut224.ppm"
+   text-time="2008-02-22T08:23:44.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="5101da05bbfc378716f323858a2a6fcc"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:44.000000Z"/>
+<entry
+   committed-rev="3"
+   name="clut_vga16.ppm"
+   text-time="2008-02-22T08:23:44.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="99bdacc5270b9bb7c2438cdb700c055d"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:44.000000Z"/>
+<entry
+   committed-rev="3"
+   name="logo_parisc_clut224.ppm"
+   text-time="2008-02-22T08:23:44.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="916c197d5dd81f602bc25856fd5d9f70"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:44.000000Z"/>
+<entry
+   committed-rev="3"
+   name="logo_sgi_clut224.ppm"
+   text-time="2008-02-22T08:23:44.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="3433b1a75b9690b9d8293844457502ba"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:44.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Makefile"
+   text-time="2008-02-22T08:23:44.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="fc0a0b1304b7786c3866b2272fdb6dcb"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:44.000000Z"/>
+<entry
+   committed-rev="3"
+   name=".cvsignore"
+   text-time="2008-02-22T08:23:44.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="4fdd0840bb63aba2c8ee6254c002497c"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:44.000000Z"/>
+<entry
+   committed-rev="3"
+   name="logo_linux_vga16.ppm"
+   text-time="2008-02-22T08:23:44.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="7c0cc64be652de8cf1ab1fb610ecd701"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:44.000000Z"/>
+</wc-entries>

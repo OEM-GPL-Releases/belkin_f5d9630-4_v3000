@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/bcmdrivers/broadcom/net/wl/impl2/include/proto"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   committed-rev="3"
+   name="802.11.h"
+   text-time="2008-02-22T08:20:59.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="bca7d1b344e29a8250a3ab455c85db8a"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:20:59.000000Z"/>
+<entry
+   committed-rev="3"
+   name="bcmip.h"
+   text-time="2008-02-22T08:20:59.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="95a0b4a7121b72283faba742d008037d"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:20:59.000000Z"/>
+<entry
+   committed-rev="3"
+   name="802.1d.h"
+   text-time="2008-02-22T08:20:59.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="97cf49ea77ffe64670c3926f0faae9c8"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:20:59.000000Z"/>
+<entry
+   committed-rev="3"
+   name="802.11e.h"
+   text-time="2008-02-22T08:20:59.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="9d8538cd5b31b6042b3caefdf2414298"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:20:59.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ethernet.h"
+   text-time="2008-02-22T08:20:59.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="5ec775bc5e4e01b55df66214192399f1"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:20:59.000000Z"/>
+<entry
+   committed-rev="3"
+   name="eapol.h"
+   text-time="2008-02-22T08:20:59.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="3cb4bec4327c9fb09537241e9dddd2a5"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:20:59.000000Z"/>
+<entry
+   committed-rev="3"
+   name="vlan.h"
+   text-time="2008-02-22T08:20:59.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="a05a6fe004228ae79fbcf80d9bbe6568"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:20:59.000000Z"/>
+<entry
+   committed-rev="3"
+   name="bcmeth.h"
+   text-time="2008-02-22T08:20:59.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="0dc743a22e60c7ec3789d1d9acf51e98"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:20:59.000000Z"/>
+<entry
+   committed-rev="3"
+   name="bcmevent.h"
+   text-time="2008-02-22T08:20:59.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="c1e46741b04030791400d6fd312f6b85"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:20:59.000000Z"/>
+<entry
+   committed-rev="3"
+   name="wpa.h"
+   text-time="2008-02-22T08:20:59.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="f8cac637ab6144b15dae577d1db4f66d"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:20:59.000000Z"/>
+</wc-entries>

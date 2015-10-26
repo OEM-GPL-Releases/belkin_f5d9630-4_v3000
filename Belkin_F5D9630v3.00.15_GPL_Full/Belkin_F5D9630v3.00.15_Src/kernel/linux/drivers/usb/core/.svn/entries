@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/kernel/linux/drivers/usb/core"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   committed-rev="3"
+   name="usb.h"
+   text-time="2008-02-22T08:24:13.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="3b4b5c4699b9af900652c1ae784394d9"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:13.000000Z"/>
+<entry
+   committed-rev="3"
+   name="hcd.c"
+   text-time="2008-02-22T08:24:13.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="f99a0d91ac8ef848917159b4c7826128"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:13.000000Z"/>
+<entry
+   committed-rev="3"
+   name="inode.c"
+   text-time="2008-02-22T08:24:13.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="b0e459c289412c9806bef357a9a45cd2"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:13.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Kconfig"
+   text-time="2008-02-22T08:24:13.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="d33217d2031c5c7b12af24abe1de5cc5"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:13.000000Z"/>
+<entry
+   committed-rev="3"
+   name="hcd.h"
+   text-time="2008-02-22T08:24:13.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="004496372a86d5a7979a3fdd1acadd4b"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:13.000000Z"/>
+<entry
+   committed-rev="3"
+   name="config.c"
+   text-time="2008-02-22T08:24:13.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="80cb585676eeda4f67d6544c570a9c0c"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:13.000000Z"/>
+<entry
+   committed-rev="3"
+   name="devio.c"
+   text-time="2008-02-22T08:24:13.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="b10a5d5fb62964f10003e2bfb19f4f7e"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:13.000000Z"/>
+<entry
+   committed-rev="3"
+   name="sysfs.c"
+   text-time="2008-02-22T08:24:13.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="a7aab6d84b99513fff2c341690b3e972"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:13.000000Z"/>
+<entry
+   committed-rev="3"
+   name="hcd-pci.c"
+   text-time="2008-02-22T08:24:13.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="c0edc77ab1cbc9527d613bc058ec0c5b"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:13.000000Z"/>
+<entry
+   committed-rev="3"
+   name="buffer.c"
+   text-time="2008-02-22T08:24:13.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="b5203c44318c30b32f4fa2445efa8cc8"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:13.000000Z"/>
+<entry
+   name="CVS"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="hub.c"
+   text-time="2008-02-22T08:24:13.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="6169bed45c09b01f7a140a372bbdae93"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:13.000000Z"/>
+<entry
+   committed-rev="3"
+   name="file.c"
+   text-time="2008-02-22T08:24:13.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="c9006ecaa282fbc41fbb26775b790069"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:13.000000Z"/>
+<entry
+   committed-rev="3"
+   name="devices.c"
+   text-time="2008-02-22T08:24:13.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="8704c2a7734ae2281a3b6e8f96398c75"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:13.000000Z"/>
+<entry
+   committed-rev="3"
+   name="hub.h"
+   text-time="2008-02-22T08:24:13.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="8d88bb0bf30a09091b30dde10cbcdd4a"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:13.000000Z"/>
+<entry
+   committed-rev="3"
+   name="message.c"
+   text-time="2008-02-22T08:24:13.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="1a6c27f45a5261f07006177cf6187ed9"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:13.000000Z"/>
+<entry
+   committed-rev="3"
+   name="urb.c"
+   text-time="2008-02-22T08:24:13.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="1d42494e9ac2819a075f95f95c246ce0"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:13.000000Z"/>
+<entry
+   committed-rev="3"
+   name="usb.c"
+   text-time="2008-02-22T08:24:13.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="1f080e028a6b5b611007772ce3530df2"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:13.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Makefile"
+   text-time="2008-02-22T08:24:13.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="037a9fa4f8983b9f5b13f6578877a60c"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:13.000000Z"/>
+<entry
+   committed-rev="3"
+   name=".cvsignore"
+   text-time="2008-02-22T08:24:13.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="735ab631b67b75d07a52edc9e01aed4c"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:13.000000Z"/>
+</wc-entries>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/kernel/linux/arch/arm/vfp"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   committed-rev="3"
+   name="vfp.h"
+   text-time="2008-02-22T08:22:09.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="0b64cdaa900e409de89977f687ce42c9"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:09.000000Z"/>
+<entry
+   committed-rev="3"
+   name="vfpinstr.h"
+   text-time="2008-02-22T08:22:09.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="70b597942d9c094d58073188274e5bcd"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:09.000000Z"/>
+<entry
+   committed-rev="3"
+   name="entry.S"
+   text-time="2008-02-22T08:22:09.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="f4ed92caeea785917c8e34b3423f1f1d"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:09.000000Z"/>
+<entry
+   committed-rev="3"
+   name="vfpmodule.c"
+   text-time="2008-02-22T08:22:09.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="baacff1d50a46536710b0c5540cb7f02"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:09.000000Z"/>
+<entry
+   committed-rev="3"
+   name="vfpdouble.c"
+   text-time="2008-02-22T08:22:09.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="6918905e678658ef5f77f968ca289719"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:09.000000Z"/>
+<entry
+   name="CVS"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="vfphw.S"
+   text-time="2008-02-22T08:22:09.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="e097ab02ed24d17339c0d7a86c36e47b"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:09.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Makefile"
+   text-time="2008-02-22T08:22:09.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="90caf8cd0fd5098a7b9ecbbe026d64bc"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:09.000000Z"/>
+<entry
+   committed-rev="3"
+   name="vfpsingle.c"
+   text-time="2008-02-22T08:22:09.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="b839f52f82f0683c44474b73aae46085"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:09.000000Z"/>
+</wc-entries>

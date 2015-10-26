@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/kernel/linux/include/net/bluetooth"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   committed-rev="3"
+   name="hci_core.h"
+   text-time="2008-02-22T08:21:15.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="6520ec0a0b34a559b2711cd310626da8"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:15.000000Z"/>
+<entry
+   committed-rev="3"
+   name="l2cap.h"
+   text-time="2008-02-22T08:21:15.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="ec3778d153d2c5f1bb4b09a4a19267b2"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:15.000000Z"/>
+<entry
+   committed-rev="3"
+   name="hci.h"
+   text-time="2008-02-22T08:21:15.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="b0f7d1464303d28245f9b14c5242cea0"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:15.000000Z"/>
+<entry
+   committed-rev="3"
+   name="rfcomm.h"
+   text-time="2008-02-22T08:21:15.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="01d38d54894b8560c979f8b87a69b2f1"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:15.000000Z"/>
+<entry
+   committed-rev="3"
+   name="sco.h"
+   text-time="2008-02-22T08:21:15.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="fbb480d48209622d288d32dda9a514f6"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:15.000000Z"/>
+<entry
+   name="CVS"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="bluetooth.h"
+   text-time="2008-02-22T08:21:15.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="804ca7684843097cb125849d1ed285a9"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:15.000000Z"/>
+</wc-entries>

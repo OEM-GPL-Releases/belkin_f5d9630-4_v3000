@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/kernel/linux/drivers/acorn/block"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   committed-rev="3"
+   name="Kconfig"
+   text-time="2008-02-22T08:24:31.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="c5f9730b214fd84fafa63111cdb23d34"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:31.000000Z"/>
+<entry
+   committed-rev="3"
+   name="mfm.S"
+   text-time="2008-02-22T08:24:31.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="f3068bbb1fa0631103fa91d8ce875a0b"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:31.000000Z"/>
+<entry
+   name="CVS"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="fd1772.c"
+   text-time="2008-02-22T08:24:31.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="36db5f5e8ca5039627e8087b33a3da37"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:31.000000Z"/>
+<entry
+   committed-rev="3"
+   name="mfmhd.c"
+   text-time="2008-02-22T08:24:31.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="65efc4f20d566c2e72219acb47ef3655"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:31.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Makefile"
+   text-time="2008-02-22T08:24:31.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="d3df42f980bd1960bebdaebb38ebb367"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:31.000000Z"/>
+<entry
+   committed-rev="3"
+   name="fd1772dma.S"
+   text-time="2008-02-22T08:24:31.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="a12ef5a1325f8c04131ffb15a120ac3e"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:31.000000Z"/>
+</wc-entries>

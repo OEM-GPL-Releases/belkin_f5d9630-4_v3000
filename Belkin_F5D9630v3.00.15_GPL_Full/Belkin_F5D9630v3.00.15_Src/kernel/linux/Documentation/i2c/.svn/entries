@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/kernel/linux/Documentation/i2c"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   committed-rev="3"
+   name="porting-clients"
+   text-time="2008-02-22T08:22:01.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="d0b77bbea3f016084fc44fc0c4f19c1a"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:01.000000Z"/>
+<entry
+   committed-rev="3"
+   name="i2c-parport"
+   text-time="2008-02-22T08:22:01.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="d03ea44e48f9b0f8dfcf719234c2ec50"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:01.000000Z"/>
+<entry
+   committed-rev="3"
+   name="writing-clients"
+   text-time="2008-02-22T08:22:01.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="1efecd9db1334285f109aad24dfd678c"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:01.000000Z"/>
+<entry
+   committed-rev="3"
+   name="sysfs-interface"
+   text-time="2008-02-22T08:22:01.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="bfb215b0d60fde5b45aa98e84f16e3f9"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:01.000000Z"/>
+<entry
+   committed-rev="3"
+   name="functionality"
+   text-time="2008-02-22T08:22:01.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="0ca0e02ee6bf04c2a9b9b66560247a22"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:01.000000Z"/>
+<entry
+   committed-rev="3"
+   name="smbus-protocol"
+   text-time="2008-02-22T08:22:01.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="9a2aef8df653c6df5baa3319fb99711d"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:01.000000Z"/>
+<entry
+   committed-rev="3"
+   name="i2c-old-porting"
+   text-time="2008-02-22T08:22:01.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="f1a5726531ee4d20892d256b8462d950"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:01.000000Z"/>
+<entry
+   name="CVS"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="dev-interface"
+   text-time="2008-02-22T08:22:01.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="47cce0390e4ff459c447d83dfbdfeeb7"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:01.000000Z"/>
+<entry
+   committed-rev="3"
+   name="i2c-protocol"
+   text-time="2008-02-22T08:22:01.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="91dba4ee10f5f5f026a1c916527687e7"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:01.000000Z"/>
+<entry
+   committed-rev="3"
+   name="summary"
+   text-time="2008-02-22T08:22:01.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="4474108ff9c7a4eaf2a6f28c70c1d189"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:01.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ten-bit-addresses"
+   text-time="2008-02-22T08:22:01.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="d0b888f622b1029b628f08157330262b"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:01.000000Z"/>
+</wc-entries>

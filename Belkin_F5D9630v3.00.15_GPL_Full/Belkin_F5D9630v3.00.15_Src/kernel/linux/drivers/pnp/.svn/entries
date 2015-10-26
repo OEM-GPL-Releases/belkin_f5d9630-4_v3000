@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/kernel/linux/drivers/pnp"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   committed-rev="3"
+   name="Kconfig"
+   text-time="2008-02-22T08:23:39.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="1cedb61503d9be97c8faa6b0d6f89da4"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:39.000000Z"/>
+<entry
+   committed-rev="3"
+   name="interface.c"
+   text-time="2008-02-22T08:23:39.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="065f7edb0ee18a3a472c8a41d4feca0c"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:39.000000Z"/>
+<entry
+   committed-rev="3"
+   name="card.c"
+   text-time="2008-02-22T08:23:39.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="d53a9f0140236967a4107c02d4d04ca8"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:39.000000Z"/>
+<entry
+   name="isapnp"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="manager.c"
+   text-time="2008-02-22T08:23:39.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="eee44540673d8411331c6b23c8ab8386"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:39.000000Z"/>
+<entry
+   name="CVS"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="support.c"
+   text-time="2008-02-22T08:23:39.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="064491b3773453081a2b1106822e2b86"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:39.000000Z"/>
+<entry
+   committed-rev="3"
+   name="quirks.c"
+   text-time="2008-02-22T08:23:39.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="8b042ce25c245dac73638a308dd51463"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:39.000000Z"/>
+<entry
+   committed-rev="3"
+   name="base.h"
+   text-time="2008-02-22T08:23:39.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="5779ae513d0fe5d4f42ab76ae9cf04b8"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:39.000000Z"/>
+<entry
+   committed-rev="3"
+   name="system.c"
+   text-time="2008-02-22T08:23:39.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="7c5da7980a6f7929c27dbd5238cc21bc"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:39.000000Z"/>
+<entry
+   committed-rev="3"
+   name="resource.c"
+   text-time="2008-02-22T08:23:39.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="ee9e5f76aacef02c5674db7243d9ed78"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:39.000000Z"/>
+<entry
+   committed-rev="3"
+   name="core.c"
+   text-time="2008-02-22T08:23:39.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="da7ae2df25056a3deb38262ee25b66db"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:39.000000Z"/>
+<entry
+   name="pnpbios"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="driver.c"
+   text-time="2008-02-22T08:23:39.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="7a658664e2cdbb177d3f11ff3a2e758a"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:39.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Makefile"
+   text-time="2008-02-22T08:23:39.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="d92e9c94f83dae88763aac1ec0f55ca4"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:39.000000Z"/>
+<entry
+   committed-rev="3"
+   name=".cvsignore"
+   text-time="2008-02-22T08:23:39.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="d8b65572e25962faaf07c20bb34d224e"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:39.000000Z"/>
+</wc-entries>

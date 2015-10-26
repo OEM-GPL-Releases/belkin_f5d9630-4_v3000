@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/kernel/linux/arch/i386"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   name="oprofile"
+   kind="dir"/>
+<entry
+   name="crypto"
+   kind="dir"/>
+<entry
+   name="kernel"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="Kconfig"
+   text-time="2008-02-22T08:22:37.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="16454fc011094aa0138355dc8fecb3a6"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:33.000000Z"/>
+<entry
+   name="mach-visws"
+   kind="dir"/>
+<entry
+   name="mach-generic"
+   kind="dir"/>
+<entry
+   name="mach-voyager"
+   kind="dir"/>
+<entry
+   name="mach-es7000"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="defconfig"
+   text-time="2008-02-22T08:22:37.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="0ea1ba9e13fe2a55969dbdd04aad8b13"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:33.000000Z"/>
+<entry
+   name="mach-default"
+   kind="dir"/>
+<entry
+   name="CVS"
+   kind="dir"/>
+<entry
+   name="power"
+   kind="dir"/>
+<entry
+   name="boot"
+   kind="dir"/>
+<entry
+   name="lib"
+   kind="dir"/>
+<entry
+   name="mm"
+   kind="dir"/>
+<entry
+   name="pci"
+   kind="dir"/>
+<entry
+   name="math-emu"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="Makefile"
+   text-time="2008-02-22T08:22:37.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="f376e5c02a127d5958c4a4ea7aa8900c"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:37.000000Z"/>
+</wc-entries>

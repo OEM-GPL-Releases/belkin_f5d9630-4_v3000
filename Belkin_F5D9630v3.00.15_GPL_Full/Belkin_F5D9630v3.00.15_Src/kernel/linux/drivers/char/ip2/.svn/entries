@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/kernel/linux/drivers/char/ip2"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   committed-rev="3"
+   name="i2cmd.c"
+   text-time="2008-02-22T08:23:53.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="be70ac37c82dab9f6b1d483e07a45c24"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:53.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ip2.h"
+   text-time="2008-02-22T08:23:53.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="24202551fe7cb735dfebf489874d0bea"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:53.000000Z"/>
+<entry
+   committed-rev="3"
+   name="fip_firm.h"
+   text-time="2008-02-22T08:23:53.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="03a06e483d4b11346977664f35adcdce"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:53.000000Z"/>
+<entry
+   committed-rev="3"
+   name="i2lib.c"
+   text-time="2008-02-22T08:23:53.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="edb5e7461022ac52d292e19481a11d78"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:53.000000Z"/>
+<entry
+   committed-rev="3"
+   name="i2cmd.h"
+   text-time="2008-02-22T08:23:53.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="5aa9bafa37e21b11bfd685441056c22b"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:53.000000Z"/>
+<entry
+   committed-rev="3"
+   name="i2ellis.c"
+   text-time="2008-02-22T08:23:53.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="872350fe906428e81b4194f65860b1c3"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:53.000000Z"/>
+<entry
+   committed-rev="3"
+   name="i2lib.h"
+   text-time="2008-02-22T08:23:53.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="0431675a16f8f90f37907e6f5625eabd"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:53.000000Z"/>
+<entry
+   committed-rev="3"
+   name="i2ellis.h"
+   text-time="2008-02-22T08:23:53.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="0c686f089660f76e7ec526fc7361df14"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:53.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ip2trace.c"
+   text-time="2008-02-22T08:23:53.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="3ebfdcd6ee6dc23901a004ba044869a0"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:53.000000Z"/>
+<entry
+   name="CVS"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="ip2trace.h"
+   text-time="2008-02-22T08:23:53.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="5819893bd96104211ff763233ea432db"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:53.000000Z"/>
+<entry
+   committed-rev="3"
+   name="i2hw.h"
+   text-time="2008-02-22T08:23:53.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="d2d469678977ddb51397b5a15c499374"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:53.000000Z"/>
+<entry
+   committed-rev="3"
+   name="i2pack.h"
+   text-time="2008-02-22T08:23:53.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="accba608dff09070e8944626507211be"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:53.000000Z"/>
+<entry
+   committed-rev="3"
+   name="i2os.h"
+   text-time="2008-02-22T08:23:53.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="b2eda10ee3bbef6fabf3db8bee34455e"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:53.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ip2mkdev.c"
+   text-time="2008-02-22T08:23:53.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="cbfdaaa4d5e62921b1749d6b04ff6c0f"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:53.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ip2types.h"
+   text-time="2008-02-22T08:23:53.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="b02c4c1cbafac5dc4e63af5cb1daaf1e"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:53.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ip2stat.c"
+   text-time="2008-02-22T08:23:53.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="f02e693942b1f6241389a8e1f33d3095"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:53.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ip2ioctl.h"
+   text-time="2008-02-22T08:23:53.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="dff137a78e8a5ef25f4ed195354c44cf"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:53.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Makefile"
+   text-time="2008-02-22T08:23:53.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="b3d2b91ffbde2ebbcd5ee5b5b1d1ac90"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:53.000000Z"/>
+<entry
+   committed-rev="3"
+   name=".cvsignore"
+   text-time="2008-02-22T08:23:53.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="d8b65572e25962faaf07c20bb34d224e"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:53.000000Z"/>
+</wc-entries>

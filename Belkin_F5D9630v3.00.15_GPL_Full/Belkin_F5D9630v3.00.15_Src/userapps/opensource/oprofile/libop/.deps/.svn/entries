@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/userapps/opensource/oprofile/libop/.deps"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   committed-rev="3"
+   name="op_events.Po"
+   text-time="2008-02-22T08:24:50.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="0e7d27e4513a4e03cb0c7d518f682c1d"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:50.000000Z"/>
+<entry
+   committed-rev="3"
+   name="op_cpu_type.Po"
+   text-time="2008-02-22T08:24:50.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="bcc4fb82b724fdb90fcd92a3d430b765"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:50.000000Z"/>
+<entry
+   committed-rev="3"
+   name="op_alloc_counter.Po"
+   text-time="2008-02-22T08:24:50.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="445ead17bc0df802ef5c37fdd7bcc045"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:50.000000Z"/>
+<entry
+   committed-rev="3"
+   name="op_parse_event.Po"
+   text-time="2008-02-22T08:24:50.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="2e86331f50d946a34edc0ceb681c5b78"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:50.000000Z"/>
+<entry
+   committed-rev="3"
+   name="op_get_interface.Po"
+   text-time="2008-02-22T08:24:50.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="5b35948029709319da2a5eba6f6a56d0"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:50.000000Z"/>
+<entry
+   committed-rev="3"
+   name="op_mangle.Po"
+   text-time="2008-02-22T08:24:50.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="161021a25f97f79b05c362531cf0555d"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:50.000000Z"/>
+</wc-entries>

@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/userapps/opensource/libosip2/scripts"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   committed-rev="3"
+   name="mkinstalldirs"
+   text-time="2008-02-22T08:25:07.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="d545bf6ea195383aee60f002a07a1848"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:25:07.000000Z"/>
+<entry
+   committed-rev="3"
+   name="acx_pthread.m4"
+   text-time="2008-02-22T08:25:07.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="912cbca7e2bd9bcbd605c6be9f4e87e3"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:25:07.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Makefile.in"
+   text-time="2008-02-22T08:25:07.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="6059af8355e4bcb40759025fb52a9139"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:25:07.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ltconfig"
+   text-time="2008-02-22T08:25:07.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="fb4af83714ea4dc74629df4f4242da10"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:25:07.000000Z"/>
+<entry
+   committed-rev="3"
+   name="depcomp"
+   text-time="2008-02-22T08:25:07.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="0c452634f378895c5304eca13fa46cf1"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:25:07.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Makefile.am"
+   text-time="2008-02-22T08:25:07.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="dce40dd39cfb4ad0bddbab1d2473d1d7"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:25:07.000000Z"/>
+<entry
+   committed-rev="3"
+   name="missing"
+   text-time="2008-02-22T08:25:07.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="2a8eef1110e32e279e0bbbc228155171"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:25:07.000000Z"/>
+<entry
+   committed-rev="3"
+   name="config.guess"
+   text-time="2008-02-22T08:25:07.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="24cc880101f03147b04e06e386c45050"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:25:07.000000Z"/>
+<entry
+   committed-rev="3"
+   name="config.sub"
+   text-time="2008-02-22T08:25:07.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="5efd4f335eaecca6a494fd65b2ea64da"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:25:07.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ltmain.sh"
+   text-time="2008-02-22T08:25:07.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="b3da7219f482542a14f2dd0195fb8122"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:25:07.000000Z"/>
+<entry
+   committed-rev="3"
+   name="aclocal-include.m4"
+   text-time="2008-02-22T08:25:07.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="e72c6ba3ef3105d4cd8b6ac2530506c4"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:25:07.000000Z"/>
+<entry
+   committed-rev="3"
+   name="install-sh"
+   text-time="2008-02-22T08:25:07.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="5afe8eb5573965dfb58378e4e46f3813"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:25:07.000000Z"/>
+</wc-entries>

@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/kernel/linux/include/acpi"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   committed-rev="3"
+   name="acdebug.h"
+   text-time="2008-02-22T08:21:27.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="739b362fec9fae7c9f6a71316ef7f925"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:27.000000Z"/>
+<entry
+   committed-rev="3"
+   name="actbl71.h"
+   text-time="2008-02-22T08:21:27.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="1b0f6e792ce884ed884cbc19333ca088"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:27.000000Z"/>
+<entry
+   name="platform"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="aclocal.h"
+   text-time="2008-02-22T08:21:27.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="c2a56200a68330f82a3a64386d35d6c2"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:27.000000Z"/>
+<entry
+   committed-rev="3"
+   name="acglobal.h"
+   text-time="2008-02-22T08:21:27.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="da488b58aba81f86698649ddd852ecb5"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:27.000000Z"/>
+<entry
+   committed-rev="3"
+   name="acevents.h"
+   text-time="2008-02-22T08:21:27.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="dbe07e2c9244b09a1db8e37c389ef64e"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:27.000000Z"/>
+<entry
+   committed-rev="3"
+   name="acpi_drivers.h"
+   text-time="2008-02-22T08:21:27.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="9ca7c22eb430685c40e5c44fc78c133d"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:27.000000Z"/>
+<entry
+   committed-rev="3"
+   name="acpi.h"
+   text-time="2008-02-22T08:21:27.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="a44f1b6d241dcf6b4cdf5466fe712cc3"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:27.000000Z"/>
+<entry
+   committed-rev="3"
+   name="actables.h"
+   text-time="2008-02-22T08:21:27.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="70000618acec5c70d71ede822c735cb7"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:27.000000Z"/>
+<entry
+   committed-rev="3"
+   name="processor.h"
+   text-time="2008-02-22T08:21:27.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="f84daed7928fa4a47e93570cc10ce040"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:27.000000Z"/>
+<entry
+   committed-rev="3"
+   name="acstruct.h"
+   text-time="2008-02-22T08:21:27.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="e15472aa852d502d8d87804b64ea4327"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:27.000000Z"/>
+<entry
+   committed-rev="3"
+   name="acmacros.h"
+   text-time="2008-02-22T08:21:27.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="485ee65b04eba05693112b82f2f5e938"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:27.000000Z"/>
+<entry
+   committed-rev="3"
+   name="acparser.h"
+   text-time="2008-02-22T08:21:27.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="20520b769a9c1e99545893874fe66ed2"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:27.000000Z"/>
+<entry
+   committed-rev="3"
+   name="acoutput.h"
+   text-time="2008-02-22T08:21:27.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="2706c45130a9354c48f4d4542acaddbb"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:27.000000Z"/>
+<entry
+   committed-rev="3"
+   name="acutils.h"
+   text-time="2008-02-22T08:21:27.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="d3abdb364bd45b2d444b05b180677858"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:27.000000Z"/>
+<entry
+   committed-rev="3"
+   name="amlcode.h"
+   text-time="2008-02-22T08:21:27.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="0aad9bbeea83d3185886536e3c6d3625"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:27.000000Z"/>
+<entry
+   committed-rev="3"
+   name="acinterp.h"
+   text-time="2008-02-22T08:21:27.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="cf71f45fd897143649721f02ca313856"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:27.000000Z"/>
+<entry
+   name="CVS"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="actbl1.h"
+   text-time="2008-02-22T08:21:27.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="fdeb1b929bdb4295200de174cd110de3"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:27.000000Z"/>
+<entry
+   committed-rev="3"
+   name="actbl2.h"
+   text-time="2008-02-22T08:21:27.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="386d125e47bdb6e72b4b1f27f3b3818e"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:27.000000Z"/>
+<entry
+   committed-rev="3"
+   name="acexcep.h"
+   text-time="2008-02-22T08:21:27.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="f97eeb2cee4a7e6a023bf4c660ef7c89"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:27.000000Z"/>
+<entry
+   committed-rev="3"
+   name="actypes.h"
+   text-time="2008-02-22T08:21:27.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="7b2999cf9a17f182b0ac83aaf26a0f7c"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:27.000000Z"/>
+<entry
+   committed-rev="3"
+   name="amlresrc.h"
+   text-time="2008-02-22T08:21:27.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="7633e4aa203ef34374efbbd535869f22"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:27.000000Z"/>
+<entry
+   committed-rev="3"
+   name="acconfig.h"
+   text-time="2008-02-22T08:21:27.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="2b87f8964577b186a8a68c525ce5b4e3"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:27.000000Z"/>
+<entry
+   committed-rev="3"
+   name="acobject.h"
+   text-time="2008-02-22T08:21:27.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="d869eb969cffd4e0ca4f4d7933afb5c9"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:27.000000Z"/>
+<entry
+   committed-rev="3"
+   name="achware.h"
+   text-time="2008-02-22T08:21:27.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="1fef02eb0ed3687c3582214a39591123"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:27.000000Z"/>
+<entry
+   committed-rev="3"
+   name="acpixf.h"
+   text-time="2008-02-22T08:21:27.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="fd2a8d304da6d8243a04b3f0feb4455d"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:27.000000Z"/>
+<entry
+   committed-rev="3"
+   name="acpiosxf.h"
+   text-time="2008-02-22T08:21:27.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="7ae084dd41eb42bd5d863c88176d1b0c"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:27.000000Z"/>
+<entry
+   committed-rev="3"
+   name="acresrc.h"
+   text-time="2008-02-22T08:21:27.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="7c901f193cb8dd1b51b5aa1ea1579c07"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:27.000000Z"/>
+<entry
+   committed-rev="3"
+   name="acdisasm.h"
+   text-time="2008-02-22T08:21:27.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="21f5224f4c9843629f5603f94a0cd3f0"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:27.000000Z"/>
+<entry
+   committed-rev="3"
+   name="actbl.h"
+   text-time="2008-02-22T08:21:27.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="cabdd763a3b689094d299dbd0157a3d6"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:27.000000Z"/>
+<entry
+   committed-rev="3"
+   name="acpi_bus.h"
+   text-time="2008-02-22T08:21:27.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="8f101482f5e6ca1a25b09ab3e5e195d6"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:27.000000Z"/>
+<entry
+   committed-rev="3"
+   name="acnamesp.h"
+   text-time="2008-02-22T08:21:27.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="0c4d54b6d26e9e6e423c0c5f419d87fd"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:27.000000Z"/>
+<entry
+   committed-rev="3"
+   name="acdispat.h"
+   text-time="2008-02-22T08:21:27.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="07c1fd8ebe3043989eb06ea92aa254ce"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:27.000000Z"/>
+</wc-entries>

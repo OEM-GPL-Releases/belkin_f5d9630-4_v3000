@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/kernel/linux/net/bridge/netfilter"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   committed-rev="3"
+   name="ebt_snat.c"
+   text-time="2008-02-22T08:21:32.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="0f9629360e838e5a81a6a8f0e1852672"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:32.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Kconfig"
+   text-time="2008-02-22T08:21:32.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="2ac62a52519541adb7e1b2c6c65757e7"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:32.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ebtable_nat.c"
+   text-time="2008-02-22T08:21:32.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="0ff720da6e231868d0654e23dbca84d7"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:32.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ebt_stp.c"
+   text-time="2008-02-22T08:21:32.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="54d4ea2882d2682458065583077df754"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:32.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ebt_mark_m.c"
+   text-time="2008-02-22T08:21:32.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="355c5eb609563791419ee33b9ee32607"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:32.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ebt_ip.c"
+   text-time="2008-02-22T08:21:32.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="def2baaf0aa01992ea2a7eadfb4e9cd2"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:32.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ebtable_filter.c"
+   text-time="2008-02-22T08:21:32.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="4cb1f946ec68f7c665a9b57967e27cdc"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:32.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ebt_wmm_mark.c"
+   text-time="2008-02-22T08:21:32.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="2e5cea89fa63822a7eb85354ddda10fb"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:32.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ebt_ftos.c"
+   text-time="2008-02-22T08:21:32.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="fd50c4e6670066bde049f70be5d41c8c"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:32.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ebt_limit.c"
+   text-time="2008-02-22T08:21:32.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="2ff11380e19dfc5497acd8996257c709"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:32.000000Z"/>
+<entry
+   name="CVS"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="ebt_log.c"
+   text-time="2008-02-22T08:21:32.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="a04748e3bc4909b54078f879a692ed6f"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:32.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ebt_arp.c"
+   text-time="2008-02-22T08:21:32.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="80312a9aa6128641ba51f9f3f2f2dcce"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:32.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ebtable_broute.c"
+   text-time="2008-02-22T08:21:32.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="af5afdd219e28350df963329872d8441"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:32.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ebt_dnat.c"
+   text-time="2008-02-22T08:21:32.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="10f7131217ef68b1757614d5cc98e0ff"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:32.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ebtables.c"
+   text-time="2008-02-22T08:21:32.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="6c31ab8456981ab5f701cbe91567dadf"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:32.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ebt_mark.c"
+   text-time="2008-02-22T08:21:32.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="e094cdddfc05b56ee03c301b6d53188c"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:32.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ebt_802_3.c"
+   text-time="2008-02-22T08:21:32.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="c2b4a08482800e10f1d92a7c6753761f"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:32.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ebt_arpreply.c"
+   text-time="2008-02-22T08:21:32.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="e152e4dc6e408d1dc8da8cbe9817b718"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:32.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ebt_time.c"
+   text-time="2008-02-22T08:21:32.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="93a4eb43856846591844a921c2ad1e1b"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:32.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ebt_pkttype.c"
+   text-time="2008-02-22T08:21:32.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="0b771198f1c4fd63c1246e1246dc60d6"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:32.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ebt_vlan.c"
+   text-time="2008-02-22T08:21:32.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="01f3b8e2f59a1aaaf6f2e6066b6e87e7"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:32.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ebt_among.c"
+   text-time="2008-02-22T08:21:32.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="5aa8a2f34b553b61af729bbd9dfaa723"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:32.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ebt_redirect.c"
+   text-time="2008-02-22T08:21:32.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="81a04e919910be2721200333d9e7d970"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:32.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Makefile"
+   text-time="2008-02-22T08:21:32.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="ed9083bdf2ce9dd954ab7991aedc0ed8"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:32.000000Z"/>
+<entry
+   committed-rev="3"
+   name=".cvsignore"
+   text-time="2008-02-22T08:21:32.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="735ab631b67b75d07a52edc9e01aed4c"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:32.000000Z"/>
+</wc-entries>

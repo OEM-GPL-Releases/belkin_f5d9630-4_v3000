@@ -1,0 +1,79 @@
+<html>
+   <head>
+            <meta http-equiv="Pragma" content="no-cache">
+	<meta http-equiv="refresh" content="<%ejGet(timeout_refresh)%>">
+         <link rel="stylesheet" href="main_router.css" type='text/css'>
+		 
+		<%ejGet("curLanguage")%>
+		<SCRIPT>assign_var();</SCRIPT>
+		 		 
+			<SCRIPT language=JavaScript src="showMenu.js"></SCRIPT>
+            <base target="_self">
+   </head>
+   <body bgColor="#ffffff" leftMargin="0" topMargin="0" marginheight="0" marginwidth="0">
+   
+       <SCRIPT language=JavaScript>
+
+
+strHtml='<title>'+wlm_1+' &gt;</title>';
+dw(strHtml);
+
+
+var autoup = '<%ejGet(autoUpgrade_flag)%>';
+
+if(autoup == '1')
+{
+	newwin=window.open("checkfw.html","Firmware","toolbar=no,location=no,directories=no,status=no,menubar=no,scrollbars=yes,width=395,height=200,resizable=0");
+	newwin.focus();
+}
+
+	   
+	var helpItem 	='Wireless';
+	var menuSection	='WLAN';
+	var menuItem	='Wireless';
+	var isAPmode = '<%ejGet(enblNat)%>';
+		
+	var wanStatus = '<%ejGetOther(isUp)%>';
+	showHead(wanStatus,helpItem);
+	showMenu(menuSection,menuItem,isAPmode)
+	</SCRIPT>  
+<TD class=head_bold width="90%" valign="top"><Br>
+
+         <b><font color="#004263" face="Verdana" class="head_bold">&nbsp;&nbsp;<script>dw(wlm_1);</script> &gt; </font></b>
+		 <Br><br>
+		 
+      		<TABLE class=copy_1 cellSpacing=0 cellPadding=0 width=620  border=0>
+        		<TR>
+          			<TD vAlign=top><SPAN>&nbsp;&nbsp;&nbsp;<script>dw(wlm_2);</script><br><Br></SPAN>	</TD>
+				</TR>
+				<tr>
+          			<TD>
+						<SPAN class=verdana12>
+           			 		<UL>
+              					<LI><A href="wireless_chan.html"><B><script>dw(wlm_3);</script></B></A><BR>
+              						<script>dw(wlm_4);</script><BR>&nbsp; </LI>
+              
+			  					<LI><A href="wireless_encrypt.html"><B><script>dw(wlm_5);</script> </B></A><BR>
+									<script>dw(wlm_6);</script><BR>&nbsp;</LI>
+
+			  					<LI><A href="wireless_wps.html"><B><script>dw(menu_33);</script></B></A><BR>
+									<script>dw(wlm_11);</script><BR>&nbsp;</LI>
+
+			  					<LI><A href="wireless_mac_ctrl.html"><B><script>dw(wlm_9);</script></B></A><BR></LI>
+									<script>dw(wlm_10);</script><BR>&nbsp;
+
+			  					<LI><A href="wireless_wds.html"><B><script>dw(menu_34);</script></B></A><BR></LI>
+									<script>dw(wlm_12);</script><BR>&nbsp;
+
+			  					<!-- <LI><A href="wireless_wmm.html"><B>WMM</B></A><BR></LI>
+									<BR>&nbsp; -->
+
+               				</UL>
+						</SPAN>
+					</TD>			
+
+		 		</tr>
+		 	</TABLE>
+		 </TD></TR></TBODY></TABLE></TD>
+   </body>
+</html>

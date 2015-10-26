@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/kernel/linux/sound/core/ioctl32"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   committed-rev="3"
+   name="ioctl32.c"
+   text-time="2008-02-22T08:21:34.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="7299a2cca4fad8cf695b8cad770bb7bc"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:34.000000Z"/>
+<entry
+   committed-rev="3"
+   name="rawmidi32.c"
+   text-time="2008-02-22T08:21:34.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="5557af130f3673538a6c3df1d659e14c"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:34.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ioctl32.h"
+   text-time="2008-02-22T08:21:34.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="19443a88ae936e52dc0743f0e00191a4"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:34.000000Z"/>
+<entry
+   committed-rev="3"
+   name="pcm32.c"
+   text-time="2008-02-22T08:21:34.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="750d2a4ce21bd1d2da94cee3d4db9865"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:34.000000Z"/>
+<entry
+   committed-rev="3"
+   name="timer32.c"
+   text-time="2008-02-22T08:21:34.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="4318a3c3e39e6580509df569d61cdff1"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:34.000000Z"/>
+<entry
+   name="CVS"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name=".cvsignore"
+   text-time="2008-02-22T08:21:34.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="d8b65572e25962faaf07c20bb34d224e"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:34.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Makefile"
+   text-time="2008-02-22T08:21:34.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="54cd347b74443add7cd87e34d23853a7"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:34.000000Z"/>
+<entry
+   committed-rev="3"
+   name="hwdep32.c"
+   text-time="2008-02-22T08:21:34.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="e9d349979398c8613d9fb46683bcdac4"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:34.000000Z"/>
+<entry
+   committed-rev="3"
+   name="seq32.c"
+   text-time="2008-02-22T08:21:34.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="4c39bd78e7a90f35c901b14e044daa86"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:34.000000Z"/>
+</wc-entries>

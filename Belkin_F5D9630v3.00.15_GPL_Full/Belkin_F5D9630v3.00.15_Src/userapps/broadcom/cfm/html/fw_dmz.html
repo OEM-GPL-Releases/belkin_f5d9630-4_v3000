@@ -1,0 +1,242 @@
+<html>
+   <head>
+      <meta HTTP-EQUIV='Pragma' CONTENT='no-cache'>
+	  <meta http-equiv="refresh" content="<%ejGet(timeout_refresh)%>">
+         <link rel="stylesheet" href="main_router.css" type='text/css'>
+		 
+		<%ejGet("curLanguage")%>
+		<SCRIPT>assign_var();</SCRIPT>
+		 
+<SCRIPT language=JavaScript src="showMenu.js"></SCRIPT>
+            <script language="javascript" src="util.js"></script>
+            <script language="javascript">
+<!-- hide
+strHtml='<title>'+fwm_1+' &gt; '+fwdmz_1+'</title>';
+dw(strHtml);
+
+var autoup = '<%ejGet(autoUpgrade_flag)%>';
+
+if(autoup == '1')
+{
+	newwin=window.open("checkfw.html","Firmware","toolbar=no,location=no,directories=no,status=no,menubar=no,scrollbars=yes,width=395,height=200,resizable=0");
+	newwin.focus();
+}
+
+
+
+function splitDHCPStartIPString (stringToSplit,separator) {
+   
+   arrayOfStrings = stringToSplit.split(separator)
+   with ( document.forms[0] ) {
+
+   dmzAddr1.value = arrayOfStrings [0];
+   dmzAddr2.value = arrayOfStrings [1];
+   dmzAddr3.value = arrayOfStrings [2];
+  }
+}
+
+function EnableDmzIp(enabled)
+{
+   with ( document.forms[0] ) {
+     if (enabled)
+     {
+  	   dmzAddr1.disabled = false;
+  	   dmzAddr2.disabled = false;
+  	   dmzAddr3.disabled = false;
+  	   dmzAddr4.disabled = false;
+	 }
+	 else
+	 {
+  	   dmzAddr1.disabled = true;
+  	   dmzAddr2.disabled = true;
+  	   dmzAddr3.disabled = true;
+  	   dmzAddr4.disabled = true;
+	 }
+   } 
+}
+
+function ChangeDmzStatus()
+{
+   with ( document.forms[0] ) {
+     if (EnableDmz.checked == true)
+	 {
+	   EnableDmzIp(true);
+	 }
+	 else
+	 {
+	   EnableDmzIp(false);	 
+	 }
+   }
+}
+
+function frmLoad() {
+   var addr = '<%ejGetOther(dmzHost)%>';
+   var dhcpStart = '<%ejGet(dhcpEthStart)%>';
+   var IPstring = '<%ejGet(ethIpAddress)%>';
+
+   with ( document.forms[0] ) {
+      //dmzAddr.value = addr;
+	  if (addr == "")
+	  {
+	    EnableDmz.checked = false;
+	    EnableDmzIp(false);	 
+	  }
+	  else
+	  {
+	    EnableDmz.checked = true;
+	    EnableDmzIp(true);	 
+	  }
+      var dot = ".";
+      if (addr != "") {
+      	splitDMZString(addr,dot);
+      }
+   	  else{
+        splitDHCPStartIPString(IPstring,dot);
+   	  }	
+   }
+}
+
+function splitDMZString (stringToSplit,separator) {
+   
+   arrayOfStrings = stringToSplit.split(separator)
+   with ( document.forms[0] ) {
+
+   dmzAddr1.value = arrayOfStrings [0];
+   dmzAddr2.value = arrayOfStrings [1];
+   dmzAddr3.value = arrayOfStrings [2];
+   dmzAddr4.value = arrayOfStrings [3];
+   }
+}
+
+function btnApply() {
+   var loc = 'scdmz.cmd?';
+   with ( document.forms[0] ) {
+     if (EnableDmz.checked == true)
+	 {
+      if ( dmzAddr1.value == '' || dmzAddr2.value == '' || dmzAddr3.value == '' || dmzAddr4.value == '') {
+         alert('Please enter a DMZ host IP address.');
+         return;
+      }
+      
+      dmzAddr.value = dmzAddr1.value + "." +  dmzAddr2.value + "." +  dmzAddr3.value + "." +  dmzAddr4.value;
+      
+      if (isValidIpAddress(dmzAddr.value) == false )
+      {
+         alert('DMZ host address "' + dmzAddr.value + '" is invalid IP address.');
+         return;
+      
+      }
+      loc += 'address=' + dmzAddr.value;
+   }
+	 else
+     {
+      loc += 'address=';	 
+	 }
+}
+
+   window.location = loc;
+}
+
+
+// done hiding -->
+</script>
+   </head>
+   <body onLoad='frmLoad()' bgColor="#ffffff" leftMargin="0" topMargin="0" marginheight="0" marginwidth="0">
+         <form>
+       <SCRIPT language=JavaScript>
+	var helpItem 	='DMZ';
+	var menuSection	='Fire';
+	var menuItem	='DMZ';
+	var isAPmode = '<%ejGet(enblNat)%>';
+		
+	var wanStatus = '<%ejGetOther(isUp)%>';
+	showHead(wanStatus,helpItem);
+	showMenu(menuSection,menuItem,isAPmode)
+	</SCRIPT>  
+<TD class=head_bold width="90%" valign="top"><Br>
+            <b><font class="head_bold">&nbsp;&nbsp;&nbsp;<script>dw(fwm_1);</script> &gt; <script>dw(fwdmz_1);</script></font></b>
+            <br><Br>
+
+
+	               <table width="796" height="24" border="0" cellpadding="0" cellspacing="0">
+                  <tr>
+				  	 <Td width="36"></Td>
+                     <td width="760" class="copy_1"><script>dw(fwdmz_2);</script><a href="javascript:void(0);" onClick="window.open('glossary.html#DMZ','help','toolbar=0,status=0,menubar=0,scrollbars=1,resizable=1, width=640,height=400,left=150,top=150');">        
+            <b><font style="FONT-SIZE: 11px;" color="#0066FF"><script>dw(wd_8);</script></font></b></a>
+				    </td>
+				 </tr>	 
+	</table>
+		<Br>
+
+	               <table width="741" height="29" border="0" cellpadding="0" cellspacing="0">
+				   	<Tr><td width="80"></td>
+						<td width="661" class="copy_1"><b><script>dw(fwdmz_3);</script> &gt;</b></td>
+					</Tr>				   
+	</table>
+
+
+    <table border="1" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#FFFFFF"  id="AutoNumber1" bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF">
+
+	<Tr>
+		<td width="33"></td>
+		<td width="611">
+            <table width="83%" border="1" cellpadding="0" cellspacing="0" bordercolor="#FFFFFF" bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF"  id="AutoNumber1" style="border-collapse: collapse">
+			  <tr>
+                <td width="7%" height="33" align="center" bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF" style="background-color: #666666"></td>
+                <td width="23%" class="copy_1" style="background-color: #666666" align="center" bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF">
+                <b><font face="Verdana" color="#FFFFFF" ><script>dw(fwdmz_4);</script></font></b></td>
+                <td width="33%" class="copy_1" style="background-color: #666666" align="center" bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF">
+                <b><font face="Verdana" color="#FFFFFF"><script>dw(fwdmz_5);</script></font></b></td>
+                <td width="15%" class="copy_1" style="background-color: #666666" align="center" bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF">
+				<b><font face="Verdana" color="#FFFFFF" ><script>dw(wlap_3);</script></font></b></td>
+			  </tr>
+              <tr>
+                <td width="7%" class="copy_1" align="center" style="background-color: #CCCCCC" bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF">
+                <font face="Verdana" color="#000000">1.</font></td>
+                <td width="23%" align="center" style="background-color: #CCCCCC" bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF">
+                
+				<script language="javascript">
+				document.write('<font face="Verdana" color="#000000" class="copy_1">');
+				if ("<%ejGetOther(wanIP)%>" == "N/A")
+				  document.write('0.0.0.0');
+				else
+				  document.write('<%ejGetOther(wanIP)%>');
+				document.write('</font>');
+				</script>
+				</td>
+                <td width="33%" align="center" style="background-color: #CCCCCC" bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF">
+                <font color="#000000" face="Verdana" size="1">
+                <input type='text' name='dmzAddr1' maxLength='3' size="3">.<input type='text' name='dmzAddr2' maxLength='3' size="3">.<input type='text' name='dmzAddr3' maxLength='3' size="3">.<input type='text' name='dmzAddr4' maxLength='3' size="3"><input type='hidden' name='dmzAddr' size="19"></font></td>
+                <td width="15%" align="center" style="background-color: #CCCCCC" bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF">
+                <font face="Verdana" color="#000000"></font><input type="checkbox" name="EnableDmz" onClick="ChangeDmzStatus()"></td>
+              
+			  </tr>
+          </table>
+            <table border="0" cellpadding="0" cellspacing="0" width="500" height="38">
+               <tr>
+                  <td width="100" height="12"></td>
+                  <td width="150" height="12"></td>
+                  <td height="12"></td>
+               </tr>
+               <tr>
+			      <td></td>
+                  <td>
+				  <script>
+				  	var info="<input type='button' style='height:22px;width:180px;' onClick='javascript:window.location.reload();return false' value='"+wd_9+"' class='submitBtn'><input type='button' style='height:22px;width:180px;' onClick='btnApply()' value='"+wd_10+"' class='submitBtn'>";
+					dw(info);				  
+				  </script>
+                 </td>
+               </tr>
+            </table>
+
+		</td>
+	</Tr></table>
+
+ </TD></TR></TBODY></TABLE></TD>
+
+         </form>
+   </body>
+<script>
+
+      </script>
+</html>

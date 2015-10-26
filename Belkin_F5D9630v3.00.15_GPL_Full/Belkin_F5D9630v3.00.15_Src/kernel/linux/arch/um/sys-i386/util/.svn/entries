@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/kernel/linux/arch/um/sys-i386/util"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   name="CVS"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="Makefile"
+   text-time="2008-02-22T08:22:16.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="e7b7fb237c8f7348667eae854a24adad"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:16.000000Z"/>
+<entry
+   committed-rev="3"
+   name="mk_sc.c"
+   text-time="2008-02-22T08:22:16.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="32bca8cb7d761dfe8887b7ffc082a160"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:16.000000Z"/>
+<entry
+   committed-rev="3"
+   name="mk_thread_user.c"
+   text-time="2008-02-22T08:22:16.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="047688d9e586fbc6c81737872c150773"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:16.000000Z"/>
+<entry
+   committed-rev="3"
+   name="mk_thread_kern.c"
+   text-time="2008-02-22T08:22:16.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="a988989f50e74db270d7de6738543330"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:16.000000Z"/>
+</wc-entries>

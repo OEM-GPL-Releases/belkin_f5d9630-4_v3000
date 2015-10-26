@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/kernel/linux/net/irda"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   committed-rev="3"
+   name="irproc.c"
+   text-time="2008-02-22T08:21:28.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="a27122853e1818c23c0b352d4bb5ac7f"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:27.000000Z"/>
+<entry
+   committed-rev="3"
+   name="irda_device.c"
+   text-time="2008-02-22T08:21:28.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="12d99129b850bd2308295cc9a89a8208"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:27.000000Z"/>
+<entry
+   name="compressors"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="Kconfig"
+   text-time="2008-02-22T08:21:28.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="9ea4ff346bfd06364a7432335b7bbbb5"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:27.000000Z"/>
+<entry
+   name="irnet"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="qos.c"
+   text-time="2008-02-22T08:21:28.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="0dc8f1ac97d277868b32410868471ce0"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:27.000000Z"/>
+<entry
+   committed-rev="3"
+   name="irttp.c"
+   text-time="2008-02-22T08:21:28.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="247748fc50d371fcbbd0fe7cb16b78cd"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:27.000000Z"/>
+<entry
+   committed-rev="3"
+   name="parameters.c"
+   text-time="2008-02-22T08:21:28.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="8fe3ce5829e43aec0893eff49a7ae070"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:27.000000Z"/>
+<entry
+   committed-rev="3"
+   name="iriap.c"
+   text-time="2008-02-22T08:21:28.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="3133ba9010ab2fb14a9641228badc82e"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:27.000000Z"/>
+<entry
+   committed-rev="3"
+   name="iriap_event.c"
+   text-time="2008-02-22T08:21:28.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="cc6290290fce6042fe5131cfe890c520"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:27.000000Z"/>
+<entry
+   name="ircomm"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="discovery.c"
+   text-time="2008-02-22T08:21:28.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="eec73c40de03860a265b4d9990a5b6bc"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:27.000000Z"/>
+<entry
+   committed-rev="3"
+   name="irlap.c"
+   text-time="2008-02-22T08:21:28.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="5350b406a637d8887b1910d4cbae0c10"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:27.000000Z"/>
+<entry
+   committed-rev="3"
+   name="irlap_event.c"
+   text-time="2008-02-22T08:21:28.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="750c8ee23885f8c3b4b8e6220326e2cf"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:27.000000Z"/>
+<entry
+   name="CVS"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="irmod.c"
+   text-time="2008-02-22T08:21:28.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="2cad62b6b4e52de9957de22e4c06b16d"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:27.000000Z"/>
+<entry
+   committed-rev="3"
+   name="irsysctl.c"
+   text-time="2008-02-22T08:21:28.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="892c4a7d06d3b8d8392224abb859112c"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:28.000000Z"/>
+<entry
+   committed-rev="3"
+   name="irqueue.c"
+   text-time="2008-02-22T08:21:28.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="6d082a29bf0226ca0f093409e3af2583"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:28.000000Z"/>
+<entry
+   committed-rev="3"
+   name="timer.c"
+   text-time="2008-02-22T08:21:28.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="6a19ae08c11397dcc3475cbaade576b8"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:28.000000Z"/>
+<entry
+   committed-rev="3"
+   name="wrapper.c"
+   text-time="2008-02-22T08:21:28.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="5490b58b22579cf695c1bb6e15a56967"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:28.000000Z"/>
+<entry
+   committed-rev="3"
+   name="irlap_frame.c"
+   text-time="2008-02-22T08:21:28.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="4df06a75042d9db28671284eab7bb963"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:28.000000Z"/>
+<entry
+   committed-rev="3"
+   name="irlmp.c"
+   text-time="2008-02-22T08:21:28.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="00295c5395becebe862d99bef2570ba8"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:28.000000Z"/>
+<entry
+   name="irlan"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="irlmp_event.c"
+   text-time="2008-02-22T08:21:28.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="3363f99f42397ad295df82e7d7e7a2e4"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:28.000000Z"/>
+<entry
+   committed-rev="3"
+   name="af_irda.c"
+   text-time="2008-02-22T08:21:28.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="862fb3e1ad4625be12ce5700255527a2"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:28.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Makefile"
+   text-time="2008-02-22T08:21:28.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="8167ef1b72176190e5e66acf792a8a16"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:28.000000Z"/>
+<entry
+   committed-rev="3"
+   name=".cvsignore"
+   text-time="2008-02-22T08:21:28.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="d8b65572e25962faaf07c20bb34d224e"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:28.000000Z"/>
+<entry
+   committed-rev="3"
+   name="irias_object.c"
+   text-time="2008-02-22T08:21:28.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="3e993a8d3748138c3546cbcd364db1ed"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:28.000000Z"/>
+<entry
+   committed-rev="3"
+   name="irlmp_frame.c"
+   text-time="2008-02-22T08:21:28.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="42ce169f33839364e2b649d24db60f47"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:28.000000Z"/>
+</wc-entries>

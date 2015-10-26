@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/kernel/linux/arch/h8300/kernel"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   committed-rev="3"
+   name="gpio.c"
+   text-time="2008-02-22T08:22:48.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="138f7f78a89dff79ea438e8544939345"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:48.000000Z"/>
+<entry
+   committed-rev="3"
+   name="time.c"
+   text-time="2008-02-22T08:22:48.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="8a2d698efc030f4a8e0acf199c85d1a9"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:48.000000Z"/>
+<entry
+   committed-rev="3"
+   name="setup.c"
+   text-time="2008-02-22T08:22:48.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="b0241dac40c24e6269d24f3e0d1d3870"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:48.000000Z"/>
+<entry
+   committed-rev="3"
+   name="sys_h8300.c"
+   text-time="2008-02-22T08:22:48.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="a5c9b852dea00f57cc9c96b2308a61bc"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:48.000000Z"/>
+<entry
+   committed-rev="3"
+   name="vmlinux.lds.S"
+   text-time="2008-02-22T08:22:48.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="724e3f85fca9a8c0684f1dc43b434066"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:48.000000Z"/>
+<entry
+   name="CVS"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="ints.c"
+   text-time="2008-02-22T08:22:48.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="7da6d20545333e50da62a7bdb1f59b35"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:48.000000Z"/>
+<entry
+   committed-rev="3"
+   name="signal.c"
+   text-time="2008-02-22T08:22:48.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="417b81219f1dd8a700ba778379a61e0e"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:48.000000Z"/>
+<entry
+   committed-rev="3"
+   name="syscalls.S"
+   text-time="2008-02-22T08:22:48.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="1b0264cd59c0d91b0cdc2d1e4e8f63dc"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:48.000000Z"/>
+<entry
+   committed-rev="3"
+   name="process.c"
+   text-time="2008-02-22T08:22:48.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="f8b9941ced72f21ceea5907d1b276375"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:48.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ptrace.c"
+   text-time="2008-02-22T08:22:48.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="b39add2c3e2ebc2cae1b862837b6d322"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:48.000000Z"/>
+<entry
+   committed-rev="3"
+   name="semaphore.c"
+   text-time="2008-02-22T08:22:48.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="d76eb99f85d2fc0c9b125e36ec1a919c"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:48.000000Z"/>
+<entry
+   committed-rev="3"
+   name="init_task.c"
+   text-time="2008-02-22T08:22:48.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="22600545e9ab23be52a77490d41a7db0"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:48.000000Z"/>
+<entry
+   committed-rev="3"
+   name="module.c"
+   text-time="2008-02-22T08:22:48.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="38396d8f92f0d7a7ddc62fcbeda6fe67"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:48.000000Z"/>
+<entry
+   committed-rev="3"
+   name="asm-offsets.c"
+   text-time="2008-02-22T08:22:48.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="d85022f3f6e5b8f3e26b073f1285bab1"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:48.000000Z"/>
+<entry
+   committed-rev="3"
+   name="h8300_ksyms.c"
+   text-time="2008-02-22T08:22:48.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="63f9bc1804b6049f42e840d39eb35111"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:48.000000Z"/>
+<entry
+   committed-rev="3"
+   name="traps.c"
+   text-time="2008-02-22T08:22:48.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="356d71833d2c8f471d7afcbe3e97ffcc"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:48.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Makefile"
+   text-time="2008-02-22T08:22:48.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="fda39c8f06e793cbaf5f8ef8995cb58f"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:48.000000Z"/>
+</wc-entries>

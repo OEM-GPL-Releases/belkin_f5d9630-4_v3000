@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/kernel/linux/arch/um/kernel/tt/ptproxy"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   committed-rev="3"
+   name="ptrace.c"
+   text-time="2008-02-22T08:22:13.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="b9b2cbb00b28c0cc9cd4bbdcb7aef9b3"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:13.000000Z"/>
+<entry
+   committed-rev="3"
+   name="proxy.c"
+   text-time="2008-02-22T08:22:13.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="1dc92c070b630b7088bef1cc0a9fd77a"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:13.000000Z"/>
+<entry
+   committed-rev="3"
+   name="wait.c"
+   text-time="2008-02-22T08:22:13.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="31a7b1f0d4c97967dec29ff747350e85"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:13.000000Z"/>
+<entry
+   committed-rev="3"
+   name="sysdep.c"
+   text-time="2008-02-22T08:22:13.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="aecca3826543e3da5a2f061933b3d369"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:13.000000Z"/>
+<entry
+   committed-rev="3"
+   name="wait.h"
+   text-time="2008-02-22T08:22:13.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="7702313c028ad7c0d2f0d2e424821cd8"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:13.000000Z"/>
+<entry
+   name="CVS"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="ptproxy.h"
+   text-time="2008-02-22T08:22:13.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="d5236a2e227130ce853e7290c333f31f"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:13.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Makefile"
+   text-time="2008-02-22T08:22:13.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="58a7db388f039611dc227f6df576a0fb"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:13.000000Z"/>
+<entry
+   committed-rev="3"
+   name="sysdep.h"
+   text-time="2008-02-22T08:22:13.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="8211f3b3d635dd8339f7f660363ae649"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:13.000000Z"/>
+</wc-entries>

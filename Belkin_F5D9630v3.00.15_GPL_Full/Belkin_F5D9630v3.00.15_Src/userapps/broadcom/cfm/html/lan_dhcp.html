@@ -1,0 +1,78 @@
+<html>
+   <head>
+      <link rel="stylesheet" href='main_router.css' type='text/css'>
+		<meta http-equiv="refresh" content="<%ejGet(timeout_refresh)%>">	  
+            <meta http-equiv="Pragma" content="no-cache">
+		 <%ejGet("curLanguage")%>
+		 <SCRIPT>assign_var();</SCRIPT>			
+            <base target="_self">
+			<SCRIPT language=JavaScript src="showMenu.js"></SCRIPT>
+            <script language="javascript">
+			<!-- hide
+strHtml='<title>'+ld_1+'&gt;'+ld_2+'</title>';
+dw(strHtml);
+			
+
+var autoup = '<%ejGet(autoUpgrade_flag)%>';
+
+if(autoup == '1')
+{
+	newwin=window.open("checkfw.html","Firmware","toolbar=no,location=no,directories=no,status=no,menubar=no,scrollbars=yes,width=395,height=200,resizable=0");
+	newwin.focus();
+}
+
+
+
+var helpItem 	='DHCP Client List';
+var menuSection	='LAN';
+var menuItem	='DHCP Client List';
+var isAPmode = '<%ejGet(enblNat)%>';
+			
+// done hiding -->			
+	</script>		
+   </head>
+   <body bgColor="#ffffff" leftMargin="0" topMargin="0" marginheight="0" marginwidth="0">
+    <SCRIPT language=JavaScript>
+	var wanStatus = '<%ejGetOther(isUp)%>';
+	showHead(wanStatus,helpItem);
+	showMenu(menuSection,menuItem,isAPmode)
+	</SCRIPT>  
+<TD class=head_bold width="90%" valign="top"><Br>
+         <b><font color="#004263" face="Verdana" class="head_bold">&nbsp;&nbsp;<script>dw(ld_1)</script> &gt; <script>dw(ld_3)</script></font></b><Br>
+      		<TABLE class=copy_1  cellSpacing=0 cellPadding=0 width=620  border=0>
+        		<TR>
+					<Td width="11"></Td>
+          			<TD vAlign=top><SPAN><BR><Br>
+						<script>dw(ld_4)</script>	<Br><Br>					           
+					</SPAN><BR>					
+					</TD>
+				</TR>
+				<tr>
+					<Td width="11"></Td>
+					<td align="center">
+		 				<table border="1" cellpadding="2" cellspacing="0" width="450" bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF" style="border-collapse: collapse" bordercolor="#FFFFFF">
+            				<tr>
+               						<td class="hd" style="background-color: #666666" height="30" bordercolor="#F3F3F3"  bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF" align="center"><font face="Verdana" color="#FFFFFF" style="font-weight:bold; font-size:11px"><script>dw(ld_5)</script></font></td>
+               						<td class="hd"  style="background-color: #666666" bordercolor="#F3F3F3"  bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF" align="center"><font face="Verdana" color="#FFFFFF" size="1" style="font-weight:bold; font-size:11px"><script>dw(ld_6)</script></font></td>
+               						<td class="hd"  style="background-color: #666666" bordercolor="#F3F3F3"  bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF" align="center"><font face="Verdana" color="#FFFFFF" size="1" style="font-weight:bold; font-size:11px"><script>dw(ld_7)</script></font></td>
+	       					 </tr>
+           					 <%ejGet(dhcpLeases)%>
+			
+							<Tr>
+								<td align="right" colspan="3">
+								<script>
+									var info="<input type='button' style='height:20px; width:125px;' onClick=\"window.location.href='lan_dhcp.html'\" value='"+ld_8+"' class='submitBtn'>"
+									dw(info);								
+								</script>
+									
+								</td>
+							</Tr>
+         				</table>
+					</td>
+				</tr>
+			</TABLE>			
+         <br><br>
+		 
+		 </TD></TR></TBODY></TABLE></TD>
+   </body>
+</html>

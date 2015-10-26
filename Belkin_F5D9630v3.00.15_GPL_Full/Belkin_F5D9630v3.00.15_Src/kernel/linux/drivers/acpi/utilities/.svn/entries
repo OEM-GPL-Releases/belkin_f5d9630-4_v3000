@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/kernel/linux/drivers/acpi/utilities"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   committed-rev="3"
+   name="utdebug.c"
+   text-time="2008-02-22T08:24:35.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="d3789254addb2153965582c5eb7f9def"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:35.000000Z"/>
+<entry
+   committed-rev="3"
+   name="utobject.c"
+   text-time="2008-02-22T08:24:35.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="e91aa490a5ea5eef2ee0c4fd8a402f97"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:35.000000Z"/>
+<entry
+   committed-rev="3"
+   name="utxface.c"
+   text-time="2008-02-22T08:24:35.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="13e955c8cfda339e23fc60b76b1c7ff4"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:35.000000Z"/>
+<entry
+   committed-rev="3"
+   name="uteval.c"
+   text-time="2008-02-22T08:24:35.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="572f83651e6d655836c45f1b8be4995c"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:35.000000Z"/>
+<entry
+   committed-rev="3"
+   name="utmath.c"
+   text-time="2008-02-22T08:24:35.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="dcb23dd5722ecaa9ce2dba26d5ca621b"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:35.000000Z"/>
+<entry
+   committed-rev="3"
+   name="utalloc.c"
+   text-time="2008-02-22T08:24:35.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="e10dd4b9c85687ce52037ccaa504979c"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:35.000000Z"/>
+<entry
+   committed-rev="3"
+   name="utcopy.c"
+   text-time="2008-02-22T08:24:35.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="bc0eebc3629be8ee022ecdbfa4a39fe7"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:35.000000Z"/>
+<entry
+   committed-rev="3"
+   name="utmisc.c"
+   text-time="2008-02-22T08:24:35.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="50abd03eb1550c31ee0d67fc33007d18"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:35.000000Z"/>
+<entry
+   committed-rev="3"
+   name="utglobal.c"
+   text-time="2008-02-22T08:24:35.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="a943cc8d8d5298c4cb7c11ad84bf29b6"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:35.000000Z"/>
+<entry
+   name="CVS"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="utdelete.c"
+   text-time="2008-02-22T08:24:35.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="c82c106efb48dfaf9d1fbae1ab2a1765"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:35.000000Z"/>
+<entry
+   committed-rev="3"
+   name=".cvsignore"
+   text-time="2008-02-22T08:24:35.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="d8b65572e25962faaf07c20bb34d224e"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:35.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Makefile"
+   text-time="2008-02-22T08:24:35.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="f2e04b333092466b621293ec10ad34ad"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:35.000000Z"/>
+<entry
+   committed-rev="3"
+   name="utinit.c"
+   text-time="2008-02-22T08:24:35.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="117e6de8d213ce456c9c69a42006eb64"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:35.000000Z"/>
+</wc-entries>

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/kernel/linux/include"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   name="media"
+   kind="dir"/>
+<entry
+   name="asm-m68knommu"
+   kind="dir"/>
+<entry
+   name="asm-ia64"
+   kind="dir"/>
+<entry
+   name="mtd"
+   kind="dir"/>
+<entry
+   name="asm-sparc"
+   kind="dir"/>
+<entry
+   name="asm-mips"
+   kind="dir"/>
+<entry
+   name="sound"
+   kind="dir"/>
+<entry
+   name="asm-parisc"
+   kind="dir"/>
+<entry
+   name="asm-sh64"
+   kind="dir"/>
+<entry
+   name="asm-m68k"
+   kind="dir"/>
+<entry
+   name="asm-arm26"
+   kind="dir"/>
+<entry
+   name="video"
+   kind="dir"/>
+<entry
+   name="asm-i386"
+   kind="dir"/>
+<entry
+   name="asm-ppc64"
+   kind="dir"/>
+<entry
+   name="asm-x86_64"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name=".cvsignore"
+   text-time="2008-02-22T08:21:27.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="c71c9c5c45b37cdeda0702e35fc8dd26"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:13.000000Z"/>
+<entry
+   name="asm-cris"
+   kind="dir"/>
+<entry
+   name="asm-h8300"
+   kind="dir"/>
+<entry
+   name="asm-v850"
+   kind="dir"/>
+<entry
+   name="net"
+   kind="dir"/>
+<entry
+   name="asm-sh"
+   kind="dir"/>
+<entry
+   name="asm-generic"
+   kind="dir"/>
+<entry
+   name="CVS"
+   kind="dir"/>
+<entry
+   name="pcmcia"
+   kind="dir"/>
+<entry
+   name="asm-arm"
+   kind="dir"/>
+<entry
+   name="rxrpc"
+   kind="dir"/>
+<entry
+   name="asm-um"
+   kind="dir"/>
+<entry
+   name="linux"
+   kind="dir"/>
+<entry
+   name="asm-ppc"
+   kind="dir"/>
+<entry
+   name="asm-sparc64"
+   kind="dir"/>
+<entry
+   name="scsi"
+   kind="dir"/>
+<entry
+   name="asm-alpha"
+   kind="dir"/>
+<entry
+   name="asm-s390"
+   kind="dir"/>
+<entry
+   name="acpi"
+   kind="dir"/>
+<entry
+   name="math-emu"
+   kind="dir"/>
+</wc-entries>

@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/kernel/linux/drivers/net/wan/lmc"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   committed-rev="3"
+   name="lmc_proto.c"
+   text-time="2008-02-22T08:24:01.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="3e3b0dbf47f45c5a72af815d842871d8"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:01.000000Z"/>
+<entry
+   committed-rev="3"
+   name="lmc_main.c"
+   text-time="2008-02-22T08:24:01.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="abc89f70886270cbf60baaf1dd4b16ca"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:01.000000Z"/>
+<entry
+   committed-rev="3"
+   name="lmc_media.h"
+   text-time="2008-02-22T08:24:01.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="c6df74b6f23b7310afd1634a2924f725"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:01.000000Z"/>
+<entry
+   committed-rev="3"
+   name="lmc.h"
+   text-time="2008-02-22T08:24:01.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="01765c8b01a6394eed24734b0c1b7438"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:01.000000Z"/>
+<entry
+   committed-rev="3"
+   name="lmc_debug.c"
+   text-time="2008-02-22T08:24:01.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="28f85ecab600c69d5a8b265a03e34c78"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:01.000000Z"/>
+<entry
+   committed-rev="3"
+   name="lmc_proto.h"
+   text-time="2008-02-22T08:24:01.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="f974ed7f56f48199a0b9ddb2def4679c"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:01.000000Z"/>
+<entry
+   committed-rev="3"
+   name="lmc_prot.h"
+   text-time="2008-02-22T08:24:01.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="6f8f9eb153bd3045be90a24628ba5020"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:01.000000Z"/>
+<entry
+   committed-rev="3"
+   name="lmc_debug.h"
+   text-time="2008-02-22T08:24:01.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="134167a036809bba259e4841922fd3e2"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:01.000000Z"/>
+<entry
+   committed-rev="3"
+   name="lmc_var.h"
+   text-time="2008-02-22T08:24:01.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="bce307c2908d60833aaa5a8540ebd531"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:01.000000Z"/>
+<entry
+   name="CVS"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="lmc_ioctl.h"
+   text-time="2008-02-22T08:24:01.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="3d923ea5fd907818929c001021ea40cc"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:01.000000Z"/>
+<entry
+   committed-rev="3"
+   name="lmc_media.c"
+   text-time="2008-02-22T08:24:01.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="7715840df7a8b80df61965a03a4503b3"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:01.000000Z"/>
+<entry
+   committed-rev="3"
+   name=".cvsignore"
+   text-time="2008-02-22T08:24:01.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="d8b65572e25962faaf07c20bb34d224e"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:01.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Makefile"
+   text-time="2008-02-22T08:24:01.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="77ee5ccb43e7134aca39bc8afcdf7a09"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:01.000000Z"/>
+</wc-entries>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/kernel/linux/Documentation/dvb"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   committed-rev="3"
+   name="faq.txt"
+   text-time="2008-02-22T08:22:06.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="4fa51d6258cd200db3fe27e8f62441e9"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:06.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ttusb-dec.txt"
+   text-time="2008-02-22T08:22:06.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="620d20331c4326746ff79baf99869c28"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:06.000000Z"/>
+<entry
+   committed-rev="3"
+   name="cards.txt"
+   text-time="2008-02-22T08:22:06.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="b5c625e8eb336c703ceea8cbfc878b65"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:06.000000Z"/>
+<entry
+   committed-rev="3"
+   name="firmware.txt"
+   text-time="2008-02-22T08:22:06.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="3fb5944ea58dfd4c6c8e4b033c6f9fb8"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:06.000000Z"/>
+<entry
+   name="CVS"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="avermedia.txt"
+   text-time="2008-02-22T08:22:06.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="d5a1d7814c08f928a8785871bc86ba4a"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:06.000000Z"/>
+<entry
+   committed-rev="3"
+   name="bt8xx.txt"
+   text-time="2008-02-22T08:22:06.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="b3af4d8139cb5262fa0f1d4caa07a5c1"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:06.000000Z"/>
+<entry
+   committed-rev="3"
+   name="contributors.txt"
+   text-time="2008-02-22T08:22:06.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="999c6ce9c8655059cbe5d5f40fbd6622"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:06.000000Z"/>
+<entry
+   committed-rev="3"
+   name="readme.txt"
+   text-time="2008-02-22T08:22:06.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="63f0d0a8f977ff78f6dfcad35e171ac0"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:06.000000Z"/>
+</wc-entries>

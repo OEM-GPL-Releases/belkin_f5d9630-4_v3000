@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/kernel/linux/drivers/message/i2o"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   committed-rev="3"
+   name="i2o_config.c"
+   text-time="2008-02-22T08:23:30.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="4ef61d3fa17ade40fd31553dec108b20"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:30.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Kconfig"
+   text-time="2008-02-22T08:23:30.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="5aab5479f0994421df3c8eb9d7d66c9b"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:30.000000Z"/>
+<entry
+   committed-rev="3"
+   name="i2o_core.c"
+   text-time="2008-02-22T08:23:30.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="32f14fa494f561916c40d5fb3a3c4015"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:30.000000Z"/>
+<entry
+   committed-rev="3"
+   name="i2o_block.c"
+   text-time="2008-02-22T08:23:30.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="baa0edab3876a588273181988cd80b49"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:30.000000Z"/>
+<entry
+   committed-rev="3"
+   name="README.ioctl"
+   text-time="2008-02-22T08:23:30.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="7a12b410cf5e81474a431b7db22b8a66"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:30.000000Z"/>
+<entry
+   committed-rev="3"
+   name="i2o_lan.h"
+   text-time="2008-02-22T08:23:30.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="413e2459f2fa3832021a39397e5bb33b"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:30.000000Z"/>
+<entry
+   name="CVS"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="i2o_scsi.c"
+   text-time="2008-02-22T08:23:30.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="572726ff6403e1cec7ca24e9867e58e7"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:30.000000Z"/>
+<entry
+   committed-rev="3"
+   name=".cvsignore"
+   text-time="2008-02-22T08:23:30.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="d8b65572e25962faaf07c20bb34d224e"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:30.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Makefile"
+   text-time="2008-02-22T08:23:30.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="d46793d41bd819084e4302d19a2ef619"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:30.000000Z"/>
+<entry
+   committed-rev="3"
+   name="README"
+   text-time="2008-02-22T08:23:30.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="a06adcbb8d9cca239aa460606a5766bd"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:30.000000Z"/>
+<entry
+   committed-rev="3"
+   name="i2o_proc.c"
+   text-time="2008-02-22T08:23:30.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="ff07895ca6809dc9d18ada2c9c2ecc62"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:30.000000Z"/>
+</wc-entries>

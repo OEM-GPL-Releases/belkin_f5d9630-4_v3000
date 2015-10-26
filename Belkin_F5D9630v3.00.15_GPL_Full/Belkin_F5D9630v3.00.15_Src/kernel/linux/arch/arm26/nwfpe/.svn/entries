@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/kernel/linux/arch/arm26/nwfpe"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   committed-rev="3"
+   name="fpopcode.c"
+   text-time="2008-02-22T08:22:31.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="17d9b2cbdc2ea748ad0ffa433944b587"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:31.000000Z"/>
+<entry
+   committed-rev="3"
+   name="fpa11_cprt.c"
+   text-time="2008-02-22T08:22:31.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="b2f74c653a61c5031dc82ed377452506"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:31.000000Z"/>
+<entry
+   committed-rev="3"
+   name="softfloat.c"
+   text-time="2008-02-22T08:22:31.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="ca818894528d6585caee5f31614b4987"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:31.000000Z"/>
+<entry
+   committed-rev="3"
+   name="softfloat-macros"
+   text-time="2008-02-22T08:22:31.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="43a6780f3265881f3eb2e1cd2bf04a40"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:31.000000Z"/>
+<entry
+   committed-rev="3"
+   name="fpopcode.h"
+   text-time="2008-02-22T08:22:31.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="aa5975213d8b10b8f70e25dba6cd493e"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:31.000000Z"/>
+<entry
+   committed-rev="3"
+   name="extended_cpdo.c"
+   text-time="2008-02-22T08:22:31.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="4d6478e09233166c5127fbd4add4dd1a"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:31.000000Z"/>
+<entry
+   committed-rev="3"
+   name="softfloat.h"
+   text-time="2008-02-22T08:22:31.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="1d6e0bed75f0c53cb484ed0cd6239af9"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:31.000000Z"/>
+<entry
+   committed-rev="3"
+   name="softfloat-specialize"
+   text-time="2008-02-22T08:22:31.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="e7f7c69bdd5492841ed5b68c5656a78e"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:31.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ChangeLog"
+   text-time="2008-02-22T08:22:31.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="f5a2dfad7fd12d85f17f1c7f78b61583"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:31.000000Z"/>
+<entry
+   committed-rev="3"
+   name="fpa11.c"
+   text-time="2008-02-22T08:22:31.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="49a6530524e4e4862df248de8eae8978"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:31.000000Z"/>
+<entry
+   committed-rev="3"
+   name="fpa11.inl"
+   text-time="2008-02-22T08:22:31.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="75be16e53a6810904a92762b57e1826b"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:31.000000Z"/>
+<entry
+   name="CVS"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="fpmodule.c"
+   text-time="2008-02-22T08:22:31.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="27abaa8a758f9bb45158f89575cb382b"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:31.000000Z"/>
+<entry
+   committed-rev="3"
+   name="fpmodule.inl"
+   text-time="2008-02-22T08:22:31.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="8e89ffe5231fb00a7199eeaddec31c64"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:31.000000Z"/>
+<entry
+   committed-rev="3"
+   name="fpa11_cpdo.c"
+   text-time="2008-02-22T08:22:31.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="33e8705bd4e56e914a4e2457ed562861"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:31.000000Z"/>
+<entry
+   committed-rev="3"
+   name="fpa11.h"
+   text-time="2008-02-22T08:22:31.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="f8d29f3a92f0ada9ec88e6e1cc118b81"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:31.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ARM-gcc.h"
+   text-time="2008-02-22T08:22:31.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="b6413fe9a342c58028bf760f6a7aaf5e"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:31.000000Z"/>
+<entry
+   committed-rev="3"
+   name="double_cpdo.c"
+   text-time="2008-02-22T08:22:31.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="27c0cc651cfd86bc3a5637414325f787"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:31.000000Z"/>
+<entry
+   committed-rev="3"
+   name="fpsr.h"
+   text-time="2008-02-22T08:22:31.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="f8466854f5bfc1b92b186cd109e1574b"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:31.000000Z"/>
+<entry
+   committed-rev="3"
+   name="fpmodule.h"
+   text-time="2008-02-22T08:22:31.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="54760089c035f34dde709e00fc43312a"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:31.000000Z"/>
+<entry
+   committed-rev="3"
+   name="entry.S"
+   text-time="2008-02-22T08:22:31.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="dfee4d6da2fb9ac8c3e94dbb22f34878"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:31.000000Z"/>
+<entry
+   committed-rev="3"
+   name="fpa11_cpdt.c"
+   text-time="2008-02-22T08:22:31.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="936c31956cff0e2557e2bff0ce1b5734"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:31.000000Z"/>
+<entry
+   committed-rev="3"
+   name="single_cpdo.c"
+   text-time="2008-02-22T08:22:31.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="5094000c474eefd4c2518f83d38e8619"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:31.000000Z"/>
+<entry
+   committed-rev="3"
+   name="milieu.h"
+   text-time="2008-02-22T08:22:31.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="6032af9a099cf5014b183138b2d49d5d"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:31.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Makefile"
+   text-time="2008-02-22T08:22:31.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="825070861923f9afd4b966c9779e44aa"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:31.000000Z"/>
+</wc-entries>

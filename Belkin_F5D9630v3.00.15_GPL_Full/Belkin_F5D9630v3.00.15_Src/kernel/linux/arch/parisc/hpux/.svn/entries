@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/kernel/linux/arch/parisc/hpux"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   committed-rev="3"
+   name="gate.S"
+   text-time="2008-02-22T08:22:12.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="0ed8a904dd50cec0dedb50b65f3aef7d"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:12.000000Z"/>
+<entry
+   committed-rev="3"
+   name="sys_hpux.c"
+   text-time="2008-02-22T08:22:12.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="d357482ada725aa564abb096ee22676b"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:12.000000Z"/>
+<entry
+   committed-rev="3"
+   name="wrappers.S"
+   text-time="2008-02-22T08:22:12.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="cebf2b402e45dc50596f3c2af6bf3fae"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:12.000000Z"/>
+<entry
+   committed-rev="3"
+   name="entry_hpux.S"
+   text-time="2008-02-22T08:22:12.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="0640ea20af797d7ccd8beeebe59e144a"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:12.000000Z"/>
+<entry
+   committed-rev="3"
+   name="fs.c"
+   text-time="2008-02-22T08:22:12.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="4908ff42d1a238d2cb3779a9df0ac38a"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:12.000000Z"/>
+<entry
+   name="CVS"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="ioctl.c"
+   text-time="2008-02-22T08:22:12.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="377bfdae83b690cb6eb0d6959a6e332b"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:12.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Makefile"
+   text-time="2008-02-22T08:22:12.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="ffabc536dc8252eb4d4c404769bf9de0"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:12.000000Z"/>
+</wc-entries>

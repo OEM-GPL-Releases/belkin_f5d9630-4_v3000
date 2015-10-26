@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/kernel/linux/arch/h8300"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   name="kernel"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="Kconfig"
+   text-time="2008-02-22T08:22:48.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="a406959e874278d2c5ffb2ec6fad69f4"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:48.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Kconfig.ide"
+   text-time="2008-02-22T08:22:48.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="c94de3a5e44e663f0fd148ce8e45dff3"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:48.000000Z"/>
+<entry
+   name="boot"
+   kind="dir"/>
+<entry
+   name="platform"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="defconfig"
+   text-time="2008-02-22T08:22:48.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="76af54ca8d1b0702cba4482f14dec11a"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:48.000000Z"/>
+<entry
+   name="lib"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="Kconfig.cpu"
+   text-time="2008-02-22T08:22:48.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="a18e8c268c06e7832386808ea02460c2"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:48.000000Z"/>
+<entry
+   name="mm"
+   kind="dir"/>
+<entry
+   name="CVS"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="Makefile"
+   text-time="2008-02-22T08:22:48.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="0213b4994edfc85f1f9f81a1c09d7c7f"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:48.000000Z"/>
+<entry
+   committed-rev="3"
+   name="README"
+   text-time="2008-02-22T08:22:48.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="8d3e594fc8924938b21f395dbccc5535"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:48.000000Z"/>
+</wc-entries>

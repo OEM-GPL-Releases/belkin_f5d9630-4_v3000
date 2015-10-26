@@ -1,0 +1,204 @@
+<html>
+<head>
+<meta HTTP-EQUIV='Pragma' CONTENT='no-cache'>
+
+<style>
+<!-- 
+.top_nav {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #333333; FONT-FAMILY: Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+.leftLink {
+	FONT-WEIGHT: bold; FONT-SIZE: 10px; COLOR: #CCCCCC; LINE-HEIGHT: 15px; FONT-FAMILY: Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+.section {
+	FONT-WEIGHT: bold; FONT-SIZE: 11px; COLOR: #ffffff; LINE-HEIGHT: 15px; FONT-FAMILY: Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+.head_bold {
+	FONT-WEIGHT: bold; FONT-SIZE: 17px; COLOR: #0066FF; LINE-HEIGHT: 15px; FONT-FAMILY: Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+A {
+	COLOR: #003366; TEXT-DECORATION: none
+}
+A:hover {
+	COLOR: #0000FF; TEXT-DECORATION: underline
+}
+.copy_1 {
+	FONT-SIZE: 11px; COLOR: #333333; LINE-HEIGHT: 14px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+
+ -->
+</style> 
+
+
+		<%ejGet("curLanguage")%>
+		<SCRIPT>assign_var();</SCRIPT>
+<SCRIPT language=JavaScript src="showMenu.js"></SCRIPT>
+
+<script language="javascript">
+<!-- hide
+
+strHtml='<title>'+utm_1+' &gt; '+utfrds_2+'</title>';
+dw(strHtml);
+
+
+var time_out = 60;
+function update_time()
+{
+  document.getElementById('count_down').innerHTML = utrs_3+', <input type=text disabled=disabled size=4 value=' + time_out + '> '+utrs_4;
+  time_out= (time_out - 1);
+  if (time_out < 0)
+  {
+    reboot();
+	return;
+  }
+  setTimeout("update_time()", 1000);
+}
+
+function reboot() {
+   var enblPopWin = '<%ejGet(enblPopWin)%>';
+   var loc = 'home.html';
+   //var code = 'window.top.location.assign("' + loc + '")';
+
+   if ( enblPopWin == '1' ) {
+      loc = 'index.html';
+      //code = 'location.assign("' + loc + '")';
+      window.location.href = loc;
+   }
+   else
+   //eval(code);
+   //window.top.location = loc;
+   {   
+	  //window.location.href = 'mainlogin.html';
+	  //top.location.href = 'http://<%ejGet(ethIpAddress)%>/' + loc;
+	  top.location.href = 'http://192.168.2.1/';
+   }
+   }
+
+function frmLoad() 
+{
+   //scrollnews(0);
+   //setTimeout("reboot()", 40000);
+   update_time();
+}
+
+
+topedge = 115;  // location of news box from top of page
+leftedge = 210;  // location of news box from left edge
+boxheight = 20;  // height of news box
+boxwidth = 210;  // width of news box
+scrollheight = 700; // total height of all data to be scrolled
+
+function scrollnews(cliptop) {
+
+if (document.layers) {
+newsDiv = document.news;
+newsDiv.clip.top = cliptop;
+newsDiv.clip.bottom = cliptop + boxheight;
+newsDiv.clip.left = 0;
+newsDiv.clip.right = boxwidth + leftedge;
+newsDiv.left = leftedge;
+newsDiv.top = topedge - cliptop;
+}
+else {
+newsDiv = news.style;
+newsDiv.clip = "rect(" + cliptop + "px " + (boxwidth + leftedge) + "px " + (cliptop + boxheight) + "px 0px)";
+newsDiv.pixelLeft = leftedge;
+newsDiv.pixelTop = topedge - cliptop;
+}
+cliptop = (cliptop + 1) % (scrollheight + boxheight);
+newsDiv.visibility='visible';
+setTimeout("scrollnews(" + cliptop + ")", 100);
+}
+
+
+
+
+// done hiding -->
+</script>
+</head>
+
+   <body onLoad="frmLoad()"  bgColor="#ffffff" leftMargin="0" topMargin="0" marginheight="0" marginwidth="0">
+         <form>
+       <SCRIPT language=JavaScript>
+	var helpItem 	='Restore Factory Default';
+	var menuSection	='Util';
+	var menuItem	='Restore Factory Default';
+	var isAPmode = '<%ejGet(enblNat)%>';
+		
+	var wanStatus = '<%ejGetOther(isUp)%>';
+	showHead(wanStatus,helpItem);
+	showMenu(menuSection,menuItem,isAPmode)
+	</SCRIPT>  
+<TD class=head_bold width="90%" valign="top"><Br>
+
+
+
+<font class="head_bold"><b>&nbsp;&nbsp;&nbsp;<script>dw(utm_1);</script> &gt; <script>dw(utfrds_1);</script></b></font><Br><br>
+<br><Br>
+
+               <table width="601" height="24" border="0" cellpadding="0" cellspacing="0">
+                  <tr>
+				  	 <Td width="92"></Td>
+                     <td width="587" class="copy_1">
+					 
+					 <script>dw(utfrds_2);</script><Br>
+					 <Br><Br>
+
+					 <div id=count_down></div>
+					 
+				    </td>
+				 </tr>	 
+	</table>
+
+
+
+<div ID="news" style="position:absolute; visibility:hidden;
+top:-10; left:-90; height:50;
+clip:rect(10,100,100,10); border-width:0px">
+<table border=0 cellpadding=1 cellspacing=0 bgcolor="white">
+<tr>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+
+<!-- Your News Items are Here -->
+
+
+<script language="javascript">
+
+var time = 25;
+
+while(time >= 0)
+{
+document.writeln('<font size="2" color=red face="Verdana"><b>');
+
+document.writeln(time);
+
+document.writeln('</b></font>');
+
+document.writeln('<br>');
+
+time--;
+
+}
+
+</script>
+
+<!-- End Of Your News Items -->
+
+</td>
+</tr>
+<tr>
+<td>
+</td>
+</tr>
+</table>
+</div>
+
+		  </TD></TR></TBODY></TABLE></TD>
+
+</form>
+</body>
+</html>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/kernel/linux/Documentation/firmware_class"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   committed-rev="3"
+   name="firmware_sample_firmware_class.c"
+   text-time="2008-02-22T08:22:01.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="fb612689815f70f3cc4e8851a68164ed"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:01.000000Z"/>
+<entry
+   committed-rev="3"
+   name="hotplug-script"
+   text-time="2008-02-22T08:22:01.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="2b401d5509da69253f919051d79811c9"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:01.000000Z"/>
+<entry
+   committed-rev="3"
+   name="firmware_sample_driver.c"
+   text-time="2008-02-22T08:22:01.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="7900443398ab35bfc62b555490d39886"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:01.000000Z"/>
+<entry
+   name="CVS"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="README"
+   text-time="2008-02-22T08:22:01.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="70e3ed7a5ac45b4673ed4fe9ff70d954"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:01.000000Z"/>
+</wc-entries>

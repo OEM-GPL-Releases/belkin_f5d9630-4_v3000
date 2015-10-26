@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/kernel/linux/arch/alpha"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   name="oprofile"
+   kind="dir"/>
+<entry
+   name="kernel"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="Kconfig"
+   text-time="2008-02-22T08:22:31.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="7401c9773dce2e06d73e89524c6d1fb0"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:28.000000Z"/>
+<entry
+   name="boot"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="defconfig"
+   text-time="2008-02-22T08:22:31.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="c7be86f3b6d81f1670b1b90df5d8c0f8"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:30.000000Z"/>
+<entry
+   name="lib"
+   kind="dir"/>
+<entry
+   name="mm"
+   kind="dir"/>
+<entry
+   name="CVS"
+   kind="dir"/>
+<entry
+   name="math-emu"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="Makefile"
+   text-time="2008-02-22T08:22:31.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="5f6bf59a4e4d54399a3a7ec58e44d5fc"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:31.000000Z"/>
+</wc-entries>

@@ -1,0 +1,112 @@
+<html>
+	<head>
+	<meta http-equiv="refresh" content="<%ejGet(timeout_refresh)%>">
+         <link rel="stylesheet" href="main_router.css" type='text/css'>
+		 
+		 
+		<%ejGet("curLanguage")%>
+		<SCRIPT>assign_var();</SCRIPT>
+		 
+<SCRIPT language=JavaScript src="showMenu.js"></SCRIPT>
+<meta HTTP-EQUIV='Pragma' CONTENT='no-cache'>
+<script language="javascript" src="portName.js"></script>
+<script language='javascript'>
+<!-- hide
+
+strHtml='<title>'+fwm_1+' &gt; '+fwwpb_1+'</title>';
+dw(strHtml);
+
+
+var ping = '<%ejGet(wanPing)%>';
+
+var autoup = '<%ejGet(autoUpgrade_flag)%>';
+
+if(autoup == '1')
+{
+	newwin=window.open("checkfw.html","Firmware","toolbar=no,location=no,directories=no,status=no,menubar=no,scrollbars=yes,width=395,height=200,resizable=0");
+	newwin.focus();
+}
+
+
+function btnApply() {
+   var loc = 'scsrvcntr.cmd?action=save';
+
+   with ( document.forms[0] ) {
+      if ( icmp.checked == true )
+         loc += '&icmp=2';
+      else
+         loc += '&icmp=1';
+   }
+
+   window.location = loc;
+}
+
+function frmLoad()
+{
+	if(ping == '2')
+		document.forms[0].icmp.checked = true;
+	else
+		document.forms[0].icmp.checked = false;
+}
+
+// done hiding -->
+</script>
+</head>
+   <body onLoad='frmLoad()' bgColor="#ffffff" leftMargin="0" topMargin="0" marginheight="0" marginwidth="0">
+         <form>
+       <SCRIPT language=JavaScript>
+	var helpItem 	='WAN Ping Blocking';
+	var menuSection	='Fire';
+	var menuItem	='WAN Ping Blocking';
+	var isAPmode = '<%ejGet(enblNat)%>';
+		
+	var wanStatus = '<%ejGetOther(isUp)%>';
+	showHead(wanStatus,helpItem);
+	showMenu(menuSection,menuItem,isAPmode)
+	</SCRIPT>  
+<TD class=head_bold width="90%" valign="top"><Br>
+            <b><font class="head_bold">&nbsp;&nbsp;&nbsp;<script>dw(fwm_1);</script> &gt; <script>dw(fwwpb_1);</script></font></b>
+            <br><Br>
+
+	               <table width="610" height="24" border="0" cellpadding="0" cellspacing="0">
+                  <tr>
+				  	 <Td width="16"></Td>
+                     <td width="594" class="copy_1"><script>dw(fwwpb_2);</script><a href="javascript:void(0);" onClick="window.open('glossary.html#ICMP','help','toolbar=0,status=0,menubar=0,scrollbars=1,resizable=1, width=640,height=400,left=150,top=150');">        
+            <b><font style="FONT-SIZE: 11px;" color="#0066FF"><script>dw(wd_8);</script></font></b></a>
+				    </td>
+				 </tr>	 
+	</table>
+
+<br><br>
+
+
+<table width="380" border='0' cellpadding='2' cellspacing='0'>
+   <tr>
+   <Td width="48"></Td>
+   <td width="170" class='copy_1'><b>
+     <script>dw(fwwpb_3);</script> &gt;</b></td>
+      <td width="150" align='left'><input type='checkbox' name='icmp'></td>
+   </tr>
+</table>
+<Br><BR>
+<table width="666" border='0' cellpadding='2' cellspacing='0'>
+<Tr><Td width="261"></Td>
+<td width="397">
+<script>
+	var info="<input type='button' style='height:22px;width:180px;' onClick='frmLoad()' value='"+wd_9+"' class='submitBtn'><input type='button' style='height:22px;width:180px;' onClick='btnApply()' value='"+wd_10+"' class='submitBtn'>";
+	dw(info);
+
+
+</script>
+
+</td>
+</Tr>
+</table>
+
+
+ </TD></TR></TBODY></TABLE></TD>
+
+</form>
+</blockquote>
+</body>
+</html>

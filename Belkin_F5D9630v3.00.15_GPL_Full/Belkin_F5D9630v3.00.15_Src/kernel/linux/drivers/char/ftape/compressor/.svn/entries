@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/kernel/linux/drivers/char/ftape/compressor"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   committed-rev="3"
+   name="lzrw3.c"
+   text-time="2008-02-22T08:23:55.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="4acc83dd116580bcc0d4ee018ba93d79"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:55.000000Z"/>
+<entry
+   committed-rev="3"
+   name="zftape-compress.c"
+   text-time="2008-02-22T08:23:55.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="d5085e1ac962011a93f1ef3a6478f984"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:55.000000Z"/>
+<entry
+   committed-rev="3"
+   name="lzrw3.h"
+   text-time="2008-02-22T08:23:55.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="603e42f63fcd3b6304c2153a3ee63447"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:55.000000Z"/>
+<entry
+   committed-rev="3"
+   name="zftape-compress.h"
+   text-time="2008-02-22T08:23:55.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="2a1f69a318d025a65870fcc39d13641f"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:55.000000Z"/>
+<entry
+   name="CVS"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name=".cvsignore"
+   text-time="2008-02-22T08:23:55.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="d8b65572e25962faaf07c20bb34d224e"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:55.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Makefile"
+   text-time="2008-02-22T08:23:55.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="28095bf4dba5d06c17c9857c8582f993"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:55.000000Z"/>
+</wc-entries>

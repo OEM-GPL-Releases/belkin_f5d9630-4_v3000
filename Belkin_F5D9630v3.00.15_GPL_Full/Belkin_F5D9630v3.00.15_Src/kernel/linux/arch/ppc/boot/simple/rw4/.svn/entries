@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/kernel/linux/arch/ppc/boot/simple/rw4"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   committed-rev="3"
+   name="rw4_init.S"
+   text-time="2008-02-22T08:22:17.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="aa63bd8edab6e89a493d4b89202be20e"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:17.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ppc_40x.h"
+   text-time="2008-02-22T08:22:17.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="d2cb1a18de7719bcb550c7f9109fbf51"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:17.000000Z"/>
+<entry
+   committed-rev="3"
+   name="rw4_init_brd.S"
+   text-time="2008-02-22T08:22:17.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="777dea88a1e5adc5113407378f80ea3d"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:17.000000Z"/>
+<entry
+   name="CVS"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="stb.h"
+   text-time="2008-02-22T08:22:17.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="9237efff212251a16c454805e97984aa"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:17.000000Z"/>
+</wc-entries>

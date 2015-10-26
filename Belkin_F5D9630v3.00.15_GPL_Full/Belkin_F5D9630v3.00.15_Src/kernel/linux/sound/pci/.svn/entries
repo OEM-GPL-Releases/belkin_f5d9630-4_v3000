@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/kernel/linux/sound/pci"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   committed-rev="3"
+   name="Kconfig"
+   text-time="2008-02-22T08:21:41.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="352c6b269cf4e15cd87f4b776e58ec0a"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:40.000000Z"/>
+<entry
+   committed-rev="3"
+   name="es1968.c"
+   text-time="2008-02-22T08:21:41.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="b2450653fb04c7a4b0fe779aae7456a8"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:40.000000Z"/>
+<entry
+   committed-rev="3"
+   name="rme96.c"
+   text-time="2008-02-22T08:21:41.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="66bb077eb3fc9f197f3eeb8b408f8dc2"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:40.000000Z"/>
+<entry
+   name="vx222"
+   kind="dir"/>
+<entry
+   name="ali5451"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="sonicvibes.c"
+   text-time="2008-02-22T08:21:41.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="757800361b767c5edd57dcfef123f292"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:40.000000Z"/>
+<entry
+   name="ymfpci"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="via82xx.c"
+   text-time="2008-02-22T08:21:41.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="9849409fc3e1f33a43d8eb7c060a9f9e"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:40.000000Z"/>
+<entry
+   name="au88x0"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="azt3328.c"
+   text-time="2008-02-22T08:21:41.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="005a4e05e11a3581f68f92a3a2d80bf1"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:41.000000Z"/>
+<entry
+   name="cs46xx"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="azt3328.h"
+   text-time="2008-02-22T08:21:41.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="b7c19f9a7dac23486c49ee0a2e666764"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:41.000000Z"/>
+<entry
+   committed-rev="3"
+   name="als4000.c"
+   text-time="2008-02-22T08:21:41.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="1577a8ddb6f221b7a14c787d25ecb3b3"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:41.000000Z"/>
+<entry
+   committed-rev="3"
+   name="cs4281.c"
+   text-time="2008-02-22T08:21:41.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="9459fd6cfc58993d48a3253e5eb04001"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:41.000000Z"/>
+<entry
+   name="korg1212"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="intel8x0m.c"
+   text-time="2008-02-22T08:21:41.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="9ec99834ac5ae2291a6fb9a3bbe4fb04"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:41.000000Z"/>
+<entry
+   name="ice1712"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="fm801.c"
+   text-time="2008-02-22T08:21:41.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="1a009ac8b3ec6dc7e9a4ce9ed515f035"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:41.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Makefile"
+   text-time="2008-02-22T08:21:41.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="0b80135df057a3a58e440e9c8a638346"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:41.000000Z"/>
+<entry
+   committed-rev="3"
+   name=".cvsignore"
+   text-time="2008-02-22T08:21:41.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="d8b65572e25962faaf07c20bb34d224e"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:41.000000Z"/>
+<entry
+   committed-rev="3"
+   name="es1938.c"
+   text-time="2008-02-22T08:21:41.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="251039cc39b5f4796aaa00e89fbf8a02"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:41.000000Z"/>
+<entry
+   committed-rev="3"
+   name="maestro3.c"
+   text-time="2008-02-22T08:21:41.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="1b0f441b90e4d86fc0f8091aedf9a200"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:41.000000Z"/>
+<entry
+   committed-rev="3"
+   name="atiixp.c"
+   text-time="2008-02-22T08:21:41.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="500a2568d56755f9e5e57cacbd2aff4c"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:41.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ens1370.c"
+   text-time="2008-02-22T08:21:41.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="6649cd3ee3f212ba3d358e04de690fd5"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:41.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ens1371.c"
+   text-time="2008-02-22T08:21:41.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="d2912966a2f65db8efe8be8c018a3e20"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:41.000000Z"/>
+<entry
+   name="emu10k1"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="cmipci.c"
+   text-time="2008-02-22T08:21:41.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="efa23b76ff656b479b26f69703cf7ac3"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:41.000000Z"/>
+<entry
+   name="CVS"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="intel8x0.c"
+   text-time="2008-02-22T08:21:41.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="6922e74d414299e4554f5edc50ef50b1"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:41.000000Z"/>
+<entry
+   committed-rev="3"
+   name="bt87x.c"
+   text-time="2008-02-22T08:21:41.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="2ccdc9179e79982b7f60febca24c8b25"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:41.000000Z"/>
+<entry
+   name="ac97"
+   kind="dir"/>
+<entry
+   name="mixart"
+   kind="dir"/>
+<entry
+   name="nm256"
+   kind="dir"/>
+<entry
+   name="rme9652"
+   kind="dir"/>
+<entry
+   name="trident"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="rme32.c"
+   text-time="2008-02-22T08:21:41.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="82f5b89fb6824c8d08b52a10c77b03df"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:41.000000Z"/>
+</wc-entries>

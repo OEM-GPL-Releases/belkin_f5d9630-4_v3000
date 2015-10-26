@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/kernel/linux/drivers/s390/cio"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   committed-rev="3"
+   name="device.c"
+   text-time="2008-02-22T08:23:40.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="006fdbd46eb5081e11f6ae9d22c54b52"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:39.000000Z"/>
+<entry
+   committed-rev="3"
+   name="qdio.h"
+   text-time="2008-02-22T08:23:40.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="8f06479e8a0ee2ecaa45287383fb6c81"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:39.000000Z"/>
+<entry
+   committed-rev="3"
+   name="airq.h"
+   text-time="2008-02-22T08:23:40.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="142f17174502016f556ab98a57e35ffc"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:39.000000Z"/>
+<entry
+   committed-rev="3"
+   name="device_status.c"
+   text-time="2008-02-22T08:23:40.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="a674e31dc024e45ce8160f21f13e74d2"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:40.000000Z"/>
+<entry
+   committed-rev="3"
+   name="device_pgid.c"
+   text-time="2008-02-22T08:23:40.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="bec84e63ea620fe3d990500e90427c1a"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:40.000000Z"/>
+<entry
+   committed-rev="3"
+   name="device_fsm.c"
+   text-time="2008-02-22T08:23:40.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="55df1297611ccc1db1e00b96a5baba69"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:40.000000Z"/>
+<entry
+   committed-rev="3"
+   name="device.h"
+   text-time="2008-02-22T08:23:40.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="53de361cbbaeeeedff8ef2097cb7b8ae"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:40.000000Z"/>
+<entry
+   committed-rev="3"
+   name="cmf.c"
+   text-time="2008-02-22T08:23:40.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="89d7270bb1acd1b4508be0429d3d96a2"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:40.000000Z"/>
+<entry
+   committed-rev="3"
+   name="blacklist.c"
+   text-time="2008-02-22T08:23:40.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="45e8c370989abfd3150696398ad0d852"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:40.000000Z"/>
+<entry
+   committed-rev="3"
+   name="cio.c"
+   text-time="2008-02-22T08:23:40.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="208c0552f1936bf4b5099743359f10cd"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:40.000000Z"/>
+<entry
+   name="CVS"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="device_id.c"
+   text-time="2008-02-22T08:23:40.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="38de6ac6f506226c706d2f9b4706c5de"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:40.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ioasm.h"
+   text-time="2008-02-22T08:23:40.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="7093fa2f8d8b8ee3d6d128a888434000"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:40.000000Z"/>
+<entry
+   committed-rev="3"
+   name="blacklist.h"
+   text-time="2008-02-22T08:23:40.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="25671773ab52996ea6ceda804752cb23"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:40.000000Z"/>
+<entry
+   committed-rev="3"
+   name="cio.h"
+   text-time="2008-02-22T08:23:40.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="cc0bdfbb66564902918893c005f4b557"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:40.000000Z"/>
+<entry
+   committed-rev="3"
+   name="chsc.c"
+   text-time="2008-02-22T08:23:40.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="9d830fde92f2ddc43c705b76ebb63891"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:40.000000Z"/>
+<entry
+   committed-rev="3"
+   name="device_ops.c"
+   text-time="2008-02-22T08:23:40.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="94b1f3da7a542e303bb81097c11b7cec"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:40.000000Z"/>
+<entry
+   committed-rev="3"
+   name="cio_debug.h"
+   text-time="2008-02-22T08:23:40.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="cc3f1ca41b55984b0e381b446fb1211c"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:40.000000Z"/>
+<entry
+   committed-rev="3"
+   name="chsc.h"
+   text-time="2008-02-22T08:23:40.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="ba5df91e26d49e9ee90ecbc380e07e17"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:40.000000Z"/>
+<entry
+   committed-rev="3"
+   name="css.c"
+   text-time="2008-02-22T08:23:40.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="befe8a0ccf9f7dc22c1a0af23c67d67b"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:40.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ccwgroup.c"
+   text-time="2008-02-22T08:23:40.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="ec7543f11d50fec092327e1129a89bae"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:40.000000Z"/>
+<entry
+   committed-rev="3"
+   name="airq.c"
+   text-time="2008-02-22T08:23:40.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="ac39f257b00adca79bebcd121888c453"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:40.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Makefile"
+   text-time="2008-02-22T08:23:40.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="9d8809afee04174ddc70990ef4920c1a"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:40.000000Z"/>
+<entry
+   committed-rev="3"
+   name="qdio.c"
+   text-time="2008-02-22T08:23:40.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="1bce1a11f17a69737440368f76c0cf90"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:40.000000Z"/>
+<entry
+   committed-rev="3"
+   name="css.h"
+   text-time="2008-02-22T08:23:40.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="01354aacf3bcfa80690301743a521b69"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:40.000000Z"/>
+</wc-entries>

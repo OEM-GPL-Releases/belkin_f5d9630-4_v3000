@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/kernel/linux/net/rose"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   committed-rev="3"
+   name="af_rose.c"
+   text-time="2008-02-22T08:21:30.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="409eb3312cf208e2ffcb0cc44a952a8e"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:29.000000Z"/>
+<entry
+   committed-rev="3"
+   name="rose_in.c"
+   text-time="2008-02-22T08:21:30.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="8600b9cc3237038bf08d0faccd317c8e"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:29.000000Z"/>
+<entry
+   committed-rev="3"
+   name="rose_out.c"
+   text-time="2008-02-22T08:21:30.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="f54e4ab66aa7a896c0fddb0d27e4e870"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:29.000000Z"/>
+<entry
+   committed-rev="3"
+   name="sysctl_net_rose.c"
+   text-time="2008-02-22T08:21:30.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="b6f669b58101a0f742c3ca79885dd68e"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:30.000000Z"/>
+<entry
+   committed-rev="3"
+   name="rose_loopback.c"
+   text-time="2008-02-22T08:21:30.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="a93f9f70a34853640cf1a0019c9330a5"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:30.000000Z"/>
+<entry
+   committed-rev="3"
+   name="rose_subr.c"
+   text-time="2008-02-22T08:21:30.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="2bdd2b955b221357f2e10ab9966184be"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:30.000000Z"/>
+<entry
+   committed-rev="3"
+   name="rose_link.c"
+   text-time="2008-02-22T08:21:30.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="1c2347d40ce97db9dce41c154a5b175a"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:30.000000Z"/>
+<entry
+   committed-rev="3"
+   name="rose_dev.c"
+   text-time="2008-02-22T08:21:30.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="1cb1fcc723bce7cbd1e6e447ac9a7676"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:30.000000Z"/>
+<entry
+   committed-rev="3"
+   name="rose_route.c"
+   text-time="2008-02-22T08:21:30.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="e0f7f0a193f29446666e03b89030484e"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:30.000000Z"/>
+<entry
+   committed-rev="3"
+   name="rose_timer.c"
+   text-time="2008-02-22T08:21:30.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="c4220e3b362f32347d15f50c72cde7bf"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:30.000000Z"/>
+<entry
+   name="CVS"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name=".cvsignore"
+   text-time="2008-02-22T08:21:30.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="735ab631b67b75d07a52edc9e01aed4c"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:30.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Makefile"
+   text-time="2008-02-22T08:21:30.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="76247acb228ac32e758d86ca5fd53a87"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:30.000000Z"/>
+</wc-entries>

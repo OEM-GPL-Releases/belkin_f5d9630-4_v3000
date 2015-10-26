@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/kernel/linux/include/asm-mips/mach-au1x00"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   committed-rev="3"
+   name="au1000_usbdev.h"
+   text-time="2008-02-22T08:21:07.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="fc8bb1784af0132b0b6ed6802131032c"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:07.000000Z"/>
+<entry
+   committed-rev="3"
+   name="au1100_mmc.h"
+   text-time="2008-02-22T08:21:07.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="1019ee5540c7b2ebfeb0718eda083c6a"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:07.000000Z"/>
+<entry
+   committed-rev="3"
+   name="au1xxx_psc.h"
+   text-time="2008-02-22T08:21:07.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="0e9024996c2636a1062716e3f08b608e"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:07.000000Z"/>
+<entry
+   committed-rev="3"
+   name="au1000_gpio.h"
+   text-time="2008-02-22T08:21:07.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="5655fb17af1eb07334a8f38d8ebe3ead"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:07.000000Z"/>
+<entry
+   name="CVS"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="au1xxx_dbdma.h"
+   text-time="2008-02-22T08:21:07.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="2f9f621983a2923cadc1c5c611bd1ed6"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:07.000000Z"/>
+<entry
+   committed-rev="3"
+   name="au1000.h"
+   text-time="2008-02-22T08:21:07.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="c60b96e980b461d76f4f28247e975a82"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:07.000000Z"/>
+<entry
+   committed-rev="3"
+   name="timex.h"
+   text-time="2008-02-22T08:21:07.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="fccd262f425a27a2973a599c3448bd08"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:07.000000Z"/>
+<entry
+   committed-rev="3"
+   name="au1000_dma.h"
+   text-time="2008-02-22T08:21:07.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="1c1e0626c2aff6294e0822c18c5b6915"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:07.000000Z"/>
+</wc-entries>

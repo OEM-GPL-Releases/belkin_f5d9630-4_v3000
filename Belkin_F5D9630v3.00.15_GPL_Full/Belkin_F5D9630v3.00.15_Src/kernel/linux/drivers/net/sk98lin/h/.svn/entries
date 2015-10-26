@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/kernel/linux/drivers/net/sk98lin/h"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   committed-rev="3"
+   name="skdrv2nd.h"
+   text-time="2008-02-22T08:24:03.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="9f3222f77b03bbd9d2638b20b0614f98"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:03.000000Z"/>
+<entry
+   committed-rev="3"
+   name="sktypes.h"
+   text-time="2008-02-22T08:24:03.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="1eeb2ba7d69df0d765d759b7307c4969"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:03.000000Z"/>
+<entry
+   committed-rev="3"
+   name="skcsum.h"
+   text-time="2008-02-22T08:24:03.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="e4253fc5db4a20d00ec8704de7b27b22"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:03.000000Z"/>
+<entry
+   committed-rev="3"
+   name="skgedrv.h"
+   text-time="2008-02-22T08:24:03.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="9f073d1dd9792a3893aeaffbac9893c3"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:03.000000Z"/>
+<entry
+   name="CVS"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="skaddr.h"
+   text-time="2008-02-22T08:24:03.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="bc46c81932d0b2cfc911a55f8bdcdb54"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:03.000000Z"/>
+<entry
+   committed-rev="3"
+   name="xmac_ii.h"
+   text-time="2008-02-22T08:24:03.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="1c10e1c28632ce55ec15e15f75f421de"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:03.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ski2c.h"
+   text-time="2008-02-22T08:24:03.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="b3bdab7e4351f6cf7099afd1adf512bd"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:03.000000Z"/>
+<entry
+   committed-rev="3"
+   name="skrlmt.h"
+   text-time="2008-02-22T08:24:03.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="fda46a4e48e2fdcc1fedfb2999dbcfed"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:03.000000Z"/>
+<entry
+   committed-rev="3"
+   name="skgehwt.h"
+   text-time="2008-02-22T08:24:03.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="3332c55c382a2e97b5dc518f100516b3"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:03.000000Z"/>
+<entry
+   committed-rev="3"
+   name="skgeinit.h"
+   text-time="2008-02-22T08:24:03.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="ef99848e664f11ececd83ff239483150"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:03.000000Z"/>
+<entry
+   committed-rev="3"
+   name="skgepnmi.h"
+   text-time="2008-02-22T08:24:03.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="331740042b3318bc9f20835b6838f7d4"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:03.000000Z"/>
+<entry
+   committed-rev="3"
+   name="sktimer.h"
+   text-time="2008-02-22T08:24:03.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="777e59e63173c92ef264a75d9cfbb31b"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:03.000000Z"/>
+<entry
+   committed-rev="3"
+   name="lm80.h"
+   text-time="2008-02-22T08:24:03.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="328cceafaffb401e18a1dbda964ca7d8"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:03.000000Z"/>
+<entry
+   committed-rev="3"
+   name="skdrv1st.h"
+   text-time="2008-02-22T08:24:03.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="81b7796fd16e123d30f97a095bcf69b4"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:03.000000Z"/>
+<entry
+   committed-rev="3"
+   name="skqueue.h"
+   text-time="2008-02-22T08:24:03.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="a6f3e2fcc6567bc17eb499fff1967315"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:03.000000Z"/>
+<entry
+   committed-rev="3"
+   name="skversion.h"
+   text-time="2008-02-22T08:24:03.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="8de13492eb68e71d152a18f8b3acb113"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:03.000000Z"/>
+<entry
+   committed-rev="3"
+   name="skdebug.h"
+   text-time="2008-02-22T08:24:03.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="7fd67da45b5df5be37b38bdc446fe692"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:03.000000Z"/>
+<entry
+   committed-rev="3"
+   name="skgepnm2.h"
+   text-time="2008-02-22T08:24:03.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="762f97812fff69c65c1fce4b84a78d54"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:03.000000Z"/>
+<entry
+   committed-rev="3"
+   name="skgei2c.h"
+   text-time="2008-02-22T08:24:03.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="fa1480bf9e04a698538b7e60e0855b79"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:03.000000Z"/>
+<entry
+   committed-rev="3"
+   name="skerror.h"
+   text-time="2008-02-22T08:24:03.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="d51b8ec50dd21a3579c76c2b01e13c6e"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:03.000000Z"/>
+<entry
+   committed-rev="3"
+   name=".cvsignore"
+   text-time="2008-02-22T08:24:03.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="d8b65572e25962faaf07c20bb34d224e"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:03.000000Z"/>
+<entry
+   committed-rev="3"
+   name="skvpd.h"
+   text-time="2008-02-22T08:24:03.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="6f859a538f77886491a349b9ef628205"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:03.000000Z"/>
+<entry
+   committed-rev="3"
+   name="skgehw.h"
+   text-time="2008-02-22T08:24:03.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="bde6c87f2baa7ad49192095c090a3b69"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:03.000000Z"/>
+<entry
+   committed-rev="3"
+   name="skgesirq.h"
+   text-time="2008-02-22T08:24:03.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="a306eed518c2b0df87d7137c785b2571"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:03.000000Z"/>
+</wc-entries>

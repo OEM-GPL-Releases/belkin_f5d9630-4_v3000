@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/kernel/linux/arch/ia64/ia32"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   committed-rev="3"
+   name="ia32_entry.S"
+   text-time="2008-02-22T08:22:54.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="36030a2acf20d69c711e4a9dd2319bc9"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:54.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ia32_ldt.c"
+   text-time="2008-02-22T08:22:54.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="9811520889453392821a480636243dd8"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:54.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ia32priv.h"
+   text-time="2008-02-22T08:22:54.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="6a863e303a97ea39946395312f45db49"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:54.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ia32_traps.c"
+   text-time="2008-02-22T08:22:54.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="187b2d66521a8fae0e7425e4641e7993"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:54.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ia32_ioctl.c"
+   text-time="2008-02-22T08:22:54.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="06ce9e1ba73214c8af8dbf88428346dc"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:54.000000Z"/>
+<entry
+   committed-rev="3"
+   name="elfcore32.h"
+   text-time="2008-02-22T08:22:54.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="b8c31b35729c76d03febbac1a89244eb"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:54.000000Z"/>
+<entry
+   name="CVS"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="binfmt_elf32.c"
+   text-time="2008-02-22T08:22:54.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="9072a4c98076cb5bfd889dc7fb9a43c2"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:54.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ia32_support.c"
+   text-time="2008-02-22T08:22:54.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="45bd370f4a70a7e80e7fd3a471649083"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:54.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ia32_signal.c"
+   text-time="2008-02-22T08:22:54.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="7cd78e211bfeb0a6a7316f461db727f3"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:54.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Makefile"
+   text-time="2008-02-22T08:22:54.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="c1991ed88eb384034c2a1b75f9750b22"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:54.000000Z"/>
+<entry
+   committed-rev="3"
+   name="sys_ia32.c"
+   text-time="2008-02-22T08:22:54.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="d75a5065a1543e2cac5c4cb53f708368"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:54.000000Z"/>
+</wc-entries>

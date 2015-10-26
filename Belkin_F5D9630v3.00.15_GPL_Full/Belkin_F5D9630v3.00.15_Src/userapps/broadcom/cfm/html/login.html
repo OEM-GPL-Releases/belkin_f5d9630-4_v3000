@@ -1,0 +1,111 @@
+<html>
+   <head>
+      <meta HTTP-EQUIV='Pragma' CONTENT='no-cache'>
+         <link rel="stylesheet" href="main_router.css" type='text/css'>
+		<%ejGet("curLanguage")%>
+		<SCRIPT>assign_var();</SCRIPT>
+            <script language="javascript" src="util.js"></script>
+<SCRIPT language=JavaScript src="showMenu.js"></SCRIPT>
+          <script language='javascript'>
+<!-- hide
+
+function ClickSubmit()
+{
+	document.forms[0].submit();
+/*
+  var loc = 'processlogin.cgi?';
+  with (document.forms[0])
+  {
+    loc += 'loginPassword=';
+    loc += encodeUrl(pass.value);
+  }
+    window.location.href = loc;
+*/	
+ }
+function ClickClear()
+{
+  
+  document.forms[0].loginPassword.value = "";
+}
+
+// done hiding -->
+</script>
+   </head>
+   <body bgColor="#ffffff" leftMargin="0" topMargin="0" marginheight="0" marginwidth="0">
+        <form action="processlogin.cgi" method="post">
+		<input type='hidden' name='page' value="login">
+    <SCRIPT language=JavaScript>
+	var helpItem 	='Login';
+	var menuSection	='';
+	var menuItem	='';
+	var isAPmode = '<%ejGet(enblNat)%>';
+		
+	var wanStatus = '<%ejGetOther(isUp)%>';
+	showHead(wanStatus,helpItem);
+	showMenu(menuSection,menuItem,isAPmode)
+	</SCRIPT>  
+<TD class=head_bold width="90%" valign="top"><Br>
+		
+          <input type='hidden' name='usrUserName' value='fail' disabled>
+    
+          <table border="0" cellpadding="0" cellspacing="0" class="copy_1">
+               <tr>
+               		<td width='72' height="17" class="head_bold">&nbsp;&nbsp;<b><script>dw(lgn_1);</script></b></td>
+					<td></td>
+               </tr>
+			   
+               <tr>
+               		<td width='72' height = "16"></td>
+               		<td height="42"></td>
+               </tr>
+		  </table>
+		  
+		  <table border="0" cellpadding="0" cellspacing="0" class="copy_1">	   
+               <tr>
+               		<td width='72' height = "17"></td>
+               		<td width="350" class="copy_1"><script>dw(lgn_2);</script></td>
+					<td width="20"></td>
+               </tr>
+		  </table>
+		
+		  <table border="0" cellpadding="0" cellspacing="0" class="copy_1">	   
+               <tr>
+               		<td width='72' height="16"></td>
+               		<td height="16"></td>
+               </tr>
+			   
+               <tr>
+               <td width='72' height = "16"></td>
+               <td height="16"><b><script>dw(lgn_3);</script></b><font size="1">&nbsp;&nbsp;&nbsp;&nbsp;
+				</font>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				</font>
+				<input type='password' name='loginPassword' size='20' maxlength = '16' value=""></td>
+               </tr>
+               <tr>
+               <td width='72' height="16"></td>
+               <td height="16" class="copy_1"><font face="Verdana, Arial, Helvetica, sans-serif" color="#6f4afd"><b><script>dw(lgn_4);</script></b></font> </td>
+               </tr>
+               <tr>
+               <td width='72' height="16"></td>
+               <td height="16">
+               <font face="Verdana">&nbsp;
+               </font></td>
+               </tr>
+		</table>   
+		<table width="451" border="0" cellpadding="0" cellspacing="0" class="copy_1">
+               <tr>
+               <td width='146' height="16"></td>
+               <td width="305" height="16">
+               <!--font face="Verdana"-->
+			   <script>
+					var info = "<input type='button' style='width:120' value='"+lgn_5+"' class='submitBtn' onClick='ClickClear()'><input type='button' style='width:120' name='btnlogin' value='"+lgn_6+"' class='submitBtn' onClick='ClickSubmit()'>"
+				 	dw(info);			   
+			   </script>
+			   <input type='password' name='dummy' size='1' style="visibility:hidden">
+				 <!--/font--></td>
+
+               </tr>
+    </table>
+        </form></TD></TR></TBODY></TABLE></TD>
+   </body>
+</html>

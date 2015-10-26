@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/kernel/linux/drivers/char/watchdog"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   committed-rev="3"
+   name="Kconfig"
+   text-time="2008-02-22T08:23:50.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="03943366b3d96ce9a97881ce81560f72"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:49.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ib700wdt.c"
+   text-time="2008-02-22T08:23:50.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="1745f5cb924ba4b72779a5e6a6f5b79f"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:49.000000Z"/>
+<entry
+   committed-rev="3"
+   name="wafer5823wdt.c"
+   text-time="2008-02-22T08:23:50.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="0066224d337208a4c34dfd607269d44d"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:49.000000Z"/>
+<entry
+   committed-rev="3"
+   name="softdog.c"
+   text-time="2008-02-22T08:23:50.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="a71616c355eabf7da18ea6539f8dec55"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:49.000000Z"/>
+<entry
+   committed-rev="3"
+   name="wdt977.c"
+   text-time="2008-02-22T08:23:50.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="e9816e075747b83562d1c2cfc596804a"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:49.000000Z"/>
+<entry
+   committed-rev="3"
+   name="pcwd_usb.c"
+   text-time="2008-02-22T08:23:50.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="234408817c283284f128402c6ebe3ef5"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:49.000000Z"/>
+<entry
+   committed-rev="3"
+   name="acquirewdt.c"
+   text-time="2008-02-22T08:23:50.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="7a93b14f6f455fc2685112c3a2d9c16e"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:49.000000Z"/>
+<entry
+   committed-rev="3"
+   name="advantechwdt.c"
+   text-time="2008-02-22T08:23:50.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="f88a2a8162e8e140e110bba801fff67a"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:49.000000Z"/>
+<entry
+   committed-rev="3"
+   name="alim1535_wdt.c"
+   text-time="2008-02-22T08:23:50.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="da7d3991345721a1bbb9458aae89b7a7"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:49.000000Z"/>
+<entry
+   committed-rev="3"
+   name="wd501p.h"
+   text-time="2008-02-22T08:23:50.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="c5d749bb9fd2c9a11d43c6b008ab1180"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:49.000000Z"/>
+<entry
+   committed-rev="3"
+   name="sc1200wdt.c"
+   text-time="2008-02-22T08:23:50.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="04d1afcd150ddf1f2a8cdbb45536f07f"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:49.000000Z"/>
+<entry
+   committed-rev="3"
+   name="mixcomwd.c"
+   text-time="2008-02-22T08:23:50.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="8867764687c9ff1a66d617d0514b98ab"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:49.000000Z"/>
+<entry
+   committed-rev="3"
+   name=".cvsignore"
+   text-time="2008-02-22T08:23:50.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="735ab631b67b75d07a52edc9e01aed4c"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:49.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Makefile"
+   text-time="2008-02-22T08:23:50.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="772f3a83941175f7e1c6eb39ef9e0497"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:49.000000Z"/>
+<entry
+   committed-rev="3"
+   name="eurotechwdt.c"
+   text-time="2008-02-22T08:23:50.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="4178417d633fff2dcf1744af9d1423a8"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:50.000000Z"/>
+<entry
+   committed-rev="3"
+   name="wdt285.c"
+   text-time="2008-02-22T08:23:50.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="0851e9155b7c2719cf03af58b7dfae00"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:50.000000Z"/>
+<entry
+   committed-rev="3"
+   name="scx200_wdt.c"
+   text-time="2008-02-22T08:23:50.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="a43ae9a00898e2f08f590bf23e533889"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:50.000000Z"/>
+<entry
+   committed-rev="3"
+   name="pcwd.c"
+   text-time="2008-02-22T08:23:50.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="0ba8056838c36a4504724f53b3f8d2c1"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:50.000000Z"/>
+<entry
+   committed-rev="3"
+   name="wdt.c"
+   text-time="2008-02-22T08:23:50.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="9daa35b06e73718e10a361f0ccdb2a50"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:50.000000Z"/>
+<entry
+   committed-rev="3"
+   name="i8xx_tco.c"
+   text-time="2008-02-22T08:23:50.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="8e1114b77759e995b43623f0bd14b376"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:50.000000Z"/>
+<entry
+   committed-rev="3"
+   name="alim7101_wdt.c"
+   text-time="2008-02-22T08:23:50.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="43f6bdb3f7191879880cffad5f555976"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:50.000000Z"/>
+<entry
+   committed-rev="3"
+   name="i8xx_tco.h"
+   text-time="2008-02-22T08:23:50.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="9fb2a81024458f7434b6b74d6944f1cf"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:50.000000Z"/>
+<entry
+   committed-rev="3"
+   name="sc520_wdt.c"
+   text-time="2008-02-22T08:23:50.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="75ba3788ee6ce1059dc363ee43c16008"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:50.000000Z"/>
+<entry
+   name="CVS"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="w83877f_wdt.c"
+   text-time="2008-02-22T08:23:50.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="b6f4907548470750a2589767c11adf25"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:50.000000Z"/>
+<entry
+   committed-rev="3"
+   name="sbc60xxwdt.c"
+   text-time="2008-02-22T08:23:50.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="04928d0f6ec98dea227180693fb4fb8e"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:50.000000Z"/>
+<entry
+   committed-rev="3"
+   name="w83627hf_wdt.c"
+   text-time="2008-02-22T08:23:50.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="ebf11f2ea81fdb3c20f5c28098532506"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:50.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ixp2000_wdt.c"
+   text-time="2008-02-22T08:23:50.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="f8e6f2cc7dca33b6362fa4e8dcbab255"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:50.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ixp4xx_wdt.c"
+   text-time="2008-02-22T08:23:50.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="2556569a3ff547081bfa9becbecac8ac"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:50.000000Z"/>
+<entry
+   committed-rev="3"
+   name="sa1100_wdt.c"
+   text-time="2008-02-22T08:23:50.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="2058c7a427f49322b738fda258d2ca2f"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:50.000000Z"/>
+<entry
+   committed-rev="3"
+   name="pcwd_pci.c"
+   text-time="2008-02-22T08:23:50.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="2fd6659ec0e3823b2f3731c5aae3122f"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:50.000000Z"/>
+<entry
+   committed-rev="3"
+   name="shwdt.c"
+   text-time="2008-02-22T08:23:50.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="08ce4b345123ed56910f944d0f61bdd7"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:50.000000Z"/>
+<entry
+   committed-rev="3"
+   name="wdt_pci.c"
+   text-time="2008-02-22T08:23:50.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="dfe21b01d49945d6e7da47e0a41f8c25"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:50.000000Z"/>
+<entry
+   committed-rev="3"
+   name="cpu5wdt.c"
+   text-time="2008-02-22T08:23:50.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="4c653280459e76a44dc26288ba472417"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:50.000000Z"/>
+<entry
+   committed-rev="3"
+   name="machzwd.c"
+   text-time="2008-02-22T08:23:50.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="7ba00c53d840a42586db1a0a4af8f25b"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:50.000000Z"/>
+<entry
+   committed-rev="3"
+   name="indydog.c"
+   text-time="2008-02-22T08:23:50.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="1c0b2119063260316966c6b831df463e"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:50.000000Z"/>
+</wc-entries>

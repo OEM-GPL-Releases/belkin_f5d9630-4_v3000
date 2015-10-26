@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/userapps/opensource/sshd/libtomcrypt/src/pk/asn1/der/sequence"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   committed-rev="3"
+   name="der_decode_sequence_multi.c"
+   text-time="2008-02-22T08:25:16.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="c49ee4802b42818dcc8d75a2fac86509"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:25:16.000000Z"/>
+<entry
+   committed-rev="3"
+   name="der_encode_sequence.c"
+   text-time="2008-02-22T08:25:16.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="dd520baa5c3e2e8c6583fdfc1fc66c20"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:25:16.000000Z"/>
+<entry
+   committed-rev="3"
+   name="der_length_sequence.c"
+   text-time="2008-02-22T08:25:16.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="b026f96d4e5edfdba7d7c323cef77931"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:25:16.000000Z"/>
+<entry
+   committed-rev="3"
+   name="der_decode_sequence.c"
+   text-time="2008-02-22T08:25:16.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="5981911daadf568ca553aba442e91b11"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:25:16.000000Z"/>
+<entry
+   committed-rev="3"
+   name="der_encode_sequence_multi.c"
+   text-time="2008-02-22T08:25:16.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="ea354fe199443bc2dd8fbad3abfbb80a"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:25:16.000000Z"/>
+</wc-entries>

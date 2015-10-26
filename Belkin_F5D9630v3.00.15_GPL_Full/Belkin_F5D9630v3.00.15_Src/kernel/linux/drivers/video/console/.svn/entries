@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/kernel/linux/drivers/video/console"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   committed-rev="3"
+   name="sticon.c"
+   text-time="2008-02-22T08:23:48.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="209efecb9d1a0c6142a622d648df868e"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:48.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Kconfig"
+   text-time="2008-02-22T08:23:48.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="9b23e55e3cbe69510a13058456fc059d"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:48.000000Z"/>
+<entry
+   committed-rev="3"
+   name="font_acorn_8x8.c"
+   text-time="2008-02-22T08:23:48.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="e6c7cad09d41aa8e49ed0e2f0199c0b7"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:48.000000Z"/>
+<entry
+   committed-rev="3"
+   name="font_pearl_8x8.c"
+   text-time="2008-02-22T08:23:48.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="62383b505cce337bf3a096a494be617b"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:48.000000Z"/>
+<entry
+   committed-rev="3"
+   name="mdacon.c"
+   text-time="2008-02-22T08:23:48.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="f92400653be286d4a3d5256f87d763df"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:48.000000Z"/>
+<entry
+   committed-rev="3"
+   name="sticore.c"
+   text-time="2008-02-22T08:23:48.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="3f665943abba25f6e80e9efcdfa2928b"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:48.000000Z"/>
+<entry
+   name="CVS"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="vgacon.c"
+   text-time="2008-02-22T08:23:48.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="7a10014bc5368a648b69038be57adfeb"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:48.000000Z"/>
+<entry
+   committed-rev="3"
+   name="promcon.c"
+   text-time="2008-02-22T08:23:48.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="8b5bb31b981bf95a87fdef1801310193"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:48.000000Z"/>
+<entry
+   committed-rev="3"
+   name="font_8x8.c"
+   text-time="2008-02-22T08:23:48.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="60fb0539898f605fba6600b8aafb22c4"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:48.000000Z"/>
+<entry
+   committed-rev="3"
+   name="font_sun8x16.c"
+   text-time="2008-02-22T08:23:48.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="bf7789f306c8eb391af8055c31c0a822"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:48.000000Z"/>
+<entry
+   committed-rev="3"
+   name="font_mini_4x6.c"
+   text-time="2008-02-22T08:23:48.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="346595e0b14d59c1e70eeed553b4f939"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:48.000000Z"/>
+<entry
+   committed-rev="3"
+   name="font_6x11.c"
+   text-time="2008-02-22T08:23:48.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="c189448e099d4cee886c2c7172640bb3"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:48.000000Z"/>
+<entry
+   committed-rev="3"
+   name="prom.uni"
+   text-time="2008-02-22T08:23:48.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="2bb38a2cefde52cf759d96043b956678"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:48.000000Z"/>
+<entry
+   committed-rev="3"
+   name="fbcon.c"
+   text-time="2008-02-22T08:23:48.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="419fb59e3bd29af160c904cc12dacdf0"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:48.000000Z"/>
+<entry
+   committed-rev="3"
+   name="fonts.c"
+   text-time="2008-02-22T08:23:48.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="156f035ab43a24f81745211c921093c7"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:48.000000Z"/>
+<entry
+   committed-rev="3"
+   name="font_sun12x22.c"
+   text-time="2008-02-22T08:23:48.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="6dc7610dd2ce197c1f7f10d5c4f33fd9"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:48.000000Z"/>
+<entry
+   committed-rev="3"
+   name="dummycon.c"
+   text-time="2008-02-22T08:23:48.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="5dd2279855e90b7579d6eaec6ea72aea"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:48.000000Z"/>
+<entry
+   committed-rev="3"
+   name="font_8x16.c"
+   text-time="2008-02-22T08:23:48.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="ddd251b11302ce2061000dd57d615093"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:48.000000Z"/>
+<entry
+   committed-rev="3"
+   name="fbcon.h"
+   text-time="2008-02-22T08:23:48.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="2d0537aaebf41255d8c5ef4fbae66123"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:48.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Makefile"
+   text-time="2008-02-22T08:23:48.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="180b0bd71df44c23aece9ad9fb7bc7dc"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:48.000000Z"/>
+<entry
+   committed-rev="3"
+   name=".cvsignore"
+   text-time="2008-02-22T08:23:48.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="d8b65572e25962faaf07c20bb34d224e"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:48.000000Z"/>
+<entry
+   committed-rev="3"
+   name="newport_con.c"
+   text-time="2008-02-22T08:23:48.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="c5be8a3293b34b521da5f265ca2eb41e"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:48.000000Z"/>
+</wc-entries>

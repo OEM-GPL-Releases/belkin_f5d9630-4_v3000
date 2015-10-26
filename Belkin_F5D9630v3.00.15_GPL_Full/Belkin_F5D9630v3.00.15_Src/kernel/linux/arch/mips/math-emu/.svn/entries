@@ -1,0 +1,448 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/kernel/linux/arch/mips/math-emu"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   committed-rev="3"
+   name="sp_mul.c"
+   text-time="2008-02-22T08:23:12.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="adddcddc40ef9edf3b93f4c31693cd09"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:12.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ieee754dp.h"
+   text-time="2008-02-22T08:23:12.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="6fef1f6cb36a7b94716011dc1e8212c9"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:12.000000Z"/>
+<entry
+   committed-rev="3"
+   name="dp_tint.c"
+   text-time="2008-02-22T08:23:12.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="7bf809746cf855603c9e8ec051e863df"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:12.000000Z"/>
+<entry
+   committed-rev="3"
+   name="dp_cmp.c"
+   text-time="2008-02-22T08:23:12.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="593a4d1ea61e6b986c9d57a6b0773698"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:12.000000Z"/>
+<entry
+   committed-rev="3"
+   name="sp_fint.c"
+   text-time="2008-02-22T08:23:12.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="d624f4eee030c68c05154ca6d9efc459"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:12.000000Z"/>
+<entry
+   committed-rev="3"
+   name="dp_div.c"
+   text-time="2008-02-22T08:23:12.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="60a8ba5688ca67d2a02429320c73b87f"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:12.000000Z"/>
+<entry
+   committed-rev="3"
+   name="dp_tlong.c"
+   text-time="2008-02-22T08:23:12.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="247dbcd50928932423b9649c15f5aec6"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:12.000000Z"/>
+<entry
+   committed-rev="3"
+   name="dp_logb.c"
+   text-time="2008-02-22T08:23:12.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="eae0124460515ac66ccafec9a0787a79"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:12.000000Z"/>
+<entry
+   committed-rev="3"
+   name="dp_frexp.c"
+   text-time="2008-02-22T08:23:12.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="8625dcc5a11c10d66452ee36f5289776"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:12.000000Z"/>
+<entry
+   committed-rev="3"
+   name="dp_scalb.c"
+   text-time="2008-02-22T08:23:12.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="170e8acd25a2d12301958e00a407c676"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:12.000000Z"/>
+<entry
+   committed-rev="3"
+   name="dp_modf.c"
+   text-time="2008-02-22T08:23:12.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="1170e9c70a61e96877a18b9479ce7e13"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:12.000000Z"/>
+<entry
+   committed-rev="3"
+   name="kernel_linkage.c"
+   text-time="2008-02-22T08:23:12.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="92b7e2842c91145cb7d85ab536587d0f"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:12.000000Z"/>
+<entry
+   committed-rev="3"
+   name="sp_fdp.c"
+   text-time="2008-02-22T08:23:12.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="697a4445ad47bd0f943edc4e87620149"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:12.000000Z"/>
+<entry
+   committed-rev="3"
+   name="dp_fsp.c"
+   text-time="2008-02-22T08:23:12.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="d2b735e1e99c9e893df34dd8dca844e3"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:12.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ieee754d.c"
+   text-time="2008-02-22T08:23:12.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="7cb83eeb1c0a913d7f09e535fa0085c1"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:12.000000Z"/>
+<entry
+   committed-rev="3"
+   name="dp_add.c"
+   text-time="2008-02-22T08:23:12.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="d71112bb14e2e7bb54eae80fc7e67205"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:12.000000Z"/>
+<entry
+   committed-rev="3"
+   name="dp_simple.c"
+   text-time="2008-02-22T08:23:12.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="59c47f6fb800ed069671fc2eac114a37"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:12.000000Z"/>
+<entry
+   committed-rev="3"
+   name="dp_sub.c"
+   text-time="2008-02-22T08:23:12.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="9c7c6f071211f5c8086f290acb7a1457"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:12.000000Z"/>
+<entry
+   committed-rev="3"
+   name="sp_tint.c"
+   text-time="2008-02-22T08:23:12.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="62f82b862a79955c00325e76e4c7869d"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:12.000000Z"/>
+<entry
+   committed-rev="3"
+   name="dp_mul.c"
+   text-time="2008-02-22T08:23:12.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="370fd497ddb1fe90263852c696701bb8"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:12.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ieee754m.c"
+   text-time="2008-02-22T08:23:12.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="1ca680d6a3a3d0188b31d29a0ac1e222"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:12.000000Z"/>
+<entry
+   committed-rev="3"
+   name="sp_logb.c"
+   text-time="2008-02-22T08:23:12.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="a7bb0ffa7c8d7ca85e6a7f2a5b1a8bfb"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:12.000000Z"/>
+<entry
+   committed-rev="3"
+   name="sp_modf.c"
+   text-time="2008-02-22T08:23:12.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="b8e2333cb7ccaa23bcd4443a59fc3b30"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:12.000000Z"/>
+<entry
+   committed-rev="3"
+   name="dsemul.c"
+   text-time="2008-02-22T08:23:12.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="f480fa9d51f007e1ad438337c2962bc7"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:12.000000Z"/>
+<entry
+   committed-rev="3"
+   name="sp_simple.c"
+   text-time="2008-02-22T08:23:12.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="767f4f1566bd33eb13bf600012843d55"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:12.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Makefile"
+   text-time="2008-02-22T08:23:12.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="83069dff5100240c189fd95997d4d042"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:12.000000Z"/>
+<entry
+   committed-rev="3"
+   name=".cvsignore"
+   text-time="2008-02-22T08:23:12.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="d8b65572e25962faaf07c20bb34d224e"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:12.000000Z"/>
+<entry
+   committed-rev="3"
+   name="dsemul.h"
+   text-time="2008-02-22T08:23:12.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="3a6f96157d27851f01a3dbeb6ea6d582"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:12.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ieee754xcpt.c"
+   text-time="2008-02-22T08:23:12.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="a1d9092a2a0d7a6214a73ec6e7aecd28"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:12.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ieee754.c"
+   text-time="2008-02-22T08:23:12.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="412c40adf2f02a611de03e9919cee81b"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:12.000000Z"/>
+<entry
+   committed-rev="3"
+   name="sp_flong.c"
+   text-time="2008-02-22T08:23:12.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="5d5e5ab018f10b9ed2e0edfbb4af49c9"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:12.000000Z"/>
+<entry
+   name="CVS"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="ieee754sp.c"
+   text-time="2008-02-22T08:23:12.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="80ba1e81200609affc69743dd14c9f83"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:12.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ieee754.h"
+   text-time="2008-02-22T08:23:12.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="56b926fb9b7a810b4654d8966d3f4cf5"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:12.000000Z"/>
+<entry
+   committed-rev="3"
+   name="dp_sqrt.c"
+   text-time="2008-02-22T08:23:12.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="d97bf213a8e042a381d498cb108f5f32"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:12.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ieee754sp.h"
+   text-time="2008-02-22T08:23:12.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="c941574f8643519dd7c1e12fecee20c4"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:12.000000Z"/>
+<entry
+   committed-rev="3"
+   name="sp_cmp.c"
+   text-time="2008-02-22T08:23:12.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="6de4acbf2884e7dfc50a69fe42256d6b"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:12.000000Z"/>
+<entry
+   committed-rev="3"
+   name="dp_fint.c"
+   text-time="2008-02-22T08:23:12.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="6433a2ac36fe7a979c37896cc66208f3"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:12.000000Z"/>
+<entry
+   committed-rev="3"
+   name="sp_div.c"
+   text-time="2008-02-22T08:23:12.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="d07e177ef0f4b12c82acd8d51fc4bfcc"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:12.000000Z"/>
+<entry
+   committed-rev="3"
+   name="sp_tlong.c"
+   text-time="2008-02-22T08:23:12.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="0f1396c7046d6c8ac7743d72d1f19a60"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:12.000000Z"/>
+<entry
+   committed-rev="3"
+   name="sp_frexp.c"
+   text-time="2008-02-22T08:23:12.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="d134ad5b6d34a166f9588f60d91f5a2e"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:12.000000Z"/>
+<entry
+   committed-rev="3"
+   name="sp_scalb.c"
+   text-time="2008-02-22T08:23:12.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="edd5303ee80d236fc98bf9daacd79750"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:12.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ieee754int.h"
+   text-time="2008-02-22T08:23:12.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="d0307cdea053ed32cf8af3fc27009d80"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:12.000000Z"/>
+<entry
+   committed-rev="3"
+   name="dp_flong.c"
+   text-time="2008-02-22T08:23:12.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="2161cfe9d8e562a0a4d0e7eaf60d5afc"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:12.000000Z"/>
+<entry
+   committed-rev="3"
+   name="cp1emu.c"
+   text-time="2008-02-22T08:23:12.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="e0d25f55736a5e003b48c8c2c7ef2bb9"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:12.000000Z"/>
+<entry
+   committed-rev="3"
+   name="sp_add.c"
+   text-time="2008-02-22T08:23:12.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="49fc8f6993174f11e51f51f0acf7a7d6"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:12.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ieee754dp.c"
+   text-time="2008-02-22T08:23:12.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="918a3f965c61f926f859a868e591bc73"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:12.000000Z"/>
+<entry
+   committed-rev="3"
+   name="sp_sqrt.c"
+   text-time="2008-02-22T08:23:12.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="c2f03aaa64204a421c17482d72a29202"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:12.000000Z"/>
+<entry
+   committed-rev="3"
+   name="sp_sub.c"
+   text-time="2008-02-22T08:23:12.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="760f2998c1118be5e94231d78ef27ea7"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:12.000000Z"/>
+</wc-entries>

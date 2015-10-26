@@ -1,0 +1,164 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<link rel="stylesheet" href="main_router.css" type='text/css'>
+<head>
+<title>ATE TEST</title>
+<script language="javascript">
+
+var channel = '<%ejGetWl(wlChannel)%>';
+var power = '<%ejGetWl(ateTxpower)%>'
+var rate = '<%ejGetWl(ateTxrate)%>';
+var len = '<%ejGetWl(ateTxlen)%>';	
+var da = '<%ejGetWl(ateDa)%>';
+var sa = '<%ejGetWl(ateSa)%>';
+var bssid = '<%ejGetWl(ateBssid)%>';
+var txcont = '<%ejGetWl(ateTxcnt)%>';
+
+
+function stop_ap()
+{
+	var loc = 'ate.wl?AP_Stop=1';
+	window.location = loc;
+}
+
+function btnApply(val)
+{
+	with(document.forms[0])
+	{
+		var loc = 'ate.wl?';
+		loc += 'wlChannel='+Cur_channel.value;
+		loc += '&ateTxpower='+tx_power.value+'&ateTxrate='+tx_rate.value+'&ateTxlen='+length_packet.value;
+		loc += '&ateDa='+ate_da.value+'&ateSa='+ate_sa.value+'&ateBssid='+ate_ssid.value+'&ateTxcnt='+tx_count.value;	
+		loc += '&'+val+'=1';
+		window.location = loc;
+	}
+}
+
+function start_ap()
+{
+    passForm.button_val.value=6;
+	passForm.submit();
+
+}
+
+function frmLoad() 
+{
+
+	with(document.forms[0])
+	{
+		Cur_channel.value = channel;
+		
+		if(power == '0')	
+			tx_power.value = '16';
+		else
+			tx_power.value = power;
+		
+		if(rate == '0')
+			tx_rate.value = '11';
+		else	
+			tx_rate.value = rate;
+		
+		if(len == '0')	
+			length_packet.value = '1500';
+		else
+			length_packet.value = len;
+		
+		if(da == '')
+			ate_da.value = "00:11:22:33:44:55";
+		else
+			ate_da.value = da;
+				
+		if(sa == '')
+			ate_sa.value = "00:11:22:33:44:55";
+		else
+			ate_sa.value = sa;
+		
+		ate_ssid.value = bssid;
+		
+		if(txcont == '0')
+			tx_count.value = '1000';		
+		else
+			tx_count.value = txcont;		
+	}	
+
+}
+</script>
+</head>
+
+<body onLoad="frmLoad()">
+<form >
+<table width="524" border="0" cellpadding="0" cellspacing="0">
+<tr>
+	<td width="33" height="35"></td>
+	<Td width="119" class="copy_1">Current Channel:</Td>
+	<td width="372" class="copy_1"><input name="Cur_channel" type="text"  size="10"> (1~13,default 6)</td>
+</tr>
+
+<tr>
+	<td height="32"></td>
+	<Td width="119" class="copy_1">Power:</Td>
+	<td width="372" class="copy_1"><input name="tx_power" type="text" size="10"> (0~31,default 16)</td>
+</tr>
+
+<tr>
+	<td height="30"></td>
+	<Td width="119" class="copy_1">Rate:</Td>
+	<td width="372" class="copy_1"><input name="tx_rate" type="text" size="10"> (0:1Mbps~11:54Mbps,default 11)</td>
+</tr>
+
+<tr>
+	<td height="33"></td>
+	<Td width="119" class="copy_1">Length:</Td>
+	<td width="372" class="copy_1"><input name="length_packet" type="text" size="10" > (24~1500,default 1500)</td>
+</tr>
+
+<tr>
+	<td></td>
+	<Td width="119" class="copy_1">DA:</Td>
+	<td width="372" class="copy_1"><input name="ate_da" type="text"  size="20"> (default 00:11:22:33:44:55)</td>
+</tr>
+ 
+<tr>
+	<td height="31"></td>
+	<Td width="119" class="copy_1">SA:</Td>
+	<td width="372" class="copy_1"><input name="ate_sa" type="text" size="20"> (default 00:11:22:33:44:55)</td>
+</tr>
+ 
+<tr>
+	<td height="25"></td>
+	<Td width="119" class="copy_1">SSID:</Td>
+	<td width="372" class="copy_1"><input name="ate_ssid" type="text"  size="20"></td>
+</tr>
+
+<tr>
+	<td></td>
+	<Td width="119" class="copy_1">Tx count:</Td>
+	<td width="372" class="copy_1"><input name="tx_count" type="text"  size="20"> (1~, default: 1000)</td>
+</tr>
+ 
+</table>
+ 
+<Br><br><br>
+
+<table>
+<tr height="25" >
+<td width="55" ><input name="apply" type="button" value="Stop AP" style="font-size: 10pt" onClick="stop_ap();"></td>
+<td width="114" ><input name="apply" type="button" value="Continuous Tx" style="font-size: 10pt" onClick="btnApply('con_tx');"></td>
+<td width="105" ><input name="apply" type="button" value="Tx carrier test" style="font-size: 10pt" onClick="btnApply('carrier_check');"></td>
+<td width="99" ><input name="apply" type="button" value="EVM and Power" style="font-size: 10pt" onClick="btnApply('evm');"></td>
+<td width="88" ><input name="apply" type="button" value="Continuous Rx" style="font-size: 10pt" onClick="btnApply('con_rx');"></td>
+<td width="88" ><input name="apply" type="button" value="Start AP" style="font-size: 10pt" onClick="start_ap();"></td>
+</tr>
+
+
+
+</table>
+
+
+
+</form>
+<br>
+<hr>
+
+</body>
+</html>

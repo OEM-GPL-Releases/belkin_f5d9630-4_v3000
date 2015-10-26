@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/kernel/linux/drivers/input/joystick"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   committed-rev="3"
+   name="spaceorb.c"
+   text-time="2008-02-22T08:23:41.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="ce462e0d17d851dd9822375a696f1a85"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:40.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Kconfig"
+   text-time="2008-02-22T08:23:41.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="1656fe5c9a72e33addd190cd5961fd89"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:40.000000Z"/>
+<entry
+   committed-rev="3"
+   name="analog.c"
+   text-time="2008-02-22T08:23:41.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="52e4f2b50486338a4128063c299fae58"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:40.000000Z"/>
+<entry
+   committed-rev="3"
+   name="grip.c"
+   text-time="2008-02-22T08:23:41.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="473d68d99400405278af5c34de49b9c9"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:40.000000Z"/>
+<entry
+   committed-rev="3"
+   name="guillemot.c"
+   text-time="2008-02-22T08:23:41.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="3d69788a8f9f24694eb16209e7171849"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:40.000000Z"/>
+<entry
+   committed-rev="3"
+   name="a3d.c"
+   text-time="2008-02-22T08:23:41.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="7141c8b11dde3632b22cbef68122bbf1"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:40.000000Z"/>
+<entry
+   committed-rev="3"
+   name="interact.c"
+   text-time="2008-02-22T08:23:41.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="bf6a1c20db0ab431bf1164a3caaad601"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:40.000000Z"/>
+<entry
+   committed-rev="3"
+   name="gamecon.c"
+   text-time="2008-02-22T08:23:41.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="90f26d2fb4e48ba32f37954fbc03c6b2"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:40.000000Z"/>
+<entry
+   name="CVS"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="stinger.c"
+   text-time="2008-02-22T08:23:41.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="6a5d5d960a7c1c484146b24d25678ad6"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:40.000000Z"/>
+<entry
+   committed-rev="3"
+   name="db9.c"
+   text-time="2008-02-22T08:23:41.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="b1ea1966232ae47abecc761964565bb2"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:40.000000Z"/>
+<entry
+   committed-rev="3"
+   name="magellan.c"
+   text-time="2008-02-22T08:23:41.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="3066b6dc942a6d65729ce1cb999550ec"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:40.000000Z"/>
+<entry
+   committed-rev="3"
+   name="turbografx.c"
+   text-time="2008-02-22T08:23:41.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="6a6ea85b78fb3e4c44e0fc9896604438"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:41.000000Z"/>
+<entry
+   committed-rev="3"
+   name="warrior.c"
+   text-time="2008-02-22T08:23:41.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="a3b3cd07df3652ac23e16793eb33a3f2"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:41.000000Z"/>
+<entry
+   name="iforce"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="cobra.c"
+   text-time="2008-02-22T08:23:41.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="eee6dbd0e63745522fc737b40dd4732e"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:41.000000Z"/>
+<entry
+   committed-rev="3"
+   name="spaceball.c"
+   text-time="2008-02-22T08:23:41.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="a40e8b31fd5a43d643b95a5b05a366f9"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:41.000000Z"/>
+<entry
+   committed-rev="3"
+   name="joydump.c"
+   text-time="2008-02-22T08:23:41.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="bf8d83b9094bad8cedc5c6d5de3ccd97"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:41.000000Z"/>
+<entry
+   committed-rev="3"
+   name="tmdc.c"
+   text-time="2008-02-22T08:23:41.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="1b75cd8f012dd6cf6dde1f3ef0a5e5cf"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:41.000000Z"/>
+<entry
+   committed-rev="3"
+   name="amijoy.c"
+   text-time="2008-02-22T08:23:41.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="5cb59e1f47d346a1f654b9ffea2ded80"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:41.000000Z"/>
+<entry
+   committed-rev="3"
+   name="gf2k.c"
+   text-time="2008-02-22T08:23:41.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="a17ee135242e5bb30e0ca577c2e23fb3"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:41.000000Z"/>
+<entry
+   committed-rev="3"
+   name="twidjoy.c"
+   text-time="2008-02-22T08:23:41.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="3cded20a39914b35deb9a9bf0f3ce5bd"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:41.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Makefile"
+   text-time="2008-02-22T08:23:41.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="27e444a982ada97f7b749ebfe05c1c20"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:41.000000Z"/>
+<entry
+   committed-rev="3"
+   name=".cvsignore"
+   text-time="2008-02-22T08:23:41.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="d8b65572e25962faaf07c20bb34d224e"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:41.000000Z"/>
+<entry
+   committed-rev="3"
+   name="grip_mp.c"
+   text-time="2008-02-22T08:23:41.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="840e16b78e3d14cd0457723435d32ed7"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:41.000000Z"/>
+<entry
+   committed-rev="3"
+   name="adi.c"
+   text-time="2008-02-22T08:23:41.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="b2098d62b02434ee5320094134d5e172"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:41.000000Z"/>
+<entry
+   committed-rev="3"
+   name="sidewinder.c"
+   text-time="2008-02-22T08:23:41.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="8790fd265b5986b6eb6bc99a7d54e911"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:41.000000Z"/>
+</wc-entries>

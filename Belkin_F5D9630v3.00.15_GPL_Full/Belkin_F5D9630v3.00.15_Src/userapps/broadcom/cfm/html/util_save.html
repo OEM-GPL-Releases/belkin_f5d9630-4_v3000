@@ -1,0 +1,72 @@
+<html>
+   <head>
+      <meta HTTP-EQUIV='Pragma' CONTENT='no-cache'>
+	  <meta http-equiv="refresh" content="<%ejGet(timeout_refresh)%>">
+<link rel="stylesheet" href="main_router.css" type='text/css'>
+
+		<%ejGet("curLanguage")%>
+		<SCRIPT>assign_var();</SCRIPT>
+
+<SCRIPT language=JavaScript src="showMenu.js"></SCRIPT>
+            <script language="javascript" src="util.js"></script>
+            <script language="javascript">
+<!-- hide
+strHtml='<title>'+utm_1+' &gt; '+utss_1+'</title>';
+dw(strHtml);
+
+
+var autoup = '<%ejGet(autoUpgrade_flag)%>';
+
+if(autoup == '1')
+{
+	newwin=window.open("checkfw.html","Firmware","toolbar=no,location=no,directories=no,status=no,menubar=no,scrollbars=yes,width=395,height=200,resizable=0");
+	newwin.focus();
+}
+
+
+
+function backupClick() {
+   var loc = 'user.conf';
+   window.location.href = loc;
+}
+// done hiding -->
+</script>
+   </head>
+   <body  bgColor="#ffffff" leftMargin="0" topMargin="0" marginheight="0" marginwidth="0">
+         <form>
+       <SCRIPT language=JavaScript>
+	var helpItem 	='Save/Backup Settings';
+	var menuSection	='Util';
+	var menuItem	='Save/Backup Settings';
+	var isAPmode = '<%ejGet(enblNat)%>';
+		
+	var wanStatus = '<%ejGetOther(isUp)%>';
+	showHead(wanStatus,helpItem);
+	showMenu(menuSection,menuItem,isAPmode)
+	</SCRIPT>  
+<TD class=head_bold width="90%" valign="top"><Br>
+<font class="head_bold"><b>&nbsp;&nbsp;&nbsp;<script>dw(utm_1);</script> &gt; <script>dw(utss_1);</script></b></font><Br><br>
+
+
+               <table width="622" height="24" border="0" cellpadding="0" cellspacing="0">
+                  <tr>
+				  	 <Td width="15"></Td>
+                     <td width="607" class="copy_1"><script>dw(utss_2);</script></td>
+				 </tr>	 
+	</table>
+<br>
+            <table width="572" height="43">
+              <tr><td width="236"></td>
+              <td width="324">
+			  	<script>
+					var info="<input type='button' style='height:22px; width:120px' value='"+utss_3+"' onClick='backupClick()' class='submitBtn'>";
+					dw(info);				
+				</script>
+             
+    </tr></table>
+			 
+		  </TD></TR></TBODY></TABLE></TD>
+			 
+         </form>
+   </body>
+</html>

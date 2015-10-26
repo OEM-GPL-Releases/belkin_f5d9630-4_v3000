@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/kernel/linux/arch/m68k/mm"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   committed-rev="3"
+   name="hwtest.c"
+   text-time="2008-02-22T08:22:27.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="32fc9e25ed662d5052fc72fb0c042874"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:27.000000Z"/>
+<entry
+   committed-rev="3"
+   name="sun3kmap.c"
+   text-time="2008-02-22T08:22:27.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="4ae6002d476e3ec63b78498cbd3d98a2"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:27.000000Z"/>
+<entry
+   committed-rev="3"
+   name="init.c"
+   text-time="2008-02-22T08:22:27.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="220785495826ebc9f90f4fda3091710c"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:27.000000Z"/>
+<entry
+   committed-rev="3"
+   name="sun3mmu.c"
+   text-time="2008-02-22T08:22:27.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="ce0f1c95c68e2170e2672c7ac09fe99a"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:27.000000Z"/>
+<entry
+   committed-rev="3"
+   name="kmap.c"
+   text-time="2008-02-22T08:22:27.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="e87a4c172a3c3fc179a40034e39a5320"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:27.000000Z"/>
+<entry
+   committed-rev="3"
+   name="memory.c"
+   text-time="2008-02-22T08:22:27.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="544b1f3b949323ae979cbdda80b6902c"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:27.000000Z"/>
+<entry
+   name="CVS"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="fault.c"
+   text-time="2008-02-22T08:22:27.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="030ce1486e43d5cdde97608b81395b5a"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:27.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Makefile"
+   text-time="2008-02-22T08:22:27.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="3990c0c0b9eb1a42f3bad55d402d2d4b"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:27.000000Z"/>
+<entry
+   committed-rev="3"
+   name="motorola.c"
+   text-time="2008-02-22T08:22:27.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="c3483b2bde2aa906a3725ec3ad1b04c3"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:27.000000Z"/>
+</wc-entries>

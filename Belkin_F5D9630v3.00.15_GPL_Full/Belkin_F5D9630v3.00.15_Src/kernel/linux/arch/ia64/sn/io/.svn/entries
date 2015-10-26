@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/kernel/linux/arch/ia64/sn/io"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   name="sn2"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="cdl.c"
+   text-time="2008-02-22T08:22:54.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="53e7cc68b5f76b45bcb218d0d4b0bcdc"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:53.000000Z"/>
+<entry
+   name="machvec"
+   kind="dir"/>
+<entry
+   name="platform_init"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="io.c"
+   text-time="2008-02-22T08:22:54.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="d5541f793aa7bf7b5cf36d3700306e06"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:53.000000Z"/>
+<entry
+   committed-rev="3"
+   name="snia_if.c"
+   text-time="2008-02-22T08:22:54.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="daa726bbfbab5b2c01c4a15c47c78c03"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:53.000000Z"/>
+<entry
+   committed-rev="3"
+   name="xswitch.c"
+   text-time="2008-02-22T08:22:54.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="f80a6e36568f2ef3f4bbfc40ac52d12e"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:53.000000Z"/>
+<entry
+   name="CVS"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="Makefile"
+   text-time="2008-02-22T08:22:54.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="4cc9359f410188007815fbeaa5b47f15"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:53.000000Z"/>
+<entry
+   name="drivers"
+   kind="dir"/>
+<entry
+   name="hwgfs"
+   kind="dir"/>
+</wc-entries>

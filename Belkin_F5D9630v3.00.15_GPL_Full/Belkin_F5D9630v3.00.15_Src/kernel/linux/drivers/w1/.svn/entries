@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/kernel/linux/drivers/w1"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   committed-rev="3"
+   name="Kconfig"
+   text-time="2008-02-22T08:23:30.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="3c440b7d42f140b91a95ecc0d0687f94"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:30.000000Z"/>
+<entry
+   committed-rev="3"
+   name="w1_int.c"
+   text-time="2008-02-22T08:23:30.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="946c97572f14d10619c0716d066ec53d"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:30.000000Z"/>
+<entry
+   committed-rev="3"
+   name="w1_int.h"
+   text-time="2008-02-22T08:23:30.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="db0f81ae13d0f7ac1415929861ef44e4"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:30.000000Z"/>
+<entry
+   name="CVS"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="w1_netlink.c"
+   text-time="2008-02-22T08:23:30.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="5bec8d9ccaa7bf546f399b0a474ccd32"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:30.000000Z"/>
+<entry
+   committed-rev="3"
+   name="w1_io.c"
+   text-time="2008-02-22T08:23:30.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="34adb976621f7c78ef8eb61a8ca7830c"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:30.000000Z"/>
+<entry
+   committed-rev="3"
+   name="w1_netlink.h"
+   text-time="2008-02-22T08:23:31.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="2eb0e8a0a3b4869c069e8d45917a94ae"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:30.000000Z"/>
+<entry
+   committed-rev="3"
+   name="matrox_w1.c"
+   text-time="2008-02-22T08:23:31.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="8ff13d751b5915e988bf5f881474c663"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:30.000000Z"/>
+<entry
+   committed-rev="3"
+   name="w1_io.h"
+   text-time="2008-02-22T08:23:31.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="4c3aeb0686a624e3d9f3b177b3d590ca"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:30.000000Z"/>
+<entry
+   committed-rev="3"
+   name="w1_therm.c"
+   text-time="2008-02-22T08:23:31.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="790c3e08811af379c6e5c477a6522d84"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:30.000000Z"/>
+<entry
+   committed-rev="3"
+   name="w1.c"
+   text-time="2008-02-22T08:23:31.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="46fddf9fba0e20b6363cf3a281721070"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:30.000000Z"/>
+<entry
+   committed-rev="3"
+   name="w1_family.c"
+   text-time="2008-02-22T08:23:31.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="236b1d1e2d77f3bea966971b0d78c96b"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:30.000000Z"/>
+<entry
+   committed-rev="3"
+   name=".cvsignore"
+   text-time="2008-02-22T08:23:31.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="735ab631b67b75d07a52edc9e01aed4c"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:30.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Makefile"
+   text-time="2008-02-22T08:23:31.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="67d3409e38dbf4d842a364f0dc7a4c67"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:30.000000Z"/>
+<entry
+   committed-rev="3"
+   name="w1.h"
+   text-time="2008-02-22T08:23:31.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="13addd5bbb7ac0df64a5961a0c6a68de"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:30.000000Z"/>
+<entry
+   committed-rev="3"
+   name="w1_log.h"
+   text-time="2008-02-22T08:23:31.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="db3d0e79e8ec64d566e3ac9f1cdab121"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:30.000000Z"/>
+<entry
+   committed-rev="3"
+   name="w1_family.h"
+   text-time="2008-02-22T08:23:31.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="424ab0cee74610fae01519f2184b1342"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:30.000000Z"/>
+</wc-entries>

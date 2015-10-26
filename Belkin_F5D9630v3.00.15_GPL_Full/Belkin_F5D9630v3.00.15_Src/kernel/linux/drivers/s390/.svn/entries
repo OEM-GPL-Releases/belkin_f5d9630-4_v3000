@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/kernel/linux/drivers/s390"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   name="crypto"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="Kconfig"
+   text-time="2008-02-22T08:23:40.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="d62e603eb234b1a3a1b0fcb1425ffe64"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:39.000000Z"/>
+<entry
+   name="scsi"
+   kind="dir"/>
+<entry
+   name="net"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="s390mach.c"
+   text-time="2008-02-22T08:23:40.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="fcd580c84ca5afd216142e77a8ed6404"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:39.000000Z"/>
+<entry
+   name="block"
+   kind="dir"/>
+<entry
+   name="cio"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="ebcdic.c"
+   text-time="2008-02-22T08:23:40.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="163d8fd0073cfcf15588821410e3022d"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:40.000000Z"/>
+<entry
+   name="CVS"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="sysinfo.c"
+   text-time="2008-02-22T08:23:40.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="fcfac0744ed00da9810e86978f6ba69b"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:40.000000Z"/>
+<entry
+   name="char"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="Makefile"
+   text-time="2008-02-22T08:23:40.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="61d90ef78b9fbaa34199c0b24064111e"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:40.000000Z"/>
+<entry
+   committed-rev="3"
+   name="s390mach.h"
+   text-time="2008-02-22T08:23:40.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="2b2a2fe2e1e90eecb18bc750db9ae6ac"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:40.000000Z"/>
+</wc-entries>

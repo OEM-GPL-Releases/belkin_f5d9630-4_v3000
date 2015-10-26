@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/kernel/linux/arch/cris/arch-v10/boot/compressed"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   committed-rev="3"
+   name="decompress.ld"
+   text-time="2008-02-22T08:22:43.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="583b83eab65c5be05140a22076a547b4"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:43.000000Z"/>
+<entry
+   committed-rev="3"
+   name="head.S"
+   text-time="2008-02-22T08:22:43.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="c48f6cc6ef8413921d2de5a2cd320797"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:43.000000Z"/>
+<entry
+   name="CVS"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="misc.c"
+   text-time="2008-02-22T08:22:43.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="76369bbadecf476a99f3b8622fe129cd"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:43.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Makefile"
+   text-time="2008-02-22T08:22:43.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="fbe45319e979180bf2a0c1087fc9835d"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:43.000000Z"/>
+<entry
+   committed-rev="3"
+   name="README"
+   text-time="2008-02-22T08:22:43.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="8086bdee36bbcf70e18aaea6b3d848d2"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:43.000000Z"/>
+</wc-entries>

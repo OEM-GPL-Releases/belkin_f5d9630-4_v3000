@@ -1,0 +1,529 @@
+<html>
+   <head>
+      <meta HTTP-EQUIV='Pragma' CONTENT='no-cache'>
+	  <meta http-equiv="refresh" content="<%ejGet(timeout_refresh)%>">
+         <link rel="stylesheet" href="main_router.css" type='text/css'>
+		 
+		<%ejGet("curLanguage")%>
+		<SCRIPT>assign_var();</SCRIPT>
+
+		 			<SCRIPT language=JavaScript src="showMenu.js"></SCRIPT>
+
+            <script language="javascript" src="util.js"></script>
+            <script language="javascript">
+<!-- hide
+strHtml='<title>'+wc_1+' &gt; '+wc_2+' &gt; '+wcd_1+'</title>';
+dw(strHtml);
+
+var prtcl = '<%ejGetOther(memInfo, ntwkPrtcl)%>';
+var eMode = '<%ejGet(encapMode)%>';
+var vpi = '<%ejGet(atmVpi)%>';
+var vci = '<%ejGet(atmVci)%>';
+var dhcpClnt = '<%ejGet(enblDhcpClnt)%>';
+var staticMer = '<%ejGet(StaticMER)%>';
+var addr = '<%ejGet(wanIpAddress)%>';
+if ( addr == '&nbsp' || addr == '') addr = '0.0.0.0';
+var mask = '<%ejGet(wanSubnetMask)%>';
+if ( mask == '&nbsp' || mask == '') mask = '0.0.0.0';
+var enblAuto = '<%ejGet(enblAuto)%>';
+var gtwyIfc = '<%ejGetOther(sysInfo, dfltGwIfc)%>';
+if ( gtwyIfc == '&nbsp' || gtwyIfc == '') gtwyIfc = '0.0.0.0';
+//var gtwy = '<%ejGetOther(sysInfo, dfltGw)%>';
+var gtwy = '<%ejGet(defaultGateway)%>';
+if ( gtwy == '&nbsp' || gtwy == '') gtwy = '0.0.0.0';
+var dnsAuto = '<%ejGetOther(sysInfo,dnsAuto)%>';
+var dnsDynamic ='<%ejGet(dnsDynamic)%>';
+var dns1Mem = '<%ejGet(dnsPrimary)%>';
+var dns1 = '<%ejGetOther(sysInfo, dns)%>';
+if ( dns1 == '&nbsp' )
+   dns1 = '';
+var dns2Mem = '<%ejGet(dnsSecondary)%>';
+var dns2 = '<%ejGetOther(sysInfo, dns2)%>';
+if ( dns2 == '&nbsp' )
+   dns2 = '';
+var qs = '<%ejGet(quickSetup)%>';
+var srvId = parseInt('<%ejGet(serviceId)%>');
+var eMode = '<%ejGet(encapMode)%>';
+var isWizard = '<%ejGet(wizardType)%>';
+
+var IPstring = '<%ejGet(ethIpAddress)%>';
+
+var enblNat = '<%ejGet(enblNat)%>';
+
+function disableGwInfo() {
+   with ( document.forms[0] ) {
+      defaultGateway0.disabled = 1;
+	  defaultGateway1.disabled = 1;
+	  defaultGateway2.disabled = 1;
+	  defaultGateway3.disabled = 1;
+      defaultGateway0.value = '0';
+	  defaultGateway1.value = '0';
+	  defaultGateway2.value = '0';
+	  defaultGateway3.value = '0';
+   }
+}
+
+function GwInfo(show) {
+  with ( document.forms[0] ) {
+    if (show) {
+	  defaultGateway0.disabled = 0;
+	  defaultGateway1.disabled = 0;
+	  defaultGateway2.disabled = 0;
+	  defaultGateway3.disabled = 0;
+	}
+	else {
+	  defaultGateway0.disabled = 1;	
+	  defaultGateway1.disabled = 1;	
+	  defaultGateway2.disabled = 1;	
+	  defaultGateway3.disabled = 1;	
+	  
+	  //defaultGateway.disabled = 1;	
+	}
+  }
+}
+
+
+function enableGwInfo() {
+   with ( document.forms[0] ) {
+   
+   var dot=".";
+   var IPstring = gtwy;
+   var arrayOfStrings;
+   
+   arrayOfStrings = IPstring.split(dot)
+   
+   defaultGateway0.value = arrayOfStrings[0];
+   defaultGateway1.value = arrayOfStrings[1];
+   defaultGateway2.value = arrayOfStrings[2];
+   defaultGateway3.value = arrayOfStrings[3];
+   
+	  defaultGateway0.disabled = 0;
+	  defaultGateway1.disabled = 0;
+	  defaultGateway2.disabled = 0;
+	  defaultGateway3.disabled = 0;
+      
+   }
+}
+
+function gwClick(cb) {
+   with ( document.forms[0] ) {
+      //if ( gw[0].checked == true )
+      if ( cb.checked == false )
+         //disableGwInfo();
+		 GwInfo(0);
+      else
+         //enableGwInfo();
+		 GwInfo(1);
+   }
+}
+
+function frmLoad() 
+{
+   with ( document.forms[0] ) 
+   {
+      encSel.options[0].text = wcp_12;
+      encSel.options[1].text = wcp_13;
+      encSel.selectedIndex = eMode;
+	  
+	  atmVpi.value = vpi;
+	  atmVci.value = vci;
+
+	  	if(staticMer == '1')	//static mer
+	  	{
+	  		ip_assign.selectedIndex =1;
+			isp_assign();
+						 
+			 var wanip = addr.split(".");
+			 IP_0.value = wanip[0];
+			 IP_1.value = wanip[1];
+			 IP_2.value = wanip[2];
+			 IP_3.value = wanip[3];
+			
+			 var wanmask = mask.split(".");
+			 Mask_0.value = wanmask[0];
+			 Mask_1.value = wanmask[1];
+			 Mask_2.value = wanmask[2];
+			 Mask_3.value = wanmask[3];
+			 
+			 var wangw = gtwy.split(".");
+			 GW_0.value = wangw[0];
+			 GW_1.value = wangw[1];
+			 GW_2.value = wangw[2];
+			 GW_3.value = wangw[3];
+			 
+		}	
+	  	else
+		{
+	  		ip_assign.selectedIndex =0;
+			isp_assign();
+			
+			if ( gtwy == '0.0.0.0' ) 
+			{         
+		 		gw.checked = false;
+         		disableGwInfo();
+      		} 
+			else 
+			{         
+		 		gw.checked = true;
+         		enableGwInfo();
+      		}
+		
+		}	
+   }
+}
+
+function btnNext() {
+   var loc,default_gw;
+   
+   if (enblNat== '1')
+     loc = 'ntwksum2.cgi?';
+   else
+     loc = 'ntwksum2.cgi?enblNat=1&ntwkPrtcl=2&';
+
+   with ( document.forms[0] ) 
+   {
+		if ( isNaN(atmVpi.value) == true || isValidNum(atmVpi.value) == false) 
+		{
+			alert('VPI "' + atmVpi.value + '" is invalid.');
+		 	return;
+		}
+		if ( isNaN(atmVci.value) == true || isValidNum(atmVci.value) == false) 
+		{
+			alert('VCI "' + atmVci.value + '" is invalid.');
+			return;
+		}
+		
+		vpi = parseInt(atmVpi.value);
+		
+		if ( vpi < 0 || vpi > 255 ) 
+		{
+			alert('VPI "' + atmVpi.value + '" is out of range [0-255].');
+			return;
+		}
+		
+		vci = parseInt(atmVci.value);
+		
+		if ( vci < 32 || vci > 65535 ) 
+		{
+			alert('VCI "' + atmVci.value + '" is out of range [32-65535].');
+			return;
+		}
+
+
+
+   		if(ip_assign.selectedIndex == '1')
+		{
+			wanip = IP_0.value +'.'+  IP_1.value +'.'+ IP_2.value +'.'+ IP_3.value ; 
+			wanmask = Mask_0.value +'.'+  Mask_1.value +'.'+ Mask_2.value +'.'+ Mask_3.value ; 
+			wangw = GW_0.value +'.'+  GW_1.value +'.'+ GW_2.value +'.'+ GW_3.value ; 
+			
+           	if ( isValidIpAddress(wanip) == false ) 
+			{
+           		alert(wcd_2);
+           		return;
+           	}
+
+      		if ( isValidSubnetMask(wanmask) == false ||  wanmask == '255.255.255.255') 
+			{
+         		alert(wcd_3);
+        	 	return;
+      		}
+			
+           	if ( isValidIpAddress(wangw) == false ) 
+			{
+           		alert(wcd_4);
+           		return;
+           	}
+			if(isSameSubNet(wanip,wanmask,wangw,wanmask) == false)	
+			{
+				alert(wcd_4);
+				return;			
+			}
+			
+			loc += 'enblDhcpClnt=0'; 
+			loc += '&StaticMER=1'; 
+			loc += '&wanIpAddress='+wanip;
+			loc += '&wanSubnetMask='+wanmask;
+			loc += '&defaultGateway='+wangw;
+			loc += '&wanIfName=&enblAuto=0'
+        	loc += '&dnsDynamic=0';
+			
+		
+		}
+		else
+		{
+			default_gw =  defaultGateway0.value +'.'+  defaultGateway1.value +'.'+ defaultGateway2.value +'.'+ defaultGateway3.value ; 
+			loc += 'enblDhcpClnt=1&StaticMER=0';   // auto WAN address
+      
+	  		// default gateway
+      		if ( gw.checked == true ) 
+			{
+            	if ( isValidIpAddress(default_gw) == false ) 
+				{
+            		alert(wcd_4);
+               		return;
+            	}
+            	loc += '&defaultGateway=' + default_gw;
+				loc +='&wanIpAddress=0.0.0.0&wanSubnetMask=0.0.0.0'
+            	loc += '&wanIfName=';
+         		loc += '&enblAuto=0';
+      		} 
+			else 
+			{
+         		loc += '&defaultGateway=0.0.0.0';
+         		loc += '&wanIfName=';
+         		loc += '&enblAuto=1';
+      		}
+			
+        	loc += '&dnsPrimary=0.0.0.0';
+        	loc += '&dnsSecondary=0.0.0.0';
+        	loc += '&dnsDynamic=1';
+			
+		}
+
+      	loc += '&atmVpi=' + atmVpi.value;
+      	loc += '&atmVci=' + atmVci.value;
+	  	loc += '&atmServiceCategory=UBR';
+      	loc += '&encapMode=' + encSel.options[encSel.selectedIndex].value;
+		loc += '&usrPassword=pass';
+
+   }
+
+   window.location.href = loc;
+}
+
+function btnBack() {
+  //window.history.back();
+  var isWizard = '<%ejGet(wizardType)%>';
+  if (isWizard== '1')
+    window.location = 'ispcountry.html';
+  else
+    window.location = 'ntwkprtcl.html';
+}
+
+function isp_assign()
+{
+	
+	var info = "";
+	
+	with(document.forms[0])
+	{
+		if(ip_assign.selectedIndex == 1)
+		{
+			info += "<Tr>\n";
+			info += "<td>\n";
+			info += "<table border='0' height='20' cellpadding='0' cellspacing='0' width='551'>\n";
+			info += "<tr>\n";
+			info += "<td width='12'></td>\n";
+			info += "<td width='121' class='copy_1'><b>"+ls_4+"</b></td>\n";
+			info += "<td width='398'><input type='text' name='IP_0' size='4' maxlength='3'>.<input type='text' name='IP_1' size='4' maxlength='3'>\n";
+			info += "<input type='text' name='IP_2' size='4' maxlength='3'>.<input type='text' name='IP_3' size='4' maxlength='3'></td>\n";
+			info += "</tr>\n";
+			info += "<tr>\n";
+			info += "<td></td>\n";
+			info += "<td class='copy_1'><b>"+ls_6+"</b></td>\n";
+			info += "<td><input type='text' name='Mask_0' size='4' maxlength='3'>.<input type='text' name='Mask_1' size='4' maxlength='3'>\n";
+			info += "<input type='text' name='Mask_2' size='4' maxlength='3'>.<input type='text' name='Mask_3' size='4' maxlength='3'></td>\n";
+			info += "</tr>\n";
+			info += "<tr>\n";
+			info += "<td></td>\n";
+			info += "<td class='copy_1'><b>"+home_20+"</b></td>\n";
+			info += "<td><input type='text' name='GW_0' size='4' maxlength='3'>.<input type='text' name='GW_1' size='4' maxlength='3'>\n";
+			info += "<input type='text' name='GW_2' size='4' maxlength='3'>.<input type='text' name='GW_3' size='4' maxlength='3'></td>\n";
+			info += "</tr>\n";
+			info += "</table>\n";
+			info += "</td>\n";
+			info += "</Tr>\n";
+			document.getElementById('mer_type').innerHTML = info;
+
+			dns_info = "<a href='wan_dns.html'><font class='copy_1' style='color:#0066FF'><b>&nbsp;&nbsp;"+wcd_5+"</b></font></a>";
+			document.getElementById('dns_link').innerHTML = dns_info;
+			
+			
+			 var wanip = addr.split(".");
+			 IP_0.value = wanip[0];
+			 IP_1.value = wanip[1];
+			 IP_2.value = wanip[2];
+			 IP_3.value = wanip[3];
+			
+			 var wanmask = mask.split(".");
+			 Mask_0.value = wanmask[0];
+			 Mask_1.value = wanmask[1];
+			 Mask_2.value = wanmask[2];
+			 Mask_3.value = wanmask[3];
+			 
+			 var wangw = gtwy.split(".");
+			 GW_0.value = wangw[0];
+			 GW_1.value = wangw[1];
+			 GW_2.value = wangw[2];
+			 GW_3.value = wangw[3];
+			
+		
+		}
+		else
+		{
+			info += "<tr>\n";
+			info += "<td>\n";
+			info += "<table border='0' cellpadding='0' cellspacing='0' width='402'>\n";
+			info += "<tr>\n";
+			info += "<td  colspan='2' class='copy_1'>&nbsp;\n";
+			info += "<input type='checkbox' name='gw' onClick='gwClick(this)' value='ON'>&nbsp;&nbsp;"+wcd_6+"</td>\n";
+			info += "</tr>\n";
+			info += "<tr>\n";
+			info += "<td width='138' class='copy_1'><br>\n";
+			info += "&nbsp;&nbsp;&nbsp;<b>"+home_20+" &gt;</b></td>\n";
+			info += "<td width='264' class='copy_1'><br>\n";
+			info += "<input type='text' name='defaultGateway0' size='4' maxlength='3'>.\n";
+			info += "<input type='text' name='defaultGateway1' size='4' maxlength='3'>.\n";
+			info += "<input type='text' name='defaultGateway2' size='4' maxlength='3'>.\n";
+			info += "<input type='text' name='defaultGateway3' size='4' maxlength='3'>\n";
+			info += "</td>\n";
+			info += "</tr>\n";
+			info += "</table>\n";
+			document.getElementById('mer_type').innerHTML = info;
+			dns_info="";
+			document.getElementById('dns_link').innerHTML = dns_info;
+
+			
+		}
+	
+	}
+}
+
+function write_isp()
+{
+	with(document.write)
+	{
+		document.write("<option value=\"0\">"+wcd_9+"</option>");
+		document.write("<option value=\"1\">"+wcd_10+"</option>");
+	}
+}
+
+function write_encSel()
+{
+	with(document.write)
+	{
+		document.write("<option value=\"0\">"+wcp_12+"</option>");
+		document.write("<option value=\"1\">"+wcp_13+"</option>");
+	}
+
+}
+// done hiding -->
+</script>
+   </head>
+   <body onLoad='frmLoad()' bgColor="#ffffff" leftMargin="0" topMargin="0" marginheight="0" marginwidth="0">
+   
+         <form>
+    <SCRIPT language=JavaScript>
+	var helpItem 	='Connection Type';
+	var menuSection	='WAN';
+	var menuItem	='Connection Type';
+	var isAPmode = '<%ejGet(enblNat)%>';
+		
+	var wanStatus = '<%ejGetOther(isUp)%>';
+	showHead(wanStatus,helpItem);
+	showMenu(menuSection,menuItem,isAPmode)
+	</SCRIPT>  
+<TD class=head_bold width="90%" valign="top"><Br>
+
+
+            <font class="head_bold"><b>
+			<script language="javascript">
+			if (isWizard== '1')
+			  document.write("Wizard > Parameter Setting > Dynamic IP (1483 Bridged)");
+			else
+			  document.write("&nbsp;&nbsp;"+wc_1+" &gt; "+wc_2+" &gt; "+wcd_1);
+			</script>
+
+			</b></font>
+			<br><br>
+			
+      		<TABLE class=copy_1 cellSpacing=0 cellPadding=0 width=620  border=0>
+        		<TR>
+          			<TD vAlign=top><SPAN>&nbsp;&nbsp;
+					<script>dw(wcd_7);</script><!--
+					<a href="javascript:void(0);" onClick="window.open('glossary.html#pppoe','help','toolbar=0,status=0,menubar=0,scrollbars=1,resizable=1,width=640,height=400,left=150,top=150');">
+            <font color="#0066FF"><b>More Info</b></font></a> -->
+					<br><Br></SPAN>
+					</TD>
+				</TR>
+				
+				<!--      Start               //-->
+
+				<Tr>
+					<td>&nbsp;&nbsp;&nbsp;<script>dw(wcd_8);</script>&nbsp;&nbsp;&nbsp;
+					<select name="ip_assign" onChange="isp_assign()"><script language="javascript">write_isp();</script></select>
+					</td>
+				</Tr>
+				<tr><td><Br>
+				<div id='mer_type'></div>
+				
+				
+				
+				
+			
+			<!--      End               //-->
+					
+            <table border="0" cellpadding="0" cellspacing="0" width="402">
+						
+               <tr>
+                  <td width="138" class="copy_1"><br>
+                 &nbsp;&nbsp;&nbsp;<b><script>dw(wcp_10);</script> &gt;</b></td>
+                  <td width="264"><Br>
+                    <input type='text' name='atmVpi' size='5' value="0" maxlength="3">/<input type='text' name='atmVci' size='5' value="38" maxlength="5">
+                 </td>
+               </tr>
+			   
+               <tr>
+                  <td width="138" class="copy_1"><br>
+                 &nbsp;&nbsp;&nbsp;<b><script>dw(wcp_11);</script> &gt;</b></td>
+                  <td width="264"><br>
+                    <select name='encSel' id='encSel'><script language="javascript">write_encSel()</script></select>
+                 </td>
+               </tr>
+			   
+               <tr>
+                  <td width="138"></td>
+                  <td width="264"></td>
+               </tr>
+               <tr>
+                  <td width="138"></td>
+                  <td width="264"></td>
+               </tr>
+   
+            </table>
+					
+					
+					
+					</td>
+				</tr>
+				
+				
+			</TABLE>
+			
+			<font face="Verdana" size="2" color="#333333">&nbsp;
+            </font>
+			<br>
+
+			<div id='dns_link'></div>
+			<br>
+
+            <table border="0" cellpadding="0" cellspacing="0">
+			   <tr><td height="20"></td></tr>
+               <tr>
+                  <td width="150"></td>
+				  <td>
+				  <script>
+						var info="<input type='button' style='height:22px;width:180px;' onClick='frmLoad()' value='"+wd_9+"' class='submitBtn' ><input type='button' style='height:22px;width:180px;' onClick='btnNext()' value='"+wd_10+"' class='submitBtn' >";
+				  		dw(info);				  
+				  </script>
+               				  </td>
+               </tr>
+             </table>
+
+            <br>
+			
+</TD></TR></TBODY></TABLE></TD>			
+         </form>
+   </body>
+</html>

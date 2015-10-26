@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/kernel/linux/drivers/scsi/aic7xxx/aicasm"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   committed-rev="3"
+   name="aicasm.h"
+   text-time="2008-02-22T08:24:23.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="611b12a1e05f9625c0bbbe214f907791"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:23.000000Z"/>
+<entry
+   committed-rev="3"
+   name="aicasm_symbol.c"
+   text-time="2008-02-22T08:24:23.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="6872525b3b8e3677fd06206adcf1ffe6"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:23.000000Z"/>
+<entry
+   committed-rev="3"
+   name="aicasm_insformat.h"
+   text-time="2008-02-22T08:24:23.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="39311bcd6a70f39abcd7a816fb7f13e4"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:23.000000Z"/>
+<entry
+   committed-rev="3"
+   name="aicasm_symbol.h"
+   text-time="2008-02-22T08:24:23.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="54e9d2650d527adb16a3e074c62c163f"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:23.000000Z"/>
+<entry
+   committed-rev="3"
+   name="aicasm_gram.y"
+   text-time="2008-02-22T08:24:23.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="95450fc68c2f8ab8216467aa3b2afdfd"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:23.000000Z"/>
+<entry
+   name="CVS"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="aicasm_macro_gram.y"
+   text-time="2008-02-22T08:24:23.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="76aadc42b61017addd28681309bdca29"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:23.000000Z"/>
+<entry
+   committed-rev="3"
+   name="aicasm_scan.l"
+   text-time="2008-02-22T08:24:23.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="7d750a8efec368dd29ff9dcfb16156b6"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:23.000000Z"/>
+<entry
+   committed-rev="3"
+   name="aicasm_macro_scan.l"
+   text-time="2008-02-22T08:24:23.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="727a0a5248e9b1039ac385462cef37c2"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:23.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Makefile"
+   text-time="2008-02-22T08:24:23.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="2d070761762dbe4a3ba5d04bca71b048"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:23.000000Z"/>
+<entry
+   committed-rev="3"
+   name="aicasm.c"
+   text-time="2008-02-22T08:24:23.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="06af6156f6fc3c7c1ce00e9115083042"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:23.000000Z"/>
+</wc-entries>

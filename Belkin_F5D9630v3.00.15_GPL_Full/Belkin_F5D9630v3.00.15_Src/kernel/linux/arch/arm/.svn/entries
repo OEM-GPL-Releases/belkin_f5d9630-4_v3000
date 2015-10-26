@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/kernel/linux/arch/arm"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   name="nwfpe"
+   kind="dir"/>
+<entry
+   name="oprofile"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="Kconfig"
+   text-time="2008-02-22T08:22:12.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="75a85292c7e35233811a98d08ca940f0"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:07.000000Z"/>
+<entry
+   name="kernel"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="defconfig"
+   text-time="2008-02-22T08:22:12.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="0f0bb533512e7ba8083b120b64d8a0e8"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:07.000000Z"/>
+<entry
+   name="mach-clps711x"
+   kind="dir"/>
+<entry
+   name="vfp"
+   kind="dir"/>
+<entry
+   name="mach-lh7a40x"
+   kind="dir"/>
+<entry
+   name="tools"
+   kind="dir"/>
+<entry
+   name="mach-omap"
+   kind="dir"/>
+<entry
+   name="mach-ebsa110"
+   kind="dir"/>
+<entry
+   name="boot"
+   kind="dir"/>
+<entry
+   name="lib"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="Makefile"
+   text-time="2008-02-22T08:22:12.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="863fbcb446abb6d521fcb3f157173c9e"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:12.000000Z"/>
+<entry
+   name="mach-clps7500"
+   kind="dir"/>
+<entry
+   name="mach-integrator"
+   kind="dir"/>
+<entry
+   name="configs"
+   kind="dir"/>
+<entry
+   name="common"
+   kind="dir"/>
+<entry
+   name="mach-footbridge"
+   kind="dir"/>
+<entry
+   name="mach-rpc"
+   kind="dir"/>
+<entry
+   name="CVS"
+   kind="dir"/>
+<entry
+   name="mach-pxa"
+   kind="dir"/>
+<entry
+   name="mach-iop3xx"
+   kind="dir"/>
+<entry
+   name="mach-versatile"
+   kind="dir"/>
+<entry
+   name="mach-s3c2410"
+   kind="dir"/>
+<entry
+   name="mm"
+   kind="dir"/>
+<entry
+   name="mach-l7200"
+   kind="dir"/>
+<entry
+   name="mach-ixp4xx"
+   kind="dir"/>
+<entry
+   name="mach-epxa10db"
+   kind="dir"/>
+<entry
+   name="mach-sa1100"
+   kind="dir"/>
+<entry
+   name="mach-shark"
+   kind="dir"/>
+</wc-entries>

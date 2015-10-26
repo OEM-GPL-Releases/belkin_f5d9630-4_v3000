@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/userapps/opensource/libosip2/include/osipparser2"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   committed-rev="3"
+   name="osip_uri.h"
+   text-time="2008-02-22T08:25:04.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="0a4792c66353b865d430e21880555e73"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:25:02.000000Z"/>
+<entry
+   committed-rev="3"
+   name="sdp_message.h"
+   text-time="2008-02-22T08:25:04.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="720136945095e3b10c9a2bf94e24e069"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:25:02.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Makefile.in"
+   text-time="2008-02-22T08:25:04.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="6d8a7ea06b954f275d477be41b804997"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:25:02.000000Z"/>
+<entry
+   committed-rev="3"
+   name="osip_message.h"
+   text-time="2008-02-22T08:25:04.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="e76995dc34b1ee821fba9c7f9eda7428"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:25:03.000000Z"/>
+<entry
+   committed-rev="3"
+   name="osip_port.h"
+   text-time="2008-02-22T08:25:04.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="ff0f4dce151125340f864be3a230c549"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:25:03.000000Z"/>
+<entry
+   committed-rev="3"
+   name="osip_md5.h"
+   text-time="2008-02-22T08:25:04.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="30eb1db5540e95d29e12a64069da1005"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:25:03.000000Z"/>
+<entry
+   committed-rev="3"
+   name="osip_const.h"
+   text-time="2008-02-22T08:25:04.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="a9484df7b4268c5566f4b436969db7ac"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:25:03.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Makefile.am"
+   text-time="2008-02-22T08:25:04.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="df1a24e0d0bab1611265731dea0bf0d0"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:25:03.000000Z"/>
+<entry
+   committed-rev="3"
+   name="osip_rfc3264.h"
+   text-time="2008-02-22T08:25:04.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="13303ad681b5b35a1922e93f385af6ae"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:25:03.000000Z"/>
+<entry
+   name="headers"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="osip_headers.h"
+   text-time="2008-02-22T08:25:04.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="42c2e09019ad308d330e1816e0509128"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:25:04.000000Z"/>
+<entry
+   committed-rev="3"
+   name="osip_list.h"
+   text-time="2008-02-22T08:25:04.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="cd0bb12c3122d8e9802e5301c06bd645"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:25:04.000000Z"/>
+<entry
+   committed-rev="3"
+   name="osip_parser.h"
+   text-time="2008-02-22T08:25:04.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="e68e3064956d0f7470562386ebb2c251"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:25:04.000000Z"/>
+<entry
+   committed-rev="3"
+   name="osip_body.h"
+   text-time="2008-02-22T08:25:04.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="1a3f4b447c07a01b8d0d4c3196ad70c2"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:25:04.000000Z"/>
+</wc-entries>

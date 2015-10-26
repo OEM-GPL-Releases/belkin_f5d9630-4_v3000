@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/kernel/linux/arch/um/kernel/skas"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   committed-rev="3"
+   name="mmu.c"
+   text-time="2008-02-22T08:22:15.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="e3f99dc464c7df575777a2b848099460"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:13.000000Z"/>
+<entry
+   committed-rev="3"
+   name="time.c"
+   text-time="2008-02-22T08:22:15.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="6b08c4b4b1d7363b8ebb762f839c7e95"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:13.000000Z"/>
+<entry
+   name="include"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="exec_kern.c"
+   text-time="2008-02-22T08:22:15.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="d644b7efca06c515612742da629e94e4"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:13.000000Z"/>
+<entry
+   committed-rev="3"
+   name="trap_user.c"
+   text-time="2008-02-22T08:22:15.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="b2d3d33f8da87226eada747dd6f97a14"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:13.000000Z"/>
+<entry
+   committed-rev="3"
+   name="syscall_user.c"
+   text-time="2008-02-22T08:22:15.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="f35017796f66be346f9a2f02cc559a12"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:13.000000Z"/>
+<entry
+   name="CVS"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="mem_user.c"
+   text-time="2008-02-22T08:22:15.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="ac968d4f41a9633890415bba1c95fea7"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:14.000000Z"/>
+<entry
+   committed-rev="3"
+   name="mem.c"
+   text-time="2008-02-22T08:22:15.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="8f977190b63a7ce2475010beb1a137ce"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:14.000000Z"/>
+<entry
+   committed-rev="3"
+   name="process.c"
+   text-time="2008-02-22T08:22:15.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="a49b3cb0bc1f02593926baec57414ecb"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:14.000000Z"/>
+<entry
+   committed-rev="3"
+   name="tlb.c"
+   text-time="2008-02-22T08:22:15.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="d0ac1946922575c6743db7ca14d95177"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:14.000000Z"/>
+<entry
+   committed-rev="3"
+   name="exec_user.c"
+   text-time="2008-02-22T08:22:15.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="8fa720b288496279003dbf86b085a863"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:14.000000Z"/>
+<entry
+   name="sys-i386"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="syscall_kern.c"
+   text-time="2008-02-22T08:22:15.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="b8b353cd1b7c9ebf262a82ea33528e58"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:14.000000Z"/>
+<entry
+   name="util"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="Makefile"
+   text-time="2008-02-22T08:22:15.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="b1edace6c6ba1873a03f878f29072230"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:14.000000Z"/>
+<entry
+   committed-rev="3"
+   name="process_kern.c"
+   text-time="2008-02-22T08:22:15.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="4de6d73455aea98a14ad7f0d6d0b834c"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:15.000000Z"/>
+</wc-entries>

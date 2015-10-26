@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/kernel/linux/drivers/net/wireless/prism54"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   committed-rev="3"
+   name="islpci_mgt.h"
+   text-time="2008-02-22T08:24:02.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="840898ea0e68a1b5253544bac85eab5f"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:02.000000Z"/>
+<entry
+   committed-rev="3"
+   name="prismcompat.h"
+   text-time="2008-02-22T08:24:02.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="9e0c44c2a71794b296098c71762853ec"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:02.000000Z"/>
+<entry
+   name="CVS"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="isl_38xx.c"
+   text-time="2008-02-22T08:24:02.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="c1ccb8e93751f7657c0f587e68fefec7"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:02.000000Z"/>
+<entry
+   committed-rev="3"
+   name="isl_ioctl.c"
+   text-time="2008-02-22T08:24:02.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="5832cb0156b675eb4e618319d1788f0a"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:02.000000Z"/>
+<entry
+   committed-rev="3"
+   name="islpci_dev.c"
+   text-time="2008-02-22T08:24:02.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="e8c16ab13aded0be9e9743f4455ac628"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:02.000000Z"/>
+<entry
+   committed-rev="3"
+   name="oid_mgt.c"
+   text-time="2008-02-22T08:24:02.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="78e03cd498032a334aef70062d0692f5"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:02.000000Z"/>
+<entry
+   committed-rev="3"
+   name="islpci_eth.c"
+   text-time="2008-02-22T08:24:02.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="f7ddb0ff9d48074ea84ffbb3f4d7cba4"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:02.000000Z"/>
+<entry
+   committed-rev="3"
+   name="islpci_hotplug.c"
+   text-time="2008-02-22T08:24:02.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="b51292fde92ff373553f549f8620d7fe"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:02.000000Z"/>
+<entry
+   committed-rev="3"
+   name="isl_38xx.h"
+   text-time="2008-02-22T08:24:02.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="e85b61382146bde938adc09cd18d40f7"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:02.000000Z"/>
+<entry
+   committed-rev="3"
+   name="isl_ioctl.h"
+   text-time="2008-02-22T08:24:02.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="11f67abba8d8b70c5c24b9db4ec378cd"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:02.000000Z"/>
+<entry
+   committed-rev="3"
+   name="islpci_dev.h"
+   text-time="2008-02-22T08:24:02.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="894ce1b160b8a41139d1c835a7ba5b33"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:02.000000Z"/>
+<entry
+   committed-rev="3"
+   name="isl_oid.h"
+   text-time="2008-02-22T08:24:02.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="7afc01496d0c845348ee5090a01834b7"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:02.000000Z"/>
+<entry
+   committed-rev="3"
+   name="oid_mgt.h"
+   text-time="2008-02-22T08:24:02.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="8012fb7d742f9a0879fa9363fb1b4983"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:02.000000Z"/>
+<entry
+   committed-rev="3"
+   name="islpci_eth.h"
+   text-time="2008-02-22T08:24:02.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="3d0cb4c5818b45fc505c6d060be4630a"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:02.000000Z"/>
+<entry
+   committed-rev="3"
+   name="islpci_mgt.c"
+   text-time="2008-02-22T08:24:02.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="93d5775ece4b06c6ab68afc851bcdc6a"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:02.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Makefile"
+   text-time="2008-02-22T08:24:02.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="f9cc3f09ed1cf41f1e260869cb4d5275"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:02.000000Z"/>
+</wc-entries>

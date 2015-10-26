@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/kernel/linux/drivers/usb/host"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   committed-rev="3"
+   name="Kconfig"
+   text-time="2008-02-22T08:24:17.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="853fd89e6ed3923963f3e284d8975911"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:16.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ehci-hcd.c"
+   text-time="2008-02-22T08:24:17.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="06616b22d2b8abcd702ed1c43cd69fb9"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:16.000000Z"/>
+<entry
+   committed-rev="3"
+   name="hc_sl811_rh.c"
+   text-time="2008-02-22T08:24:17.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="18c3630daf79f56e0775f3e75edd0368"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:17.000000Z"/>
+<entry
+   committed-rev="3"
+   name="uhci-debug.c"
+   text-time="2008-02-22T08:24:17.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="547ae7e9da8878379dc5b99ffcf3d593"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:17.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ohci-hcd.c"
+   text-time="2008-02-22T08:24:17.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="76ca588fb8d6869854c47cb0da7311fc"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:17.000000Z"/>
+<entry
+   committed-rev="3"
+   name="uhci-hcd.c"
+   text-time="2008-02-22T08:24:17.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="2021d9c64d67a04ca8072d391236a105"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:17.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ehci-hub.c"
+   text-time="2008-02-22T08:24:17.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="77158e2f323987a1e167fa86831fae5e"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:17.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ehci-mem.c"
+   text-time="2008-02-22T08:24:17.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="919105d29312ccf8eb8637df82c9a2f1"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:17.000000Z"/>
+<entry
+   committed-rev="3"
+   name="uhci-hcd.h"
+   text-time="2008-02-22T08:24:17.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="e00fece7fcc44c36f2319626289e4c3b"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:17.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ohci-pci.c"
+   text-time="2008-02-22T08:24:17.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="8211b98cb9be515ad2e7f71b63ceefc7"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:17.000000Z"/>
+<entry
+   committed-rev="3"
+   name=".cvsignore"
+   text-time="2008-02-22T08:24:17.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="735ab631b67b75d07a52edc9e01aed4c"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:17.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Makefile"
+   text-time="2008-02-22T08:24:17.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="b391fc7601f055e2028a0d235ec18919"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:17.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ohci-hub.c"
+   text-time="2008-02-22T08:24:17.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="f588764193d8a44f09aa00aa5ed72d83"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:16.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ohci-mem.c"
+   text-time="2008-02-22T08:24:17.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="0a2090a3c3b65b822d740985c29c1240"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:16.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ehci-dbg.c"
+   text-time="2008-02-22T08:24:17.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="a03786ce83ee67385d732fb9f07cf53a"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:16.000000Z"/>
+<entry
+   committed-rev="3"
+   name="hc_simple.c"
+   text-time="2008-02-22T08:24:17.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="907fd72e429a740cc7bce9c42ca15a5a"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:16.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ohci-lh7a404.c"
+   text-time="2008-02-22T08:24:17.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="f9a451a5fad1dc6bd3f8f0d963644652"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:16.000000Z"/>
+<entry
+   committed-rev="3"
+   name="uhci-hub.c"
+   text-time="2008-02-22T08:24:17.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="71188c6b242102b45b9fa50d154ba5d9"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:16.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ehci-q.c"
+   text-time="2008-02-22T08:24:17.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="bbf774cfd033cdd46e7afb72a936d522"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:16.000000Z"/>
+<entry
+   committed-rev="3"
+   name="hc_simple.h"
+   text-time="2008-02-22T08:24:17.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="8bb6384f4880a1b57cff5e35e811b2df"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:16.000000Z"/>
+<entry
+   name="CVS"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="ohci-dbg.c"
+   text-time="2008-02-22T08:24:17.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="82e831f42e64f25765ea0503d42f2d32"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:17.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ohci-omap.c"
+   text-time="2008-02-22T08:24:17.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="730fb8b11f6e69f9db0b6632968c6666"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:17.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ehci.h"
+   text-time="2008-02-22T08:24:17.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="0fd4ecdccea2fc5c72cb05060c0e2434"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:17.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ohci-q.c"
+   text-time="2008-02-22T08:24:17.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="780aac321a5cf455cbf4613c7692b6bf"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:17.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ohci-omap.h"
+   text-time="2008-02-22T08:24:17.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="a8ac3e16eaab85c2a41cabc96b080555"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:17.000000Z"/>
+<entry
+   committed-rev="3"
+   name="hc_sl811.c"
+   text-time="2008-02-22T08:24:17.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="13ddbc4a9c45bb177d26d3fbfba290d7"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:17.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ohci.h"
+   text-time="2008-02-22T08:24:17.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="42019d0d4e15bfa30fc5720b167f3177"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:17.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ohci-sa1111.c"
+   text-time="2008-02-22T08:24:17.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="c4cf67c59d998bdf2a1970756af2b689"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:17.000000Z"/>
+<entry
+   committed-rev="3"
+   name="hc_sl811.h"
+   text-time="2008-02-22T08:24:17.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="f873a2e8d940367c21e20d215954d0ad"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:17.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ehci-sched.c"
+   text-time="2008-02-22T08:24:17.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="8dc19559980a1159229803f6ad2c1848"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:17.000000Z"/>
+</wc-entries>

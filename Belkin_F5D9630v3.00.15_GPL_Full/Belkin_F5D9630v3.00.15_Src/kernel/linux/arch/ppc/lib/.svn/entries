@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/kernel/linux/arch/ppc/lib"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   committed-rev="3"
+   name="rheap.c"
+   text-time="2008-02-22T08:22:20.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="917a76228392b290e37e43a24e15b1df"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:20.000000Z"/>
+<entry
+   committed-rev="3"
+   name="checksum.S"
+   text-time="2008-02-22T08:22:20.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="8c556cc3c059484e8c0fe086b84fbcbc"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:20.000000Z"/>
+<entry
+   committed-rev="3"
+   name="strcase.c"
+   text-time="2008-02-22T08:22:20.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="8582e35d54f45a8b2f57ea83ce7d27b8"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:20.000000Z"/>
+<entry
+   committed-rev="3"
+   name="dec_and_lock.c"
+   text-time="2008-02-22T08:22:20.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="d550c39caa52edd429fa45e4027054b6"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:20.000000Z"/>
+<entry
+   committed-rev="3"
+   name="string.S"
+   text-time="2008-02-22T08:22:20.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="aef95a6e974a41400bc665ecfdc89754"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:20.000000Z"/>
+<entry
+   name="CVS"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="locks.c"
+   text-time="2008-02-22T08:22:20.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="a51460ea591f99b16c1c1a9ef72510c3"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:20.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Makefile"
+   text-time="2008-02-22T08:22:20.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="b46b68ca80ffe13cc53d3ad77a77e244"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:20.000000Z"/>
+<entry
+   committed-rev="3"
+   name="div64.S"
+   text-time="2008-02-22T08:22:20.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="d3fa198374d7ee07927063ca034178c0"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:20.000000Z"/>
+</wc-entries>

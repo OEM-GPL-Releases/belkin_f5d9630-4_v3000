@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/kernel/linux/drivers/net/e1000"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   committed-rev="3"
+   name="LICENSE"
+   text-time="2008-02-22T08:23:59.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="e2643b73e47fa4b29cdfad24ee42bed6"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:59.000000Z"/>
+<entry
+   committed-rev="3"
+   name="e1000_ethtool.c"
+   text-time="2008-02-22T08:23:59.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="b460faf915ebc2f52e17291ad48f43cc"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:59.000000Z"/>
+<entry
+   committed-rev="3"
+   name="e1000_hw.c"
+   text-time="2008-02-22T08:23:59.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="9abff417d9282b499854e3277d153510"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:59.000000Z"/>
+<entry
+   committed-rev="3"
+   name="e1000_osdep.h"
+   text-time="2008-02-22T08:23:59.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="ac88991091968838d561fe2620c9a7da"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:59.000000Z"/>
+<entry
+   committed-rev="3"
+   name="e1000_param.c"
+   text-time="2008-02-22T08:23:59.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="add91a0f1dae43b2d853b911d216ee3e"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:59.000000Z"/>
+<entry
+   committed-rev="3"
+   name="e1000_hw.h"
+   text-time="2008-02-22T08:23:59.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="92fabc71b3d20d2a799da0f20862b3b8"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:59.000000Z"/>
+<entry
+   committed-rev="3"
+   name="e1000_main.c"
+   text-time="2008-02-22T08:23:59.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="835899ddd4cb3286e450e79e80dc7e3b"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:59.000000Z"/>
+<entry
+   name="CVS"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="e1000.h"
+   text-time="2008-02-22T08:23:59.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="fc99cca860cf26c55bf247ae99f3a64b"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:59.000000Z"/>
+<entry
+   committed-rev="3"
+   name=".cvsignore"
+   text-time="2008-02-22T08:23:59.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="d8b65572e25962faaf07c20bb34d224e"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:59.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Makefile"
+   text-time="2008-02-22T08:23:59.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="656be8386c9ff719c0aa61bead185240"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:59.000000Z"/>
+</wc-entries>

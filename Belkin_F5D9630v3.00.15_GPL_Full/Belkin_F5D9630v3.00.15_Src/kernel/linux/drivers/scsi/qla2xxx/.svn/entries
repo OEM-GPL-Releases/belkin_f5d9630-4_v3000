@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/kernel/linux/drivers/scsi/qla2xxx"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   committed-rev="3"
+   name="qla_dbg.h"
+   text-time="2008-02-22T08:24:28.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="e6ae29f03851414cff3bc661e247fb87"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:26.000000Z"/>
+<entry
+   committed-rev="3"
+   name="qla_listops.h"
+   text-time="2008-02-22T08:24:28.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="5e67fdca9d4d9a141ef0f534bf43d382"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:26.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Kconfig"
+   text-time="2008-02-22T08:24:28.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="dedb7d7eb3b63767229204f95829beb2"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:26.000000Z"/>
+<entry
+   committed-rev="3"
+   name="qla_settings.h"
+   text-time="2008-02-22T08:24:28.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="981e463f440fa416ee1a92379c1d8aa3"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:26.000000Z"/>
+<entry
+   committed-rev="3"
+   name="qla_rscn.c"
+   text-time="2008-02-22T08:24:28.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="7204c2c5694459f214b65445c7f79c6c"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:26.000000Z"/>
+<entry
+   committed-rev="3"
+   name="qla_sup.c"
+   text-time="2008-02-22T08:24:28.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="29cdbae7999d6b0fbe8c704465eb2fb9"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:26.000000Z"/>
+<entry
+   committed-rev="3"
+   name="qla_gbl.h"
+   text-time="2008-02-22T08:24:28.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="c77c15d26c2c4ca483fe42330ce07e31"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:26.000000Z"/>
+<entry
+   committed-rev="3"
+   name="qla_iocb.c"
+   text-time="2008-02-22T08:24:28.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="839f588b160c967e965553071b4359f3"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:26.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ql2100_fw.c"
+   text-time="2008-02-22T08:24:28.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="32cf6f262a3e8cdace7a7744b07b8af8"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:26.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ql2300_fw.c"
+   text-time="2008-02-22T08:24:28.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="16db66959bd5af422e0e6d69d6e6c1a8"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:26.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ql2100.c"
+   text-time="2008-02-22T08:24:28.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="d25c2816a442a801b1590638b7722f3f"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:26.000000Z"/>
+<entry
+   committed-rev="3"
+   name="qla_inline.h"
+   text-time="2008-02-22T08:24:28.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="4ba8639ab6cbc8738d9aeed9170e2191"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:26.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ql2200.c"
+   text-time="2008-02-22T08:24:28.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="a93115f41a2734a901fa4283cbd0bb8c"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:26.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ql2322_fw.c"
+   text-time="2008-02-22T08:24:28.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="dad1c610c2f62cfd99e5667de6947b8d"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:26.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ql2300.c"
+   text-time="2008-02-22T08:24:28.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="53c86d66f1624abebd654dfa84156787"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:26.000000Z"/>
+<entry
+   committed-rev="3"
+   name="qla_mbx.c"
+   text-time="2008-02-22T08:24:28.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="b2559bd1ff2a5ce4a6df8c9ed55bc8ba"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:26.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ql6312_fw.c"
+   text-time="2008-02-22T08:24:28.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="6aacff30c7e5a3c521ce2ef0c75ad71a"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:26.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ql6322_fw.c"
+   text-time="2008-02-22T08:24:28.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="1e67e2e9d3680c9d9aae00bcf37907be"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:27.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ql2322.c"
+   text-time="2008-02-22T08:24:28.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="0e6f5f2699983a0604c7499166efda7c"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:26.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ql6322.c"
+   text-time="2008-02-22T08:24:28.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="75acd2290bff3cf93596862c9ac49ef6"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:27.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Makefile"
+   text-time="2008-02-22T08:24:28.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="4d38fa265171e8b678cc27e996cfc270"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:27.000000Z"/>
+<entry
+   committed-rev="3"
+   name=".cvsignore"
+   text-time="2008-02-22T08:24:28.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="735ab631b67b75d07a52edc9e01aed4c"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:27.000000Z"/>
+<entry
+   committed-rev="3"
+   name="qla_def.h"
+   text-time="2008-02-22T08:24:28.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="454fc448ff3f37d284d92d4ed75a7b52"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:27.000000Z"/>
+<entry
+   committed-rev="3"
+   name="qla_init.c"
+   text-time="2008-02-22T08:24:28.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="d41360c3b594f9acc072083e6d230e76"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:27.000000Z"/>
+<entry
+   committed-rev="3"
+   name="qla_gs.c"
+   text-time="2008-02-22T08:24:28.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="33e57db0d1d8100aeaddf40a704e186d"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:27.000000Z"/>
+<entry
+   name="CVS"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="ql2200_fw.c"
+   text-time="2008-02-22T08:24:28.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="0e798a3015ddc3cbe6b79c3c827fb929"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:27.000000Z"/>
+<entry
+   committed-rev="3"
+   name="qla_os.c"
+   text-time="2008-02-22T08:24:28.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="b6919e32c32c36ead9066d18f046b000"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:28.000000Z"/>
+<entry
+   committed-rev="3"
+   name="qla_devtbl.h"
+   text-time="2008-02-22T08:24:28.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="a459b91b5de98fb85f709343c480db37"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:28.000000Z"/>
+<entry
+   committed-rev="3"
+   name="qla_version.h"
+   text-time="2008-02-22T08:24:28.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="b66a87f8eb2b7ce76a3838d1ef831baa"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:28.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ql6312.c"
+   text-time="2008-02-22T08:24:28.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="979ae40105f38495427eabd5b665cb75"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:28.000000Z"/>
+<entry
+   committed-rev="3"
+   name="qla_dbg.c"
+   text-time="2008-02-22T08:24:28.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="7978ce4767b59b4c000b62a8a8836f59"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:28.000000Z"/>
+<entry
+   committed-rev="3"
+   name="qla_isr.c"
+   text-time="2008-02-22T08:24:28.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="22bf59cef295daad8cecf8478972b398"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:28.000000Z"/>
+</wc-entries>

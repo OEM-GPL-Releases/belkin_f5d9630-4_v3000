@@ -1,0 +1,553 @@
+<html>
+   <head>
+      <meta HTTP-EQUIV='Pragma' CONTENT='no-cache'>
+	  <meta http-equiv="refresh" content="<%ejGet(timeout_refresh)%>">
+         <link rel="stylesheet" href="main_router.css" type='text/css'>
+
+		<%ejGet("curLanguage")%>
+		<SCRIPT>assign_var();</SCRIPT>
+		 
+          <script language='javascript' src='util.js'></script>
+		  <SCRIPT language=JavaScript src="showMenu.js"></SCRIPT>
+          <script language="javascript" src="md5.js"></script>
+          <script language='javascript'>
+<!-- hide
+
+strHtml='<title>'+wlm_1+' &gt; '+wlm_5+'</title>';
+dw(strHtml);
+
+
+
+var enblwl = '<%ejGetWl(wlEnbl)%>';
+
+var keyIdx = '<%ejGetWl(wlKeyIndex)%>';
+var bit = '<%ejGetWl(wlKeyBit)%>';
+var keyIdx2 = '<%ejGetWl(wlKeyIndex)%>';
+
+
+if(bit == 0) //128 bit
+{
+	var wepkeys = new Array( "", "","", "" );
+}
+else
+{
+	var wepkeys = new Array( "<%ejGetWl(wlKey1)%>", "<%ejGetWl(wlKey2)%>",
+                      		"<%ejGetWl(wlKey3)%>", "<%ejGetWl(wlKey4)%>" );
+}
+
+var key_error = wlsw64_1;
+
+function gochk(idx)
+{
+
+ keyIdx = idx;
+ 
+ 
+
+}
+
+function frmLoad() 
+{
+   	with ( document.forms[0] ) 
+	{
+
+		if (enblwl == '0')
+		{
+			wlAuthMode2.disabled=true;
+			for (i=0; i<20; i++)
+				keys[i].disabled=true;
+			
+			passphrase.disabled=true;
+			dkey[0].disabled= true;
+			dkey[1].disabled= true;
+			dkey[2].disabled= true;
+			dkey[3].disabled= true;
+			
+		}
+
+	
+		passphrase.value = '';
+
+      	wlAuthMode2.selectedIndex = 3;
+
+      switch (parseInt(keyIdx2))
+      {
+        case 1:
+        	dkey[parseInt(keyIdx2)-1].checked=true;
+        	break;
+        case 2:
+            dkey[parseInt(keyIdx2)-1].checked=true;
+        	break;
+        case 3:
+            dkey[parseInt(keyIdx2)-1].checked=true;
+         	break;
+        case 4:
+            dkey[parseInt(keyIdx2)-1].checked=true;
+       		break;
+
+     }
+
+    var l1 ='';
+	  var l2 ='';
+	  var l3 ='';
+	  var l4 ='';
+
+    var buf1 = '';
+    var buf2 = '';
+    var buf3 = '';
+    var buf4 = '';
+
+    var dp1 = '';
+    var dp2 = '';
+    var dp3 = '';
+    var dp4 = '';
+
+    dp1 = wepkeys[0];
+    dp2 = wepkeys[1];
+	dp3 = wepkeys[2];
+    dp4 = wepkeys[3];
+
+    wlKey1.value = wepkeys[0];
+    wlKey2.value = wepkeys[1];
+    wlKey3.value = wepkeys[2];
+    wlKey4.value = wepkeys[3];
+
+    for ( i = 0; i< 5; i++){
+      l1 = i*2;
+      buf1 = '';
+      buf1 = dp1.charAt(l1);
+      buf1 = buf1.concat(dp1.charAt(l1+1));
+      keys[i].value = buf1.toUpperCase();
+    }
+
+    for ( i = 0; i< 5; i++){
+      l2 = i*2;
+      buf2 = '';
+      buf2 = dp2.charAt(l2);
+      buf2 = buf2.concat(dp2.charAt(l2+1));
+      keys[i+5].value = buf2.toUpperCase();
+    }
+
+    for ( i = 0; i< 5; i++){
+      l3 = i*2;
+      buf3 = '';
+      buf3 = dp3.charAt(l3);
+      buf3 = buf3.concat(dp3.charAt(l3+1));
+      keys[i+10].value = buf3.toUpperCase();
+    }
+
+    for ( i = 0; i< 5; i++){
+      l4 = i*2;
+      buf4 = '';
+      buf4 = dp4.charAt(l4);
+      buf4 = buf4.concat(dp4.charAt(l4+1));
+      keys[i+15].value = buf4.toUpperCase();
+    }
+
+
+   }
+}
+
+function btnApply() 
+{
+   if ( enblwl == '0' ) 
+   {
+      alert(wlsw64_7);
+      return;
+   }
+
+   var loc = 'wlsecurity.wl?';
+
+   with ( document.forms[0] ) 
+   {
+      var i;
+
+          var input_key1= keys[0].value+keys[1].value+keys[2].value+keys[3].value+keys[4].value;
+		  if(input_key1 !='')
+		  {
+			  if ( isValidKey(input_key1, 5) == false ) {
+					  alert(wlsw64_3 + key_error);
+					  return;
+			  }
+		  }
+		  
+		
+          var input_key2= keys[5].value+keys[6].value+keys[7].value+keys[8].value+keys[9].value;
+		  if(input_key2 !='')
+		  {
+			  if ( isValidKey(input_key2, 5) == false ) {
+					  alert(wlsw64_4 + key_error);
+					  return;
+			  }
+		  }
+
+          var input_key3= keys[10].value+keys[11].value+keys[12].value+keys[13].value+keys[14].value;
+		  if(input_key3 !='')
+		  {		  
+			  if ( isValidKey(input_key3, 5) == false ) {
+					  alert(wlsw64_5 + key_error);
+					  return;
+ 			  }
+		  }
+
+          var input_key4= keys[15].value+keys[16].value+keys[17].value+keys[18].value+keys[19].value;
+		  if(input_key4 !='')
+		  {
+			  if ( isValidKey(input_key4, 5) == false ) {
+					  alert(wlsw64_6 + key_error);
+					  return;
+			  }
+		  }
+
+	var key1 = keys[0].value +keys[1].value +keys[2].value +keys[3].value +keys[4].value;
+	var key2 = keys[5].value +keys[6].value +keys[7].value +keys[8].value +keys[9].value;
+	var key3 = keys[10].value+keys[11].value+keys[12].value+keys[13].value+keys[14].value;
+	var key4 = keys[15].value+keys[16].value+keys[17].value+keys[18].value+keys[19].value;
+	
+	wlKeyIndex.value = keyIdx;
+	wlKey1.value = key1;
+	wlKey2.value = key2;
+	wlKey3.value = key3;
+	wlKey4.value = key4;
+
+
+     }
+
+
+/*
+      loc+= 'wlAuthMode=open&wlAuth=0&wlWep=enabled&wlWpa=tkip&wlKeyBit=1&wlPreauth=0&wlKeyIndex=' + keyIdx
+	  loc += '&wlKey1=' + keys[0].value +keys[1].value +keys[2].value +keys[3].value +keys[4].value;
+      loc += '&wlKey2=' + keys[5].value +keys[6].value +keys[7].value +keys[8].value +keys[9].value;
+      loc += '&wlKey3=' + keys[10].value+keys[11].value+keys[12].value+keys[13].value+keys[14].value;
+      loc += '&wlKey4=' + keys[15].value+keys[16].value+keys[17].value+keys[18].value+keys[19].value;
+	  loc += '&wlSsidIdx=0'
+*/
+document.forms[0].submit();
+  // window.location.href = loc;
+}
+
+function authModeChangeSet()
+{
+   with ( document.forms[0] ) 
+   {
+      var authMode = wlAuthMode2[wlAuthMode2.selectedIndex].value;
+
+      switch ( authMode ) 
+	  {
+		case 'open':
+		   loc = 'wireless_encrypt_no.html';
+    	   break;
+      	case 'shared128':
+		   loc = 'wireless_encrypt_128.html';
+		   break;
+		case 'shared64':
+		   loc = 'wireless_encrypt_64.html';
+	       break;
+        case 'wpa':
+    	   loc = 'wireless_wpa_radius.html';
+           break;
+        case 'psk':
+    	   loc = 'wireless_wpa_psk.html';
+           break;
+        default:
+           loc = 'wireless_encrypt_no.html';
+      }
+
+   window.location.href = loc;
+
+   }
+}
+
+function toHEXString(hex)
+{
+	var value = '';
+
+	hex  &= 0xFF;
+
+	var v1 = Math.floor(hex / 16);
+	var v2 = hex % 16;
+
+	if(v1 >= 10)
+		value += '' + String.fromCharCode(65 + (v1 - 10));
+	else
+		value += '' + v1;
+
+	if(v2 >= 10)
+		value += '' + String.fromCharCode(65 + (v2 - 10));
+	else
+		value += '' + v2;
+
+	return value;
+}
+
+function Get64bitkey(input, k0, k1, k2, k3, ks)
+{
+   if ( enblwl == '0' ) {
+      return;
+   }
+	var i, j, len;
+	var ps0, ps1, ps2, ps3;
+
+	len = input.length;
+
+	if (len <= 0)
+	{
+		alert(wlsw64_2);
+		return;
+	}
+
+	ps0 = ps1 = ps2 = ps3 = 0;
+	/* generate seed for random number generator using */
+	/* key string... */
+	for (i = 0; i < len; i++)
+	{
+		switch(i % 4)
+		{
+			case 0:	ps0 ^= (input.charCodeAt(i) & 0x00FF);	break;
+			case 1:	ps1 ^= (input.charCodeAt(i) & 0x00FF);	break;
+			case 2:	ps2 ^= (input.charCodeAt(i) & 0x00FF);	break;
+			case 3:	ps3 ^= (input.charCodeAt(i) & 0x00FF);	break;
+		}
+	}
+
+	/* init PRN generator... note that this is equivalent */
+	/*  to the Microsoft srand() function. */
+	var randNumber = (ps0 & 0xFF) | ((ps1 & 0xFF) << 8) | ((ps2 & 0xFF) << 16) | ((ps3 & 0xFF) << 24);
+
+	/* generate keys. */
+	for (i = 0; i < 4; i++)
+	{
+		var	tmp;
+
+		switch(i)
+		{
+			case 0:	tmp = k0;	break;
+			case 1:	tmp = k1;	break;
+			case 2:	tmp = k2;	break;
+			case 3:	tmp = k3;	break;
+		}
+
+		tmp.value = '';
+		for (j = 0; j < 5; j++)
+		{
+				/* Note that these three lines are */
+				/* equivalent to the Microsoft rand() */
+				/* function. */
+				randNumber *= 0x343fd;
+				randNumber += 0x269ec3;
+
+				randNumber &= 0xFFFFFFFF;
+
+				tmp.value  += toHEXString((randNumber >> 16) & 0x7fff);
+		}
+	}
+
+	var l1 ='';
+	var l2 ='';
+	var l3 ='';
+	var l4 ='';
+
+    var buf1 = '';
+    var buf2 = '';
+    var buf3 = '';
+    var buf4 = '';
+
+    var dp1 = '';
+    var dp2 = '';
+    var dp3 = '';
+    var dp4 = '';
+
+    dp1 = k0.value ;
+    dp2 = k1.value ;
+	dp3 = k2.value ;
+    dp4 = k3.value ;
+
+    for ( i = 0; i< 5; i++){
+      l1 = i*2;
+      buf1 = '';
+      buf1 = dp1.charAt(l1);
+      buf1 = buf1.concat(dp1.charAt(l1+1));
+      ks[i].value = buf1.toUpperCase();
+    }
+
+    for ( i = 0; i< 5; i++){
+      l2 = i*2;
+      buf2 = '';
+      buf2 = dp2.charAt(l2);
+      buf2 = buf2.concat(dp2.charAt(l2+1));
+      ks[i+5].value = buf2.toUpperCase();
+    }
+
+    for ( i = 0; i< 5; i++){
+      l3 = i*2;
+      buf3 = '';
+      buf3 = dp3.charAt(l3);
+      buf3 = buf3.concat(dp3.charAt(l3+1));
+      ks[i+10].value = buf3.toUpperCase();
+    }
+
+    for ( i = 0; i< 5; i++){
+      l4 = i*2;
+      buf4 = '';
+      buf4 = dp4.charAt(l4);
+      buf4 = buf4.concat(dp4.charAt(l4+1));
+      ks[i+15].value = buf4.toUpperCase();
+    }
+}
+
+function write_encMode()
+{
+	with(document.forms[0])
+	{
+		document.write("<option value=\"open\">"+home_44+"</option>");
+		document.write("<option value=\"psk\">"+wlsn_2+"</option>");
+		document.write("<option value=\"shared128\">"+wlsn_3+"</option>");
+		document.write("<option value=\"shared64\">"+wlsn_4+"</option>");
+		document.write("<option value=\"wpa\">"+wlsn_5+"</option>");
+	}
+}
+
+
+// done hiding -->
+</script>
+  </head>
+   <body onLoad='frmLoad()' bgColor="#ffffff" leftMargin="0" topMargin="0" marginheight="0" marginwidth="0">
+         <form action="post.cgi" method="post">
+		    <input type="hidden" name="page" value="wlsecurity">
+		 	<input type="hidden" name="wlAuthMode" value="open">
+			<input type="hidden" name="wlAuth" value="0">
+			<input type="hidden" name="wlWep" value="enabled">
+			<input type="hidden" name="wlWpa" value="tkip">
+			<input type="hidden" name="wlKeyBit" value="1">
+			<input type="hidden" name="wlPreauth" value="0">
+			<input type="hidden" name="wlKeyIndex">
+	        <input type='hidden' name='wlKey1'>
+            <input type='hidden' name='wlKey2'>
+            <input type='hidden' name='wlKey3'>
+            <input type='hidden' name='wlKey4'>
+			<input type='hidden' name='wlSsidIdx' value="0">
+		
+		  
+       <SCRIPT language=JavaScript>
+	var helpItem 	='Security';
+	var menuSection	='WLAN';
+	var menuItem	='Security';
+	var isAPmode = '<%ejGet(enblNat)%>';
+		
+	var wanStatus = '<%ejGetOther(isUp)%>';
+	showHead(wanStatus,helpItem);
+	showMenu(menuSection,menuItem,isAPmode)
+	</SCRIPT>  
+<TD class=head_bold width="90%" valign="top"><Br>
+		  
+          <table border="0" cellpadding="0" cellspacing="0" width="737">
+               <tr>
+               <td height="16" colspan="2" class="head_bold"><b>&nbsp;&nbsp;<script>dw(wlm_1);</script> &gt;&nbsp;<script>dw(wlm_5);</script> </b></td>
+               </tr>
+               
+			   <tr>
+               <td width='113' height = "16" colspan="2"></td>
+               </tr>
+			   
+               <tr>
+               <td width='624' height="16" colspan="2"></td>
+               </tr>
+		  </table>
+		  
+		  <table border="0" cellpadding="0" cellspacing="0" width="737"> 	   
+               <tr>
+			   <td width="50"></td>
+               <td width="135" height="16" class="copy_1"><b><script>dw(wlsn_1);</script> :&nbsp;&nbsp;&nbsp;</b></td>
+               <td width="552" height="16" class="copy_1">
+                  <font size="1" color='#004263'>
+                  <select name='wlAuthMode2' size='1' onChange='authModeChangeSet()'><script language="javascript">write_encMode()</script></select></font>
+					 <b>
+            <font face="Verdana" size="1" color="#6464C3">
+            <a href="javascript:void(0);" onClick="window.open('glossary.html#ENCRYPTION','help','toolbar=0,status=0,menubar=0,scrollbars=1,resizable=1,width=640,height=400,left=150,top=150');">
+            <font style="FONT-SIZE: 11px;" color="#6464C3"><script>dw(wd_8);</script></font></a></font></b>	
+				 </td>
+               </tr>
+		   </table>
+		   <Br><br>
+		   
+		   <table border="0" cellpadding="0" cellspacing="0" width="737">	   
+               <tr>
+			   <td width="146"></td>
+               <td width="80" height="16" class="copy_1">
+                 <input type = radio name = 'dkey' value = '1' onclick = 'gochk(this.value)'>
+			   <b><script>dw(wlsw64_3);</script>:</b></td>
+               <td width="511" height="16" class="copy_1">
+				<input type='text' name='keys' size='5' maxlength = '2'><input type='text' name='keys' size='5' maxlength = '2'><input type='text' name='keys' size='5' maxlength = '2'><input type='text' name='keys' size='5' maxlength = '2'><input type='text' name='keys' size='5' maxlength = '2'></td>
+               </tr>
+               <tr>
+			   <td></td>
+               <td  height="16" class="copy_1">
+			   <input type = radio name = 'dkey' value = '2' onclick = 'gochk(this.value)'>
+			   <b><script>dw(wlsw64_4);</script>:</b></td>
+               <td  height="16" class="copy_1"><input type='text' name='keys' size='5' maxlength = '2'><input type='text' name='keys' size='5' maxlength = '2'><input type='text' name='keys' size='5' maxlength = '2'><input type='text' name='keys' size='5' maxlength = '2'><input type='text' name='keys' size='5' maxlength = '2'></td>
+               </tr>
+               <tr>
+			   <td></td>
+               <td  height="16" class="copy_1"><input type = radio name = 'dkey' value = '3' onclick = 'gochk(this.value)'>
+			   <b><script>dw(wlsw64_5);</script>:</b></td>
+               <td  height="16" class="copy_1"><input type='text' name='keys' size='5' maxlength = '2'><input type='text' name='keys' size='5' maxlength = '2'><input type='text' name='keys' size='5' maxlength = '2'><input type='text' name='keys' size='5' maxlength = '2'><input type='text' name='keys' size='5' maxlength = '2'></td>
+               </tr>
+               <tr>
+			   <td></td>
+               <td  height="16" class="copy_1"><input type = radio name = 'dkey' value = '4' onclick = 'gochk(this.value)'>
+			   <b><script>dw(wlsw64_6);</script>:</b></td>
+               <td  height="16" class="copy_1"><input type='text' name='keys' size='5' maxlength = '2'><input type='text' name='keys' size='5' maxlength = '2'><input type='text' name='keys' size='5' maxlength = '2'><input type='text' name='keys' size='5' maxlength = '2'><input type='text' name='keys' size='5' maxlength = '2'></td>
+               </tr>
+			</table>
+			
+			<br><br>
+			<table border="0" cellpadding="0" cellspacing="0" width="737">	      
+               <tr>
+			   <td width="144"></td>
+               <td width="593" class="copy_1"><script>dw(wlsw64_8);</script></td>
+               </tr>
+			</table>
+			
+			
+			<table border="0" cellpadding="0" cellspacing="0" width="737">	         
+               <tr>
+			   <td width="50"></td>
+               <td width="135"  height="16"></td>
+               <td width="552"  height="16"></td>
+               </tr>
+               <tr>
+			   <td></td>
+               <td  height="16" class="copy_1"><b><script>dw(wlsw64_9);</script></b></td>
+               <td  height="16" class="copy_1">
+				<input type='text' name='passphrase' size='32' maxlength = '32'>
+				<script>
+					var info = "<input type='button' style='height:22px;width:120px;' value='"+wlsw64_10+"' class='submitBtn' onclick='Get64bitkey(passphrase.value, wlKey1, wlKey2, wlKey3, wlKey4, keys)' name='generate_btn'>";
+					dw(info);				
+				</script>
+				</td>
+               </tr>
+               <tr>
+			   <td></td>
+               <td  height="16"></td>
+               <td  height="16"></td>
+               </tr>
+               <tr>
+               <td  height="16"></td>
+               <td  height="16"></td>
+               </tr>
+               <tr>
+			   <td></td>
+               <td  height="16"></td>
+               <td  height="16">
+				<script>
+					var info = "<input type='button' style='height:22px;width:180px;' onClick='frmLoad()' value='"+wd_9+"' class='submitBtn' name='clear_changes_btn'><input type='button' style='height:22px;width:180px;' onClick='btnApply()' value='"+wd_10+"' class='submitBtn' name='apply_changes_btn'>";
+					dw(info);				
+				</script>
+               
+			   </td>
+               </tr>
+            </table>
+             <p></p>
+             </TD></TR></TBODY></TABLE></TD></form>
+   </body>
+</html>

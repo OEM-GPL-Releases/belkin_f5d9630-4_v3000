@@ -1,0 +1,81 @@
+<html>
+   <head>
+      <link rel="stylesheet" href='main_router.css' type='text/css'>
+      <meta http-equiv="Pragma" content="no-cache">
+		<meta http-equiv="refresh" content="<%ejGet(timeout_refresh)%>">
+<%ejGet("curLanguage")%>
+<SCRIPT>assign_var();</SCRIPT>
+	  
+	  <SCRIPT language=JavaScript src="showMenu.js"></SCRIPT>
+	  <script language='javascript'>
+
+strHtml='<title>'+lm_1+'&gt;</title>';
+dw(strHtml);
+	  
+
+var autoup = '<%ejGet(autoUpgrade_flag)%>';
+
+if(autoup == '1')
+{
+	newwin=window.open("checkfw.html","Firmware","toolbar=no,location=no,directories=no,status=no,menubar=no,scrollbars=yes,width=395,height=200,resizable=0");
+	newwin.focus();
+}
+
+
+	  
+var helpItem 	='LAN Setup';
+var menuSection	='LAN';
+var menuItem	='LAN Setup';
+var isAPmode = '<%ejGet(enblNat)%>';
+
+	  
+			var usrUser = '<%ejGet(usrUserName)%>';
+			if ( usrUser == 'fail'  )
+			{
+      			var loc = 'login.html';  
+   				window.location = loc;
+			}
+	  </script>						
+      <base target="_self">
+   </head>
+   <body  bgColor="#ffffff" leftMargin="0" topMargin="0" marginheight="0" marginwidth="0">
+     <form>
+    <SCRIPT language=JavaScript>
+	var wanStatus = '<%ejGetOther(isUp)%>';
+	showHead(wanStatus,helpItem);
+	showMenu(menuSection,menuItem,isAPmode)
+	</SCRIPT>  
+<TD class=head_bold width="90%" valign="top"><Br>
+	 
+            <font color="#333333" face="Verdana"><b><font size="3" class="head_bold">&nbsp;&nbsp;<script>dw(lm_2)</script> &gt;</font></b></font>
+			<br><br>
+			
+      		<TABLE class=copy_1 cellSpacing=0 cellPadding=0 width=600  border=0>
+        		<TR><Td width="11"></Td>
+          			<TD width="589" vAlign=top><span><BR>
+       			  <script>dw(lm_3)</script></span></TD>
+				</TR>
+			</TABLE>
+			<Br>	
+			<TABLE class=copy_1 cellSpacing=0 cellPadding=0 width=600  border=0>	
+				<TR>
+					<Td width="11"></Td>
+					<TD>
+            		<P align=left><SPAN><script>dw(lm_4)</script></SPAN></P>
+            		<P align=left><SPAN><B>- <script>dw(lm_5)</script><BR>
+										   - <script>dw(lm_6)</script><br>	
+										   - <script>dw(lm_7)</script><br>
+										   - <script>dw(lm_8)</script><br>
+										   - <script>dw(lm_9)</script><br>
+										   - <script>dw(lm_10)</script><br>
+					</B></SPAN></P>
+					<P align=left><script>dw(lm_11)</script></P>
+            		<P align=left><SPAN><script>dw(lm_12)</script>           
+					</SPAN><BR></P>					
+					</TD>
+				</TR>
+			
+			</TABLE>			
+         </form></TD></TR></TBODY></TABLE></TD>
+   </body>
+</html>

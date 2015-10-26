@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/kernel/linux/drivers/input/misc"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   committed-rev="3"
+   name="Kconfig"
+   text-time="2008-02-22T08:23:40.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="5c156f7f0ffd1a4833ba8e185c128542"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:40.000000Z"/>
+<entry
+   committed-rev="3"
+   name="pcspkr.c"
+   text-time="2008-02-22T08:23:40.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="65805a2f0e5881da609b8871d9f1310c"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:40.000000Z"/>
+<entry
+   committed-rev="3"
+   name="uinput.c"
+   text-time="2008-02-22T08:23:40.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="4a7a52c138501999a12434fd64c4399a"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:40.000000Z"/>
+<entry
+   committed-rev="3"
+   name="m68kspkr.c"
+   text-time="2008-02-22T08:23:40.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="2d80a95d9cc6f40b0ff683e911dacf60"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:40.000000Z"/>
+<entry
+   committed-rev="3"
+   name="sparcspkr.c"
+   text-time="2008-02-22T08:23:40.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="8285c4ac94695a4feae61b16137f4f9d"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:40.000000Z"/>
+<entry
+   name="CVS"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="Makefile"
+   text-time="2008-02-22T08:23:40.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="f9632374151df19861c95271e3cd0177"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:40.000000Z"/>
+</wc-entries>

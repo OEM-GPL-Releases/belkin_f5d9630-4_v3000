@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/kernel/linux/drivers/net/appletalk"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   committed-rev="3"
+   name="Kconfig"
+   text-time="2008-02-22T08:24:08.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="fdbb97938059b7dbce8dc493f2c579a8"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:08.000000Z"/>
+<entry
+   committed-rev="3"
+   name="cops_ffdrv.h"
+   text-time="2008-02-22T08:24:08.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="19b1708a285f3c5c3b43680d376d4275"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:08.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ipddp.c"
+   text-time="2008-02-22T08:24:08.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="c936f487faa306cd8b51a47d6b105fce"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:08.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ltpc.c"
+   text-time="2008-02-22T08:24:08.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="f5bc45db7723fd037f30f1ccd0e9f521"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:08.000000Z"/>
+<entry
+   committed-rev="3"
+   name="cops.c"
+   text-time="2008-02-22T08:24:08.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="b5c1e07a75d4037dd3e59860933594ca"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:08.000000Z"/>
+<entry
+   committed-rev="3"
+   name="cops_ltdrv.h"
+   text-time="2008-02-22T08:24:08.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="1b980ce895bc303f81c3de6aeca34df0"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:08.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ipddp.h"
+   text-time="2008-02-22T08:24:08.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="024e8756b4f34183622af7e6f155e77f"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:08.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ltpc.h"
+   text-time="2008-02-22T08:24:08.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="eb760f4da640e0492295dfe2d676c150"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:08.000000Z"/>
+<entry
+   committed-rev="3"
+   name="cops.h"
+   text-time="2008-02-22T08:24:08.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="7623ca6c552919a20d9878030f6f7def"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:08.000000Z"/>
+<entry
+   name="CVS"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name=".cvsignore"
+   text-time="2008-02-22T08:24:08.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="d8b65572e25962faaf07c20bb34d224e"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:08.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Makefile"
+   text-time="2008-02-22T08:24:08.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="5a7632cfc531a880be79c73c5776294f"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:08.000000Z"/>
+</wc-entries>

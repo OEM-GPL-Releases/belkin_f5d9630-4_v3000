@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/kernel/linux/sound/oss/dmasound"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   committed-rev="3"
+   name="dmasound_q40.c"
+   text-time="2008-02-22T08:21:37.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="7116f1547b5115adaf10aade44958619"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:37.000000Z"/>
+<entry
+   committed-rev="3"
+   name="tas3001c.c"
+   text-time="2008-02-22T08:21:37.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="b7fbb88edaa1cdb415698ac6fedc77a1"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:37.000000Z"/>
+<entry
+   committed-rev="3"
+   name="tas3004.c"
+   text-time="2008-02-22T08:21:37.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="e8aead309bf9b606ae8b8176603fbbde"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:37.000000Z"/>
+<entry
+   committed-rev="3"
+   name="tas_common.c"
+   text-time="2008-02-22T08:21:37.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="2b6d021d59ec08d386d00fe0d5726f6c"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:37.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Kconfig"
+   text-time="2008-02-22T08:21:37.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="746d2868ed929ee70c45102a99e2d54a"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:37.000000Z"/>
+<entry
+   committed-rev="3"
+   name="tas3004.h"
+   text-time="2008-02-22T08:21:37.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="349f4a6ff39d6034ea2f9a151708ce3b"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:37.000000Z"/>
+<entry
+   committed-rev="3"
+   name="tas3001c.h"
+   text-time="2008-02-22T08:21:37.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="50ed4669eef8cf7aad810b6b257d9a0b"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:37.000000Z"/>
+<entry
+   committed-rev="3"
+   name="tas_common.h"
+   text-time="2008-02-22T08:21:37.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="cfcdd6f1f653bcb4ecab5f6d9e3743dc"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:37.000000Z"/>
+<entry
+   committed-rev="3"
+   name="awacs_defs.h"
+   text-time="2008-02-22T08:21:37.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="99bf70f793f4e3c0754aea1830e0df61"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:37.000000Z"/>
+<entry
+   committed-rev="3"
+   name="dac3550a.c"
+   text-time="2008-02-22T08:21:37.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="deb0ee9f2c32a64abd8b5c15ce409a66"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:37.000000Z"/>
+<entry
+   name="CVS"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="dmasound.h"
+   text-time="2008-02-22T08:21:37.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="64b2ac713f4b61d49ccfdef7fd9e9788"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:37.000000Z"/>
+<entry
+   committed-rev="3"
+   name="tas_eq_prefs.h"
+   text-time="2008-02-22T08:21:37.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="17cde389afb0ff45f454bdb26256c692"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:37.000000Z"/>
+<entry
+   committed-rev="3"
+   name="dmasound_core.c"
+   text-time="2008-02-22T08:21:37.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="6265004cd09d6ff305363b19307bbba9"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:37.000000Z"/>
+<entry
+   committed-rev="3"
+   name="tas_ioctl.h"
+   text-time="2008-02-22T08:21:37.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="abc5d10a6e2af3359d2b5b8dca057718"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:37.000000Z"/>
+<entry
+   committed-rev="3"
+   name="tas3001c_tables.c"
+   text-time="2008-02-22T08:21:37.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="cd3a1b62a628698ab6a08e6c9fa6d4a5"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:37.000000Z"/>
+<entry
+   committed-rev="3"
+   name="dmasound_awacs.c"
+   text-time="2008-02-22T08:21:37.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="4736f9f88c28df0194ca2ba12174545b"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:37.000000Z"/>
+<entry
+   committed-rev="3"
+   name="tas3004_tables.c"
+   text-time="2008-02-22T08:21:37.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="35cc2584576bfd521e7df7b7c13a2b2e"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:37.000000Z"/>
+<entry
+   committed-rev="3"
+   name="dmasound_atari.c"
+   text-time="2008-02-22T08:21:37.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="ace6bb597ce8cc20bdbeb023e8d63504"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:37.000000Z"/>
+<entry
+   committed-rev="3"
+   name="dmasound_paula.c"
+   text-time="2008-02-22T08:21:37.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="96c5edb34b29e499f4f70ed0f0c2da77"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:37.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Makefile"
+   text-time="2008-02-22T08:21:37.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="d1fad0e765d49ccf6866b3bb61c37cca"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:37.000000Z"/>
+<entry
+   committed-rev="3"
+   name=".cvsignore"
+   text-time="2008-02-22T08:21:37.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="d8b65572e25962faaf07c20bb34d224e"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:37.000000Z"/>
+<entry
+   committed-rev="3"
+   name="trans_16.c"
+   text-time="2008-02-22T08:21:37.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="ec52a6739f3e4239f34bfc487bbc8061"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:37.000000Z"/>
+</wc-entries>

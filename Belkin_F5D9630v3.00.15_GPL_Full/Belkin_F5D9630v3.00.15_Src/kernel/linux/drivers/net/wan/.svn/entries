@@ -1,0 +1,487 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/kernel/linux/drivers/net/wan"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   committed-rev="3"
+   name="pc300-falc-lh.h"
+   text-time="2008-02-22T08:24:02.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="2cfdc977861205bb0fe8bc72ad83d4b1"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:01.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Kconfig"
+   text-time="2008-02-22T08:24:02.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="6d3de459d4488a3e7bf1bd2d7755ba58"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:01.000000Z"/>
+<entry
+   committed-rev="3"
+   name="hdlc_fr.c"
+   text-time="2008-02-22T08:24:02.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="ba5b3db83b1057d2370d83379e4a16b8"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:01.000000Z"/>
+<entry
+   committed-rev="3"
+   name="farsync.c"
+   text-time="2008-02-22T08:24:02.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="a6f18975a7706c153d6a2843cc1aab71"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:01.000000Z"/>
+<entry
+   committed-rev="3"
+   name="lapbether.c"
+   text-time="2008-02-22T08:24:02.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="a060c26f70e82a6f4366e782c619e5fc"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:01.000000Z"/>
+<entry
+   committed-rev="3"
+   name="hd64570.h"
+   text-time="2008-02-22T08:24:02.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="1603121950403259e44f5aeaf007b2a2"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:01.000000Z"/>
+<entry
+   committed-rev="3"
+   name="hdlc_x25.c"
+   text-time="2008-02-22T08:24:02.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="5acbc55b9d45249718cfe6e9389ac577"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:01.000000Z"/>
+<entry
+   committed-rev="3"
+   name="hd64572.h"
+   text-time="2008-02-22T08:24:02.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="5d668c620b3fffcf5b5f83d9939208dc"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:01.000000Z"/>
+<entry
+   committed-rev="3"
+   name="hd6457x.c"
+   text-time="2008-02-22T08:24:02.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="52ada4c6abad4113a6b2ea0e1b8182cb"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:01.000000Z"/>
+<entry
+   committed-rev="3"
+   name="farsync.h"
+   text-time="2008-02-22T08:24:02.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="36e84129b34e79e08b9cc13505db1fff"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:01.000000Z"/>
+<entry
+   committed-rev="3"
+   name="sdla_fr.c"
+   text-time="2008-02-22T08:24:02.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="22562d0a2c270824f437dd086a5c9584"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:01.000000Z"/>
+<entry
+   committed-rev="3"
+   name="dlci.c"
+   text-time="2008-02-22T08:24:02.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="64b996c7b4c24f590a6e455c7f588da6"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:01.000000Z"/>
+<entry
+   committed-rev="3"
+   name="z85230.c"
+   text-time="2008-02-22T08:24:02.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="84a015f47fb3776de2149d81691eac05"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:01.000000Z"/>
+<entry
+   committed-rev="3"
+   name="z85230.h"
+   text-time="2008-02-22T08:24:02.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="1f93a8edb6ed29d5958d1d3d75d07ce1"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:01.000000Z"/>
+<entry
+   committed-rev="3"
+   name="sdla_chdlc.c"
+   text-time="2008-02-22T08:24:02.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="0fa5868311bde9819d6932343487b062"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:01.000000Z"/>
+<entry
+   committed-rev="3"
+   name="cycx_drv.c"
+   text-time="2008-02-22T08:24:02.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="f6a5f56ea3e654a678cc943b85396cd3"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:01.000000Z"/>
+<entry
+   committed-rev="3"
+   name="sdla.c"
+   text-time="2008-02-22T08:24:02.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="69b347f080a31fbcab2c386dc75de1d7"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:01.000000Z"/>
+<entry
+   committed-rev="3"
+   name="hdlc_raw.c"
+   text-time="2008-02-22T08:24:02.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="a7a11e8f07a7c295c395426fe2f48771"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:01.000000Z"/>
+<entry
+   committed-rev="3"
+   name="hdlc_raw_eth.c"
+   text-time="2008-02-22T08:24:02.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="33558f556db337f5b164b6b157ea7d73"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:01.000000Z"/>
+<entry
+   committed-rev="3"
+   name="wanpipe_multppp.c"
+   text-time="2008-02-22T08:24:02.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="bf2cecba16f197a2778a9d4a3ce962b7"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:01.000000Z"/>
+<entry
+   committed-rev="3"
+   name="wanxlfw.inc_shipped"
+   text-time="2008-02-22T08:24:02.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="e702fcbb4a002a8b54f503253bec7d81"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:01.000000Z"/>
+<entry
+   committed-rev="3"
+   name="wanxl.c"
+   text-time="2008-02-22T08:24:02.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="e6145cd820daf591651d5222f558bc25"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:01.000000Z"/>
+<entry
+   committed-rev="3"
+   name="x25_asy.c"
+   text-time="2008-02-22T08:24:02.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="1bb81a618ede28e112973d9cfe17d1f0"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:01.000000Z"/>
+<entry
+   committed-rev="3"
+   name="pc300.h"
+   text-time="2008-02-22T08:24:02.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="c3d29517f9b1dfe0925e4caa3cfe8ada"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:01.000000Z"/>
+<entry
+   name="lmc"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="sbni.c"
+   text-time="2008-02-22T08:24:02.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="c7509eec3bfb4a6de9594c2eef760644"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:01.000000Z"/>
+<entry
+   committed-rev="3"
+   name="syncppp.c"
+   text-time="2008-02-22T08:24:02.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="ef10f69d2fde0bfb8be95ac08f098d97"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:01.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Makefile"
+   text-time="2008-02-22T08:24:02.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="4e48bf6bb9ad62f1a7764c0b9abea917"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:01.000000Z"/>
+<entry
+   committed-rev="3"
+   name=".cvsignore"
+   text-time="2008-02-22T08:24:02.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="d8b65572e25962faaf07c20bb34d224e"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:01.000000Z"/>
+<entry
+   committed-rev="3"
+   name="sdla_ft1.c"
+   text-time="2008-02-22T08:24:02.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="54b0ab0be1ae58fc6783ca2acdc493a5"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:01.000000Z"/>
+<entry
+   committed-rev="3"
+   name="wanxl.h"
+   text-time="2008-02-22T08:24:02.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="6eb80d8f580860819fdf581c6c5b7ba1"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:01.000000Z"/>
+<entry
+   committed-rev="3"
+   name="sdladrv.c"
+   text-time="2008-02-22T08:24:02.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="1fcc2aaf8c59b9632b13e3cb03880bfd"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:01.000000Z"/>
+<entry
+   committed-rev="3"
+   name="x25_asy.h"
+   text-time="2008-02-22T08:24:02.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="f317189644b29c570cdf2ffbefa56a50"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:01.000000Z"/>
+<entry
+   committed-rev="3"
+   name="pc300_drv.c"
+   text-time="2008-02-22T08:24:02.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="717579a77ffdc8011ea0245307932fff"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:01.000000Z"/>
+<entry
+   committed-rev="3"
+   name="dscc4.c"
+   text-time="2008-02-22T08:24:02.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="fefefdabb2c5743714121cb52b935909"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:01.000000Z"/>
+<entry
+   committed-rev="3"
+   name="sbni.h"
+   text-time="2008-02-22T08:24:02.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="0d88569f846383f804ac7f56985964a6"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:01.000000Z"/>
+<entry
+   committed-rev="3"
+   name="sealevel.c"
+   text-time="2008-02-22T08:24:02.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="871fe22b7c04153d5111c29b2d792577"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:01.000000Z"/>
+<entry
+   committed-rev="3"
+   name="hostess_sv11.c"
+   text-time="2008-02-22T08:24:02.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="e507f4c3ca4ac34b376d7b294f854d0d"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:01.000000Z"/>
+<entry
+   committed-rev="3"
+   name="sdla_ppp.c"
+   text-time="2008-02-22T08:24:02.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="d23ac5b43fd587e66bfe7268432b34b7"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:01.000000Z"/>
+<entry
+   committed-rev="3"
+   name="c101.c"
+   text-time="2008-02-22T08:24:02.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="403e01040155ab8bd8079bcc13bdcd47"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:01.000000Z"/>
+<entry
+   committed-rev="3"
+   name="cycx_x25.c"
+   text-time="2008-02-22T08:24:02.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="61ad2671549c66650efce8a47f6e64e0"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:01.000000Z"/>
+<entry
+   committed-rev="3"
+   name="hdlc_generic.c"
+   text-time="2008-02-22T08:24:02.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="4cf3345364c1e8ea73a4f51182200c6c"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:01.000000Z"/>
+<entry
+   committed-rev="3"
+   name="wanxlfw.S"
+   text-time="2008-02-22T08:24:02.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="c203cb03e98a2c7aad65b55c165eb6c3"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:01.000000Z"/>
+<entry
+   name="CVS"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="cycx_main.c"
+   text-time="2008-02-22T08:24:02.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="70f632b66506c4386da0a7083d18d91f"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:02.000000Z"/>
+<entry
+   committed-rev="3"
+   name="n2.c"
+   text-time="2008-02-22T08:24:02.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="ababc74b35028826461dbd274f38af68"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:02.000000Z"/>
+<entry
+   committed-rev="3"
+   name="sdla_x25.c"
+   text-time="2008-02-22T08:24:02.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="037f86f8085eba71a13592118f62e3f2"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:02.000000Z"/>
+<entry
+   committed-rev="3"
+   name="pc300_tty.c"
+   text-time="2008-02-22T08:24:02.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="08821a5232bbba43e24e8bd1069f1fbb"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:02.000000Z"/>
+<entry
+   committed-rev="3"
+   name="cosa.c"
+   text-time="2008-02-22T08:24:02.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="9684b2809e826338c4144f7210f57b91"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:02.000000Z"/>
+<entry
+   committed-rev="3"
+   name="pci200syn.c"
+   text-time="2008-02-22T08:24:02.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="843838b137ae29eaa5961cd40de02977"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:02.000000Z"/>
+<entry
+   committed-rev="3"
+   name="sdlamain.c"
+   text-time="2008-02-22T08:24:02.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="ac5e90cae2079cc812bd5c8f4465fcac"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:02.000000Z"/>
+<entry
+   committed-rev="3"
+   name="hdlc_ppp.c"
+   text-time="2008-02-22T08:24:02.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="0cfcc5a0aa01b20d30f760c7bd20e15d"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:02.000000Z"/>
+<entry
+   committed-rev="3"
+   name="hdlc_cisco.c"
+   text-time="2008-02-22T08:24:02.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="5cecb6eb9e80c4b857da5098031284d8"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:02.000000Z"/>
+<entry
+   committed-rev="3"
+   name="cosa.h"
+   text-time="2008-02-22T08:24:02.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="d27b780a82ed21da4bcdea9bc5fa9055"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:02.000000Z"/>
+</wc-entries>

@@ -1,0 +1,439 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/kernel/linux/Documentation/sound/oss"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   committed-rev="3"
+   name="mwave"
+   text-time="2008-02-22T08:22:01.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="fc90e7cd0465cb457dc0097e00ac9410"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:01.000000Z"/>
+<entry
+   committed-rev="3"
+   name="AWE32"
+   text-time="2008-02-22T08:22:01.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="45cab05e2eea56b811e049e3ab0d5b9b"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:01.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ESS1868"
+   text-time="2008-02-22T08:22:01.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="bcc5d3404b3d98d5aab5534519be8289"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:01.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Introduction"
+   text-time="2008-02-22T08:22:01.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="16f1fd2a209299f5c4a13085d599e4e5"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:01.000000Z"/>
+<entry
+   committed-rev="3"
+   name="es1370"
+   text-time="2008-02-22T08:22:01.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="fccc8dffd1a38423763f4b211cc82ce0"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:01.000000Z"/>
+<entry
+   committed-rev="3"
+   name="es1371"
+   text-time="2008-02-22T08:22:01.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="6086062496eb93f4f6554302334883a7"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:01.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ChangeLog.multisound"
+   text-time="2008-02-22T08:22:01.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="674316f49ba9ec272e77ec1f19b983d8"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:01.000000Z"/>
+<entry
+   committed-rev="3"
+   name="PAS16"
+   text-time="2008-02-22T08:22:01.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="4dd5fe02293d423780a57e944044ca11"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:01.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ESS"
+   text-time="2008-02-22T08:22:01.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="350e3b80d54e0607f4f94a30ef72cd15"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:01.000000Z"/>
+<entry
+   committed-rev="3"
+   name="cs46xx"
+   text-time="2008-02-22T08:22:01.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="38c5c66c57459662068303ea33c1c407"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:01.000000Z"/>
+<entry
+   committed-rev="3"
+   name="vwsnd"
+   text-time="2008-02-22T08:22:01.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="93eb3b94e8df165bb3121e4855e3249a"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:01.000000Z"/>
+<entry
+   committed-rev="3"
+   name="PSS"
+   text-time="2008-02-22T08:22:01.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="19c8945594c241613089fe37124d02b7"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:01.000000Z"/>
+<entry
+   committed-rev="3"
+   name="PSS-updates"
+   text-time="2008-02-22T08:22:01.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="598332dbeaf3de5e1cb4a222bc240608"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:01.000000Z"/>
+<entry
+   committed-rev="3"
+   name="VIBRA16"
+   text-time="2008-02-22T08:22:01.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="0953c2a92edcf815766749a286b6330e"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:01.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Maestro"
+   text-time="2008-02-22T08:22:01.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="bb7baf0f27d9a53b468bfe2a40ea01ab"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:01.000000Z"/>
+<entry
+   committed-rev="3"
+   name="VIA-chipset"
+   text-time="2008-02-22T08:22:01.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="0d909a49cf857fd3f7cc5c937235df6b"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:01.000000Z"/>
+<entry
+   committed-rev="3"
+   name="NEWS"
+   text-time="2008-02-22T08:22:01.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="aad525cd4e852cde06defc1bb945829b"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:01.000000Z"/>
+<entry
+   committed-rev="3"
+   name="OPL3-SA"
+   text-time="2008-02-22T08:22:01.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="210d33f1b99764f8e0b62aaeefc757c7"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:01.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ALS"
+   text-time="2008-02-22T08:22:01.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="496da82f0072b2d2aaedeac450ae9e5c"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:01.000000Z"/>
+<entry
+   committed-rev="3"
+   name="CS4232"
+   text-time="2008-02-22T08:22:01.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="000206354a5fc911307eabb9bda2dc79"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:01.000000Z"/>
+<entry
+   committed-rev="3"
+   name="INSTALL.awe"
+   text-time="2008-02-22T08:22:01.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="cacdd8104bda26b70c3e687c544b1acb"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:01.000000Z"/>
+<entry
+   committed-rev="3"
+   name="rme96xx"
+   text-time="2008-02-22T08:22:01.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="2f37b24195e0e4c92dea3648c015158a"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:01.000000Z"/>
+<entry
+   committed-rev="3"
+   name="CMI8330"
+   text-time="2008-02-22T08:22:01.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="44938a06b9b85580d5f483b18f39d7a0"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:01.000000Z"/>
+<entry
+   committed-rev="3"
+   name="btaudio"
+   text-time="2008-02-22T08:22:01.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="84031ef3f24a2dcf2f0ffbe29a1c3d2d"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:01.000000Z"/>
+<entry
+   committed-rev="3"
+   name="WaveArtist"
+   text-time="2008-02-22T08:22:01.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="53023a90398d0d847e1bfd0d553270fc"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:01.000000Z"/>
+<entry
+   name="CVS"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="solo1"
+   text-time="2008-02-22T08:22:01.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="61a7976a2978b0247a75afc751463b77"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:01.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Maestro3"
+   text-time="2008-02-22T08:22:01.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="a215eb03713ea53be98f6ba9ede5ae7a"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:01.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Tropez+"
+   text-time="2008-02-22T08:22:01.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="4b6af9c8f7945cceeb5075ae32dab5fe"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:01.000000Z"/>
+<entry
+   committed-rev="3"
+   name="CMI8338"
+   text-time="2008-02-22T08:22:01.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="0420edb1316d384f700445c0ba86ea68"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:01.000000Z"/>
+<entry
+   committed-rev="3"
+   name="README.OSS"
+   text-time="2008-02-22T08:22:01.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="f5879526e244d7ade7932d1067191c5f"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:01.000000Z"/>
+<entry
+   committed-rev="3"
+   name="OPL3-SA2"
+   text-time="2008-02-22T08:22:01.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="e2c8392a8ac878ddfba456f365bf7598"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:01.000000Z"/>
+<entry
+   committed-rev="3"
+   name="AudioExcelDSP16"
+   text-time="2008-02-22T08:22:01.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="243aa43fc79d6cdd8caa0118998ed179"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:01.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ultrasound"
+   text-time="2008-02-22T08:22:01.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="31618d5230a4a8fcc16871615b6d23cc"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:01.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ChangeLog.awe"
+   text-time="2008-02-22T08:22:01.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="c1f9bd891917811566b4fefb8df6d2ed"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:01.000000Z"/>
+<entry
+   committed-rev="3"
+   name="MultiSound"
+   text-time="2008-02-22T08:22:01.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="e22fe4120248af00d7691349a6a6bfb2"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:01.000000Z"/>
+<entry
+   committed-rev="3"
+   name="README.modules"
+   text-time="2008-02-22T08:22:01.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="4cff940b01c41272627c33efa894a613"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:01.000000Z"/>
+<entry
+   committed-rev="3"
+   name="AD1816"
+   text-time="2008-02-22T08:22:01.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="fa688dcf3bdad77cfc74b73c623589a3"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:01.000000Z"/>
+<entry
+   committed-rev="3"
+   name="sonicvibes"
+   text-time="2008-02-22T08:22:01.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="b60eb9bb1b6f08794d17cda802138410"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:01.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Soundblaster"
+   text-time="2008-02-22T08:22:01.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="b8ca28b0efa9aff14e8a6d1166d8e7bf"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:01.000000Z"/>
+<entry
+   committed-rev="3"
+   name="NM256"
+   text-time="2008-02-22T08:22:01.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="312efca185f7b290af3dec78008c50f2"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:01.000000Z"/>
+<entry
+   committed-rev="3"
+   name="README.awe"
+   text-time="2008-02-22T08:22:01.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="f929733ae0784cb7f7df7d0dc1be064a"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:01.000000Z"/>
+<entry
+   committed-rev="3"
+   name="MAD16"
+   text-time="2008-02-22T08:22:01.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="e700f3f59aba03a1f436ac7a9908890c"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:01.000000Z"/>
+<entry
+   committed-rev="3"
+   name="SoundPro"
+   text-time="2008-02-22T08:22:01.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="2049c149fa2f0b647eeedc3e3eea1f3e"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:01.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Opti"
+   text-time="2008-02-22T08:22:01.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="9b67d4966a0a13c66216fb4d20a9b503"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:01.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Wavefront"
+   text-time="2008-02-22T08:22:01.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="6c7fa1d60002aa3d1ac6dd24ec432e99"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:01.000000Z"/>
+<entry
+   committed-rev="3"
+   name="README.ymfsb"
+   text-time="2008-02-22T08:22:01.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="b966af021a7e56ef9e5f267f5817cb24"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:01.000000Z"/>
+<entry
+   committed-rev="3"
+   name="OPL3"
+   text-time="2008-02-22T08:22:01.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="8a19abf2d27e1913166ab371f2466f0f"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:01.000000Z"/>
+</wc-entries>

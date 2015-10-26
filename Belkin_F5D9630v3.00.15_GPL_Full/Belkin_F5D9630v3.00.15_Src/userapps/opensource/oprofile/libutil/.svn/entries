@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/userapps/opensource/oprofile/libutil"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   committed-rev="3"
+   name="op_get_time.h"
+   text-time="2008-02-22T08:24:49.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="ec85a24af860f085e700a077f0f3e656"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:49.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Makefile.in"
+   text-time="2008-02-22T08:24:49.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="2a95dc742c9a865bf4f146c33c1009ee"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:49.000000Z"/>
+<entry
+   committed-rev="3"
+   name="op_cpufreq.c"
+   text-time="2008-02-22T08:24:49.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="f4956fd094b7cd4ae7a43cd69c57a495"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:49.000000Z"/>
+<entry
+   committed-rev="3"
+   name="op_string.c"
+   text-time="2008-02-22T08:24:50.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="53a93bd92b0a126535fec4449d26d8ea"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:49.000000Z"/>
+<entry
+   committed-rev="3"
+   name="op_fileio.c"
+   text-time="2008-02-22T08:24:50.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="e7a5268bd1fe661a63fe6e1d7ad252f6"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:49.000000Z"/>
+<entry
+   committed-rev="3"
+   name="op_types.h"
+   text-time="2008-02-22T08:24:50.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="0b275e4c03d4d3ab189177a1fd347fd1"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:49.000000Z"/>
+<entry
+   committed-rev="3"
+   name="op_cpufreq.h"
+   text-time="2008-02-22T08:24:50.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="c34aa73d4a12dbb21dd101a5639927b3"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:49.000000Z"/>
+<entry
+   committed-rev="3"
+   name="op_string.h"
+   text-time="2008-02-22T08:24:50.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="e50558e54b21d4b47cd1431570908d0e"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:49.000000Z"/>
+<entry
+   committed-rev="3"
+   name="op_fileio.h"
+   text-time="2008-02-22T08:24:50.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="7db9f64a673e53430a21e45f098fda66"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:49.000000Z"/>
+<entry
+   committed-rev="3"
+   name="op_file.c"
+   text-time="2008-02-22T08:24:50.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="6500a2935ec52bae27715f54a028a0d0"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:49.000000Z"/>
+<entry
+   committed-rev="3"
+   name="op_list.h"
+   text-time="2008-02-22T08:24:50.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="16794444647d31a773833690aa3b9fb9"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:49.000000Z"/>
+<entry
+   committed-rev="3"
+   name="op_popt.c"
+   text-time="2008-02-22T08:24:50.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="8a8f8473d8bbe45db81193a503de4bd3"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:49.000000Z"/>
+<entry
+   name="tests"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="op_file.h"
+   text-time="2008-02-22T08:24:50.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="cee02a1e1b0d4294dd5696e530ed0d4a"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:49.000000Z"/>
+<entry
+   committed-rev="3"
+   name="op_libiberty.c"
+   text-time="2008-02-22T08:24:50.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="f0c777081a8724a5d6e8bb67c5e9c66a"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:49.000000Z"/>
+<entry
+   committed-rev="3"
+   name="op_version.c"
+   text-time="2008-02-22T08:24:50.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="5c2c9c2f048ace64dbf5acb893764321"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:49.000000Z"/>
+<entry
+   committed-rev="3"
+   name="op_deviceio.c"
+   text-time="2008-02-22T08:24:50.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="e2d1b315453a2802f78ac30fad3eabcd"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:49.000000Z"/>
+<entry
+   committed-rev="3"
+   name="op_popt.h"
+   text-time="2008-02-22T08:24:50.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="109ab471dca254cf2fe9be904f82d8e0"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:49.000000Z"/>
+<entry
+   committed-rev="3"
+   name="op_lockfile.c"
+   text-time="2008-02-22T08:24:50.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="7c1b6c0510f042fc1ce40838e641c858"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:49.000000Z"/>
+<entry
+   name=".deps"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="op_libiberty.h"
+   text-time="2008-02-22T08:24:50.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="13f8c9bf6f2b952ddfaa7550ed9980b3"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:49.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Makefile.am"
+   text-time="2008-02-22T08:24:50.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="ea57cef191e65a75afb703eaecf86e2a"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:49.000000Z"/>
+<entry
+   committed-rev="3"
+   name="op_version.h"
+   text-time="2008-02-22T08:24:50.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="99526c8b49a8599a88027a96ee670370"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:49.000000Z"/>
+<entry
+   committed-rev="3"
+   name="op_deviceio.h"
+   text-time="2008-02-22T08:24:50.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="98b684e0f702010f84bd3b02fe2d2819"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:49.000000Z"/>
+<entry
+   committed-rev="3"
+   name="op_get_time.c"
+   text-time="2008-02-22T08:24:50.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="531174dd3a6adf9675673654e62a9208"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:49.000000Z"/>
+<entry
+   committed-rev="3"
+   name="op_lockfile.h"
+   text-time="2008-02-22T08:24:50.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="2a2ec97fae7843f8bddb8e89c0cb9de1"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:49.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Makefile"
+   text-time="2008-02-22T08:24:50.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="3ebb34eec75c55b43383a468aea07fb2"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:49.000000Z"/>
+</wc-entries>

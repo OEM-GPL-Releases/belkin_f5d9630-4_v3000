@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/kernel/linux/net/ipv6/netfilter"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   committed-rev="3"
+   name="ip6t_eui64.c"
+   text-time="2008-02-22T08:21:31.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="419f619c9f2850d62b819cffb91cd2e4"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:31.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Kconfig"
+   text-time="2008-02-22T08:21:31.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="1e19588f195d6f220a0927cc0a2ac155"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:31.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ip6t_ipv6header.c"
+   text-time="2008-02-22T08:21:31.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="814084eee585657d4a0d8dd3c0c86041"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:31.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ip6t_multiport.c"
+   text-time="2008-02-22T08:21:31.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="665db341f519dcee745bb047aa58ca33"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:31.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ip6t_mac.c"
+   text-time="2008-02-22T08:21:31.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="09fba94c4089b0f3926d42a35b1bcdd7"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:31.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ip6_queue.c"
+   text-time="2008-02-22T08:21:31.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="ec10fa957b5ce271992018a30b787215"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:31.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ip6t_hbh.c"
+   text-time="2008-02-22T08:21:31.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="12728e2d9807ad4514dfcb52c75a1438"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:31.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ip6t_hl.c"
+   text-time="2008-02-22T08:21:31.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="139f3be8683c472b089511313dddeb27"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:31.000000Z"/>
+<entry
+   name="CVS"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="ip6table_filter.c"
+   text-time="2008-02-22T08:21:31.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="bfb1984aebbb40d20e87f62358aa7ec4"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:31.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ip6table_raw.c"
+   text-time="2008-02-22T08:21:31.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="1a4c34a7de62c15a4a22264a3a22d0c9"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:31.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ip6t_limit.c"
+   text-time="2008-02-22T08:21:31.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="149fc4f05f5c84ae288a6cb7f3a3b740"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:31.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ip6t_frag.c"
+   text-time="2008-02-22T08:21:31.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="a7722491335087d7a75a7d4952493125"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:31.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ip6t_length.c"
+   text-time="2008-02-22T08:21:31.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="9d8a26112d8ae8615f453c435bfdf9ee"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:31.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ip6t_LOG.c"
+   text-time="2008-02-22T08:21:31.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="fa1411e27f78be391abb8539854caa46"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:31.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ip6t_rt.c"
+   text-time="2008-02-22T08:21:31.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="db2c0a8dd19f4c95097999db1551756a"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:31.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ip6_tables.c"
+   text-time="2008-02-22T08:21:31.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="3fa65afa6d2a295b219fdc5ec8d60a76"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:31.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ip6t_esp.c"
+   text-time="2008-02-22T08:21:31.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="5650c7d7a82d58dc6cb59f32e257dc89"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:31.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ip6table_mangle.c"
+   text-time="2008-02-22T08:21:31.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="858680b59cc46f99728aacab362532b6"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:31.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ip6t_ah.c"
+   text-time="2008-02-22T08:21:31.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="362dd5878bffd0875aecc5385807165f"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:31.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ip6t_dst.c"
+   text-time="2008-02-22T08:21:31.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="cd26a6c30993cd4f1d25fa713c24acb2"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:31.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ip6t_MARK.c"
+   text-time="2008-02-22T08:21:31.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="b9e81fd27f50cd6d3aa9a612e6463a7b"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:31.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Makefile"
+   text-time="2008-02-22T08:21:31.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="6e34f0d2ae9fb5f5e0f474d623cb0579"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:31.000000Z"/>
+<entry
+   committed-rev="3"
+   name=".cvsignore"
+   text-time="2008-02-22T08:21:31.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="735ab631b67b75d07a52edc9e01aed4c"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:31.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ip6t_mark.c"
+   text-time="2008-02-22T08:21:31.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="e6f015d4e5946b26a33849cd5aff8691"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:31.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ip6t_owner.c"
+   text-time="2008-02-22T08:21:31.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="e0f8a5d084428f55930eda1b665c7f35"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:31.000000Z"/>
+</wc-entries>

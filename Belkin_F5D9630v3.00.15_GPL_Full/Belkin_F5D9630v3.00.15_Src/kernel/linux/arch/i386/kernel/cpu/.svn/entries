@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/kernel/linux/arch/i386/kernel/cpu"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   committed-rev="3"
+   name="cyrix.c"
+   text-time="2008-02-22T08:22:32.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="36e7b4521898d8a76d817d1507ddf05b"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:32.000000Z"/>
+<entry
+   committed-rev="3"
+   name="transmeta.c"
+   text-time="2008-02-22T08:22:32.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="87a3404780560e8e3aad3ba7309eae2e"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:32.000000Z"/>
+<entry
+   committed-rev="3"
+   name="amd.c"
+   text-time="2008-02-22T08:22:32.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="7963a437fa3de504a9925f1ffe1f4cb2"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:32.000000Z"/>
+<entry
+   committed-rev="3"
+   name="centaur.c"
+   text-time="2008-02-22T08:22:32.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="e2391bdfc10860e1cde884919a0d6def"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:32.000000Z"/>
+<entry
+   committed-rev="3"
+   name="rise.c"
+   text-time="2008-02-22T08:22:32.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="d974637eed35d320ec451846f26e7605"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:32.000000Z"/>
+<entry
+   committed-rev="3"
+   name="proc.c"
+   text-time="2008-02-22T08:22:32.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="7142aa3f100cb5887dbdb9c2dc1b9290"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:32.000000Z"/>
+<entry
+   name="mtrr"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="changelog"
+   text-time="2008-02-22T08:22:32.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="0e10ae3f4e8563da29b1fd2a1b9ab8d4"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:32.000000Z"/>
+<entry
+   name="mcheck"
+   kind="dir"/>
+<entry
+   name="CVS"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="intel.c"
+   text-time="2008-02-22T08:22:32.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="c576c6dbcbe106745c9892bcc209c5a7"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:32.000000Z"/>
+<entry
+   committed-rev="3"
+   name="umc.c"
+   text-time="2008-02-22T08:22:32.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="16c6cf65f7174f74893bbc516e41c73b"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:32.000000Z"/>
+<entry
+   committed-rev="3"
+   name="nexgen.c"
+   text-time="2008-02-22T08:22:32.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="12bbede6748ddc203c623b80fc0d9e15"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:32.000000Z"/>
+<entry
+   name="cpufreq"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="common.c"
+   text-time="2008-02-22T08:22:32.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="1ba96d32f2949a8494e11500d0ae9428"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:32.000000Z"/>
+<entry
+   committed-rev="3"
+   name="cpu.h"
+   text-time="2008-02-22T08:22:32.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="7c95c62cc6546530cc41f2e51be9d8d0"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:32.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Makefile"
+   text-time="2008-02-22T08:22:32.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="3421eac7597ce5e8892136cb13f4311b"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:32.000000Z"/>
+</wc-entries>

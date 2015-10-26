@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/kernel/linux/sound/synth/emux"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   committed-rev="3"
+   name="emux.c"
+   text-time="2008-02-22T08:21:39.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="3d7c1299f284c04229e7ea85eb7249c6"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:39.000000Z"/>
+<entry
+   committed-rev="3"
+   name="soundfont.c"
+   text-time="2008-02-22T08:21:39.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="981eacebf12f768e05053707ccfcfa25"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:39.000000Z"/>
+<entry
+   committed-rev="3"
+   name="emux_proc.c"
+   text-time="2008-02-22T08:21:39.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="e76a085f80d49f98ea8222af4eba131b"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:39.000000Z"/>
+<entry
+   committed-rev="3"
+   name="emux_oss.c"
+   text-time="2008-02-22T08:21:39.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="5f735e5a27e205e5e19a8d2d1696bc04"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:39.000000Z"/>
+<entry
+   committed-rev="3"
+   name="emux_synth.c"
+   text-time="2008-02-22T08:21:39.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="4b72bbd28e9a57efc7fb5b6feaf14f72"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:39.000000Z"/>
+<entry
+   committed-rev="3"
+   name="emux_hwdep.c"
+   text-time="2008-02-22T08:21:39.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="9e1dafe4f74a276eb875a48098e45a4d"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:39.000000Z"/>
+<entry
+   committed-rev="3"
+   name="emux_seq.c"
+   text-time="2008-02-22T08:21:39.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="8773dcd19634bebcb3ef89ddbacae475"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:39.000000Z"/>
+<entry
+   committed-rev="3"
+   name="emux_voice.h"
+   text-time="2008-02-22T08:21:40.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="0ab0303e1c4461db22852eaf528b815d"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:39.000000Z"/>
+<entry
+   name="CVS"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="emux_effect.c"
+   text-time="2008-02-22T08:21:40.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="c320c6c4bca4217b6ce7b865526c337d"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:39.000000Z"/>
+<entry
+   committed-rev="3"
+   name="emux_nrpn.c"
+   text-time="2008-02-22T08:21:40.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="54043f239d1775c452db25b5a5fd8fad"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:39.000000Z"/>
+<entry
+   committed-rev="3"
+   name=".cvsignore"
+   text-time="2008-02-22T08:21:40.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="d8b65572e25962faaf07c20bb34d224e"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:39.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Makefile"
+   text-time="2008-02-22T08:21:40.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="c9cef2c66b71aad0b1464d7ccbdc529f"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:39.000000Z"/>
+</wc-entries>

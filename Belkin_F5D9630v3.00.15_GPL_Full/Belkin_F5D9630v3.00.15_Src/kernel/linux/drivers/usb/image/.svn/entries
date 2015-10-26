@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/kernel/linux/drivers/usb/image"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   committed-rev="3"
+   name="Kconfig"
+   text-time="2008-02-22T08:24:13.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="600bf658bc7f522a3bb32769666243f2"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:12.000000Z"/>
+<entry
+   committed-rev="3"
+   name="microtek.h"
+   text-time="2008-02-22T08:24:13.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="253612ba8ce1e0581a127355dfd3d4ef"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:12.000000Z"/>
+<entry
+   committed-rev="3"
+   name="hpusbscsi.c"
+   text-time="2008-02-22T08:24:13.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="b3727baae2ad88c1b49fbf4c94e151fe"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:12.000000Z"/>
+<entry
+   committed-rev="3"
+   name="hpusbscsi.h"
+   text-time="2008-02-22T08:24:13.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="1681790fe022344ca89445bab599157a"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:12.000000Z"/>
+<entry
+   name="CVS"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="mdc800.c"
+   text-time="2008-02-22T08:24:13.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="9b625b5500f26905cbdcbe7ce93e65ac"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:13.000000Z"/>
+<entry
+   committed-rev="3"
+   name=".cvsignore"
+   text-time="2008-02-22T08:24:13.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="735ab631b67b75d07a52edc9e01aed4c"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:13.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Makefile"
+   text-time="2008-02-22T08:24:13.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="62c873a261ca36f4112d7e0b40da5b64"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:13.000000Z"/>
+<entry
+   committed-rev="3"
+   name="microtek.c"
+   text-time="2008-02-22T08:24:13.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="72ace66dc72fb78c3199b3011fdd6dc3"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:13.000000Z"/>
+</wc-entries>

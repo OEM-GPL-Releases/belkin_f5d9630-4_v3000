@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/userapps/opensource/ppp/pppoe/plugins"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   committed-rev="3"
+   name="minconn.c"
+   text-time="2008-02-22T08:25:09.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="aeaadac214449fa2634e85585dee40bd"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:25:09.000000Z"/>
+<entry
+   name="pppoe"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="passprompt.c"
+   text-time="2008-02-22T08:25:09.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="299596de63b51e83babe347b1ad03435"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:25:09.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Makefile.linux"
+   text-time="2008-02-22T08:25:09.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="f9aaf1c9669646066dbeb033285680c3"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:25:09.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Makefile.sol2"
+   text-time="2008-02-22T08:25:09.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="0cf1d904ba218f7dc5b956a9b81ef063"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:25:09.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Makefile"
+   text-time="2008-02-22T08:25:09.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="f7dc06ab73fe668886eea7aef823e36d"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:25:09.000000Z"/>
+</wc-entries>

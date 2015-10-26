@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/kernel/linux/security"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   committed-rev="3"
+   name="Kconfig"
+   text-time="2008-02-22T08:21:46.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="679766cdf4a593465a9a9fe7c4f0881d"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:46.000000Z"/>
+<entry
+   committed-rev="3"
+   name="capability.c"
+   text-time="2008-02-22T08:21:46.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="a31ec840384dd90008374b29ba7b18fe"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:46.000000Z"/>
+<entry
+   name="selinux"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="security.c"
+   text-time="2008-02-22T08:21:46.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="31f60ad36e82f4f4c0ec31cdd346075d"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:46.000000Z"/>
+<entry
+   name="CVS"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="root_plug.c"
+   text-time="2008-02-22T08:21:46.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="ccde1fcff1dcae76d71322a4c9b2ebd8"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:46.000000Z"/>
+<entry
+   committed-rev="3"
+   name="dummy.c"
+   text-time="2008-02-22T08:21:46.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="59f6c1baf79d8135ffca7cefdc5803fc"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:46.000000Z"/>
+<entry
+   committed-rev="3"
+   name=".cvsignore"
+   text-time="2008-02-22T08:21:46.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="d8b65572e25962faaf07c20bb34d224e"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:46.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Makefile"
+   text-time="2008-02-22T08:21:46.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="af57be8e89b5c874c5408fea3963cee1"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:46.000000Z"/>
+<entry
+   committed-rev="3"
+   name="commoncap.c"
+   text-time="2008-02-22T08:21:46.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="56d5745e5fc043d17051c9b6f66942d5"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:46.000000Z"/>
+</wc-entries>

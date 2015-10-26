@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/kernel/linux/arch/h8300/platform/h8300h/aki3068net"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   committed-rev="3"
+   name="timer.c"
+   text-time="2008-02-22T08:22:48.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="c0791edc06906c415b534e1d0c5b3ff9"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:48.000000Z"/>
+<entry
+   committed-rev="3"
+   name="crt0_ram.S"
+   text-time="2008-02-22T08:22:48.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="06ee109258f3e4c4d82357f18f05e5be"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:48.000000Z"/>
+<entry
+   name="CVS"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="Makefile"
+   text-time="2008-02-22T08:22:48.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="a731f7416bc8dbbdcfc09b07e2e5de51"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:48.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ram.ld"
+   text-time="2008-02-22T08:22:48.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="739a0e7fa1b83a6c807a88d05c04973f"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:48.000000Z"/>
+</wc-entries>

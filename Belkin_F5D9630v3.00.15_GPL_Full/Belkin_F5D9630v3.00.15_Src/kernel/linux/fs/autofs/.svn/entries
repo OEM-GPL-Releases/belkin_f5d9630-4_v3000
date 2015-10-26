@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/kernel/linux/fs/autofs"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   committed-rev="3"
+   name="autofs_i.h"
+   text-time="2008-02-22T08:21:51.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="e4913d1c4196d2d0e33399c3f0fbca59"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:51.000000Z"/>
+<entry
+   committed-rev="3"
+   name="inode.c"
+   text-time="2008-02-22T08:21:51.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="3072fcef637d407b4b6ffb27eeb988f1"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:51.000000Z"/>
+<entry
+   committed-rev="3"
+   name="dirhash.c"
+   text-time="2008-02-22T08:21:51.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="0a1e32e5e634ac4d9f565831d40162ab"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:51.000000Z"/>
+<entry
+   committed-rev="3"
+   name="init.c"
+   text-time="2008-02-22T08:21:51.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="b82017dd6f25281952d62944e42e0d0c"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:51.000000Z"/>
+<entry
+   committed-rev="3"
+   name="root.c"
+   text-time="2008-02-22T08:21:51.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="eb9817b4ff5bbffcb171546b0ff8ba4b"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:51.000000Z"/>
+<entry
+   committed-rev="3"
+   name="waitq.c"
+   text-time="2008-02-22T08:21:51.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="4aa3e46c6014d6026442d325faa4a5d1"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:51.000000Z"/>
+<entry
+   committed-rev="3"
+   name="symlink.c"
+   text-time="2008-02-22T08:21:51.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="0f16f343d4324f83e2db980fa0de7178"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:51.000000Z"/>
+<entry
+   name="CVS"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name=".cvsignore"
+   text-time="2008-02-22T08:21:51.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="735ab631b67b75d07a52edc9e01aed4c"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:51.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Makefile"
+   text-time="2008-02-22T08:21:51.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="8f8a18a791cdc82c0c88b7f3970483b1"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:51.000000Z"/>
+</wc-entries>

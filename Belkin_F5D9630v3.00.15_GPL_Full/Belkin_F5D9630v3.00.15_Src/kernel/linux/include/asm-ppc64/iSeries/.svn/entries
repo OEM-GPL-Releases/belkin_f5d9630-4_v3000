@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/kernel/linux/include/asm-ppc64/iSeries"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   committed-rev="3"
+   name="HvCallCfg.h"
+   text-time="2008-02-22T08:21:12.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="69758dd51ff248ee6313cd94b5458b37"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:12.000000Z"/>
+<entry
+   committed-rev="3"
+   name="iSeries_io.h"
+   text-time="2008-02-22T08:21:12.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="77b331ab851a44c9d41fdcb933b1c198"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:12.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ItLpNaca.h"
+   text-time="2008-02-22T08:21:12.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="98248a2a5368ca1d765a43cf30d32a6b"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:12.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ItLpPaca.h"
+   text-time="2008-02-22T08:21:12.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="673eba324bb6fb9e80602bc3d5b6b19e"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:12.000000Z"/>
+<entry
+   committed-rev="3"
+   name="vio.h"
+   text-time="2008-02-22T08:21:12.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="e49c6e1d05c28cbe3d68ee6fdd86e634"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:12.000000Z"/>
+<entry
+   committed-rev="3"
+   name="iSeries_pci.h"
+   text-time="2008-02-22T08:21:12.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="4239da6c7ab625491363ea5b8d2ff1e6"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:12.000000Z"/>
+<entry
+   committed-rev="3"
+   name="HvCallSc.h"
+   text-time="2008-02-22T08:21:12.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="4e58151608d646158cfccab8f2e032b0"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:12.000000Z"/>
+<entry
+   committed-rev="3"
+   name="mf.h"
+   text-time="2008-02-22T08:21:12.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="79ffca692ba1fbd3461941098dcd4d0c"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:12.000000Z"/>
+<entry
+   committed-rev="3"
+   name="HvCallSm.h"
+   text-time="2008-02-22T08:21:12.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="ac40b99d354b74cabfe70de03f0ce242"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:12.000000Z"/>
+<entry
+   committed-rev="3"
+   name="HvLpEvent.h"
+   text-time="2008-02-22T08:21:12.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="ea3f7068b7cc24a6c3a56777119e0fc4"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:12.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ItLpQueue.h"
+   text-time="2008-02-22T08:21:12.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="20990197fd046c06c52477ecd0348681"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:12.000000Z"/>
+<entry
+   committed-rev="3"
+   name="iSeries_fixup.h"
+   text-time="2008-02-22T08:21:12.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="dbc2f8821b2ab68d963c06c9ade2678c"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:12.000000Z"/>
+<entry
+   committed-rev="3"
+   name="XmPciLpEvent.h"
+   text-time="2008-02-22T08:21:12.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="612b649ebacb9528c63e15f6fd2ca9a7"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:12.000000Z"/>
+<entry
+   committed-rev="3"
+   name="IoHriProcessorVpd.h"
+   text-time="2008-02-22T08:21:12.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="b394a9ca716ce694e1510eca3eea48b6"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:12.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ItSpCommArea.h"
+   text-time="2008-02-22T08:21:12.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="c6a4ecb197cccd565d3b7c0249dd5604"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:12.000000Z"/>
+<entry
+   committed-rev="3"
+   name="HvCallHpt.h"
+   text-time="2008-02-22T08:21:12.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="7298f36b0aa7e8969a8528eb793d2267"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:12.000000Z"/>
+<entry
+   committed-rev="3"
+   name="iSeries_proc.h"
+   text-time="2008-02-22T08:21:12.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="aa16bb4a3f520fe81720dabe3114fd5c"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:12.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ItExtVpdPanel.h"
+   text-time="2008-02-22T08:21:12.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="5c7396d44d31f256db2415f0efd4fa8a"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:12.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ItIplParmsReal.h"
+   text-time="2008-02-22T08:21:12.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="df0945f4a73e25e43d8643faabab56e6"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:12.000000Z"/>
+<entry
+   committed-rev="3"
+   name="IoHriMainStore.h"
+   text-time="2008-02-22T08:21:12.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="a9331ca7f2b802bdef539304bd6a180f"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:12.000000Z"/>
+<entry
+   committed-rev="3"
+   name="LparMap.h"
+   text-time="2008-02-22T08:21:12.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="1188e821cd566b08acc2f47b7b687b37"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:12.000000Z"/>
+<entry
+   committed-rev="3"
+   name="HvLpConfig.h"
+   text-time="2008-02-22T08:21:12.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="5f6b74780890027811c81a010f6493e6"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:12.000000Z"/>
+<entry
+   committed-rev="3"
+   name="HvTypes.h"
+   text-time="2008-02-22T08:21:12.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="c11d5bae887c7f575f44811b1270b5b1"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:12.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ItVpdAreas.h"
+   text-time="2008-02-22T08:21:12.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="681ebf1c2a2245d70757369f24b05213"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:12.000000Z"/>
+<entry
+   committed-rev="3"
+   name="HvCallPci.h"
+   text-time="2008-02-22T08:21:12.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="ddf856447418489b21809baba0fe6a68"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:12.000000Z"/>
+<entry
+   name="CVS"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="HvReleaseData.h"
+   text-time="2008-02-22T08:21:12.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="454cdf0ae3f8d284f54b700b39032aec"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:12.000000Z"/>
+<entry
+   committed-rev="3"
+   name="HvCall.h"
+   text-time="2008-02-22T08:21:12.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="eba7166dfda91f1fa02892531be31d3f"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:12.000000Z"/>
+<entry
+   committed-rev="3"
+   name="HvCallEvent.h"
+   text-time="2008-02-22T08:21:12.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="0be4562b32da2c3733ad71f00461124d"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:12.000000Z"/>
+<entry
+   committed-rev="3"
+   name="HvCallXm.h"
+   text-time="2008-02-22T08:21:12.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="4cc37b397aef75b7a180c2e959a572df"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:12.000000Z"/>
+<entry
+   committed-rev="3"
+   name="iSeries_irq.h"
+   text-time="2008-02-22T08:21:12.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="8d9ecacfe3cb3834982300ba6b54b8b4"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:12.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ItLpRegSave.h"
+   text-time="2008-02-22T08:21:12.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="a9ae58bfe4812996ab063fd1a8fa23b0"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:12.000000Z"/>
+<entry
+   committed-rev="3"
+   name="iSeries_VpdInfo.h"
+   text-time="2008-02-22T08:21:12.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="7bdaca49388fc5dace63f81a3d87b07d"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:12.000000Z"/>
+<entry
+   committed-rev="3"
+   name="LparData.h"
+   text-time="2008-02-22T08:21:12.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="9bbee9650b24708c6f680661d3c2e270"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:12.000000Z"/>
+</wc-entries>

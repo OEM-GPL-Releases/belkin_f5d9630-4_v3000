@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/kernel/linux/arch/ppc/platforms/85xx"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   committed-rev="3"
+   name="mpc8560_ads.h"
+   text-time="2008-02-22T08:22:21.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="b01e10f55580b4f9e4b8aec24fb655d5"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:21.000000Z"/>
+<entry
+   committed-rev="3"
+   name="sbc8560.h"
+   text-time="2008-02-22T08:22:21.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="ea1b12e9bc6730ae0ebccb65153364c1"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:21.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Kconfig"
+   text-time="2008-02-22T08:22:21.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="1b0b62bf5d8f981440ad48a139451d7d"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:21.000000Z"/>
+<entry
+   committed-rev="3"
+   name="mpc8540.c"
+   text-time="2008-02-22T08:22:21.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="c581346ee99c4fccf212fbb8a8435a03"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:21.000000Z"/>
+<entry
+   committed-rev="3"
+   name="mpc8560.c"
+   text-time="2008-02-22T08:22:21.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="fa26829229fa490e69582fb851e11f31"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:21.000000Z"/>
+<entry
+   committed-rev="3"
+   name="sbc85xx.c"
+   text-time="2008-02-22T08:22:21.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="68650866967e324407b6e514b01fbfa6"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:21.000000Z"/>
+<entry
+   committed-rev="3"
+   name="mpc8555_cds.h"
+   text-time="2008-02-22T08:22:21.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="cedd47d57675a1e8f4ca82d328efaf91"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:21.000000Z"/>
+<entry
+   committed-rev="3"
+   name="mpc8555.c"
+   text-time="2008-02-22T08:22:21.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="ef0e1a7cee25f88ad354aaf368839f73"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:21.000000Z"/>
+<entry
+   committed-rev="3"
+   name="sbc85xx.h"
+   text-time="2008-02-22T08:22:21.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="12eea52e3c8f21ea0ca7439b1633cf92"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:21.000000Z"/>
+<entry
+   name="CVS"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="mpc85xx_ads_common.c"
+   text-time="2008-02-22T08:22:21.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="8658c0c35d5714f6000b02ecd0b04bcb"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:21.000000Z"/>
+<entry
+   committed-rev="3"
+   name="mpc85xx_cds_common.c"
+   text-time="2008-02-22T08:22:21.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="61536dc633d79839814a41a2a1d3225f"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:21.000000Z"/>
+<entry
+   committed-rev="3"
+   name="mpc85xx_ads_common.h"
+   text-time="2008-02-22T08:22:21.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="1bd6af0216aaa0c7d45024c5a5f7f0fd"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:21.000000Z"/>
+<entry
+   committed-rev="3"
+   name="mpc85xx_cds_common.h"
+   text-time="2008-02-22T08:22:21.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="e7d5a80e1981fc3146db29fd25f5bae9"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:21.000000Z"/>
+<entry
+   committed-rev="3"
+   name="mpc8540_ads.c"
+   text-time="2008-02-22T08:22:21.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="9f1c46741b518ad202095bd717dc2c64"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:21.000000Z"/>
+<entry
+   committed-rev="3"
+   name="mpc8560_ads.c"
+   text-time="2008-02-22T08:22:21.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="7649325171f46ea46a70c6fc4cbec2cd"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:21.000000Z"/>
+<entry
+   committed-rev="3"
+   name="sbc8560.c"
+   text-time="2008-02-22T08:22:21.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="09935edb617f331d0debdabd5af106c7"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:21.000000Z"/>
+<entry
+   committed-rev="3"
+   name="mpc8540_ads.h"
+   text-time="2008-02-22T08:22:21.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="dff8e96d63a42e73b9bfda9d43de28e0"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:21.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Makefile"
+   text-time="2008-02-22T08:22:21.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="661c84d83789bbcc6672b7570bee9605"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:21.000000Z"/>
+</wc-entries>

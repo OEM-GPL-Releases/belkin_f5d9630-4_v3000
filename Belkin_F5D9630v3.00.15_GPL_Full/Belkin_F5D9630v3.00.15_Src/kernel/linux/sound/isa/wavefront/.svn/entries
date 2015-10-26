@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/kernel/linux/sound/isa/wavefront"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   committed-rev="3"
+   name="wavefront_synth.c"
+   text-time="2008-02-22T08:21:43.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="440fe7b7391fdb6f4005769361e559bd"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:43.000000Z"/>
+<entry
+   committed-rev="3"
+   name="wavefront_fx.c"
+   text-time="2008-02-22T08:21:43.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="c36049e58f2871f6227cb78c786a221a"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:43.000000Z"/>
+<entry
+   name="CVS"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="wavefront.c"
+   text-time="2008-02-22T08:21:43.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="b190ff06fbec39ee2dd4cffd04a60be0"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:43.000000Z"/>
+<entry
+   committed-rev="3"
+   name=".cvsignore"
+   text-time="2008-02-22T08:21:43.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="d8b65572e25962faaf07c20bb34d224e"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:43.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Makefile"
+   text-time="2008-02-22T08:21:43.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="140be8a675ec839f65d96bf16fb52f46"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:43.000000Z"/>
+<entry
+   committed-rev="3"
+   name="wavefront_midi.c"
+   text-time="2008-02-22T08:21:43.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="e72b6ea79437e5edb35971e1d3c04fef"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:43.000000Z"/>
+</wc-entries>

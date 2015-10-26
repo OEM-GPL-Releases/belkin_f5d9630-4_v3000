@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/kernel/linux/drivers/acpi/hardware"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   committed-rev="3"
+   name="hwregs.c"
+   text-time="2008-02-22T08:24:34.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="1b43cb90f677bc17ef00edee5c4b06ac"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:34.000000Z"/>
+<entry
+   committed-rev="3"
+   name="hwtimer.c"
+   text-time="2008-02-22T08:24:34.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="cb3d6109763dc9e22d494aa324456016"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:34.000000Z"/>
+<entry
+   committed-rev="3"
+   name="hwsleep.c"
+   text-time="2008-02-22T08:24:34.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="18965362d40ba8801d37cbf977a14e31"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:34.000000Z"/>
+<entry
+   name="CVS"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="hwgpe.c"
+   text-time="2008-02-22T08:24:34.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="cec2435ca301f7f2612eb53fe6451e30"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:34.000000Z"/>
+<entry
+   committed-rev="3"
+   name="hwacpi.c"
+   text-time="2008-02-22T08:24:34.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="11f973484a435f671bedc4c4c3c039d5"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:34.000000Z"/>
+<entry
+   committed-rev="3"
+   name=".cvsignore"
+   text-time="2008-02-22T08:24:34.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="d8b65572e25962faaf07c20bb34d224e"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:34.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Makefile"
+   text-time="2008-02-22T08:24:34.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="dfa949aef8cf1090503a58e0f4f7c44e"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:34.000000Z"/>
+</wc-entries>

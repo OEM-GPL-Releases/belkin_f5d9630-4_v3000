@@ -1,0 +1,177 @@
+<html>
+   <head>
+      <meta HTTP-EQUIV='Pragma' CONTENT='no-cache'>
+	  <meta http-equiv="refresh" content="<%ejGet(timeout_refresh)%>">
+         <link rel="stylesheet" href="main_router.css" type='text/css'>
+
+		<%ejGet("curLanguage")%>
+		<SCRIPT>assign_var();</SCRIPT>
+		 
+		 <title>WAN &gt; Conection Type</title>
+            <script language="javascript" src="util.js"></script>
+			<SCRIPT language=JavaScript src="showMenu.js"></SCRIPT>
+            <script language="javascript">
+<!-- hide
+
+strHtml='<title>'+wc_1+' &gt; '+wc_2+'</title>';
+dw(strHtml);
+
+
+var autoup = '<%ejGet(autoUpgrade_flag)%>';
+
+if(autoup == '1')
+{
+	newwin=window.open("checkfw.html","Firmware","toolbar=no,location=no,directories=no,status=no,menubar=no,scrollbars=yes,width=395,height=200,resizable=0");
+	newwin.focus();
+}
+
+
+var prtcl = '<%ejGetOther(memInfo, ntwkPrtcl)%>';
+var srvname = '<%ejGet(serviceName)%>';
+var vpi = '<%ejGet(atmVpi)%>';
+var vci = '<%ejGet(atmVci)%>';
+var existedProtocol = '<%ejGet(existedProtocol)%>';
+var conId = '<%ejGetOther(wanInterfaceInfo, conId)%>';
+
+
+var helpItem 	='Connection Type';
+var menuSection	='WAN';
+var menuItem	='Connection Type';
+var isAPmode = '<%ejGet(enblNat)%>';
+
+
+function frmLoad() 
+{
+   
+   with ( document.forms[0] ) 
+   {
+         // otherwise no restriction
+         if ( prtcl == 'PPPoA' )
+       		ntwkPrtcl[1].checked = true;
+   		 else if ( prtcl == 'PPPoE' )
+            ntwkPrtcl[0].checked = true;
+         else if ( prtcl == 'MER' )
+            ntwkPrtcl[2].checked = true;
+         else if ( prtcl == 'IPoA' )
+            ntwkPrtcl[3].checked = true;
+         else
+            ntwkPrtcl[4].checked = true;
+    }
+}
+
+function btnNext() 
+{
+   var loc = '', service = '';
+   var conId = '<%ejGetOther(wanInterfaceInfo, conId)%>';
+   
+   conID=1;		
+   
+   with ( document.forms[0] ) 
+   {
+       // otherwise no restriction
+            if ( ntwkPrtcl[1].checked == true ) 
+			{
+           		loc = 'wan_pppoe.cgi?ntwkPrtcl=1';
+            	service = 'pppoa_' + vpi + '_' + vci + '_' + conId;
+         	}
+         
+		 	else if ( ntwkPrtcl[0].checked == true ) 
+			{
+            	loc = 'wan_pppoe.cgi?ntwkPrtcl=0';
+            	service = 'pppoe_' + vpi + '_' + vci + '_' + conId;
+         	}
+         
+		 	else if ( ntwkPrtcl[2].checked == true ) 
+			{
+            	loc = 'wancfg.cgi?ntwkPrtcl=2';
+            	service = 'mer_' + vpi + '_' + vci + '_' + conId;
+         	}
+         
+		 	else if ( ntwkPrtcl[3].checked == true ) 
+			{
+            	loc = 'wan_static.cgi?ntwkPrtcl=5';
+            	service = 'ipoa_' + vpi + '_' + vci + '_' + conId;
+         	}
+         
+		 	else 
+			{
+            	loc = 'wan_bridge.cgi?ntwkPrtcl=3';
+            	service = 'br_' + vpi + '_' + vci + '_' + conId;
+         	}
+      }
+   
+   if ( srvname == '')
+      loc += '&serviceName=' + encodeUrl(service);
+   else
+      loc += '&serviceName=' + encodeUrl(srvname);
+
+	//var code = 'location.assign("' + loc + '")';
+	//eval(code);
+	window.location.href = loc;
+
+//   window.location.href = loc;
+}
+
+function prtClick() 
+{
+ return;
+}
+
+// done hiding -->
+</script>
+            <base target="_self">
+   </head>
+   <body onLoad='frmLoad()' bgColor="#ffffff" leftMargin="0" topMargin="0" marginheight="0" marginwidth="0">
+         <form>
+    <SCRIPT language=JavaScript>
+	var wanStatus = '<%ejGetOther(isUp)%>';
+	showHead(wanStatus,helpItem);
+	showMenu(menuSection,menuItem,isAPmode)
+	</SCRIPT>  
+<TD class=head_bold width="90%" valign="top"><Br>
+		 
+    <font face="Verdana" size="2" class="head_bold">&nbsp;&nbsp;<script>dw(wc_1)</script> &gt; <script>dw(wc_2)</script></b> </font>
+            <br><br>
+      		<TABLE class=copy_1 cellSpacing=0 cellPadding=0 width=620  border=0>
+        		<TR>
+          			<TD vAlign=top><SPAN>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+										<script>dw(wc_3)</script><br><Br></SPAN>
+					</TD>
+				</TR>
+			</TABLE>			
+			
+               
+           
+            <table width="545" border="0" cellpadding="0" cellspacing="0" class="copy_1">
+ 				<tr><td width="439">&nbsp;
+ 				  <input type='radio' name='ntwkPrtcl' onClick='prtClick()'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+						<b><script>dw(wc_4)</script></b><Br><Br>
+				</td></tr>
+ 				
+				<tr><td>&nbsp;&nbsp;<input type='radio' name='ntwkPrtcl' onClick='prtClick()'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+						<b><script>dw(wc_5)</script></b><Br><br>
+				</td></tr>
+ 				
+				<tr><td>&nbsp;&nbsp;<input type='radio' name='ntwkPrtcl' onClick='prtClick()'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+						<b><script>dw(wc_6)</script></b><br><br>
+				</td></tr>
+ 				
+				<tr><td>&nbsp;&nbsp;<input type='radio' name='ntwkPrtcl' onClick='prtClick()'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+						<b><script>dw(wc_7)</script></b><Br><Br>
+				</td></tr>
+ 				
+				<tr><td>&nbsp;&nbsp;<input type='radio' name='ntwkPrtcl' onClick='prtClick()'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+						<b><script>dw(wc_8)</script></b>
+				</td></tr>
+				
+				<Tr><td align="right"><br><br>
+				<script>
+					var info = "<input type='button' class='submitBtn' style='height:22px;width:120px;' onClick='btnNext()' value='"+wc_9+" >'>";
+					dw(info);
+				</script></td></Tr>
+    </table>
+</TD></TR></TBODY></TABLE></TD>
+	        
+         </form>
+   </body>
+</html>

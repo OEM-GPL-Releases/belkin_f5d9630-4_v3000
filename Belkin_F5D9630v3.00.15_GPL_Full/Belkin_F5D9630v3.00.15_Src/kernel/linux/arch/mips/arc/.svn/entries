@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/kernel/linux/arch/mips/arc"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   committed-rev="3"
+   name="time.c"
+   text-time="2008-02-22T08:23:11.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="1f9dbf1440ae98469d2d93a4034c3b0d"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:11.000000Z"/>
+<entry
+   committed-rev="3"
+   name="tree.c"
+   text-time="2008-02-22T08:23:11.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="210e4767e495a6f13574486824aa8aa1"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:11.000000Z"/>
+<entry
+   committed-rev="3"
+   name="console.c"
+   text-time="2008-02-22T08:23:11.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="f55beaa97a1e0e82537120cd949f5a73"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:11.000000Z"/>
+<entry
+   committed-rev="3"
+   name="init.c"
+   text-time="2008-02-22T08:23:11.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="c7a2f3e7a63d6467d085965928c4b5f0"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:11.000000Z"/>
+<entry
+   committed-rev="3"
+   name="arc_con.c"
+   text-time="2008-02-22T08:23:11.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="99d3a98368a4808aee7c173cd636569a"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:11.000000Z"/>
+<entry
+   committed-rev="3"
+   name="promlib.c"
+   text-time="2008-02-22T08:23:11.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="a56c01e7f21158142332ecaf233decb7"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:11.000000Z"/>
+<entry
+   committed-rev="3"
+   name="memory.c"
+   text-time="2008-02-22T08:23:11.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="9a10da84dbba17da7f7e5ac0379fa4a7"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:11.000000Z"/>
+<entry
+   name="CVS"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="cmdline.c"
+   text-time="2008-02-22T08:23:11.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="b4a5fcab8cb2da30576e560e0df33a6a"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:11.000000Z"/>
+<entry
+   committed-rev="3"
+   name="identify.c"
+   text-time="2008-02-22T08:23:11.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="b1fa9d2f2f66fa7a68c689c38ffd6029"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:11.000000Z"/>
+<entry
+   committed-rev="3"
+   name="file.c"
+   text-time="2008-02-22T08:23:11.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="29fad393ea8dd61ca4654cbc7188299e"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:11.000000Z"/>
+<entry
+   committed-rev="3"
+   name="salone.c"
+   text-time="2008-02-22T08:23:11.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="887b17e6b112f262d43936bcd8ad3d35"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:11.000000Z"/>
+<entry
+   committed-rev="3"
+   name="env.c"
+   text-time="2008-02-22T08:23:11.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="ee7fc39dd65408b461f54bfe960bb2a9"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:11.000000Z"/>
+<entry
+   committed-rev="3"
+   name="misc.c"
+   text-time="2008-02-22T08:23:11.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="4e6b8eff17544bb46e9dfd62123639f0"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:11.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Makefile"
+   text-time="2008-02-22T08:23:11.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="a7d1106b64957afb8edc38f7a04e35ae"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:11.000000Z"/>
+<entry
+   committed-rev="3"
+   name=".cvsignore"
+   text-time="2008-02-22T08:23:11.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="d8b65572e25962faaf07c20bb34d224e"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:11.000000Z"/>
+</wc-entries>

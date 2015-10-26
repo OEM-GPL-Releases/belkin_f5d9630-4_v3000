@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/userapps/opensource/oprofile/libregex/tests"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   committed-rev="3"
+   name="Makefile.in"
+   text-time="2008-02-22T08:24:46.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="592ed673aa4bd7481d98bb8ac3aba313"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:46.000000Z"/>
+<entry
+   committed-rev="3"
+   name="mangled-name"
+   text-time="2008-02-22T08:24:46.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="393863bb714a89b6e6d1137f2ba14bdb"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:46.000000Z"/>
+<entry
+   name=".deps"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="Makefile.am"
+   text-time="2008-02-22T08:24:46.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="b529223808d8ac6aa300591d1f855f0e"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:46.000000Z"/>
+<entry
+   committed-rev="3"
+   name="mangled-name.in"
+   text-time="2008-02-22T08:24:46.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="77ec27fe0b89bf2866a10267a59f59b0"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:46.000000Z"/>
+<entry
+   committed-rev="3"
+   name="regex_test.cpp"
+   text-time="2008-02-22T08:24:46.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="d7d452128b58f7da394b0a997feba6cf"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:46.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Makefile"
+   text-time="2008-02-22T08:24:46.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="3f698d2708444c88e1e0b5bef386ee00"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:46.000000Z"/>
+</wc-entries>

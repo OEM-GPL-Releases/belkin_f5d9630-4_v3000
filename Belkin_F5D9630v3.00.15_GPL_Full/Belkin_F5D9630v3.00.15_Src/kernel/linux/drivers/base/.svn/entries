@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/kernel/linux/drivers/base"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   committed-rev="3"
+   name="Kconfig"
+   text-time="2008-02-22T08:24:31.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="6d1a31f39bd55b8408e904b77fff1a06"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:31.000000Z"/>
+<entry
+   committed-rev="3"
+   name="interface.c"
+   text-time="2008-02-22T08:24:31.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="11c33699cd64a32cc1f6f5b1988182e0"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:31.000000Z"/>
+<entry
+   committed-rev="3"
+   name="firmware_class.c"
+   text-time="2008-02-22T08:24:31.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="16b404e1c8794bb61ed34ffdabb5c1dc"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:31.000000Z"/>
+<entry
+   committed-rev="3"
+   name="init.c"
+   text-time="2008-02-22T08:24:31.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="f2dafd3020e97937c8c1bc205ee492a5"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:31.000000Z"/>
+<entry
+   committed-rev="3"
+   name="class.c"
+   text-time="2008-02-22T08:24:31.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="f83e44b1dddd7b8397c1d66d95363baa"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:31.000000Z"/>
+<entry
+   name="CVS"
+   kind="dir"/>
+<entry
+   name="power"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="firmware.c"
+   text-time="2008-02-22T08:24:31.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="d3a997d9ba8576eb53a300cae59f9850"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:31.000000Z"/>
+<entry
+   committed-rev="3"
+   name="map.c"
+   text-time="2008-02-22T08:24:31.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="fb1a97a90fe3bea3e38feb32c0e480d2"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:31.000000Z"/>
+<entry
+   committed-rev="3"
+   name="sys.c"
+   text-time="2008-02-22T08:24:31.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="96148742ca33c8827dcbb32cfd866688"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:31.000000Z"/>
+<entry
+   committed-rev="3"
+   name="class_simple.c"
+   text-time="2008-02-22T08:24:31.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="61753e832ebebc78607acfde307da04d"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:31.000000Z"/>
+<entry
+   committed-rev="3"
+   name="base.h"
+   text-time="2008-02-22T08:24:31.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="49d6e866130d277b5b2937fc46c0e8be"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:31.000000Z"/>
+<entry
+   committed-rev="3"
+   name="platform.c"
+   text-time="2008-02-22T08:24:31.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="dd1c404a00497e67480875bbe9f138f9"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:31.000000Z"/>
+<entry
+   committed-rev="3"
+   name="node.c"
+   text-time="2008-02-22T08:24:31.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="6b498b60f08ce95318a6efbec44a2324"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:31.000000Z"/>
+<entry
+   name="fs"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="cpu.c"
+   text-time="2008-02-22T08:24:31.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="f3ae314a06b7d7ca49452d881a0f65f0"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:31.000000Z"/>
+<entry
+   committed-rev="3"
+   name="core.c"
+   text-time="2008-02-22T08:24:31.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="c22c6f1c3a0e6a95a2745634565777a9"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:31.000000Z"/>
+<entry
+   committed-rev="3"
+   name="bus.c"
+   text-time="2008-02-22T08:24:31.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="50ce30e54118e6ab58f7209c4fb66025"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:31.000000Z"/>
+<entry
+   committed-rev="3"
+   name="driver.c"
+   text-time="2008-02-22T08:24:31.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="752c512f64f64eb900ee897274b916c8"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:31.000000Z"/>
+<entry
+   committed-rev="3"
+   name="dmapool.c"
+   text-time="2008-02-22T08:24:31.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="ac7585b21e5e658bd4ba5d87cff5892a"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:31.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Makefile"
+   text-time="2008-02-22T08:24:31.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="851f2d5376598794dca57fe055bd761e"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:31.000000Z"/>
+<entry
+   committed-rev="3"
+   name=".cvsignore"
+   text-time="2008-02-22T08:24:31.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="d8b65572e25962faaf07c20bb34d224e"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:31.000000Z"/>
+</wc-entries>

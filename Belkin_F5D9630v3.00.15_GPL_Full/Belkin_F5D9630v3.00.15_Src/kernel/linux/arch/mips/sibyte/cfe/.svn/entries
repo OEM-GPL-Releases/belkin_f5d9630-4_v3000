@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/kernel/linux/arch/mips/sibyte/cfe"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   committed-rev="3"
+   name="smp.c"
+   text-time="2008-02-22T08:23:11.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="23328cc5017f2dbf5e9035238dd3fba6"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:11.000000Z"/>
+<entry
+   committed-rev="3"
+   name="setup.c"
+   text-time="2008-02-22T08:23:11.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="010b621181c9eefc2cfe0d7c3e6a30bb"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:11.000000Z"/>
+<entry
+   committed-rev="3"
+   name="console.c"
+   text-time="2008-02-22T08:23:11.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="d4e5666ccb4b02e689d7f68b1d40dbfa"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:11.000000Z"/>
+<entry
+   committed-rev="3"
+   name="cfe_api_int.h"
+   text-time="2008-02-22T08:23:11.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="faf2f03dbfdb7c85ed1f264a954b84bc"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:11.000000Z"/>
+<entry
+   committed-rev="3"
+   name="cfe_api.c"
+   text-time="2008-02-22T08:23:11.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="9450202822259110c63aa04a37e25840"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:11.000000Z"/>
+<entry
+   name="CVS"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="cfe_api.h"
+   text-time="2008-02-22T08:23:11.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="34371e2aeaa55af79bc43c2cb8c55e40"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:11.000000Z"/>
+<entry
+   committed-rev="3"
+   name="cfe_error.h"
+   text-time="2008-02-22T08:23:11.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="fa4651ac10ba75025152bfdbff3b28fe"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:11.000000Z"/>
+<entry
+   committed-rev="3"
+   name=".cvsignore"
+   text-time="2008-02-22T08:23:11.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="d8b65572e25962faaf07c20bb34d224e"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:11.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Makefile"
+   text-time="2008-02-22T08:23:11.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="2733c2a63f6de4585a121e34a21c119d"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:11.000000Z"/>
+</wc-entries>

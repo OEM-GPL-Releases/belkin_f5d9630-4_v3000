@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/kernel/linux/arch/sh/boards/ec3104"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   committed-rev="3"
+   name="setup.c"
+   text-time="2008-02-22T08:23:18.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="c06a7cfa65ba6321a068f6a7914eea1a"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:18.000000Z"/>
+<entry
+   committed-rev="3"
+   name="io.c"
+   text-time="2008-02-22T08:23:18.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="280cb53d68281f49073f262211db582c"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:18.000000Z"/>
+<entry
+   name="CVS"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="irq.c"
+   text-time="2008-02-22T08:23:18.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="0cc9ca708adef204ed8c75330cda821f"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:18.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Makefile"
+   text-time="2008-02-22T08:23:18.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="ef800d355ab5c6c4bcce4f2ab76a4363"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:18.000000Z"/>
+</wc-entries>

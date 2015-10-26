@@ -1,0 +1,157 @@
+<html>
+   <head>
+            <meta http-equiv="Pragma" content="no-cache">
+			<meta http-equiv="refresh" content="<%ejGet(timeout_refresh)%>">
+         	<link rel="stylesheet" href="main_router.css" type='text/css'>
+			<%ejGet("curLanguage")%>
+			<SCRIPT>assign_var();</SCRIPT>
+		 		 
+			<SCRIPT language=JavaScript src="showMenu.js"></SCRIPT>
+            <base target="_self">
+			
+            <script language="javascript">
+<!-- hide
+
+function frmLoad() {
+   var adslFlag = '<%ejGet(adslFlag)%>';
+
+   with ( document.forms[0] ) {
+      if (adslFlag & 1 && adslFlag & 2)
+         adslMod[0].checked = true;
+      else
+         adslMod[1].checked = true;
+
+      if (adslFlag & 0x01000000)
+         adslPair[1].checked = true;
+      else
+         adslPair[0].checked = true;
+         
+      if (adslFlag & 0x04000000)
+         adsBitmap[1].checked = true;
+      else
+         adsBitmap[0].checked = true;
+
+   }
+}
+
+function applyClick() {
+   var loc = 'adslcfgc.cgi?adslFlag=';
+   var adslFlag = 0;
+
+   with ( document.forms[0] ) {
+      adslFlag |= 1;
+      if (adslMod[0].checked)
+         adslFlag |= 2;
+
+      if ( adslPair[1].checked)
+         adslFlag |=  0x01000000;
+
+      if (adsBitmap[1].checked)
+         adslFlag |= 0x04000000;
+   }
+   loc += adslFlag;
+   var code = 'location="' + loc + '"';
+   eval(code);
+}
+
+// done hiding -->
+</script>
+   </head>
+<body bgColor="#ffffff" leftMargin="0" topMargin="0" marginheight="0" marginwidth="0" onLoad='frmLoad()'>
+       <SCRIPT language=JavaScript>
+
+
+strHtml='<title>DSL Advanced Settings &gt;</title>';
+dw(strHtml);
+
+
+var autoup = '0';
+
+if(autoup == '1')
+{
+	newwin=window.open("checkfw.html","Firmware","toolbar=no,location=no,directories=no,status=no,menubar=no,scrollbars=yes,width=395,height=200,resizable=0");
+	newwin.focus();
+}
+
+	   
+	var helpItem 	='DSL settings';
+	var menuSection	='DSL';
+	var menuItem	='DSL settings';
+	var isAPmode = '1';
+		
+	var wanStatus = 'No settings';
+	showHead(wanStatus,helpItem);
+	showMenu(menuSection,menuItem,isAPmode)
+	</SCRIPT>  
+	
+<TD class=head_bold width="90%" valign="top"><Br>
+
+         <b><font color="#004263" face="Verdana" class="head_bold">&nbsp;&nbsp;DSL Settings &gt; </font></b>
+         <form>
+			<table border="0" cellpadding="0" cellspacing="0" width="737">
+				<Tr>
+				  	<td width="48"></td>	
+                  	<td width="689"  class="copy_1"><b>Select the modulation below</b></td>
+				</Tr>
+				
+				<tr>
+					<td width="48"></td>	
+					<Td>
+            <table border="0" cellpadding="4" cellspacing="0">
+						   <tr><td class="copy_1"><input type="radio" name="adslMod">G.Dmt or G.Lite</td></tr>
+						   <tr><td class="copy_1"><input type="radio" name="adslMod">G.Dmt</td></tr>
+						</table>					
+					</Td>
+               </tr>
+			</table>
+
+
+			<table border="0" cellpadding="0" cellspacing="0" width="737">
+				<Tr>
+				  	<td width="48"></td>	
+                  	<td width="689"  class="copy_1"><b>Select the bitmap mode below</b></td>
+				</Tr>
+				
+               <tr>
+					<td width="48"></td>	
+					<td>
+						<table border="0" cellpadding="4" cellspacing="0">
+						   <tr><td class="copy_1"><input type="radio" name="adsBitmap">DBM</td></tr>
+						   <tr><td class="copy_1"><input type="radio" name="adsBitmap">FBM</td></tr>
+						</table>					
+					</td>
+               </tr>
+            </table>
+
+            <br>
+
+			<table border="0" cellpadding="0" cellspacing="0" width="737">
+				<Tr>
+				  	<td width="48"></td>	
+                  	<td width="689"  class="copy_1"><b>Select the phone line pair below</b></td>
+				</Tr>
+				
+				<tr>
+					<td width="48"></td>	
+					<td>
+            <table border="0" cellpadding="4" cellspacing="0">
+						   <tr><td class="copy_1"><input type="radio" name="adslPair">Inner pair</td></tr>
+						   <tr><td class="copy_1"><input type="radio" name="adslPair">Outer pair</td></tr>
+            </table>
+					</td>
+               </tr>
+            </table>
+			
+            <br>
+            <center>
+               <input type='button' style='width:180px' class='submitBtn' onClick='applyClick()' value='Save/Apply'> <input type='button' style='width:180px' class='submitBtn' onClick='location.href="adslcfgadv.html"' value='Advanced Settings'>
+            </center>
+         </form>
+					</TD>			
+
+		 		</tr>
+		 	</TABLE>
+		 </TD></TR></TBODY></TABLE></TD>
+
+   </body>
+</html>

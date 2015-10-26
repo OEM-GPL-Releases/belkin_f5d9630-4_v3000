@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/kernel/linux/arch/cris/arch-v10/drivers"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   committed-rev="3"
+   name="ethernet.c"
+   text-time="2008-02-22T08:22:43.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="2c94f9e54d566f86671b15125bbd389f"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:43.000000Z"/>
+<entry
+   committed-rev="3"
+   name="gpio.c"
+   text-time="2008-02-22T08:22:43.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="8c209e63e9ac3a7d83dbf58d77c8051c"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:43.000000Z"/>
+<entry
+   committed-rev="3"
+   name="pcf8563.c"
+   text-time="2008-02-22T08:22:43.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="18e42dcb2a282e100103e72dabb09660"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:43.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Kconfig"
+   text-time="2008-02-22T08:22:43.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="7ca58997b25dbc72373eb36509456433"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:43.000000Z"/>
+<entry
+   committed-rev="3"
+   name="serial.c"
+   text-time="2008-02-22T08:22:43.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="bc02c5a44b8d918110914156d4ab6ec5"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:43.000000Z"/>
+<entry
+   committed-rev="3"
+   name="axisflashmap.c"
+   text-time="2008-02-22T08:22:43.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="32760427237ae6636d5955303c3e0c7e"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:43.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ide.c"
+   text-time="2008-02-22T08:22:43.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="9424f57b94fba32c0de51b00454c70da"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:43.000000Z"/>
+<entry
+   committed-rev="3"
+   name="i2c.h"
+   text-time="2008-02-22T08:22:43.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="b1cfd8820304a9c06682402d560b3b1a"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:43.000000Z"/>
+<entry
+   committed-rev="3"
+   name="serial.h"
+   text-time="2008-02-22T08:22:43.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="dca77b7e7517546c8a637abbde23c36a"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:43.000000Z"/>
+<entry
+   committed-rev="3"
+   name="eeprom.c"
+   text-time="2008-02-22T08:22:43.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="17505856c6b7385d2ae84c4684a05cf5"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:43.000000Z"/>
+<entry
+   name="CVS"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="Makefile"
+   text-time="2008-02-22T08:22:43.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="de422341b3752cd6ccf6f4ac095850d4"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:43.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ds1302.c"
+   text-time="2008-02-22T08:22:43.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="8eeb5f219f543fe7d9a5e856185ad420"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:43.000000Z"/>
+<entry
+   committed-rev="3"
+   name="i2c.c"
+   text-time="2008-02-22T08:22:43.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="978080b5efcb938670bfc72b46d913b9"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:43.000000Z"/>
+</wc-entries>

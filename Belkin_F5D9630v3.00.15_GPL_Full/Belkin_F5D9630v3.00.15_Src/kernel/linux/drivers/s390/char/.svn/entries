@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/kernel/linux/drivers/s390/char"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   committed-rev="3"
+   name="tape.h"
+   text-time="2008-02-22T08:23:40.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="3811ae98f4b3b96c9b1e17a7588ac006"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:40.000000Z"/>
+<entry
+   committed-rev="3"
+   name="defkeymap.map"
+   text-time="2008-02-22T08:23:40.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="1020f77e471e00e54f6763372ff1ff04"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:40.000000Z"/>
+<entry
+   committed-rev="3"
+   name="keyboard.c"
+   text-time="2008-02-22T08:23:40.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="6b9cfb9b85f4499f99cf2e73a6371286"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:40.000000Z"/>
+<entry
+   committed-rev="3"
+   name="sclp_con.c"
+   text-time="2008-02-22T08:23:40.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="a579ddddf6840a787688a1a920740120"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:40.000000Z"/>
+<entry
+   committed-rev="3"
+   name="sclp_tty.c"
+   text-time="2008-02-22T08:23:40.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="a2fb7642c36b009008e5a113a66fdc60"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:40.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ctrlchar.c"
+   text-time="2008-02-22T08:23:40.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="9b990cc6dad066953635a8485b318468"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:40.000000Z"/>
+<entry
+   committed-rev="3"
+   name="tape_std.c"
+   text-time="2008-02-22T08:23:40.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="64ff5341eec62a8e8fcd00985b42182e"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:40.000000Z"/>
+<entry
+   committed-rev="3"
+   name="defkeymap.c"
+   text-time="2008-02-22T08:23:40.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="a3e1c02ef962f084285dcecc4ad8b05a"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:40.000000Z"/>
+<entry
+   committed-rev="3"
+   name="keyboard.h"
+   text-time="2008-02-22T08:23:40.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="a95836eea24cdd222a7562f67217eee8"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:40.000000Z"/>
+<entry
+   committed-rev="3"
+   name="raw3270.c"
+   text-time="2008-02-22T08:23:40.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="bedb734b28ac591ee901896cf9bef22f"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:40.000000Z"/>
+<entry
+   committed-rev="3"
+   name="sclp_tty.h"
+   text-time="2008-02-22T08:23:40.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="0e4660da96443cef6535ac5814bb2a92"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:40.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ctrlchar.h"
+   text-time="2008-02-22T08:23:40.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="1b27c7c9b230213690165ec9b1f61c0d"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:40.000000Z"/>
+<entry
+   committed-rev="3"
+   name="tape_std.h"
+   text-time="2008-02-22T08:23:40.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="e39e3c2db0cb40eb5a1fe04aa89dd664"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:40.000000Z"/>
+<entry
+   committed-rev="3"
+   name="raw3270.h"
+   text-time="2008-02-22T08:23:40.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="8a126301dc6f4ca1111fff3ce0be7a7b"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:40.000000Z"/>
+<entry
+   committed-rev="3"
+   name="tape_34xx.c"
+   text-time="2008-02-22T08:23:40.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="8c53ba05b279687a8dba00226b0d51ce"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:40.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Makefile"
+   text-time="2008-02-22T08:23:40.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="c62453331b708209d8d60870b91b1f1c"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:40.000000Z"/>
+<entry
+   committed-rev="3"
+   name="sclp_cpi.c"
+   text-time="2008-02-22T08:23:40.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="14b6ac838fadd8ef705e3f996115308a"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:40.000000Z"/>
+<entry
+   committed-rev="3"
+   name="sclp_vt220.c"
+   text-time="2008-02-22T08:23:40.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="9c6fab0964328353149727eb5a4c5f87"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:40.000000Z"/>
+<entry
+   committed-rev="3"
+   name="sclp.c"
+   text-time="2008-02-22T08:23:40.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="45007c9c1c99c20b07f694c9748ded4d"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:40.000000Z"/>
+<entry
+   committed-rev="3"
+   name="tape_core.c"
+   text-time="2008-02-22T08:23:40.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="23fa77eb844c04ea3fed16331eda0a89"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:40.000000Z"/>
+<entry
+   committed-rev="3"
+   name="tape_block.c"
+   text-time="2008-02-22T08:23:40.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="3b968a853f880af75e8d4a50fceafde5"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:40.000000Z"/>
+<entry
+   committed-rev="3"
+   name="sclp.h"
+   text-time="2008-02-22T08:23:40.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="9ef1b7ab958bb78a9e9efc30861d7df0"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:40.000000Z"/>
+<entry
+   committed-rev="3"
+   name="sclp_rw.c"
+   text-time="2008-02-22T08:23:40.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="ea9c895775f8a38be407c0a5926b74c3"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:40.000000Z"/>
+<entry
+   name="CVS"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="tape_proc.c"
+   text-time="2008-02-22T08:23:40.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="7f2395eb4b5890031e8feff2b2ef9bda"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:40.000000Z"/>
+<entry
+   committed-rev="3"
+   name="sclp_rw.h"
+   text-time="2008-02-22T08:23:40.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="50736959e86dee7cdc8c73d2712f140e"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:40.000000Z"/>
+<entry
+   committed-rev="3"
+   name="tape_class.c"
+   text-time="2008-02-22T08:23:40.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="b2c8cf32b9fbb84b7224da028457d223"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:40.000000Z"/>
+<entry
+   committed-rev="3"
+   name="tape_class.h"
+   text-time="2008-02-22T08:23:40.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="e0daef0a38e4d2683fd065c6377ad045"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:40.000000Z"/>
+<entry
+   committed-rev="3"
+   name="fs3270.c"
+   text-time="2008-02-22T08:23:40.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="0ec890bf528d4d62971ff5349c40b66a"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:40.000000Z"/>
+<entry
+   committed-rev="3"
+   name="tape_char.c"
+   text-time="2008-02-22T08:23:40.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="48d31b37eb696e1cc738d6a6ecb82b77"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:40.000000Z"/>
+<entry
+   committed-rev="3"
+   name="con3215.c"
+   text-time="2008-02-22T08:23:40.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="4b4be5b6611782d515a4cd2129cf76de"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:40.000000Z"/>
+<entry
+   committed-rev="3"
+   name="con3270.c"
+   text-time="2008-02-22T08:23:40.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="5fe7f6b738a1ca7f88135940a7ea30b3"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:40.000000Z"/>
+<entry
+   committed-rev="3"
+   name="tty3270.c"
+   text-time="2008-02-22T08:23:40.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="977541f2d68229b4c0756318b8105f8e"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:40.000000Z"/>
+</wc-entries>

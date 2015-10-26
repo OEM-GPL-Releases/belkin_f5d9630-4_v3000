@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/kernel/linux/arch/um/sys-ppc"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   committed-rev="3"
+   name="ptrace.c"
+   text-time="2008-02-22T08:22:16.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="a2c57f0854154367fdc504c5f1780795"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:16.000000Z"/>
+<entry
+   committed-rev="3"
+   name="sysrq.c"
+   text-time="2008-02-22T08:22:16.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="ed51aef953f5a34eebefca12f85f002a"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:16.000000Z"/>
+<entry
+   committed-rev="3"
+   name="sigcontext.c"
+   text-time="2008-02-22T08:22:16.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="53132f2c52f3dc1c853feed54441c074"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:16.000000Z"/>
+<entry
+   committed-rev="3"
+   name="miscthings.c"
+   text-time="2008-02-22T08:22:16.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="56994fbcc14f2f70b338bb90b1dde574"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:16.000000Z"/>
+<entry
+   name="CVS"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="misc.S"
+   text-time="2008-02-22T08:22:16.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="4b1ce6d138fa2edb648e28e9c4e30c0d"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:16.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Makefile"
+   text-time="2008-02-22T08:22:16.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="52c4aa412a8449f399da33ae390de121"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:16.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ptrace_user.c"
+   text-time="2008-02-22T08:22:16.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="3df36dafe3a04df891e03e6cefec5063"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:16.000000Z"/>
+</wc-entries>

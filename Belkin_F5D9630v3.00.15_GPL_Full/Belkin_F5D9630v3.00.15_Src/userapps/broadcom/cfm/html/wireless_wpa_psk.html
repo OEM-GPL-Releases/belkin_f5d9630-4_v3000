@@ -1,0 +1,433 @@
+<html>
+   <head>
+      <meta HTTP-EQUIV='Pragma' CONTENT='no-cache'>
+	  <meta http-equiv="refresh" content="<%ejGet(timeout_refresh)%>">
+         <link rel="stylesheet" href="main_router.css" type='text/css'>
+
+		<%ejGet("curLanguage")%>
+		<SCRIPT>assign_var();</SCRIPT>
+		 
+		 <SCRIPT language=JavaScript src="showMenu.js"></SCRIPT>
+            <script language="javascript" src="util.js"></script>
+            <script language="javascript">
+<!-- hide
+
+strHtml='<title>'+wlm_1+' &gt; '+wlm_5+'</title>';
+dw(strHtml);
+
+
+var wlenbl  = '<%ejGetWl(wlEnbl)%>'; // '0': disabled
+
+var mode = '<%ejGetWl(wlAuthMode)%>';
+var auth = '<%ejGetWl(wlAuth)%>';
+var wpaPskKey = '<%ejGetWl(wlWpaPsk)%>';
+var wpaGTKRekey = '<%ejGetWl(wlWpaGTKRekey)%>';
+var varNetReauth = '<%ejGetWl(wlNetReauth)%>';
+var wep = '<%ejGetWl(wlWep)%>';
+var wpa = '<%ejGetWl(wlWpa)%>';
+var bit = '<%ejGetWl(wlKeyBit)%>';
+var Preauth = '<%ejGetWl(wlPreauth)%>';
+var ssidIdx = '<%ejGetWl(wlSsidIdx)%>';
+var hide = '<%ejGetWl(wlObscurePSK)%>'
+
+
+function isValidWPAPskKey(val) 
+{
+   var ret = false;
+   var len = val.length;
+   var maxSize = 64;
+   var minSize = 8;
+
+   if ( len >= minSize && len < maxSize )
+      ret = true;
+   else if ( len == maxSize ) {
+      for ( i = 0; i < maxSize; i++ )
+         if ( isHexaDigit(val.charAt(i)) == false )
+            break;
+      if ( i == maxSize )
+         ret = true;
+   } else
+      ret = false;
+
+   return ret;
+}
+
+
+function authModeChangeSet()
+{
+   var loc;
+   with ( document.forms[0] ) 
+   {
+      var authMode = wlAuthMode1[wlAuthMode1.selectedIndex].value;
+
+      switch ( authMode ) 
+	  {
+		case 'open':
+		   loc = 'wireless_encrypt_no.html';
+    	   break;
+      	case 'shared128':
+		   loc = 'wireless_encrypt_128.html';
+		   break;
+		case 'shared64':
+		   loc = 'wireless_encrypt_64.html';
+	       break;
+        case 'wpa':
+    	   loc = 'wireless_wpa_radius.html';
+           break;
+        case 'psk':
+    	   loc = 'wireless_wpa_psk.html';
+           break;
+        default:
+           loc = 'wireless_encrypt_no.html';
+      }
+   }
+   window.location.href = loc;
+}
+
+function isKeyUnsafe(compareChar) 
+{
+   var unsafeString = "\"'#&\\<>$";
+   if ( unsafeString.indexOf(compareChar) == -1)  		
+		return false; // found no unsafe chars, return false
+   else
+      return true;
+
+}   
+
+function btnApply(place) 
+{
+
+   if ( wlenbl == '0' ) 
+   {
+         alert(wlsw64_7);
+      	 return;
+   }
+
+   with ( document.forms[0] ) 
+   {
+	
+	  //var loc = place + '?wlAuthMode=' + wlAuthMode2[wlAuthMode2.selectedIndex].value + '&wlAuth=0';
+	  var keyval=wlWpaPsk_1.value;
+	  
+
+      if ( isValidWPAPskKey(wlWpaPsk_1.value) == false ) 	//check the key length is between 8 and 63
+	  {
+         alert(wlswp_1);
+         return;
+      }
+
+	  /*
+	  for(var i=0; i<keyval.length; i++)
+	  {
+		if(isKeyUnsafe(keyval.charAt(i))==true)
+	  	{
+	  		alert("Pre-Shared Key contains following illegal characters :( \" ), ( \' ), ( < ), ( > ), ( # ), ( \\ ), ( & ), ( $ )");
+			wlWpaPsk_1.focus();
+	  		return;
+		}
+	  }
+	  */
+	 
+	 wlAuthMode.value =  wlAuthMode2[wlAuthMode2.selectedIndex].value
+	 wlWpaPsk.value = encodeUrl(wlWpaPsk_1.value);
+	 
+	 wlWpaGtkRekey.value = wpaGTKRekey;
+	 wlNetReauth.value = varNetReauth;
+	 //wlWep.value = wep;
+	 wlWpa.value = wlWpa_1[wlWpa_1.selectedIndex].value;
+	 
+	 wlKeyBit.value = bit;
+	 wlPreauth.value = Preauth;
+	 wlSsidIdx.value = ssidIdx;
+	 if(hide_psk.checked == true)
+	  	wlObscurePSK.value = '1';
+	 else
+	  	wlObscurePSK.value = '0';
+	  	  
+	  
+	  /*
+      loc += '&wlWpaPsk=' + encodeUrl(wlWpaPsk.value);
+	  loc += '&wlWpaGtkRekey=' + wpaGTKRekey + '&wlNetReauth=' + varNetReauth + '&wlWep=' + wep;
+	  loc += '&wlWpa='+ wlWpa[wlWpa.selectedIndex].value;
+	  loc += '&wlKeyBit=' + bit + '&wlPreauth=' + Preauth + '&wlSsidIdx=' + ssidIdx ;
+	  
+	  if(hide_psk.checked == true)
+	  	loc += '&wlObscurePSK=1';
+	  else
+	  	loc += '&wlObscurePSK=0';
+   	 */
+   }
+   document.forms[0].submit();
+   //window.location.href = loc;
+}
+
+
+function frmLoad() 
+{
+  with ( document.forms[0] ) 
+  {	
+    wlAuthMode1.selectedIndex = 1; 
+    
+	if(mode == 'psk')
+		wlAuthMode2.selectedIndex = 0;
+	else if(mode == 'psk2')	
+		wlAuthMode2.selectedIndex = 1;
+	else
+		wlAuthMode2.selectedIndex = 2;
+    
+	encryption_tech();
+	
+	if(wpa == 'tkip')
+		wlWpa_1.selectedIndex = 0;
+	else if(wpa == 'aes')
+		wlWpa_1.selectedIndex = 1;
+	else
+		wlWpa_1.selectedIndex = 0;	//tkip+aes
+		
+	
+	if(hide == 1)
+		hide_psk.checked = true;
+	else
+		hide_psk.checked = false;	
+
+	show_psk();
+	
+    wlWpaPsk_1.value = wpaPskKey;
+
+    if (wlenbl == '0') 
+	{
+      wlAuthMode1.disabled=true;
+      wlWpa_1.disabled=true;
+      wlWpaPsk_1.disabled=true;
+	  wlAuthMode2.disabled=true;
+	  hide_psk.disabled = true;
+    }   
+
+
+	
+  }
+}
+
+function encryption_tech()
+{
+	var info="";
+	
+	with(document.forms[0])
+	{
+		if(wlAuthMode2.selectedIndex == 0)
+		{
+			info += "<select name='wlWpa_1'>";
+			info += "<option value='tkip'>"+wlswp_2+"</option>"
+			info += "<option value='aes'>"+wlswp_3+"</option>";
+			info += "</select>";
+		}
+		else if(wlAuthMode2.selectedIndex == 1)
+		{
+			info += "<select name='wlWpa_1'>";
+			info += "<option value='tkip'>"+wlswp_2+"</option>"
+			info += "<option value='aes'>"+wlswp_3+"</option>";
+			info += "</select>";
+		}
+		else
+		{
+			info += "<select name='wlWpa_1'>";
+			info += "<option value=\"tkip+aes\">"+wlswp_2+"+"+wlswp_3+"</option>";
+			info += "</select>";		
+		}	
+	
+	}
+	document.getElementById('wlwpa_1').innerHTML = info;
+
+}
+
+
+function show_psk()
+{
+	var info = "";
+	var key = wpaPskKey;
+	
+	with(document.forms[0])
+	{
+			
+		if(hide_psk.checked == true)
+			info = "<input type='password' name='wlWpaPsk_1' size='45' maxlength='64'>" 
+		else
+			info = "<input type='text' name='wlWpaPsk_1' size='45' maxlength='64'>" 		
+		
+			
+	}
+	document.getElementById('psk').innerHTML = info;
+	
+	document.forms[0].wlWpaPsk_1.value = key;
+	
+}
+
+
+function modify()
+{
+	var info = "";
+	var key;
+	
+	with(document.forms[0])
+	{	
+		key = wlWpaPsk_1.value;
+			
+		if(hide_psk.checked == true)
+			info = "<input type='password' name='wlWpaPsk_1' size='45' maxlength='64'>" 
+		else
+			info = "<input type='text' name='wlWpaPsk_1' size='45' maxlength='64'>" 		
+		
+			
+	}
+	document.getElementById('psk').innerHTML = info;
+	
+	document.forms[0].wlWpaPsk_1.value = key;
+
+}
+
+function write_encMode()
+{
+	with(document.forms[0])
+	{
+		document.write("<option value=\"open\">"+home_44+"</option>");
+		document.write("<option value=\"psk\">"+wlsn_2+"</option>");
+		document.write("<option value=\"shared128\">"+wlsn_3+"</option>");
+		document.write("<option value=\"shared64\">"+wlsn_4+"</option>");
+		document.write("<option value=\"wpa\">"+wlsn_5+"</option>");
+	}
+}
+
+function write_encTech()
+{
+	with(document.forms[0])
+	{
+		document.write("<option value=\"psk\">"+wlswp_5+"</option>");
+		document.write("<option value=\"psk2\">"+wlswp_6+"</option>");
+		document.write("<option value=\"psk2mix\">"+wlswp_5+"+"+wlswp_6+"</option>");
+	}
+}
+// done hiding -->
+      </script>
+</head>
+<body onLoad='frmLoad()' bgColor="#ffffff" leftMargin="0" topMargin="0" marginheight="0" marginwidth="0">
+         <form action="post.cgi" method="post">
+		    <input type="hidden" name="page" value="wlsecurity">
+		 	<input type="hidden" name="wlAuthMode">
+			<input type="hidden" name="wlAuth" value="0">
+			<input type="hidden" name="wlWpaPsk">
+			<input type="hidden" name="wlWpaGtkRekey">
+			<input type="hidden" name="wlNetReauth">
+			<input type="hidden" name="wlWep" value="disabled">
+			<input type="hidden" name="wlWpa">
+			<input type="hidden" name="wlKeyBit">
+	        <input type='hidden' name='wlPreauth'>
+			<input type='hidden' name='wlSsidIdx'>
+			<input type='hidden' name='wlObscurePSK'>
+	  
+	  
+       <SCRIPT language=JavaScript>
+	var helpItem 	='Security';
+	var menuSection	='WLAN';
+	var menuItem	='Security';
+	var isAPmode = '<%ejGet(enblNat)%>';
+		
+	var wanStatus = '<%ejGetOther(isUp)%>';
+	showHead(wanStatus,helpItem);
+	showMenu(menuSection,menuItem,isAPmode)
+	</SCRIPT>  
+<TD class=head_bold width="90%" valign="top"><Br>
+	  
+            <b><font class="head_bold">&nbsp;&nbsp;<script>dw(wlm_1);</script> &gt; <script>dw(wlm_5);</script></font></b>
+			<br><br><Br>		
+
+            <table width="389" border="0" cellpadding="0" cellspacing="0">
+               <tr>
+			   	  <td width="39"></td>
+                  <td width="166" class="copy_1"><b><script>dw(wlsn_1);</script></b></td>
+                  <td width="184" class="copy_1">
+            		<select name='wlAuthMode1' size="1" onChange='authModeChangeSet()'><script language="javascript">write_encMode()</script></select>
+                 </td>
+               </tr>
+	</table>
+			
+			<Br>
+            <table width="401" border="0" cellpadding="0" cellspacing="0">
+     		<tr>
+				<td width="39"></td>
+	   			<td width="165" class="copy_1"><b><script>dw(wlswp_4);</script></b></td>
+	   			<td width="197" class="copy_1">
+		   			<select name="wlAuthMode2" onChange="encryption_tech()"><script language="javascript">write_encTech()</script></select>
+   			  </td>
+	 		</tr>
+			</table>
+		
+		<br>
+
+               <table width="356" border="0" cellpadding="0" cellspacing="0">
+                  <tr>
+			  	    <Td width="38"></Td>
+                     <td width="167" class="copy_1"><b><script>dw(wlswp_7);</script></b>					 </td>
+                     <td width="151"  class="copy_1"><div id='wlwpa_1'></div></td>
+                  </tr>
+ 			</table>
+			   
+			<br>
+
+            <div id="wlWpaD">
+			
+              <table width="711" border="0" cellpadding="0" cellspacing="0">
+                  <TR >
+                     <td width="38"></td>				  
+                     <td width="166" class="copy_1"><B><script>dw(wlswp_8);</script></b> </td>
+                    <td width="507" class="copy_1">
+					<div id = "psk"></div>
+					</td>
+                  </tr>
+
+			  </table>
+			  <Br>
+			  
+			  <table border="0" cellpadding="0" cellspacing="0">	  
+                  <TR >
+				    <td width="201"></td>
+					<td width="628" class="copy_1"><b><script>dw(wlswp_9);</script></b><br>
+						<script>dw(wlswp_10);</script>
+					 <b>
+            <a href="javascript:void(0);" onClick="window.open('glossary.html#ENCRYPTION','help','toolbar=0,status=0,menubar=0,scrollbars=1,resizable=1,width=640,height=400,left=150,top=150');">
+            <font style="FONT-SIZE: 11px;"  color="#0066FF"><script>dw(wd_8);</script></font></a></font></b>	
+				 </font>
+</td>
+				  </tr>
+
+              </table>
+			  <br>
+            </div>
+			
+			<table width="321" border="0" cellpadding="0" cellspacing="0">
+				<tr>
+					<td width="42"></td>
+					<Td width="279" class="copy_1">
+						<input type="checkbox" name="hide_psk" onClick="modify()"> <script>dw(wlswp_11);</script> 
+				  </Td>
+				</tr>	
+	</table>
+			
+			
+			<br><br>
+			
+              <table width="837" border="0" cellpadding="0" cellspacing="0">
+                  <tr>
+                     <td width="253"></td>				  
+					<Td width="584">
+					<script>
+						var info="<input type='button' name='buttonclear' style='height:22px;width:180px;' onClick='frmLoad()' value='"+wd_9+"' class='submitBtn'><input type='button' name='buttonclear' style='height:22px;width:180px;' onClick='btnApply(\"wlsecurity.wl\")' value='"+wd_10+"' class='submitBtn'>";
+						dw(info);
+					</script>
+					
+					</Td>
+				  </tr>
+    </table>
+
+    </TD></TR></TBODY></TABLE></TD> </form>
+   </body>
+</html>

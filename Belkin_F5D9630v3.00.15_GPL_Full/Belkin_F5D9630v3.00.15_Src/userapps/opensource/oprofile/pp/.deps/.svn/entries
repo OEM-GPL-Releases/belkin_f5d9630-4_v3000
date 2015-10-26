@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/userapps/opensource/oprofile/pp/.deps"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   committed-rev="3"
+   name="opannotate_options.Po"
+   text-time="2008-02-22T08:24:56.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="300ad6ce6b8e4632ba4feb6b6cd97061"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:55.000000Z"/>
+<entry
+   committed-rev="3"
+   name="opreport_options.Po"
+   text-time="2008-02-22T08:24:56.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="2bf2b7d3f683faaae245111a97e87718"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:55.000000Z"/>
+<entry
+   committed-rev="3"
+   name="opgprof_options.Po"
+   text-time="2008-02-22T08:24:56.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="78a8fe8a09c1f0caeeb9db372b6ef930"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:55.000000Z"/>
+<entry
+   committed-rev="3"
+   name="opannotate.Po"
+   text-time="2008-02-22T08:24:56.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="5d79223623b33c4066a105e26b07dea8"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:55.000000Z"/>
+<entry
+   committed-rev="3"
+   name="opreport.Po"
+   text-time="2008-02-22T08:24:56.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="1146623a79f2f264e04c97cedd0b41c6"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:55.000000Z"/>
+<entry
+   committed-rev="3"
+   name="oparchive_options.Po"
+   text-time="2008-02-22T08:24:56.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="e07f1181b2161a7ba6b325e40407cbbf"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:55.000000Z"/>
+<entry
+   committed-rev="3"
+   name="opgprof.Po"
+   text-time="2008-02-22T08:24:56.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="889c8a02d6646029d4967b780ccb6e5f"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:56.000000Z"/>
+<entry
+   committed-rev="3"
+   name="common_option.Po"
+   text-time="2008-02-22T08:24:56.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="e9663119d180ecfd4133cc349b4d404f"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:56.000000Z"/>
+<entry
+   committed-rev="3"
+   name="oparchive.Po"
+   text-time="2008-02-22T08:24:56.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="43e3cd18156d5b4fd02e8d2fb1d64944"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:56.000000Z"/>
+</wc-entries>

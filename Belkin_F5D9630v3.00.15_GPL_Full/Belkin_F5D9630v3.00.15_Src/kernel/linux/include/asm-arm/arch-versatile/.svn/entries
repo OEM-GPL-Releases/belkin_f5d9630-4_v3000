@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/kernel/linux/include/asm-arm/arch-versatile"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   committed-rev="3"
+   name="hardware.h"
+   text-time="2008-02-22T08:21:18.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="03b77136db37034f984e2cfbd9fb62d7"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:18.000000Z"/>
+<entry
+   committed-rev="3"
+   name="vmalloc.h"
+   text-time="2008-02-22T08:21:18.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="5459d08e57939d7ea649cdfbfc0cdccc"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:18.000000Z"/>
+<entry
+   committed-rev="3"
+   name="irqs.h"
+   text-time="2008-02-22T08:21:18.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="b945e90ddb416b1232b313749bf9de43"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:18.000000Z"/>
+<entry
+   committed-rev="3"
+   name="uncompress.h"
+   text-time="2008-02-22T08:21:18.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="553b64fe54571aab3d0322c1d113ebbf"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:18.000000Z"/>
+<entry
+   committed-rev="3"
+   name="serial.h"
+   text-time="2008-02-22T08:21:18.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="483f9f3bddeb656a6c868a649d9a9395"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:18.000000Z"/>
+<entry
+   committed-rev="3"
+   name="param.h"
+   text-time="2008-02-22T08:21:18.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="ee64c70d1d26cab47bd0321d1f1d385f"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:18.000000Z"/>
+<entry
+   committed-rev="3"
+   name="dma.h"
+   text-time="2008-02-22T08:21:18.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="35deb8af2dd2b330262edcd3fa48ae83"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:18.000000Z"/>
+<entry
+   committed-rev="3"
+   name="platform.h"
+   text-time="2008-02-22T08:21:18.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="bc95819b4780cb858ff839bf1de01519"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:18.000000Z"/>
+<entry
+   committed-rev="3"
+   name="system.h"
+   text-time="2008-02-22T08:21:18.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="f34d8bc2702d2b9ef51016ac9d80dc6b"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:18.000000Z"/>
+<entry
+   name="CVS"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="timex.h"
+   text-time="2008-02-22T08:21:18.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="19527bffd2382549701f1d98184d325d"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:18.000000Z"/>
+<entry
+   committed-rev="3"
+   name="io.h"
+   text-time="2008-02-22T08:21:18.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="f551638b0aace41360746be0221cf222"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:18.000000Z"/>
+<entry
+   committed-rev="3"
+   name="memory.h"
+   text-time="2008-02-22T08:21:18.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="432e41c4c784a26a244a3661a7b6d54c"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:18.000000Z"/>
+</wc-entries>

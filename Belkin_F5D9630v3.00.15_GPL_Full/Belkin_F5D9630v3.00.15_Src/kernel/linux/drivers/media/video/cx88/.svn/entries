@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/kernel/linux/drivers/media/video/cx88"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   committed-rev="3"
+   name="cx88-video.c"
+   text-time="2008-02-22T08:23:20.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="e917869627da74dee8f8366a0c872dda"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:20.000000Z"/>
+<entry
+   committed-rev="3"
+   name="cx88.h"
+   text-time="2008-02-22T08:23:20.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="e9c7d14603d1fb244d2f2e74821e7385"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:20.000000Z"/>
+<entry
+   committed-rev="3"
+   name="cx88-core.c"
+   text-time="2008-02-22T08:23:20.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="43ed4def5c15b239acb0102325151274"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:20.000000Z"/>
+<entry
+   committed-rev="3"
+   name="cx88-tvaudio.c"
+   text-time="2008-02-22T08:23:20.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="54a68fb4443b8da9e81204e4e864c3c6"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:20.000000Z"/>
+<entry
+   committed-rev="3"
+   name="cx88-cards.c"
+   text-time="2008-02-22T08:23:20.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="2869fed0b7d5dbf13961f2be7a4cde1c"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:20.000000Z"/>
+<entry
+   committed-rev="3"
+   name="cx88-i2c.c"
+   text-time="2008-02-22T08:23:20.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="ed12e581000ed1c47065a098ff39a10b"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:20.000000Z"/>
+<entry
+   committed-rev="3"
+   name="cx88-vbi.c"
+   text-time="2008-02-22T08:23:20.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="942b9b5f90e5f55e97bf8e62769601bf"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:20.000000Z"/>
+<entry
+   name="CVS"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="cx88-reg.h"
+   text-time="2008-02-22T08:23:20.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="bb945e8ab562c50a5676d2e309c74fbe"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:20.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Makefile"
+   text-time="2008-02-22T08:23:20.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="3490ab010deffc9391e908871344959d"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:20.000000Z"/>
+</wc-entries>

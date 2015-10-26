@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/kernel/linux/include/rxrpc"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   committed-rev="3"
+   name="call.h"
+   text-time="2008-02-22T08:21:20.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="65fb2a84fbbc8c83366cc595e4d6f7cc"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:20.000000Z"/>
+<entry
+   committed-rev="3"
+   name="peer.h"
+   text-time="2008-02-22T08:21:20.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="2274248cfe3024459e075f465a2be039"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:20.000000Z"/>
+<entry
+   committed-rev="3"
+   name="transport.h"
+   text-time="2008-02-22T08:21:20.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="78c1f8e3364cf294b2db625d541e57a3"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:20.000000Z"/>
+<entry
+   committed-rev="3"
+   name="rxrpc.h"
+   text-time="2008-02-22T08:21:20.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="5bce1047d503d5adf744b36e0000fe4f"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:20.000000Z"/>
+<entry
+   committed-rev="3"
+   name="connection.h"
+   text-time="2008-02-22T08:21:20.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="78b11f919402fff0d6fc4b800fe0fb3a"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:20.000000Z"/>
+<entry
+   committed-rev="3"
+   name="krxiod.h"
+   text-time="2008-02-22T08:21:20.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="53b84bfdb98be7ffbca8e01642e8c18c"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:20.000000Z"/>
+<entry
+   committed-rev="3"
+   name="krxtimod.h"
+   text-time="2008-02-22T08:21:20.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="dddc602d44d8614d8c66d7f8bcfbd35c"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:20.000000Z"/>
+<entry
+   committed-rev="3"
+   name="krxsecd.h"
+   text-time="2008-02-22T08:21:20.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="13cf01803a05cc5c30d68a002ac7abbb"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:20.000000Z"/>
+<entry
+   committed-rev="3"
+   name="message.h"
+   text-time="2008-02-22T08:21:20.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="decbabb9cd3f564cc54e3464712f3bd9"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:20.000000Z"/>
+<entry
+   committed-rev="3"
+   name="types.h"
+   text-time="2008-02-22T08:21:20.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="516809253a462edc5340623063ac135c"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:20.000000Z"/>
+<entry
+   name="CVS"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="packet.h"
+   text-time="2008-02-22T08:21:20.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="c9f53a69fc0753cbf28e6e3e658edc0c"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:20.000000Z"/>
+</wc-entries>

@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/kernel/linux/drivers/net/tokenring"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   committed-rev="3"
+   name="tmspci.c"
+   text-time="2008-02-22T08:23:59.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="4b436705cdc57155e734a4abe537cee1"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:59.000000Z"/>
+<entry
+   committed-rev="3"
+   name="3c359_microcode.h"
+   text-time="2008-02-22T08:23:59.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="585bda7d8ab1d52a2ea2a768c6d99ade"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:59.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Kconfig"
+   text-time="2008-02-22T08:23:59.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="25d10060d64e8148e11416c5e4dcc328"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:59.000000Z"/>
+<entry
+   committed-rev="3"
+   name="madgemc.h"
+   text-time="2008-02-22T08:23:59.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="e5614b768e8430a08368386acc50e38d"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:59.000000Z"/>
+<entry
+   committed-rev="3"
+   name="tms380tr.c"
+   text-time="2008-02-22T08:23:59.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="eeec1bdb73d717e14f3142da5526f353"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:59.000000Z"/>
+<entry
+   committed-rev="3"
+   name="3c359.c"
+   text-time="2008-02-22T08:23:59.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="518eb27304e616319d0cff953adfef83"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:59.000000Z"/>
+<entry
+   committed-rev="3"
+   name="tms380tr.h"
+   text-time="2008-02-22T08:23:59.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="1cb71001286e3ee9c798f2d349f487d7"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:59.000000Z"/>
+<entry
+   committed-rev="3"
+   name="skisa.c"
+   text-time="2008-02-22T08:23:59.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="3de250a7a8d60bd7ee058633f9059d89"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:59.000000Z"/>
+<entry
+   name="CVS"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="3c359.h"
+   text-time="2008-02-22T08:23:59.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="8c13169aa7c54cc5df2cd94781a9c2e0"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:59.000000Z"/>
+<entry
+   committed-rev="3"
+   name="olympic.c"
+   text-time="2008-02-22T08:23:59.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="8c8d3cf5b07df7b582e1bc50234152cf"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:59.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ibmtr.c"
+   text-time="2008-02-22T08:23:59.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="91cce46f0d69a51b1bf1e49f3eb2c9a8"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:59.000000Z"/>
+<entry
+   committed-rev="3"
+   name="lanstreamer.c"
+   text-time="2008-02-22T08:23:59.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="e9f50b0e10f93f6654c8cdde3a900fc0"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:59.000000Z"/>
+<entry
+   committed-rev="3"
+   name="abyss.c"
+   text-time="2008-02-22T08:23:59.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="11d8df460b95a660ad7e8ee42777844f"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:59.000000Z"/>
+<entry
+   committed-rev="3"
+   name="olympic.h"
+   text-time="2008-02-22T08:23:59.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="fee63a9b915450da1d64e287b9cebcc9"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:59.000000Z"/>
+<entry
+   committed-rev="3"
+   name="lanstreamer.h"
+   text-time="2008-02-22T08:23:59.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="ed461704e86634df5c62ea9e092741d2"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:59.000000Z"/>
+<entry
+   committed-rev="3"
+   name="abyss.h"
+   text-time="2008-02-22T08:23:59.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="5f764abd238a9a11158147265f1f0fa8"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:59.000000Z"/>
+<entry
+   committed-rev="3"
+   name="proteon.c"
+   text-time="2008-02-22T08:23:59.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="9085169c71e575bd4985b6acc0de65c5"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:59.000000Z"/>
+<entry
+   committed-rev="3"
+   name="smctr.c"
+   text-time="2008-02-22T08:23:59.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="a590d6e2d0e315462faa0951263489f0"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:59.000000Z"/>
+<entry
+   committed-rev="3"
+   name="smctr_firmware.h"
+   text-time="2008-02-22T08:23:59.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="a66fd0c3929608b78b826df083dbc864"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:59.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Makefile"
+   text-time="2008-02-22T08:23:59.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="1761eb19bfa46a1428a3a2a9dbd414e5"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:59.000000Z"/>
+<entry
+   committed-rev="3"
+   name=".cvsignore"
+   text-time="2008-02-22T08:23:59.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="d8b65572e25962faaf07c20bb34d224e"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:59.000000Z"/>
+<entry
+   committed-rev="3"
+   name="madgemc.c"
+   text-time="2008-02-22T08:23:59.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="25bb5adcdde30f92c9738f5ac12fa9b4"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:59.000000Z"/>
+<entry
+   committed-rev="3"
+   name="smctr.h"
+   text-time="2008-02-22T08:23:59.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="ca6a9ead19e0ccb48d782c8f4d7eaa28"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:59.000000Z"/>
+</wc-entries>

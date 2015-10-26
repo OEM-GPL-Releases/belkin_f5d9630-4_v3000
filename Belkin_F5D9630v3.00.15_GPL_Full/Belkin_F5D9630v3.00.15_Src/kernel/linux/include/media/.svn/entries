@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/kernel/linux/include/media"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   committed-rev="3"
+   name="ovcamchip.h"
+   text-time="2008-02-22T08:21:05.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="7324bf8c0c794a3ba56a5342d807ba0d"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:05.000000Z"/>
+<entry
+   committed-rev="3"
+   name="id.h"
+   text-time="2008-02-22T08:21:05.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="aeec4c3777b67a715121a235861a02cf"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:05.000000Z"/>
+<entry
+   committed-rev="3"
+   name="tuner.h"
+   text-time="2008-02-22T08:21:05.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="c8306f6a684a9663999b063e4bbd2433"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:05.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ir-common.h"
+   text-time="2008-02-22T08:21:05.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="f0118d11f000129c9c49ecad45a7c4e0"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:05.000000Z"/>
+<entry
+   committed-rev="3"
+   name="video-buf.h"
+   text-time="2008-02-22T08:21:05.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="613fcd49c2a5629bb0c50afd9a29cfc7"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:05.000000Z"/>
+<entry
+   committed-rev="3"
+   name="saa7146_vv.h"
+   text-time="2008-02-22T08:21:05.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="4ab944af251ea687650d3e40ffdc622c"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:05.000000Z"/>
+<entry
+   committed-rev="3"
+   name="saa6752hs.h"
+   text-time="2008-02-22T08:21:05.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="55c3691c14c02b185b81ffdf47d52f78"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:05.000000Z"/>
+<entry
+   name="CVS"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="audiochip.h"
+   text-time="2008-02-22T08:21:05.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="a8646fc32711f215ce4b804bbd17f62d"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:05.000000Z"/>
+<entry
+   committed-rev="3"
+   name="saa7146.h"
+   text-time="2008-02-22T08:21:05.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="4f9a2538f2de4d655b447b4a0f31fc4a"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:05.000000Z"/>
+</wc-entries>

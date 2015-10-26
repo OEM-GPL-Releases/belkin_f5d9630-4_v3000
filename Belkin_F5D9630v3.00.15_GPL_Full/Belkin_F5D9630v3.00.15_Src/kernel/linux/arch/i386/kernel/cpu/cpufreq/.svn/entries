@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/kernel/linux/arch/i386/kernel/cpu/cpufreq"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   committed-rev="3"
+   name="powernow-k6.c"
+   text-time="2008-02-22T08:22:32.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="5d712703a65d1fc5bf9a19fe132fd856"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:32.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Kconfig"
+   text-time="2008-02-22T08:22:32.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="bc83e2e180f1e67c73c5cf21b6faef92"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:32.000000Z"/>
+<entry
+   committed-rev="3"
+   name="powernow-k7.c"
+   text-time="2008-02-22T08:22:32.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="851bd9c7332a24e85bdebebb15a2603d"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:32.000000Z"/>
+<entry
+   committed-rev="3"
+   name="speedstep-lib.c"
+   text-time="2008-02-22T08:22:32.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="8f6c87c674c5e596a7c8c7ea334c77ce"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:32.000000Z"/>
+<entry
+   committed-rev="3"
+   name="powernow-k8.c"
+   text-time="2008-02-22T08:22:32.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="2dd6836fce1bae791f05f297bdcd66e5"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:32.000000Z"/>
+<entry
+   committed-rev="3"
+   name="powernow-k7.h"
+   text-time="2008-02-22T08:22:32.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="79d98f6c3876ebe1f1e8876b258f375a"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:32.000000Z"/>
+<entry
+   committed-rev="3"
+   name="speedstep-lib.h"
+   text-time="2008-02-22T08:22:32.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="6e3149047bd39b71d386448d2b848eeb"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:32.000000Z"/>
+<entry
+   committed-rev="3"
+   name="powernow-k8.h"
+   text-time="2008-02-22T08:22:32.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="e164cbfdfd127172211626221899fd81"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:32.000000Z"/>
+<entry
+   committed-rev="3"
+   name="gx-suspmod.c"
+   text-time="2008-02-22T08:22:32.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="4ff0563c63b65ff68c3f77cd6ef7ad67"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:32.000000Z"/>
+<entry
+   committed-rev="3"
+   name="longhaul.c"
+   text-time="2008-02-22T08:22:32.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="5342e92e326dcae72dd5fb643fd04e27"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:32.000000Z"/>
+<entry
+   name="CVS"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="speedstep-centrino.c"
+   text-time="2008-02-22T08:22:32.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="23baebee4a3b50ee81cf3d6b09d186e9"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:32.000000Z"/>
+<entry
+   committed-rev="3"
+   name="acpi.c"
+   text-time="2008-02-22T08:22:32.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="1f4bf5faa9220b7346e69cd930683249"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:32.000000Z"/>
+<entry
+   committed-rev="3"
+   name="p4-clockmod.c"
+   text-time="2008-02-22T08:22:32.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="8681541f3e9110af44d7bb1af0c77ff0"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:32.000000Z"/>
+<entry
+   committed-rev="3"
+   name="longhaul.h"
+   text-time="2008-02-22T08:22:32.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="39f5b7bc1bad5c12141eee5b0ebecfb8"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:32.000000Z"/>
+<entry
+   committed-rev="3"
+   name="speedstep-smi.c"
+   text-time="2008-02-22T08:22:32.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="9862647be3f60cd4f5bbb32fde36ea2a"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:32.000000Z"/>
+<entry
+   committed-rev="3"
+   name="longrun.c"
+   text-time="2008-02-22T08:22:32.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="bb0d1897fa31b2d0194d34e3b71cfa85"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:32.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Makefile"
+   text-time="2008-02-22T08:22:32.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="8bcfef93c9c36bdcbc3b3541da1ae674"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:32.000000Z"/>
+<entry
+   committed-rev="3"
+   name="elanfreq.c"
+   text-time="2008-02-22T08:22:32.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="f6af780bb4272eb43773f0cd1378d4ea"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:32.000000Z"/>
+<entry
+   committed-rev="3"
+   name="speedstep-ich.c"
+   text-time="2008-02-22T08:22:32.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="97444e4a378a1214935b3cbc9e949de2"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:32.000000Z"/>
+</wc-entries>

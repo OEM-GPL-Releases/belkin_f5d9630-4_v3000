@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/kernel/linux/scripts"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   name="basic"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="README.Menuconfig"
+   text-time="2008-02-22T08:21:33.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="8665ff433fd5993be9b1c8bd21d8165e"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:33.000000Z"/>
+<entry
+   committed-rev="3"
+   name="mkuboot.sh"
+   text-time="2008-02-22T08:21:33.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="509e1cb6cc448ddb0fc0b995711e0341"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:33.000000Z"/>
+<entry
+   committed-rev="3"
+   name="checkversion.pl"
+   text-time="2008-02-22T08:21:33.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="46bf82d4d70a1970bdfa3253a1ae2e75"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:33.000000Z"/>
+<entry
+   committed-rev="3"
+   name="pnmtologo.c"
+   text-time="2008-02-22T08:21:33.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="9cfe4e51797980f68625c9b952b5bbc4"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:33.000000Z"/>
+<entry
+   name="genksyms"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="makelst"
+   text-time="2008-02-22T08:21:33.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="f552ce8d780d10dc8332b73297dfa713"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:33.000000Z"/>
+<entry
+   committed-rev="3"
+   name="extract-ikconfig"
+   text-time="2008-02-22T08:21:33.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="8b44cabf062ada24b812b814198c629c"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:33.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Makefile.modpost"
+   text-time="2008-02-22T08:21:33.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="a9def59f6c0ea05c8f2a1ecbe720d38f"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:33.000000Z"/>
+<entry
+   committed-rev="3"
+   name="conmakehash.c"
+   text-time="2008-02-22T08:21:33.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="93b8044611d9c8a659252aa673a8be51"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:33.000000Z"/>
+<entry
+   name="lxdialog"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="reference_discarded.pl"
+   text-time="2008-02-22T08:21:33.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="2861f36b4e4380d2eb106b805a96d28b"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:33.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ver_linux"
+   text-time="2008-02-22T08:21:33.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="9548a7d7684f213fc112ef7a1a14b0b4"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:33.000000Z"/>
+<entry
+   committed-rev="3"
+   name="mkversion"
+   text-time="2008-02-22T08:21:33.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="7ee13cf245d7150105631ec0b283136f"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:33.000000Z"/>
+<entry
+   committed-rev="3"
+   name="checkconfig.pl"
+   text-time="2008-02-22T08:21:33.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="88baf4205080a7936b6f18a286c99bdb"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:33.000000Z"/>
+<entry
+   committed-rev="3"
+   name="checkstack.pl"
+   text-time="2008-02-22T08:21:33.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="4793c1abe3d5748e8d4c2de326ca8525"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:33.000000Z"/>
+<entry
+   committed-rev="3"
+   name=".cvsignore"
+   text-time="2008-02-22T08:21:33.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="2b9c08eab5e8f34c418369f9e051cbb2"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:33.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Makefile"
+   text-time="2008-02-22T08:21:33.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="d70446a18a036095c9e55fb2f50824c5"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:33.000000Z"/>
+<entry
+   committed-rev="3"
+   name="checkincludes.pl"
+   text-time="2008-02-22T08:21:33.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="c30355e3d282ed1e1fce0aa0d7579f1c"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:33.000000Z"/>
+<entry
+   name="mod"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="kallsyms.c"
+   text-time="2008-02-22T08:21:33.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="0bd1918bf437d991f5973204b07d7186"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:33.000000Z"/>
+<entry
+   name="kconfig"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="Makefile.lib"
+   text-time="2008-02-22T08:21:33.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="269c3c68e66cad44fcf2a45c3fa3d97b"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:33.000000Z"/>
+<entry
+   committed-rev="3"
+   name="kernel-doc"
+   text-time="2008-02-22T08:21:33.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="5659ca0bee401139a7f339c78bf7cfee"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:33.000000Z"/>
+<entry
+   name="ksymoops"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="mkcompile_h"
+   text-time="2008-02-22T08:21:33.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="b2f745f5e0c8bf47c8fa2ee827856698"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:33.000000Z"/>
+<entry
+   committed-rev="3"
+   name="gcc-version.sh"
+   text-time="2008-02-22T08:21:33.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="e1b3007ed6b6fd17419df91123297790"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:33.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Makefile.modinst"
+   text-time="2008-02-22T08:21:33.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="cc5d4a3095da6ef44f592b9eab95f95d"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:33.000000Z"/>
+<entry
+   committed-rev="3"
+   name="reference_init.pl"
+   text-time="2008-02-22T08:21:33.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="d1f4d6307e601315255bef1eb0081c5a"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:33.000000Z"/>
+<entry
+   name="CVS"
+   kind="dir"/>
+<entry
+   name="package"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="Lindent"
+   text-time="2008-02-22T08:21:33.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="efaf22b49f24601141aa3dd50906dae8"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:33.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Makefile.clean"
+   text-time="2008-02-22T08:21:33.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="6f89a7e8d692b10e0833128b5a99274a"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:33.000000Z"/>
+<entry
+   committed-rev="3"
+   name="binoffset.c"
+   text-time="2008-02-22T08:21:33.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="672a5c817962abe8c148f975495ade45"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:33.000000Z"/>
+<entry
+   committed-rev="3"
+   name="split-man"
+   text-time="2008-02-22T08:21:33.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="4eb9ff7f6e55669d006d2b30d91b24dd"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:33.000000Z"/>
+<entry
+   committed-rev="3"
+   name="mkmakefile"
+   text-time="2008-02-22T08:21:33.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="8ccadf1e5356f14aac76efb28a7966eb"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:33.000000Z"/>
+<entry
+   committed-rev="3"
+   name="makeman"
+   text-time="2008-02-22T08:21:33.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="d4ef6ec26eb21ea0aaf22d7733b5fb56"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:33.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Makefile.build"
+   text-time="2008-02-22T08:21:33.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="5d191ff2b0b43aa71aba755c92295cd1"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:33.000000Z"/>
+<entry
+   committed-rev="3"
+   name="patch-kernel"
+   text-time="2008-02-22T08:21:33.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="061e798ba6c52b6d07e619a3d9111cce"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:33.000000Z"/>
+<entry
+   committed-rev="3"
+   name="bin2c.c"
+   text-time="2008-02-22T08:21:33.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="b8b087b2b06074e2985c768e8bdca357"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:33.000000Z"/>
+</wc-entries>

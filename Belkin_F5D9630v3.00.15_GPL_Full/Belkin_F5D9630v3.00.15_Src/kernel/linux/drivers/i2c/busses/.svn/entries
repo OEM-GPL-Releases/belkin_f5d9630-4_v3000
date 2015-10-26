@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/kernel/linux/drivers/i2c/busses"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   committed-rev="3"
+   name="Kconfig"
+   text-time="2008-02-22T08:24:35.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="d158a685a93b763e19b720a7fbf7fcfe"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:35.000000Z"/>
+<entry
+   committed-rev="3"
+   name="i2c-ali1563.c"
+   text-time="2008-02-22T08:24:35.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="98da61678048141b86f14c470869d4bb"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:35.000000Z"/>
+<entry
+   committed-rev="3"
+   name="i2c-ali15x3.c"
+   text-time="2008-02-22T08:24:35.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="bdcd20c37f906228270ecf244ac369d2"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:35.000000Z"/>
+<entry
+   committed-rev="3"
+   name="i2c-parport.c"
+   text-time="2008-02-22T08:24:35.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="80727eea3246fd777cf8cd339e58d013"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:35.000000Z"/>
+<entry
+   committed-rev="3"
+   name="i2c-sis630.c"
+   text-time="2008-02-22T08:24:35.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="f19abf01cfca469c5e94259ffe80ab8d"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:35.000000Z"/>
+<entry
+   committed-rev="3"
+   name="i2c-iop3xx.c"
+   text-time="2008-02-22T08:24:35.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="e8df02701d17e9d109d5c7ab56343657"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:35.000000Z"/>
+<entry
+   committed-rev="3"
+   name="i2c-keywest.c"
+   text-time="2008-02-22T08:24:35.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="e7cde00ddc6823913cc831966c3d57d7"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:35.000000Z"/>
+<entry
+   committed-rev="3"
+   name="i2c-parport.h"
+   text-time="2008-02-22T08:24:35.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="31eb3abc945bd5fd31bd62b6348bd5ff"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:35.000000Z"/>
+<entry
+   committed-rev="3"
+   name="i2c-parport-light.c"
+   text-time="2008-02-22T08:24:35.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="704c522a8d4bc6bd57732a758705679e"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:35.000000Z"/>
+<entry
+   committed-rev="3"
+   name="i2c-iop3xx.h"
+   text-time="2008-02-22T08:24:35.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="651e79b3f44e3d833f39ffdc3cf02853"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:35.000000Z"/>
+<entry
+   committed-rev="3"
+   name="i2c-keywest.h"
+   text-time="2008-02-22T08:24:35.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="58a0ea440566fe8bdce9eb04f5273eeb"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:35.000000Z"/>
+<entry
+   committed-rev="3"
+   name="scx200_i2c.c"
+   text-time="2008-02-22T08:24:35.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="41b2525d6f6f2a9b4e23cfa9250ac854"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:35.000000Z"/>
+<entry
+   committed-rev="3"
+   name="i2c-amd756.c"
+   text-time="2008-02-22T08:24:35.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="4de732739d252421204f6eb76ab3af80"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:35.000000Z"/>
+<entry
+   committed-rev="3"
+   name="i2c-ixp4xx.c"
+   text-time="2008-02-22T08:24:35.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="ddf4ab3cdbc77db76b5fae357e4850f0"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:35.000000Z"/>
+<entry
+   committed-rev="3"
+   name="i2c-elektor.c"
+   text-time="2008-02-22T08:24:35.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="f702f1f0013de2dbddb213e4ededc408"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:35.000000Z"/>
+<entry
+   committed-rev="3"
+   name="i2c-hydra.c"
+   text-time="2008-02-22T08:24:35.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="17dd9286e99ef7553b56d727241faef3"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:35.000000Z"/>
+<entry
+   committed-rev="3"
+   name="scx200_acb.c"
+   text-time="2008-02-22T08:24:35.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="4d2ce082f6e873b42b6adde0c8cf9640"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:35.000000Z"/>
+<entry
+   committed-rev="3"
+   name="i2c-amd8111.c"
+   text-time="2008-02-22T08:24:35.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="d234e38b91a530b80a599f449521f216"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:35.000000Z"/>
+<entry
+   committed-rev="3"
+   name="i2c-i801.c"
+   text-time="2008-02-22T08:24:35.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="90c8307038990389f150c3cfc93527fd"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:35.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Makefile"
+   text-time="2008-02-22T08:24:35.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="f15eed69059ae45a64dc9282c68af80c"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:35.000000Z"/>
+<entry
+   committed-rev="3"
+   name="i2c-ite.c"
+   text-time="2008-02-22T08:24:35.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="a9e2f2800e6f3d4f09e69d6b59f1af49"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:35.000000Z"/>
+<entry
+   committed-rev="3"
+   name="i2c-ali1535.c"
+   text-time="2008-02-22T08:24:35.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="cb06f93bcaf91761f80714affaadaa46"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:35.000000Z"/>
+<entry
+   committed-rev="3"
+   name="i2c-sis5595.c"
+   text-time="2008-02-22T08:24:35.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="c6569efc1fb97ad4829b68e02ac7e3b0"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:35.000000Z"/>
+<entry
+   committed-rev="3"
+   name="i2c-prosavage.c"
+   text-time="2008-02-22T08:24:35.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="0f8e09c499b909e1983f4a965ba4c9c5"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:35.000000Z"/>
+<entry
+   committed-rev="3"
+   name="i2c-voodoo3.c"
+   text-time="2008-02-22T08:24:35.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="635d8ddc1544a5f014cf7a651d874005"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:35.000000Z"/>
+<entry
+   committed-rev="3"
+   name="i2c-savage4.c"
+   text-time="2008-02-22T08:24:35.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="09925ce83c17455b4cc50e4e9735051b"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:35.000000Z"/>
+<entry
+   committed-rev="3"
+   name="i2c-ibm_iic.c"
+   text-time="2008-02-22T08:24:35.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="72968719a33c757eacabf73a59ac6208"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:35.000000Z"/>
+<entry
+   committed-rev="3"
+   name="i2c-piix4.c"
+   text-time="2008-02-22T08:24:35.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="2b0dc9778b67fe312953c5104261adea"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:35.000000Z"/>
+<entry
+   committed-rev="3"
+   name="i2c-nforce2.c"
+   text-time="2008-02-22T08:24:35.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="ccc4d6641e7a8bcc888f239c74e464ed"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:35.000000Z"/>
+<entry
+   committed-rev="3"
+   name="i2c-sibyte.c"
+   text-time="2008-02-22T08:24:35.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="e0567635e9219e2e9016b79dfa104011"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:35.000000Z"/>
+<entry
+   name="CVS"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="i2c-ibm_iic.h"
+   text-time="2008-02-22T08:24:35.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="8fa5e447b5f70f6ae44758f480588763"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:35.000000Z"/>
+<entry
+   committed-rev="3"
+   name="i2c-viapro.c"
+   text-time="2008-02-22T08:24:35.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="6907517a07bd05752c2a8ace8b9c38e4"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:35.000000Z"/>
+<entry
+   committed-rev="3"
+   name="i2c-sis96x.c"
+   text-time="2008-02-22T08:24:35.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="1f68657d4e6cbe13c30a6116a7df210e"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:35.000000Z"/>
+<entry
+   committed-rev="3"
+   name="i2c-rpx.c"
+   text-time="2008-02-22T08:24:35.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="a36a16c80dcc513a0dc66ff909d17728"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:35.000000Z"/>
+<entry
+   committed-rev="3"
+   name="i2c-frodo.c"
+   text-time="2008-02-22T08:24:35.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="7ec2b87c6eadaa9846b8e1b87c844e92"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:35.000000Z"/>
+<entry
+   committed-rev="3"
+   name="i2c-isa.c"
+   text-time="2008-02-22T08:24:35.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="cef47c6d10584d7b92c4b699b22a22ad"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:35.000000Z"/>
+<entry
+   committed-rev="3"
+   name="i2c-via.c"
+   text-time="2008-02-22T08:24:35.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="8e934a5c06fdb76293792aa7b38902d7"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:35.000000Z"/>
+<entry
+   committed-rev="3"
+   name="i2c-i810.c"
+   text-time="2008-02-22T08:24:35.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="7acbcb34d2d991dcdf7263414452a361"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:35.000000Z"/>
+</wc-entries>

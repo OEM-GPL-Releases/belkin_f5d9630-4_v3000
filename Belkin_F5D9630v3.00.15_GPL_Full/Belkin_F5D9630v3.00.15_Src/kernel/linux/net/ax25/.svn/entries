@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/kernel/linux/net/ax25"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   committed-rev="3"
+   name="Kconfig"
+   text-time="2008-02-22T08:21:30.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="f748706a58c5efdfd91522f747fff294"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:30.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ax25_ds_subr.c"
+   text-time="2008-02-22T08:21:30.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="3e13d3c3810904e103b62240fa5a4efe"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:30.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ax25_ds_timer.c"
+   text-time="2008-02-22T08:21:30.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="0a02279daba0396a3933f28faff6c53c"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:30.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ax25_in.c"
+   text-time="2008-02-22T08:21:30.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="2bd28f43bcc167ff58070f97242b4a05"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:30.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ax25_iface.c"
+   text-time="2008-02-22T08:21:30.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="a57b9f12853fe978601a53186bc93665"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:30.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ax25_out.c"
+   text-time="2008-02-22T08:21:30.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="c2c2d1e57505cb6092b2c4287c03b7ee"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:30.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ax25_ip.c"
+   text-time="2008-02-22T08:21:30.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="200ca5ce6d86a99fcfbb4543f5a287e0"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:30.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ax25_addr.c"
+   text-time="2008-02-22T08:21:30.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="0e2ec5563a9901699f723128f25027b9"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:30.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ax25_subr.c"
+   text-time="2008-02-22T08:21:30.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="762da35be50618ca191b9d6d34f89fb8"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:30.000000Z"/>
+<entry
+   name="CVS"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="ax25_dev.c"
+   text-time="2008-02-22T08:21:30.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="e90af44f4cd4687d23b016404f31bf91"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:30.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ax25_timer.c"
+   text-time="2008-02-22T08:21:30.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="5360ee547aea9a94554a86307ada73ca"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:30.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ax25_std_in.c"
+   text-time="2008-02-22T08:21:30.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="46f7509ea61705cfe82af3def6846f84"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:30.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ax25_uid.c"
+   text-time="2008-02-22T08:21:30.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="3b3e696b42791efff0a52c30e489495a"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:30.000000Z"/>
+<entry
+   committed-rev="3"
+   name="TODO"
+   text-time="2008-02-22T08:21:30.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="e9ff5a457aa23f2bd1e1888ea9714b7f"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:30.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ax25_std_subr.c"
+   text-time="2008-02-22T08:21:30.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="547e63cb3b84b7bff4fd4769f3cc29fd"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:30.000000Z"/>
+<entry
+   committed-rev="3"
+   name="af_ax25.c"
+   text-time="2008-02-22T08:21:30.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="a87a45270b713e92ca186d645fec7ca4"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:30.000000Z"/>
+<entry
+   committed-rev="3"
+   name="sysctl_net_ax25.c"
+   text-time="2008-02-22T08:21:30.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="0293113361d50b09bffd3d52b21cf8cd"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:30.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ax25_std_timer.c"
+   text-time="2008-02-22T08:21:30.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="e9ac07b21a5834e94797f1c5ca0d71cb"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:30.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ax25_ds_in.c"
+   text-time="2008-02-22T08:21:30.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="c50a213575fb2c3195f2dd504ca55da0"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:30.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Makefile"
+   text-time="2008-02-22T08:21:30.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="b2208b5bda15dc5ffb9414caf3fe820e"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:30.000000Z"/>
+<entry
+   committed-rev="3"
+   name=".cvsignore"
+   text-time="2008-02-22T08:21:30.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="735ab631b67b75d07a52edc9e01aed4c"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:30.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ax25_route.c"
+   text-time="2008-02-22T08:21:30.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="2d8fa3644845ef195b16d8d424562881"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:30.000000Z"/>
+</wc-entries>

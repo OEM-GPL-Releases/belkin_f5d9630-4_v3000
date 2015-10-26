@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/kernel/linux/arch/mips/sgi-ip22"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   committed-rev="3"
+   name="ip22-berr.c"
+   text-time="2008-02-22T08:22:59.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="51b847a17b62e0a642c8397b29db5e05"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:59.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ip22-hpc.c"
+   text-time="2008-02-22T08:22:59.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="de2a322c15cd8c197200be116e26556c"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:59.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ip22-int.c"
+   text-time="2008-02-22T08:22:59.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="06e33eaddbbe89c6200a8adf1da30ebe"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:59.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ip22-irq.S"
+   text-time="2008-02-22T08:22:59.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="34414353225a26268a8841114e872998"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:59.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ip22-time.c"
+   text-time="2008-02-22T08:22:59.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="d9550e9db857d655eed4583c62d84c59"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:59.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ip22-mc.c"
+   text-time="2008-02-22T08:22:59.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="4256dd144f4b43f2f067016e807e24d2"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:59.000000Z"/>
+<entry
+   name="CVS"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="ip22-setup.c"
+   text-time="2008-02-22T08:22:59.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="987f8583db7d6e23063d5f9e6819990f"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:59.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ip22-eisa.c"
+   text-time="2008-02-22T08:22:59.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="c462b0212a255169972411e9223f31bf"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:59.000000Z"/>
+<entry
+   committed-rev="3"
+   name=".cvsignore"
+   text-time="2008-02-22T08:22:59.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="d8b65572e25962faaf07c20bb34d224e"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:59.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Makefile"
+   text-time="2008-02-22T08:22:59.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="33db3f7ee9029cc5260a75434e9df6f6"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:59.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ip22-reset.c"
+   text-time="2008-02-22T08:22:59.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="f91fdd123f9087085a7f025095f05044"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:59.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ip22-nvram.c"
+   text-time="2008-02-22T08:22:59.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="fdcb43de58b4ebd6cc8e13746bb510da"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:59.000000Z"/>
+</wc-entries>

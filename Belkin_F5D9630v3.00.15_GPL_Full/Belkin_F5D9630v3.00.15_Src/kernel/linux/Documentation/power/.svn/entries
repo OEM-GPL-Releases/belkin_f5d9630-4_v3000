@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/kernel/linux/Documentation/power"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   committed-rev="3"
+   name="devices.txt"
+   text-time="2008-02-22T08:22:00.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="b3f5e9f0def6b459f6bcdd3a729f9472"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:00.000000Z"/>
+<entry
+   committed-rev="3"
+   name="states.txt"
+   text-time="2008-02-22T08:22:00.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="d73116f3983d4a4935f7ea12a4c988c6"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:00.000000Z"/>
+<entry
+   committed-rev="3"
+   name="swsusp.txt"
+   text-time="2008-02-22T08:22:00.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="4e9e9823279d0bb93a1c68c337607b38"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:00.000000Z"/>
+<entry
+   committed-rev="3"
+   name="video.txt"
+   text-time="2008-02-22T08:22:00.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="92b4e6b15e16a1cf09266d3a4df8093a"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:00.000000Z"/>
+<entry
+   committed-rev="3"
+   name="pci.txt"
+   text-time="2008-02-22T08:22:00.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="c8ec0ed7293b7986621b69f767109f54"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:00.000000Z"/>
+<entry
+   name="CVS"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="tricks.txt"
+   text-time="2008-02-22T08:22:00.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="8038afa1ff1e4c13699c8971c5359f8b"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:00.000000Z"/>
+<entry
+   committed-rev="3"
+   name="interface.txt"
+   text-time="2008-02-22T08:22:00.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="27019d60d18523bbae0be2dc66618b43"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:00.000000Z"/>
+</wc-entries>

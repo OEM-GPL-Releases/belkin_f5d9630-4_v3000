@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/kernel/linux/drivers/eisa"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   committed-rev="3"
+   name="eisa.ids"
+   text-time="2008-02-22T08:23:58.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="5236c3fb49186f353b55d17a6858471c"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:58.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Kconfig"
+   text-time="2008-02-22T08:23:58.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="a04944eab1fd63ae9d34009d78226507"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:58.000000Z"/>
+<entry
+   committed-rev="3"
+   name="eisa-bus.c"
+   text-time="2008-02-22T08:23:58.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="e85c4fe622078c52b772c00c02ec1ea8"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:58.000000Z"/>
+<entry
+   committed-rev="3"
+   name="virtual_root.c"
+   text-time="2008-02-22T08:23:58.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="77e1f5d8c775e12a24a680dc3c59880d"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:58.000000Z"/>
+<entry
+   name="CVS"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name=".cvsignore"
+   text-time="2008-02-22T08:23:58.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="aebba3f75d2f61f8e68bf6670c21f726"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:58.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Makefile"
+   text-time="2008-02-22T08:23:58.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="e02bb3a1d76b6ba6d3bac7fde0092e1b"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:58.000000Z"/>
+<entry
+   committed-rev="3"
+   name="pci_eisa.c"
+   text-time="2008-02-22T08:23:58.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="5634a6a752a0412d83a27580ecba8b24"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:58.000000Z"/>
+</wc-entries>

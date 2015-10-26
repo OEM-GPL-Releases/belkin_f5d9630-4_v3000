@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/kernel/linux/fs/smbfs"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   committed-rev="3"
+   name="inode.c"
+   text-time="2008-02-22T08:21:53.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="19915f6857ffe21478fecc30fcf14b6c"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:52.000000Z"/>
+<entry
+   committed-rev="3"
+   name="sock.c"
+   text-time="2008-02-22T08:21:53.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="8aec84170a4cb02fee66be0fa2eb9831"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:52.000000Z"/>
+<entry
+   committed-rev="3"
+   name="getopt.c"
+   text-time="2008-02-22T08:21:53.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="ed74cff1ce037c96293003359d2607b0"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:52.000000Z"/>
+<entry
+   committed-rev="3"
+   name="cache.c"
+   text-time="2008-02-22T08:21:53.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="97b57f515ef3c7ca368171ae9dbc7f63"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:52.000000Z"/>
+<entry
+   committed-rev="3"
+   name="proc.c"
+   text-time="2008-02-22T08:21:53.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="16acc65c1975b3b400576f34b76b4832"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:52.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ChangeLog"
+   text-time="2008-02-22T08:21:53.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="fd60d11ea41e28499362154b800b3228"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:52.000000Z"/>
+<entry
+   committed-rev="3"
+   name="getopt.h"
+   text-time="2008-02-22T08:21:53.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="38c40f006d16b8c76f49a0e550667e3f"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:52.000000Z"/>
+<entry
+   committed-rev="3"
+   name="proto.h"
+   text-time="2008-02-22T08:21:53.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="aa516d9b423ac9fa2ab6efef68f71d45"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:52.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ioctl.c"
+   text-time="2008-02-22T08:21:53.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="9f5ea132287befac84c5d008db66789f"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:52.000000Z"/>
+<entry
+   name="CVS"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="smbiod.c"
+   text-time="2008-02-22T08:21:53.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="8c286bda29b25f605c1ce9d5a9f1819c"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:53.000000Z"/>
+<entry
+   committed-rev="3"
+   name="dir.c"
+   text-time="2008-02-22T08:21:53.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="a41d626eec8228657cb8e71a26a77f28"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:53.000000Z"/>
+<entry
+   committed-rev="3"
+   name="file.c"
+   text-time="2008-02-22T08:21:53.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="1e7f78a5f389199bc46f7dd85e76dcc3"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:53.000000Z"/>
+<entry
+   committed-rev="3"
+   name="symlink.c"
+   text-time="2008-02-22T08:21:53.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="a2374aaa8a10ed06dd5770080f61a122"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:53.000000Z"/>
+<entry
+   committed-rev="3"
+   name="request.c"
+   text-time="2008-02-22T08:21:53.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="78a9b374a43abceccbc05a132cffb843"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:53.000000Z"/>
+<entry
+   committed-rev="3"
+   name="smb_debug.h"
+   text-time="2008-02-22T08:21:53.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="26cd9da51980e9b2b5bc0622c563ffa7"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:53.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Makefile"
+   text-time="2008-02-22T08:21:53.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="6f97cc498dd63bda75e7e962f061f3f8"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:53.000000Z"/>
+<entry
+   committed-rev="3"
+   name=".cvsignore"
+   text-time="2008-02-22T08:21:53.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="735ab631b67b75d07a52edc9e01aed4c"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:53.000000Z"/>
+<entry
+   committed-rev="3"
+   name="request.h"
+   text-time="2008-02-22T08:21:53.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="0a5d25ff7a4c85d54a539be8324e4730"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:53.000000Z"/>
+</wc-entries>

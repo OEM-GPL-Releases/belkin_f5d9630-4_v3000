@@ -1,0 +1,199 @@
+<html>
+   <head>
+            <meta http-equiv="Pragma" content="no-cache">
+			<meta http-equiv="refresh" content="<%ejGet(timeout_refresh)%>">
+         	<link rel="stylesheet" href="main_router.css" type='text/css'>
+			<%ejGet("curLanguage")%>
+			<SCRIPT>assign_var();</SCRIPT>
+		 		 
+			<SCRIPT language=JavaScript src="showMenu.js"></SCRIPT>
+            <base target="_self">
+		 
+            <script language="javascript">
+<!-- hide
+
+var chipId = <%ejGetOther(sysInfo, chipId)%>;
+
+function frmLoad() {
+   var adslFlag = '<%ejGet(adslFlag)%>';
+
+   with ( document.forms[0] ) {
+      if (adslFlag & 1)
+         adslMod[0].checked = true;
+      if (adslFlag & 2)
+         adslMod[1].checked = true;
+      if (adslFlag & 4)
+         adslMod[2].checked = true;
+      if (adslFlag & 8)
+         adslMod[3].checked = true;
+      if (adslFlag & 16)
+         adslMod[4].checked = true;
+      if (adslFlag & 32)
+         adslMod[5].checked = true;
+      if (adslFlag & 64)
+         adslMod[6].checked = true;
+      if (adslFlag & 0x01000000)
+         adslPair[1].checked = true;
+      else
+         adslPair[0].checked = true;
+         
+      if (adslFlag & 0x02000000)
+         adslBitswap.checked = false;
+      else
+         adslBitswap.checked = true;
+         
+      if (adslFlag & 0x08000000)
+         adslSra.checked = true;
+      else
+         adslSra.checked = false;
+         
+   }
+}
+
+function applyClick() {
+   var loc = 'adslcfg.cgi?adslFlag=';
+   var adslFlag = 0;
+   
+   with ( document.forms[0] ) {
+      if (adslMod[0].checked)
+         adslFlag |= 1;
+      if (adslMod[1].checked)
+         adslFlag |= 2;
+      if (adslMod[2].checked)
+         adslFlag |= 4;
+      if (adslMod[3].checked)
+         adslFlag |= 8;
+      if (adslMod[4].checked)
+         adslFlag |= 16;
+      if (adslMod[5].checked)
+         adslFlag |= 32;
+      if (adslMod[6].checked)
+         adslFlag |= 64;
+      if ((adslFlag & 0x000007f) == 0)
+         alert("Need to select at least one modulation mode.");
+      if ( adslPair[1].checked)
+         adslFlag |=  0x01000000;
+
+      if (!adslBitswap.checked)
+         adslFlag |= 0x02000000;
+      if (adslSra.checked)
+         adslFlag |= 0x08000000;
+   }
+   loc += adslFlag;
+   var code = 'location="' + loc + '"';
+   eval(code);
+}
+
+// done hiding -->
+</script>
+   </head>
+   <body bgColor="#ffffff" leftMargin="0" topMargin="0" marginheight="0" marginwidth="0" onLoad='frmLoad()'>
+
+       <SCRIPT language=JavaScript>
+
+
+strHtml='<title>DSL Settings &gt;</title>';
+dw(strHtml);
+
+
+var autoup = '<%ejGet(autoUpgrade_flag)%>';
+
+if(autoup == '1')
+{
+	newwin=window.open("checkfw.html","Firmware","toolbar=no,location=no,directories=no,status=no,menubar=no,scrollbars=yes,width=395,height=200,resizable=0");
+	newwin.focus();
+}
+
+	   
+	var helpItem 	='DSL settings';
+	var menuSection	='DSL';
+	var menuItem	='DSL settings';
+	var isAPmode = '<%ejGet(enblNat)%>';
+		
+	var wanStatus = '<%ejGetOther(isUp)%>';
+	showHead(wanStatus,helpItem);
+	showMenu(menuSection,menuItem,isAPmode)
+	</SCRIPT>  
+<TD class=head_bold width="90%" valign="top"><Br>
+
+         <b><font color="#004263" face="Verdana" class="head_bold">&nbsp;&nbsp;DSL Settings &gt; </font></b>
+		 <Br><br>
+         <form>
+          
+			<table border="0" cellpadding="0" cellspacing="0" width="737">
+				<Tr>
+				  <td width="48"></td>	
+                  <td width="689"  class="copy_1"><b>Select the modulation below</b></td>
+				</Tr>
+				
+				<tr>  
+                  <td width="48"></td>
+				  <td>
+            <table border="0" cellpadding="4" cellspacing="0">
+						   <tr><td width="123" class="copy_1"><input type="checkbox" name="adslMod"> G.Dmt Enabled</td></tr>
+						   <tr><td  class="copy_1"><input type="checkbox" name="adslMod"> G.lite Enabled</td></tr>
+						   <tr><td  class="copy_1"><input type="checkbox" name="adslMod"> T1.413 Enabled</td></tr>
+						   <tr><td  class="copy_1"><input type="checkbox" name="adslMod"> ADSL2 Enabled</td></tr>
+						   <tr><td  class="copy_1"><input type="checkbox" name="adslMod"> AnnexL Enabled</td></tr>
+               <script language="javascript">
+<!-- hide 
+			   					document.writeln("<td  class='copy_1'><input type='checkbox' name='adslMod'> ADSL2+ Enabled</td></tr>");
+// done hiding -->
+</script>
+						   <tr><td  class="copy_1"><input type="checkbox" name="adslMod"> AnnexM Enabled</td></tr>
+						</table>
+				  </td>
+               </tr>
+
+            </table>
+			
+            <br>
+			<table border="0" cellpadding="0" cellspacing="0" width="737">
+				<Tr>
+				  	<td width="48"></td>	
+                  	<td width="689"  class="copy_1"><b>Select the phone line pair below</b></td>
+				</Tr>
+				
+				<Tr>
+					<td width="48"></td>	
+					<td>
+            <table border="0" cellpadding="4" cellspacing="0">
+						   <tr><td class="copy_1"><input type="radio" name="adslPair"> Inner pair</td></tr>
+						   <tr><td class="copy_1"><input type="radio" name="adslPair"> Outer pair</td></tr>
+						</table>
+					</td>
+				</Tr>
+            </table>
+            <br>
+
+			<table border="0" cellpadding="0" cellspacing="0" width="737">
+				<Tr>
+				  	<td width="48"></td>	
+                  	<td width="689"  class="copy_1"><b>Capability</b></td>
+				</Tr>
+
+				<Tr>
+				  	<td width="48"></td>	
+                  	<td >
+            <table border="0" cellpadding="4" cellspacing="0">
+						   <tr><td class="copy_1"><input type="checkbox" name="adslBitswap"> Bitswap Enable</td></tr>
+						   <tr><td class="copy_1"><input type="checkbox" name="adslSra"> SRA Enable</td></tr>
+						</table>
+					</td>
+				</Tr>
+			
+            </table>
+            
+            <br>
+            <center>
+               <input type='button' style='width:180px' class='submitBtn' onClick='applyClick()' value='Save/Apply'> <input type='button' style='width:180px' class='submitBtn' onClick='location.href="adslcfgadv.html"' value='Advanced Settings'>
+            </center>
+         </form>
+					</TD>			
+
+		 		</tr>
+		 	</TABLE>
+		 </TD></TR></TBODY></TABLE></TD>
+		 
+   </body>
+</html>

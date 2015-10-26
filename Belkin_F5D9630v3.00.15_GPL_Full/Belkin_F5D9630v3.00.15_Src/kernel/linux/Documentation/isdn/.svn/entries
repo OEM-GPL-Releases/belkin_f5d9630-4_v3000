@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/kernel/linux/Documentation/isdn"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   committed-rev="3"
+   name="README.hysdn"
+   text-time="2008-02-22T08:22:01.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="30c51ff6dd04bf1b7b8f4f2ea1d658ce"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:01.000000Z"/>
+<entry
+   committed-rev="3"
+   name="00-INDEX"
+   text-time="2008-02-22T08:22:01.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="3e219719ba3950cdc2a3aeb3769cae05"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:01.000000Z"/>
+<entry
+   committed-rev="3"
+   name="README.syncppp"
+   text-time="2008-02-22T08:22:01.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="edda4bec96e45c66b1cc833e24bbac46"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:01.000000Z"/>
+<entry
+   committed-rev="3"
+   name="README.eicon"
+   text-time="2008-02-22T08:22:01.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="b8df0ab269ad497cacff467bda465764"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:01.000000Z"/>
+<entry
+   name="CVS"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="README.pcbit"
+   text-time="2008-02-22T08:22:01.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="cc69c4e447a5be1e029a80262b9a495a"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:01.000000Z"/>
+<entry
+   committed-rev="3"
+   name="CREDITS"
+   text-time="2008-02-22T08:22:01.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="790677d6f131d27edac21eaaf1c3f458"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:01.000000Z"/>
+<entry
+   committed-rev="3"
+   name="README"
+   text-time="2008-02-22T08:22:01.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="96cec7009e6a809feef2dd0ccc61a5ed"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:01.000000Z"/>
+<entry
+   committed-rev="3"
+   name="README.audio"
+   text-time="2008-02-22T08:22:01.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="7646f35ee93c9a087b831189a0303969"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:01.000000Z"/>
+<entry
+   committed-rev="3"
+   name="README.diversion"
+   text-time="2008-02-22T08:22:01.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="0052c88330acf9b1bbd78c34cebcc445"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:01.000000Z"/>
+<entry
+   committed-rev="3"
+   name="README.concap"
+   text-time="2008-02-22T08:22:01.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="2f20e4a59afb8ebfbdb3f5829d2feac9"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:01.000000Z"/>
+<entry
+   committed-rev="3"
+   name="INTERFACE"
+   text-time="2008-02-22T08:22:01.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="378e54cbb6c4c72bf614e9ef6938faa6"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:01.000000Z"/>
+<entry
+   committed-rev="3"
+   name="README.sc"
+   text-time="2008-02-22T08:22:01.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="407acd27af3e2abc06de6fb7f3b0b9c6"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:01.000000Z"/>
+<entry
+   committed-rev="3"
+   name="syncPPP.FAQ"
+   text-time="2008-02-22T08:22:01.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="8da98ab5303f7b13698c69d31ec1098d"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:01.000000Z"/>
+<entry
+   committed-rev="3"
+   name="README.avmb1"
+   text-time="2008-02-22T08:22:01.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="fb117780fa25b50ddcd37ccd01534cd6"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:01.000000Z"/>
+<entry
+   committed-rev="3"
+   name="README.FAQ"
+   text-time="2008-02-22T08:22:01.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="a05db7f532312c6e8788fe67aa4b522f"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:01.000000Z"/>
+<entry
+   committed-rev="3"
+   name="README.act2000"
+   text-time="2008-02-22T08:22:01.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="06833fae5aeeb55c7d0aff0caa46331e"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:01.000000Z"/>
+<entry
+   committed-rev="3"
+   name="README.hfc-pci"
+   text-time="2008-02-22T08:22:01.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="dd61729ec65256fdaee39fc70867a488"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:01.000000Z"/>
+<entry
+   committed-rev="3"
+   name="README.icn"
+   text-time="2008-02-22T08:22:01.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="14d2d7cdb33ce783d6f9717ddb37fd21"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:01.000000Z"/>
+<entry
+   committed-rev="3"
+   name="README.HiSax"
+   text-time="2008-02-22T08:22:01.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="dc53dd1d6e45faea5d26a236ecaca21a"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:01.000000Z"/>
+<entry
+   committed-rev="3"
+   name="HiSax.cert"
+   text-time="2008-02-22T08:22:01.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="beac81ecbeb4865d9dc9648091f04332"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:01.000000Z"/>
+<entry
+   committed-rev="3"
+   name="README.fax"
+   text-time="2008-02-22T08:22:01.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="68d5514d33b40f5c42b4efc6ca605b37"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:01.000000Z"/>
+<entry
+   committed-rev="3"
+   name="README.x25"
+   text-time="2008-02-22T08:22:01.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="03c234d73c4dcbcea76cd9593000f347"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:01.000000Z"/>
+<entry
+   committed-rev="3"
+   name="INTERFACE.fax"
+   text-time="2008-02-22T08:22:01.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="4d43119a0e38da5cbb6b6253fee63cc7"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:01.000000Z"/>
+</wc-entries>

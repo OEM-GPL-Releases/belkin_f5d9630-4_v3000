@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/kernel/linux/arch/m68knommu/platform/5307"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   name="MP3"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="entry.S"
+   text-time="2008-02-22T08:22:47.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="2074cd1f2a5da021f70ccdbbd84277d1"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:47.000000Z"/>
+<entry
+   committed-rev="3"
+   name="timers.c"
+   text-time="2008-02-22T08:22:47.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="76b16d57c7ad3eb7edf5129ffed0ee3a"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:47.000000Z"/>
+<entry
+   committed-rev="3"
+   name="config.c"
+   text-time="2008-02-22T08:22:47.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="6354ca551530ff1f832a95fa627c319c"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:47.000000Z"/>
+<entry
+   committed-rev="3"
+   name="vectors.c"
+   text-time="2008-02-22T08:22:47.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="ba2fa3bc633f48bf0d607613c4683868"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:47.000000Z"/>
+<entry
+   name="ARNEWSH"
+   kind="dir"/>
+<entry
+   name="CLEOPATRA"
+   kind="dir"/>
+<entry
+   name="CVS"
+   kind="dir"/>
+<entry
+   name="NETtel"
+   kind="dir"/>
+<entry
+   name="MOTOROLA"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="Makefile"
+   text-time="2008-02-22T08:22:47.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="fef5a6565f7e14214cc3cb355ab138b6"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:47.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ints.c"
+   text-time="2008-02-22T08:22:47.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="9b6913241f93be33ff377eaca6a8dece"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:47.000000Z"/>
+</wc-entries>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/kernel/linux/arch/ia64/sn/io/machvec"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   name="CVS"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="iomv.c"
+   text-time="2008-02-22T08:22:53.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="42ea33a1378f26cbad057da033a0de3d"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:53.000000Z"/>
+<entry
+   committed-rev="3"
+   name="pci_bus_cvlink.c"
+   text-time="2008-02-22T08:22:53.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="d79f81d5f9716a1c5a5a420a0d62eb39"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:53.000000Z"/>
+<entry
+   committed-rev="3"
+   name="pci.c"
+   text-time="2008-02-22T08:22:53.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="c52d04cd8137d0c524ddfeae1de113fe"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:53.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Makefile"
+   text-time="2008-02-22T08:22:53.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="993e5cf9800a365506e83aa3a9a8387a"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:53.000000Z"/>
+<entry
+   committed-rev="3"
+   name="pci_dma.c"
+   text-time="2008-02-22T08:22:53.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="d850a0cdab5789a0bca154b76f43e87c"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:53.000000Z"/>
+</wc-entries>

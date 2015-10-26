@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/kernel/linux/drivers/telephony"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   committed-rev="3"
+   name="Kconfig"
+   text-time="2008-02-22T08:23:48.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="0205c5e58f48b32320f2fb06eb91c095"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:48.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ixj.h"
+   text-time="2008-02-22T08:23:48.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="533fff59549e7e1807f73dc22e58a343"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:48.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ixj_pcmcia.c"
+   text-time="2008-02-22T08:23:48.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="c56ce2350d191449e41ebbc3021e0a19"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:48.000000Z"/>
+<entry
+   committed-rev="3"
+   name="phonedev.c"
+   text-time="2008-02-22T08:23:48.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="5d955849dbc6fb10a9834d6bb11f8253"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:48.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ixj-ver.h"
+   text-time="2008-02-22T08:23:48.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="dafe2a96052d278997d1da3edfc99966"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:48.000000Z"/>
+<entry
+   name="CVS"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="ixj.c"
+   text-time="2008-02-22T08:23:48.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="85cb311dc0898819033f839f580806ac"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:48.000000Z"/>
+<entry
+   committed-rev="3"
+   name=".cvsignore"
+   text-time="2008-02-22T08:23:48.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="d8b65572e25962faaf07c20bb34d224e"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:48.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Makefile"
+   text-time="2008-02-22T08:23:48.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="2c56c9a34e3d95c785d6f2166c50db78"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:48.000000Z"/>
+</wc-entries>

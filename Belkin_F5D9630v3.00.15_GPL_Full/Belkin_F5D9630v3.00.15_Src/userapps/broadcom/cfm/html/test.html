@@ -1,0 +1,595 @@
+<html>
+   <head>
+<link rel="stylesheet" href="main_router.css" type='text/css'>
+<meta http-equiv="refresh" content="600">
+<script language=Javascript src='language_us.js'></script>
+<SCRIPT>assign_var();</SCRIPT>
+<SCRIPT language=JavaScript src="showMenu.js"></SCRIPT>
+
+<meta http-equiv="Pragma" content="no-cache">
+<base target="_self">
+
+
+
+<script language="javascript">
+<!-- hide
+strHtml='<title>'+home_42+'</title>';
+dw(strHtml);
+
+
+var loginSts = 'pass';
+
+var enfirewall = '1';
+
+var login 	='pass';
+
+var helpItem;
+
+if (login == 'pass')
+	helpItem = '';
+else
+	helpItem = 'Login';
+
+var menuSection	='';
+var menuItem	='';
+var isAPmode = '1';
+
+//system time
+var basetime = Date.parse('Mon Jan 28 07:21:19 2008');
+
+
+//lan
+var dhcpStart = '192.168.2.2';
+var dhcpEnd   = '192.168.2.100';
+var dhcpLease = '8760';
+var dhcpEnbl  = '1';
+var natEnbl   = '1';
+var enblUpnp  = '0';
+var buildUpnp = '1';
+var iplan     = '192.168.2.1';
+var subnetlan = '255.255.255.0';
+
+// when proto = Bridge or ipExt = 1, DHCP should show disabled
+var proto = 'MER';
+var ipExt = '0';
+
+//nat
+var nat = '1';
+var enblUpnp = '0';
+
+//firewall
+var firewall = '1';
+
+//UPnP
+var buildUpnp = '1';
+var enblUpnp = '0';
+
+
+//wireless
+var wlenbl  = '1'; // '0': disabled
+var wlMode = '0';
+var hide = '0';
+var channel = '6';
+var wps_state = '1';
+//adsl
+var dslsts = "No Defect"
+if(dslsts=="home_35")
+	dslsts=home_35;
+/*
+var usrUser = 'pass';
+
+if ( usrUser == 'fail'  ){
+      var loc = 'login.html';
+      //var code = 'location.assign("' + loc + '")';
+      //eval(code);
+      window.location.href = loc;
+}
+*/
+function frmLoad() {
+   	var update = '';
+	setTimeout("updateTime()", 1000);
+}
+
+function viewip(){
+
+   var options;
+   options = 'menubar=no,resizable=no,scrollbars=no,titlebar=yes,toolbar=no';
+   //parent.window.open('wancfg.cmd?action=viewip');
+   //window.open('glossary.html#WANPING','help','toolbar=0,status=0,menubar=0,scrollbars=1,resizable=1, width=530,height=400,left=150,top=150')
+   window.open('wancfg.cmd?action=viewip','wanip','toolbar=0,status=0,menubar=0,scrollbars=0,resizable=0, width=350,height=150,left=150,top=150');
+
+}
+
+function setLang(val)
+{
+	var loc;
+	
+	if(val == 'us')
+		loc = 'home.cgi?curLanguage=0';
+	else if(val == 'span')
+		loc = 'home.cgi?curLanguage=1';
+	else if(val == 'germ')
+		loc = 'home.cgi?curLanguage=2';
+	else if(val == 'fr')
+		loc = 'home.cgi?curLanguage=3';
+
+	window.location.href = loc;
+
+}
+
+function updateTime()
+{
+
+  time = new Date(basetime);
+
+  var weekday=new Array(utsys_2,utsys_3,utsys_4,utsys_5,utsys_6,utsys_7,utsys_8)
+	var monthname=new Array(utsys_9,utsys_10,utsys_11,utsys_12,utsys_13,utsys_14,utsys_15,utsys_16,utsys_17,utsys_18,utsys_19,utsys_20)
+  var year = time.getFullYear();
+  var month = time.getMonth();
+  var day = time.getDay();
+  var date = time.getDate()
+	var hours = time.getHours()
+	var minutes = time.getMinutes()
+	var seconds = time.getSeconds()
+
+  minutes=((minutes < 10) ? "0" : "") + minutes
+	seconds=((seconds < 10) ? "0" : "") + seconds
+
+    document.getElementById("timeDiv").innerHTML = weekday[day] + " " + monthname[month] + " " +date + "," + year + "." + " " + hours + ":" + minutes + ":" + seconds
+
+
+   basetime+=1000;
+
+   setTimeout("updateTime()", 1000);
+}
+
+
+// done hiding -->
+      </script>
+   </head>
+   <body onLoad='frmLoad()' bgColor=#ffffff leftMargin=0 topMargin=0 marginheight="0" marginwidth="0">
+         <form>
+    <SCRIPT language=JavaScript>
+	var wanStatus = 'Up';
+	showHead(wanStatus,helpItem);
+	showMenu(menuSection,menuItem,isAPmode)
+	</SCRIPT>  
+<TD class=head_bold width="90%" valign="top"><Br>
+		 
+	 <table border="0" cellspacing="0" cellpadding="0"  >
+	 
+		<tr><td valign="top" width="130" height="100%"></td>
+			<TD class=head_bold  width="99%" valign="top"><BR><script>dw(home_1)</script><BR><BR>			
+		      <TABLE class="plaintext" cellSpacing="20" cellPadding="0" width="600" align="left" border="0">
+				<TR><TD colSpan=2><DIV class=redBold><DIV class=copy_1 align=center>
+				
+				<script type="text/javascript">
+					if(loginSts == 'pass')
+					{}
+					else
+						dw(home_2);
+				</script>
+				</DIV></DIV></TD></TR>
+	 		  </TABLE>
+				
+				
+			  </td>
+		</tr>
+				
+		<tr>
+			<td></td>
+			<td>
+			  <table class="copy_1" cellspacing="0" cellpadding="0" width="691"  border="0">
+                <tr>
+                  <td width="415" ></td>
+                  <td width="276"><script>
+							var info="<input type='button' class='submitBtn' value='"+home_3+"' style='height:22px;width:120px;' onClick=\"window.location.href='connect.cgi'\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;";
+							info += "<input type='button' class='submitBtn' value='"+home_4+"' style='height:22px;width:120px;' onClick=\"window.location.href='disconnect.cgi'\">"
+							dw(info);	
+						</script>
+                  </td>
+                </tr>
+              </table>
+			</td>
+		</tr>
+	
+               <tr>
+			<td valign="top" width="130" height="100%"></td>
+			<td><blockquote><br>
+			  <Br>
+
+			<TABLE class="copy_1" cellSpacing="0" cellPadding="0" width="695"  border="0">
+			<TR><TD colspan="2" bgColor=#666666 class="copy_1"><FONT color=#ffffff><B><script>dw(home_30);</script></B></FONT></TD></TR>			  
+			 	<tr>
+				<Td width="165" bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF" style="background-color: #CCCCCC"><b><script>dw(home_32);</script></b></Td>
+				<Td width="530" align="left" bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF" style="background-color: #CCCCCC">
+				  <script>
+				  	var langc = '0';					
+						if(langc == '0')	//us
+				  			dw(home_45);
+						else if(langc == '1')	//spanish
+							dw(home_48);
+						else if(langc == '2')	//germ
+							dw(home_46);
+						else if(langc == '3')	//fr
+							dw(home_47);											  
+				  </script></Td>
+			  </tr>
+			 	<tr>
+				  <Td class='hd' style="background-color: #e8f8ff" bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF"><B><script>dw(home_34);</script></B></Td>
+				  <Td class='hd' style="background-color: #e8f8ff" bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF">
+						<script>
+				  	var info="<A href='javascript:setLang(\"us\");'>"+home_45+"</A>&nbsp;&nbsp;";
+				  	dw(info);
+				  	var info="<A href='javascript:setLang(\"germ\");'>"+home_46+"</A>&nbsp;&nbsp;";
+				  	dw(info);					
+				  	var info="<A href='javascript:setLang(\"fr\");'>"+home_47+"</A>&nbsp;&nbsp;";
+				  	dw(info);
+				  	var info="<A href='javascript:setLang(\"span\");'>"+home_48+"</A>";
+							dw(info);	
+						</script>				
+				  </Td>			  
+				</tr>
+				
+				
+			 	<tr>
+				<Td width="165" bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF" style="background-color: #CCCCCC"><b><script>dw(home_51);</script></b></Td>
+				<Td width="530" align="left" bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF" style="background-color: #CCCCCC">
+				  <div id='timeDiv' class="copy_2"></div>
+				</Td>
+			  </tr>				
+			 </TABLE>
+
+ 			<Br>
+
+			  
+			 <TABLE class="copy_1" cellSpacing="0" cellPadding="0" width="695"  border="0">
+
+         		<TR >
+					<TD colspan="2" bgColor=#666666  class="copy_1"><FONT color=#ffffff><B><script>dw(home_5);</script></B></FONT></TD>
+					<TD width="33" height="23" bordercolor="#FFFFFF"></TD>
+					<TD colspan="2" bgColor=#666666  class="copy_1"><FONT color=#ffffff><B><script>dw(home_6);</script></B></FONT></TD>
+				</TR>
+
+         		<TR >
+					<TD width="170" bgColor=#CCCCCC class="copy_1">&nbsp;<B>
+				  <script>dw(home_7);</script></B></TD>
+					<TD width="149" height="18"  bgColor=#CCCCCC class="copy_1">3.00.15</TD>
+					<td width="33" height="18" bordercolor="#FFFFFF"></td>
+					<TD width="177" bgColor=#CCCCCC class="copy_1">&nbsp;<B>
+				  <script>dw(home_8);</script></B></TD>
+					<TD width="166" height="18"  bgColor=#CCCCCC><FONT style="font:Arial, Helvetica, sans-serif; font-size:12px; color:333333">00:11:50:42:53:DD</FONT></TD>
+				</TR>
+				
+         		<TR >
+					<TD width="170" bgColor=#e8f8ff class="copy_1">&nbsp;<B>
+				  <script>dw(home_9);</script></B></TD>
+					<TD width="149" height="18"  bgColor=#e8f8ff><FONT style="font:Arial, Helvetica, sans-serif; font-size:12px; color:333333">1.0.37-8.7</FONT></TD>
+					<td width="33" height="18" bordercolor="#FFFFFF"></td>
+					<TD width="177" bgColor=#e8f8ff class="copy_1"><a href="lan_settings.html">&nbsp;<B>
+				  <script>dw(home_10);</script></B></a></TD>
+					<TD width="166" height="18"  bgColor=#e8f8ff class="copy_1">192.168.2.1</TD>
+				</TR>
+				
+         		<TR >
+					<TD width="170" bgColor=#CCCCCC class="copy_1">&nbsp;<B>
+				  <script>dw(home_11);</script></B></TD>
+					<TD width="149" height="18"  bgColor=#CCCCCC class="copy_1">F5D9630-4</TD>
+					<td width="33" height="18" bordercolor="#FFFFFF"></td>
+					<TD width="177" bgColor=#CCCCCC class="copy_1"><a href="lan_settings.html">&nbsp;<B>
+				  <script>dw(home_12);</script></B></a></TD>
+					<TD width="166" height="18"  bgColor=#CCCCCC class="copy_1">255.255.255.0</TD>
+				</TR>
+
+         		<TR >
+					<TD width="170" bgColor=#ffffff><FONT style="font:Arial, Helvetica, sans-serif; font-size:12px; color:333333">&nbsp;<B></B></FONT></TD>
+					<TD width="149" height="18"  bgColor=#ffffff></TD>
+					<td width="33" height="18" bordercolor="#FFFFFF"></td>
+					<TD width="177" bgColor=#e8f8ff class="copy_1"><a href="lan_settings.html">&nbsp;<B>
+				  <script>dw(home_13);</script></B></a></TD>
+					<TD width="166" height="18"  bgColor=#e8f8ff><FONT style="font:Arial, Helvetica, sans-serif; font-size:12px; color:333333">
+                     	<script>
+                     		if(dhcpEnbl == '0' ||  proto == 'Bridge' || ipExt == '1' )
+                        		dw(home_44);
+                     		else
+                        		dw(home_43);
+						</script>	</FONT>				
+					
+				  </TD>
+				</TR>
+
+         		<TR >
+					<TD colspan="2" bgColor=#ffffff><FONT color=#ffffff><B></B></FONT></TD>
+					<TD width="33" height="18" bordercolor="#FFFFFF"></TD>
+					<TD colspan="2" bgColor=#ffffff><FONT color=#ffffff><B></B></FONT></TD>
+				</TR>
+
+         		<TR >
+					<TD colspan="2" bgColor=#666666  class="copy_1"><FONT color=#ffffff><B><script>dw(home_14);</script></B></FONT></TD>
+					<TD width="33" height="18" bordercolor="#FFFFFF"></TD>
+					<TD colspan="2" bgColor=#666666  class="copy_1"><FONT color=#ffffff><B><script>dw(home_49);</script></B></FONT></TD>
+				</TR>
+
+         		<TR >
+					<TD width="170" bgColor=#CCCCCC  class="copy_1">&nbsp;<B>
+				  <script>dw(home_16);</script></B></TD>
+					<TD width="149" height="18"  bgColor=#CCCCCC  class="copy_1">00:11:50:42:53:DE</TD>
+					<td width="33" height="18" bordercolor="#FFFFFF"></td>
+					<TD width="177" bgColor=#CCCCCC class="copy_1"><a href="wireless_chan.html">&nbsp;<B>
+				  <script>dw(home_19);</script></B></a></TD>
+					<TD width="166" height="18"  bgColor=#CCCCCC><FONT style="font:Arial, Helvetica, sans-serif; font-size:12px; color:333333">
+                    <script>
+                     if(wlenbl == '0' )
+                       		dw(home_44);
+                  		else
+                        	dw(home_43);
+                   	</script></FONT>
+				  </TD>
+				</TR>
+
+         		<TR >
+					<TD width="170" bgColor=#e8f8ff class="copy_1"><a href="wan_conn.html">&nbsp;<B>
+				  <script>dw(home_18);</script></B></a></TD>
+					<TD width="149" height="18"  bgColor=#e8f8ff class="copy_1">192.168.99.6</TD>
+					<td width="33" height="18" bordercolor="#FFFFFF"></td>
+					<TD width="177" bgColor=#e8f8ff class="copy_1">&nbsp;<B>
+				  <script>dw(home_50);</script></B></TD>
+					<TD width="166" height="18"  bgColor=#e8f8ff> <FONT style="font:Arial, Helvetica, sans-serif; font-size:12px; color:333333">
+					00:17:3F:7C:98:39
+					</FONT>
+				  </TD>
+				</TR>
+
+         		<TR >
+					<TD width="170" bgColor=#CCCCCC class="copy_1"><a href="wan_conn.html">&nbsp;<B>
+				  <script>dw(home_20);</script></B></a></TD>
+					<TD width="149" height="18"  bgColor=#CCCCCC class="copy_1">                    
+					  <script>
+<!-- hide 
+					var dfltGw = '192.168.99.1';
+					var dfltGwIfc = '&nbsp';
+					if ( dfltGw != '&nbsp' )
+ 						 document.writeln(dfltGw);
+					else
+  						document.writeln(dfltGwIfc);
+// done hiding -->
+</script></TD>
+					<td width="33" height="18" bordercolor="#FFFFFF"></td>
+					<TD width="177" bgColor=#CCCCCC class="copy_1"><a href="wireless_chan.html">&nbsp;<B>
+				  <script>dw(home_21);</script></B></a></TD>
+					<TD width="166" height="18"  bgColor=#CCCCCC class="copy_1">Belkin_G_Plus_MIMO_7C9839</TD>
+				</TR>
+
+
+         		<TR >
+					<TD width="170" bgColor=#e8f8ff class="copy_1"><a href="wan_dns.html">&nbsp;<B>
+				  <script>dw(home_22);</script></B></a></TD>
+					<TD width="149" height="18"  bgColor=#e8f8ff class="copy_1">192.168.99.1</TD>
+					<td width="33" height="18" bordercolor="#FFFFFF"></td>
+					<TD width="177" bgColor=#e8f8ff class="copy_1"><a href="wireless_chan.html">&nbsp;<B>
+				  <script>dw(wlcs_6);</script></B></a></TD>
+					<TD width="166" height="18"  bgColor=#e8f8ff class="copy_1">
+					<script>
+						if(wlMode == '0')	// g+b mode
+							dw("802.11g &amp; 802.11b");
+						else if(wlMode == '2')	// g mode only
+							dw(wlcs_8);
+						else if(wlMode == '1')	// b mode only
+							dw(wlcs_9);
+					</script>
+					</TD>
+				</TR>
+
+         		<TR >
+					<TD width="170" bgColor=#CCCCCC class="copy_1"><a href="wan_dns.html">&nbsp;<B>
+				  <script>dw(home_28);</script></B></a></TD>
+					<TD width="149" height="18"  bgColor=#CCCCCC class="copy_1">10.5.1.102</TD>
+					<td width="33" height="18" bordercolor="#FFFFFF"></td>
+					<TD width="177" bgColor=#CCCCCC class="copy_1"><a href="wireless_chan.html">&nbsp;&nbsp;<b><script>dw(wlcs_4);</script></b></a></TD>
+					<TD width="166" height="18"  bgColor=#CCCCCC>
+						<script>
+							if(channel == '0')
+								dw(wlcs_14);
+							else
+								dw(channel);
+						</script>
+					</TD>
+				</TR>
+				
+				
+         		<TR >
+					<TD colspan="2" bgColor=#ffffff><FONT color=#ffffff><B></B></FONT></TD>
+					<TD width="33" height="18" bordercolor="#FFFFFF"></TD>
+					<TD width="177" bgColor=#e8f8ff class="copy_1"><a href="wireless_encrypt.html">&nbsp;<B>
+				  <script>dw(home_23);</script></B></a></TD>
+					<TD width="166" height="18"  bgColor=#e8f8ff class="copy_1">
+               	  <script>
+						var mode = 'open';
+						var wep = 'disabled';
+						if(mode =='open')
+						{
+							if(wep == 'disabled')
+								dw(home_24);
+							else
+								dw(home_25);	
+						}
+						else if(mode == 'wpa' || mode == 'wpa2' || mode =='wpa2mix')
+							dw(home_26);
+						else
+							dw(home_27);	
+					</script>
+					</TD>
+				</TR>
+
+			</TABLE>
+			<TABLE class="copy_1" cellSpacing="0" cellPadding="0" width="695"  border="0">
+			<TR>
+					<TD colspan="2" bgColor=#FFFFFF class="copy_1"></TD>
+					<TD  height="18" bordercolor="#FFFFFF"></TD>
+					<TD width="176" bgColor=#FFFFFF class="copy_1"></td>
+					
+					
+		      </TR>
+			  
+			  <tr>
+
+		    <td class='hd' style="background-color: #CCCCCC" bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF" width="143" height="18">
+                  <span style="font-weight: 400">
+                  &nbsp;<B><script>dw(home_31);</script></B></span></td>
+                  <td  class="copy_1" style="background-color: #CCCCCC" bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF" width="176" height="18">
+
+                  <script language="javascript">
+					<!-- hide
+					{
+   						var mode = 'ADSL2+';
+   						if (mode != '&nbsp' && (mode == 'ADSL2' || mode == 'ADSL2+'))
+      						document.writeln("");
+   						else
+      						document.writeln("<FONT style='font:Arial, Helvetica, sans-serif; font-size:12px'>Fast</font>");
+
+     				}
+				// done hiding -->
+				  </script>
+				  
+			    <TD  height="18" bordercolor="#FFFFFF"></TD>
+				<TD colspan="2" bgColor=#ffffff class="copy_1"></TD>				  				  
+			  </tr>
+	          <tr>
+                  <td  class="copy_1" style="background-color: #e8f8ff" bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF" width="143" height="18">
+                  <span style="font-weight: 400">
+                  &nbsp;<B><script>dw(home_33);</script></B></span></td>
+                  <td  class="copy_1" align='center' style="background-color: #e8f8ff" bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF" width="176" height="18">
+                <script>document.writeln(dslsts);</script></td>
+				
+				 <TD  height="18" bordercolor="#FFFFFF"></TD>
+				<TD colspan="2" bgColor=#666666 class="copy_1"><FONT color=#ffffff><B><script>dw(home_15);</script></B></FONT></TD>				  				  
+				
+				
+            </tr>
+                     <tr>
+                  <td  class="copy_1" style="background-color: #CCCCCC" bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF" width="143" height="18">                  </td>
+                  <td  class="copy_1" style="background-color: #CCCCCC" bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF" width="176" height="18">
+                  <table border="1" cellspacing="1" width="100%" id="AutoNumber1">
+                    <tr>
+                      <td width="50%" bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF" style="background-color: #CCCCCC" class="copy_1">
+                     <script>dw(home_36);</script>&nbsp;&nbsp;&nbsp;
+                      </td>
+                      <td  class="copy_1" width="50%" bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF" style="background-color: #CCCCCC">
+                      <script>dw(home_37);</script></td>
+                    </tr>
+                  </table>
+                  </td>
+				  <TD  height="18" bordercolor="#FFFFFF"></TD>
+				  <Td class='hd' style="background-color: #CCCCCC" bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF"><a href="fw_main.html">&nbsp;<b><script>dw(fwm_1);</script></b></a></Td>
+				  <Td class='hd' style="background-color: #CCCCCC" bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF">
+				  	<FONT style="font:Arial, Helvetica, sans-serif; font-size:12px; color:333333">
+				  <script>
+                 		if (firewall =='0')
+                       		dw(home_44);
+                  		else
+                        	dw(home_43);
+                   	</script></FONT>				  
+				  </Td>
+				  </tr>
+                  <tr>
+                  <td  class="copy_1" style="background-color: #e8f8ff" bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF" width="143" height="18">
+                  <span style="font-weight: 400">
+                  &nbsp;<B><script>dw(home_38);</script>(Kbps)</B></span></td>
+                  <td  class="copy_1" style="background-color: #e8f8ff" bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF" width="176" height="18">
+                  <table>
+                    <tr>
+                      <td class="copy_1" width="50%" bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF" style="background-color: #e8f8ff"><script>document.writeln("&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;23997&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;");</script></td>
+                      <td class="copy_1" width="50%" bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF" style="background-color: #e8f8ff"><script>document.writeln("&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1048");</script></td>
+                    </tr>
+                  </table>
+                  </td>
+				  <TD  height="18" bordercolor="#FFFFFF"></TD>
+				  <Td class='hd' style="background-color: #e8f8ff" bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF"><a href="util_system.html">&nbsp;<B><script>dw(home_17);</script></B></a></Td>
+				  <Td class='hd' style="background-color: #e8f8ff" bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF">
+				  	<FONT style="font:Arial, Helvetica, sans-serif; font-size:12px; color:333333">
+                    <script>
+                 		if (nat =='0' || nat =='2')
+                       		dw(home_44);
+                  		else
+                        	dw(home_43);
+                   	</script></FONT>
+				  </Td>
+
+               <tr>
+                  <td class="copy_1" style="background-color: #CCCCCC" bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF" width="143" height="18">
+                  <span style="font-weight: 400">
+                  &nbsp;<B><script>dw(home_39);</script> (dB)</B></span></td>
+                  <td class="copy_1" style="background-color: #CCCCCC" bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF" width="176" height="18">
+                  <table>
+                    <tr>
+                      <td class="copy_1" width="50%" bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF" style="background-color: #CCCCCC"><script>document.writeln("&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;13.2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;");</script></td>
+                      <td class="copy_1" width="50%" bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF" style="background-color: #CCCCCC"><script>document.writeln("&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;12.8");</script></td>
+                    </tr>
+                  </table>
+                 </td>
+				 <td></td>
+				  <TD  style="background-color: #CCCCCC" bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF"><a href="util_system.html">&nbsp;<b><script>dw(utsys_140);</script></b></a></TD>
+				  <TD  style="background-color: #CCCCCC" bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF">
+				  	<FONT style="font:Arial, Helvetica, sans-serif; font-size:12px; color:333333">
+                    <script>
+                 		if (enblUpnp =='0')
+                       		dw(home_44);
+                  		else
+                        	dw(home_43);
+                   	</script></FONT>
+				  
+				  
+				  </TD>
+   
+              </tr>
+      
+                  <tr>
+                  <td class="copy_1" style="background-color: #e8f8ff" bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF" width="143" height="18">
+                  <span style="font-weight: 400">
+                  &nbsp;<B><script>dw(home_40);</script> (dBm)</B></span></td>
+                  <td class="copy_1" style="background-color: #e8f8ff" bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF" width="176" height="18">
+                  <table>
+                    <tr>
+                      <td class="copy_1" width="50%" bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF" style="background-color: #e8f8ff"><script>document.writeln("&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;9.3&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;");</script></td>
+                      <td class="copy_1" width="50%" bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF" style="background-color: #e8f8ff"><script>document.writeln("&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;13.5");</script></td>
+                    </tr>
+                  </table>
+                  </td>
+                  <td class="copy_1" style="background-color: #FFFFFF" bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF" width="29" height="18">                  </td>
+                  <td class="copy_1" style="background-color: #FFFFFF" bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF" width="176" height="18">
+                  <td class="copy_1" bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF" width="171" height="15">
+                  <script language="javascript">
+			<!-- hide	
+					// done hiding -->
+		</script>
+                  </td>
+               </tr>
+               <tr>
+                  <td class="copy_1" style="background-color: #CCCCCC" bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF" width="143" height="18">
+                  <span style="font-weight: 400">
+                 &nbsp;<B><script>dw(home_41);</script> (dB)</B></span></td>
+                  <td class="copy_1" style="background-color: #CCCCCC" bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF" width="176" height="18">
+                  <table>
+                    <tr>
+                      <td class="copy_1" width="50%" bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF" style="background-color: #CCCCCC"><script>document.writeln("&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.0&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;");</script></td>
+                      <td class="copy_1" width="50%" bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF" style="background-color: #CCCCCC"><script>document.writeln("&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0.0");</script></td>
+                    </tr>
+                  </table>
+                 </td>
+                  <td class="copy_1" style="background-color: #FFFFFF" bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF" width="29" height="18">
+                  <span style="font-weight: 400"></span></td>
+                  <td class="copy_1" bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF" width="176" height="15">                  </td>
+               </tr>
+	 		 </TABLE></blockquote>			
+			</td>
+               </tr>
+            </table>
+
+
+
+
+	
+         </form></TD></TR></TBODY></TABLE></TD>
+      </blockquote>
+   </body>
+</html>

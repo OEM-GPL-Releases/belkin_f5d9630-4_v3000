@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/userapps/opensource/oprofile/events"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   name="arm"
+   kind="dir"/>
+<entry
+   name="ppc"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="Makefile.in"
+   text-time="2008-02-22T08:24:49.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="eba38b7241b6d8ef660f9da4753de80a"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:46.000000Z"/>
+<entry
+   name="ia64"
+   kind="dir"/>
+<entry
+   name="alpha"
+   kind="dir"/>
+<entry
+   name="mips"
+   kind="dir"/>
+<entry
+   name="rtc"
+   kind="dir"/>
+<entry
+   name="i386"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="Makefile.am"
+   text-time="2008-02-22T08:24:49.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="61b35ef7857e4a7ad29e0c5bd71ebfdf"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:48.000000Z"/>
+<entry
+   name="ppc64"
+   kind="dir"/>
+<entry
+   name="x86-64"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="Makefile"
+   text-time="2008-02-22T08:24:49.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="54b68374fb172213c8ca6e4929d930ba"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:49.000000Z"/>
+</wc-entries>

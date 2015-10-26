@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/kernel/linux/arch/m68knommu/platform/68328"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   committed-rev="3"
+   name="entry.S"
+   text-time="2008-02-22T08:22:44.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="f4e19d4d7ebcf34acc2233148acf6349"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:44.000000Z"/>
+<entry
+   committed-rev="3"
+   name="config.c"
+   text-time="2008-02-22T08:22:44.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="831c848076b65863346ef1e33be2cc15"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:44.000000Z"/>
+<entry
+   name="pilot"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="bootlogo.h"
+   text-time="2008-02-22T08:22:44.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="a197af426186cabcabca728a1ae70d7f"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:44.000000Z"/>
+<entry
+   name="CVS"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="Makefile"
+   text-time="2008-02-22T08:22:44.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="3c5050b293747406491cebb69009b01e"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:44.000000Z"/>
+<entry
+   committed-rev="3"
+   name="bootlogo.pl"
+   text-time="2008-02-22T08:22:44.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="a713d2c13df3989ddae09b49118377be"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:44.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ints.c"
+   text-time="2008-02-22T08:22:44.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="ca1f62371a8b18ddb02133955b40cf55"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:44.000000Z"/>
+</wc-entries>

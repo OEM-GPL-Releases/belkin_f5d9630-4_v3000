@@ -1,0 +1,736 @@
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="pragma" CONTENT="no-cache">
+<meta http-equiv="refresh" content="<%ejGet(timeout_refresh)%>">
+<META HTTP-EQUIV="Cache-Control" CONTENT="no-cache, must-revalidate">
+<META HTTP-EQUIV="expires" CONTENT="0">
+         <link rel="stylesheet" href="main_router.css" type='text/css'>
+
+		<%ejGet("curLanguage")%>
+		<SCRIPT>assign_var();</SCRIPT>
+		 
+<SCRIPT language=JavaScript src="showMenu.js"></SCRIPT>
+<script language="javascript" src="util.js"></script>
+<script language="javascript">
+
+
+<!--
+
+strHtml='<title>'+fwm_1+' &gt; '+fwcf_1+'</title>';
+dw(strHtml);
+
+
+var autoup = '<%ejGet(autoUpgrade_flag)%>';
+
+if(autoup == '1')
+{
+	newwin=window.open("checkfw.html","Firmware","toolbar=no,location=no,directories=no,status=no,menubar=no,scrollbars=yes,width=395,height=200,resizable=0");
+	newwin.focus();
+}
+
+
+var lanip = '<%ejGet(ethIpAddress)%>'.split("."); 
+var pre_ip = lanip[0] + '.' + lanip[1] + '.' + lanip[2] + '.';
+
+//fltName,srcAddr,srcAddr2,dstPort,protocol,blockTime,day1,day2,time1,time2,enabled);
+//0       1       2        3       4        5         6    7    8     9     10.
+list = new Array();
+<%ejGet(clientIpFilters)%>
+var BOTH = 0;
+var TCP = 1;
+var UDP = 2;
+var BLOCK = 1;
+var ALWAYS = 0;
+function isBlank(s) 
+{
+	for(i=0;i< s.length;i++) 
+	{
+  		c=s.charAt(i);
+  		if((c!=' ')&&(c!='\n')&&(c!='\t'))
+			return false;
+	}
+	return true;
+}
+
+function isNValidIP(s) 
+{
+ 	if((isBlank(s))||(isNaN(s))||(s<=0||s>=255)) 
+		return true;
+ 	else 
+		return false;
+}
+
+function isNValidPort(s) 
+{
+ 	if((isBlank(s))||(isNaN(s))) 
+		return true;
+ 	else 
+		return false;
+} 
+
+function isBlank1(s) 
+{
+	if(s == 8) 
+		return true;
+	return 
+		false;
+}
+
+function isBlank2(s) 
+{
+	if(s == 25) 
+		return true;
+	return 
+		false;
+}
+
+function checktime(startDay,endDay,startTime,endTime) 
+{
+	if(isBlank1(startDay)) return false;
+	if(isBlank1(endDay)) return false;
+	if(isBlank2(startTime)) return false;	
+	if(isBlank2(endTime)) return false;	
+	return true;
+}
+
+function checkValid(ipRangeLow,ipRangeHigh,portRangeLow,portRangeHigh) 
+{
+	if(!(isBlank(ipRangeLow)) || !(isBlank(ipRangeHigh)) || !(isBlank(portRangeLow)) || !(isBlank(portRangeHigh)))
+ 	{
+		if (isNValidIP(ipRangeLow) || isNValidIP(ipRangeHigh)){ alert(fcipm); return false; }
+ 		if (isNValidPort(portRangeLow) || isNValidPort(portRangeHigh)){ alert(fcsm); return false; }
+ 		if((portRangeLow > 65535) ||(portRangeHigh > 65535)) { alert(fcpm); return false; }	 
+ 		if((ipRangeLow - ipRangeHigh) > 0) { alert(fcripm); return false; }	 
+ 		if((portRangeLow - portRangeHigh) > 0){ alert(fcrm); return false; }	 	
+ 	}
+ 	return true;
+}
+	
+
+
+function buildDayList(){
+  with ( document.forms[0] ) {
+  document.write('\
+			  <option value="7">'+fwcf_2+'</option>\
+			  <option value="1">'+fwcf_3+'</option>\
+			  <option value="2">'+fwcf_4+'</option>\
+			  <option value="3">'+fwcf_5+'</option>\
+			  <option value="4">'+fwcf_6+'</option>\
+			  <option value="5">'+fwcf_7+'</option>\
+			  <option value="6">'+fwcf_8+'</option>\
+			  ');
+  }
+}
+function buildTimeList(){
+  with ( document.forms[0] ) {
+  document.write('\
+			  <option value="0">12:00 A.M</option>\
+			  <option value="1">01:00 A.M</option>\
+			  <option value="2">02:00 A.M</option>\
+			  <option value="3">03:00 A.M</option>\
+			  <option value="4">04:00 A.M</option>\
+			  <option value="5">05:00 A.M</option>\
+			  <option value="6">06:00 A.M</option>\
+			  <option value="7">07:00 A.M</option>\
+			  <option value="8">08:00 A.M</option>\
+			  <option value="9">09:00 A.M</option>\
+			  <option value="10">10:00 A.M</option>\
+			  <option value="11">11:00 A.M</option>\
+			  <option value="12">12:00 P.M</option>\
+			  <option value="13">01:00 P.M</option>\
+			  <option value="14">02:00 P.M</option>\
+			  <option value="15">03:00 P.M</option>\
+			  <option value="16">04:00 P.M</option>\
+			  <option value="17">05:00 P.M</option>\
+			  <option value="18">06:00 P.M</option>\
+			  <option value="19">07:00 P.M</option>\
+			  <option value="20">08:00 P.M</option>\
+			  <option value="21">09:00 P.M</option>\
+			  <option value="22">10:00 P.M</option>\
+			  <option value="23">11:00 P.M</option>\
+			  ');
+  }
+}
+
+function btnApply() {
+  var loc = 'scoutflt.cmd?action=add';
+  with (document.forms[0]) {
+    for (m=0;m<6;m++) {
+
+	  if ((srcAddr[m].value == '') && (srcAddr2[m].value == ''))
+	    continue;
+ 
+      // outgoing IP filter name
+      //loc += '&fltName=' + encodeUrl(txtfltname.value);
+      loc += '&fltName_' + m + '=' + m;
+	  
+	 
+
+      // source address
+
+	  if (parseInt(srcAddr[m].value) > parseInt(srcAddr2[m].value) )
+	  {
+	  	alert("Starting ip address should not higher than ending ip address");	   
+		return;
+	  }
+
+	  if (srcAddr[m].value == '')
+	    srcAddr[m].value = srcAddr2[m].value; 
+	  
+
+	  
+	  ip = pre_ip + srcAddr[m].value;
+	  
+	  
+	  
+      if( isValidIpAddress(ip) == false)
+	  {         
+         alert(fwcf_9);
+         return;
+      }
+      loc += '&srcAddr_' + m + '=' + ip;
+	  
+	  
+	  if (srcAddr2[m].value == '')
+	    srcAddr2[m].value = srcAddr[m].value;
+	  
+	  ip = pre_ip + srcAddr2[m].value
+      if( isValidIpAddress(ip) == false){
+         alert(fwcf_9);
+         return;
+      }
+      loc += '&srcAddr2_' + m + '=' + ip;
+
+
+      // destination port
+	  if ((dstPort1[m].value == "") && (dstPort2[m].value != "")) {
+	    dstPort1[m].value = dstPort2[m].value;
+	  }
+	  
+	  if (dstPort2[m].value == "")
+	    dstPort2[m].value = dstPort1[m].value;
+		
+	  if ((dstPort2[m].value != '')&&(parseInt(dstPort2[m].value) < parseInt(dstPort1[m].value))) {
+	    temp = dstPort2[m].value;
+		dstPort2[m].value = dstPort1[m].value;
+		dstPort1[m].value = temp;
+	  }
+	  
+	  if (dstPort2[m].value != '')
+	    p = dstPort1[m].value + ':' + dstPort2[m].value;
+      else
+	    p = dstPort1[m].value;
+		
+      if ( p == "" || isValidPort(p) == false ) {
+         alert(fwcf_10);
+         return;
+      }
+      loc += '&dstPort_' + m+ '=' + p;
+
+      // protocol
+	  p = eval('protocol' + m);
+	  if (p[0].checked) //tcp
+        loc += '&protocol_' + m + '=1';
+	  else if (p[1].checked) //udp
+        loc += '&protocol_' + m + '=2';
+	  else //both
+        loc += '&protocol_' + m + '=0';
+      //block type
+	  b = eval('blockTime' + m);
+	  if (b[0].checked) // always
+	    loc += '&blockTime_' + m + '=0';
+      else		
+        loc += '&blockTime_' + m + '=1';
+      //day
+	  loc += '&day1_' + m + '=' + day1[m].options[day1[m].selectedIndex].value;
+	  loc += '&day2_' + m + '=' + day2[m].options[day2[m].selectedIndex].value;
+	  //time
+	  loc += '&time1_' + m + '=' + time1[m].options[time1[m].selectedIndex].value;
+	  loc += '&time2_' + m + '=' + time2[m].options[time2[m].selectedIndex].value;
+	  //enabled
+	  if (isEnabled[m].checked)
+	    loc += '&enabled_' + m + '=1';
+      else
+	    loc += '&enabled_' + m + '=0';
+	  
+    }
+  } 
+window.location = loc;
+
+}
+
+
+function clickBlockTime(index) {
+  with (document.forms[0]) {
+    obj = eval("document.forms[0].blockTime" + index);
+	if (obj[0].checked == true) {// alwasy
+	  day1[index].disabled = true;
+	  day2[index].disabled = true;
+	  time1[index].disabled = true;
+	  time2[index].disabled = true;
+	}
+	else {
+	  day1[index].disabled = false;
+	  day2[index].disabled = false;
+	  time1[index].disabled = false;
+	  time2[index].disabled = false;	
+	}
+  }
+}
+
+function frmLoad() {
+  with (document.forms[0]) {
+
+  	//clear all field
+    for(m=0;m<6;m++) {
+	
+	  //IP	
+	  srcAddr[m].value = '';
+	  srcAddr2[m].value = '';
+	  
+	  // port
+	  dstPort1[m].value = '';
+	  dstPort2[m].value = ''; 
+	  
+	  //protocol type
+	  p = eval('protocol' + m);
+      p[0].checked = true;
+      
+	  //block time
+	  b = eval('blockTime' + m);
+	  b[0].checked = true;
+
+	  //day
+	  day1[m].selectedIndex = 0;
+	  day2[m].selectedIndex = 0;
+
+      //Time
+	  time1[m].selectedIndex = 0;
+	  time2[m].selectedIndex = 0;
+
+      //enabled
+	  isEnabled[m].checked = false;
+	}
+	
+    // update the status of day and time
+    for (i=0;i<6;i++) {
+	  clickBlockTime(0);
+	}
+
+
+	//insert data start  
+    for(m=0;m<totalCount;m++) {
+	  if (isValidIpAddress(list[m][1]) == true ) {
+	    ip = list[m][1].split('.');
+	    srcAddr[m].value = ip[3];
+      }
+	  if (isValidIpAddress(list[m][2]) == true ) {
+	    ip = list[m][2].split('.');
+	    srcAddr2[m].value = ip[3];
+      }
+	  // port
+	  p = list[m][3].split(':');
+	  dstPort1[m].value = p[0];
+	  if (p[1])
+	    dstPort2[m].value = p[1]; 
+	  //protocol type
+      p = eval('protocol' + m);
+	  if (list[m][4]==TCP)
+	    p[0].checked = true;
+      else if (list[m][4]==UDP)
+	    p[1].checked = true;
+      else
+	    p[2].checked = true;
+      //block time
+	  b = eval('blockTime' + m);
+	  if (list[m][5]==BLOCK)
+	    b[1].checked = true;
+	  else
+	    b[0].checked = true;
+	  //day
+	  for (j=0;j<7;j++) {
+	    if (day1[m].options[j].value == list[m][6]) {
+		  day1[m].selectedIndex = j;
+		  break;
+		}
+	  }
+	  for (j=0;j<7;j++) {
+	    if (day2[m].options[j].value == list[m][7]) {
+		  day2[m].selectedIndex = j;
+		  break;
+		}
+	  }
+      //Time
+	  for (j=0;j<24;j++) {
+	    if (time1[m].options[j].value == list[m][8]) {
+		  time1[m].selectedIndex = j;
+		  break;
+		}
+	  }
+	  for (j=0;j<24;j++) {
+	    if (time2[m].options[j].value == list[m][9]) {
+		  time2[m].selectedIndex = j;
+		  break;
+		}
+	  }
+      //enabled
+	  if (list[m][10]==1)
+	    isEnabled[m].checked = true;
+      else
+	    isEnabled[m].checked = false;
+	}
+	
+    // update the status of day and time
+    for (i=0;i<6;i++) {
+	  clickBlockTime(i);
+	}
+  
+  }
+}
+//-->
+</SCRIPT>
+</HEAD>
+   <body onLoad='frmLoad()' bgColor="#ffffff" leftMargin="0" topMargin="0" marginheight="0" marginwidth="0">
+         <form>
+       <SCRIPT language=JavaScript>
+	var helpItem 	='Client IP Filters';
+	var menuSection	='Fire';
+	var menuItem	='Client IP Filters';
+	var isAPmode = '<%ejGet(enblNat)%>';
+		
+	var wanStatus = '<%ejGetOther(isUp)%>';
+	showHead(wanStatus,helpItem);
+	showMenu(menuSection,menuItem,isAPmode)
+	</SCRIPT>  
+<TD class=head_bold width="90%" valign="top"><Br>
+  
+            <font class="head_bold"><b>&nbsp;&nbsp;&nbsp;<script>dw(fwm_1);</script> &gt; <script>dw(fwcf_1);</script></b></font>
+			<br><br>
+  
+      <TABLE width="618"  border=0 cellPadding=0 cellSpacing=0>
+		<tr>
+		<td width="13"></td>
+		  <td width="605" colspan="7" class="copy_1"><br><script>dw(fwcf_11);</script><a href="javascript:void(0);" onClick="window.open('glossary.html#IPFLT','help','toolbar=0,status=0,menubar=0,scrollbars=1,resizable=1, width=640,height=400,left=150,top=150');">
+              <b><font style="FONT-SIZE: 11px;" color="#0066FF"><script>dw(wd_8);</script></font></b>
+			</a>
+			<br><br>
+		  </td>
+		</tr>
+	</TABLE>	
+
+      <TABLE  cellSpacing=2 cellPadding=0  border=0>
+        <TR class="copy_1">
+			<td width="10"></td>
+          <td noWrap height=17 width="179" bgcolor="#666666"><FONT color=#ffffff face="Verdana"><b>
+            <center>
+            IP</center></b>
+          </FONT></td>
+          <td width="96" height=17 noWrap bgcolor="#666666"><FONT color=#ffffff face="Verdana"><b>
+            <center>
+            <script>dw(fwcf_18);</script></center></b>
+          </FONT></td>
+          <td width="70" height=17 noWrap bgcolor="#666666"><FONT color=#ffffff face="Verdana"><b>
+            <center>
+            <script>dw(fwvs_151);</script></center></b>
+          </FONT></td>
+          <td width="99" height=17 noWrap bgcolor="#666666"><FONT color=#ffffff face="Verdana"><b>
+            <center>
+            <script>dw(fwcf_13);</script></center></b>
+          </FONT></td>
+          <td width="58" height=17 noWrap bgcolor="#666666"><FONT color=#ffffff face="Verdana"><b>
+            <center>
+            <script>dw(fwcf_16);</script></center></b>
+          </FONT></td>
+          <td width="66" height=17 noWrap bgcolor="#666666"><FONT color=#ffffff face="Verdana"><b>
+            <center>
+            <script>dw(fwcf_17);</script></center></b>
+          </FONT></td>
+          <td width="73" height=17 noWrap bgcolor="#666666"><FONT color=#ffffff face="Verdana"><b>
+            <center>
+            <script>dw(wlap_3);</script></center></b>
+          </FONT></td></TR>
+        <tr >
+		  <td></td>
+		  <td bgColor=#CCCCCC class="copy_1"><center>
+		    <script language="javascript">
+		      document.write(pre_ip);
+		    </script>
+		    <input type="text" name="srcAddr" size="3" maxlength="3">~<input type="text" name="srcAddr2" size="3" maxlength="3"></center>
+		  </td>
+		  <td bgColor=#CCCCCC class="copy_1"> <center>
+		    <input type="text" name="dstPort1" size="5" maxlength="5">~<input type="text" name="dstPort2" size="5" maxlength="5"></center>		  
+		  </td>
+		  <td bgColor=#CCCCCC class="copy_1">
+		    <input type="radio" name="protocol0" checked>TCP<br>
+		    <input type="radio" name="protocol0">UDP<br>
+		    <input type="radio" name="protocol0"><script>dw(fwcf_12);</script>
+		  </td>
+		  <td bgColor=#CCCCCC class="copy_1">
+		    <input type="radio" name="blockTime0" checked onClick="clickBlockTime(0);"><script>dw(fwcf_14);</script><br>
+		    <input type="radio" name="blockTime0" onClick="clickBlockTime(0)"><script>dw(fwcf_15);</script>	  
+		  </td>
+		  <td bgColor=#CCCCCC><center>
+		    <select name="day1">
+              <script language="javascript">buildDayList();</script>
+			</select><br>
+		    <select name="day2">
+              <script language="javascript">buildDayList();</script>
+			</select></center>
+		  </td>
+		  <td bgColor=#CCCCCC><center>
+		    <select name="time1">
+              <script language="javascript">buildTimeList();</script>
+			</select><br>
+			<select name="time2">
+              <script language="javascript">buildTimeList();</script>			
+			</select></center>
+		  </td>
+		  <td bgColor=#CCCCCC><center>
+		    <input type="checkbox" name="isEnabled"></center>
+		  </td> 
+		</tr>	
+
+
+        <tr bgColor=#CCCCCC class="copy_1">
+			<Td style="background-color:#FFFFFF"></Td>
+		  <td class="copy_1"><center>
+		    <script language="javascript">
+		      document.write(pre_ip);
+		    </script>
+		    <input type="text" name="srcAddr" size="3" maxlength="3">~<input type="text" name="srcAddr2" size="3" maxlength="3"></center>
+		  </td>
+		  <td><center>
+		    <input type="text" name="dstPort1" size="5" maxlength="5">~<input type="text" name="dstPort2" size="5" maxlength="5"></center>		  
+		  </td>
+		  <td class="copy_1">
+		    <input type="radio" name="protocol1" checked>TCP<br>
+		    <input type="radio" name="protocol1">UDP<br>
+		    <input type="radio" name="protocol1">BOTH
+		  </td>
+		  <td class="copy_1">
+		    <input type="radio" name="blockTime1" checked onClick="clickBlockTime(1);"><script>dw(fwcf_14);</script><br>
+		    <input type="radio" name="blockTime1" onClick="clickBlockTime(1);"><script>dw(fwcf_15);</script>	  
+		  </td>
+		  <td><center>
+		    <select name="day1">
+              <script language="javascript">buildDayList();</script>
+			</select><br>
+		    <select name="day2">
+              <script language="javascript">buildDayList();</script>
+			</select></center>
+		  </td>
+		  <td><center>
+		    <select name="time1">
+              <script language="javascript">buildTimeList();</script>
+			</select><br>
+			<select name="time2">
+              <script language="javascript">buildTimeList();</script>			
+			</select></center>
+		  </td>
+		  <td><center>
+		    <input type="checkbox" name="isEnabled"></center>
+		  </td> 
+		</tr>	
+
+
+
+
+        <tr bgColor=#CCCCCC>
+			<td bgColor=#FFFFFF></td>
+		  <td class="copy_1"><center>
+		    <script language="javascript">
+		      document.write(pre_ip);
+		    </script>
+		    <input type="text" name="srcAddr" size="3" maxlength="3">~<input type="text" name="srcAddr2" size="3" maxlength="3"></center>
+		  </td>
+		  <td><center>
+		    <input type="text" name="dstPort1" size="5" maxlength="5">~<input type="text" name="dstPort2" size="5" maxlength="5"></center>		  
+		  </td>
+		  <td class="copy_1">
+		    <input type="radio" name="protocol2" checked>TCP<br>
+		    <input type="radio" name="protocol2">UDP<br>
+		    <input type="radio" name="protocol2">BOTH
+		  </td>
+		  <td class="copy_1">
+		    <input type="radio" name="blockTime2" checked onClick="clickBlockTime(2);"><script>dw(fwcf_14);</script><br>
+		    <input type="radio" name="blockTime2" onClick="clickBlockTime(2);"><script>dw(fwcf_15);</script>	  
+		  </td>
+		  <td><center>
+		    <select name="day1">
+              <script language="javascript">buildDayList();</script>
+			</select><br>
+		    <select name="day2">
+              <script language="javascript">buildDayList();</script>
+			</select></center>
+		  </td>
+		  <td><center>
+		    <select name="time1">
+              <script language="javascript">buildTimeList();</script>
+			</select><br>
+			<select name="time2">
+              <script language="javascript">buildTimeList();</script>			
+			</select></center>
+		  </td>
+		  <td><center>
+		    <input type="checkbox" name="isEnabled"></center>
+		  </td> 
+		</tr>	
+
+
+			
+
+
+        <tr bgColor=#CCCCCC>
+		<td bgColor=#FFFFFF></td>
+		  <td class="copy_1"><center>
+		    <script language="javascript">
+		      document.write(pre_ip);
+		    </script>
+		    <input type="text" name="srcAddr" size="3" maxlength="3">~<input type="text" name="srcAddr2" size="3" maxlength="3"></center>
+		  </td>
+		  <td><center>
+		    <input type="text" name="dstPort1" size="5" maxlength="5">~<input type="text" name="dstPort2" size="5" maxlength="5"></center>		  
+		  </td>
+		  <td class="copy_1">
+		    <input type="radio" name="protocol3" checked>TCP<br>
+		    <input type="radio" name="protocol3">UDP<br>
+		    <input type="radio" name="protocol3">BOTH
+		  </td>
+		  <td class="copy_1">
+		    <input type="radio" name="blockTime3" checked onClick="clickBlockTime(3);"><script>dw(fwcf_14);</script><br>
+		    <input type="radio" name="blockTime3" onClick="clickBlockTime(3);"><script>dw(fwcf_15);</script>	  
+		  </td>
+		  <td><center>
+		    <select name="day1">
+              <script language="javascript">buildDayList();</script>
+			</select><br>
+		    <select name="day2">
+              <script language="javascript">buildDayList();</script>
+			</select></center>
+		  </td>
+		  <td><center>
+		    <select name="time1">
+              <script language="javascript">buildTimeList();</script>
+			</select><br>
+			<select name="time2">
+              <script language="javascript">buildTimeList();</script>			
+			</select></center>
+		  </td>
+		  <td><center>
+		    <input type="checkbox" name="isEnabled"></center>
+		  </td> 
+		</tr>	
+
+
+			
+
+
+        <tr bgColor=#CCCCCC>
+		<td bgColor=#FFFFFF></td>		
+		  <td class="copy_1"><center>
+		    <script language="javascript">
+		      document.write(pre_ip);
+		    </script>
+		    <input type="text" name="srcAddr" size="3" maxlength="3">~<input type="text" name="srcAddr2" size="3" maxlength="3"></center>
+		  </td>
+		  <td><center>
+		    <input type="text" name="dstPort1" size="5" maxlength="5">~<input type="text" name="dstPort2" size="5" maxlength="5"></center>		  
+		  </td>
+		  <td class="copy_1">
+		    <input type="radio" name="protocol4" checked>TCP<br>
+		    <input type="radio" name="protocol4">UDP<br>
+		    <input type="radio" name="protocol4">BOTH
+		  </td>
+		  <td class="copy_1">
+		    <input type="radio" name="blockTime4" checked onClick="clickBlockTime(4);"><script>dw(fwcf_14);</script><br>
+		    <input type="radio" name="blockTime4" onClick="clickBlockTime(4);"><script>dw(fwcf_15);</script>	  
+		  </td>
+		  <td><center>
+		    <select name="day1">
+              <script language="javascript">buildDayList();</script>
+			</select><br>
+		    <select name="day2">
+              <script language="javascript">buildDayList();</script>
+			</select></center>
+		  </td>
+		  <td><center>
+		    <select name="time1">
+              <script language="javascript">buildTimeList();</script>
+			</select><br>
+			<select name="time2">
+              <script language="javascript">buildTimeList();</script>			
+			</select></center>
+		  </td>
+		  <td><center>
+		    <input type="checkbox" name="isEnabled"></center>
+		  </td> 
+		</tr>	
+
+
+			
+
+
+        <tr bgColor=#CCCCCC>
+		<td bgColor=#FFFFFF></td>		
+		  <td class="copy_1"><center>
+		    <script language="javascript">
+		      document.write(pre_ip);
+		    </script>
+		    <input type="text" name="srcAddr" size="3" maxlength="3">~<input type="text" name="srcAddr2" size="3" maxlength="3"></center>
+		  </td>
+		  <td><center>
+		    <input type="text" name="dstPort1" size="5" maxlength="5">~<input type="text" name="dstPort2" size="5" maxlength="5"></center>		  
+		  </td>
+		  <td class="copy_1">
+		    <input type="radio" name="protocol5" checked>TCP<br>
+		    <input type="radio" name="protocol5">UDP<br>
+		    <input type="radio" name="protocol5">BOTH
+		  </td>
+		  <td class="copy_1">
+		    <input type="radio" name="blockTime5" checked onClick="clickBlockTime(5);"><script>dw(fwcf_14);</script><br>
+		    <input type="radio" name="blockTime5" onClick="clickBlockTime(5);"><script>dw(fwcf_15);</script>	  
+		  </td>
+		  <td><center>
+		    <select name="day1">
+              <script language="javascript">buildDayList();</script>
+			</select><br>
+		    <select name="day2">
+              <script language="javascript">buildDayList();</script>
+			</select></center>
+		  </td>
+		  <td><center>
+		    <select name="time1">
+              <script language="javascript">buildTimeList();</script>
+			</select><br>
+			<select name="time2">
+              <script language="javascript">buildTimeList();</script>			
+			</select></center>
+		  </td>
+		  <td><center>
+		    <input type="checkbox" name="isEnabled"></center>
+		  </td> 
+		</tr>	
+
+	</TABLE>
+			
+	<Br>		
+	<center>		
+	<TABLE width="704"  border=0 cellPadding=0  cellSpacing=2>		
+		<tr>
+		  <td width="10"></td>
+		  <td>
+			<script>
+				var info="<input type='button' style='width:180px;height:22px;' onClick='frmLoad()' value='"+wd_9+"' class='submitBtn'><input type='button' style='width:180px;height:22px;' onClick='btnApply()' value='"+wd_10+"' class='submitBtn'>";
+				dw(info);			
+			</script>	  
+		  </td>
+		</tr>
+    </TABLE>
+	</center>
+ </TD></TR></TBODY></TABLE></TD>
+
+
+
+</FORM>
+</BODY>
+</HTML>

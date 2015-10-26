@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/kernel/linux/arch/sparc/lib"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   committed-rev="3"
+   name="umul.S"
+   text-time="2008-02-22T08:23:13.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="1db5e708caf237c2bbafda11d3eeffa1"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:13.000000Z"/>
+<entry
+   committed-rev="3"
+   name="strncpy_from_user.S"
+   text-time="2008-02-22T08:23:13.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="e4835e4d45e6f6549c0501897da5b0e4"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:13.000000Z"/>
+<entry
+   committed-rev="3"
+   name="memscan.S"
+   text-time="2008-02-22T08:23:13.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="207012320db02061022df65bd9aa2a82"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:13.000000Z"/>
+<entry
+   committed-rev="3"
+   name="memcpy.S"
+   text-time="2008-02-22T08:23:13.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="ae516ba22005b8057a97690e3a8a0da6"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:13.000000Z"/>
+<entry
+   committed-rev="3"
+   name="muldi3.S"
+   text-time="2008-02-22T08:23:13.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="7c3028c27032bf5c74c32fd32577e2ff"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:13.000000Z"/>
+<entry
+   committed-rev="3"
+   name="bitops.S"
+   text-time="2008-02-22T08:23:13.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="85f3f386f0e52f45bd8391b97cc9edd3"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:13.000000Z"/>
+<entry
+   committed-rev="3"
+   name="checksum.S"
+   text-time="2008-02-22T08:23:13.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="49cc04a02484386483f10d1479d2da54"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:13.000000Z"/>
+<entry
+   committed-rev="3"
+   name="debuglocks.c"
+   text-time="2008-02-22T08:23:13.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="b34cc72bf3c00028829c0b6da7c70121"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:13.000000Z"/>
+<entry
+   committed-rev="3"
+   name="udivdi3.S"
+   text-time="2008-02-22T08:23:13.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="4c86257dac4e0f6672a460ff2a85f658"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:13.000000Z"/>
+<entry
+   committed-rev="3"
+   name="strlen.S"
+   text-time="2008-02-22T08:23:13.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="059dd9c4059e12170a502833840cb718"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:13.000000Z"/>
+<entry
+   committed-rev="3"
+   name="copy_user.S"
+   text-time="2008-02-22T08:23:13.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="318b8292627b2f3498cd91394c1360e6"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:13.000000Z"/>
+<entry
+   committed-rev="3"
+   name="locks.S"
+   text-time="2008-02-22T08:23:13.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="fec6f29f4637aaa8f9131f139cf0d7a4"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:13.000000Z"/>
+<entry
+   committed-rev="3"
+   name="blockops.S"
+   text-time="2008-02-22T08:23:13.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="729692c7c2e732ae03578a8c5f43f4cf"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:13.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Makefile"
+   text-time="2008-02-22T08:23:13.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="62ebdca43ab002249085a9f749e6aeca"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:13.000000Z"/>
+<entry
+   committed-rev="3"
+   name="atomic.S"
+   text-time="2008-02-22T08:23:13.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="16edb7c09a6007ec148464d430e74423"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:13.000000Z"/>
+<entry
+   committed-rev="3"
+   name="memcmp.S"
+   text-time="2008-02-22T08:23:13.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="7e115071cc2b65c11e85550d484f3e3e"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:13.000000Z"/>
+<entry
+   committed-rev="3"
+   name="bitext.c"
+   text-time="2008-02-22T08:23:13.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="8f9422f815c0531d3b904c627db5ea4b"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:13.000000Z"/>
+<entry
+   committed-rev="3"
+   name="divdi3.S"
+   text-time="2008-02-22T08:23:13.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="2112d28059cdedae3e240bea65ac6017"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:13.000000Z"/>
+<entry
+   committed-rev="3"
+   name="rem.S"
+   text-time="2008-02-22T08:23:13.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="6471e7b52b75247fbd2f23a1d084aa57"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:13.000000Z"/>
+<entry
+   committed-rev="3"
+   name="strncmp.S"
+   text-time="2008-02-22T08:23:13.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="e0fdd5e42d87c727751fa953a7a49811"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:13.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ashldi3.S"
+   text-time="2008-02-22T08:23:13.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="ed615c25395a503031d137fb317161f5"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:13.000000Z"/>
+<entry
+   committed-rev="3"
+   name="memset.S"
+   text-time="2008-02-22T08:23:13.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="d00c903cc4af08365b2d47d49c513cfa"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:13.000000Z"/>
+<entry
+   name="CVS"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="ashrdi3.S"
+   text-time="2008-02-22T08:23:13.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="f11dc14d2c2027148fe738bc505207cc"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:13.000000Z"/>
+<entry
+   committed-rev="3"
+   name="mul.S"
+   text-time="2008-02-22T08:23:13.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="291b4909b11997070bfe2cf50968c9c4"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:13.000000Z"/>
+<entry
+   committed-rev="3"
+   name="rwsem.S"
+   text-time="2008-02-22T08:23:13.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="77fcd68479707118538253f7fc140f56"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:13.000000Z"/>
+<entry
+   committed-rev="3"
+   name="atomic32.c"
+   text-time="2008-02-22T08:23:13.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="83c0c236061b54f98dba020c4f59abc8"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:13.000000Z"/>
+<entry
+   committed-rev="3"
+   name="sdiv.S"
+   text-time="2008-02-22T08:23:13.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="1e1fb407e7ce28cf6e2deb89709294eb"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:13.000000Z"/>
+<entry
+   committed-rev="3"
+   name="strlen_user.S"
+   text-time="2008-02-22T08:23:13.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="27c0858e37174da865df4a78bb2b5968"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:13.000000Z"/>
+<entry
+   committed-rev="3"
+   name="udiv.S"
+   text-time="2008-02-22T08:23:13.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="ac1ac39ba9573cf70f459659cb7148a3"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:13.000000Z"/>
+<entry
+   committed-rev="3"
+   name="lshrdi3.S"
+   text-time="2008-02-22T08:23:13.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="e7b3a90a50c8b79e17c8fb1aef34bb63"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:13.000000Z"/>
+<entry
+   committed-rev="3"
+   name="urem.S"
+   text-time="2008-02-22T08:23:13.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="ecf2071cb5c58a0503aaf46dbcac1c2b"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:13.000000Z"/>
+<entry
+   committed-rev="3"
+   name="COPYING.LIB"
+   text-time="2008-02-22T08:23:13.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="55ca817ccb7d5b5b66355690e9abc605"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:13.000000Z"/>
+</wc-entries>

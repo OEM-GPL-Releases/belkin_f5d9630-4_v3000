@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/kernel/linux/drivers/video/i810"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   committed-rev="3"
+   name="i810_dvt.c"
+   text-time="2008-02-22T08:23:44.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="b94c772be5af269c4b120deda7d8a3e3"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:44.000000Z"/>
+<entry
+   committed-rev="3"
+   name="i810_gtf.c"
+   text-time="2008-02-22T08:23:44.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="1f6b3b5990a7d5eb5ce440e60105920e"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:44.000000Z"/>
+<entry
+   committed-rev="3"
+   name="i810_main.c"
+   text-time="2008-02-22T08:23:44.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="62a78975b0c9acc2495e90a8341c4949"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:44.000000Z"/>
+<entry
+   committed-rev="3"
+   name="i810.h"
+   text-time="2008-02-22T08:23:44.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="66e422839f0a35d0b577cfe0235cb933"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:44.000000Z"/>
+<entry
+   committed-rev="3"
+   name="i810_regs.h"
+   text-time="2008-02-22T08:23:44.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="e3f8eff05888fae5030ad82b92e6dc74"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:44.000000Z"/>
+<entry
+   committed-rev="3"
+   name="i810_accel.c"
+   text-time="2008-02-22T08:23:44.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="088d28f4ce2ae9b1093ebbd7eb7fa0cd"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:44.000000Z"/>
+<entry
+   name="CVS"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="i810_main.h"
+   text-time="2008-02-22T08:23:44.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="52fdd7d9bf60d50e38a8c11523d5136d"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:44.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Makefile"
+   text-time="2008-02-22T08:23:44.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="a675823bc7fa54df5d50085abe7a425d"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:44.000000Z"/>
+</wc-entries>

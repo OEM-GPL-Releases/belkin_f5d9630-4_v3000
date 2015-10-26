@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/userapps/opensource/oprofile/libopt++"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   committed-rev="3"
+   name="Makefile.in"
+   text-time="2008-02-22T08:24:45.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="8b3fda08f6bce507b1ed1f81af94bd92"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:45.000000Z"/>
+<entry
+   committed-rev="3"
+   name="popt_options.h"
+   text-time="2008-02-22T08:24:45.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="9ebfe3a1eb1995afcdb9ced4102288bf"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:45.000000Z"/>
+<entry
+   name=".deps"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="Makefile.am"
+   text-time="2008-02-22T08:24:45.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="f8860ba4c831b57ac0e909552e55c1f2"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:45.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Makefile"
+   text-time="2008-02-22T08:24:45.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="69fdb3426cd3a7d676780203b77c003c"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:45.000000Z"/>
+<entry
+   committed-rev="3"
+   name="popt_options.cpp"
+   text-time="2008-02-22T08:24:45.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="7bee642d73fddbf319e22843adaad2eb"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:45.000000Z"/>
+</wc-entries>

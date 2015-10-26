@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/userapps/opensource/libosip2/platform/vsnet"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   committed-rev="3"
+   name="Makefile.in"
+   text-time="2008-02-22T08:25:06.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="239ad69a2312d1886ca5fb3b56f9d41e"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:25:06.000000Z"/>
+<entry
+   committed-rev="3"
+   name="osip2fsm.vcproj"
+   text-time="2008-02-22T08:25:06.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="503fa1a8106e4ebb38a08cef8c213ce9"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:25:06.000000Z"/>
+<entry
+   committed-rev="3"
+   name="osip.sln"
+   text-time="2008-02-22T08:25:06.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="c711a9261e18daf4d8b3b994887d5cc6"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:25:06.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Makefile.am"
+   text-time="2008-02-22T08:25:06.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="d1ca7d298c3fcd68c221e898c55c8e7c"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:25:06.000000Z"/>
+<entry
+   committed-rev="3"
+   name="osip2parser.vcproj"
+   text-time="2008-02-22T08:25:06.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="ab6174c38fd6db2e17331d179b1e8e6e"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:25:06.000000Z"/>
+</wc-entries>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/kernel/linux/arch/sh"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   name="oprofile"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="Kconfig"
+   text-time="2008-02-22T08:23:19.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="e9ae8ea9b50f3ec6267aeaa80b136f43"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:14.000000Z"/>
+<entry
+   name="kernel"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="defconfig"
+   text-time="2008-02-22T08:23:19.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="64f0fd545869192c6decd47f5a6e3bb1"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:14.000000Z"/>
+<entry
+   name="configs"
+   kind="dir"/>
+<entry
+   name="ramdisk"
+   kind="dir"/>
+<entry
+   name="CVS"
+   kind="dir"/>
+<entry
+   name="tools"
+   kind="dir"/>
+<entry
+   name="boot"
+   kind="dir"/>
+<entry
+   name="lib"
+   kind="dir"/>
+<entry
+   name="mm"
+   kind="dir"/>
+<entry
+   name="cchips"
+   kind="dir"/>
+<entry
+   name="boards"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="Makefile"
+   text-time="2008-02-22T08:23:19.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="3f531c3a5db5588778074c13c875b7b9"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:19.000000Z"/>
+<entry
+   name="drivers"
+   kind="dir"/>
+</wc-entries>

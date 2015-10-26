@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/kernel/linux/fs/sysfs"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   committed-rev="3"
+   name="dir.c"
+   text-time="2008-02-22T08:21:51.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="5fa76fd27062fac0074c34e1ea5eea54"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:51.000000Z"/>
+<entry
+   committed-rev="3"
+   name="inode.c"
+   text-time="2008-02-22T08:21:51.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="01a0adfa69cfcdb76e4c339b746c1f69"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:51.000000Z"/>
+<entry
+   committed-rev="3"
+   name="file.c"
+   text-time="2008-02-22T08:21:51.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="25a45f228548d78b3ba8425e7daec487"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:51.000000Z"/>
+<entry
+   committed-rev="3"
+   name="mount.c"
+   text-time="2008-02-22T08:21:51.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="3879ed79a91ba59727e9aaba11d0502a"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:51.000000Z"/>
+<entry
+   committed-rev="3"
+   name="symlink.c"
+   text-time="2008-02-22T08:21:51.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="3aad84c3ec8b170562418d3544d37e58"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:51.000000Z"/>
+<entry
+   committed-rev="3"
+   name="bin.c"
+   text-time="2008-02-22T08:21:51.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="c782e234324cd8732c3620099d825852"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:51.000000Z"/>
+<entry
+   name="CVS"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name=".cvsignore"
+   text-time="2008-02-22T08:21:51.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="d8b65572e25962faaf07c20bb34d224e"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:51.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Makefile"
+   text-time="2008-02-22T08:21:51.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="75e09d9cb63b37ddf9e09036cf0033cc"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:51.000000Z"/>
+<entry
+   committed-rev="3"
+   name="group.c"
+   text-time="2008-02-22T08:21:51.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="38c9ac2aeff9f050d8a8001578d7ca05"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:51.000000Z"/>
+<entry
+   committed-rev="3"
+   name="sysfs.h"
+   text-time="2008-02-22T08:21:51.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="fc28eafe43e69d262745d2266e5eb098"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:51.000000Z"/>
+</wc-entries>

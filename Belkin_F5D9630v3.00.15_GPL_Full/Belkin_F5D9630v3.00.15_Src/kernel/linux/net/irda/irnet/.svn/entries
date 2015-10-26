@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/kernel/linux/net/irda/irnet"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   committed-rev="3"
+   name="Kconfig"
+   text-time="2008-02-22T08:21:27.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="a71d8f0dc68b58d0e6628632e68ddd1f"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:27.000000Z"/>
+<entry
+   committed-rev="3"
+   name="irnet_irda.c"
+   text-time="2008-02-22T08:21:27.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="a4f4792ede813b60674585b31fe00580"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:27.000000Z"/>
+<entry
+   committed-rev="3"
+   name="irnet_ppp.c"
+   text-time="2008-02-22T08:21:27.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="7b6cbeaccf17552847f66ef27361f104"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:27.000000Z"/>
+<entry
+   committed-rev="3"
+   name="irnet_irda.h"
+   text-time="2008-02-22T08:21:27.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="f063c33800db33e284fcb9d01a7889d5"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:27.000000Z"/>
+<entry
+   committed-rev="3"
+   name="irnet_ppp.h"
+   text-time="2008-02-22T08:21:27.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="78007b51c9282e387429f2b9a03987d2"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:27.000000Z"/>
+<entry
+   committed-rev="3"
+   name="irnet.h"
+   text-time="2008-02-22T08:21:27.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="8450eb2ad63b08519dc8b5ad916a3159"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:27.000000Z"/>
+<entry
+   name="CVS"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name=".cvsignore"
+   text-time="2008-02-22T08:21:27.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="d8b65572e25962faaf07c20bb34d224e"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:27.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Makefile"
+   text-time="2008-02-22T08:21:27.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="d1fd23900d4b071aba13e70ce658d799"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:27.000000Z"/>
+</wc-entries>

@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/kernel/linux/drivers/scsi/pcmcia"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   committed-rev="3"
+   name="Kconfig"
+   text-time="2008-02-22T08:24:24.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="65d08a2b05250c169111d5d51e71a3f5"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:24.000000Z"/>
+<entry
+   committed-rev="3"
+   name="nsp_message.c"
+   text-time="2008-02-22T08:24:24.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="de26fbf297fc712820df88c409baa316"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:24.000000Z"/>
+<entry
+   committed-rev="3"
+   name="nsp_debug.c"
+   text-time="2008-02-22T08:24:24.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="2de2b7fefcfb03fc2286b9ad2f0fee0b"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:24.000000Z"/>
+<entry
+   committed-rev="3"
+   name="aha152x_stub.c"
+   text-time="2008-02-22T08:24:24.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="06411944807b329324cb953917da6531"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:24.000000Z"/>
+<entry
+   committed-rev="3"
+   name="fdomain_stub.c"
+   text-time="2008-02-22T08:24:24.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="288c73ee67ce2fa3007487348f942661"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:24.000000Z"/>
+<entry
+   name="CVS"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="qlogic_stub.c"
+   text-time="2008-02-22T08:24:24.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="70d317e5ff67a961f4bdfc30d75f9028"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:24.000000Z"/>
+<entry
+   committed-rev="3"
+   name="aha152x_core.c"
+   text-time="2008-02-22T08:24:24.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="3669909aa05540d3a68f36ad443b6889"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:24.000000Z"/>
+<entry
+   committed-rev="3"
+   name="nsp_cs.c"
+   text-time="2008-02-22T08:24:24.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="cb7fb4529849e1c4ee75a974c5ef1f48"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:24.000000Z"/>
+<entry
+   committed-rev="3"
+   name="fdomain_core.c"
+   text-time="2008-02-22T08:24:24.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="c3eeb8fbb7bf2a5869263e8664ca5bb8"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:24.000000Z"/>
+<entry
+   committed-rev="3"
+   name="nsp_cs.h"
+   text-time="2008-02-22T08:24:24.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="f6d96ec39ffad774025be66b71fb8911"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:24.000000Z"/>
+<entry
+   committed-rev="3"
+   name="nsp_io.h"
+   text-time="2008-02-22T08:24:24.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="8338cfc07d5bfacffed685c0f1721e64"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:24.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Makefile"
+   text-time="2008-02-22T08:24:24.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="41b084a91d4f384bc383e3c9b74e24e1"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:24.000000Z"/>
+<entry
+   committed-rev="3"
+   name=".cvsignore"
+   text-time="2008-02-22T08:24:24.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="d8b65572e25962faaf07c20bb34d224e"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:24.000000Z"/>
+<entry
+   committed-rev="3"
+   name="sym53c500_cs.c"
+   text-time="2008-02-22T08:24:24.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="d478ac66214140b7d9f198675fbd3b18"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:24.000000Z"/>
+</wc-entries>

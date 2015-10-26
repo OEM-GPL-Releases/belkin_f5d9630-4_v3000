@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/kernel/linux/drivers/media/dvb/dvb-core"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   committed-rev="3"
+   name="Kconfig"
+   text-time="2008-02-22T08:23:24.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="4473dce03ff367cc97d7d3e07fc75710"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:24.000000Z"/>
+<entry
+   committed-rev="3"
+   name="dvb_ca_en50221.h"
+   text-time="2008-02-22T08:23:24.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="cc43d2c8550ec9e0805f017582b793e6"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:24.000000Z"/>
+<entry
+   committed-rev="3"
+   name="dvb_ksyms.c"
+   text-time="2008-02-22T08:23:24.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="7d5a1e6f2131d8c9524a252cdc2081c2"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:24.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Makefile.lib"
+   text-time="2008-02-22T08:23:24.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="1b1059cc16d5c141906bbb1fd766d4fb"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:24.000000Z"/>
+<entry
+   committed-rev="3"
+   name="dvb_functions.c"
+   text-time="2008-02-22T08:23:24.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="2df1bd6b81b78bfb77b4554b2b89a47a"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:24.000000Z"/>
+<entry
+   committed-rev="3"
+   name="dvb_i2c.c"
+   text-time="2008-02-22T08:23:24.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="a3624f0b2e776cb1ebfb800a2f5cf8ac"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:24.000000Z"/>
+<entry
+   committed-rev="3"
+   name="dvb_functions.h"
+   text-time="2008-02-22T08:23:24.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="de58315a10861df740971cca9b018a98"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:24.000000Z"/>
+<entry
+   committed-rev="3"
+   name="dvbdev.c"
+   text-time="2008-02-22T08:23:24.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="92345714872cb5f6de9daf4ea6c908b4"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:24.000000Z"/>
+<entry
+   committed-rev="3"
+   name="dvb_frontend.c"
+   text-time="2008-02-22T08:23:24.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="e79eb37b191aaee56ea16c8812bf9717"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:24.000000Z"/>
+<entry
+   name="CVS"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="dvb_i2c.h"
+   text-time="2008-02-22T08:23:24.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="92dc69da916322ff5683d9604069b28f"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:24.000000Z"/>
+<entry
+   committed-rev="3"
+   name="dvb_demux.c"
+   text-time="2008-02-22T08:23:24.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="f9af28a16147e14b8f427ec9e3359c78"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:24.000000Z"/>
+<entry
+   committed-rev="3"
+   name="dvbdev.h"
+   text-time="2008-02-22T08:23:24.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="3848659291b60da1331a7183c5102d91"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:24.000000Z"/>
+<entry
+   committed-rev="3"
+   name="dvb_frontend.h"
+   text-time="2008-02-22T08:23:24.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="45c9ba3d1096b13197b1b51131bed731"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:24.000000Z"/>
+<entry
+   committed-rev="3"
+   name="dvb_filter.c"
+   text-time="2008-02-22T08:23:24.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="67bc834eb813eb299485ed43eecad496"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:24.000000Z"/>
+<entry
+   committed-rev="3"
+   name="dvb_net.c"
+   text-time="2008-02-22T08:23:24.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="d20b23bc8d15aa15fc2689a3d17b246d"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:24.000000Z"/>
+<entry
+   committed-rev="3"
+   name="dvb_demux.h"
+   text-time="2008-02-22T08:23:24.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="378ce2f37a8935af0893c436879beca6"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:24.000000Z"/>
+<entry
+   committed-rev="3"
+   name="dvb_ringbuffer.c"
+   text-time="2008-02-22T08:23:24.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="878858e5800bac343129ff30ab208d9e"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:24.000000Z"/>
+<entry
+   committed-rev="3"
+   name="dvb_filter.h"
+   text-time="2008-02-22T08:23:24.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="0002d14d8202a47d0d7b6816544bcd55"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:24.000000Z"/>
+<entry
+   committed-rev="3"
+   name="dvb_net.h"
+   text-time="2008-02-22T08:23:24.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="8f8cfef16d070767ea9097c1e662df1e"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:24.000000Z"/>
+<entry
+   committed-rev="3"
+   name="dmxdev.c"
+   text-time="2008-02-22T08:23:24.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="00ead952d7953c93e078cbf556b438e5"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:24.000000Z"/>
+<entry
+   committed-rev="3"
+   name="demux.h"
+   text-time="2008-02-22T08:23:24.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="dfc5bf4a040b19f096a852b4109a3324"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:24.000000Z"/>
+<entry
+   committed-rev="3"
+   name="dvb_ringbuffer.h"
+   text-time="2008-02-22T08:23:24.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="98c6a298860a3d48c7417e78e01227fb"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:24.000000Z"/>
+<entry
+   committed-rev="3"
+   name="dvb_ca_en50221.c"
+   text-time="2008-02-22T08:23:24.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="a66b803b7efa433cbcfc5416e7d1ffbe"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:24.000000Z"/>
+<entry
+   committed-rev="3"
+   name="dmxdev.h"
+   text-time="2008-02-22T08:23:24.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="2625b41f5d7de0824a974054f4451e8c"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:24.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Makefile"
+   text-time="2008-02-22T08:23:24.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="0bb3d68e16a4e4207439416f5f45ad10"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:24.000000Z"/>
+<entry
+   committed-rev="3"
+   name=".cvsignore"
+   text-time="2008-02-22T08:23:24.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="d8b65572e25962faaf07c20bb34d224e"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:24.000000Z"/>
+</wc-entries>

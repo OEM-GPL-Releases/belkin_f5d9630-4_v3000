@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/kernel/linux/drivers/cpufreq"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   committed-rev="3"
+   name="Kconfig"
+   text-time="2008-02-22T08:23:43.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="7bbe72671dba2f3d239f0fcdf4c748f8"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:43.000000Z"/>
+<entry
+   committed-rev="3"
+   name="cpufreq_userspace.c"
+   text-time="2008-02-22T08:23:43.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="a36fe4cc6b23f9eb5db4086b1dd280a8"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:43.000000Z"/>
+<entry
+   committed-rev="3"
+   name="cpufreq_powersave.c"
+   text-time="2008-02-22T08:23:43.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="b27d0a02c709b155fad4420ae19df494"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:43.000000Z"/>
+<entry
+   committed-rev="3"
+   name="proc_intf.c"
+   text-time="2008-02-22T08:23:43.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="5bf6e212dae6ccfdff328a2061c6c8c5"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:43.000000Z"/>
+<entry
+   committed-rev="3"
+   name="freq_table.c"
+   text-time="2008-02-22T08:23:43.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="f2b769133ba8214ea0ee98c0a4b818b6"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:43.000000Z"/>
+<entry
+   committed-rev="3"
+   name="cpufreq.c"
+   text-time="2008-02-22T08:23:43.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="bdf89c3692d1a2507b903c173f986050"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:43.000000Z"/>
+<entry
+   committed-rev="3"
+   name="cpufreq_performance.c"
+   text-time="2008-02-22T08:23:43.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="6b2b47859255bc409bba4a430ceb009d"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:43.000000Z"/>
+<entry
+   name="CVS"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="Makefile"
+   text-time="2008-02-22T08:23:43.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="a04f1a5be60085289e85430aa8309d31"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:43.000000Z"/>
+</wc-entries>

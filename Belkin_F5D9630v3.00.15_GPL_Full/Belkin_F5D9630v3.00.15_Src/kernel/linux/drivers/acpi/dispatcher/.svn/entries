@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/kernel/linux/drivers/acpi/dispatcher"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   committed-rev="3"
+   name="dswstate.c"
+   text-time="2008-02-22T08:24:34.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="512ad5d1916f612b8fee6e8886e9511d"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:34.000000Z"/>
+<entry
+   committed-rev="3"
+   name="dsopcode.c"
+   text-time="2008-02-22T08:24:34.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="6ebefa803c1c0e9e4868c55f82222a94"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:34.000000Z"/>
+<entry
+   committed-rev="3"
+   name="dswexec.c"
+   text-time="2008-02-22T08:24:34.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="99d280ecfd23afd5090c26749a00027c"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:34.000000Z"/>
+<entry
+   committed-rev="3"
+   name="dsmethod.c"
+   text-time="2008-02-22T08:24:34.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="879e770cda0d52bee266670ddc4e312d"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:34.000000Z"/>
+<entry
+   committed-rev="3"
+   name="dsutils.c"
+   text-time="2008-02-22T08:24:34.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="f96576c5ec4dd8a91e4f0ae9a46031af"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:34.000000Z"/>
+<entry
+   committed-rev="3"
+   name="dswscope.c"
+   text-time="2008-02-22T08:24:34.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="9a65aff34de5168c7aa3b11d747fa188"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:34.000000Z"/>
+<entry
+   committed-rev="3"
+   name="dsmthdat.c"
+   text-time="2008-02-22T08:24:34.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="5748e3d5e93dff6a972f5a6bd2e53d96"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:34.000000Z"/>
+<entry
+   name="CVS"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="dsfield.c"
+   text-time="2008-02-22T08:24:34.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="75b2107ad73980581fa55213aac91076"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:34.000000Z"/>
+<entry
+   committed-rev="3"
+   name="dsinit.c"
+   text-time="2008-02-22T08:24:34.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="d784e030dbba5d5cf6ece68856428843"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:34.000000Z"/>
+<entry
+   committed-rev="3"
+   name=".cvsignore"
+   text-time="2008-02-22T08:24:34.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="d8b65572e25962faaf07c20bb34d224e"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:34.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Makefile"
+   text-time="2008-02-22T08:24:34.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="1587ca520da4ee65dc4684d916ead88e"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:34.000000Z"/>
+<entry
+   committed-rev="3"
+   name="dsobject.c"
+   text-time="2008-02-22T08:24:34.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="f7b8fc8a7bd36f1bd15085749183a9ef"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:34.000000Z"/>
+<entry
+   committed-rev="3"
+   name="dswload.c"
+   text-time="2008-02-22T08:24:34.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="c459fc442c9f56701ac28e0adfb3a269"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:34.000000Z"/>
+</wc-entries>

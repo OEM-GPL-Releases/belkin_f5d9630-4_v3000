@@ -1,0 +1,335 @@
+<html>
+  <head>
+    <meta HTTP-EQUIV='Pragma' CONTENT='no-cache'>
+	<meta http-equiv="refresh" content="<%ejGet(timeout_refresh)%>">
+         <link rel="stylesheet" href="main_router.css" type='text/css'>
+		 
+		<%ejGet("curLanguage")%>
+		<SCRIPT>assign_var();</SCRIPT>
+		 
+<SCRIPT language=JavaScript src="showMenu.js"></SCRIPT>
+            <script language="javascript" src="util.js"></script>
+            <script language="javascript">
+<!-- hide
+
+strHtml='<title>'+fwm_1+' &gt; '+fwddns_7+'</title>';
+dw(strHtml);
+
+
+var autoup = '<%ejGet(autoUpgrade_flag)%>';
+
+if(autoup == '1')
+{
+	newwin=window.open("checkfw.html","Firmware","toolbar=no,location=no,directories=no,status=no,menubar=no,scrollbars=yes,width=395,height=200,resizable=0");
+	newwin.focus();
+}
+
+var need_refresh = '<%ejGet(ddns_refresh)%>';
+if(need_refresh==1)
+{
+	var code = "ddns.cgi?ddns_refresh=0";
+	window.location = code
+}	
+
+
+
+var ddnsService = '<%ejGet(ddnsService)%>'; //0: tzo; 1:ddns; 2:disabled
+ddnsUsername = '<%ejGet(ddnsUsername)%>';
+ddnsPassword = '<%ejGet(ddnsPassword)%>';
+ddnsHostname = '<%ejGet(ddnsHostname)%>';
+
+tzoEmail = '<%ejGet(tzoEmail)%>';
+tzoKey = '<%ejGet(tzoKey)%>';
+tzoDomainname = '<%ejGet(tzoDomainname)%>';
+
+function ddnsChange() {
+  with ( document.forms[0] ) {
+    var ddns = ddnsMode[ddnsMode.selectedIndex].value;
+
+    switch( ddns ) {
+    case "dyndns":
+      //hideDDNSInfo( 0 );
+      hideTZOInfo( 1 );
+      hideDynDNSInfo( 0 );
+      break;
+    case "tzo":
+      //hideDDNSInfo( 0 );
+      hideTZOInfo( 0 );
+      hideDynDNSInfo( 1 );
+      break;
+	case 'no_ddns':
+      hideTZOInfo( 1 );
+      hideDynDNSInfo( 1 );
+	  break;
+    }
+  }
+}
+function hideDynDNSInfo(hide) {
+  var status = '';
+  if ( hide == 1 )
+    status = 'none';
+  if (document.getElementById) // DOM3 = IE5, NS6
+    document.getElementById('dyndnsInfo').style.display = status;
+  else {
+    if (document.layers) { // NS4
+      with ( document.forms[0] ) {
+        if ( hide == 1 ) {
+          //dyndnsHostname.value = '';
+        } else {
+          //dyndnsHostname.value = 'Hostname';
+        }
+      }
+    } else {
+      //document.all.ddnsInfo.style.display = status;
+    }
+  }
+}
+
+function hideTZOInfo(hide) {
+  var status = '';
+  if ( hide == 1 )
+    status = 'none';
+  if (document.getElementById) // DOM3 = IE5, NS6
+    document.getElementById('tzoInfo').style.display = status;
+  else {
+    if (document.layers) { // NS4
+      with ( document.forms[0] ) {
+        if ( hide == 1 ) {
+          //tzoEmail.value = '';
+          //tzoKey.value = '';
+        } else {
+          //tzoEmail.value = 'Name';
+          //tzoKey.value = 'Password';
+        }
+      }
+    } else {
+      //document.all.ddnsInfo.style.display = status;
+    }
+  }
+}
+
+function frmLoad() {
+  with (document.forms[0]) 
+  {
+    if (ddnsService =='tzo') 
+      ddnsMode.selectedIndex = 2;
+	else if (ddnsService =='dyndns')
+      ddnsMode.selectedIndex = 1;
+	else
+	  ddnsMode.selectedIndex = 0; //disabled ddns
+	
+	  tzoEmail.value = ddnsUsername;
+	  tzoKey.value = ddnsPassword;
+	  tzoDomainName.value = ddnsHostname;
+	  dyndnsUsername.value = ddnsUsername;
+	  dyndnsPassword.value = ddnsPassword;
+	  dyndnsHostname.value = ddnsHostname;
+
+  }
+
+  ddnsChange();
+  
+  
+}
+
+function btnApply(place) 
+{
+
+  with ( document.forms[0] ) 
+  {
+  	if(ddnsMode.selectedIndex == 0)
+  		var loc = place + '?action=disable';
+  	else	
+  		var loc = place + '?action=add&service=';
+
+	if(ddnsMode.selectedIndex == 1)
+	{
+  		if ( place == "fw_ddns.cgi" ) 
+		{
+      		switch( ddnsMode[ddnsMode.selectedIndex].value ) 
+			{
+      			case 'dyndns':
+        			loc += '1';
+        			if ( dyndnsHostname.length == 0 ) 
+					{
+          				alert(fwddns_1);
+        				return;
+        			}
+        			loc += '&hostname=' + encodeUrl(dyndnsHostname.value);
+		
+        		break;
+      
+	  			case 'tzo':
+        			loc += '0';
+        			if ( tzoDomainName.length == 0 ) 
+					{
+          				alert(fwddns_2);
+        				return;
+        			}	
+        			loc += '&hostname=' + encodeUrl(tzoDomainName.value);
+        		break;
+				
+      			case 'no_ddns':
+					loc += '2';
+					loc += '&hostname=' + encodeUrl(' ');
+		        break;
+      		}
+
+      		switch( ddnsMode[ddnsMode.selectedIndex].value ) 
+			{
+			  case "dyndns":
+				update_username = dyndnsUsername.value;
+				update_password = dyndnsPassword.value;
+				break;
+			  case "tzo":
+				update_username = tzoEmail.value;
+				update_password = tzoKey.value;
+				break;
+			  default:
+				update_username = encodeUrl(' ');
+				update_password = encodeUrl(' ');
+	  	    }
+
+      		if ( update_username.length == 0 ) 
+			{
+        		if ( ddnsMode[ddnsMode.selectedIndex].value == 'dyndns' )
+          			alert(fwddns_3 );
+        		else
+          			alert(fwddns_4 );
+        		return;
+      		}
+      		loc += '&username=' + encodeUrl(update_username);
+
+      		if ( update_password.length == 0 ) 
+			{
+        		if ( ddnsMode[ddnsMode.selectedIndex].value == 'dyndns' )
+          			alert(fwddns_5 );
+        		else
+          			alert(fwddns_6 );
+        		return;
+      		}
+      		loc += '&password=' + encodeUrl(update_password);
+
+		  	//loc += '&iface=' + ddnsInterface[ddnsInterface.selectedIndex].value;
+		  	loc += '&iface=br0'; // fake interface
+      	}
+      }
+      window.location = loc;
+    
+		
+	}
+}
+
+function btnClear() {
+  window.location.reload();  
+}
+
+function write_ddns()
+{
+	with(document.forms[0])
+	{
+		document.write("<option value=\"no_ddns\">"+fwddns_10+"</option>");
+		document.write("<option value=\"dyndns\">DynDNS.org</option>");
+	}
+}
+
+// done hiding -->
+    </script>
+  </head>
+   <body onLoad='frmLoad()' bgColor="#ffffff" leftMargin="0" topMargin="0" marginheight="0" marginwidth="0">
+         <form>
+       <SCRIPT language=JavaScript>
+	var helpItem 	='DDNS';
+	var menuSection	='Fire';
+	var menuItem	='DDNS';
+	var isAPmode = '<%ejGet(enblNat)%>';
+		
+	var wanStatus = '<%ejGetOther(isUp)%>';
+	showHead(wanStatus,helpItem);
+	showMenu(menuSection,menuItem,isAPmode)
+	</SCRIPT>  
+<TD class=head_bold width="90%" valign="top"><Br>
+
+            <b><font class="head_bold">&nbsp;&nbsp;&nbsp;<script>dw(fwm_1);</script> &gt; <script>dw(fwddns_7);</script></font></b>
+            <br><Br>
+
+<Br><Br><br>
+<table border="0" cellpadding="0" cellspacing="0">
+  <tr>
+	<Td width="41"></Td>
+    <td width="673" colspan="2" class="copy_1"><script>dw(fwddns_8);</script>
+<a href="javascript:void(0);" onClick="window.open('glossary.html#DDNS','help','toolbar=0,status=0,menubar=0,scrollbars=1,resizable=1, width=640,height=400,left=150,top=150');"><b><font style="FONT-SIZE: 11px;" color="#0066FF"><script>dw(wd_8);</script></font></b></a>	</td>
+  </tr>
+</table>
+<Br>
+
+<table border="0" cellpadding="0" cellspacing="0">
+  
+          <tr>
+	<Td width="47"></Td>
+    <td width="113" class="copy_1"><b><script>dw(fwddns_9);</script></b></td>
+	<td width="444" class="copy_1">
+            <select name='ddnsMode' size="1" onChange='ddnsChange()'><script language="javascript">write_ddns()</script></select>
+            </td>
+          </tr>
+  <tr><td height="10" colspan="3"></td></tr>
+  </table>
+  
+  <Br>
+<table width="441" border="0" cellpadding="0" cellspacing="0"  id="dyndnsInfo">
+            <tr><td width="47"></td><td width="113" class="copy_1"><b><script>dw(fwddns_14);</script></b></td>
+            <td width="281"><input type='text' name='dyndnsUsername' size='32' maxlength="64"></td>
+            </tr>
+			  <tr><td height="5"></td></tr>
+
+            <tr>
+				<td></td>
+              <td class="copy_1"><b><script>dw(fwddns_15);</script></b></td>
+              <td><input type="password" name="dyndnsPassword" size='32' maxlength="64"></td>
+            </tr>
+			  <tr><td height="5"></td></tr>
+            <tr>
+			<Td></Td>
+              <td class="copy_1"><b><script>dw(fwddns_16);</script></b></td>
+              <td><input type="text" name="dyndnsHostname" size='32' maxlength="64"></td>
+            </tr>
+    </table>
+
+          <table width="440" border="0" cellpadding="0" cellspacing="0" id="tzoInfo">
+            <tr><td width="47"></td>
+              <td width='113' class="copy_1"><b><script>dw(fwddns_17);</script></b></td>
+              <td width="280"><input type="text" name="tzoEmail" size='32' maxlength="64"></td>
+            </tr>
+			  <tr><td height="5"></td></tr>
+            <tr><td></td>
+              <td class="copy_1"><b><script>dw(fwddns_18);</script></b></td>
+              <td><input type="password" name="tzoKey" size='32' maxlength="64"></td>
+            </tr>
+			  <tr><td height="5"></td></tr>
+            <tr><td></td>
+              <td class="copy_1"><b><script>dw(fwddns_16);</script></b></td>
+              <td><input type="text" name="tzoDomainName" size='32' maxlength="64"></td>
+            </tr>
+    </table>
+
+<br>
+  <table  border="0" width="600"  cellpadding="0" cellspacing="0"> 
+  <tr>
+    <td width="120"></td>
+	<td>
+	<script>
+		var info = "<input type='button' value='"+wd_9+"' style='height:22px;width:180px;' class='submitBtn' onClick='btnClear();'><input type='button' value='"+wd_10+"' style='height:22px;width:180px;' class='submitBtn' onClick='btnApply(\"fw_ddns.cgi\");'>";
+		dw(info);
+	
+	</script>
+	  
+	</td>
+  </tr>
+
+</table>	  
+
+ </TD></TR></TBODY></TABLE></TD>
+
+      </form>
+  </body>
+</html>

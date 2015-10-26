@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/kernel/linux/drivers/bluetooth"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   committed-rev="3"
+   name="hci_h4.c"
+   text-time="2008-02-22T08:23:43.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="a117b40634d47d2a831a4e940586ff50"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:43.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Kconfig"
+   text-time="2008-02-22T08:23:43.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="8968228df78063e860244e17888c769f"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:43.000000Z"/>
+<entry
+   committed-rev="3"
+   name="bfusb.c"
+   text-time="2008-02-22T08:23:43.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="bf264fa220e4c4f8ea8212e63d4fdf61"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:43.000000Z"/>
+<entry
+   committed-rev="3"
+   name="hci_h4.h"
+   text-time="2008-02-22T08:23:43.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="6c4720ba55ea52332468ce4dbfadab90"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:43.000000Z"/>
+<entry
+   committed-rev="3"
+   name="hci_uart.h"
+   text-time="2008-02-22T08:23:43.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="87639bcee724d67503c43edfc2a8553b"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:43.000000Z"/>
+<entry
+   committed-rev="3"
+   name="bluecard_cs.c"
+   text-time="2008-02-22T08:23:43.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="b3a541dff7a25dcf0aaec3607abc57f4"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:43.000000Z"/>
+<entry
+   committed-rev="3"
+   name="hci_bcsp.c"
+   text-time="2008-02-22T08:23:43.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="f8a3c81b0231c9bad28fbb3093cb820c"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:43.000000Z"/>
+<entry
+   name="CVS"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="hci_vhci.c"
+   text-time="2008-02-22T08:23:43.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="6cfb2c959f0d12097fad1cbd165492b4"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:43.000000Z"/>
+<entry
+   committed-rev="3"
+   name="hci_usb.c"
+   text-time="2008-02-22T08:23:43.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="a4fa89248a7dc7e44be81a09237fb740"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:43.000000Z"/>
+<entry
+   committed-rev="3"
+   name="bcm203x.c"
+   text-time="2008-02-22T08:23:43.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="82cab9dcc6c610f73dba02a58f46c9db"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:43.000000Z"/>
+<entry
+   committed-rev="3"
+   name="hci_bcsp.h"
+   text-time="2008-02-22T08:23:43.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="750fdbce622342d02aeb5e4c8418fc51"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:43.000000Z"/>
+<entry
+   committed-rev="3"
+   name="bt3c_cs.c"
+   text-time="2008-02-22T08:23:43.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="28508938124fc420a5fa36e19c5cee55"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:43.000000Z"/>
+<entry
+   committed-rev="3"
+   name="hci_usb.h"
+   text-time="2008-02-22T08:23:43.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="5d42cb61c40fc58c5ced8c0f2f76a355"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:43.000000Z"/>
+<entry
+   committed-rev="3"
+   name="hci_ldisc.c"
+   text-time="2008-02-22T08:23:43.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="375e70f7a2dc6d12e90929dfac850f45"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:43.000000Z"/>
+<entry
+   committed-rev="3"
+   name="hci_vhci.h"
+   text-time="2008-02-22T08:23:43.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="ad8f46d20a2a1fbc0ad690598274f625"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:43.000000Z"/>
+<entry
+   committed-rev="3"
+   name="btuart_cs.c"
+   text-time="2008-02-22T08:23:43.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="cf89eef5691728e50de2ee0537492119"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:43.000000Z"/>
+<entry
+   committed-rev="3"
+   name="dtl1_cs.c"
+   text-time="2008-02-22T08:23:43.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="d908f74ac597ae7073d01ad55c481fe6"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:43.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Makefile"
+   text-time="2008-02-22T08:23:43.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="2f9c939178ba6e586707ed398747ca5c"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:43.000000Z"/>
+<entry
+   committed-rev="3"
+   name=".cvsignore"
+   text-time="2008-02-22T08:23:43.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="d8b65572e25962faaf07c20bb34d224e"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:43.000000Z"/>
+</wc-entries>

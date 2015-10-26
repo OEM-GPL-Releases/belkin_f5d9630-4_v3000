@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/kernel/linux/drivers/acpi/namespace"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   committed-rev="3"
+   name="nswalk.c"
+   text-time="2008-02-22T08:24:33.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="85709688bca3e2c3a39a10beab7b6ff5"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:33.000000Z"/>
+<entry
+   committed-rev="3"
+   name="nsdumpdv.c"
+   text-time="2008-02-22T08:24:33.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="8082bd35fe07f58f06bd0a612e16ac14"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:33.000000Z"/>
+<entry
+   committed-rev="3"
+   name="nsutils.c"
+   text-time="2008-02-22T08:24:33.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="61cca639ec9f36615ebabc5d4125f77f"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:33.000000Z"/>
+<entry
+   committed-rev="3"
+   name="nsaccess.c"
+   text-time="2008-02-22T08:24:33.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="2ec3beb0ee9b91b82c1ccd5fef166424"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:33.000000Z"/>
+<entry
+   committed-rev="3"
+   name="nsinit.c"
+   text-time="2008-02-22T08:24:33.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="42c6eac2f02db66cd27970b01689e09a"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:33.000000Z"/>
+<entry
+   committed-rev="3"
+   name="nsnames.c"
+   text-time="2008-02-22T08:24:33.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="f9160377e3cd064e98f73cb0ede33f10"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:33.000000Z"/>
+<entry
+   committed-rev="3"
+   name="nsdump.c"
+   text-time="2008-02-22T08:24:33.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="93ef53fb4ec3d742c724740a26777c23"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:33.000000Z"/>
+<entry
+   committed-rev="3"
+   name="nssearch.c"
+   text-time="2008-02-22T08:24:33.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="c10e9cac86344844c86042292cd9268f"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:33.000000Z"/>
+<entry
+   committed-rev="3"
+   name="nsobject.c"
+   text-time="2008-02-22T08:24:33.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="4648c93289d10b986d5d541793d19034"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:33.000000Z"/>
+<entry
+   committed-rev="3"
+   name="nsxfobj.c"
+   text-time="2008-02-22T08:24:33.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="40957343516c7fee413a90a8a803ab17"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:33.000000Z"/>
+<entry
+   name="CVS"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="nsparse.c"
+   text-time="2008-02-22T08:24:33.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="dd30e5de66cedf0952035ee517aa15a0"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:33.000000Z"/>
+<entry
+   committed-rev="3"
+   name="nsxfname.c"
+   text-time="2008-02-22T08:24:33.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="904e621b7ed8830723f60219c49f52c1"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:33.000000Z"/>
+<entry
+   committed-rev="3"
+   name="nsload.c"
+   text-time="2008-02-22T08:24:33.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="b3d52c5f1579be69c8ec1e5ab2729d57"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:33.000000Z"/>
+<entry
+   committed-rev="3"
+   name="nsxfeval.c"
+   text-time="2008-02-22T08:24:33.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="95402672c4d8878f5b69eb07dd138a98"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:33.000000Z"/>
+<entry
+   committed-rev="3"
+   name="nseval.c"
+   text-time="2008-02-22T08:24:33.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="a0be94b57b9d412795a1985c105af861"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:33.000000Z"/>
+<entry
+   committed-rev="3"
+   name="nsalloc.c"
+   text-time="2008-02-22T08:24:33.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="b99c7928eeb88b28072533797107bd55"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:33.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Makefile"
+   text-time="2008-02-22T08:24:33.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="3efc6c171b05cc633985e5f54317d9b9"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:33.000000Z"/>
+<entry
+   committed-rev="3"
+   name=".cvsignore"
+   text-time="2008-02-22T08:24:33.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="d8b65572e25962faaf07c20bb34d224e"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:33.000000Z"/>
+</wc-entries>

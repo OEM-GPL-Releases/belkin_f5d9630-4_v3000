@@ -1,0 +1,77 @@
+<html>
+   <head>
+   <meta http-equiv="refresh" content="<%ejGet(timeout_refresh)%>">
+   		<link rel="stylesheet" href='main_router.css' type='text/css'>
+        <meta http-equiv="Pragma" content="no-cache">
+		<%ejGet("curLanguage")%>
+		<SCRIPT>assign_var();</SCRIPT>		
+		<SCRIPT language=JavaScript src="showMenu.js"></SCRIPT>
+		<script language='javascript'>
+
+strHtml='<title>'+wm_1+' &gt;</title>';
+dw(strHtml);
+
+var autoup = '<%ejGet(autoUpgrade_flag)%>';
+
+if(autoup == '1')
+{
+	newwin=window.open("checkfw.html","Firmware","toolbar=no,location=no,directories=no,status=no,menubar=no,scrollbars=yes,width=395,height=200,resizable=0");
+	newwin.focus();
+}
+
+
+var helpItem 	='Internet WAN';
+var menuSection	='WAN';
+var menuItem	='Internet WAN';
+var isAPmode = '<%ejGet(enblNat)%>';
+
+		
+			var usrUser = '<%ejGet(usrUserName)%>';
+			if ( usrUser == 'fail'  )
+			{
+      			var loc = 'login.html';  
+				//var code = 'location.assign("' + loc + '")';
+				//eval(code);
+	   			window.location = loc;
+			}
+			</script>
+		<base target="_self">
+	</head>
+	<body bgColor="#ffffff" leftMargin="0" topMargin="0" marginheight="0" marginwidth="0">
+         <form>
+    <SCRIPT language=JavaScript>
+	var wanStatus = '<%ejGetOther(isUp)%>';
+	showHead(wanStatus,helpItem);
+	showMenu(menuSection,menuItem,isAPmode)
+	</SCRIPT>  
+<TD class=head_bold width="90%" valign="top"><Br>
+	 
+		 
+            <font face="Verdana" size="2" class="head_bold"><b>&nbsp;&nbsp;<script>dw(wm_2)</script> &gt;</b></font>
+			<br><br>
+      		<TABLE class=copy_1 cellSpacing=0 cellPadding=0 width=620  border=0>
+        		<TR>
+					<td width="12"></td>
+          			<TD vAlign=top><SPAN><script>dw(wm_3)</script></SPAN></TD>
+				</TR>
+			</TABLE>
+			<bR>
+      		<TABLE class=copy_1 cellSpacing=0 cellPadding=0 width=620  border=0>
+        		<TR>
+					<td width="12"></td>
+					<TD>				
+					<DIV></DIV>
+            		<P align=left><SPAN><script>dw(wm_4)</script></SPAN></P>
+            		<P align=left><SPAN><B>- <script>dw(wm_5)</script></B> <BR><Br>
+										<B>- <script>dw(wm_6)</script></B> <br><Br>	
+										<B>- <script>dw(wm_7)</script></B> <br><Br>
+										<B>- <script>dw(wm_8)</script></B><br><br>
+										<B>- <script>dw(wm_9)</script></B><br>
+					</B></SPAN></P>
+					</TD></TR>
+			</TABLE>			
+			
+
+         </form></TD></TR></TBODY></TABLE></TD>
+   </body>
+</html>

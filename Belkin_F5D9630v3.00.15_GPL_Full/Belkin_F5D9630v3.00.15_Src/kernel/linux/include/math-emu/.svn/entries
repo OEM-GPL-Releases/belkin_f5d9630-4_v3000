@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/kernel/linux/include/math-emu"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   committed-rev="3"
+   name="double.h"
+   text-time="2008-02-22T08:21:27.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="6598f0013d027f94da964853d330e5a9"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:27.000000Z"/>
+<entry
+   committed-rev="3"
+   name="quad.h"
+   text-time="2008-02-22T08:21:27.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="660e70679ec9d101072d4acd46194eb1"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:27.000000Z"/>
+<entry
+   committed-rev="3"
+   name="op-1.h"
+   text-time="2008-02-22T08:21:27.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="4f12eeb3e1eaceeac59008930581e0d3"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:27.000000Z"/>
+<entry
+   committed-rev="3"
+   name="op-2.h"
+   text-time="2008-02-22T08:21:27.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="acaef28ecee5339f86440a1ae481497d"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:27.000000Z"/>
+<entry
+   committed-rev="3"
+   name="soft-fp.h"
+   text-time="2008-02-22T08:21:27.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="69ede8e2980521ca92a72e96f8f4b96a"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:27.000000Z"/>
+<entry
+   committed-rev="3"
+   name="op-4.h"
+   text-time="2008-02-22T08:21:27.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="f0170318ce01c4f3a05a822fd87083d1"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:27.000000Z"/>
+<entry
+   committed-rev="3"
+   name="extended.h"
+   text-time="2008-02-22T08:21:27.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="2f5e38d7b263653cd8e05ec4a22febe3"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:27.000000Z"/>
+<entry
+   committed-rev="3"
+   name="single.h"
+   text-time="2008-02-22T08:21:27.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="93a231b59e4450e8651036096f70572a"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:27.000000Z"/>
+<entry
+   committed-rev="3"
+   name="op-8.h"
+   text-time="2008-02-22T08:21:27.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="7193444e3f487d3c4396e346cd19d331"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:27.000000Z"/>
+<entry
+   committed-rev="3"
+   name="op-common.h"
+   text-time="2008-02-22T08:21:27.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="c3842607bf7857eced74c050f7cb3112"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:27.000000Z"/>
+<entry
+   name="CVS"
+   kind="dir"/>
+</wc-entries>

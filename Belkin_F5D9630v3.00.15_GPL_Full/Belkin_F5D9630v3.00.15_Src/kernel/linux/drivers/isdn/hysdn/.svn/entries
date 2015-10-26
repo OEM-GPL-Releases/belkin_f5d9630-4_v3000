@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/kernel/linux/drivers/isdn/hysdn"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   committed-rev="3"
+   name="hysdn_pof.h"
+   text-time="2008-02-22T08:23:33.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="21dc750e807fd4a5e7956103c7d68356"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:33.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Kconfig"
+   text-time="2008-02-22T08:23:33.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="aa42e682d4b9cc6d39db672a830aca14"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:33.000000Z"/>
+<entry
+   committed-rev="3"
+   name="boardergo.c"
+   text-time="2008-02-22T08:23:33.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="e84150ec1753f0796dedac3c0638e073"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:33.000000Z"/>
+<entry
+   committed-rev="3"
+   name="hysdn_boot.c"
+   text-time="2008-02-22T08:23:33.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="2f2932c4d404d4972e1ab0711c9578bf"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:33.000000Z"/>
+<entry
+   committed-rev="3"
+   name="hysdn_init.c"
+   text-time="2008-02-22T08:23:33.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="4ecd47f3deed1f3875e0fd6d6e6b1d9d"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:33.000000Z"/>
+<entry
+   committed-rev="3"
+   name="boardergo.h"
+   text-time="2008-02-22T08:23:33.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="a58a1a22a219c8ef57934d49b5aed447"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:33.000000Z"/>
+<entry
+   committed-rev="3"
+   name="hysdn_proclog.c"
+   text-time="2008-02-22T08:23:33.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="5c45b8a1db5cb949e7cb232f0ffe23c9"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:33.000000Z"/>
+<entry
+   name="CVS"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="hycapi.c"
+   text-time="2008-02-22T08:23:33.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="25db46ff5218ad67043528cfa6e5b1ed"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:33.000000Z"/>
+<entry
+   committed-rev="3"
+   name="hysdn_procconf.c"
+   text-time="2008-02-22T08:23:33.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="2f7438c115788b583c6b57194d33c4d4"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:33.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ince1pc.h"
+   text-time="2008-02-22T08:23:33.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="3fe7b91e3b8d00a0a6c5a92056363aab"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:33.000000Z"/>
+<entry
+   committed-rev="3"
+   name="hysdn_defs.h"
+   text-time="2008-02-22T08:23:33.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="70bc1be4e2520a41739abd3e42e00bb4"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:33.000000Z"/>
+<entry
+   committed-rev="3"
+   name="hysdn_net.c"
+   text-time="2008-02-22T08:23:33.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="c442fe6c6ceb45ee4fafd02a7af2c38f"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:33.000000Z"/>
+<entry
+   committed-rev="3"
+   name="hysdn_sched.c"
+   text-time="2008-02-22T08:23:33.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="d9d43dbc9178b555d816e4fc2e5ed67c"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:33.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Makefile"
+   text-time="2008-02-22T08:23:33.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="49358daba88c6d3341ba6b7ef54f365a"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:33.000000Z"/>
+<entry
+   committed-rev="3"
+   name=".cvsignore"
+   text-time="2008-02-22T08:23:33.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="d8b65572e25962faaf07c20bb34d224e"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:33.000000Z"/>
+</wc-entries>

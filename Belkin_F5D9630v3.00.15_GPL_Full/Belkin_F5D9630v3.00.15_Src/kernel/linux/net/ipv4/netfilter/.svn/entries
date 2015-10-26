@@ -1,0 +1,874 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/kernel/linux/net/ipv4/netfilter"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   committed-rev="3"
+   name="arptable_filter.c"
+   text-time="2008-02-22T08:21:31.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="8b3c3d85bca02e18224f9d90f9b1c844"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:30.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ipfwadm_core.c"
+   text-time="2008-02-22T08:21:31.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="fc1b10e99a458a56d0d6e982b213b7c3"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:30.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ipt_NETMAP.c"
+   text-time="2008-02-22T08:21:31.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="2c6bd17c20a41686145588740a65d66e"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:30.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ipt_SAME.c"
+   text-time="2008-02-22T08:21:31.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="faf3312a575e366789e130e466069c0c"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:30.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ip_nat_proto_tcp.c"
+   text-time="2008-02-22T08:21:31.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="86a807776f150c00e24509ec3a01b657"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:30.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ipt_ah.c"
+   text-time="2008-02-22T08:21:31.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="31630fdbaed974fb8118681860f48d7e"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:30.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ip_nat_proto_esp.c"
+   text-time="2008-02-22T08:21:31.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="3cee0b369b43d5bc152158605024d818"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:30.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ip_conntrack_proto_udp.c"
+   text-time="2008-02-22T08:21:31.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="d021a63d7a19298b457ee661131efdc2"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:31.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ip_conntrack_proto_icmp.c"
+   text-time="2008-02-22T08:21:31.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="f8a65eb723cf8066d852d6346a2e6b0f"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:31.000000Z"/>
+<entry
+   name="broadcom"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="ipt_owner.c"
+   text-time="2008-02-22T08:21:31.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="dea0dd00933a6a992ace805b3f6b3b12"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:31.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ipchains_core.c"
+   text-time="2008-02-22T08:21:31.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="cfd851d9a46eb49debddf6e8652b70c2"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:31.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ip_conntrack_irc.c"
+   text-time="2008-02-22T08:21:31.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="6e771d4b79366bc0d0b91b8cb55a2c26"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:31.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ip_conntrack_gre.c"
+   text-time="2008-02-22T08:21:31.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="96f9ed5e734583d3351ef8eae02bbcdf"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:31.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ip_conntrack_helper_h323.c"
+   text-time="2008-02-22T08:21:31.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="742dbdd57c049b2fdf8e0ec020ad41d2"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:31.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ipt_connlimit.c"
+   text-time="2008-02-22T08:21:31.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="fec2aca94a6a9020595716c73326a1d2"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:31.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ip_nat_helper.c"
+   text-time="2008-02-22T08:21:31.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="7ae01a7042594fa64218cf4986216ad2"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:31.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ip_conntrack_h323.c"
+   text-time="2008-02-22T08:21:31.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="74ffa9924b31e74ebbb927746bb9e05b"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:31.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ip_nat_proto_unknown.c"
+   text-time="2008-02-22T08:21:31.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="beb1e057c73b7821c2c0efd5335dea2b"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:31.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ipt_REDIRECT.c"
+   text-time="2008-02-22T08:21:31.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="077199c856aec1241d0cd56812a525e8"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:31.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ipt_tos.c"
+   text-time="2008-02-22T08:21:31.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="7ade495a83ea62e181c5ce5927f0b49f"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:31.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ip_nat_standalone.c"
+   text-time="2008-02-22T08:21:31.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="0d677a1e6feb9d8e58c75ae53bcd0a3e"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:31.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ip_nat_rtsp.c"
+   text-time="2008-02-22T08:21:31.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="6732b40c3b98e68fa229693a1b2a8db7"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:31.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ip_conntrack_core.c"
+   text-time="2008-02-22T08:21:31.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="6bc01a19b7606e3d1fa364b7f2a02054"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:31.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ipt_ULOG.c"
+   text-time="2008-02-22T08:21:31.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="872502935d0df9f16f4281b1fc207c95"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:31.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ip_conntrack_ftp.c"
+   text-time="2008-02-22T08:21:31.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="7374d5bdac59419cb19ec8d639456ed6"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:31.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ipt_tcpmss.c"
+   text-time="2008-02-22T08:21:31.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="a7f939f8112d5a2f09e13ee3c55f975b"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:31.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ip_fw_compat_masq.c"
+   text-time="2008-02-22T08:21:31.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="926d1946f18109e46c199ad795fa3700"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:31.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ipt_addrtype.c"
+   text-time="2008-02-22T08:21:31.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="ef97f7454f30c14db898af7ae6cb484c"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:31.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ipt_CLASSIFY.c"
+   text-time="2008-02-22T08:21:31.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="c434bb434bd8ccefd1f954ae1182c6a5"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:31.000000Z"/>
+<entry
+   committed-rev="3"
+   name=".cvsignore"
+   text-time="2008-02-22T08:21:31.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="735ab631b67b75d07a52edc9e01aed4c"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:31.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Makefile"
+   text-time="2008-02-22T08:21:31.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="b6ea41fc0e86926e3c8cbd924bb79fce"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:31.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ipt_LOG.c"
+   text-time="2008-02-22T08:21:31.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="40b87909bae24b1d3465b37ef2213520"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:31.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ipt_conntrack.c"
+   text-time="2008-02-22T08:21:31.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="9e0049888122ff3751d7011da3cf073d"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:31.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ip_nat_rule.c"
+   text-time="2008-02-22T08:21:31.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="bed0d95f219f3e3fa0d83e44e5cdf2eb"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:31.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ip_conntrack_proto_tcp.c"
+   text-time="2008-02-22T08:21:31.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="9a4fe16f8aba26fc39a5a179b509c1d8"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:31.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ip_conntrack_proto_esp.c"
+   text-time="2008-02-22T08:21:31.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="8caabcb8478c63a2e46a5a6591c2ab75"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:31.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ipt_dscp.c"
+   text-time="2008-02-22T08:21:31.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="34c48cb3b82df05e1b425fe619a99753"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:31.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ipt_DSCP.c"
+   text-time="2008-02-22T08:21:31.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="c3c3b7e721a7b91e84366004d7c228a4"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:31.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ipt_mark.c"
+   text-time="2008-02-22T08:21:31.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="dea71b1391e71bcee6c1fe5314287bc2"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:31.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ipt_MARK.c"
+   text-time="2008-02-22T08:21:31.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="0e7dd83ee541281c7d8c51b06f4d7a11"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:31.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ip_nat_tftp.c"
+   text-time="2008-02-22T08:21:31.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="a2beb6a0849842d7abab829b6e6cb4e2"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:31.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ip_nat_snmp_basic.c"
+   text-time="2008-02-22T08:21:31.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="9a3852f9fba2f975fbf112e28b288c9f"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:31.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ipt_time.c"
+   text-time="2008-02-22T08:21:31.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="54cd7ff2fd6c0c49132977304f152585"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:31.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ipt_multiport.c"
+   text-time="2008-02-22T08:21:31.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="63c1fccc4c2f6ac2f81d199d00d839e2"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:31.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ipt_mac.c"
+   text-time="2008-02-22T08:21:31.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="70c7fc93ce7a6d251842e11e7c4812bb"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:31.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ip_nat_pptp.c"
+   text-time="2008-02-22T08:21:31.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="7052a547609243527e765628d0ddc632"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:31.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ipt_NOTRACK.c"
+   text-time="2008-02-22T08:21:31.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="97a89312e05274c4faacf2eaa617b701"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:31.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ipt_ttl.c"
+   text-time="2008-02-22T08:21:31.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="0bc69cec182cb5deb22c7b3dd776f8c1"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:31.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ipt_ecn.c"
+   text-time="2008-02-22T08:21:31.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="552debb4e4650549893286ec088d2f28"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:31.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ipt_TOS.c"
+   text-time="2008-02-22T08:21:31.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="915830b8f36f7967cdd4224a0a5f5a15"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:31.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ip_conntrack_standalone.c"
+   text-time="2008-02-22T08:21:31.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="e28a894eb07c1d0fc924161fa7b3c0f3"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:31.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ip_conntrack_rtsp.c"
+   text-time="2008-02-22T08:21:31.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="6c7fc96b31f29ce32445509bf24d545f"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:31.000000Z"/>
+<entry
+   committed-rev="3"
+   name="iptable_filter.c"
+   text-time="2008-02-22T08:21:31.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="398da23d1a00f8136aeef5d8f206f21f"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:31.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ipt_FTOS.c"
+   text-time="2008-02-22T08:21:31.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="dd5169adbead8cd5a8f5e600b1562aca"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:31.000000Z"/>
+<entry
+   committed-rev="3"
+   name="iptable_raw.c"
+   text-time="2008-02-22T08:21:31.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="f2dd14fe5ab411b12e7513a36c26cdb1"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:31.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ip_conntrack_proto_generic.c"
+   text-time="2008-02-22T08:21:31.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="0c125631d5f3600295b5f3f3b4b9f00e"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:31.000000Z"/>
+<entry
+   committed-rev="3"
+   name="arpt_mangle.c"
+   text-time="2008-02-22T08:21:31.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="2d3cc218d38335f61058d88cc41b41e2"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:31.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ip_conntrack_helper_h323_types.c"
+   text-time="2008-02-22T08:21:31.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="db74a5e40fa2ded4a8b734d08fcdb541"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:31.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Kconfig"
+   text-time="2008-02-22T08:21:31.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="e7f6ff7df62a9a5b031e9d5bdca46622"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:31.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ipt_iprange.c"
+   text-time="2008-02-22T08:21:31.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="24ad61f7ad682c635d07ae9d3b4f3856"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:31.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ipt_esp.c"
+   text-time="2008-02-22T08:21:31.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="8f665ec6430ce0573a425b801a1be443"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:31.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ip_conntrack_tftp.c"
+   text-time="2008-02-22T08:21:31.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="5ac5cb4c10ec074c34b2a3f26dd5d73e"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:31.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ip_fw_compat.c"
+   text-time="2008-02-22T08:21:31.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="e9dba50a4ab5ff615fb6ad8c91ad2368"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:31.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ip_nat_amanda.c"
+   text-time="2008-02-22T08:21:31.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="041fbb703a110834aa4b450b1c83dac3"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:31.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ip_fw_compat.h"
+   text-time="2008-02-22T08:21:31.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="8e114715acfa419b5c0916bd8148a8dc"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:31.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ipt_pkttype.c"
+   text-time="2008-02-22T08:21:31.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="992c6d9ebdbaf36132064066b39219a2"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:31.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ipt_realm.c"
+   text-time="2008-02-22T08:21:31.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="26588852f10071e3880d0bb750669509"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:31.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ip_conntrack_pptp.c"
+   text-time="2008-02-22T08:21:31.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="3d1dac3714b8f430d66c062dafc11a26"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:31.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ipt_ECN.c"
+   text-time="2008-02-22T08:21:31.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="4c11f3ec3835387b9df4b45abaf5fa48"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:31.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ip_nat_sip.c"
+   text-time="2008-02-22T08:21:31.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="e6549671eda47b30d9356e7a6533a26e"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:31.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ipt_TCPMSS.c"
+   text-time="2008-02-22T08:21:31.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="52d5ded3f7b9b8f8efca2fcdfd7400e6"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:31.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ip_conntrack_helper_h323_asn1.c"
+   text-time="2008-02-22T08:21:31.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="8fc7def50ff55073721e0eb5e0aecc5b"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:31.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ip_fw_compat_redir.c"
+   text-time="2008-02-22T08:21:31.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="5c7d2afb3ad15514e07d549e561c138a"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:31.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ipt_length.c"
+   text-time="2008-02-22T08:21:31.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="fa29598e138da980680f35116eaac7d7"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:31.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ipt_physdev.c"
+   text-time="2008-02-22T08:21:31.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="7a2b71bac59dc00e3e26692561bc5422"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:31.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ip_tables.c"
+   text-time="2008-02-22T08:21:31.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="afc9ddd58f71644145451fc716df573e"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:31.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ipt_MASQUERADE.c"
+   text-time="2008-02-22T08:21:31.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="1a383e32e88b68b539cd47d7d1caec54"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:31.000000Z"/>
+<entry
+   committed-rev="3"
+   name="iptable_mangle.c"
+   text-time="2008-02-22T08:21:31.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="2145064b7f098cae9760b8bad656a5ab"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:31.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ip_nat_proto_udp.c"
+   text-time="2008-02-22T08:21:31.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="1b3060885dbcc66c1d9da1867fe8cd25"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:31.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ip_nat_proto_icmp.c"
+   text-time="2008-02-22T08:21:31.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="519dacac8fec07ece3b5e207fbebfa70"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:31.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ip_nat_irc.c"
+   text-time="2008-02-22T08:21:31.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="ff74b974ef1479271b0a27db37c12b6c"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:31.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ip_nat_gre.c"
+   text-time="2008-02-22T08:21:31.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="e9e1ace5b40276c506d7cce9458d6671"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:31.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ip_nat_helper_h323.c"
+   text-time="2008-02-22T08:21:31.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="4d422e196145273b714b2c29fe46c5fc"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:31.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ip_nat_h323.c"
+   text-time="2008-02-22T08:21:31.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="791132885a36353ffd9cf13492086c8c"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:31.000000Z"/>
+<entry
+   name="CVS"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="ip_conntrack_amanda.c"
+   text-time="2008-02-22T08:21:31.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="358624052138954dcf7fbade100a4050"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:31.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ip_queue.c"
+   text-time="2008-02-22T08:21:31.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="a8d0a6d1c4aa5a35a8f30027bac0189f"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:31.000000Z"/>
+<entry
+   committed-rev="3"
+   name="arp_tables.c"
+   text-time="2008-02-22T08:21:31.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="0bd71dbf86e1cc674542d4458ffffa07"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:31.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ip_nat_core.c"
+   text-time="2008-02-22T08:21:31.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="14c203484a2625707b63420c669cdae4"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:31.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ip_nat_ftp.c"
+   text-time="2008-02-22T08:21:31.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="3556e2886ec85987688e38922234dd81"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:31.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ip_conntrack_sip.c"
+   text-time="2008-02-22T08:21:31.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="014fbf245516fb037a7ced5a7f85bf10"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:31.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ipt_REJECT.c"
+   text-time="2008-02-22T08:21:31.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="a48c15a7a06fe47b4c0322f8513de289"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:31.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ipt_limit.c"
+   text-time="2008-02-22T08:21:31.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="2fd7df09758c25466d7fad79098229cd"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:31.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ipt_helper.c"
+   text-time="2008-02-22T08:21:31.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="bcf8b19a3dbaa582f6c8e9a9de8276de"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:31.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ipt_recent.c"
+   text-time="2008-02-22T08:21:31.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="213ddea1e1b6a14198a2d90926ef3882"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:31.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ipt_state.c"
+   text-time="2008-02-22T08:21:31.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="4619173a5a2cfa0f51cfca9bf0ed8231"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:31.000000Z"/>
+</wc-entries>

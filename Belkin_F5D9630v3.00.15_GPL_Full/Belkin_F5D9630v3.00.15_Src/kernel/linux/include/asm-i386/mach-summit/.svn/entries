@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/kernel/linux/include/asm-i386/mach-summit"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   committed-rev="3"
+   name="mach_ipi.h"
+   text-time="2008-02-22T08:21:11.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="5e17abdde7f8e3d72e27ae48560ad2c8"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:11.000000Z"/>
+<entry
+   committed-rev="3"
+   name="mach_mpparse.h"
+   text-time="2008-02-22T08:21:11.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="7d9ad58e884661bb8ebf6294a9ba7874"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:11.000000Z"/>
+<entry
+   committed-rev="3"
+   name="mach_mpspec.h"
+   text-time="2008-02-22T08:21:11.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="f5f1263a03f61c5e609690920d55723f"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:11.000000Z"/>
+<entry
+   committed-rev="3"
+   name="irq_vectors_limits.h"
+   text-time="2008-02-22T08:21:11.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="5fd5bcaf6232857e5778848aaa8f2c4b"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:11.000000Z"/>
+<entry
+   committed-rev="3"
+   name="mach_apicdef.h"
+   text-time="2008-02-22T08:21:11.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="1b251971dbe39faea56b4b8141a84839"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:11.000000Z"/>
+<entry
+   committed-rev="3"
+   name="mach_apic.h"
+   text-time="2008-02-22T08:21:11.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="14d9a78bbcb53baffef55677ff283190"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:11.000000Z"/>
+<entry
+   name="CVS"
+   kind="dir"/>
+</wc-entries>

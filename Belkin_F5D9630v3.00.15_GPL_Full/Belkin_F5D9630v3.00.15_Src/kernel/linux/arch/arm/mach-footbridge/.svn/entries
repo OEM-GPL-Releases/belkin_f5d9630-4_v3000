@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/kernel/linux/arch/arm/mach-footbridge"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   committed-rev="3"
+   name="time.c"
+   text-time="2008-02-22T08:22:09.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="cfd51295af369dd9180983e066c4a943"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:09.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ebsa285-leds.c"
+   text-time="2008-02-22T08:22:09.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="c30577983229f85776c557734330aac5"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:09.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Kconfig"
+   text-time="2008-02-22T08:22:09.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="5b16d0201f99904637f3aeceb20752c9"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:09.000000Z"/>
+<entry
+   committed-rev="3"
+   name="dma.c"
+   text-time="2008-02-22T08:22:09.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="0f297c5d4a5e6f49901f954b61a3c335"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:09.000000Z"/>
+<entry
+   committed-rev="3"
+   name="cats-pci.c"
+   text-time="2008-02-22T08:22:09.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="df1582f56b3453daf8591bb22051ea24"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:09.000000Z"/>
+<entry
+   committed-rev="3"
+   name="isa-irq.c"
+   text-time="2008-02-22T08:22:09.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="b6545063aedc607b7e01776caedea414"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:09.000000Z"/>
+<entry
+   committed-rev="3"
+   name="cats-hw.c"
+   text-time="2008-02-22T08:22:09.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="231e7b57a5da27c60bbedc37f827145c"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:09.000000Z"/>
+<entry
+   committed-rev="3"
+   name="netwinder-pci.c"
+   text-time="2008-02-22T08:22:09.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="a6f48647021ed97a085048b7a23093a6"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:09.000000Z"/>
+<entry
+   committed-rev="3"
+   name="mm.c"
+   text-time="2008-02-22T08:22:09.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="f768be9de630d7d724c9b23342ce2b8d"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:09.000000Z"/>
+<entry
+   name="CVS"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="netwinder-hw.c"
+   text-time="2008-02-22T08:22:09.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="04d4185375f072aea82bfd4c0f09f32e"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:09.000000Z"/>
+<entry
+   committed-rev="3"
+   name="arch.c"
+   text-time="2008-02-22T08:22:09.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="26737352325769dbcb1cb699c88df432"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:09.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ebsa285-pci.c"
+   text-time="2008-02-22T08:22:09.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="5516329fe58ad82c4b01a78045c7ebd1"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:09.000000Z"/>
+<entry
+   committed-rev="3"
+   name="netwinder-leds.c"
+   text-time="2008-02-22T08:22:09.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="7f84274e53b5c3a00e3939a4846a71b5"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:09.000000Z"/>
+<entry
+   committed-rev="3"
+   name="dc21285.c"
+   text-time="2008-02-22T08:22:09.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="bdf3ee0c0dfbd48500d16817cdc5f209"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:09.000000Z"/>
+<entry
+   committed-rev="3"
+   name="irq.c"
+   text-time="2008-02-22T08:22:09.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="854b79e9b7cf47ffa7aca88e7761f98c"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:09.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Makefile"
+   text-time="2008-02-22T08:22:09.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="43863d1e8df03f0cbcffc6786837fddf"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:09.000000Z"/>
+<entry
+   committed-rev="3"
+   name="personal-pci.c"
+   text-time="2008-02-22T08:22:09.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="e470a8ec51f22e063e0ab5612dcec5fc"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:09.000000Z"/>
+</wc-entries>

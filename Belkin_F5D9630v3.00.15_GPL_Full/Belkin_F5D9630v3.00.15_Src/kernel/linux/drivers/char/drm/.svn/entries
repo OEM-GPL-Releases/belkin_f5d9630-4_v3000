@@ -1,0 +1,781 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/kernel/linux/drivers/char/drm"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   committed-rev="3"
+   name="radeon_mem.c"
+   text-time="2008-02-22T08:23:54.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="abd34677b6bf3d48454a668bbcb9f4f0"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:54.000000Z"/>
+<entry
+   committed-rev="3"
+   name="drm_bufs.h"
+   text-time="2008-02-22T08:23:54.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="8ff066426e7f59464fb84d3e29a30114"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:54.000000Z"/>
+<entry
+   committed-rev="3"
+   name="drm_os_linux.h"
+   text-time="2008-02-22T08:23:54.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="b245acf814390f9eb5e002d52e2c2efa"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:54.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ffb_drv.c"
+   text-time="2008-02-22T08:23:54.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="a74fd7c913d853641f86cefb2b8df9b6"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:54.000000Z"/>
+<entry
+   committed-rev="3"
+   name="sis_drv.c"
+   text-time="2008-02-22T08:23:54.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="c3df8619764b2a7cda0d51777e5fa83f"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:54.000000Z"/>
+<entry
+   committed-rev="3"
+   name="drm_scatter.h"
+   text-time="2008-02-22T08:23:54.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="ba66c5d1cb2f087503e08b6e2ed622b7"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:54.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ffb_drv.h"
+   text-time="2008-02-22T08:23:54.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="b82b3e1b3c8166f2cc0f0db5a8329ab2"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:54.000000Z"/>
+<entry
+   committed-rev="3"
+   name="sis_drv.h"
+   text-time="2008-02-22T08:23:54.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="097c3df120f1553f58ed0b8db6afb9e1"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:54.000000Z"/>
+<entry
+   committed-rev="3"
+   name="tdfx_drv.c"
+   text-time="2008-02-22T08:23:54.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="306742871b7722827dfaf2a14574b15a"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:54.000000Z"/>
+<entry
+   committed-rev="3"
+   name="drm_ioctl.h"
+   text-time="2008-02-22T08:23:54.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="c288854926b35e1555fac62856a19040"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:54.000000Z"/>
+<entry
+   committed-rev="3"
+   name="drm_stub.h"
+   text-time="2008-02-22T08:23:54.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="73ce4d11ebb0ec7ad70e9413e216a4ed"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:54.000000Z"/>
+<entry
+   committed-rev="3"
+   name="drm.h"
+   text-time="2008-02-22T08:23:54.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="5d0c2993bec8a95dca9b9f85408f50b8"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:54.000000Z"/>
+<entry
+   committed-rev="3"
+   name="i830.h"
+   text-time="2008-02-22T08:23:54.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="14625186bf162983d7b378b3e6ff401a"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:54.000000Z"/>
+<entry
+   committed-rev="3"
+   name="mga_ucode.h"
+   text-time="2008-02-22T08:23:54.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="1663e16b390d3ef1f8ddf7544371e08a"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:54.000000Z"/>
+<entry
+   committed-rev="3"
+   name="i830_drm.h"
+   text-time="2008-02-22T08:23:54.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="a6b8ed24ea9724de434cc5afac7599b1"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:54.000000Z"/>
+<entry
+   committed-rev="3"
+   name="radeon_cp.c"
+   text-time="2008-02-22T08:23:54.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="ad2f607efec3c5db29012bb7b28d6052"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:54.000000Z"/>
+<entry
+   committed-rev="3"
+   name="i810_drv.c"
+   text-time="2008-02-22T08:23:54.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="72299d0da20256d032e81154ba09f524"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:54.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Makefile"
+   text-time="2008-02-22T08:23:54.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="2db49dc48b62b0b83f9639221bb29c43"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:54.000000Z"/>
+<entry
+   committed-rev="3"
+   name=".cvsignore"
+   text-time="2008-02-22T08:23:54.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="d8b65572e25962faaf07c20bb34d224e"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:54.000000Z"/>
+<entry
+   committed-rev="3"
+   name="gamma_drv.c"
+   text-time="2008-02-22T08:23:54.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="d3636c83b67ec63dd7474ec18ca36a8d"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:54.000000Z"/>
+<entry
+   committed-rev="3"
+   name="i830_irq.c"
+   text-time="2008-02-22T08:23:54.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="3124ade472961ec6aae9e8315aeabc2d"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:54.000000Z"/>
+<entry
+   committed-rev="3"
+   name="drm_lock.h"
+   text-time="2008-02-22T08:23:54.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="eb8d28c81169a2e0b3042eb44f72055c"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:54.000000Z"/>
+<entry
+   committed-rev="3"
+   name="i810_drv.h"
+   text-time="2008-02-22T08:23:54.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="81b23be7591792d462bfe1152829cb4a"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:54.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ffb_context.c"
+   text-time="2008-02-22T08:23:54.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="3c2284bf8a3e5be477e8acf652bd2f30"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:54.000000Z"/>
+<entry
+   committed-rev="3"
+   name="gamma_drv.h"
+   text-time="2008-02-22T08:23:54.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="49fb86bffb74686c02054e56a04e5241"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:54.000000Z"/>
+<entry
+   committed-rev="3"
+   name="drm_irq.h"
+   text-time="2008-02-22T08:23:54.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="eb08f30de280220e06444ebb75e0884a"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:54.000000Z"/>
+<entry
+   committed-rev="3"
+   name="i830_dma.c"
+   text-time="2008-02-22T08:23:54.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="a5128b081a23321ffb83b4836551f28f"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:54.000000Z"/>
+<entry
+   committed-rev="3"
+   name="gamma_lists.h"
+   text-time="2008-02-22T08:23:54.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="93181f7db9958cbbc6240e78816afcc0"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:54.000000Z"/>
+<entry
+   committed-rev="3"
+   name="r128_cce.c"
+   text-time="2008-02-22T08:23:54.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="ee625eddc0c44bf6eb6a9cf23e8f87c4"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:54.000000Z"/>
+<entry
+   committed-rev="3"
+   name="r128_drv.c"
+   text-time="2008-02-22T08:23:54.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="6b27f3b8c199cdf67f0d9456575462c8"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:54.000000Z"/>
+<entry
+   committed-rev="3"
+   name="drm_dma.h"
+   text-time="2008-02-22T08:23:54.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="1cc875e485ad20d9cf36b05fb63e3629"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:54.000000Z"/>
+<entry
+   committed-rev="3"
+   name="drm_proc.h"
+   text-time="2008-02-22T08:23:54.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="2c7e26108e7c0eab2b8a61a752b0e72f"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:54.000000Z"/>
+<entry
+   committed-rev="3"
+   name="drm_agpsupport.h"
+   text-time="2008-02-22T08:23:54.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="c909d50dca8b299b24442beb85cffb7f"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:54.000000Z"/>
+<entry
+   committed-rev="3"
+   name="r128_drv.h"
+   text-time="2008-02-22T08:23:54.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="6900a0c4090893314477bb274e20722d"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:54.000000Z"/>
+<entry
+   committed-rev="3"
+   name="mga_drv.c"
+   text-time="2008-02-22T08:23:54.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="37c3742a034042ebd0c2a53c1ee98ea0"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:54.000000Z"/>
+<entry
+   committed-rev="3"
+   name="drm_pciids.h"
+   text-time="2008-02-22T08:23:54.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="2432af7146b98d01c0b203278bf13516"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:54.000000Z"/>
+<entry
+   committed-rev="3"
+   name="radeon_drv.c"
+   text-time="2008-02-22T08:23:54.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="f5b8b985145712729957ebe38fe91736"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:54.000000Z"/>
+<entry
+   committed-rev="3"
+   name="mga_drv.h"
+   text-time="2008-02-22T08:23:54.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="78276cb3cc2b91bf5f88717c14cc284f"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:54.000000Z"/>
+<entry
+   committed-rev="3"
+   name="sis_mm.c"
+   text-time="2008-02-22T08:23:54.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="9567441c41b2b3ebbc72e38454524a29"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:54.000000Z"/>
+<entry
+   committed-rev="3"
+   name="radeon_drv.h"
+   text-time="2008-02-22T08:23:54.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="076bbf8a1073a063f51099acb22089bd"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:54.000000Z"/>
+<entry
+   committed-rev="3"
+   name="gamma_context.h"
+   text-time="2008-02-22T08:23:54.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="4db613af893688dba659272a76566fbe"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:54.000000Z"/>
+<entry
+   committed-rev="3"
+   name="r128_state.c"
+   text-time="2008-02-22T08:23:54.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="3e8c8d7f69d517963622398cb448f52a"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:54.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Kconfig"
+   text-time="2008-02-22T08:23:54.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="6cc9b166ffb6597a51dd4a8c5f7991be"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:54.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ffb.h"
+   text-time="2008-02-22T08:23:54.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="a25be46ab7175cf4eed551b4befebd9c"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:54.000000Z"/>
+<entry
+   committed-rev="3"
+   name="sis.h"
+   text-time="2008-02-22T08:23:54.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="44edd920e3cdd3325406e8b8bb0ac424"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:54.000000Z"/>
+<entry
+   committed-rev="3"
+   name="mga_state.c"
+   text-time="2008-02-22T08:23:54.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="b8cc69c8b907dfa1fac063881b00c7c1"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:54.000000Z"/>
+<entry
+   committed-rev="3"
+   name="sis_drm.h"
+   text-time="2008-02-22T08:23:54.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="6f22e26b5a5a8f803b1282d9d8ba2103"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:54.000000Z"/>
+<entry
+   committed-rev="3"
+   name="drmP.h"
+   text-time="2008-02-22T08:23:54.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="3c7814cf727d664469b090806bbe0801"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:54.000000Z"/>
+<entry
+   committed-rev="3"
+   name="radeon_state.c"
+   text-time="2008-02-22T08:23:54.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="abda8467a46b6a92eda59a973cdac1ab"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:54.000000Z"/>
+<entry
+   committed-rev="3"
+   name="tdfx.h"
+   text-time="2008-02-22T08:23:54.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="cc2236b4cf872ee148139fda8b7baf9d"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:54.000000Z"/>
+<entry
+   committed-rev="3"
+   name="drm_init.h"
+   text-time="2008-02-22T08:23:54.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="743ff3785bb3dfc72bb3aaada98ec6c1"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:54.000000Z"/>
+<entry
+   committed-rev="3"
+   name="drm_fops.h"
+   text-time="2008-02-22T08:23:54.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="1eaeaf26ea085b0224215390d51c8720"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:54.000000Z"/>
+<entry
+   committed-rev="3"
+   name="sis_ds.c"
+   text-time="2008-02-22T08:23:54.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="b058eca67812945332eb11e0a502334b"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:54.000000Z"/>
+<entry
+   committed-rev="3"
+   name="i810.h"
+   text-time="2008-02-22T08:23:54.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="7255b98390b8b19906da3f77042e2014"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:54.000000Z"/>
+<entry
+   committed-rev="3"
+   name="gamma.h"
+   text-time="2008-02-22T08:23:54.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="fd47634530ea8f98f56665058d6c6597"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:54.000000Z"/>
+<entry
+   committed-rev="3"
+   name="drm_drawable.h"
+   text-time="2008-02-22T08:23:54.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="4d6d0d913e84c0f84c77b49c5562efe5"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:54.000000Z"/>
+<entry
+   committed-rev="3"
+   name="i810_drm.h"
+   text-time="2008-02-22T08:23:54.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="784fd80831f14be0b2ec063f10bbae51"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:54.000000Z"/>
+<entry
+   committed-rev="3"
+   name="sis_ds.h"
+   text-time="2008-02-22T08:23:54.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="9a1de59ed568766a81b265c94815246e"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:54.000000Z"/>
+<entry
+   committed-rev="3"
+   name="gamma_drm.h"
+   text-time="2008-02-22T08:23:54.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="92500fe77f1d13db788ad9580bf780ff"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:54.000000Z"/>
+<entry
+   committed-rev="3"
+   name="README.drm"
+   text-time="2008-02-22T08:23:54.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="e2012fc27b5d43bc4c945dfb939b9d1e"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:54.000000Z"/>
+<entry
+   committed-rev="3"
+   name="i830_drv.c"
+   text-time="2008-02-22T08:23:54.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="b66de6d7a5f54ef520a7a58a1b5203c4"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:54.000000Z"/>
+<entry
+   committed-rev="3"
+   name="gamma_lock.h"
+   text-time="2008-02-22T08:23:54.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="0758870a410a47605f3388603da10490"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:54.000000Z"/>
+<entry
+   committed-rev="3"
+   name="r128.h"
+   text-time="2008-02-22T08:23:54.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="714b1f83c6c3498a9bc825919e29248f"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:54.000000Z"/>
+<entry
+   committed-rev="3"
+   name="i810_dma.c"
+   text-time="2008-02-22T08:23:54.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="76708af79792bb31631770a2d77542b5"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:54.000000Z"/>
+<entry
+   committed-rev="3"
+   name="drm_drv.h"
+   text-time="2008-02-22T08:23:54.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="258447583cdc18869f79d4ddfae10ed9"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:54.000000Z"/>
+<entry
+   committed-rev="3"
+   name="drm_sarea.h"
+   text-time="2008-02-22T08:23:54.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="0e24ba3ff175c1dbabed29d7c16e53d5"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:54.000000Z"/>
+<entry
+   committed-rev="3"
+   name="i830_drv.h"
+   text-time="2008-02-22T08:23:54.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="5e1080af48fd3b079710fbcacd37b21a"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:54.000000Z"/>
+<entry
+   committed-rev="3"
+   name="gamma_dma.c"
+   text-time="2008-02-22T08:23:54.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="7311197fc14aeb22a3ea0da47b0d7065"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:54.000000Z"/>
+<entry
+   committed-rev="3"
+   name="r128_drm.h"
+   text-time="2008-02-22T08:23:54.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="6367c2353906ac36dc007dfd1d40ecdb"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:54.000000Z"/>
+<entry
+   committed-rev="3"
+   name="gamma_old_dma.h"
+   text-time="2008-02-22T08:23:54.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="dd5981dd1637eda32ada811590199bd7"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:54.000000Z"/>
+<entry
+   committed-rev="3"
+   name="r128_irq.c"
+   text-time="2008-02-22T08:23:54.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="5ff611dc9f1b99b733ffe1c2e6fbcc13"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:54.000000Z"/>
+<entry
+   committed-rev="3"
+   name="drm_auth.h"
+   text-time="2008-02-22T08:23:54.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="5d8f26379611d968d7a2c57bb91a4919"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:54.000000Z"/>
+<entry
+   committed-rev="3"
+   name="mga.h"
+   text-time="2008-02-22T08:23:54.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="3708e688353bdb687423ab68d4727234"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:54.000000Z"/>
+<entry
+   name="CVS"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="mga_drm.h"
+   text-time="2008-02-22T08:23:54.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="b1000a5fe87a329cc3d9ed96611a6d1b"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:54.000000Z"/>
+<entry
+   committed-rev="3"
+   name="radeon.h"
+   text-time="2008-02-22T08:23:54.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="48b4460b4dd1f8385befffe6ad43b785"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:54.000000Z"/>
+<entry
+   committed-rev="3"
+   name="mga_irq.c"
+   text-time="2008-02-22T08:23:54.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="01f662b7f65ea4b56592a12515799cf3"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:54.000000Z"/>
+<entry
+   committed-rev="3"
+   name="drm_memory.h"
+   text-time="2008-02-22T08:23:54.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="e89fb9a3f4091524ee600c38ef354c82"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:54.000000Z"/>
+<entry
+   committed-rev="3"
+   name="radeon_drm.h"
+   text-time="2008-02-22T08:23:54.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="3002153965614094539c13e34a98ccb6"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:54.000000Z"/>
+<entry
+   committed-rev="3"
+   name="radeon_irq.c"
+   text-time="2008-02-22T08:23:54.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="e8506c8d011506b30688172ea0927504"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:54.000000Z"/>
+<entry
+   committed-rev="3"
+   name="mga_dma.c"
+   text-time="2008-02-22T08:23:54.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="3faef4751cfaad5ed4000d814a0eb2bf"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:54.000000Z"/>
+<entry
+   committed-rev="3"
+   name="drm_memory_debug.h"
+   text-time="2008-02-22T08:23:54.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="444c0fa268ba721669c3267d9778a9d6"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:54.000000Z"/>
+<entry
+   committed-rev="3"
+   name="drm_vm.h"
+   text-time="2008-02-22T08:23:54.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="8f96c38a3a59f6c43cd8149c1450c2d2"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:54.000000Z"/>
+<entry
+   committed-rev="3"
+   name="drm_context.h"
+   text-time="2008-02-22T08:23:54.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="2e4d04261ff88f201c54c3d96ccce0ab"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:54.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ati_pcigart.h"
+   text-time="2008-02-22T08:23:54.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="dca955670be067f8c38830a69df28e29"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:54.000000Z"/>
+<entry
+   committed-rev="3"
+   name="mga_warp.c"
+   text-time="2008-02-22T08:23:54.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="27d444f32a28a872808aa4aac48a1d67"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:54.000000Z"/>
+</wc-entries>

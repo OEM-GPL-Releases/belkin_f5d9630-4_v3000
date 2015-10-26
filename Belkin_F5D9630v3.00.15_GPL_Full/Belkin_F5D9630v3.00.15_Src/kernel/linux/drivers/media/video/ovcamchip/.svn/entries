@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/kernel/linux/drivers/media/video/ovcamchip"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   committed-rev="3"
+   name="ovcamchip_priv.h"
+   text-time="2008-02-22T08:23:19.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="f88989a721e29f1f757dc1b8df6fada5"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:19.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ovcamchip_core.c"
+   text-time="2008-02-22T08:23:19.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="10ac04a366a6f57aeacbf322320a6d80"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:19.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ov6x20.c"
+   text-time="2008-02-22T08:23:19.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="c67f1ec4d8a45c5bfc2ac26d1bd92373"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:19.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ov7x10.c"
+   text-time="2008-02-22T08:23:19.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="6660871853e93779d08f85e92c164c58"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:19.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ov6x30.c"
+   text-time="2008-02-22T08:23:19.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="dcc8e000fc48fc487f2b581cb2216eb7"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:19.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ov7x20.c"
+   text-time="2008-02-22T08:23:19.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="f072c3d4afe9ff27bf37f4b790f5a848"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:19.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ov76be.c"
+   text-time="2008-02-22T08:23:19.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="125bad25177e504470d28117d74c420a"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:19.000000Z"/>
+<entry
+   name="CVS"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="Makefile"
+   text-time="2008-02-22T08:23:19.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="505cf2b3d8e2e71d5c1c88ca596c18eb"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:19.000000Z"/>
+</wc-entries>

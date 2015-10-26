@@ -1,0 +1,51 @@
+<html>
+<script language="javascript">
+<!-- hide
+var mode = '<%ejGetWl(wlAuthMode)%>';
+var wep = '<%ejGetWl(wlWep)%>';
+var bit = '<%ejGetWl(wlKeyBit)%>';
+
+var loc;
+
+if( mode =='psk' || mode =='psk2' || mode == 'psk2mix')
+	mode = 'psk'
+else if(mode =='wpa' || mode == 'wpa2' || mode == 'wpa2mix')	
+	mode = 'wpa'
+
+
+var autoup = '<%ejGet(autoUpgrade_flag)%>';
+
+if(autoup == '1')
+{
+	newwin=window.open("checkfw.html","Firmware","toolbar=no,location=no,directories=no,status=no,menubar=no,scrollbars=yes,width=395,height=200,resizable=0");
+	newwin.focus();
+}
+
+	
+      switch ( mode ) 
+	  {
+        case 'open':
+			if(wep == 'disabled')
+		  		loc = 'wireless_encrypt_no.html';
+			else
+			{
+				if(bit == 0)
+					loc = 'wireless_encrypt_128.html';
+				else
+					loc = 'wireless_encrypt_64.html';
+			}
+          break;
+        case 'wpa':
+		  loc = 'wireless_wpa_radius.html';
+          break;
+        case 'psk':
+		  loc = 'wireless_wpa_psk.html';
+          break;
+		default:
+		  loc = 'wireless_encrypt_no.html';
+	  }
+	  window.location.href = loc;
+
+// done hiding -->
+</script>
+</html>

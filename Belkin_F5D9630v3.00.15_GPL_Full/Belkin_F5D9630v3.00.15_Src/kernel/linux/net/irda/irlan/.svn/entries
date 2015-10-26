@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/kernel/linux/net/irda/irlan"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   committed-rev="3"
+   name="Kconfig"
+   text-time="2008-02-22T08:21:28.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="54863023f80bf977a3c00fad53150f3a"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:28.000000Z"/>
+<entry
+   committed-rev="3"
+   name="irlan_provider.c"
+   text-time="2008-02-22T08:21:28.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="c35d68a589741c673945ceb009a22a1d"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:28.000000Z"/>
+<entry
+   committed-rev="3"
+   name="irlan_provider_event.c"
+   text-time="2008-02-22T08:21:28.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="059c68c7c0be6bf24c0b86c6b60fea3b"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:28.000000Z"/>
+<entry
+   committed-rev="3"
+   name="irlan_client.c"
+   text-time="2008-02-22T08:21:28.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="46eff523495794b059ff847ac6f2919d"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:28.000000Z"/>
+<entry
+   committed-rev="3"
+   name="irlan_client_event.c"
+   text-time="2008-02-22T08:21:28.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="f29a655eb84437b26a76b3520eb42186"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:28.000000Z"/>
+<entry
+   committed-rev="3"
+   name="irlan_eth.c"
+   text-time="2008-02-22T08:21:28.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="3306be291d7e61828ee6f55792e07936"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:28.000000Z"/>
+<entry
+   committed-rev="3"
+   name="irlan_event.c"
+   text-time="2008-02-22T08:21:28.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="1e822dae5cdf74447ea6b14b7d6673a3"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:28.000000Z"/>
+<entry
+   name="CVS"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="irlan_filter.c"
+   text-time="2008-02-22T08:21:28.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="f1ab14bb3883f0d103cad2ebe46f0358"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:28.000000Z"/>
+<entry
+   committed-rev="3"
+   name=".cvsignore"
+   text-time="2008-02-22T08:21:28.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="d8b65572e25962faaf07c20bb34d224e"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:28.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Makefile"
+   text-time="2008-02-22T08:21:28.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="995fcbf518819fef751f1095cb263d10"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:28.000000Z"/>
+<entry
+   committed-rev="3"
+   name="irlan_common.c"
+   text-time="2008-02-22T08:21:28.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="e9739baa7978198dcd0be33f3af2c0d6"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:28.000000Z"/>
+</wc-entries>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/userapps/opensource/oprofile/daemon/liblegacy/.deps"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   committed-rev="3"
+   name="opd_kernel.Po"
+   text-time="2008-02-22T08:24:58.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="52ee89e23edf6a0032d65b8384df654d"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:58.000000Z"/>
+<entry
+   committed-rev="3"
+   name="init.Po"
+   text-time="2008-02-22T08:24:58.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="5cabd5b7b7b12b2eed55b130ee049143"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:58.000000Z"/>
+<entry
+   committed-rev="3"
+   name="opd_image.Po"
+   text-time="2008-02-22T08:24:58.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="35824106af3731c0415dd27f09d91b3e"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:58.000000Z"/>
+<entry
+   committed-rev="3"
+   name="opd_24_stats.Po"
+   text-time="2008-02-22T08:24:58.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="0abe0d4b37063ded84e3f449b71e420d"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:58.000000Z"/>
+<entry
+   committed-rev="3"
+   name="opd_proc.Po"
+   text-time="2008-02-22T08:24:58.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="35dc5a0d7ba55fbdc077a018e7d52aad"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:58.000000Z"/>
+<entry
+   committed-rev="3"
+   name="opd_sample_files.Po"
+   text-time="2008-02-22T08:24:58.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="d305515edf11368a3713a4905202a659"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:58.000000Z"/>
+<entry
+   committed-rev="3"
+   name="opd_mapping.Po"
+   text-time="2008-02-22T08:24:58.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="6654ad866775ed2c747589b3bf5da7e0"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:58.000000Z"/>
+<entry
+   committed-rev="3"
+   name="opd_parse_proc.Po"
+   text-time="2008-02-22T08:24:58.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="ea6382481776446f3b426e0f4c8a14cd"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:58.000000Z"/>
+</wc-entries>

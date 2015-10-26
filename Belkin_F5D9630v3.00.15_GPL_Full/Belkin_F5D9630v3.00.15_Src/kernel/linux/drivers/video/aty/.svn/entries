@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/kernel/linux/drivers/video/aty"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   committed-rev="3"
+   name="atyfb_base.c"
+   text-time="2008-02-22T08:23:44.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="2d09e348aa5060e7d20a6706d4e0151d"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:44.000000Z"/>
+<entry
+   committed-rev="3"
+   name="radeon_accel.c"
+   text-time="2008-02-22T08:23:44.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="a95279ab810ca67787ad56a8c0154361"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:44.000000Z"/>
+<entry
+   committed-rev="3"
+   name="aty128fb.c"
+   text-time="2008-02-22T08:23:44.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="739dd82f54243e3a99c21e9ff2832331"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:44.000000Z"/>
+<entry
+   committed-rev="3"
+   name="radeon_base.c"
+   text-time="2008-02-22T08:23:44.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="f933511edf79d556fe491155519ee033"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:44.000000Z"/>
+<entry
+   committed-rev="3"
+   name="radeon_pm.c"
+   text-time="2008-02-22T08:23:44.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="a80d148fa264d54938c1fbb9c74be4fe"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:44.000000Z"/>
+<entry
+   committed-rev="3"
+   name="radeon_i2c.c"
+   text-time="2008-02-22T08:23:44.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="c4d8427085390e7562eb7cdcfdc57fa8"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:44.000000Z"/>
+<entry
+   committed-rev="3"
+   name="xlinit.c"
+   text-time="2008-02-22T08:23:44.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="e9b354311b9b0cf9f7096dc5e130246a"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:44.000000Z"/>
+<entry
+   committed-rev="3"
+   name="mach64_ct.c"
+   text-time="2008-02-22T08:23:44.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="12790e782fec6cdd3e0b4ba75f93b100"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:44.000000Z"/>
+<entry
+   committed-rev="3"
+   name="mach64_accel.c"
+   text-time="2008-02-22T08:23:44.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="54971bca2b76d2fd90769c6e8e18b340"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:44.000000Z"/>
+<entry
+   committed-rev="3"
+   name="atyfb.h"
+   text-time="2008-02-22T08:23:44.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="ce931eb9bd11f8e67814687dd4b0a63b"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:44.000000Z"/>
+<entry
+   name="CVS"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="mach64_cursor.c"
+   text-time="2008-02-22T08:23:44.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="31562a63695004f58ee5a1abc01dc5a6"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:44.000000Z"/>
+<entry
+   committed-rev="3"
+   name="radeon_monitor.c"
+   text-time="2008-02-22T08:23:44.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="03f485f4be397680e2f6f8ccc2ba2fd1"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:44.000000Z"/>
+<entry
+   committed-rev="3"
+   name="mach64_gx.c"
+   text-time="2008-02-22T08:23:44.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="fe304044115b862a4ada9541a5e129ab"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:44.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ati_ids.h"
+   text-time="2008-02-22T08:23:44.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="596d5f9207983ca7ce82c52f2d6ca314"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:44.000000Z"/>
+<entry
+   committed-rev="3"
+   name="radeonfb.h"
+   text-time="2008-02-22T08:23:44.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="62771fdc72b21a61244661cd5c834d41"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:44.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Makefile"
+   text-time="2008-02-22T08:23:44.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="7fad8dfc1dfe091c1dca55c57d34a53b"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:44.000000Z"/>
+<entry
+   committed-rev="3"
+   name=".cvsignore"
+   text-time="2008-02-22T08:23:44.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="d8b65572e25962faaf07c20bb34d224e"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:44.000000Z"/>
+</wc-entries>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/kernel/linux/arch/m68k/ifpsp060/src"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   committed-rev="3"
+   name="README-SRC"
+   text-time="2008-02-22T08:22:27.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="51bba0aa660d89249c64710d24978a80"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:27.000000Z"/>
+<entry
+   committed-rev="3"
+   name="fplsp.S"
+   text-time="2008-02-22T08:22:27.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="5a2805032be185f6e1b3cfa63bd8bfd8"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:27.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ftest.S"
+   text-time="2008-02-22T08:22:27.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="05aa6c3fec8dd42c723443ad2e424e3b"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:27.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ilsp.S"
+   text-time="2008-02-22T08:22:27.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="6beabf4dcb7ff8964a09e59375071cee"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:27.000000Z"/>
+<entry
+   committed-rev="3"
+   name="fpsp.S"
+   text-time="2008-02-22T08:22:27.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="5ba918770eea7f6106718e6d5bc879c7"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:27.000000Z"/>
+<entry
+   committed-rev="3"
+   name="itest.S"
+   text-time="2008-02-22T08:22:27.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="56cf7a67ebad5be4fc0218c6e16b1a2b"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:27.000000Z"/>
+<entry
+   committed-rev="3"
+   name="pfpsp.S"
+   text-time="2008-02-22T08:22:27.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="175cf69aa2f13a5f5a79a01ab9b41c33"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:27.000000Z"/>
+<entry
+   name="CVS"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="isp.S"
+   text-time="2008-02-22T08:22:27.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="d10648dcbc519570a151cc3d2dea9e0c"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:27.000000Z"/>
+</wc-entries>

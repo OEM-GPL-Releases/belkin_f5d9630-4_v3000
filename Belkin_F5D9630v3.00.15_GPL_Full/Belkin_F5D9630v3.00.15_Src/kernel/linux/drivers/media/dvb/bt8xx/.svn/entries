@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/kernel/linux/drivers/media/dvb/bt8xx"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   committed-rev="3"
+   name="Kconfig"
+   text-time="2008-02-22T08:23:25.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="ef228358472ed6d530674d89701dbe59"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:25.000000Z"/>
+<entry
+   committed-rev="3"
+   name="bt878.h"
+   text-time="2008-02-22T08:23:25.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="db1d7885e2c2dd9d0c1c3b0287ca4192"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:25.000000Z"/>
+<entry
+   committed-rev="3"
+   name="dvb-bt8xx.c"
+   text-time="2008-02-22T08:23:25.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="d82516300310ff6129dd4047fc75d3f3"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:25.000000Z"/>
+<entry
+   name="CVS"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="dvb-bt8xx.h"
+   text-time="2008-02-22T08:23:25.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="8a3a2e59473efd1016dd3ca67d6a470f"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:25.000000Z"/>
+<entry
+   committed-rev="3"
+   name=".cvsignore"
+   text-time="2008-02-22T08:23:25.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="d8b65572e25962faaf07c20bb34d224e"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:25.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Makefile"
+   text-time="2008-02-22T08:23:25.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="518ea1ff7c35a61f180b2ca0adc1601f"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:25.000000Z"/>
+<entry
+   committed-rev="3"
+   name="bt878.c"
+   text-time="2008-02-22T08:23:25.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="fd53a29682ba45486e914dd71bd47c68"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:25.000000Z"/>
+</wc-entries>

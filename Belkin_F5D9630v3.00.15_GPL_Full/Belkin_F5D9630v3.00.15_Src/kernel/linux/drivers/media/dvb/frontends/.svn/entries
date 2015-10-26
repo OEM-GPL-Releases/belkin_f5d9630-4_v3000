@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/kernel/linux/drivers/media/dvb/frontends"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   committed-rev="3"
+   name="Kconfig"
+   text-time="2008-02-22T08:23:24.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="51337f8653b897bff4541edf4d69bd5e"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:24.000000Z"/>
+<entry
+   committed-rev="3"
+   name="stv0299.c"
+   text-time="2008-02-22T08:23:24.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="11e9f1c22280a3944f926548a3257013"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:24.000000Z"/>
+<entry
+   committed-rev="3"
+   name="dvb_dummy_fe.c"
+   text-time="2008-02-22T08:23:24.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="c594e10e4928ed47207c6a69af6727a3"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:24.000000Z"/>
+<entry
+   committed-rev="3"
+   name="cx24110.c"
+   text-time="2008-02-22T08:23:24.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="1f061a75057e335d5f566c104ddf2e9d"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:24.000000Z"/>
+<entry
+   committed-rev="3"
+   name="sp887x_firm.h"
+   text-time="2008-02-22T08:23:24.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="008bcb67b5f7b9475741ff69ccef7e06"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:24.000000Z"/>
+<entry
+   committed-rev="3"
+   name="grundig_29504-401.c"
+   text-time="2008-02-22T08:23:24.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="6b32939d7f7ea90564ae14e14b970ee8"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:24.000000Z"/>
+<entry
+   committed-rev="3"
+   name="tda1004x.c"
+   text-time="2008-02-22T08:23:24.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="e05875c09247e1ebbaadc0865a10a3ac"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:24.000000Z"/>
+<entry
+   committed-rev="3"
+   name="mt312.c"
+   text-time="2008-02-22T08:23:24.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="fcfedf2916fa72c0af64ce7ba1d3d8ee"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:24.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ves1820.c"
+   text-time="2008-02-22T08:23:24.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="9082575189e43c1843068d753b592083"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:24.000000Z"/>
+<entry
+   committed-rev="3"
+   name="dst-bt878.h"
+   text-time="2008-02-22T08:23:24.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="a1baaad6ac566154cec19d4c9bf4de7e"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:24.000000Z"/>
+<entry
+   name="CVS"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="mt312.h"
+   text-time="2008-02-22T08:23:24.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="f0f8faeae1f831ac0a94a02446907d2e"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:24.000000Z"/>
+<entry
+   committed-rev="3"
+   name="grundig_29504-491.c"
+   text-time="2008-02-22T08:23:24.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="335f74d035e6cb6a7034426eeabc4f69"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:24.000000Z"/>
+<entry
+   committed-rev="3"
+   name="nxt6000.c"
+   text-time="2008-02-22T08:23:24.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="ee432b9d6361ae9c34cdf3c91b876cf1"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:24.000000Z"/>
+<entry
+   committed-rev="3"
+   name="at76c651.c"
+   text-time="2008-02-22T08:23:24.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="b84eb3e3e9c84cc73b17befec625fdd0"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:24.000000Z"/>
+<entry
+   committed-rev="3"
+   name="sp887x.c"
+   text-time="2008-02-22T08:23:24.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="a2fd810db26c14998db668a7ea574b5c"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:24.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ves1x93.c"
+   text-time="2008-02-22T08:23:24.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="e0c112b7522d6cff77f12f6f878ffcea"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:24.000000Z"/>
+<entry
+   committed-rev="3"
+   name="nxt6000.h"
+   text-time="2008-02-22T08:23:24.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="87af47a1709a0aa5e6f562a0490f0694"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:24.000000Z"/>
+<entry
+   committed-rev="3"
+   name="dst.c"
+   text-time="2008-02-22T08:23:24.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="a2373f52e0dc2cbac38221721c008a02"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:24.000000Z"/>
+<entry
+   committed-rev="3"
+   name="alps_tdlb7.c"
+   text-time="2008-02-22T08:23:24.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="9c0fc91d161b13d2c82da9d8a4a9a01e"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:24.000000Z"/>
+<entry
+   committed-rev="3"
+   name="alps_tdmb7.c"
+   text-time="2008-02-22T08:23:24.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="7dd43c867ade859a11a2eb7e4b325617"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:24.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Makefile"
+   text-time="2008-02-22T08:23:24.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="f3348e895420fe15452dc44240f5c70e"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:24.000000Z"/>
+<entry
+   committed-rev="3"
+   name=".cvsignore"
+   text-time="2008-02-22T08:23:24.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="d8b65572e25962faaf07c20bb34d224e"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:24.000000Z"/>
+</wc-entries>

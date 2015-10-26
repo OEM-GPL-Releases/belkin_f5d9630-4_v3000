@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/kernel/linux/arch/mips/sgi-ip32"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   committed-rev="3"
+   name="crime.c"
+   text-time="2008-02-22T08:23:11.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="ae6d837916b07ba0c10fe5a3a53bc0ee"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:11.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ip32-irq-glue.S"
+   text-time="2008-02-22T08:23:11.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="67d467e97ca19c3f2aa0cad6afbf93be"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:11.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ip32-berr.c"
+   text-time="2008-02-22T08:23:11.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="a96655084d0060690953f3bc23809f9b"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:11.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ip32-irq.c"
+   text-time="2008-02-22T08:23:11.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="9cadcf5e56ec3adfed78b9e42ff9cac2"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:11.000000Z"/>
+<entry
+   name="CVS"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="ip32-setup.c"
+   text-time="2008-02-22T08:23:11.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="9fe4b8b65899b4e2df1e2815a94e29d4"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:11.000000Z"/>
+<entry
+   committed-rev="3"
+   name=".cvsignore"
+   text-time="2008-02-22T08:23:11.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="d8b65572e25962faaf07c20bb34d224e"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:11.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Makefile"
+   text-time="2008-02-22T08:23:11.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="d12f1bc828468ce7bad0ebd5998894b3"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:11.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ip32-reset.c"
+   text-time="2008-02-22T08:23:11.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="bf2d64587b0c588b4569b024c64dc404"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:11.000000Z"/>
+</wc-entries>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/userapps/opensource/oprofile/libdb/tests"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   committed-rev="3"
+   name="Makefile.in"
+   text-time="2008-02-22T08:24:53.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="5c6355b2245cb8d92d4d7d0e159e10ec"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:53.000000Z"/>
+<entry
+   committed-rev="3"
+   name="db_test.c"
+   text-time="2008-02-22T08:24:53.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="e5cb645d9b69f154e83ffaec78fc4edd"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:53.000000Z"/>
+<entry
+   name=".deps"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="Makefile.am"
+   text-time="2008-02-22T08:24:53.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="ba9038a0df213dbf85daaf6000e16e71"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:53.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Makefile"
+   text-time="2008-02-22T08:24:53.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="6436129c1b25157b568fd7569a4e765d"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:53.000000Z"/>
+</wc-entries>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/kernel/linux/arch/um/kernel/tt/include"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   committed-rev="3"
+   name="mmu.h"
+   text-time="2008-02-22T08:22:13.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="3efc98adf4b4a1651410d1fcea6d742d"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:13.000000Z"/>
+<entry
+   committed-rev="3"
+   name="mode_kern.h"
+   text-time="2008-02-22T08:22:13.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="b5c763d4242d2380b24493d1a1e6b357"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:13.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ptrace-tt.h"
+   text-time="2008-02-22T08:22:13.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="084737e2e9768b02b9f6709f67b2d5cd"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:13.000000Z"/>
+<entry
+   committed-rev="3"
+   name="mode.h"
+   text-time="2008-02-22T08:22:13.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="c48d9396075283e9354f89c56853baaf"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:13.000000Z"/>
+<entry
+   name="CVS"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="debug.h"
+   text-time="2008-02-22T08:22:13.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="d0d983d5ed978c96427d689e57e1b121"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:13.000000Z"/>
+<entry
+   committed-rev="3"
+   name="uaccess.h"
+   text-time="2008-02-22T08:22:13.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="043c6475725a134d91a0307e108a82b6"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:13.000000Z"/>
+<entry
+   committed-rev="3"
+   name="tt.h"
+   text-time="2008-02-22T08:22:13.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="58d6e7c2c3fbff0c4e77aab447cd9cbe"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:13.000000Z"/>
+</wc-entries>

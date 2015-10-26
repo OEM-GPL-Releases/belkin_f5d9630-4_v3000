@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/kernel/linux/arch/um/include/sysdep-i386"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   committed-rev="3"
+   name="frame_kern.h"
+   text-time="2008-02-22T08:22:16.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="d83f9186972247e68476341097366b09"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:15.000000Z"/>
+<entry
+   committed-rev="3"
+   name="frame.h"
+   text-time="2008-02-22T08:22:16.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="90b4057811a7246c1c30fffa5f0f2cd6"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:15.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ptrace_user.h"
+   text-time="2008-02-22T08:22:16.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="7e90364a969bac54a544a7b431f3466e"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:16.000000Z"/>
+<entry
+   committed-rev="3"
+   name="syscalls.h"
+   text-time="2008-02-22T08:22:16.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="3ac8534c4a491e0d774edc1047fa79c2"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:16.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ptrace.h"
+   text-time="2008-02-22T08:22:16.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="86e28712993c05039b32ba0d99272d4d"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:16.000000Z"/>
+<entry
+   committed-rev="3"
+   name="checksum.h"
+   text-time="2008-02-22T08:22:16.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="3524ce2001f2f745eea3d64bab83a626"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:16.000000Z"/>
+<entry
+   name="CVS"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="sigcontext.h"
+   text-time="2008-02-22T08:22:16.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="3850c3f428052a798d8743a11a9ba2ce"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:16.000000Z"/>
+<entry
+   committed-rev="3"
+   name="frame_user.h"
+   text-time="2008-02-22T08:22:16.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="8d43c16c1b2e077dc487b7b58a80bcc2"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:16.000000Z"/>
+</wc-entries>

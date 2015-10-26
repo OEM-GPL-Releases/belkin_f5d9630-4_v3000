@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/kernel/linux/arch/x86_64"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   name="oprofile"
+   kind="dir"/>
+<entry
+   name="kernel"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="Kconfig"
+   text-time="2008-02-22T08:22:43.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="cf83708c0fdb5f3e9df7eefc607a37b9"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:39.000000Z"/>
+<entry
+   name="boot"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="defconfig"
+   text-time="2008-02-22T08:22:43.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="0607c36b28a413eba4656b0b7dafc743"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:42.000000Z"/>
+<entry
+   name="lib"
+   kind="dir"/>
+<entry
+   name="mm"
+   kind="dir"/>
+<entry
+   name="CVS"
+   kind="dir"/>
+<entry
+   name="pci"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="Makefile"
+   text-time="2008-02-22T08:22:43.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="c3ad787ca2ced798a2a41a4c29549691"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:42.000000Z"/>
+<entry
+   name="ia32"
+   kind="dir"/>
+</wc-entries>

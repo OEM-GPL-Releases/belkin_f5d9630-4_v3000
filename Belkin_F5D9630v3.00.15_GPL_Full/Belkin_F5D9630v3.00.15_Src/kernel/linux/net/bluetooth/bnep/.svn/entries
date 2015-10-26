@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/kernel/linux/net/bluetooth/bnep"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   committed-rev="3"
+   name="Kconfig"
+   text-time="2008-02-22T08:21:29.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="296b8994ee3307cc55b776b32f69531f"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:29.000000Z"/>
+<entry
+   committed-rev="3"
+   name="sock.c"
+   text-time="2008-02-22T08:21:29.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="8305ec824ec47458f11644e51f5359f7"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:29.000000Z"/>
+<entry
+   committed-rev="3"
+   name="netdev.c"
+   text-time="2008-02-22T08:21:29.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="b405bc659aa47cdbf4fbec3bac6ae412"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:29.000000Z"/>
+<entry
+   committed-rev="3"
+   name="core.c"
+   text-time="2008-02-22T08:21:29.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="2660edbc5659283d86250619ba1c67ed"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:29.000000Z"/>
+<entry
+   committed-rev="3"
+   name="bnep.h"
+   text-time="2008-02-22T08:21:29.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="669fb23e4bff64c2af62806d741b0717"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:29.000000Z"/>
+<entry
+   name="CVS"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="Makefile"
+   text-time="2008-02-22T08:21:29.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="0d7c1b5816c59d7510d81036d238bffd"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:29.000000Z"/>
+</wc-entries>

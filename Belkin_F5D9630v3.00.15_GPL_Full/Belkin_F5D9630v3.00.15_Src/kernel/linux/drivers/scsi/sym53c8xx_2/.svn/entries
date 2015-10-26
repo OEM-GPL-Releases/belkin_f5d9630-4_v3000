@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/kernel/linux/drivers/scsi/sym53c8xx_2"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   committed-rev="3"
+   name="sym_malloc.c"
+   text-time="2008-02-22T08:24:23.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="64ef26cb1038ac950117bc8ed78db265"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:21.000000Z"/>
+<entry
+   committed-rev="3"
+   name="sym53c8xx.h"
+   text-time="2008-02-22T08:24:23.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="3860b0391b60ea1b30ec348a72f0932f"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:21.000000Z"/>
+<entry
+   committed-rev="3"
+   name="sym_fw.c"
+   text-time="2008-02-22T08:24:23.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="5a0c4767ef23ae482d9c02908c0e079a"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:21.000000Z"/>
+<entry
+   committed-rev="3"
+   name="sym_fw.h"
+   text-time="2008-02-22T08:24:23.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="a7c806da242c7c788fb28bb5d360a7be"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:21.000000Z"/>
+<entry
+   name="CVS"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="sym_nvram.c"
+   text-time="2008-02-22T08:24:23.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="6c6765541dd87abe96a15cb920d30170"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:22.000000Z"/>
+<entry
+   committed-rev="3"
+   name="sym_hipd.c"
+   text-time="2008-02-22T08:24:23.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="5097040b3749d39cf12dd82accb31ba6"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:23.000000Z"/>
+<entry
+   committed-rev="3"
+   name="sym_defs.h"
+   text-time="2008-02-22T08:24:23.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="42817ae72eb9eaf1448ae0e1a1f06588"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:23.000000Z"/>
+<entry
+   committed-rev="3"
+   name="sym_nvram.h"
+   text-time="2008-02-22T08:24:23.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="3164ec656c402f0b540cd7ac722dd93f"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:23.000000Z"/>
+<entry
+   committed-rev="3"
+   name="sym_hipd.h"
+   text-time="2008-02-22T08:24:23.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="07cce8efa738f098f3547849f95fd741"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:23.000000Z"/>
+<entry
+   committed-rev="3"
+   name="sym_conf.h"
+   text-time="2008-02-22T08:24:23.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="46a50c88bd0a6fe7d34324655d15d3e3"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:23.000000Z"/>
+<entry
+   committed-rev="3"
+   name="sym_misc.c"
+   text-time="2008-02-22T08:24:23.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="78ce9d811fa47835d72a7c2e42d75d6a"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:23.000000Z"/>
+<entry
+   committed-rev="3"
+   name="sym_glue.c"
+   text-time="2008-02-22T08:24:23.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="b6f621f8e59ef4920dea0dec496d9bdd"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:23.000000Z"/>
+<entry
+   committed-rev="3"
+   name="sym_misc.h"
+   text-time="2008-02-22T08:24:23.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="1db50758b082c6f44a26f3296f35c115"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:23.000000Z"/>
+<entry
+   committed-rev="3"
+   name="sym_glue.h"
+   text-time="2008-02-22T08:24:23.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="185d2f52c0698fc5c57326b67b186acb"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:23.000000Z"/>
+<entry
+   committed-rev="3"
+   name="sym_fw1.h"
+   text-time="2008-02-22T08:24:23.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="0b0973ff91105fb2eb2f93bd4b5e6179"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:23.000000Z"/>
+<entry
+   committed-rev="3"
+   name="sym_fw2.h"
+   text-time="2008-02-22T08:24:23.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="ea3e15829fd9b33a377a8593350142df"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:23.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Makefile"
+   text-time="2008-02-22T08:24:23.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="00cbd3a0ac09045b997c2d66e9ac8460"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:23.000000Z"/>
+<entry
+   committed-rev="3"
+   name=".cvsignore"
+   text-time="2008-02-22T08:24:23.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="d8b65572e25962faaf07c20bb34d224e"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:23.000000Z"/>
+</wc-entries>

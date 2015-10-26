@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/kernel/linux/arch/i386/mach-default"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   committed-rev="3"
+   name="setup.c"
+   text-time="2008-02-22T08:22:33.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="5cf0ed075446c442e9f64291f3e490ce"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:33.000000Z"/>
+<entry
+   name="CVS"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="Makefile"
+   text-time="2008-02-22T08:22:33.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="06233f7d04093bfb97858e77a2cf78a4"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:33.000000Z"/>
+<entry
+   committed-rev="3"
+   name="topology.c"
+   text-time="2008-02-22T08:22:33.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="56bd606cc0ec74a57926bc25698042f2"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:33.000000Z"/>
+</wc-entries>

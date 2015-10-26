@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/kernel/linux/drivers/macintosh"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   committed-rev="3"
+   name="via-macii.c"
+   text-time="2008-02-22T08:23:58.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="ea807b8641d5ba53096ad29427071971"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:58.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Kconfig"
+   text-time="2008-02-22T08:23:58.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="ca57c7c4f4091223d0672b280f1c490a"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:58.000000Z"/>
+<entry
+   committed-rev="3"
+   name="therm_adt746x.c"
+   text-time="2008-02-22T08:23:58.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="65276ca355c7b7470fe5f9eb218a3162"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:58.000000Z"/>
+<entry
+   committed-rev="3"
+   name="macserial.c"
+   text-time="2008-02-22T08:23:58.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="e714f00400d6791839c99531f314051e"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:58.000000Z"/>
+<entry
+   committed-rev="3"
+   name="macserial.h"
+   text-time="2008-02-22T08:23:58.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="c5c7d88b6f564a04f2a026e6d1295ddc"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:58.000000Z"/>
+<entry
+   committed-rev="3"
+   name="via-pmu68k.c"
+   text-time="2008-02-22T08:23:58.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="4465a04091acf168db60b70821c5cbf1"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:58.000000Z"/>
+<entry
+   name="CVS"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="adb-iop.c"
+   text-time="2008-02-22T08:23:58.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="14d2eb91de6d3017e7f6f537be7ad4db"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:58.000000Z"/>
+<entry
+   committed-rev="3"
+   name="adbhid.c"
+   text-time="2008-02-22T08:23:58.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="d2b4d7f6ed24bedd2887ec7a22a9c6d7"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:58.000000Z"/>
+<entry
+   committed-rev="3"
+   name="mediabay.c"
+   text-time="2008-02-22T08:23:58.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="0e6b8ed05636643a2171b90f138cdca9"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:58.000000Z"/>
+<entry
+   committed-rev="3"
+   name="macio-adb.c"
+   text-time="2008-02-22T08:23:58.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="a56be50bfbd8d653b94647eb68e9e47e"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:58.000000Z"/>
+<entry
+   committed-rev="3"
+   name="via-pmu.c"
+   text-time="2008-02-22T08:23:58.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="6daa92be84144f83cf3200707baa7b7a"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:58.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ans-lcd.c"
+   text-time="2008-02-22T08:23:58.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="f1a1ecbbbe2b807a0c712b154118ec50"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:58.000000Z"/>
+<entry
+   committed-rev="3"
+   name="apm_emu.c"
+   text-time="2008-02-22T08:23:58.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="522dfe4c5a40a18908f4953d991214fa"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:58.000000Z"/>
+<entry
+   committed-rev="3"
+   name="nvram.c"
+   text-time="2008-02-22T08:23:58.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="c17e8ae6bed0e3bbe0d2f12fffbfa1bc"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:58.000000Z"/>
+<entry
+   committed-rev="3"
+   name="mac_hid.c"
+   text-time="2008-02-22T08:23:58.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="42361e3df1f844750e328d3ed8258576"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:58.000000Z"/>
+<entry
+   committed-rev="3"
+   name="therm_pm72.c"
+   text-time="2008-02-22T08:23:58.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="3e43d24778ead9478bfbc7a81eed2874"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:58.000000Z"/>
+<entry
+   committed-rev="3"
+   name="adb.c"
+   text-time="2008-02-22T08:23:58.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="20793fde7bf702c56d85330bd91b2960"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:58.000000Z"/>
+<entry
+   committed-rev="3"
+   name="therm_windtunnel.c"
+   text-time="2008-02-22T08:23:58.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="68a0406ac9d245371bae3ee92ffb752b"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:58.000000Z"/>
+<entry
+   committed-rev="3"
+   name="macio_asic.c"
+   text-time="2008-02-22T08:23:59.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="2a2f9b33e852127852ce245ba7332e8f"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:58.000000Z"/>
+<entry
+   committed-rev="3"
+   name="therm_pm72.h"
+   text-time="2008-02-22T08:23:59.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="e0c6cdf849347c5a0bbeb73c1ac83757"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:58.000000Z"/>
+<entry
+   committed-rev="3"
+   name="via-cuda.c"
+   text-time="2008-02-22T08:23:59.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="354a3aaedcce22ae22c220bc6f61b792"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:58.000000Z"/>
+<entry
+   committed-rev="3"
+   name="via-maciisi.c"
+   text-time="2008-02-22T08:23:59.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="6ce9140abb4f0cd69fe9dc83999fe563"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:58.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Makefile"
+   text-time="2008-02-22T08:23:59.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="a6ec155f374bc51bd5c39248df6e89fe"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:58.000000Z"/>
+<entry
+   committed-rev="3"
+   name=".cvsignore"
+   text-time="2008-02-22T08:23:59.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="d8b65572e25962faaf07c20bb34d224e"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:58.000000Z"/>
+</wc-entries>

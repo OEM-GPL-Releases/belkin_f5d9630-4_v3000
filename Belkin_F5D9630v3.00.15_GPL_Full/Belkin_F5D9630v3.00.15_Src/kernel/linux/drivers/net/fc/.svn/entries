@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/kernel/linux/drivers/net/fc"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   committed-rev="3"
+   name="iph5526_ip.h"
+   text-time="2008-02-22T08:24:07.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="6cf7f76ae9e08bfc062830c9986b9a4c"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:07.000000Z"/>
+<entry
+   committed-rev="3"
+   name="iph5526.c"
+   text-time="2008-02-22T08:24:07.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="5ff989dedd9f02ddc69ab92a8dbcb1dc"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:07.000000Z"/>
+<entry
+   committed-rev="3"
+   name="iph5526_novram.c"
+   text-time="2008-02-22T08:24:07.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="e451761ef53244c968ae917a2eae2464"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:07.000000Z"/>
+<entry
+   committed-rev="3"
+   name="tach.h"
+   text-time="2008-02-22T08:24:07.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="e48623d7619dfe61e1b5aa390d0e022d"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:07.000000Z"/>
+<entry
+   committed-rev="3"
+   name="iph5526_scsi.h"
+   text-time="2008-02-22T08:24:07.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="affb12547388d400acfd8b48361bf98e"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:07.000000Z"/>
+<entry
+   name="CVS"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="tach_structs.h"
+   text-time="2008-02-22T08:24:07.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="16c453aa23fda15ca24eabcd4a7e6d2b"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:07.000000Z"/>
+<entry
+   committed-rev="3"
+   name=".cvsignore"
+   text-time="2008-02-22T08:24:07.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="d8b65572e25962faaf07c20bb34d224e"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:07.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Makefile"
+   text-time="2008-02-22T08:24:07.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="896a329196e033da591eb0096921ae51"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:07.000000Z"/>
+</wc-entries>

@@ -1,0 +1,352 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/kernel/linux/net/ipv6"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   committed-rev="3"
+   name="sit.c"
+   text-time="2008-02-22T08:21:31.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="12578247c16ae72270cf6e2bd5d44f44"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:31.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ipv6_syms.c"
+   text-time="2008-02-22T08:21:31.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="daa3cf63cb2071c01a2cb3c4e0990502"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:31.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Kconfig"
+   text-time="2008-02-22T08:21:31.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="f934beb83092d8b7748c523fd46ddd18"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:31.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ndisc.c"
+   text-time="2008-02-22T08:21:31.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="f879efb439223dd73e895a912189ce0a"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:31.000000Z"/>
+<entry
+   committed-rev="3"
+   name="anycast.c"
+   text-time="2008-02-22T08:21:31.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="c1463837f5ae0d1c948d1219fefc89fd"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:31.000000Z"/>
+<entry
+   committed-rev="3"
+   name="xfrm6_state.c"
+   text-time="2008-02-22T08:21:31.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="1128581948ad55f62c96cbbe212285b3"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:31.000000Z"/>
+<entry
+   name="netfilter"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="ip6_output.c"
+   text-time="2008-02-22T08:21:31.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="46e0abb4fa98a3fdeecc27402b701cf2"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:31.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ah6.c"
+   text-time="2008-02-22T08:21:31.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="e2ea5c7250a9747c1b9cbffa8f605afb"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:31.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ipv6_sockglue.c"
+   text-time="2008-02-22T08:21:31.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="1a166f5ab17780c47d97d7bcf27e349f"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:31.000000Z"/>
+<entry
+   committed-rev="3"
+   name="addrconf.c"
+   text-time="2008-02-22T08:21:31.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="4fa0cfe6d7862e37f69b5c5f23ca40a5"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:31.000000Z"/>
+<entry
+   committed-rev="3"
+   name="datagram.c"
+   text-time="2008-02-22T08:21:31.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="aeef000a7f2cff5fedfbb640bd28c881"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:31.000000Z"/>
+<entry
+   committed-rev="3"
+   name="exthdrs.c"
+   text-time="2008-02-22T08:21:31.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="25025696cb41aaf96b56e16cc5527872"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:31.000000Z"/>
+<entry
+   committed-rev="3"
+   name="xfrm6_policy.c"
+   text-time="2008-02-22T08:21:31.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="ac9313124d0e074df79f3dec54192b79"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:31.000000Z"/>
+<entry
+   committed-rev="3"
+   name="xfrm6_output.c"
+   text-time="2008-02-22T08:21:31.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="37dd61c54b5a7a8c795553173f698f14"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:31.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ip6_tunnel.c"
+   text-time="2008-02-22T08:21:31.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="8b4b83aaa04d3ebdcd2ce8a7f0a44a35"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:31.000000Z"/>
+<entry
+   committed-rev="3"
+   name="xfrm6_tunnel.c"
+   text-time="2008-02-22T08:21:31.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="7855170c924bed4331bc435b5209738e"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:31.000000Z"/>
+<entry
+   committed-rev="3"
+   name="udp.c"
+   text-time="2008-02-22T08:21:31.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="99f7436d078d21aebb6d1dc82ff8601a"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:31.000000Z"/>
+<entry
+   committed-rev="3"
+   name="tcp_ipv6.c"
+   text-time="2008-02-22T08:21:31.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="afd3f3f62f80c2c8c6537855ea46de83"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:31.000000Z"/>
+<entry
+   committed-rev="3"
+   name="af_inet6.c"
+   text-time="2008-02-22T08:21:31.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="a8166146ce997618ff39478c78fe8881"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:31.000000Z"/>
+<entry
+   committed-rev="3"
+   name="sysctl_net_ipv6.c"
+   text-time="2008-02-22T08:21:31.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="cab9eefb5e90ff750528745532c76385"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:31.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Makefile"
+   text-time="2008-02-22T08:21:31.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="815af8e229f3429fbcda87f418092398"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:31.000000Z"/>
+<entry
+   committed-rev="3"
+   name=".cvsignore"
+   text-time="2008-02-22T08:21:31.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="735ab631b67b75d07a52edc9e01aed4c"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:31.000000Z"/>
+<entry
+   committed-rev="3"
+   name="route.c"
+   text-time="2008-02-22T08:21:31.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="677c5af01767e807437d003025109277"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:31.000000Z"/>
+<entry
+   committed-rev="3"
+   name="protocol.c"
+   text-time="2008-02-22T08:21:31.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="12df167d8958c36507e2827c0e35a58b"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:31.000000Z"/>
+<entry
+   committed-rev="3"
+   name="proc.c"
+   text-time="2008-02-22T08:21:31.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="f7562a9e96b86c65bb72a9e78d2da503"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:31.000000Z"/>
+<entry
+   committed-rev="3"
+   name="reassembly.c"
+   text-time="2008-02-22T08:21:31.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="7711d468ab2484a3122f426763b7c5c7"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:31.000000Z"/>
+<entry
+   committed-rev="3"
+   name="mcast.c"
+   text-time="2008-02-22T08:21:31.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="5155764dde5fa3d4de368d2e49e40398"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:31.000000Z"/>
+<entry
+   name="CVS"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="README"
+   text-time="2008-02-22T08:21:31.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="9da7a5c454115cb3a211bf69cf893043"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:31.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ipcomp6.c"
+   text-time="2008-02-22T08:21:31.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="227c7392b27484b89cf354b4b6dae09a"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:31.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ip6_input.c"
+   text-time="2008-02-22T08:21:31.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="5209b9d63570ddf33099a22c5c94f216"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:31.000000Z"/>
+<entry
+   committed-rev="3"
+   name="esp6.c"
+   text-time="2008-02-22T08:21:31.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="c5ae543d4fba11b8ea833e549fdfdf43"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:31.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ip6_fib.c"
+   text-time="2008-02-22T08:21:31.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="a98c50f20c112f6698973be4adfebdd0"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:31.000000Z"/>
+<entry
+   committed-rev="3"
+   name="xfrm6_input.c"
+   text-time="2008-02-22T08:21:31.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="40085e6a40b3a1582d62e1137dfb9dbb"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:31.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ip6_flowlabel.c"
+   text-time="2008-02-22T08:21:31.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="5496ffd7edaea1c5a40351adda650001"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:31.000000Z"/>
+<entry
+   committed-rev="3"
+   name="icmp.c"
+   text-time="2008-02-22T08:21:31.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="d3ef6673348ded6e9c0985368a7e20b9"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:31.000000Z"/>
+<entry
+   committed-rev="3"
+   name="raw.c"
+   text-time="2008-02-22T08:21:31.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="bce5c2c58c82839142cca97d8906e721"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:31.000000Z"/>
+<entry
+   committed-rev="3"
+   name="exthdrs_core.c"
+   text-time="2008-02-22T08:21:31.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="6fb83f249338ec40238fa1fc494ba501"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:31.000000Z"/>
+</wc-entries>

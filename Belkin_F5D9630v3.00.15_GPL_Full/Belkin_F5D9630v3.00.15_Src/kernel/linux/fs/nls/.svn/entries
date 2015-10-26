@@ -1,0 +1,412 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/kernel/linux/fs/nls"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   committed-rev="3"
+   name="Kconfig"
+   text-time="2008-02-22T08:21:55.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="4fb219311dea7c61b7e95c318c5bd81e"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:54.000000Z"/>
+<entry
+   committed-rev="3"
+   name="nls_iso8859-1.c"
+   text-time="2008-02-22T08:21:55.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="80664cb594b4a863bc5f859a018b36ff"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:54.000000Z"/>
+<entry
+   committed-rev="3"
+   name="nls_utf8.c"
+   text-time="2008-02-22T08:21:55.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="b7e7d2f501e056ded42566547be889ef"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:54.000000Z"/>
+<entry
+   committed-rev="3"
+   name="nls_iso8859-2.c"
+   text-time="2008-02-22T08:21:56.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="12c913d5ec23849cd5cc21626f016257"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:54.000000Z"/>
+<entry
+   committed-rev="3"
+   name="nls_iso8859-3.c"
+   text-time="2008-02-22T08:21:56.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="59a469019003296bfb8b6d859445f536"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:54.000000Z"/>
+<entry
+   committed-rev="3"
+   name="nls_iso8859-4.c"
+   text-time="2008-02-22T08:21:56.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="8e1ff0ed8943eb365a7369d13d588d5d"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:54.000000Z"/>
+<entry
+   committed-rev="3"
+   name="nls_iso8859-5.c"
+   text-time="2008-02-22T08:21:56.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="d97c179021125b8e04204ad0cc57d759"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:54.000000Z"/>
+<entry
+   committed-rev="3"
+   name="nls_iso8859-6.c"
+   text-time="2008-02-22T08:21:56.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="008c0c9a3c44250b46277574e9cc8f6f"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:54.000000Z"/>
+<entry
+   committed-rev="3"
+   name="nls_iso8859-7.c"
+   text-time="2008-02-22T08:21:56.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="cee02fe445c9a6b89e875f644666ce5e"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:54.000000Z"/>
+<entry
+   committed-rev="3"
+   name="nls_iso8859-9.c"
+   text-time="2008-02-22T08:21:56.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="55def294719e388ceb21013eaac7f13d"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:54.000000Z"/>
+<entry
+   committed-rev="3"
+   name="nls_koi8-ru.c"
+   text-time="2008-02-22T08:21:56.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="398741a6be79334f449ab69ae9683e06"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:54.000000Z"/>
+<entry
+   committed-rev="3"
+   name="nls_cp860.c"
+   text-time="2008-02-22T08:21:56.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="1ee0cb8b33916619f1467cd2bec6c03d"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:54.000000Z"/>
+<entry
+   committed-rev="3"
+   name="nls_cp861.c"
+   text-time="2008-02-22T08:21:56.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="cb8cc1e3d0e23c81753ad3b85116cfd6"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:55.000000Z"/>
+<entry
+   committed-rev="3"
+   name="nls_cp862.c"
+   text-time="2008-02-22T08:21:56.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="a842b4846dc10f679be3a8c7dd2af781"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:55.000000Z"/>
+<entry
+   committed-rev="3"
+   name="nls_cp863.c"
+   text-time="2008-02-22T08:21:56.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="d6c444a78a081b9721ca152276bead37"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:55.000000Z"/>
+<entry
+   committed-rev="3"
+   name="nls_cp864.c"
+   text-time="2008-02-22T08:21:56.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="73518343015e9c2ec15ff4d8cc5a1183"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:55.000000Z"/>
+<entry
+   committed-rev="3"
+   name="nls_cp865.c"
+   text-time="2008-02-22T08:21:56.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="fb1cd8da3763cdd19df0d3aee7ecfa99"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:55.000000Z"/>
+<entry
+   committed-rev="3"
+   name="nls_cp866.c"
+   text-time="2008-02-22T08:21:56.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="4d6d04e435022feef94f84186f3cec48"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:55.000000Z"/>
+<entry
+   committed-rev="3"
+   name="nls_cp949.c"
+   text-time="2008-02-22T08:21:56.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="0f95b5209588a691516eee4e45095888"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:55.000000Z"/>
+<entry
+   committed-rev="3"
+   name="nls_koi8-r.c"
+   text-time="2008-02-22T08:21:56.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="b1d96f253639b2bb4538637f7996369f"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:55.000000Z"/>
+<entry
+   committed-rev="3"
+   name="nls_cp869.c"
+   text-time="2008-02-22T08:21:56.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="296450cfa3425722f2fcde6961e457a3"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:55.000000Z"/>
+<entry
+   committed-rev="3"
+   name="nls_iso8859-13.c"
+   text-time="2008-02-22T08:21:56.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="55119bde89ee95bf3f2a931a506ba513"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:55.000000Z"/>
+<entry
+   committed-rev="3"
+   name="nls_iso8859-14.c"
+   text-time="2008-02-22T08:21:56.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="ad1cc54867f49f5904581e79823b71e2"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:55.000000Z"/>
+<entry
+   committed-rev="3"
+   name="nls_cp1250.c"
+   text-time="2008-02-22T08:21:56.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="51aceaf44f78f15714943568d33d0774"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:55.000000Z"/>
+<entry
+   committed-rev="3"
+   name="nls_base.c"
+   text-time="2008-02-22T08:21:56.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="cd008940b810ab88c731a1e7523ca8d1"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:55.000000Z"/>
+<entry
+   committed-rev="3"
+   name="nls_iso8859-15.c"
+   text-time="2008-02-22T08:21:56.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="9763cb0a033305b7f5cf44a0bfdde275"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:55.000000Z"/>
+<entry
+   committed-rev="3"
+   name="nls_cp1251.c"
+   text-time="2008-02-22T08:21:56.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="3608ce5c4c9983707ae57fb859376d3a"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:55.000000Z"/>
+<entry
+   committed-rev="3"
+   name="nls_koi8-u.c"
+   text-time="2008-02-22T08:21:56.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="d9cecf741a850f7d75a19491f7a7c630"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:55.000000Z"/>
+<entry
+   committed-rev="3"
+   name="nls_cp1255.c"
+   text-time="2008-02-22T08:21:56.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="1d5ed1594bf04b546032728251768b35"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:55.000000Z"/>
+<entry
+   committed-rev="3"
+   name=".cvsignore"
+   text-time="2008-02-22T08:21:56.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="735ab631b67b75d07a52edc9e01aed4c"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:55.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Makefile"
+   text-time="2008-02-22T08:21:56.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="574cf00cbfbf466f2e4435fc9c2695f7"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:55.000000Z"/>
+<entry
+   committed-rev="3"
+   name="nls_euc-jp.c"
+   text-time="2008-02-22T08:21:56.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="c48fbfd6989c1f71c4d8e0008982ae16"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:55.000000Z"/>
+<entry
+   committed-rev="3"
+   name="nls_ascii.c"
+   text-time="2008-02-22T08:21:56.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="fdb0d4fe2d6250f69bbd42b808d8f651"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:55.000000Z"/>
+<entry
+   name="CVS"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="nls_cp850.c"
+   text-time="2008-02-22T08:21:56.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="40916fd43757ad4f009ae8303f65f198"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:55.000000Z"/>
+<entry
+   committed-rev="3"
+   name="nls_cp950.c"
+   text-time="2008-02-22T08:21:56.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="8b3564988f45f6cd5f0b1e5315980838"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:55.000000Z"/>
+<entry
+   committed-rev="3"
+   name="nls_cp932.c"
+   text-time="2008-02-22T08:21:56.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="55fc0ea3b1cbca5a53ad4b6085473baa"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:55.000000Z"/>
+<entry
+   committed-rev="3"
+   name="nls_cp437.c"
+   text-time="2008-02-22T08:21:56.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="d773f9e7c15f3264163486965cd19c16"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:55.000000Z"/>
+<entry
+   committed-rev="3"
+   name="nls_cp852.c"
+   text-time="2008-02-22T08:21:56.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="446d3cb2c8116c266f8dab85e9b5a416"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:55.000000Z"/>
+<entry
+   committed-rev="3"
+   name="nls_cp737.c"
+   text-time="2008-02-22T08:21:56.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="1f2eba2142e04a8a5aa7e9f37e810290"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:55.000000Z"/>
+<entry
+   committed-rev="3"
+   name="nls_cp936.c"
+   text-time="2008-02-22T08:21:56.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="98e132d84af8d938f579dbc2586efe7f"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:55.000000Z"/>
+<entry
+   committed-rev="3"
+   name="nls_cp855.c"
+   text-time="2008-02-22T08:21:56.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="57be47c66234e766b598b697209be987"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:55.000000Z"/>
+<entry
+   committed-rev="3"
+   name="nls_cp874.c"
+   text-time="2008-02-22T08:21:56.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="9a20e6f1b3254a0e7e16cbf8fd6620bd"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:55.000000Z"/>
+<entry
+   committed-rev="3"
+   name="nls_cp775.c"
+   text-time="2008-02-22T08:21:56.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="2b08f59fb0e037e4e0956c6839c3eb59"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:55.000000Z"/>
+<entry
+   committed-rev="3"
+   name="nls_cp857.c"
+   text-time="2008-02-22T08:21:56.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="01e9e46ffebc3fd14054b3d250987be5"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:55.000000Z"/>
+</wc-entries>

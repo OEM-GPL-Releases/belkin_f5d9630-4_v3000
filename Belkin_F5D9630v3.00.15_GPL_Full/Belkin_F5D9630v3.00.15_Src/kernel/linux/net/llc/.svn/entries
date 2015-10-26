@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/kernel/linux/net/llc"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   committed-rev="3"
+   name="llc_s_ac.c"
+   text-time="2008-02-22T08:21:32.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="a731b5231c74aef2f98488d2bd902a82"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:32.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Kconfig"
+   text-time="2008-02-22T08:21:32.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="2cb16d7af6cb8541f7362c62149b5c24"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:32.000000Z"/>
+<entry
+   committed-rev="3"
+   name="llc_output.h"
+   text-time="2008-02-22T08:21:32.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="ad106c581dd144346e1ff4c4251e7643"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:32.000000Z"/>
+<entry
+   committed-rev="3"
+   name="llc_s_st.c"
+   text-time="2008-02-22T08:21:32.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="2b97bc7d19ffd0173144598ff01a332e"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:32.000000Z"/>
+<entry
+   committed-rev="3"
+   name="llc_c_ev.c"
+   text-time="2008-02-22T08:21:32.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="e3b049ed209de5c996370c838d1bc857"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:32.000000Z"/>
+<entry
+   name="CVS"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="llc_station.c"
+   text-time="2008-02-22T08:21:32.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="2ea11125637a0e70be48be12699a7aa6"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:32.000000Z"/>
+<entry
+   committed-rev="3"
+   name="llc_sap.c"
+   text-time="2008-02-22T08:21:32.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="fb50575e3afcfbc3416688c1799e70a3"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:32.000000Z"/>
+<entry
+   committed-rev="3"
+   name="llc_c_ac.c"
+   text-time="2008-02-22T08:21:32.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="a7200e4dc3abd6272c327ac9334c7425"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:32.000000Z"/>
+<entry
+   committed-rev="3"
+   name="af_llc.c"
+   text-time="2008-02-22T08:21:32.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="c8b54aaa96a8014cb4f3c1cad548ff90"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:32.000000Z"/>
+<entry
+   committed-rev="3"
+   name="llc_c_st.c"
+   text-time="2008-02-22T08:21:32.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="460955f2990dbdb5dba266604359d84e"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:32.000000Z"/>
+<entry
+   committed-rev="3"
+   name="llc_core.c"
+   text-time="2008-02-22T08:21:32.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="55805b3a09957b9ae7d7c6cfe1cafa76"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:32.000000Z"/>
+<entry
+   committed-rev="3"
+   name="llc_pdu.c"
+   text-time="2008-02-22T08:21:32.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="14735e142b2ea1938a73bbc94eee15af"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:32.000000Z"/>
+<entry
+   committed-rev="3"
+   name="llc_s_ev.c"
+   text-time="2008-02-22T08:21:32.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="0aa9e998e88806a0a8bdb20aa8d89bbf"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:32.000000Z"/>
+<entry
+   committed-rev="3"
+   name="llc_conn.c"
+   text-time="2008-02-22T08:21:32.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="70fbd38a14670bd31689a15e517fd9f3"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:32.000000Z"/>
+<entry
+   committed-rev="3"
+   name="llc_if.c"
+   text-time="2008-02-22T08:21:32.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="0634b26f0dbc9d14815e6aa1c99782da"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:32.000000Z"/>
+<entry
+   committed-rev="3"
+   name="llc_input.c"
+   text-time="2008-02-22T08:21:32.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="2635b78d033040b338ec4b3f2e22718a"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:32.000000Z"/>
+<entry
+   committed-rev="3"
+   name="llc_output.c"
+   text-time="2008-02-22T08:21:32.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="cac63340fe7c1a18f1e487ec1f151051"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:32.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Makefile"
+   text-time="2008-02-22T08:21:32.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="80fd636ca416c8e6aebf21256f7a6cdc"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:32.000000Z"/>
+<entry
+   committed-rev="3"
+   name=".cvsignore"
+   text-time="2008-02-22T08:21:32.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="d8b65572e25962faaf07c20bb34d224e"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:32.000000Z"/>
+<entry
+   committed-rev="3"
+   name="llc_proc.c"
+   text-time="2008-02-22T08:21:32.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="f9ecaa26c1f3185f443ee0a69034628c"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:32.000000Z"/>
+</wc-entries>

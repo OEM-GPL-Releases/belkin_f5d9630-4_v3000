@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/kernel/linux/arch/ppc/boot"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   name="utils"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="ld.script"
+   text-time="2008-02-22T08:22:17.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="37ab23248430b4eeb159a9a69554aa80"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:17.000000Z"/>
+<entry
+   name="include"
+   kind="dir"/>
+<entry
+   name="of1275"
+   kind="dir"/>
+<entry
+   name="images"
+   kind="dir"/>
+<entry
+   name="lib"
+   kind="dir"/>
+<entry
+   name="common"
+   kind="dir"/>
+<entry
+   name="simple"
+   kind="dir"/>
+<entry
+   name="CVS"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="Makefile"
+   text-time="2008-02-22T08:22:17.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="8dad54bbff48d4b35760ed983fcdbc5d"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:17.000000Z"/>
+<entry
+   name="openfirmware"
+   kind="dir"/>
+</wc-entries>

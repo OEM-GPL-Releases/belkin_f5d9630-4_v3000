@@ -1,0 +1,616 @@
+<html>
+   <head>
+      <meta HTTP-EQUIV='Pragma' CONTENT='no-cache'>
+	  <meta http-equiv="refresh" content="<%ejGet(timeout_refresh)%>">
+
+         <link rel="stylesheet" href="main_router.css" type='text/css'>
+		 <%ejGet("curLanguage")%>
+		 <SCRIPT language="javascript">assign_var();</SCRIPT>
+            <script language="javascript" src="util.js"></script>
+			<script language="javascript" src="field_check.js"></script>
+			<SCRIPT language=JavaScript src="showMenu.js"></SCRIPT>
+            <script language="javascript">
+<!-- hide
+strHtml='<title>'+ls_1+'&gt;'+ls_2+'</title>';
+dw(strHtml);
+
+
+var state = '0';
+
+if ( state == '1' ) {
+   window.location.href = "lancfg2.cgi?lanRefresh=0";
+}
+
+var autoup = '<%ejGet(autoUpgrade_flag)%>';
+
+if(autoup == '1')
+{
+	newwin=window.open("checkfw.html","Firmware","toolbar=no,location=no,directories=no,status=no,menubar=no,scrollbars=yes,width=395,height=200,resizable=0");
+	newwin.focus();
+}
+
+
+var helpItem 	='LAN Settings';
+var menuSection	='LAN';
+var menuItem	='LAN Settings';
+var isAPmode = '<%ejGet(enblNat)%>';
+
+var dhcpStart = '<%ejGet(dhcpEthStart)%>';
+var dhcpEnd = '<%ejGet(dhcpEthEnd)%>';
+var dhcpLease = '<%ejGet(dhcpLeasedTime)%>';
+var proto = '<%ejGetOther(sysInfo, noBrPrtcl)%>';
+var ipExt = '<%ejGetOther(sysInfo, pppIpExtension)%>';
+var dhcpEnbl = '<%ejGet(enblDhcpSrv)%>';
+var natEnbl = '<%ejGetOther(sysInfo, enblNat)%>';
+var enblIgmpSnp = '<%ejGet(enblIgmpSnp)%>';
+var enblIgmpMode = '<%ejGet(enblIgmpMode)%>';
+
+
+
+function disableDhcpSrv() {
+   with ( document.forms[0] ) {
+      dhcpSrvType[0].checked = false;
+
+      dhcpEthStart1.disabled = 1;
+      dhcpEthStart2.disabled = 1;
+      dhcpEthStart3.disabled = 1;
+      dhcpEthStart4.disabled = 1;
+
+      dhcpEthEnd1.disabled = 1;
+      dhcpEthEnd2.disabled = 1;
+      dhcpEthEnd3.disabled = 1;
+      dhcpEthEnd4.disabled = 1;
+
+      dhcpLeasedTime.value = '';
+      dhcpLeasedTime.disabled = 1;
+   }
+}
+
+function enableDhcpSrv(formLoad) {
+   with ( document.forms[0] ) {
+      //dhcpSrvType[0].checked = true;
+
+      dhcpEthStart1.disabled = true;
+      dhcpEthStart2.disabled = true;
+      dhcpEthStart3.disabled = true;
+      dhcpEthStart4.disabled = 0;
+
+      dhcpEthEnd1.disabled = true;
+      dhcpEthEnd2.disabled = true;
+      dhcpEthEnd3.disabled = true;
+      dhcpEthEnd4.disabled = 0;
+
+      if (formLoad == 0)
+         setDhcpAddresses(ethIpAddress5.value);
+      else {
+        var dot=".";
+        splitDHCPStartIPString(dhcpStart,dot);
+        splitDHCPEndIPString(dhcpEnd,dot);
+
+      }
+
+     var found = false;
+   	 for (var i=0; i<document.forms[0].dhcpLeasedTime.options.length; i++) {
+     if (document.forms[0].dhcpLeasedTime.options[i].value == dhcpLease) {
+        	document.forms[0].dhcpLeasedTime.options[i].selected = true;
+        	found = true;
+        	break;
+       	}
+     }
+
+   if (!found) {
+      document.forms[0].dhcpLeasedTime.options[0].selected = true;
+      }
+      dhcpLeasedTime.disabled = 0;
+   }
+}
+
+
+
+function ipcheck() 
+{
+	with(document.forms[0])
+	{
+		if(ethIpAddress1.value<128)
+		{
+			ethSubnetMask2.value = 0;
+			ethSubnetMask3.value = 0;
+			ethSubnetMask4.value = 0;
+		}
+
+		if((ethIpAddress1.value<192)&&(ethIpAddress1.value>127))
+		{
+			ethSubnetMask2.value = 255;
+			ethSubnetMask3.value = 0;
+			ethSubnetMask4.value = 0;
+		}
+
+		if((ethIpAddress1.value<240)&&(ethIpAddress1.value>191))
+		{
+			ethSubnetMask2.value = 255;
+			ethSubnetMask3.value = 255;
+			ethSubnetMask4.value = 0;
+		}
+	}
+}
+
+
+function splitIPString (stringToSplit,separator) 
+{
+
+   arrayOfStrings = stringToSplit.split(separator)
+   with ( document.forms[0] ) {
+
+   ethIpAddress1.value = arrayOfStrings [0];
+   ethIpAddress2.value = arrayOfStrings [1];
+   ethIpAddress3.value = arrayOfStrings [2];
+   ethIpAddress4.value = arrayOfStrings [3];
+         }
+      }
+
+function splitMaskString (stringToSplit,separator) {
+
+   arrayOfStrings = stringToSplit.split(separator)
+   with ( document.forms[0] ) {
+
+   ethSubnetMask1.value = arrayOfStrings [0];
+   ethSubnetMask2.value = arrayOfStrings [1];
+   ethSubnetMask3.value = arrayOfStrings [2];
+   ethSubnetMask4.value = arrayOfStrings [3];
+         }
+      }
+
+function splitDHCPStartIPString (stringToSplit,separator) {
+
+   arrayOfStrings = stringToSplit.split(separator)
+   with ( document.forms[0] ) {
+
+   dhcpEthStart1.value = arrayOfStrings [0];
+   dhcpEthStart2.value = arrayOfStrings [1];
+   dhcpEthStart3.value = arrayOfStrings [2];
+   dhcpEthStart4.value = arrayOfStrings [3];
+   }
+}
+
+function splitDHCPEndIPString (stringToSplit,separator) {
+
+   arrayOfStrings = stringToSplit.split(separator)
+   with ( document.forms[0] ) {
+
+   dhcpEthEnd1.value = arrayOfStrings [0];
+   dhcpEthEnd2.value = arrayOfStrings [1];
+   dhcpEthEnd3.value = arrayOfStrings [2];
+   dhcpEthEnd4.value = arrayOfStrings [3];
+  }
+}
+
+function frmLoad() 
+{
+   with ( document.forms[0] ) 
+   {
+
+   	var dot=".";
+   
+   	dhcpDomain.value = '<%ejGet(dhcpDomain)%>';
+   
+   	var IPstring = '<%ejGet(ethIpAddress)%>';
+
+   	var Maskstring = '<%ejGet(ethSubnetMask)%>';
+
+
+     splitIPString(IPstring,dot);
+     splitMaskString(Maskstring,dot);
+
+
+     //Enable/Disable DHCP when page loaded !!
+     if ( dhcpEnbl == '1' )
+          dhcpSrvType[0].checked = true;
+      else
+          dhcpSrvType[1].checked = true;
+
+
+     if (proto == 'Bridge' || ipExt == '1')
+        dhcpSrvType[1].checked = true;
+     else 
+        enableDhcpSrv(1);
+
+   }
+}
+
+
+function isEndGTEStart(EndIp, StartIp)
+{
+   addrEnd = EndIp.split('.');
+   addrStart = StartIp.split('.');
+   E = parseInt(addrEnd[3]) + 1;
+   S = parseInt(addrStart[3]) + 1;
+   if (E < S) 
+      return false;
+   return true;
+}
+
+function btnSave(reboot) 
+{
+   var idx;
+
+   if (reboot)
+      loc = 'lancfg2Reset.cgi?';
+
+   with ( document.forms[0] ) 
+   {
+   
+      ethIpAddress5.value = ethIpAddress1.value + "." + ethIpAddress2.value + "." + ethIpAddress3.value + "." + ethIpAddress4.value ;
+
+      /* check if Lan IP address is private */
+	  if (ethIpAddress1.value == 10)
+	  {}
+	  else if ((ethIpAddress1.value == 172) && (ethIpAddress2.value >= 16) && (ethIpAddress2.value <= 31))
+	  {}
+	  else if ((ethIpAddress1.value == 192) && (ethIpAddress2.value == 168))
+	  {}
+	  else
+	  {
+	  	alert(ls_28);
+        return;
+      }
+	  if (dhcpEthStart4.value > 254)
+	    dhcpEthStart4.value = 254;
+	  if (dhcpEthEnd4.value > 254)
+	    dhcpEthEnd4.value = 254;
+      ethSubnetMask5.value = ethSubnetMask1.value + "." + ethSubnetMask2.value + "." + ethSubnetMask3.value + "." + ethSubnetMask4.value ;
+      dhcpEthStart5.value = dhcpEthStart1.value + "." + dhcpEthStart2.value + "." + dhcpEthStart3.value + "." + dhcpEthStart4.value ;
+      dhcpEthEnd5.value = dhcpEthEnd1.value + "." + dhcpEthEnd2.value + "." + dhcpEthEnd3.value + "." + dhcpEthEnd4.value ;
+
+      if ( isValidIpAddress(ethIpAddress5.value) == false ) 
+	  {
+         alert(ls_37);
+         return;
+      }
+	  
+
+      var oring_ip = '<%ejGet(ethIpAddress)%>';
+
+
+      if ( isValidSubnetMask(ethSubnetMask5.value) == false ) {
+         alert(ls_30);
+         return;
+      }
+
+      loc += 'ethIpAddress=' + ethIpAddress5.value;
+      loc += '&ethSubnetMask=' + ethSubnetMask5.value;
+
+
+      	if ( dhcpSrvType[0].checked == true ) 
+	  	{
+
+	    	if ( (parseInt(ethIpAddress4.value,10) >= parseInt(dhcpEthStart4.value,10)) && 
+		    	(parseInt(ethIpAddress4.value,10) <= parseInt(dhcpEthEnd4.value,10))) 
+	    	{
+	    		alert(ls_31);
+		  		return;
+      		}
+				
+
+         if (isValidIpAddress(dhcpEthStart5.value) == false ||
+               !(isSameSubNet(ethIpAddress5.value, ethSubnetMask5.value, dhcpEthStart5.value, ethSubnetMask5.value))) {
+            alert(ls_29);
+            return;
+         }
+         if ( isValidIpAddress(dhcpEthEnd5.value) == false ||
+               !(isSameSubNet(ethIpAddress5.value, ethSubnetMask5.value, dhcpEthEnd5.value, ethSubnetMask5.value))) {
+            alert(ls_29);
+            return;
+         }   
+         if (!(isEndGTEStart(dhcpEthEnd5.value, dhcpEthStart5.value))) {
+            alert(ls_32);
+            return;
+         }
+
+         loc += '&dhcpEthStart=' + dhcpEthStart5.value;
+         loc += '&dhcpEthEnd=' + dhcpEthEnd5.value;
+
+		 idx = dhcpLeasedTime.selectedIndex;
+		 loc += '&dhcpLeasedTime=' + dhcpLeasedTime.options[idx].value;
+         if ( isValidName2(dhcpDomain.value) == false )
+	     {
+           alert(ls_33);
+            return;
+         }
+         loc += '&dhcpDomain=';
+         loc += dhcpDomain.value;
+
+         loc += '&enblDhcpSrv=1';
+      } 
+	  else 
+	  {
+       //  if ( natEnbl == '1' )
+            loc += '&enblDhcpSrv=0';
+      }
+         loc += '&enblLan2=0';
+   }
+
+   if(document.forms[0].ethIpAddress5.value != oring_ip)
+   {	
+		if(confirm(ls_34))
+		{
+			alert(ls_35);
+			alert(ls_36);
+	   		window.location.href = loc;
+		}
+	else
+		return;	
+	}
+	else
+	{
+			alert(ls_35);
+			alert(ls_36);
+	   		window.location.href = loc;	
+	
+	}
+}
+
+
+function setDhcpAddresses(lanIp,idx) {
+   with ( document.forms[0] ) {
+
+   switch (idx){
+
+    case '1':
+    	dhcpEthStart1.value = lanIp;
+    	dhcpEthEnd1.value = lanIp;
+    	break;
+   	case '2':
+   		dhcpEthStart2.value = lanIp;
+   		dhcpEthEnd2.value = lanIp;
+		break;
+    case '3':
+   		dhcpEthStart3.value = lanIp;
+   		dhcpEthEnd3.value = lanIp;
+		break;
+	case '4':
+   		dhcpEthStart4.value = parseInt(lanIp)+1;
+   		//dhcpEthEnd4.value = 255;
+   		dhcpEthEnd4.value = dhcpEthStart4.value + 99;
+		if (dhcpEthEnd4.value > 254)
+		  dhcpEthEnd4.value = 254;
+		break;
+      }
+
+   }
+
+}
+
+function write_leaseTime()
+{
+	with(document.forms[0])
+	{
+		document.write("<option value=\"1\">"+ls_14+"</option>");
+		document.write("<option value=\"2\">"+ls_15+"</option>");
+		document.write("<option value=\"12\">"+ls_16+"</option>");
+		document.write("<option value=\"24\">"+ls_17+"</option>");
+		document.write("<option value=\"48\">"+ls_18+"</option>");
+		document.write("<option value=\"168\">"+ls_19+"</option>");
+		document.write("<option value=\"336\">"+ls_20+"</option>");
+		document.write("<option value=\"8760\" SELECTED>"+ls_21+"</option>");
+	}
+}
+
+// done hiding -->
+</script>
+</head>
+   <body onLoad='frmLoad()' bgColor="#ffffff" leftMargin="0" topMargin="0" marginheight="0" marginwidth="0">
+ <SCRIPT language=JavaScript>
+	var wanStatus = '<%ejGetOther(isUp)%>';
+	showHead(wanStatus,helpItem);
+	showMenu(menuSection,menuItem,isAPmode)
+</SCRIPT>  
+   	<form method="post">
+<TD class=head_bold width="90%" valign="top">
+		<Br>&nbsp;&nbsp;
+        <font face="Verdana" size="2" class="head_bold"><b><script>dw(ls_1)</script>&nbsp;>&nbsp;<script>dw(ls_2)</script></b></font><font color="#333333" face="Verdana"><br><Br>
+      	<TABLE class="copy_1" cellSpacing="0" cellPadding="0" width="550" border="0">
+	    	<TBODY>
+        		<TR>
+		        	<TD width=13 ></TD>
+        			<TD colSpan=2 ><script>dw(ls_3)</script>
+        			</TD>
+				</TR>
+			</TBODY>
+		</TABLE>
+		<Br>
+			
+		<!-- IP Address Start-->	
+			
+        <table border="0" cellpadding="0" cellspacing="0" width="594">
+        	<tr>
+            	<td width="158" class="copy_1">&nbsp;&nbsp;&nbsp;&nbsp;<b><script>dw(ls_4)</script></b>&nbsp;></td>
+                <td width="436" bordercolor="#00FFFF" bordercolorlight="#FFFFFF" bordercolordark="#FF00FF">
+                	<font face="Verdana" color="#003366">
+                	<input type='text' name='ethIpAddress1' onChange='setDhcpAddresses(this.value,"1")' onKeyUp="ipcheck()" 
+				     style="border-color:#3399cc; border-style:solid;border-width: 1px;" maxLength="3" size="6">.<input type='text' name='ethIpAddress2' 
+				     onChange='setDhcpAddresses(this.value, "2")' 
+					 style="border-color:#3399cc; border-style:solid;border-width: 1px;" maxLength="3" size="6">.
+					 <input type='text' name='ethIpAddress3' onChange='setDhcpAddresses(this.value, "3")' style="border-color:#3399cc; border-style:solid;
+				   border-width: 1px;" maxLength="3" size="6">.
+				   <input type='text' name='ethIpAddress4' style="border-color:#3399cc; border-style:solid;
+				   border-width: 1px;" maxLength="3" size="6">&nbsp;&nbsp;
+                  <input type='hidden' name='ethIpAddress5' style="border-color:#3399cc; border-style:solid;
+				   border-width: 1px;" onChange='setDhcpAddresses(this.value)' size="10"></font>
+			  </td>
+           </tr>
+           <tr>
+                <td colspan="2">&nbsp;&nbsp;<b><font face="Verdana" size="2" color="#6464C3">
+ <a href="javascript:void(0);" onClick=								"window.open('glossary.html#IP','help','toolbar=0,status=0,menubar=0,scrollbars=1,resizable=1,width=640,height=400,left=150,top=150');">
+            					<font color="#0066FF" style="FONT-SIZE: 11px;"><script>dw(ls_5)</script></font></a></font></b>
+				</td>
+            	
+           </tr>
+	  </table>
+      <table border="0" cellpadding="0" cellspacing="0" width="550">
+           <tr>
+		   		<TD width=15>&nbsp;</TD>
+            	<td><hr noshade size="1" color="#666666"></td>
+           </tr>
+      </table>
+	  
+		<!-- IP Address End-->	
+	  
+	  
+		<!-- Subnet Mask Start-->	
+	  
+        <table border="0" cellpadding="0" cellspacing="0" width="594">
+        	<tr>
+                <td width="158" height="22"  class="copy_1"><b>&nbsp;&nbsp;&nbsp;&nbsp;<script>dw(ls_6)</script></b>&nbsp;&gt;</td>
+                <td width="436" height="22"><font face="Verdana" color="#003366">
+        <input type='text' name='ethSubnetMask1' style="border-color:#3399cc; border-style:solid; border-width: 1px;" size="6" maxLength="3" disabled="disabled">.
+		<input type='text' name='ethSubnetMask2' style="border-color:#3399cc; border-style:solid; border-width: 1px;" size="6" maxLength="3">.
+		<input type='text' name='ethSubnetMask3' style="border-color:#3399cc; border-style:solid; border-width: 1px;" size="6" maxLength="3">.
+		<input type='text' name='ethSubnetMask4' style="border-color:#3399cc; border-style:solid; border-width: 1px;" size="6" maxLength="3">&nbsp;&nbsp;&nbsp;
+        <input type='hidden' name='ethSubnetMask5' style="border-color:#3399cc; border-style:solid; border-width: 1px;" size="10">
+				</font>
+			  </td>
+            </tr>
+		
+            <tr>
+                <td colspan="2" height="16">&nbsp;&nbsp;
+ <a href="javascript:void(0);" onClick="window.open('glossary.html#SUBNET','help','toolbar=0,status=0,menubar=0,scrollbars=1,resizable=1,				  	width=640,height=400,left=150,top=150');"><b><font face="Verdana" style="FONT-SIZE: 11px;" color="#0066FF">
+					<script>dw(ls_5)</script></font></b>
+					</a>
+                </td>
+            </tr>
+        </table>
+
+      	<table border="0" cellpadding="0" cellspacing="0" width="550">
+           	<tr>
+		   		<TD width=15>&nbsp;</TD>
+            	<td><hr noshade size="1" color="#666666"></td>
+           	</tr>
+      	</table>
+
+		<!-- Subnet Mask End-->	
+		
+		
+		<!-- DHCP Server Start-->	
+		
+        <table border="0" cellpadding="0" cellspacing="0">
+        	<tr>
+            	<td width="192" class="copy_1">&nbsp;&nbsp;&nbsp;&nbsp;<b><script>dw(ls_7)</script> &gt;</b></td>
+				<td><font face="Verdana" color="#333333" size=1>
+                    <input type='radio' name='dhcpSrvType'><script>dw(ls_8)</script>
+                    <input type='radio' name='dhcpSrvType'><script>dw(ls_9)</script>
+					</font>
+				</td>
+            </tr>
+       </table>
+
+	   <div id='dhcpInfo'>
+       <table border="0" cellpadding="0" cellspacing="0" width="600" height="1">
+       		<tr>
+				<td width="15"></td>
+            	<td colspan="2" height="36" class="copy_1"><script>dw(ls_10)</script>
+<a href="javascript:void(0);" onClick="window.open('glossary.html#DHCP','help','toolbar=0,status=0,menubar=0,scrollbars=1,resizable=1, width=640,height=400,left=150,top=150');">
+                     <b><font color="#0066FF" style="FONT-SIZE: 11px;"><script>dw(ls_5)</script></font></b></a>
+				</td>
+            </tr>
+		</table>
+		
+		<table border="0" cellpadding="0" cellspacing="0" width="600" height="1">	
+            <tr>
+				<td width="14"></td>
+                <td height="19"></td>
+                <td height="19"></td>
+            </tr>
+            <tr>
+				<td width="14"></td>
+                <td height="20" class="copy_1"><b><script>dw(ls_11)</script> &gt;</b></td>
+                <td width="421" height="20"><font face="Verdana" color="#003366">
+                 	<input type='text' name='dhcpEthStart1' style="border-color:#3399cc; border-style:solid; border-width: 1px;" size="6" maxLength="3">.
+				 	<input type='text' name='dhcpEthStart2' style="border-color:#3399cc; border-style:solid; border-width: 1px;" size="6" maxLength="3">.
+				 	<input type='text' name='dhcpEthStart3' style="border-color:#3399cc; border-style:solid; border-width: 1px;" size="6" maxLength="3">.
+				 	<input type='text' name='dhcpEthStart4' style="border-color:#3399cc; border-style:solid; border-width: 1px;" size="6" maxLength="3">&nbsp;
+                 	<input type='hidden' name='dhcpEthStart5' style="border-color:#3399cc; border-style:solid; border-width: 1px;" size="10"></font>
+		  	  </td>
+            </tr>
+			
+            <tr>
+				<td width="14"></td>
+            	<td width="165" height="2" class="copy_1"><b>
+           	  <script>dw(ls_12)</script> &gt;</b></td>
+				<td width="421" height="2"><font face="Verdana" color="#003366">
+                    <input type='text' name='dhcpEthEnd1' style="border-color:#3399cc; border-style:solid; border-width: 1px;" size="6" maxLength="3">.
+					<input type='text' name='dhcpEthEnd2' style="border-color:#3399cc; border-style:solid; border-width: 1px;" size="6" maxLength="3">.
+					<input type='text' name='dhcpEthEnd3' style="border-color:#3399cc; border-style:solid; border-width: 1px;" size="6" maxLength="3">.
+					<input type='text' name='dhcpEthEnd4' style="border-color:#3399cc; border-style:solid; border-width: 1px;" size="6" maxLength="3">&nbsp;
+                    <input type='hidden' name='dhcpEthEnd5' style="border-color:#3399cc; border-style:solid; border-width: 1px;" size="10"></font>
+		  	  </td>
+         	</tr>
+		</table>
+
+      	<table border="0" cellpadding="0" cellspacing="0" width="550">
+           	<tr>
+		   		<TD width=15>&nbsp;</TD>
+            	<td><hr noshade size="1" color="#666666"></td>
+           	</tr>
+      	</table>
+
+		<!-- DHCP Server End-->	
+
+
+		<!-- DHCP Server Lease Time Start-->
+		
+		<table border="0" cellpadding="0" cellspacing="0" width="600" height="1">
+        	<tr>
+            	<td width="174" height="19" class="copy_1">&nbsp;&nbsp;&nbsp;&nbsp;<b><script>dw(ls_13)</script> &gt;</b></td>
+                <td width="426" height="19"><font face="Verdana">
+                     <select name="dhcpLeasedTime" ><script language="javascript">write_leaseTime()</script></select></font>
+			  </td>
+            </tr>
+            <tr>
+                 <td  class="copy_1" colspan="2"><br>&nbsp;&nbsp;&nbsp;&nbsp;<script>dw(ls_22)</script></td>
+            </tr>
+		</table>
+      	<table border="0" cellpadding="0" cellspacing="0" width="550">
+           	<tr>
+		   		<TD width=15>&nbsp;</TD>
+            	<td><hr noshade size="1" color="#666666"></td>
+           	</tr>
+      	</table>
+		
+		<!-- DHCP Server Lease Time End-->
+		
+		<!-- Local Domain Name Start-->
+
+		<table border="0" cellpadding="0" cellspacing="0" width="475" height="1">
+        	<tr>
+            	<td width="172" height="19" class="copy_1">&nbsp;&nbsp;&nbsp;&nbsp;<b>
+            	  <script>dw(ls_23)</script> &gt;</b><br>
+       	      &nbsp;&nbsp;&nbsp;&nbsp;(<script>dw(ls_24)</script>)</td>
+				<td width="303" align="left"><input type="text" name="dhcpDomain" style="border-color:#3399cc; border-style:solid; border-width: 1px;" size="26" maxLength="39"> 
+			  </td>
+            </tr>
+            <tr>
+            	<td  class="copy_1" colspan="2"><br>&nbsp;&nbsp;&nbsp;&nbsp;<script>dw(ls_25)</script>
+<a href="javascript:void(0);" onClick="window.open('glossary.html#LDOMAIN','help','toolbar=0,status=0,menubar=0,scrollbars=1,resizable=1, width=640,height=400,left=150,top=150');">
+                    <b><font color="#0066FF" style="FONT-SIZE: 11px;"><script>dw(ls_5)</script></font></b></a>
+				</td>
+            </tr>
+		</table>            
+		
+		<!-- Local Domain Name End-->
+       	</div>
+		<br>
+      	<table border="0" cellpadding="0" cellspacing="0" width="550">
+           	<tr>
+            	<td align="center">
+				<script>				
+					var info="<input type='button' style='width:180px' onClick='frmLoad()' value='"+ls_26+"' class='submitBtn'><input type='button' style='width:180px' onClick='btnSave(1)' value='"+ls_27+"' class='submitBtn'>"
+					dw(info);				
+				</script>
+                  
+				</td>
+           	</tr>
+      	</table>
+		
+         </form></TD></TR></TBODY></TABLE></TD>
+   </body>
+</html>

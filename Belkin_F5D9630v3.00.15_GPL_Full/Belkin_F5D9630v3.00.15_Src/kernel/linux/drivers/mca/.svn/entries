@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/kernel/linux/drivers/mca"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   committed-rev="3"
+   name="Kconfig"
+   text-time="2008-02-22T08:23:43.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="a006de3c04a0885b07e1d9238467dbd3"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:43.000000Z"/>
+<entry
+   committed-rev="3"
+   name="mca-proc.c"
+   text-time="2008-02-22T08:23:43.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="8f8a6957ae399b446539dbdad0bc3152"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:43.000000Z"/>
+<entry
+   committed-rev="3"
+   name="mca-legacy.c"
+   text-time="2008-02-22T08:23:43.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="f38e356a3906daf9192a3b6784d07561"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:43.000000Z"/>
+<entry
+   committed-rev="3"
+   name="mca-bus.c"
+   text-time="2008-02-22T08:23:43.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="de07a6fd7d7648255856fe3de0a6928a"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:43.000000Z"/>
+<entry
+   committed-rev="3"
+   name="mca-driver.c"
+   text-time="2008-02-22T08:23:43.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="7a0f44174a143e86704a7cb031c13aaf"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:43.000000Z"/>
+<entry
+   name="CVS"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="Makefile"
+   text-time="2008-02-22T08:23:43.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="903d56716d63bae579ad0e391489d393"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:43.000000Z"/>
+<entry
+   committed-rev="3"
+   name="mca-device.c"
+   text-time="2008-02-22T08:23:43.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="d2d1b32cf9773cb5b15d8d020c043bbc"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:43.000000Z"/>
+</wc-entries>

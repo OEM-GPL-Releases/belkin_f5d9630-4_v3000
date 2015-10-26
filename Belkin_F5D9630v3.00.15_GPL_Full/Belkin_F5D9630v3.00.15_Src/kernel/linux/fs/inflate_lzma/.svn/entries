@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/kernel/linux/fs/inflate_lzma"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   committed-rev="3"
+   name="LZMADecoder.h"
+   text-time="2008-02-22T08:21:51.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="18e9156726b18415296aa89256c0d3e7"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:51.000000Z"/>
+<entry
+   committed-rev="3"
+   name="LenCoder.h"
+   text-time="2008-02-22T08:21:51.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="342c25ff32babbecff1ebf0fbd6abcc0"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:51.000000Z"/>
+<entry
+   committed-rev="3"
+   name="WindowOut.h"
+   text-time="2008-02-22T08:21:51.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="4393c498483c8f5cf863d764a49e5fd3"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:51.000000Z"/>
+<entry
+   committed-rev="3"
+   name="7z.h"
+   text-time="2008-02-22T08:21:51.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="80f45763e1937a48640d60fe02306748"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:51.000000Z"/>
+<entry
+   committed-rev="3"
+   name="IInOutStreams.c"
+   text-time="2008-02-22T08:21:51.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="987cb4c20fd3d2516f82a391de5e8897"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:51.000000Z"/>
+<entry
+   committed-rev="3"
+   name="LZMA.h"
+   text-time="2008-02-22T08:21:51.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="5e616145123e9cc63eb4494a3ab23265"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:51.000000Z"/>
+<entry
+   committed-rev="3"
+   name="IInOutStreams.h"
+   text-time="2008-02-22T08:21:51.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="eb3eeb5b5a54f433fc5e4751ef7daf09"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:51.000000Z"/>
+<entry
+   committed-rev="3"
+   name="RCDefs.h"
+   text-time="2008-02-22T08:21:51.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="0f150658de027a48df50c5cd569667f9"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:51.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Portable.h"
+   text-time="2008-02-22T08:21:51.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="a6d47531c4dc1ebf1aaf9709f417160b"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:51.000000Z"/>
+<entry
+   committed-rev="3"
+   name="LiteralCoder.h"
+   text-time="2008-02-22T08:21:51.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="278f885cd1db76e92d0f021ab10b13a4"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:51.000000Z"/>
+<entry
+   committed-rev="3"
+   name="RangeCoder.h"
+   text-time="2008-02-22T08:21:51.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="56e06daf4ef8041e6133d7d1d9b44a6b"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:51.000000Z"/>
+<entry
+   committed-rev="3"
+   name="BitTreeCoder.h"
+   text-time="2008-02-22T08:21:51.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="856f1cb61c5d6f00a90cfebd988efebc"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:51.000000Z"/>
+<entry
+   committed-rev="3"
+   name="7zlzma.c"
+   text-time="2008-02-22T08:21:51.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="8f189f3d0944308e025766b2755f6128"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:51.000000Z"/>
+<entry
+   committed-rev="3"
+   name="vxTypesOld.h"
+   text-time="2008-02-22T08:21:51.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="a18a55a3d8aba94ece0e086256262298"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:51.000000Z"/>
+<entry
+   committed-rev="3"
+   name="LZMADecoder.c"
+   text-time="2008-02-22T08:21:51.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="0d528489a2229dd23cf2598546866f1c"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:51.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Makefile"
+   text-time="2008-02-22T08:21:51.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="f0d78f43ce446d79fdadfcef5a05a0b2"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:51.000000Z"/>
+<entry
+   committed-rev="3"
+   name="AriBitCoder.h"
+   text-time="2008-02-22T08:21:51.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="2f3682919b01bd906296481b0f65bd96"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:51.000000Z"/>
+</wc-entries>

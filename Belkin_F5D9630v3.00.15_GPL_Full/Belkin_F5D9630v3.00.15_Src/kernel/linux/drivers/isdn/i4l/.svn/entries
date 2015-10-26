@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/kernel/linux/drivers/isdn/i4l"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   committed-rev="3"
+   name="Kconfig"
+   text-time="2008-02-22T08:23:33.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="6340cd5026a830d5ddba1bf1481b7bf0"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:33.000000Z"/>
+<entry
+   committed-rev="3"
+   name="isdn_ttyfax.h"
+   text-time="2008-02-22T08:23:33.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="38a828b0773da2b6971129aea156ec80"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:33.000000Z"/>
+<entry
+   committed-rev="3"
+   name="isdn_tty.h"
+   text-time="2008-02-22T08:23:33.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="a27647f4175c7ea16a65e46701335e10"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:33.000000Z"/>
+<entry
+   committed-rev="3"
+   name="isdn_net.c"
+   text-time="2008-02-22T08:23:33.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="72a91d6ca2fc2bd40af67256fc0f36e6"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:33.000000Z"/>
+<entry
+   committed-rev="3"
+   name="isdn_v110.c"
+   text-time="2008-02-22T08:23:33.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="34d7d87033598926c482ad644d332c63"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:33.000000Z"/>
+<entry
+   committed-rev="3"
+   name="isdn_bsdcomp.c"
+   text-time="2008-02-22T08:23:33.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="14fc80d490f3efdc27c51532681a813f"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:33.000000Z"/>
+<entry
+   committed-rev="3"
+   name="isdn_common.c"
+   text-time="2008-02-22T08:23:33.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="64c11e9c4c57fed88d01f965136565da"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:33.000000Z"/>
+<entry
+   committed-rev="3"
+   name="isdn_net.h"
+   text-time="2008-02-22T08:23:33.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="b8f52562d78b0ce0acb4fead1ff7118d"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:33.000000Z"/>
+<entry
+   committed-rev="3"
+   name="isdn_v110.h"
+   text-time="2008-02-22T08:23:33.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="8af49dd2544c08d1c4aaf0088b3f6548"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:33.000000Z"/>
+<entry
+   committed-rev="3"
+   name="isdn_common.h"
+   text-time="2008-02-22T08:23:33.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="1be6e8152a893ff3c7fc2ccef092fa17"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:33.000000Z"/>
+<entry
+   name="CVS"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="isdn_ppp.c"
+   text-time="2008-02-22T08:23:33.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="607c9a22f0a6bb7bbdcef95989f99cd1"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:33.000000Z"/>
+<entry
+   committed-rev="3"
+   name="isdn_audio.c"
+   text-time="2008-02-22T08:23:33.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="0e80d70384a7a6b7e37c00912d089ed6"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:33.000000Z"/>
+<entry
+   committed-rev="3"
+   name="isdn_concap.c"
+   text-time="2008-02-22T08:23:33.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="33f3d61163535119bc7a0d50ecd71a5d"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:33.000000Z"/>
+<entry
+   committed-rev="3"
+   name="isdn_ppp.h"
+   text-time="2008-02-22T08:23:33.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="69f5fc7a047c85650d48589afd877e4d"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:33.000000Z"/>
+<entry
+   committed-rev="3"
+   name="isdn_audio.h"
+   text-time="2008-02-22T08:23:33.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="ecd00e5ec8703c44d305763a02ee731f"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:33.000000Z"/>
+<entry
+   committed-rev="3"
+   name="isdn_x25iface.c"
+   text-time="2008-02-22T08:23:33.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="fa969f877455e69b35d0cbb72416c1fa"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:33.000000Z"/>
+<entry
+   committed-rev="3"
+   name="isdn_concap.h"
+   text-time="2008-02-22T08:23:33.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="336a49725f417734e2b92ceee9288f15"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:33.000000Z"/>
+<entry
+   committed-rev="3"
+   name="isdn_x25iface.h"
+   text-time="2008-02-22T08:23:33.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="9c0906dd94e785a61285142a3a3ab83d"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:33.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Makefile"
+   text-time="2008-02-22T08:23:33.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="9567a06487b36fafd5f81b3d27c52cc1"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:33.000000Z"/>
+<entry
+   committed-rev="3"
+   name=".cvsignore"
+   text-time="2008-02-22T08:23:33.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="d8b65572e25962faaf07c20bb34d224e"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:33.000000Z"/>
+<entry
+   committed-rev="3"
+   name="isdn_ttyfax.c"
+   text-time="2008-02-22T08:23:33.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="14c87a9d80554fa227f0d26c3ee68b29"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:33.000000Z"/>
+<entry
+   committed-rev="3"
+   name="isdn_tty.c"
+   text-time="2008-02-22T08:23:33.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="e5a54f5211d7db0032404b75df802804"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:33.000000Z"/>
+</wc-entries>

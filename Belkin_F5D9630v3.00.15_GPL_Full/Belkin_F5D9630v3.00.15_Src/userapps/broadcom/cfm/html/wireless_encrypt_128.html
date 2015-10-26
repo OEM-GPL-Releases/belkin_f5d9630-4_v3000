@@ -1,0 +1,333 @@
+<html>
+   <head>
+      <meta HTTP-EQUIV='Pragma' CONTENT='no-cache'>
+	  <meta http-equiv="refresh" content="<%ejGet(timeout_refresh)%>">
+         <link rel="stylesheet" href="main_router.css" type='text/css'>
+		<%ejGet("curLanguage")%>
+		<SCRIPT>assign_var();</SCRIPT>
+		 
+		 <SCRIPT language=JavaScript src="showMenu.js"></SCRIPT>
+          <script language='javascript' src='util.js'></script>
+          <script language="javascript" src="md5.js"></script>
+          <script language='javascript'>
+<!-- hide
+
+strHtml='<title>'+wlm_1+' &gt; '+wlm_5+'</title>';
+dw(strHtml);
+
+
+
+var key_error = wlsw64_1;
+
+var wlenbl  = '<%ejGetWl(wlEnbl)%>'; // '0': disabled
+
+
+var bit = '<%ejGetWl(wlKeyBit)%>';
+
+if(bit == 1) //64 bit
+{
+	var wepkeys = new Array( "", "","", "" );
+}
+else
+{
+	var wepkeys = new Array( "<%ejGetWl(wlKey1)%>", "<%ejGetWl(wlKey2)%>",
+                      		"<%ejGetWl(wlKey3)%>", "<%ejGetWl(wlKey4)%>" );
+}
+
+
+
+function frmLoad() 
+{
+
+  if (wlenbl == '0')
+  {
+    document.forms[0].wlAuthMode2.disabled=true;
+    for (i=0; i<13; i++)
+      document.forms[0].keys[i].disabled=true;
+    document.forms[0].passphrase.disabled=true;
+  }
+
+   with ( document.forms[0] ) 
+   {
+      wlAuthMode2.selectedIndex = 2;
+	  passphrase.value = '';
+      
+	  var ldl;
+      var ldbuf = '';
+      var lddigpairs = '';
+
+      lddigpairs  = wepkeys[0] ;
+      wlkey.value = wepkeys[0] ;
+
+      for ( i = 0; i< 13; i++){
+        ldl = i*2;
+        ldbuf = '';
+        ldbuf = lddigpairs.charAt(ldl);
+        ldbuf = ldbuf.concat(lddigpairs.charAt(ldl+1));
+        keys[i].value = ldbuf.toUpperCase();
+
+     }
+
+   }
+}
+
+
+function btnApply() 
+{
+
+   if ( wlenbl == '0' ) 
+   {
+      alert(wlsw64_7);
+      return;
+   }
+
+   var loc = 'wlsecurity.wl?';
+   
+   with ( document.forms[0] ) 
+   {
+
+      var input_key=keys[0].value+keys[1].value+keys[2].value+keys[3].value+keys[4].value+keys[5].value+keys[6].value+keys[7].value+keys[8].value+keys[9].value+keys[10].value+keys[11].value+keys[12].value;
+
+      if ( isValidKey(input_key, 13) == false ) 
+	  {
+          alert('Key "' + input_key + '" ' + key_error);
+          return;
+      }
+	
+	  wlKey1.value = input_key
+
+/*
+      loc += 'wlAuthMode=open&wlAuth=0&wlWep=enabled&wlWpa=tkip';
+	  loc += '&wlKeyBit=0&wlPreauth=0&wlKeyIndex=1&wlKey1='+ input_key;
+	  loc += '&wlSsidIdx=0';
+*/ 
+   }
+
+	document.forms[0].submit();
+   //window.location.href = loc;
+}
+
+function authModeChangeSet(){
+   with ( document.forms[0] ) {
+
+      var authMode = wlAuthMode2[wlAuthMode2.selectedIndex].value;
+
+      switch ( authMode ) 
+	  {
+		case 'open':
+		   loc = 'wireless_encrypt_no.html';
+    	   break;
+      	case 'shared128':
+		   loc = 'wireless_encrypt_128.html';
+		   break;
+		case 'shared64':
+		   loc = 'wireless_encrypt_64.html';
+	       break;
+        case 'wpa':
+    	   loc = 'wireless_wpa_radius.html';
+           break;
+        case 'psk':
+    	   loc = 'wireless_wpa_psk.html';
+           break;
+        default:
+           loc = 'wireless_encrypt_no.html';
+      }
+
+   window.location.href = loc;
+
+   }
+}
+
+function Get128bitkey(input, k, ks)
+{
+   if ( wlenbl == '0' ) {
+      return;
+   }
+    var str = input; // Initialize variable.
+    var i,j,len;
+    var key = "";
+    var t = "";
+    var md5key ="";
+
+    len = input.length;
+
+	if (len <= 0)
+	{
+		alert(wlsw64_2);
+		return;
+	}
+
+
+    for(i=0;i<64;i++)
+    {
+      j  = i % len;
+      t  = str.charAt(j);
+      key  = key.concat(t);
+    }
+
+    md5key = hex_md5(key);
+
+    k.value = md5key.substring(0,26);
+
+    var l;
+    var buf = '';
+    var digpairs = '';
+
+    digpairs = k.value;
+
+    for ( i = 0; i< 13; i++){
+       l = i*2;
+       buf = '';
+       buf = digpairs.charAt(l);
+       buf = buf.concat(digpairs.charAt(l+1));
+       ks[i].value = buf.toUpperCase();
+
+    }
+
+}
+
+function write_encMode()
+{
+	with(document.forms[0])
+	{
+		document.write("<option value=\"open\">"+home_44+"</option>");
+		document.write("<option value=\"psk\">"+wlsn_2+"</option>");
+		document.write("<option value=\"shared128\">"+wlsn_3+"</option>");
+		document.write("<option value=\"shared64\">"+wlsn_4+"</option>");
+		document.write("<option value=\"wpa\">"+wlsn_5+"</option>");
+	}
+}
+
+// done hiding -->
+</script>
+   </head>
+   <body onLoad='frmLoad()' bgColor="#ffffff" leftMargin="0" topMargin="0" marginheight="0" marginwidth="0">
+         <form action="post.cgi" method="post">
+		    <input type="hidden" name="page" value="wlsecurity">
+		 	<input type="hidden" name="wlAuthMode" value="open">
+			<input type="hidden" name="wlAuth" value="0">
+			<input type="hidden" name="wlWep" value="enabled">
+			<input type="hidden" name="wlWpa" value="tkip">
+			<input type="hidden" name="wlKeyBit" value="0">
+			<input type="hidden" name="wlPreauth" value="0">
+			<input type="hidden" name="wlKeyIndex" value="1">
+	        <input type='hidden' name='wlKey1'>
+			<input type='hidden' name='wlSsidIdx' value="0">
+		  
+		  
+		  
+       <SCRIPT language=JavaScript>
+	var helpItem 	='Security';
+	var menuSection	='WLAN';
+	var menuItem	='Security';
+	var isAPmode = '<%ejGet(enblNat)%>';
+		
+	var wanStatus = '<%ejGetOther(isUp)%>';
+	showHead(wanStatus,helpItem);
+	showMenu(menuSection,menuItem,isAPmode)
+	</SCRIPT>  
+<TD class=head_bold width="90%" valign="top"><Br>
+		  
+          <table border="0" cellpadding="0" cellspacing="0" width="737">
+               <tr>
+               <td height="16" colspan="2" class="head_bold"><b>&nbsp;&nbsp;<script>dw(wlm_1);</script> &gt;&nbsp;<script>dw(wlm_5);</script> </b></td>
+               </tr>
+               
+			   <tr>
+               <td width='113' height = "16" colspan="2"></td>
+               </tr>
+			   
+               <tr>
+               <td width='624' height="16" colspan="2"></td>
+               </tr>
+		  </table>
+		  
+		  <table border="0" cellpadding="0" cellspacing="0" width="737"> 	   
+               <tr>
+			   <td width="50"></td>
+               <td width="135" height="16" class="copy_1"><b><script>dw(wlsn_1);</script> :&nbsp;&nbsp;&nbsp;</b></td>
+               <td width="552" height="16" class="copy_1">
+                  <font size="1" color='#004263'>
+                  <select name='wlAuthMode2' size='1' onChange='authModeChangeSet()'><script language="javascript">write_encMode()</script></select></font>
+					 <b>
+            <font face="Verdana" size="1" color="#6464C3">
+            <a href="javascript:void(0);" onClick="window.open('glossary.html#ENCRYPTION','help','toolbar=0,status=0,menubar=0,scrollbars=1,resizable=1,width=640,height=400,left=150,top=150');">
+            <font style="FONT-SIZE: 11px;" color="#6464C3"><script>dw(wd_8);</script></font></a></font></b>	
+				 
+				 </td>
+               </tr>
+    </table>
+		   <Br>
+		   
+		   <table border="0" cellpadding="0" cellspacing="0" width="737">	   
+               <tr>
+			   <td width="186"></td>
+               <td width="551"  height="16" class="copy_1"> </td>
+			   </tr>
+			   <tr>
+			   <td  height="16"></td>
+			   <td>
+				<input type='text' name='keys' size='5' maxlength = '2'><input type='text' name='keys' size='5' maxlength = '2'><input type='text' name='keys' size='5' maxlength = '2'><input type='text' name='keys' size='5' maxlength = '2'><input type='text' name='keys' size='5' maxlength = '2'>
+				</td>
+               </tr>
+               <tr>
+               <td  height="16"></td>
+               <td  height="16" class="copy_1"><input type='text' name='keys' size='5' maxlength = '2'><input type='text' name='keys' size='5' maxlength = '2'><input type='text' name='keys' size='5' maxlength = '2'><input type='text' name='keys' size='5' maxlength = '2'><input type='text' name='keys' size='5' maxlength = '2'></td>
+               </tr>
+               <tr>
+               <td height="16"></td>
+               <td height="16" class="copy_1"><input type='text' name='keys' size='5' maxlength = '2'><input type='text' name='keys' size='5' maxlength = '2'><input type='text' name='keys' size='5' maxlength = '2'>&nbsp;<b><script>dw(wlsw128_1);</script></b><input type='hidden' name='wlkey'></td>
+               </tr>
+               </tr>
+	</table>
+			
+			<br><br>
+			<table border="0" cellpadding="0" cellspacing="0" width="737">	      
+               <tr>
+			   <td width="144"></td>
+               <td width="593" class="copy_1"><script>dw(wlsw64_8);</script></td>
+               </tr>
+			</table>
+			
+			
+			<table border="0" cellpadding="0" cellspacing="0" width="737">
+              <tr>
+                <td width="50"></td>
+                <td width="135"  height="16"></td>
+                <td width="552"  height="16"></td>
+              </tr>
+              <tr>
+                <td></td>
+                <td  height="16" class="copy_1"><b>
+                  <script>dw(wlsw64_9);</script>
+                </b></td>
+                <td  height="16" class="copy_1"><input type='text' name='passphrase' size='32' maxlength = '32'>
+                    <script>
+					var info="<input type='button' style='height:22px;width:120px;' value='"+wlsw64_10+"' class='submitBtn' onclick='Get128bitkey(passphrase.value,wlkey,keys)' name='generate_btn'>";
+					dw(info);
+				</script>
+                </td>
+              </tr>
+              <tr>
+                <td></td>
+                <td  height="16"></td>
+                <td  height="16"></td>
+              </tr>
+              <tr>
+                <td  height="16"></td>
+                <td  height="16"></td>
+              </tr>
+              <tr>
+                <td></td>
+                <td  height="16"></td>
+                <td  height="16"><script>
+					var info ="<input type='button' style='height:22px;width:180px;' onClick='frmLoad()' value='"+wd_9+"' class='submitBtn' name='clear_changes_btn'><input type='button' style='height:22px;width:180px;' onClick='btnApply()' value='"+wd_10+"' class='submitBtn' name='apply_changes_btn'>";
+					dw(info);				
+				</script>
+                </td>
+              </tr>
+            </table>
+			<p></p>
+           </TD></TR></TBODY></TABLE></TD></form>
+   </body>   
+</html>

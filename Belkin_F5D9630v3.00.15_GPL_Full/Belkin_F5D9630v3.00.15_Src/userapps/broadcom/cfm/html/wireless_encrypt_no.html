@@ -1,0 +1,150 @@
+<html>
+   <head>
+      <meta HTTP-EQUIV='Pragma' CONTENT='no-cache'>
+	  <meta http-equiv="refresh" content="<%ejGet(timeout_refresh)%>">
+         <link rel="stylesheet" href="main_router.css" type='text/css'>
+
+		<%ejGet("curLanguage")%>
+		<SCRIPT>assign_var();</SCRIPT>
+
+		 
+            <script language="javascript" src="util.js"></script>
+			<SCRIPT language=JavaScript src="showMenu.js"></SCRIPT>
+            <script language="javascript">
+<!-- hide
+
+strHtml='<title>'+wlm_1+' &gt; '+wlm_5+'</title>';
+dw(strHtml);
+
+
+var enblwl = '<%ejGetWl(wlEnbl)%>';
+
+
+function authModeChangeSet(){
+   var loc;
+   with ( document.forms[0] ) {
+      var authMode = wlAuthMode2[wlAuthMode2.selectedIndex].value;
+
+      switch ( authMode ) {
+		case 'open':
+		   loc = 'wireless_encrypt_no.html';
+    	   break;
+      	case 'shared128':
+		   loc = 'wireless_encrypt_128.html';
+		   break;
+		case 'shared64':
+		   loc = 'wireless_encrypt_64.html';
+	       break;
+        case 'wpa':
+    	   loc = 'wireless_wpa_radius.html';
+           break;
+        case 'psk':
+    	   loc = 'wireless_wpa_psk.html';
+           break;
+        default:
+           loc = 'wireless_encrypt_no.html';
+      }
+   }
+   window.location.href = loc;
+}
+
+
+function btnApply() {
+
+	document.forms[0].submit();
+
+   //var loc = 'wlsecurity.wl?wlAuthMode=open&wlAuth=0&wlWep=disabled&wlWpa=tkip&wlKeyBit=0&wlPreauth=0&wlSsidIdx=0';
+   //window.location.href = loc;
+}
+
+function frmLoad() 
+{
+	if (enblwl == '0')
+  	{
+	    document.forms[0].wlAuthMode2.selectedIndex=0;
+		document.forms[0].wlAuthMode2.disabled = true;
+	}
+	else
+    	document.forms[0].wlAuthMode2.selectedIndex=0;
+
+}
+
+function write_encMode()
+{
+	with(document.forms[0])
+	{
+		document.write("<option value=\"open\">"+home_44+"</option>");
+		document.write("<option value=\"psk\">"+wlsn_2+"</option>");
+		document.write("<option value=\"shared128\">"+wlsn_3+"</option>");
+		document.write("<option value=\"shared64\">"+wlsn_4+"</option>");
+		document.write("<option value=\"wpa\">"+wlsn_5+"</option>");
+	}
+}
+
+// done hiding -->
+      </script>
+	  
+   </head>
+   <body onLoad='frmLoad()'  bgColor="#ffffff" leftMargin="0" topMargin="0" marginheight="0" marginwidth="0">
+         <form method="post" action="post.cgi">
+		 <input type="hidden" name="page" value="wlsecurity">
+		 <input type="hidden" name="wlAuthMode" value="open">
+		 <input type="hidden" name="wlAuth" value="0">
+		 <input type="hidden" name="wlWep" value="disabled">
+		 <input type="hidden" name="wlWpa" value="tkip">
+		 <input type="hidden" name="wlKeyBit" value="0">
+		 <input type="hidden" name="wlPreauth" value="0">
+		 <input type="hidden" name="wlSsidIdx" value="0">
+       <SCRIPT language=JavaScript>
+	var helpItem 	='Security';
+	var menuSection	='WLAN';
+	var menuItem	='Security';
+	var isAPmode = '<%ejGet(enblNat)%>';
+		
+	var wanStatus = '<%ejGetOther(isUp)%>';
+	showHead(wanStatus,helpItem);
+	showMenu(menuSection,menuItem,isAPmode)
+	</SCRIPT>  
+<TD class=head_bold width="90%" valign="top"><Br>
+		 
+            <b><font class="head_bold">&nbsp;&nbsp;<script>dw(wlm_1);</script> &gt; <script>dw(wlm_5);</script></font></b>
+
+            <br><Br><Br>
+			<table border="0" cellpadding="0" cellspacing="0" width="737">
+				  <td width="49"></td>	
+                  <td width="137"  class="copy_1"><b><script>dw(wlsn_1);</script></b></td>
+                  <td width="551"><font size="1" face="Verdana" color="#004263">
+                  <select name='wlAuthMode2' size='1' onChange='authModeChangeSet()'><script language="javascript">write_encMode()</script></select></font>
+                  </td>
+               </tr>
+            </table>
+<table height="5"><tr></tr></table>
+
+<br>
+			<table border="0" cellpadding="0" cellspacing="0" width="737">			
+			   <tr>
+			   <td width="49"></td>
+			   <td width="688"  class="copy_1"><script>dw(wlsn_6);</script>
+					 <b>
+            <font face="Verdana" size="1" color="#6464C3">
+            <a href="javascript:void(0);" onClick="window.open('glossary.html#ENCRYPTION','help','toolbar=0,status=0,menubar=0,scrollbars=1,resizable=1,width=640,height=400,left=150,top=150');">
+            <font style="FONT-SIZE: 11px;" color="#6464C3"><script>dw(wd_8);</script></font></a></font></b>	
+				 
+				 <br>
+			   </td>
+			   </tr>
+			   
+             
+			</table>
+			   <br>		
+				<Br><br>
+            <center>
+				<script>
+					var info="<input type='button' name='buttonapply' style='height:22px;width:180px;' onClick='btnApply()' value='"+wd_10+"' class='submitBtn'>";
+					dw(info);
+				</script>
+               
+            </center>
+         </TD></TR></TBODY></TABLE></TD></form>
+   </body>
+</html>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/kernel/linux/fs/bfs"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   committed-rev="3"
+   name="dir.c"
+   text-time="2008-02-22T08:21:57.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="18d5ea7eab7125ae0410fa3382ca695a"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:57.000000Z"/>
+<entry
+   committed-rev="3"
+   name="inode.c"
+   text-time="2008-02-22T08:21:57.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="d3336d11fb0439da4be29dbb96e954e0"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:57.000000Z"/>
+<entry
+   committed-rev="3"
+   name="bfs.h"
+   text-time="2008-02-22T08:21:57.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="d2b352d728b8ae378e110027f4a4b679"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:57.000000Z"/>
+<entry
+   committed-rev="3"
+   name="file.c"
+   text-time="2008-02-22T08:21:57.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="62ee1a2be155101dcb72b8b4f3a60ec7"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:57.000000Z"/>
+<entry
+   name="CVS"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name=".cvsignore"
+   text-time="2008-02-22T08:21:57.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="735ab631b67b75d07a52edc9e01aed4c"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:57.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Makefile"
+   text-time="2008-02-22T08:21:57.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="7f104fc65c036f639fd47b0f90f65434"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:57.000000Z"/>
+</wc-entries>

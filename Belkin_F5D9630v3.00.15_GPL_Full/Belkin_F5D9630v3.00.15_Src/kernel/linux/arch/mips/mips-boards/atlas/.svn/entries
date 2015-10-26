@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/kernel/linux/arch/mips/mips-boards/atlas"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   committed-rev="3"
+   name="atlas_int.c"
+   text-time="2008-02-22T08:22:56.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="db777f05dbcfc4c672fd8005c38dddcc"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:56.000000Z"/>
+<entry
+   committed-rev="3"
+   name="atlas_gdb.c"
+   text-time="2008-02-22T08:22:56.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="5a157e8c366f016773ae84a42d6f37a4"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:56.000000Z"/>
+<entry
+   committed-rev="3"
+   name="atlas_setup.c"
+   text-time="2008-02-22T08:22:56.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="abc8d2dbfa33019e51ff192faf839a46"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:56.000000Z"/>
+<entry
+   name="CVS"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name=".cvsignore"
+   text-time="2008-02-22T08:22:56.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="d8b65572e25962faaf07c20bb34d224e"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:56.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Makefile"
+   text-time="2008-02-22T08:22:56.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="284d6ec282f2d9019436a3a28bc6b1a6"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:56.000000Z"/>
+</wc-entries>

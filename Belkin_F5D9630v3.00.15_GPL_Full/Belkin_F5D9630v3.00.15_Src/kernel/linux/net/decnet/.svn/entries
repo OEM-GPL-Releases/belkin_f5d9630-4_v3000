@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/kernel/linux/net/decnet"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   committed-rev="3"
+   name="Kconfig"
+   text-time="2008-02-22T08:21:32.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="bd6c629b8f7c1732c669854c121f7503"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:32.000000Z"/>
+<entry
+   committed-rev="3"
+   name="dn_dev.c"
+   text-time="2008-02-22T08:21:32.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="ae5c76336e054f21c854a76cb997fcd4"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:32.000000Z"/>
+<entry
+   committed-rev="3"
+   name="dn_timer.c"
+   text-time="2008-02-22T08:21:32.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="cec7f7edae2086c4f8951606609f10fb"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:32.000000Z"/>
+<entry
+   committed-rev="3"
+   name="dn_nsp_in.c"
+   text-time="2008-02-22T08:21:32.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="a0127dbed2f2106724e217b44f53ef3d"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:32.000000Z"/>
+<entry
+   committed-rev="3"
+   name="af_decnet.c"
+   text-time="2008-02-22T08:21:32.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="29801ab5f4ad601b28547e46571cd118"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:32.000000Z"/>
+<entry
+   committed-rev="3"
+   name="dn_nsp_out.c"
+   text-time="2008-02-22T08:21:32.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="976a9de28cd8348e241cb4062ef57844"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:32.000000Z"/>
+<entry
+   committed-rev="3"
+   name="dn_table.c"
+   text-time="2008-02-22T08:21:32.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="8d77e14a08d14a631b29c3df7ad67611"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:32.000000Z"/>
+<entry
+   committed-rev="3"
+   name="sysctl_net_decnet.c"
+   text-time="2008-02-22T08:21:32.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="c1fb53deefc939d2d3476fb22a359e03"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:32.000000Z"/>
+<entry
+   name="CVS"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="dn_neigh.c"
+   text-time="2008-02-22T08:21:32.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="0c61e3bb37f3fc836b045376e9417e37"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:32.000000Z"/>
+<entry
+   committed-rev="3"
+   name="dn_rules.c"
+   text-time="2008-02-22T08:21:32.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="537856334d43f49a6a426695cf9080e0"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:32.000000Z"/>
+<entry
+   name="netfilter"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="README"
+   text-time="2008-02-22T08:21:32.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="af8c51138d29f9a97ff1045808d710b4"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:32.000000Z"/>
+<entry
+   committed-rev="3"
+   name="dn_route.c"
+   text-time="2008-02-22T08:21:32.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="f967acf7819be5c1b968dff5ebbe9596"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:32.000000Z"/>
+<entry
+   committed-rev="3"
+   name="dn_fib.c"
+   text-time="2008-02-22T08:21:32.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="8a19698d39781bd6964124f1724efc56"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:32.000000Z"/>
+<entry
+   committed-rev="3"
+   name="TODO"
+   text-time="2008-02-22T08:21:32.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="a7f38077b97ce2140b0ac891cd5bd727"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:32.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Makefile"
+   text-time="2008-02-22T08:21:32.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="d1a6ecef5eee0a312a4fb7b1d3f74737"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:32.000000Z"/>
+<entry
+   committed-rev="3"
+   name=".cvsignore"
+   text-time="2008-02-22T08:21:32.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="735ab631b67b75d07a52edc9e01aed4c"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:32.000000Z"/>
+</wc-entries>

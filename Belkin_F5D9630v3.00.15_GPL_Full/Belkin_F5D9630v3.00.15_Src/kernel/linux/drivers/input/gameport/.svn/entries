@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/kernel/linux/drivers/input/gameport"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   committed-rev="3"
+   name="gameport.c"
+   text-time="2008-02-22T08:23:42.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="7a2dd7b97b7e0a15df57081db3c01699"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:42.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Kconfig"
+   text-time="2008-02-22T08:23:42.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="5bdeb500172a864c1a07c0dec960c23b"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:42.000000Z"/>
+<entry
+   committed-rev="3"
+   name="fm801-gp.c"
+   text-time="2008-02-22T08:23:42.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="00c240fcc0138ea41019f31f24ef6c20"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:42.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ns558.c"
+   text-time="2008-02-22T08:23:42.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="6ae9bfc66c21d25c514605dd359d7c22"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:42.000000Z"/>
+<entry
+   committed-rev="3"
+   name="lightning.c"
+   text-time="2008-02-22T08:23:42.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="2f028072ef1de4a7b84e294ae235bfb5"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:42.000000Z"/>
+<entry
+   committed-rev="3"
+   name="emu10k1-gp.c"
+   text-time="2008-02-22T08:23:42.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="99fb1445e47638dabf86612ca9155292"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:42.000000Z"/>
+<entry
+   committed-rev="3"
+   name="vortex.c"
+   text-time="2008-02-22T08:23:42.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="61f8b08e36fdd7f27ab2a5277bc2a937"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:42.000000Z"/>
+<entry
+   committed-rev="3"
+   name="cs461x.c"
+   text-time="2008-02-22T08:23:42.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="2a9bb578a641e2ebf2f0bf4cf98d845b"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:42.000000Z"/>
+<entry
+   name="CVS"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name=".cvsignore"
+   text-time="2008-02-22T08:23:42.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="d8b65572e25962faaf07c20bb34d224e"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:42.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Makefile"
+   text-time="2008-02-22T08:23:42.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="c35e803902a823854c8cb8ea6f74943e"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:42.000000Z"/>
+</wc-entries>

@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/userapps/opensource/ebtables"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   name="extensions"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="ebtables.c"
+   text-time="2008-02-22T08:24:59.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="d5b6346e27a239d8cd7bc8a4a789c3d5"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:59.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ether_addr.c"
+   text-time="2008-02-22T08:24:59.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="500da272609232096445cef7f805e093"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:59.000000Z"/>
+<entry
+   name="include"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="INSTALL"
+   text-time="2008-02-22T08:24:59.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="17af3f536fd39a2031bb0a57cca7dc73"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:59.000000Z"/>
+<entry
+   committed-rev="3"
+   name="communication.c"
+   text-time="2008-02-22T08:24:59.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="e8c8d41cb1fdfcff01d4e9cd2d9c0518"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:59.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ChangeLog"
+   text-time="2008-02-22T08:24:59.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="b2c27cd9fb79abccc475fb0d8b83d5ae"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:59.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ebtables.8"
+   text-time="2008-02-22T08:24:59.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="32979824cbaaf441f344b8d65b07c5a6"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:59.000000Z"/>
+<entry
+   committed-rev="3"
+   name="COPYING"
+   text-time="2008-02-22T08:24:59.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="8ca43cbc842c2336e835926c2166c28b"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:59.000000Z"/>
+<entry
+   committed-rev="3"
+   name="THANKS"
+   text-time="2008-02-22T08:24:59.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="ea051ccc08ae70a6fb8e793e72c5a8f2"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:59.000000Z"/>
+<entry
+   committed-rev="3"
+   name="getethertype.c"
+   text-time="2008-02-22T08:24:59.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="a7dcee52c9076f2cacdd978117efc5b9"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:59.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ethertypes"
+   text-time="2008-02-22T08:24:59.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="94bffde8f75a1b8f891fb780bfe15ca2"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:59.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Makefile"
+   text-time="2008-02-22T08:24:59.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="384a15ff3dea5043833eb7a104d0b461"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:59.000000Z"/>
+<entry
+   committed-rev="3"
+   name=".indent.pro"
+   text-time="2008-02-22T08:24:59.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="f6e22ae3964aad850abe664bef013277"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:59.000000Z"/>
+</wc-entries>

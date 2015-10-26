@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="92"
+   name=""
+   committed-date="2007-12-27T06:28:31.638943Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/userapps/opensource"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   name="oprofile"
+   kind="dir"/>
+<entry
+   name="ebtables"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="net-snmp.tar.bz2"
+   text-time="2008-02-22T08:26:35.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="6b48fa110360d5f0062fcb57e5c9ab18"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:25:00.000000Z"/>
+<entry
+   name="libosip2"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="zebra.tar.bz2"
+   text-time="2008-02-22T08:26:35.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="e7320d7bb7630034ae529acf7ef5551d"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:25:08.000000Z"/>
+<entry
+   name="libcreduction"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="dproxy-nexgen.tar.bz2"
+   text-time="2008-02-22T08:26:35.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="127835531f884ad334030db493764120"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:25:08.000000Z"/>
+<entry
+   name="reaim"
+   kind="dir"/>
+<entry
+   name="ppp"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="oprofile.tar.bz2"
+   text-time="2008-02-22T08:26:35.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="12e5d33f6e2e9e43bc2c065441f1c7fc"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:25:15.000000Z"/>
+<entry
+   name="tools"
+   kind="dir"/>
+<entry
+   name="sshd"
+   kind="dir"/>
+<entry
+   name="ipsec-tools"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="ebtables.tar.bz2"
+   text-time="2008-02-22T08:26:36.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="9934fc5655f23c19a4a511ef44aa36d9"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:25:29.000000Z"/>
+<entry
+   name="iptables"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="libosip2.tar.bz2"
+   text-time="2008-02-22T08:26:36.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="b9b57d76c1c5c4d671ea78387a63210c"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:25:33.000000Z"/>
+<entry
+   name="atm2684"
+   kind="dir"/>
+<entry
+   name="iproute2"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="reaim.tar.bz2"
+   text-time="2008-02-22T08:26:36.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="d3fdc96b3609a38e2d349b496fbab18c"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:25:39.000000Z"/>
+<entry
+   committed-rev="3"
+   name="sshd.tar.bz2"
+   text-time="2008-02-22T08:26:36.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="431b19361d4ae07a065be86e32062341"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:25:39.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ipsec-tools.tar.bz2"
+   text-time="2008-02-22T08:26:36.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="5e6cacb336d0cf783af42499bd867dcd"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:25:39.000000Z"/>
+<entry
+   name="openssl"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="iptables.tar.bz2"
+   text-time="2008-02-22T08:26:36.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="ef8332b7bba500074f6c792d8b400d1f"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:26:03.000000Z"/>
+<entry
+   name="siproxd"
+   kind="dir"/>
+<entry
+   name="bridge-utils"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="iproute2.tar.bz2"
+   text-time="2008-02-22T08:26:36.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="181ff267ee8db98be22c1f1649418773"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:26:08.000000Z"/>
+<entry
+   name="busybox"
+   kind="dir"/>
+<entry
+   name="ftpd"
+   kind="dir"/>
+<entry
+   name="net-snmp"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="tftpd.tar.bz2"
+   text-time="2008-02-22T08:26:36.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="17eae11e8afa092b95f405ece889eaff"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:26:23.000000Z"/>
+<entry
+   name="zebra"
+   kind="dir"/>
+<entry
+   name="udhcp"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="openssl.tar.bz2"
+   text-time="2008-02-22T08:26:36.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="01c78e8dc7a0937877f00b4f65772088"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:26:32.000000Z"/>
+<entry
+   name="dproxy-nexgen"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="siproxd.tar.bz2"
+   text-time="2008-02-22T08:26:36.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="afd9bf881d3753edb7b4d4539de2c0f8"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:26:33.000000Z"/>
+<entry
+   committed-rev="3"
+   name="bridge-utils.tar.bz2"
+   text-time="2008-02-22T08:26:36.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="704b42f7735409761b8327a3f6da88ae"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:26:33.000000Z"/>
+<entry
+   committed-rev="3"
+   name="busybox.tar.bz2"
+   text-time="2008-02-22T08:26:36.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="39a1d944ffad1f53652a9e93b81ec602"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:26:34.000000Z"/>
+<entry
+   name="wireless_tools"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="ftpd.tar.bz2"
+   text-time="2008-02-22T08:26:36.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="e70fd90faa85105c0bdb0557f2bbf429"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:26:35.000000Z"/>
+</wc-entries>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/kernel/linux/include/linux/dvb"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   committed-rev="3"
+   name="frontend.h"
+   text-time="2008-02-22T08:21:20.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="242eb7c960459710ff5b8aa4da4a8b76"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:20.000000Z"/>
+<entry
+   committed-rev="3"
+   name="audio.h"
+   text-time="2008-02-22T08:21:20.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="92d7fd91e4639c3169fe1d02aff5de4a"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:20.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ca.h"
+   text-time="2008-02-22T08:21:20.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="663bd7cb4d15a05f084dc8feb5a48b0d"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:20.000000Z"/>
+<entry
+   name="CVS"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="osd.h"
+   text-time="2008-02-22T08:21:20.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="c8f41f50b8a4fe1f8789b8c8701377bc"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:20.000000Z"/>
+<entry
+   committed-rev="3"
+   name="version.h"
+   text-time="2008-02-22T08:21:20.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="3567aa85edc9c19548b950a6191cd454"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:20.000000Z"/>
+<entry
+   committed-rev="3"
+   name="net.h"
+   text-time="2008-02-22T08:21:20.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="9d7d03297eb16a17f01b879d47fa5873"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:20.000000Z"/>
+<entry
+   committed-rev="3"
+   name="video.h"
+   text-time="2008-02-22T08:21:20.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="6b968e8014a4bf92ea77edb9213050a5"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:20.000000Z"/>
+<entry
+   committed-rev="3"
+   name="dmx.h"
+   text-time="2008-02-22T08:21:20.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="386545fd3886ebfa9526972d1e37eabb"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:20.000000Z"/>
+</wc-entries>

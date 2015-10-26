@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/kernel/linux/drivers/net/ibm_emac"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   committed-rev="3"
+   name="ibm_emac.h"
+   text-time="2008-02-22T08:24:06.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="a5af4e952ce2ed863e4d4cd4a1715878"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:06.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ibm_emac_phy.h"
+   text-time="2008-02-22T08:24:06.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="32f96852b25e2728a83f97eea592de37"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:06.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ibm_emac_debug.c"
+   text-time="2008-02-22T08:24:06.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="05c37ddd0286dc6d7d39a5589f725797"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:06.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ibm_emac_core.c"
+   text-time="2008-02-22T08:24:06.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="590cceafc816c9d0dd391d3a8363c8a4"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:06.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ibm_emac_mal.c"
+   text-time="2008-02-22T08:24:06.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="9d75bfe942444a46df162f295e84c11d"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:06.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ibm_emac_rgmii.h"
+   text-time="2008-02-22T08:24:06.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="302e1b31f1f41e3d5de2abb89596322e"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:06.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ibm_emac_core.h"
+   text-time="2008-02-22T08:24:06.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="fdd62bdc464e304c92b048d458121541"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:06.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ibm_emac_zmii.h"
+   text-time="2008-02-22T08:24:06.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="542ea9623582daaa82646058316c53b8"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:06.000000Z"/>
+<entry
+   name="CVS"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="ibm_emac_mal.h"
+   text-time="2008-02-22T08:24:06.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="68cf93aa8251aee8520fbb44ebab859f"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:06.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Makefile"
+   text-time="2008-02-22T08:24:06.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="d4f047095e8a6328acf52a432eb93568"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:06.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ibm_emac_phy.c"
+   text-time="2008-02-22T08:24:06.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="ecd695cb6e3f31bd64a7b4085bd79a0e"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:06.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ibm_emac_tah.h"
+   text-time="2008-02-22T08:24:06.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="219dd2f61a4f8831ab0c78f00e06ff56"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:06.000000Z"/>
+</wc-entries>

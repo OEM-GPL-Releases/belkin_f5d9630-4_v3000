@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/kernel/linux/drivers/message/fusion"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   committed-rev="3"
+   name="mptscsih.h"
+   text-time="2008-02-22T08:23:30.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="6fadd398bcd7a48ea0cef94013c0f0dc"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:30.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Kconfig"
+   text-time="2008-02-22T08:23:30.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="78f70836dc041a3e829de9929b6e51ed"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:30.000000Z"/>
+<entry
+   committed-rev="3"
+   name="mptbase.h"
+   text-time="2008-02-22T08:23:30.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="85d3176373c5ab98faed092c4383e42d"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:30.000000Z"/>
+<entry
+   committed-rev="3"
+   name="mptlan.h"
+   text-time="2008-02-22T08:23:30.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="5c530b88740950274571336bec33cac6"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:30.000000Z"/>
+<entry
+   committed-rev="3"
+   name="mptctl.c"
+   text-time="2008-02-22T08:23:30.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="f4e30f02da69176bc13a4abf4aa3569e"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:30.000000Z"/>
+<entry
+   name="lsi"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="linux_compat.h"
+   text-time="2008-02-22T08:23:30.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="da497fda53178f909f35aa97b4ca2acb"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:30.000000Z"/>
+<entry
+   committed-rev="3"
+   name="mptctl.h"
+   text-time="2008-02-22T08:23:30.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="bc6160068e8aa0ddd512caa87a58a4cb"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:30.000000Z"/>
+<entry
+   name="CVS"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="ascq_tbl.sh"
+   text-time="2008-02-22T08:23:30.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="ca8b9bb645f67b6798eb7fc02981162e"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:30.000000Z"/>
+<entry
+   committed-rev="3"
+   name="scsiops.c"
+   text-time="2008-02-22T08:23:30.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="acb004a224f31d0ef4f9d5bbf640d63b"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:30.000000Z"/>
+<entry
+   committed-rev="3"
+   name="isense.c"
+   text-time="2008-02-22T08:23:30.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="fa0b4fce3c21aa750a59709282c86d2b"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:30.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ascq_tbl.c"
+   text-time="2008-02-22T08:23:30.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="0673ba73126ac55d9135998a41268402"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:30.000000Z"/>
+<entry
+   committed-rev="3"
+   name="scsi3.h"
+   text-time="2008-02-22T08:23:30.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="1b7f429a1367ee180e70bb3a944ff88f"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:30.000000Z"/>
+<entry
+   committed-rev="3"
+   name="mptscsih.c"
+   text-time="2008-02-22T08:23:30.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="3656afc2fd648d8dbe91137641dafab9"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:30.000000Z"/>
+<entry
+   committed-rev="3"
+   name="mptlan.c"
+   text-time="2008-02-22T08:23:30.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="889996bd43212aeacbbd1e227b913367"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:30.000000Z"/>
+<entry
+   committed-rev="3"
+   name="mptbase.c"
+   text-time="2008-02-22T08:23:30.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="45f7a8e171086a3a29e2911fe56a1f7f"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:30.000000Z"/>
+<entry
+   committed-rev="3"
+   name="isense.h"
+   text-time="2008-02-22T08:23:30.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="74691c99a6d8098ee19c21aeb6f9683c"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:30.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Makefile"
+   text-time="2008-02-22T08:23:30.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="e0dcbfc93b88e2592e1f1680037386b3"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:30.000000Z"/>
+<entry
+   committed-rev="3"
+   name=".cvsignore"
+   text-time="2008-02-22T08:23:30.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="d8b65572e25962faaf07c20bb34d224e"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:30.000000Z"/>
+</wc-entries>

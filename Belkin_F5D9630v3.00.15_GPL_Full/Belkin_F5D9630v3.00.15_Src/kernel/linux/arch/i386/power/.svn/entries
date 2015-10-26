@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/kernel/linux/arch/i386/power"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   committed-rev="3"
+   name="swsusp.S"
+   text-time="2008-02-22T08:22:33.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="0b68ee0e6e8f35053d4235bdf0af6ed2"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:33.000000Z"/>
+<entry
+   committed-rev="3"
+   name="cpu.c"
+   text-time="2008-02-22T08:22:33.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="6f193b9942b205f7a5299b7fa061c0a3"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:33.000000Z"/>
+<entry
+   committed-rev="3"
+   name="pmdisk.S"
+   text-time="2008-02-22T08:22:33.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="a92ba62c49e9789085c794bf270897bb"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:33.000000Z"/>
+<entry
+   name="CVS"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="Makefile"
+   text-time="2008-02-22T08:22:33.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="6efbff9fcb922a4931f05cf64b78bbe3"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:33.000000Z"/>
+</wc-entries>

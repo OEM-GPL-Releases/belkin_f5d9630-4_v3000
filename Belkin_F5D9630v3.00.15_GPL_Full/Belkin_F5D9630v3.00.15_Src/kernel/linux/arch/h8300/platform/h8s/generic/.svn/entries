@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/kernel/linux/arch/h8300/platform/h8s/generic"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   committed-rev="3"
+   name="timer.c"
+   text-time="2008-02-22T08:22:48.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="89f7dd6e94441382ee2f9cc940a4697e"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:48.000000Z"/>
+<entry
+   committed-rev="3"
+   name="crt0_rom.S"
+   text-time="2008-02-22T08:22:48.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="377c4b2194f3872bbf3e5388aab6b494"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:48.000000Z"/>
+<entry
+   committed-rev="3"
+   name="crt0_ram.S"
+   text-time="2008-02-22T08:22:48.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="511247ca9d9e32f9340239f04106c70f"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:48.000000Z"/>
+<entry
+   name="CVS"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="rom.ld"
+   text-time="2008-02-22T08:22:48.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="ab702e41897d96db12871f65069aa5dd"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:48.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Makefile"
+   text-time="2008-02-22T08:22:48.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="f22b6068f2503b59907c6c978af55aa8"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:48.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ram.ld"
+   text-time="2008-02-22T08:22:48.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="4d9d05e6f977cd802ddaf58e611c8491"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:48.000000Z"/>
+</wc-entries>

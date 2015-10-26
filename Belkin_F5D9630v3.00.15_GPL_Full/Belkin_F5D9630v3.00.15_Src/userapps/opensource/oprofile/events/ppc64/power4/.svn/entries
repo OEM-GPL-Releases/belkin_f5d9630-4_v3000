@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/userapps/opensource/oprofile/events/ppc64/power4"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   committed-rev="3"
+   name="event_mappings"
+   text-time="2008-02-22T08:24:49.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="2f91737b1f68a80b31008050761344de"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:49.000000Z"/>
+<entry
+   committed-rev="3"
+   name="events"
+   text-time="2008-02-22T08:24:49.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="699754001ec64dab00b059ce3f3c57e3"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:49.000000Z"/>
+<entry
+   committed-rev="3"
+   name="unit_masks"
+   text-time="2008-02-22T08:24:49.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="430286b1cb77dbf620ac0097ee8d8020"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:49.000000Z"/>
+</wc-entries>

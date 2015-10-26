@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/kernel/linux/drivers/serial/cpm_uart"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   committed-rev="3"
+   name="cpm_uart.h"
+   text-time="2008-02-22T08:23:25.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="96c9a5cb08b1521452ab045ddf30aaa0"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:25.000000Z"/>
+<entry
+   committed-rev="3"
+   name="cpm_uart_cpm1.h"
+   text-time="2008-02-22T08:23:25.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="4f3b00095d2199239509b1294ca31d2e"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:25.000000Z"/>
+<entry
+   committed-rev="3"
+   name="cpm_uart_cpm2.h"
+   text-time="2008-02-22T08:23:25.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="fe9de847dfa61a8d03ec3742d53376c0"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:25.000000Z"/>
+<entry
+   committed-rev="3"
+   name="cpm_uart_core.c"
+   text-time="2008-02-22T08:23:25.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="4cf7fd37017a2e7f09c714e3249cf333"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:25.000000Z"/>
+<entry
+   name="CVS"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="cpm_uart_cpm1.c"
+   text-time="2008-02-22T08:23:25.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="fe4c8bc7be57ad5d95fc84ee831cd393"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:25.000000Z"/>
+<entry
+   committed-rev="3"
+   name="cpm_uart_cpm2.c"
+   text-time="2008-02-22T08:23:25.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="37b7db85ab70609d89cc468abb0e091c"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:25.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Makefile"
+   text-time="2008-02-22T08:23:25.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="0ddfb19b7eff45e89518cbc9a9df44de"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:25.000000Z"/>
+</wc-entries>

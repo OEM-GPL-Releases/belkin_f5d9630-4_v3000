@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/kernel/linux/drivers/char/agp"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   committed-rev="3"
+   name="Kconfig"
+   text-time="2008-02-22T08:23:53.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="09e1b8b12aa032ab8e572327c0007099"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:53.000000Z"/>
+<entry
+   committed-rev="3"
+   name="sis-agp.c"
+   text-time="2008-02-22T08:23:53.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="426aaa7de6a694ba07a12bfa3fbe64b0"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:53.000000Z"/>
+<entry
+   committed-rev="3"
+   name="isoch.c"
+   text-time="2008-02-22T08:23:53.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="19475b0ece39561b21ab64228e2c586e"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:53.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ali-agp.c"
+   text-time="2008-02-22T08:23:53.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="80148ea71131cbf46ed0328236563091"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:53.000000Z"/>
+<entry
+   name="CVS"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="uninorth-agp.c"
+   text-time="2008-02-22T08:23:53.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="905db6d3555d80199a9065bec534ac4d"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:53.000000Z"/>
+<entry
+   committed-rev="3"
+   name="agp.h"
+   text-time="2008-02-22T08:23:53.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="0915866507630d55f6695beb9d065ce6"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:53.000000Z"/>
+<entry
+   committed-rev="3"
+   name="generic.c"
+   text-time="2008-02-22T08:23:53.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="8333741257c4e7af2da092dca4075e5f"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:53.000000Z"/>
+<entry
+   committed-rev="3"
+   name="hp-agp.c"
+   text-time="2008-02-22T08:23:53.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="193bbee3bf679920e1514e57f9800b85"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:53.000000Z"/>
+<entry
+   committed-rev="3"
+   name="nvidia-agp.c"
+   text-time="2008-02-22T08:23:53.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="4beca46d0faa412e10b38d8fee4bcf23"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:53.000000Z"/>
+<entry
+   committed-rev="3"
+   name="frontend.c"
+   text-time="2008-02-22T08:23:53.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="d5dc785c76c843561f71f2cf53b64aa9"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:53.000000Z"/>
+<entry
+   committed-rev="3"
+   name="intel-agp.c"
+   text-time="2008-02-22T08:23:53.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="7093e34bf7599220bcec6ab948751fde"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:53.000000Z"/>
+<entry
+   committed-rev="3"
+   name="amd64-agp.c"
+   text-time="2008-02-22T08:23:53.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="f93c187935a4020b5f0a8d444aeaf328"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:53.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ati-agp.c"
+   text-time="2008-02-22T08:23:53.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="ae18abc4f454a177ec3bf61ba068f551"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:53.000000Z"/>
+<entry
+   committed-rev="3"
+   name="efficeon-agp.c"
+   text-time="2008-02-22T08:23:53.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="5b03cac0e11e9f228ad7b583a575a5d4"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:53.000000Z"/>
+<entry
+   committed-rev="3"
+   name="via-agp.c"
+   text-time="2008-02-22T08:23:53.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="f9bb466fff64b48747297c0872455872"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:53.000000Z"/>
+<entry
+   committed-rev="3"
+   name="amd-k7-agp.c"
+   text-time="2008-02-22T08:23:53.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="5ea4d7d97197a26e5a135e9c81fa6149"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:53.000000Z"/>
+<entry
+   committed-rev="3"
+   name="intel-mch-agp.c"
+   text-time="2008-02-22T08:23:53.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="2e2401916dfa483d2fda7fbb4c645f1f"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:53.000000Z"/>
+<entry
+   committed-rev="3"
+   name="i460-agp.c"
+   text-time="2008-02-22T08:23:53.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="14e421d907af207f81e37e0e82f7ac63"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:53.000000Z"/>
+<entry
+   committed-rev="3"
+   name="backend.c"
+   text-time="2008-02-22T08:23:53.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="51b975c4307397ab471a17212db954ac"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:53.000000Z"/>
+<entry
+   committed-rev="3"
+   name="alpha-agp.c"
+   text-time="2008-02-22T08:23:53.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="7846ff96b1c5c513769cd4e02d62540b"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:53.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Makefile"
+   text-time="2008-02-22T08:23:53.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="87a6082e566da4fd8ff730597dcf03cf"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:53.000000Z"/>
+<entry
+   committed-rev="3"
+   name=".cvsignore"
+   text-time="2008-02-22T08:23:53.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="d8b65572e25962faaf07c20bb34d224e"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:53.000000Z"/>
+<entry
+   committed-rev="3"
+   name="sworks-agp.c"
+   text-time="2008-02-22T08:23:53.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="e25bdd31daa81b2db97a50a70696f59e"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:53.000000Z"/>
+</wc-entries>

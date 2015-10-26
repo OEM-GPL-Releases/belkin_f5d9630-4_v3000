@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/kernel/linux/drivers/char/ipmi"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   committed-rev="3"
+   name="ipmi_watchdog.c"
+   text-time="2008-02-22T08:23:54.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="5986530db8a0b5630e26aa613aeed7c6"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:54.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Kconfig"
+   text-time="2008-02-22T08:23:54.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="0976a6e9323ddd36a03615d0349057fd"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:54.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ipmi_bt_sm.c"
+   text-time="2008-02-22T08:23:54.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="27324b04321825c7173bc988300f128d"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:54.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ipmi_msghandler.c"
+   text-time="2008-02-22T08:23:54.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="669f3c97e4665f8e09ac562f5d33a5c8"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:54.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ipmi_smic_sm.c"
+   text-time="2008-02-22T08:23:54.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="4f8915985293420e9a83d4bfe18449ea"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:54.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ipmi_si_intf.c"
+   text-time="2008-02-22T08:23:54.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="84d7dda28495fabcad53e4e6d84a4cd1"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:54.000000Z"/>
+<entry
+   name="CVS"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="Makefile"
+   text-time="2008-02-22T08:23:54.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="a1cc8070732ac6881aa5b0575916fe07"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:54.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ipmi_devintf.c"
+   text-time="2008-02-22T08:23:54.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="2cfecb2b82d09ed40cff691797ff6e0b"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:54.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ipmi_kcs_sm.c"
+   text-time="2008-02-22T08:23:54.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="a74a79e165a58bb571322ae327d24e29"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:54.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ipmi_si_sm.h"
+   text-time="2008-02-22T08:23:54.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="2a26b880f6ccc70b45a4de7504ce1e16"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:54.000000Z"/>
+</wc-entries>

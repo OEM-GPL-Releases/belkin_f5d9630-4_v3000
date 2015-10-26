@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/kernel/linux/drivers/base/power"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   committed-rev="3"
+   name="resume.c"
+   text-time="2008-02-22T08:24:31.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="bb58c3b8d682c527670dad339972be5f"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:31.000000Z"/>
+<entry
+   committed-rev="3"
+   name="power.h"
+   text-time="2008-02-22T08:24:31.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="5a40cb101f7e24e443390c3e95b83509"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:31.000000Z"/>
+<entry
+   committed-rev="3"
+   name="suspend.c"
+   text-time="2008-02-22T08:24:31.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="f1d42295a378c9576e1db6853cb49851"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:31.000000Z"/>
+<entry
+   committed-rev="3"
+   name="runtime.c"
+   text-time="2008-02-22T08:24:31.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="1cbef5c7ec2bd241e89874c055794be8"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:31.000000Z"/>
+<entry
+   committed-rev="3"
+   name="main.c"
+   text-time="2008-02-22T08:24:31.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="c0ebe832a0c09b01e12ace7c0c4402b0"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:31.000000Z"/>
+<entry
+   committed-rev="3"
+   name="sysfs.c"
+   text-time="2008-02-22T08:24:31.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="44ee99bf7655703b14ac61cc2bbdde87"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:31.000000Z"/>
+<entry
+   name="CVS"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="shutdown.c"
+   text-time="2008-02-22T08:24:31.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="db667fd5806aa1c4689adbb9e2360683"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:31.000000Z"/>
+<entry
+   committed-rev="3"
+   name=".cvsignore"
+   text-time="2008-02-22T08:24:31.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="d8b65572e25962faaf07c20bb34d224e"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:31.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Makefile"
+   text-time="2008-02-22T08:24:31.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="4f22cdbb1a6bdbf5c7b7e806894260eb"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:31.000000Z"/>
+</wc-entries>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/kernel/linux/sound/drivers/opl4"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   committed-rev="3"
+   name="opl4_proc.c"
+   text-time="2008-02-22T08:21:44.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="b0eac6a8392d5f0a43ed6539d6bb675f"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:44.000000Z"/>
+<entry
+   committed-rev="3"
+   name="opl4_mixer.c"
+   text-time="2008-02-22T08:21:44.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="888b72029251846bdde0f4b2648838bd"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:44.000000Z"/>
+<entry
+   committed-rev="3"
+   name="opl4_synth.c"
+   text-time="2008-02-22T08:21:44.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="a2c2ad99511f1086c3beb9bdd24f1c75"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:44.000000Z"/>
+<entry
+   committed-rev="3"
+   name="opl4_lib.c"
+   text-time="2008-02-22T08:21:44.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="3d5b8ea19ce93ace1ffb8b9980937e70"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:44.000000Z"/>
+<entry
+   committed-rev="3"
+   name="opl4_seq.c"
+   text-time="2008-02-22T08:21:44.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="549c1a1b396d53d64cd2aec4fa5ec90e"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:44.000000Z"/>
+<entry
+   name="CVS"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="yrw801.c"
+   text-time="2008-02-22T08:21:44.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="18baabb60fe0242fdb12e56f635a7d2e"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:44.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Makefile"
+   text-time="2008-02-22T08:21:44.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="58a350f2ae2c690f47ae2bebb643c952"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:44.000000Z"/>
+<entry
+   committed-rev="3"
+   name="opl4_local.h"
+   text-time="2008-02-22T08:21:44.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="7bd95ede013e7c09be682ad549601667"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:44.000000Z"/>
+</wc-entries>

@@ -1,0 +1,25 @@
+.leftLink {
+	FONT-WEIGHT: bold; FONT-SIZE: 10px; COLOR: #CCCCCC; LINE-HEIGHT: 15px; FONT-FAMILY: Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+.top_nav {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #333333; FONT-FAMILY: Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+.section {
+	FONT-WEIGHT: bold; FONT-SIZE: 11px; COLOR: #ffffff; LINE-HEIGHT: 15px; FONT-FAMILY: Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+.head_bold {
+	FONT-WEIGHT: bold; FONT-SIZE: 17px; COLOR: #0066FF; LINE-HEIGHT: 15px; FONT-FAMILY: Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+A {
+	COLOR: #003366; TEXT-DECORATION: none
+}
+A:hover {
+	COLOR: #0000FF; TEXT-DECORATION: underline
+}
+.copy_1 {
+	FONT-SIZE: 11px; COLOR: #333333; LINE-HEIGHT: 14px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.submitBtn {
+	FONT-SIZE: 11px; BORDER-LEFT-COLOR: #CCCCCC; BORDER-BOTTOM-COLOR: #CCCCCC; COLOR: #333333; BORDER-TOP-COLOR: #CCCCCC; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; BACKGROUND-COLOR: #CCCCCC; BORDER-RIGHT-COLOR: #CCCCCC
+}
+.mac {  height: 20px; width: 25px}

@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/kernel/linux/drivers/isdn/pcbit"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   committed-rev="3"
+   name="layer2.c"
+   text-time="2008-02-22T08:23:34.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="31ea17606510fd7d357b8a510c11ccc0"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:34.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Kconfig"
+   text-time="2008-02-22T08:23:34.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="d192c9e17879c2343e122f44c0bda9a5"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:34.000000Z"/>
+<entry
+   committed-rev="3"
+   name="layer2.h"
+   text-time="2008-02-22T08:23:34.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="6db4e6cca82ed73ae635326bb1feaf83"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:34.000000Z"/>
+<entry
+   committed-rev="3"
+   name="pcbit.h"
+   text-time="2008-02-22T08:23:34.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="9471b7fcc4b54b056f22231a2d515f01"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:34.000000Z"/>
+<entry
+   name="CVS"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="capi.c"
+   text-time="2008-02-22T08:23:34.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="f49d5f1bebdc78f2bd878e2ccc4e34b2"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:34.000000Z"/>
+<entry
+   committed-rev="3"
+   name="edss1.c"
+   text-time="2008-02-22T08:23:34.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="3588a40a35405f974fb468c9c4d139fe"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:34.000000Z"/>
+<entry
+   committed-rev="3"
+   name="callbacks.c"
+   text-time="2008-02-22T08:23:34.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="54994f12f1c8e4b11192532a3e78bdaf"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:34.000000Z"/>
+<entry
+   committed-rev="3"
+   name="capi.h"
+   text-time="2008-02-22T08:23:34.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="9d38429943102d2c56eca9f091b8d2f3"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:34.000000Z"/>
+<entry
+   committed-rev="3"
+   name="edss1.h"
+   text-time="2008-02-22T08:23:34.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="c4e3b936c2a429d045578a80906aeb9c"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:34.000000Z"/>
+<entry
+   committed-rev="3"
+   name="callbacks.h"
+   text-time="2008-02-22T08:23:34.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="d5dea24779524a28af9237033059ad3c"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:34.000000Z"/>
+<entry
+   committed-rev="3"
+   name="module.c"
+   text-time="2008-02-22T08:23:34.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="cc1a775ade702ce45d2783377bcb68e1"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:34.000000Z"/>
+<entry
+   committed-rev="3"
+   name="drv.c"
+   text-time="2008-02-22T08:23:34.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="5cd39e236dbe50492d2104a19d16e2c8"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:34.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Makefile"
+   text-time="2008-02-22T08:23:34.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="0d509e2efb94e97dd80706482de2219a"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:34.000000Z"/>
+<entry
+   committed-rev="3"
+   name=".cvsignore"
+   text-time="2008-02-22T08:23:34.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="d8b65572e25962faaf07c20bb34d224e"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:34.000000Z"/>
+</wc-entries>

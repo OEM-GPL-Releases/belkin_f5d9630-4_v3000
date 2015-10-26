@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/userapps/opensource/oprofile/events/mips"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   name="24K"
+   kind="dir"/>
+<entry
+   name="vr5500"
+   kind="dir"/>
+<entry
+   name="r10000"
+   kind="dir"/>
+<entry
+   name="bcm7038"
+   kind="dir"/>
+<entry
+   name="r12000"
+   kind="dir"/>
+<entry
+   name="rm7000"
+   kind="dir"/>
+<entry
+   name="sb1"
+   kind="dir"/>
+<entry
+   name="vr5432"
+   kind="dir"/>
+<entry
+   name="rm9000"
+   kind="dir"/>
+<entry
+   name="bcm4350"
+   kind="dir"/>
+</wc-entries>

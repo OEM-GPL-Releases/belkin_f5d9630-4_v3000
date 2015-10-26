@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/kernel/linux/arch/x86_64/ia32"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   committed-rev="3"
+   name="fpu32.c"
+   text-time="2008-02-22T08:22:42.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="6bb41104ff3728a86894bdfcd6547e39"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:42.000000Z"/>
+<entry
+   committed-rev="3"
+   name="vsyscall.lds"
+   text-time="2008-02-22T08:22:42.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="95e31327e4d9e967fdf81ce29aa25c84"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:42.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ia32entry.S"
+   text-time="2008-02-22T08:22:42.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="077e2af403e44620120b3d4f7bb20738"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:42.000000Z"/>
+<entry
+   committed-rev="3"
+   name="vsyscall-sigreturn.S"
+   text-time="2008-02-22T08:22:42.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="0f78dcaa6537a0c40d9323e4889004f0"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:42.000000Z"/>
+<entry
+   committed-rev="3"
+   name="tls32.c"
+   text-time="2008-02-22T08:22:42.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="53a2ee13e9ca9f98930ffda5257aac57"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:42.000000Z"/>
+<entry
+   name="CVS"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="syscall32.c"
+   text-time="2008-02-22T08:22:42.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="20fb39d2a4bbd1e2566efa8bd3ad61de"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:42.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ipc32.c"
+   text-time="2008-02-22T08:22:42.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="ba13f406ca237c0ffb03d6a78a756e01"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:42.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ptrace32.c"
+   text-time="2008-02-22T08:22:42.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="569ed539afe571912eca4b3da8efdd40"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:42.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ia32_aout.c"
+   text-time="2008-02-22T08:22:42.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="332994c7b2e64f6879713b9444341f2e"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:42.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ia32_ioctl.c"
+   text-time="2008-02-22T08:22:42.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="0e80173f0ab09e27371dfe5bc455a25f"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:42.000000Z"/>
+<entry
+   committed-rev="3"
+   name="vsyscall-syscall.S"
+   text-time="2008-02-22T08:22:42.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="cf42f1792c8d0ea5e7aaf18028b1a7f5"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:42.000000Z"/>
+<entry
+   committed-rev="3"
+   name="vsyscall-sysenter.S"
+   text-time="2008-02-22T08:22:42.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="a6cdb27aed274e4ffa92270287258788"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:42.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ia32_signal.c"
+   text-time="2008-02-22T08:22:42.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="9cae5ba37d7d25de8eae39a911776530"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:42.000000Z"/>
+<entry
+   committed-rev="3"
+   name="sys_ia32.c"
+   text-time="2008-02-22T08:22:42.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="2527a12fa704ff40cac2ea4125f64e8e"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:42.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Makefile"
+   text-time="2008-02-22T08:22:42.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="589a0515d08ecf2695161ff228deb571"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:42.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ia32_binfmt.c"
+   text-time="2008-02-22T08:22:43.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="8d478c8a7216ef08de730aa67b68a062"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:42.000000Z"/>
+</wc-entries>

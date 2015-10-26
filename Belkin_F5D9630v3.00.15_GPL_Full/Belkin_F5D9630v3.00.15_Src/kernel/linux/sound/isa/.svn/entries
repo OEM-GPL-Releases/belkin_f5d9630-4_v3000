@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/kernel/linux/sound/isa"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   committed-rev="3"
+   name="Kconfig"
+   text-time="2008-02-22T08:21:43.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="3298b4b2223cca195d6869396e592b99"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:41.000000Z"/>
+<entry
+   committed-rev="3"
+   name="als100.c"
+   text-time="2008-02-22T08:21:43.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="9bb6db649d45a032a680d420fd192f7f"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:41.000000Z"/>
+<entry
+   committed-rev="3"
+   name="es18xx.c"
+   text-time="2008-02-22T08:21:43.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="0fde55a16ab1c2288fdb87f810508f2b"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:41.000000Z"/>
+<entry
+   name="opti9xx"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="azt2320.c"
+   text-time="2008-02-22T08:21:43.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="ad97e94dc19e4bf50b312d2400af9ce1"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:41.000000Z"/>
+<entry
+   name="cs423x"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="sgalaxy.c"
+   text-time="2008-02-22T08:21:43.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="f8578b8058a2af4737bf48cb4300dbe4"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:41.000000Z"/>
+<entry
+   name="CVS"
+   kind="dir"/>
+<entry
+   name="es1688"
+   kind="dir"/>
+<entry
+   name="gus"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="sscape.c"
+   text-time="2008-02-22T08:21:43.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="c1f77550393d6794753688f4abbda21b"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:41.000000Z"/>
+<entry
+   name="sb"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="opl3sa2.c"
+   text-time="2008-02-22T08:21:43.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="a62d6069489a81ba5b327fdec95b29db"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:41.000000Z"/>
+<entry
+   name="ad1816a"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="cmi8330.c"
+   text-time="2008-02-22T08:21:43.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="88cd64f5c224f0b49e44e871d9853bc0"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:42.000000Z"/>
+<entry
+   name="ad1848"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="dt019x.c"
+   text-time="2008-02-22T08:21:43.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="fcd5a1c94f50394cd0106227dcd2fdcf"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:43.000000Z"/>
+<entry
+   name="wavefront"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="Makefile"
+   text-time="2008-02-22T08:21:43.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="a1ad23c8b1fe0b275b3bcf1537908770"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:43.000000Z"/>
+<entry
+   committed-rev="3"
+   name=".cvsignore"
+   text-time="2008-02-22T08:21:43.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="d8b65572e25962faaf07c20bb34d224e"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:43.000000Z"/>
+</wc-entries>

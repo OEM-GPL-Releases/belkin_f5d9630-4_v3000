@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/kernel/linux/sound/i2c/other"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   committed-rev="3"
+   name="ak4xxx-adda.c"
+   text-time="2008-02-22T08:21:43.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="ef1115eed80285754e3dcce7c933e09f"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:43.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ak4117.c"
+   text-time="2008-02-22T08:21:43.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="6d961092dd5d603b038ce487c46802e2"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:43.000000Z"/>
+<entry
+   name="CVS"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="Makefile"
+   text-time="2008-02-22T08:21:43.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="b1cec86afbe5e68fcba326114e4729f1"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:43.000000Z"/>
+<entry
+   committed-rev="3"
+   name="tea575x-tuner.c"
+   text-time="2008-02-22T08:21:43.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="c248dae3721a7336d92bbd5f44649e31"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:43.000000Z"/>
+</wc-entries>

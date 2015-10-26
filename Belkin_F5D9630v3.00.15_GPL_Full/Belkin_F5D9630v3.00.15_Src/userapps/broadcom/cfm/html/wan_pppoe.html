@@ -1,0 +1,585 @@
+<html>
+   <head>
+   <meta http-equiv="refresh" content="<%ejGet(timeout_refresh)%>">
+      <meta HTTP-EQUIV='Pragma' CONTENT='no-cache'>
+         <link rel="stylesheet" href="main_router.css" type='text/css'>
+
+		<%ejGet("curLanguage")%>
+		<SCRIPT>assign_var();</SCRIPT>
+
+            <script language="javascript" src="util.js"></script>
+			<SCRIPT language=JavaScript src="showMenu.js"></SCRIPT>
+            <script language="javascript">
+<!-- hide
+
+strHtml='<title>'+wc_1+' &gt; '+wc_2+' &gt; '+wcp_1+'</title>';
+dw(strHtml);
+
+
+var username ='<%ejGet(pppUserName)%>';
+var ppppwd   ='<%ejGet(pppPassword)%>';
+var ppptime  ='<%ejGet(pppTimeOut)%>';
+
+var onDemand    = '<%ejGet(enblOnDemand)%>';
+var ipExtension = '<%ejGet(pppIpExtension)%>';
+var authMethod = '<%ejGet(pppAuthMethod)%>';
+
+var qs = '<%ejGet(quickSetup)%>';
+var auto = '<%ejGet(enblAutoScan)%>';
+
+var prtcl = '<%ejGetOther(memInfo, ntwkPrtcl)%>';
+var enblIpAddr = '<%ejGet(useStaticIpAddress)%>';
+var localIpAddr = '<%ejGet(pppLocalIpAddress)%>';
+
+var pppSername = '<%ejGet(pppServerName)%>';
+
+var vpi   = '<%ejGet(atmVpi)%>';
+var vci   = '<%ejGet(atmVci)%>';
+var eMode = '<%ejGet(encapMode)%>';
+var mtu = '<%ejGet(wanMtu)%>';
+var isWizard = '<%ejGet(wizardType)%>';
+var country = '<%ejGet(country)%>';
+var isp = '<%ejGet(isp)%>';
+
+var enblNat = '<%ejGet(enblNat)%>';
+
+function frmLoad() {
+   with ( document.forms[0] ) {
+     wanMtu.value = mtu;
+      if (qs == '1')
+         showPppoe(auto);
+      else
+         showPppoe(0);
+      if ( onDemand == '1' ) {
+         enblOnDemand.checked = true;
+         pppTimeOut.disabled=false;
+      } else {
+         enblOnDemand.checked = false;
+         pppTimeOut.disabled=true;
+      }
+
+      hideOnDemandInfo(0);
+
+      if ( enblIpAddr == '1' ) {
+         enblPppIpAddress.checked = true;
+         hidePppIpAddressInfo(0);
+      } else {
+         enblPppIpAddress.checked = false;
+         hidePppIpAddressInfo(1);
+      }
+      
+
+      if ( ipExtension == '1' )
+         pppIpExtension.checked = true;
+      else
+         pppIpExtension.checked = false;
+      
+      if ( prtcl == 'PPPoE' ) {
+         encSel.options[0].text = wcp_12;
+         encSel.options[1].text = wcp_13;
+      } else 
+      { //PPPOA
+        encSel.options[0].text = wcp_13;
+        encSel.options[1].text = wcp_12;
+      }
+	  encSel.selectedIndex = eMode;
+	  
+	  atmVpi.value = vpi
+	  atmVci.value = vci
+	  
+	  //mtusize.value = mtu;
+
+      pppUserName.value  = username;
+      pppPassword.value  = ppppwd;
+      pppPassword1.value = ppppwd;
+      pppTimeOut.value = ppptime;
+      pppLocalIpAddress.value = localIpAddr;
+    if ( prtcl == 'PPPoE' )
+       pppServerName.value = pppSername;
+    if ( prtcl == 'PPPoA' || prtcl == 'PPPoE' )
+    {
+      document.getElementById('pppIpAddressInfoCB').style.visibility = 'visible';
+    }
+    else
+    {
+      document.getElementById('pppIpAddressInfoCB').style.visibility = 'hidden';
+         enblPppIpAddress.checked = false;
+         hidePppIpAddressInfo(1);
+    }
+
+   }
+}
+
+function btnNext() 
+{
+   var loc;
+   if (enblNat== '1')
+     loc = 'ntwksum2.cgi?';
+   else
+   {
+   	 if(prtcl == 'PPPoE')
+     	loc = 'ntwksum2.cgi?enblNat=1&ntwkPrtcl=0&';
+	 else
+	    loc = 'ntwksum2.cgi?enblNat=1&ntwkPrtcl=1&';	
+   }
+
+   with ( document.forms[0] ) {
+      // validate user name
+      var len = pppUserName.value.length;
+	  var UserName=pppUserName.value;
+	  var pwd = pppPassword.value;
+	  
+      
+      if( pppUserName.value == '' ){
+         alert(wcp_19);
+         return;
+      }
+
+	  for(var i=0; i<UserName.length; i++)
+	  {
+		if(isSSIDUnsafe(UserName.charAt(i))==true)
+	  	{
+	  		alert("PPP UserName contains following illegal characters :( \" ), ( \' ), ( < ), ( > ), ( # ), ( \\ ), ( & ), and blank");
+			pppUserName.focus();
+	  		return;
+		}
+	  }
+
+      
+      if(pppPassword.value == ''){
+         alert(wcp_20);
+         return;
+      }
+
+	  for(var i=0; i<pwd.length; i++)
+	  {
+		if(isSSIDUnsafe(pwd.charAt(i))==true)
+	  	{
+	  		alert("Password contains following illegal characters :( \" ), ( \' ), ( < ), ( > ), ( # ), ( \\ ), ( & ), and blank");
+			pppPassword.focus();
+	  		return;
+		}
+	  }
+
+
+      
+      if ( len > 63 ) {
+         msg = 'The length of user name (' + len + ') is too long [0-63].';
+         alert(msg);
+         return;
+      }
+      // validate password
+      len = pppPassword.value.length;
+      if ( len > 63 ) {
+         msg = 'The length of password (' + len + ') is too long [0-63].';
+         alert(msg);
+         return;
+      }
+      len = pppPassword1.value.length;
+      if ( len > 63 ) {
+         msg = 'The length of password (' + len + ') is too long [0-63].';
+         alert(msg);
+         return;
+      }
+      
+
+      if ( pppPassword.value != pppPassword1.value ) {
+         alert(wcp_21);
+         return;
+      }
+
+
+      // validate inactivity timeout
+      if ( enblOnDemand.checked == true ) {
+         if ( isNaN(pppTimeOut.value) == true ) {
+            msg = 'Inactivity Timeout "' + pppTimeOut.value + '" is invalid.';
+            alert(msg);
+            return;
+         }
+         timeOutNum = parseInt(pppTimeOut.value);
+         if ( timeOutNum < 1 || timeOutNum > 4320 ) {
+            msg = 'Inactivity Timeout "' + pppTimeOut.value + '" is out of range [1-4320].';
+            alert(msg);
+            return;
+         }
+      }
+      // validate ppp IP address
+      if ( enblPppIpAddress.checked == true ) {
+         if ( isValidIpAddress(pppLocalIpAddress.value) == false ) {
+            alert('Address "' + pppLocalIpAddress.value + '" is invalid IP address.');
+            return;
+         }
+      }
+      // validate authentication method
+      //if ( pppAuthMethod.selectedIndex == 0 ) {
+      //   msg = 'No selection for authentication method.';
+       //  alert(msg);
+       //  return;
+      //}
+
+      loc += 'pppUserName=' + encodeUrl(pppUserName.value);
+      loc += '&pppPassword=' + encodeUrl(pppPassword.value);
+      if ( enblOnDemand.checked == true ) {
+         loc += '&enblOnDemand=1';
+         loc += '&pppTimeOut=' + timeOutNum;
+      } else {
+         loc += '&enblOnDemand=0';
+         loc += '&pppTimeOut=' + pppTimeOut.value;
+      }
+      if ( enblPppIpAddress.checked == true ) {
+         loc += '&useStaticIpAddress=1';
+         loc += '&pppLocalIpAddress=' + pppLocalIpAddress.value;
+      } else {
+         loc += '&useStaticIpAddress=0';
+         loc += '&pppLocalIpAddress=' + localIpAddr;
+      }
+/*
+      if ( pppIpExtension.checked == true )
+         loc += '&pppIpExtension=1&enblNat=0&enblFirewall=0';
+      else
+         loc += '&pppIpExtension=0&enblFirewall=1&enblNat=1';
+*/		 
+      //var idx = pppAuthMethod.selectedIndex;
+      //loc += '&pppAuthMethod=1' + pppAuthMethod.options[idx].value;
+
+      loc += '&pppAuthMethod=0';//victor auto ppp authentication !
+
+      if ( prtcl == 'PPPoE' )
+      {
+	  	 var ServerName = pppServerName.value;
+		 
+		 if(isValidName(ServerName) == false)
+	  	 {
+	  		alert("ServerName contains illegal characters.");
+				pppServerName.focus();
+	  			return;
+		 }
+		 loc += '&pppServerName=' + encodeUrl(pppServerName.value);
+	  }
+	  else
+	  	 loc += '&pppServerName=' + pppSername;
+	  
+	  
+     if ( isNaN(atmVpi.value) == true || isValidNum(atmVpi.value) == false) {
+         alert('VPI "' + atmVpi.value + '" is invalid.');
+         return;
+      }
+      if ( isNaN(atmVci.value) == true || isValidNum(atmVci.value) == false) {
+         alert('VCI "' + atmVci.value + '" is invalid.');
+         return;
+      }
+      vpi = parseInt(atmVpi.value);
+      if ( vpi < 0 || vpi > 255 ) {
+         alert('VPI "' + atmVpi.value + '" is out of range [0-255].');
+         return;
+      }
+      vci = parseInt(atmVci.value);
+      if ( vci < 32 || vci > 65535 ) {
+         alert('VCI "' + atmVci.value + '" is out of range [32-65535].');
+         return;
+      }
+
+      /* check MTU */
+      if ( isNaN(wanMtu.value) == true ) {
+         alert('MTU "' + wanMtu.value + '" is invalid.');
+         return;
+      }
+	  
+	  if ((wanMtu.value > 1500) || (wanMtu.value < 500)) {
+	    alert('MTU "' + wanMtu.value + '" is out of range [500-1500].');
+		return;
+   }
+      loc += '&atmVpi=' + atmVpi.value;
+      loc += '&atmVci=' + atmVci.value;
+      loc += '&atmServiceCategory=UBR';
+      loc += '&encapMode=' + encSel.options[encSel.selectedIndex].value;      
+      loc += '&atmPeakCellRate=0';
+      loc += '&atmSustainedCellRate=0';
+      loc += '&atmMaxBurstSize=0';
+      loc += '&enblQos=0'; 
+      loc += '&enblService=1';
+      loc += '&quickSetup=0';
+      loc += '&enblIgmp=0';
+      loc += '&wanMtu=';
+	  loc += wanMtu.value; 
+      loc += '&defaultGateway=0.0.0.0';
+      loc += '&wanIfName=';
+      loc += '&enblAuto=1';	   
+      loc += '&usrPassword=pass';	   
+	  
+   }
+
+   window.location.href = loc;
+}
+
+function btnBack() {
+  var isWizard = '<%ejGet(wizardType)%>';
+  if (isWizard== '1')
+    window.location = 'ispcountry.html';
+  else
+    window.location = 'ntwkprtcl.html';
+
+//  window.history.back();
+}
+
+
+function showPppoe(show) {
+   var show_status = 'visible';
+   if ( show == 0 )
+      show_status = 'hidden';
+   if (document.getElementById)  // DOM3 = IE5, NS6
+      document.getElementById('pppoeSN').style.visibility = show_status;
+   else
+      document.all.pppoeSN.style.visibility = show_status;
+}
+
+function hideOnDemandInfo(hide) {
+   var show_status = 'visible';
+   if ( hide == 1 )
+      show_status = 'hidden';
+   if (document.getElementById)  // DOM3 = IE5, NS6
+      document.getElementById('pppInfo').style.visibility = show_status;
+   else {
+      if (document.layers) { // Netscape 4
+         if ( hide == 1 )
+            document.forms[0].pppTimeOut.value = '';
+         else
+            document.forms[0].pppTimeOut.value = '5';
+      } else  // IE 4
+         document.all.pppInfo.style.visibility = show_status;
+   }
+}
+
+
+function cbClick(cb) {
+   with ( document.forms[0] ) {
+   if ( cb.checked == true )
+    	  pppTimeOut.disabled=false;
+   else
+      	  pppTimeOut.disabled=true;
+	}
+}
+
+function hidePppIpAddressInfo(hide) 
+{
+   if ( hide == 1 )
+ 		document.forms[0].pppLocalIpAddress.disabled = true;
+   else 
+   {
+ 		document.forms[0].pppLocalIpAddress.disabled = false;	
+        document.forms[0].pppLocalIpAddress.value = localIpAddr;
+   }
+}
+
+function pppIpAddressClick(cb) {
+   if ( cb.checked == true )
+      hidePppIpAddressInfo(0);
+   else
+      hidePppIpAddressInfo(1);
+}
+
+
+function write_encSel()
+{
+	with(document.forms[0])
+	{
+		document.write("<option value=\"0\">"+wcp_12+"</option>");	
+		document.write("<option value=\"1\">"+wcp_13+"</option>");	
+	}
+}
+// done hiding -->
+</script>
+   </head>
+   <body onLoad='frmLoad()' bgColor="#ffffff" leftMargin="0" topMargin="0" marginheight="0" marginwidth="0">
+   
+         <form>
+    <SCRIPT language=JavaScript>
+	var helpItem 	='Connection Type';
+	var menuSection	='WAN';
+	var menuItem	='Connection Type';
+	var isAPmode = '<%ejGet(enblNat)%>';
+		
+	var wanStatus = '<%ejGetOther(isUp)%>';
+	showHead(wanStatus,helpItem);
+	showMenu(menuSection,menuItem,isAPmode)
+	</SCRIPT>  
+<TD class=head_bold width="90%" valign="top"><Br>
+		 
+            <font class="head_bold">
+			
+			<b>
+			<script language="javascript">
+			if (isWizard== '1')
+			  document.write("Wizard > Parameter Setting > ");
+			else
+			  document.write("&nbsp;&nbsp;"+wc_1+" &gt; "+wc_2+" &gt; ");
+
+            if(prtcl == 'PPPoE' ) {
+              document.writeln(wcp_2);
+            } else { //if (prtcl == 'PPPoA') {
+              document.writeln(wcp_3);
+            }
+            
+            </script>
+			</b>
+            </font>
+			<br><br>
+      		<TABLE class=copy_1 cellSpacing=0 cellPadding=0 width=620  border=0>
+        		<TR>
+          			<TD vAlign=top><SPAN>&nbsp;&nbsp;
+					<script>
+						if(prtcl == 'PPPoA')
+						{
+							document.write(wcp_4);
+							document.write("<a href=\"javascript:void(0);\" onClick=\"window.open('glossary.html#pppoa','help','toolbar=0,status=0,menubar=0,scrollbars=1,resizable=1,width=640,height=400,left=150,top=150');\"><font color=\"#0066FF\"><b>"+wd_8+"</b></font></a>");							
+						}	
+						else	
+						{
+							document.write(wcp_5);
+							document.write("<a href=\"javascript:void(0);\" onClick=\"window.open('glossary.html#pppoe','help','toolbar=0,status=0,menubar=0,scrollbars=1,resizable=1,width=640,height=400,left=150,top=150');\"><font color=\"#0066FF\"><b>"+wd_8+"</b></font></a>");
+						}	
+					</script>
+					
+					
+			
+					<br><Br></SPAN>
+					</TD>
+				</TR>
+				
+				<tr>
+					<td>
+				
+            <div id='pppoeSN'>
+               <table border="0" cellpadding="0" cellspacing="0">
+                  <tr>
+                     <td width="150"></td>
+
+                  </tr>
+               </table>
+            </div>
+            <table border="0" cellpadding="0" cellspacing="0" width="328">
+               <tr>
+                  <td width="160" class="copy_1">&nbsp;&nbsp;<b><script>dw(wcp_6);</script> &gt;&nbsp;</b></td>
+                  <td width="147" class="copy_1"><input type='text' name='pppUserName' size="20" maxlength="128"></td>
+               </tr>
+			   
+               <tr>
+                  <td width="160" class="copy_1"><Br>&nbsp;&nbsp;<b><script>dw(wcp_7);</script> &gt;<br></b></td>   
+                  <td width="147" class="copy_1"><br><input type='password' name='pppPassword' size="20" maxlength="63"></td>
+               </tr>
+               <tr>
+                  <td width="160" class="copy_1"><br>&nbsp;&nbsp;<b><script>dw(wcp_8);</script> &gt;</font></b></td>
+                  <td width="147" class="copy_1"><br><input type='password' name='pppPassword1' size="20" maxlength="63" ></td>
+               </tr>
+<script language="javascript">
+
+if ( prtcl == 'PPPoE' ) {
+   document.writeln("               </tr>");
+   document.writeln("               <td width='183' class='copy_1'><Br><b>");
+   document.writeln("               &nbsp;&nbsp;"+wcp_9+" &gt;</b></td>");
+   document.writeln("               <td width='145' class='copy_1'><br>");
+   document.writeln("               <input type='text' name='pppServerName' size='20' maxlength='39'></td>");
+   document.writeln("               </tr>");
+}
+
+</script>
+               <tr>
+                  <td width="160" class="copy_1"><Br>&nbsp;&nbsp;<b><script>dw(wcp_10);</script> &gt;</b></td>
+                  <td width="147"><br><input type='text' name='atmVpi' size='4' value="0" maxlength="3"> /
+                 					<input type='text' name='atmVci' size='4' value="38" maxlength="5">
+				  </td>
+               </tr>
+               
+			   <tr>
+                     <td width="160" class="copy_1"><Br>&nbsp;&nbsp;<b><script>dw(wcp_11);</script> &gt;</b></td>
+                     <td width="147" class="copy_1"><br>
+					 	<select name='encSel' id='encSel'><script language="javascript">write_encSel()</script></select>
+					 </td>
+                     
+					 <td width="18" height="3"></td>
+                     <td width="3" height="3"></td>
+               </tr>
+			   
+			   <tr>
+				    <td width="160" class="copy_1"><Br>&nbsp;&nbsp;<b><script>dw(wcp_14);</script> &gt;[500-1500]</b></td>
+				    <td><br><input type='text' name='wanMtu' size="20" maxlength="4"></td>
+				  
+			   </tr>
+			
+			</table> 
+			<Br>
+			
+			<table border="0" cellpadding="0" cellspacing="0" width="520">  
+			   <Tr>
+			   		<Td width="8"></Td>
+			   		<td colspan="2" class="copy_1"><br><script>dw(wcp_15);</script></td>
+			   </Tr>	  
+            </table>
+			<br>
+			
+            <table border="0" cellpadding="0" cellspacing="0" width="550">
+                <tr>
+                  <td width="27" class="copy_1">&nbsp;<input type='checkbox' name='enblOnDemand' onClick='cbClick(this)' value="ON"></td>
+				  <td width="102" class="copy_1"><script>dw(wcp_16);</script></td>
+				<div id='pppInfo'>  
+				  <td width="64" class="copy_1"><input type='text' name='pppTimeOut' size="10" maxLength= "5" value="5"></td>
+				  <td width="357" class="copy_1"><script>dw(wcp_17);</script></td>
+				</div>
+                </tr>
+              </table>
+			
+
+			<br>
+            <table border="0" cellpadding="0" cellspacing="0" width="550">
+                <tr>
+				<div id='pppIpAddressInfoCB'>  				
+                  <td  class="copy_1">&nbsp;<input type='checkbox' name='enblPppIpAddress' onClick='pppIpAddressClick(this)'></td>
+				  <td width="128" class="copy_1"><script>dw(wcp_18);</script></td>
+				</div>  
+				<div id='pppIpAddressInfo'>
+				  <td width="394" class="copy_1"><input type='text' name='pppLocalIpAddress' size="16" maxLength= "16" value=""></td>
+				</div>  
+				</tr>
+			</table>
+			
+            <table border="0" cellpadding="0" cellspacing="0">
+              <tr>
+                  <td width='153' height="20"></td>  
+               </tr>
+               <tr>
+                  <td width='153'></td>
+                  <td>
+				  <script>
+				  	var info = "<input type='button' class='submitBtn' style='height:22px;width:180px;' onClick='frmLoad()' value='"+wd_9+"'><input type='button' class='submitBtn' style='height:22px;width:180px;' onClick='btnNext()' value='"+wd_10+"'>";
+					dw(info);  
+				  </script>
+               
+			   </td>
+              </tr>
+            </table>
+            <table border="0" cellpadding="4" cellspacing="0" width="326" height="56">
+               <tr>
+                     <td width="78" height="21" class="copy_1">
+                     <input type='hidden' name='pppIpExtension' value="ON"></td>
+                     <td width="146" height="21">
+                     <td width="32" height="21">
+            <font color="#004263">&nbsp;</font></td>
+            <font color="#004263" face="Verdana">
+                     <td width="39" height="21"></td>
+                  </font></tr>
+                  </table>
+				
+				
+				
+				
+				
+					</td>
+				</tr>
+			</TABLE>			
+			
+			<br><br>
+	
+
+         </font></b></TD></TR></TBODY></TABLE></TD></form>
+   </body>
+</html>

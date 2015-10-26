@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/kernel/linux/arch/mips/vr41xx"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   name="nec-eagle"
+   kind="dir"/>
+<entry
+   name="tanbac-tb0226"
+   kind="dir"/>
+<entry
+   name="common"
+   kind="dir"/>
+<entry
+   name="tanbac-tb0229"
+   kind="dir"/>
+<entry
+   name="casio-e55"
+   kind="dir"/>
+<entry
+   name="CVS"
+   kind="dir"/>
+<entry
+   name="zao-capcella"
+   kind="dir"/>
+<entry
+   name="ibm-workpad"
+   kind="dir"/>
+<entry
+   name="victor-mpc30x"
+   kind="dir"/>
+</wc-entries>

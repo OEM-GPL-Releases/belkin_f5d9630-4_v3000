@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/bcmdrivers/broadcom/net/wl/impl2/shared"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   committed-rev="3"
+   name="bcm4318_map.c"
+   text-time="2008-02-22T08:20:59.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="3b4709b6424aac2a80dbc62cf1ba4fec"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:20:59.000000Z"/>
+<entry
+   committed-rev="3"
+   name="bcmwifi.c"
+   text-time="2008-02-22T08:20:59.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="13b1fafa47a615934ee2bb8de2640f66"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:20:59.000000Z"/>
+<entry
+   committed-rev="3"
+   name="bcm4306_map.bin"
+   text-time="2008-02-22T08:20:59.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="9debaff81b191bdf173cbdcac266cc28"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:20:59.000000Z"/>
+<entry
+   committed-rev="3"
+   name="bcmsrom.c"
+   text-time="2008-02-22T08:20:59.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="93421d07fe1f0524a11810782df7049f"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:20:59.000000Z"/>
+<entry
+   committed-rev="3"
+   name="bcmutils.c"
+   text-time="2008-02-22T08:20:59.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="5c5c92a915c7382ca7040de414d77cf9"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:20:59.000000Z"/>
+<entry
+   committed-rev="3"
+   name="bcm4318_map.bin"
+   text-time="2008-02-22T08:20:59.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="93068c52427ea0465345de6f5945c8d9"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:20:59.000000Z"/>
+<entry
+   committed-rev="3"
+   name="defaults.c"
+   text-time="2008-02-22T08:20:59.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="4920e95a2a62447087d3032fc1676459"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:20:59.000000Z"/>
+<entry
+   committed-rev="3"
+   name="bcm4321_map.c"
+   text-time="2008-02-22T08:20:59.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="6066ea3fcedacc966df5fc3faffa8166"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:20:59.000000Z"/>
+<entry
+   committed-rev="3"
+   name="bcm4306_map.c"
+   text-time="2008-02-22T08:20:59.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="2b2ef8cc61893d7a7a7e1df44cb9ad98"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:20:59.000000Z"/>
+<entry
+   committed-rev="3"
+   name="linux_osl.c"
+   text-time="2008-02-22T08:20:59.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="21124ceda6673e6704d09f68af032626"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:20:59.000000Z"/>
+</wc-entries>

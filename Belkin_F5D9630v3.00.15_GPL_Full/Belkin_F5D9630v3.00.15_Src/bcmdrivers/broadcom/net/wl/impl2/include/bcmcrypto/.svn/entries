@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/bcmdrivers/broadcom/net/wl/impl2/include/bcmcrypto"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   committed-rev="3"
+   name="aeskeywrap.h"
+   text-time="2008-02-22T08:20:59.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="18af66baeae06d34c067e9089ebb4e98"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:20:59.000000Z"/>
+<entry
+   committed-rev="3"
+   name="rijndael-alg-fst.h"
+   text-time="2008-02-22T08:20:59.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="e66fc6da3341bb7f3412364e99e7ddc4"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:20:59.000000Z"/>
+<entry
+   committed-rev="3"
+   name="aes.h"
+   text-time="2008-02-22T08:20:59.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="f3832cddabd9b245832c7ce28df9544d"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:20:59.000000Z"/>
+</wc-entries>

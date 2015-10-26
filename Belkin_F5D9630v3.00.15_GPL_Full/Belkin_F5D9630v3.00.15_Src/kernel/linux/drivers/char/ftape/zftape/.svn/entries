@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/kernel/linux/drivers/char/ftape/zftape"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   committed-rev="3"
+   name="zftape-vtbl.c"
+   text-time="2008-02-22T08:23:55.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="19cbb337ae394820b8b5588af3965977"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:54.000000Z"/>
+<entry
+   committed-rev="3"
+   name="zftape-init.h"
+   text-time="2008-02-22T08:23:55.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="ac5d774cc0d877b5fd5606f87aebad25"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:54.000000Z"/>
+<entry
+   committed-rev="3"
+   name="zftape-eof.c"
+   text-time="2008-02-22T08:23:55.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="a72fd1ca700c70e23082d6c4651ec361"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:54.000000Z"/>
+<entry
+   committed-rev="3"
+   name="zftape-read.c"
+   text-time="2008-02-22T08:23:55.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="5e169af7ac105cf165ba670f4f4bfb5f"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:54.000000Z"/>
+<entry
+   committed-rev="3"
+   name="zftape-vtbl.h"
+   text-time="2008-02-22T08:23:55.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="b50be8d886c1d3027a17ad2c88218528"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:54.000000Z"/>
+<entry
+   committed-rev="3"
+   name="zftape_syms.c"
+   text-time="2008-02-22T08:23:55.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="a2033fae047aee6b834c7047a7c49d97"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:54.000000Z"/>
+<entry
+   committed-rev="3"
+   name="zftape-eof.h"
+   text-time="2008-02-22T08:23:55.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="1bf5ecf1787ad7341cd9d9ad1f09e02f"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:54.000000Z"/>
+<entry
+   committed-rev="3"
+   name="zftape-read.h"
+   text-time="2008-02-22T08:23:55.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="bc2e4be22845401fa04a0d323eb8cf1d"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:54.000000Z"/>
+<entry
+   committed-rev="3"
+   name="zftape-ctl.c"
+   text-time="2008-02-22T08:23:55.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="20c2672580158fafd1412e6d7d48a537"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:54.000000Z"/>
+<entry
+   name="CVS"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="zftape-ctl.h"
+   text-time="2008-02-22T08:23:55.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="a795aa244d2fad480835c799bd4d31b9"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:54.000000Z"/>
+<entry
+   committed-rev="3"
+   name="zftape-rw.c"
+   text-time="2008-02-22T08:23:55.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="6c476bd198e40725434df9347e498c96"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:54.000000Z"/>
+<entry
+   committed-rev="3"
+   name="zftape-write.c"
+   text-time="2008-02-22T08:23:55.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="7f205fe968c18f78212d6b94200ebc36"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:54.000000Z"/>
+<entry
+   committed-rev="3"
+   name="zftape-buffers.c"
+   text-time="2008-02-22T08:23:55.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="b644153de354da7d626dd9fc73e1dc64"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:54.000000Z"/>
+<entry
+   committed-rev="3"
+   name="zftape-rw.h"
+   text-time="2008-02-22T08:23:55.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="e0448764bb97fa80df1c7fcd3fd15cd0"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:54.000000Z"/>
+<entry
+   committed-rev="3"
+   name="zftape-write.h"
+   text-time="2008-02-22T08:23:55.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="6f39e3d676aba11b2bd8dcd9de254202"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:54.000000Z"/>
+<entry
+   committed-rev="3"
+   name="zftape-buffers.h"
+   text-time="2008-02-22T08:23:55.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="00228311a32b5f7e12826e92caaceb4f"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:54.000000Z"/>
+<entry
+   committed-rev="3"
+   name="zftape-init.c"
+   text-time="2008-02-22T08:23:55.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="1931b07c8fff0673a9e27d9285ba509d"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:54.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Makefile"
+   text-time="2008-02-22T08:23:55.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="193c69ba41403fb4ffe6964d22abf0d7"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:54.000000Z"/>
+<entry
+   committed-rev="3"
+   name=".cvsignore"
+   text-time="2008-02-22T08:23:55.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="d8b65572e25962faaf07c20bb34d224e"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:55.000000Z"/>
+</wc-entries>

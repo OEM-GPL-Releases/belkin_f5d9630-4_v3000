@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/kernel/linux/arch/i386/lib"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   committed-rev="3"
+   name="delay.c"
+   text-time="2008-02-22T08:22:34.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="962321af9f10c4a2cbc087dd008e6cd0"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:33.000000Z"/>
+<entry
+   committed-rev="3"
+   name="getuser.S"
+   text-time="2008-02-22T08:22:34.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="4541a93710855814d0be14519f474f5c"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:33.000000Z"/>
+<entry
+   committed-rev="3"
+   name="bitops.c"
+   text-time="2008-02-22T08:22:34.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="01f419095de2a2e07cbb54f9b8061714"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:34.000000Z"/>
+<entry
+   committed-rev="3"
+   name="mmx.c"
+   text-time="2008-02-22T08:22:34.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="0c18a76b423744ba877fa704742849dc"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:34.000000Z"/>
+<entry
+   committed-rev="3"
+   name="strstr.c"
+   text-time="2008-02-22T08:22:34.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="a45d7a298389e5b9df34ec663a0389db"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:34.000000Z"/>
+<entry
+   committed-rev="3"
+   name="checksum.S"
+   text-time="2008-02-22T08:22:34.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="9fbceeadf5702c6a961a61a912f3b20b"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:34.000000Z"/>
+<entry
+   committed-rev="3"
+   name="dec_and_lock.c"
+   text-time="2008-02-22T08:22:34.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="f379d4347b9c7b3fcf5e8ab6ee1d35b0"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:34.000000Z"/>
+<entry
+   committed-rev="3"
+   name="usercopy.c"
+   text-time="2008-02-22T08:22:34.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="16f7d478a4331a1f95ccf2bcf6547d51"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:34.000000Z"/>
+<entry
+   name="CVS"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="memcpy.c"
+   text-time="2008-02-22T08:22:34.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="320cd73576dfe7405d12853dbe47536c"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:34.000000Z"/>
+<entry
+   committed-rev="3"
+   name=".cvsignore"
+   text-time="2008-02-22T08:22:34.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="d8b65572e25962faaf07c20bb34d224e"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:34.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Makefile"
+   text-time="2008-02-22T08:22:34.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="a446c29924cc929c2501e1b956c0ac53"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:34.000000Z"/>
+</wc-entries>

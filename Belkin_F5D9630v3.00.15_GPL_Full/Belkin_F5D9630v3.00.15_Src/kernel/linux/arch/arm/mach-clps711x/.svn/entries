@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/kernel/linux/arch/arm/mach-clps711x"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   committed-rev="3"
+   name="time.c"
+   text-time="2008-02-22T08:22:07.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="41d98763e0a36ce787635df66bb10502"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:07.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Kconfig"
+   text-time="2008-02-22T08:22:07.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="90432eec0ba0c7b40c094201e59d7cde"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:07.000000Z"/>
+<entry
+   committed-rev="3"
+   name="clep7312.c"
+   text-time="2008-02-22T08:22:07.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="bcc60bc53f9e166705e3f3ef70199ee6"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:07.000000Z"/>
+<entry
+   committed-rev="3"
+   name="dma.c"
+   text-time="2008-02-22T08:22:07.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="c36437c62ccf9b046cab7e2d97d93ed9"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:07.000000Z"/>
+<entry
+   committed-rev="3"
+   name="p720t-leds.c"
+   text-time="2008-02-22T08:22:07.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="41764d69e570b751baad1951d3c7c335"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:07.000000Z"/>
+<entry
+   committed-rev="3"
+   name="cdb89712.c"
+   text-time="2008-02-22T08:22:07.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="d5c6df91c6b5140852fff6461bd79c1d"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:07.000000Z"/>
+<entry
+   committed-rev="3"
+   name="autcpu12.c"
+   text-time="2008-02-22T08:22:07.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="173e1a201952b308fe0c95d5d329b7d7"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:07.000000Z"/>
+<entry
+   committed-rev="3"
+   name="fortunet.c"
+   text-time="2008-02-22T08:22:07.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="01ec3aec4e56ed96be8d62ec2cd0f1b6"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:07.000000Z"/>
+<entry
+   committed-rev="3"
+   name="mm.c"
+   text-time="2008-02-22T08:22:07.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="a2d9be3763212a793d5a9076e6133bdb"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:07.000000Z"/>
+<entry
+   name="CVS"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="edb7211-mm.c"
+   text-time="2008-02-22T08:22:07.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="6d55a7951c4d7fd91043af929b79abce"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:07.000000Z"/>
+<entry
+   committed-rev="3"
+   name="p720t.c"
+   text-time="2008-02-22T08:22:07.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="27ee93347c265f55d0a276500ad84938"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:07.000000Z"/>
+<entry
+   committed-rev="3"
+   name="edb7211-arch.c"
+   text-time="2008-02-22T08:22:07.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="cc051645391c7648ece96b0780fb33bf"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:07.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ceiva.c"
+   text-time="2008-02-22T08:22:07.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="12503a014ea218fe57988c08ace0c189"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:07.000000Z"/>
+<entry
+   committed-rev="3"
+   name="irq.c"
+   text-time="2008-02-22T08:22:07.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="571d56e1e3fe1503f195007a0f6de5a3"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:07.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Makefile"
+   text-time="2008-02-22T08:22:07.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="075f828807256194888e34514301efe2"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:07.000000Z"/>
+</wc-entries>

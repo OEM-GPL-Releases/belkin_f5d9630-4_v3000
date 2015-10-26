@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="106"
+   name=""
+   committed-date="2008-01-28T12:40:37.860309Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/userapps/broadcom"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   name="nas"
+   kind="dir"/>
+<entry
+   name="upnp"
+   kind="dir"/>
+<entry
+   name="hotplug"
+   kind="dir"/>
+<entry
+   name="nvram"
+   kind="dir"/>
+<entry
+   name="6510refCode"
+   kind="dir"/>
+<entry
+   name="bcmssl"
+   kind="dir"/>
+<entry
+   name="ethctl"
+   kind="dir"/>
+<entry
+   name="sntp"
+   kind="dir"/>
+<entry
+   name="atmctl"
+   kind="dir"/>
+<entry
+   name="wlctl"
+   kind="dir"/>
+<entry
+   name="adslctl"
+   kind="dir"/>
+<entry
+   name="netctl"
+   kind="dir"/>
+<entry
+   name="ses"
+   kind="dir"/>
+<entry
+   name="dnsspoof"
+   kind="dir"/>
+<entry
+   name="dynahelper"
+   kind="dir"/>
+<entry
+   name="igmp"
+   kind="dir"/>
+<entry
+   name="ddnsd"
+   kind="dir"/>
+<entry
+   name="ippd"
+   kind="dir"/>
+<entry
+   name="WSC_UPNP"
+   kind="dir"/>
+<entry
+   name="tr64"
+   kind="dir"/>
+<entry
+   name="dhcpr"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="bcmssl.tar.bz2"
+   text-time="2008-02-22T08:27:06.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="c59754f392baef05fa58cfa798ed296c"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:26:51.000000Z"/>
+<entry
+   name="cfm"
+   kind="dir"/>
+<entry
+   name="udp_broadcast_relay"
+   kind="dir"/>
+<entry
+   name="tr69c"
+   kind="dir"/>
+<entry
+   name="epittcp"
+   kind="dir"/>
+<entry
+   name="dnsprobe"
+   kind="dir"/>
+<entry
+   name="snmp"
+   kind="dir"/>
+</wc-entries>

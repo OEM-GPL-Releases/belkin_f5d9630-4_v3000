@@ -1,0 +1,133 @@
+<html>
+   <head>
+      <meta HTTP-EQUIV='Pragma' CONTENT='no-cache'>
+         <link rel="stylesheet" href="main_router.css" type='text/css'>
+
+		<%ejGet("curLanguage")%>
+		<SCRIPT>assign_var();</SCRIPT>
+
+		 
+		 <SCRIPT language=JavaScript src="showMenu.js"></SCRIPT>
+            <script language="javascript" src="util.js"></script>
+			<script language="javascript" src="field_check.js"></script>
+            <script language="javascript">
+<!-- hide
+
+strHtml='<title>'+wlm_1+' &gt; '+wlap_2+'</title>';
+dw(strHtml);
+
+
+var eth_orig = '<%ejGet(ethIpAddress_orig)%>';
+var autoup = '<%ejGet(autoUpgrade_flag)%>';
+
+if(autoup == '1')
+{
+	newwin=window.open("checkfw.html","Firmware","toolbar=no,location=no,directories=no,status=no,menubar=no,scrollbars=yes,width=395,height=200,resizable=0");
+	newwin.focus();
+}
+
+
+function frmLoad()
+{
+	document.forms[0].nat_ap[1].checked == true;
+}
+
+function apmode()
+{
+	if(document.forms[0].nat_ap[0].checked == true)
+		window.location.href = 'wireless_apt_enabled.html'
+
+}
+
+function btnApply()
+{
+	var loc = 'wlap.cgi?usrPassword=pass&enblNat=1';
+	alert(wlap_1);
+	window.location.href = loc;
+
+}
+
+// done hiding -->
+</script>
+</head>
+   <body onLoad='frmLoad()' bgColor="#ffffff" leftMargin="0" topMargin="0" marginheight="0" marginwidth="0">
+         <form onSubmit='return false'>
+       <SCRIPT language=JavaScript>
+	var helpItem 	='Use as Access Point';
+	var menuSection	='WLAN';
+	var menuItem	='Use as Access Point';
+	var isAPmode = '<%ejGet(enblNat)%>';
+		
+	var wanStatus = '<%ejGetOther(isUp)%>';
+	showHead(wanStatus,helpItem);
+	showMenu(menuSection,menuItem,isAPmode)
+	</SCRIPT>  
+<TD class=head_bold height="100%" width="99%" valign="top"><Br>
+      
+            <font face="Verdana" size="2" class="head_bold"><b>&nbsp;&nbsp;&nbsp;<script>dw(wlm_1);</script>&nbsp;&gt;&nbsp;<script>dw(wlap_2);</script></b></font>
+			<br><br><Br>
+
+      		<TABLE class=copy_1 cellSpacing=0 cellPadding=0 width=620  border=0>
+        		<TR>
+          			<TD vAlign=top><SPAN>&nbsp;&nbsp;&nbsp;&nbsp;
+						<b>ADVANCED FEATURE!</b> The Router can be configured to act as strictly an Access Point,<br>
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;bypassing all of the routing and firewall functions. To do so, select "Enable" and type in the IP<Br>
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;address you want the Access Point to have.<Br>
+					&nbsp;&nbsp;&nbsp;&nbsp;
+					<a href="javascript:void(0);" onClick="window.open('glossary.html#WLAP','help','toolbar=0,status=0,menubar=0,scrollbars=1,resizable=1,width=640,height=400,left=150,top=150');">
+            <font color="#0066FF"><b>More Info</b></font></a>
+					<br><Br></SPAN>
+					</TD>
+				</TR>
+            	
+				<tr>
+					<td><Br><br>
+               			<table border="0" cellpadding="0" cellspacing="0">
+                  			<tr>
+								<Td width="48">
+                     			<td width="199" class="copy_1"><b><script>dw(wlap_3);</script> / <script>dw(wlap_4);</script> &gt;</b></td>
+				 			  	<td width="222" class="copy_1"><input type='radio' name='nat_ap' onClick="apmode()"><script>dw(wlap_3);</script> 
+							  								<input type='radio' name='nat_ap' onClick="apmode()" checked="checked"><script>dw(wlap_4);</script>
+								</td>
+               				</tr>
+            			</table>
+					
+					</td>
+				</tr>
+				
+				<tr>
+					<td><Br><br>
+               			<table border="0" cellpadding="0" cellspacing="0" width="500">
+                  			<tr>
+								<td align="center">
+								<script>
+									var info = "<input type='button' name='btncancel' style='width:180px' onClick='frmLoad()' value='"+wd_9+"' class='submitBtn'><input type='button' name='btnSave' style='width:180px' onClick='btnApply()' value='"+wd_10+"' class='submitBtn'>";
+									dw(info);
+								</script>					
+                  					
+								</td>
+							</tr>
+						</table>	
+								
+					</td>
+				</tr>
+            </TABLE>
+			
+			<Br>
+            
+			<BR>
+			
+             <center>
+               <p align="left">
+                  <font color="#003366">
+                  <span style="background-color: #FFFFFF">
+                  
+
+                  </font>
+               </p>
+            </center>
+
+         </TD></TR></TBODY></TABLE></TD></form>
+		
+   </body>
+</html>

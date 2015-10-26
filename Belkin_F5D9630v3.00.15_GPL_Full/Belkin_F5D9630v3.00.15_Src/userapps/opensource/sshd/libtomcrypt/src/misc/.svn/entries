@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/userapps/opensource/sshd/libtomcrypt/src/misc"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   committed-rev="3"
+   name="zeromem.c"
+   text-time="2008-02-22T08:25:19.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="69a5257068d53d7d45f76659593782b0"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:25:17.000000Z"/>
+<entry
+   name="crypt"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="error_to_string.c"
+   text-time="2008-02-22T08:25:19.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="93a7d8cc54ffe2728efeaa7aab1b21e5"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:25:18.000000Z"/>
+<entry
+   name="base64"
+   kind="dir"/>
+<entry
+   name="mpi"
+   kind="dir"/>
+<entry
+   name="pkcs5"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="burn_stack.c"
+   text-time="2008-02-22T08:25:19.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="0bffa7af8237356b22a9b140dd17a3a2"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:25:19.000000Z"/>
+</wc-entries>

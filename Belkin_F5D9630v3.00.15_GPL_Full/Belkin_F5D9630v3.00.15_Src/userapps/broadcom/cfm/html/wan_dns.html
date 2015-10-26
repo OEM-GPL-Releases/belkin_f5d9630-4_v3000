@@ -1,0 +1,302 @@
+<html>
+   <head>
+      <meta HTTP-EQUIV='Pragma' CONTENT='no-cache'>
+	  <meta http-equiv="refresh" content="<%ejGet(timeout_refresh)%>">
+         <link rel="stylesheet" href="main_router.css" type='text/css'>
+		 
+		<%ejGet("curLanguage")%>
+		<SCRIPT>assign_var();</SCRIPT>
+		 
+		 <title>WAN > DNS</title>
+            <script language="javascript" src="util.js"></script>
+			<SCRIPT language=JavaScript src="showMenu.js"></SCRIPT>
+			
+            <script language="javascript">
+<!-- hide
+strHtml='<title>'+wd_1+' &gt; '+wd_2+'</title>';
+dw(strHtml);
+
+
+
+var autoup = '<%ejGet(autoUpgrade_flag)%>';
+
+if(autoup == '1')
+{
+	newwin=window.open("checkfw.html","Firmware","toolbar=no,location=no,directories=no,status=no,menubar=no,scrollbars=yes,width=395,height=200,resizable=0");
+	newwin.focus();
+}
+
+var state = '<%ejGet(dnsRefresh)%>';
+if ( state == '1' ) {
+   var code = 'location="dnscfg.cgi?dnsRefresh=0"';
+   eval(code);
+}
+
+
+function disableOut() {
+    
+    with ( document.forms[0] ) {
+    
+  	    dnsPrimary1.disabled=true;
+    	dnsPrimary2.disabled=true;
+    	dnsPrimary3.disabled=true;
+    	dnsPrimary4.disabled=true;
+    	
+		dnsSecondary1.disabled=true;
+		dnsSecondary2.disabled=true;
+		dnsSecondary3.disabled=true;
+		dnsSecondary4.disabled=true;
+		 
+    }
+}
+
+
+function enableShow() {
+    
+    with ( document.forms[0] ) {
+    
+  	    dnsPrimary1.disabled=false;
+       dnsPrimary2.disabled=false;
+    	dnsPrimary3.disabled=false;
+    	dnsPrimary4.disabled=false;
+    	
+		dnsSecondary1.disabled=false;
+		dnsSecondary2.disabled=false;
+		dnsSecondary3.disabled=false;
+		dnsSecondary4.disabled=false;
+		 
+   }
+}
+
+
+
+function dnsClick(cb) {
+   if (cb.checked == true)
+      disableOut();
+   else
+      enableShow();
+}
+
+function btnApply() {
+   var loc = 'wan_dns.cgi?';
+
+   with ( document.forms[0] ) {
+      if (enableAuto.checked == false) {
+		
+		 dnsPrimary.value = dnsPrimary1.value + "." + dnsPrimary2.value + "." + dnsPrimary3.value + "." + dnsPrimary4.value;
+		 dnsSecondary.value = dnsSecondary1.value + "." + dnsSecondary2.value + "." + dnsSecondary3.value + "." + dnsSecondary4.value;
+         
+         if ( isValidDNSIpAddress(dnsPrimary.value) == false ) {
+            alert(wd_11);
+            return;
+         }
+         loc += 'dnsPrimary=' + dnsPrimary.value;
+        
+		 if(dnsSecondary.value == '0.0.0.0')
+		 {
+		 	loc += '&dnsSecondary=' + dnsPrimary.value;
+		 }
+		 else
+		 {
+            if ( isValidDNSIpAddress(dnsSecondary.value) == false ) {
+               alert(wd_11);
+               return;
+            }
+            loc += '&dnsSecondary=' + dnsSecondary.value;
+         }
+         loc += '&dnsDynamic=0';
+         loc += '&dnsRefresh=1';
+      }
+      else {
+         loc += 'dnsPrimary=' + '0.0.0.0';
+         loc += '&dnsSecondary=' + '0.0.0.0';
+         loc += '&dnsDynamic=1';
+         loc += '&dnsRefresh=0';
+      }
+   }
+   window.location = loc;
+}
+
+function splitDNS1String (stringToSplit,separator) {
+   if (stringToSplit=='')
+     return;
+   arrayOfStrings = stringToSplit.split(separator)
+   with ( document.forms[0] ) {
+
+   dnsPrimary1.value = arrayOfStrings [0];
+   dnsPrimary2.value = arrayOfStrings [1];
+   dnsPrimary3.value = arrayOfStrings [2];
+   dnsPrimary4.value = arrayOfStrings [3];
+  }
+}
+
+function splitDNS2String (stringToSplit,separator) {
+   if (stringToSplit=='')
+     return;
+   arrayOfStrings = stringToSplit.split(separator)
+   with ( document.forms[0] ) {
+
+   dnsSecondary1.value = arrayOfStrings [0];
+   dnsSecondary2.value = arrayOfStrings [1];
+   dnsSecondary3.value = arrayOfStrings [2];
+   dnsSecondary4.value = arrayOfStrings [3];
+  }
+}
+
+function frmLoad() {
+   with ( document.forms[0] ) {
+      var auto = '<%ejGetOther(sysInfo, dnsAuto)%>';
+      var dns1 = '<%ejGet(dnsPrimary)%>';
+	  //var dns1 = '<%ejGetOther(sysInfo, dns)%>';
+      if ( dns1 == '&nbsp' ) 
+      {
+        dns1 = '';
+        dnsPrimary1.value = '';
+	    dnsPrimary2.value = '';
+        dnsPrimary3.value = '';
+        dnsPrimary4.value = '';
+      }
+		
+	   var dns2 = '<%ejGet(dnsSecondary)%>';	
+      //var dns2 = '<%ejGetOther(sysInfo, dns2)%>';
+      if ( dns2 == '&nbsp' ) 
+      {
+      	dns2 = '';
+   		dnsSecondary1.value = '';
+   		dnsSecondary2.value = '';
+   		dnsSecondary3.value = '';
+   		dnsSecondary4.value = '';
+      }
+
+      if ( auto == '1' ) {
+         enableAuto.checked = true;
+         dnsPrimary.value = '';
+         dnsPrimary1.disabled = true;
+	     dnsPrimary2.disabled = true;
+         dnsPrimary3.disabled = true;
+         dnsPrimary4.disabled = true;
+
+		 dnsPrimary1.value = '0';
+		 dnsPrimary2.value = '0';
+		 dnsPrimary3.value = '0';
+		 dnsPrimary4.value = '0';
+
+         
+         dnsSecondary.value = '';
+   		 dnsSecondary1.disabled = true;
+   		 dnsSecondary2.disabled = true;
+   		 dnsSecondary3.disabled = true;
+   		 dnsSecondary4.disabled = true;
+
+   		 dnsSecondary1.value = '0';
+   		 dnsSecondary2.value = '0';
+   		 dnsSecondary3.value = '0';
+   		 dnsSecondary4.value = '0';
+
+         disableOut();
+      } else {
+         enableAuto.checked = false;
+         dnsPrimary.value = dns1;
+         dnsSecondary.value = dns2;
+         var dot='.';
+         splitDNS1String (dnsPrimary.value,dot);
+         splitDNS2String (dnsSecondary.value,dot);
+         
+         enableShow();
+      }
+   }
+}
+
+// done hiding -->
+</script>
+   </head>
+   <body onLoad='frmLoad()' bgColor="#ffffff" leftMargin="0" topMargin="0" marginheight="0" marginwidth="0">
+         <form>
+            <font color="#004263" size="1">
+			<input type='hidden' name='dnsSecondary' size="20" maxLength="3">
+			<input type='hidden' name='dnsPrimary' size="20" maxLength="3">
+			</font>
+
+    <SCRIPT language=JavaScript>
+	var helpItem 	='DNS';
+	var menuSection	='WAN';
+	var menuItem	='DNS';
+	var isAPmode = '<%ejGet(enblNat)%>';
+		
+	var wanStatus = '<%ejGetOther(isUp)%>';
+	showHead(wanStatus,helpItem);
+	showMenu(menuSection,menuItem,isAPmode)
+	</SCRIPT>  
+<TD class=head_bold width="90%" valign="top"><Br>
+			
+            <b><font color="#004263" size="2" class="head_bold">&nbsp;&nbsp;<script>dw(wd_1);</script> &gt; <script>dw(wd_2);</script></font></b>
+			
+            <br><br>
+      		<TABLE class=copy_1 cellSpacing=0 cellPadding=0 width=620  border=0>
+        		<TR>
+					<td width="13"></td>
+          			<TD vAlign=top><SPAN><script>dw(wd_3);</script><br><Br></SPAN></TD>
+				</TR>
+			</TABLE>
+				
+			<TABLE class=copy_1 cellSpacing=0 cellPadding=0 width=620  border=0>	
+				<tr>
+					<td width="13"></td>
+					<td>
+            			<table border="0" cellpadding="0" cellspacing="0">
+            			   <tr><td valign="center" align="middle"><input type='checkbox' name='enableAuto' onclick='dnsClick(this)' value="ON"></td>
+                  			   <td class="copy_1">&nbsp;<b><script>dw(wd_4);</script></font></b></td>  
+               			   </tr>
+                        </table>
+
+
+            			<div id='dnsInfo'>
+               				<table width="600" border="0" cellpadding="0" cellspacing="0">
+                  			<tr>
+                     			<td width="176" class="copy_1"><br>
+                   			  &nbsp;<b><script>dw(wd_5);</script> &gt;</b></td>  
+                     			<td width="424"><br>
+									<input type='text' name='dnsPrimary1' size="3" maxLength="3">.<input type='text' name='dnsPrimary2' size="3" maxLength="3">.
+									<input type='text' name='dnsPrimary3' size="3" maxLength="3">.<input type='text' name='dnsPrimary4' size="3" maxLength="3">
+								</td>  
+                  			</tr>
+							
+                 	 		<tr>
+                     			<td class="copy_1"><Br>&nbsp;<b><script>dw(wd_6);</script> &gt;</b></td>  
+                     			<td><br>
+									<input type='text' name='dnsSecondary1' size="3" maxLength="3">.<input type='text' name='dnsSecondary2' size="3" maxLength="3">.
+									<input type='text' name='dnsSecondary3' size="3" maxLength="3">.<input type='text' name='dnsSecondary4' size="3" maxLength="3">
+								</td>  
+                  			</tr>
+                            <tr>
+                     			<td colspan="2" class="copy_1"><Br><script>dw(wd_7);</script>
+ <a href="javascript:void(0);" onClick="window.open('glossary.html#DNS','help','toolbar=0,status=0,menubar=0,scrollbars=1,resizable=1, width=640,height=400,left=150,top=150');">        
+                  <font color="#0066FF"><b><script>dw(wd_8);</script></b></font></a></font></td>
+                  </tr>
+               </table>
+               <br>
+            </div>
+					
+					</td>
+				</tr>
+			</TABLE>
+			
+			
+            <br>
+            <table>
+			<tr>
+			<td width="70"></td>
+			<td>
+
+	 		<script>
+				var info = "<input type='button' name='buttonclear' style='height:22px;width:180px;' onClick='frmLoad()' value='"+wd_9+"' class='submitBtn'><input type='button' style='height:22px;width:180px;' onClick='btnApply()' value='"+wd_10+"' class='submitBtn'>";
+				dw(info);
+			
+			</script>
+                </td>
+				</tr>
+			</table>
+
+         </form></TD></TR></TBODY></TABLE></TD>
+   </body>
+</html>

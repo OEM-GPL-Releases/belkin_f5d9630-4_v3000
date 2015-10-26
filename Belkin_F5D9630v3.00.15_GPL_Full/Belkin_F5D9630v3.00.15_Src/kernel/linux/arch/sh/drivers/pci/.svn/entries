@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/kernel/linux/arch/sh/drivers/pci"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   committed-rev="3"
+   name="Kconfig"
+   text-time="2008-02-22T08:23:19.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="ae63cbcf63b654a906a2938c40d3390d"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:19.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ops-snapgear.c"
+   text-time="2008-02-22T08:23:19.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="1ac315810c8fa5b7f4e8ac84e74259b9"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:19.000000Z"/>
+<entry
+   committed-rev="3"
+   name="dma-dreamcast.c"
+   text-time="2008-02-22T08:23:19.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="9350d0bb293a9320aa34134d79310fa1"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:19.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ops-dreamcast.c"
+   text-time="2008-02-22T08:23:19.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="31135bd07a84dbcbfda9b3c60e1592dd"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:19.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ops-rts7751r2d.c"
+   text-time="2008-02-22T08:23:19.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="e09274238473f6165175aac4dd6d09d3"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:19.000000Z"/>
+<entry
+   committed-rev="3"
+   name="pci-st40.c"
+   text-time="2008-02-22T08:23:19.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="42c12b0d9b42e1f93709e80e6b75f4c8"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:19.000000Z"/>
+<entry
+   committed-rev="3"
+   name="pci-sh7751.c"
+   text-time="2008-02-22T08:23:19.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="0c2d7c39290aed6d58ad2a97130e6211"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:19.000000Z"/>
+<entry
+   committed-rev="3"
+   name="pci-st40.h"
+   text-time="2008-02-22T08:23:19.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="46094a009c05911ca8c94dbbf854f997"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:19.000000Z"/>
+<entry
+   name="CVS"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="pci.c"
+   text-time="2008-02-22T08:23:19.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="4aef4e887bd0d28941fc9dd44c7094b2"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:19.000000Z"/>
+<entry
+   committed-rev="3"
+   name="pci-sh7751.h"
+   text-time="2008-02-22T08:23:19.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="52325515d4b236ff745bcc8d0a11d0e5"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:19.000000Z"/>
+<entry
+   committed-rev="3"
+   name="fixups-dreamcast.c"
+   text-time="2008-02-22T08:23:19.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="694d55d367c7722bb117b172d4cb6f60"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:19.000000Z"/>
+<entry
+   committed-rev="3"
+   name="fixups-rts7751r2d.c"
+   text-time="2008-02-22T08:23:19.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="855f483a51e26be0f37e933f74880a64"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:19.000000Z"/>
+<entry
+   committed-rev="3"
+   name="pci-auto.c"
+   text-time="2008-02-22T08:23:19.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="b48a88f4cb61c99f65609a843c065e05"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:19.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ops-bigsur.c"
+   text-time="2008-02-22T08:23:19.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="15fe04832e7ca90adb0480812dc4257a"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:19.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Makefile"
+   text-time="2008-02-22T08:23:19.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="b0d4240fb0177fdd4176f9cc3f9e6cf5"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:19.000000Z"/>
+</wc-entries>

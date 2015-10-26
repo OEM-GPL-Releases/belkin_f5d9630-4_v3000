@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/userapps/opensource/libosip2/src/osip2"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   committed-rev="3"
+   name="ist.c"
+   text-time="2008-02-22T08:25:08.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="7860079b6b1ad2571189be0f735e9193"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:25:08.000000Z"/>
+<entry
+   committed-rev="3"
+   name="fsm_misc.c"
+   text-time="2008-02-22T08:25:08.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="9af872b8073151d32e2bf49bc45bb39a"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:25:08.000000Z"/>
+<entry
+   committed-rev="3"
+   name="xixt.h"
+   text-time="2008-02-22T08:25:08.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="320dcf23987f7febea899b921f083f81"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:25:08.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Makefile.in"
+   text-time="2008-02-22T08:25:08.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="a5a306f2ce148a2ee9d30cee52c20b00"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:25:08.000000Z"/>
+<entry
+   committed-rev="3"
+   name="nict_fsm.c"
+   text-time="2008-02-22T08:25:08.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="70f19e91ce099ad96d5757571f4e6150"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:25:08.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ist_fsm.c"
+   text-time="2008-02-22T08:25:08.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="c423ba0e2fadbe869799f37da65e6c0f"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:25:08.000000Z"/>
+<entry
+   committed-rev="3"
+   name="osip_negotiation.c"
+   text-time="2008-02-22T08:25:08.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="54a4f3918890b2fd0cd1b2ad12f2dba1"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:25:08.000000Z"/>
+<entry
+   committed-rev="3"
+   name="osip.c"
+   text-time="2008-02-22T08:25:08.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="ee4ff960a165d68deaac2020fe608bb7"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:25:08.000000Z"/>
+<entry
+   committed-rev="3"
+   name="port_thread.c"
+   text-time="2008-02-22T08:25:08.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="aa5fbe017407f2b724c30413aaf50f09"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:25:08.000000Z"/>
+<entry
+   committed-rev="3"
+   name="osip_event.c"
+   text-time="2008-02-22T08:25:08.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="020893547dc6404ffb6079a6fea3d0ed"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:25:08.000000Z"/>
+<entry
+   committed-rev="3"
+   name="port_condv.c"
+   text-time="2008-02-22T08:25:08.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="d6bdb903fbe4c2ebf03e58bc9f9324a6"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:25:08.000000Z"/>
+<entry
+   committed-rev="3"
+   name="nist.c"
+   text-time="2008-02-22T08:25:08.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="212c8099346d51e04ec02ae5041e91eb"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:25:08.000000Z"/>
+<entry
+   committed-rev="3"
+   name="osip_transaction.c"
+   text-time="2008-02-22T08:25:08.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="84eaa1805210d85838644b39e7bb9726"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:25:08.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ict.c"
+   text-time="2008-02-22T08:25:08.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="46dbf9d73bd3254de80a6e9cd2b72681"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:25:08.000000Z"/>
+<entry
+   committed-rev="3"
+   name="nist_fsm.c"
+   text-time="2008-02-22T08:25:08.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="06478b1c3c5fb90e71d0047f62e8c7b1"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:25:08.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ict_fsm.c"
+   text-time="2008-02-22T08:25:08.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="6cb03b471d7835404d6d7324663ffe6a"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:25:08.000000Z"/>
+<entry
+   committed-rev="3"
+   name="port_fifo.c"
+   text-time="2008-02-22T08:25:08.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="f7901629299a3c88441eae70d8694927"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:25:08.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Makefile.am"
+   text-time="2008-02-22T08:25:08.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="a38c9984609c9044faf28dec458ec1ca"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:25:08.000000Z"/>
+<entry
+   committed-rev="3"
+   name="osip_time.c"
+   text-time="2008-02-22T08:25:08.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="f3cd0451009691cd810844ff1ce21648"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:25:08.000000Z"/>
+<entry
+   committed-rev="3"
+   name="osip_dialog.c"
+   text-time="2008-02-22T08:25:08.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="d4528bcdaf3e44b3869c320b57878edb"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:25:08.000000Z"/>
+<entry
+   committed-rev="3"
+   name="port_sema.c"
+   text-time="2008-02-22T08:25:08.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="646dd88b4754908764964e7e85d75257"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:25:08.000000Z"/>
+<entry
+   committed-rev="3"
+   name="fsm.h"
+   text-time="2008-02-22T08:25:08.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="a0d5a6159e327ae1ed782da7469b6766"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:25:08.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Makefile"
+   text-time="2008-02-22T08:25:08.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="f220ac02154f111e95be22bc2f60392c"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:25:08.000000Z"/>
+<entry
+   committed-rev="3"
+   name="nict.c"
+   text-time="2008-02-22T08:25:08.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="09eb4d5db80b76d2468612a108ed7e80"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:25:08.000000Z"/>
+</wc-entries>

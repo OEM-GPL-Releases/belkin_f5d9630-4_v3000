@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/kernel/linux/drivers/i2c/algos"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   committed-rev="3"
+   name="Kconfig"
+   text-time="2008-02-22T08:24:35.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="7ebdff3f3266f27576ab357c8a6efbb4"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:35.000000Z"/>
+<entry
+   committed-rev="3"
+   name="i2c-algo-ite.h"
+   text-time="2008-02-22T08:24:35.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="455bfa2629527098dc290c3abc42e339"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:35.000000Z"/>
+<entry
+   committed-rev="3"
+   name="i2c-algo-pcf.c"
+   text-time="2008-02-22T08:24:35.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="dcac3fcfc05f082ebc0a7ddcd6bc77b6"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:35.000000Z"/>
+<entry
+   committed-rev="3"
+   name="i2c-algo-pcf.h"
+   text-time="2008-02-22T08:24:35.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="de2af98d20a99aad2d6e4bcbe4837388"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:35.000000Z"/>
+<entry
+   committed-rev="3"
+   name="i2c-algo-bit.c"
+   text-time="2008-02-22T08:24:35.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="520bfe8a96d9abc57e44dae584afdcb1"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:35.000000Z"/>
+<entry
+   name="CVS"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="i2c-algo-sibyte.c"
+   text-time="2008-02-22T08:24:35.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="94d4db0a51c100d048575b813aa52fc5"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:35.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Makefile"
+   text-time="2008-02-22T08:24:35.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="e3515f0b71f367c6b86ba1d3a95dbb74"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:35.000000Z"/>
+<entry
+   committed-rev="3"
+   name="i2c-algo-ite.c"
+   text-time="2008-02-22T08:24:35.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="e87e2ab97c375794511a3c998a613a47"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:35.000000Z"/>
+<entry
+   committed-rev="3"
+   name="i2c-algo-sgi.c"
+   text-time="2008-02-22T08:24:35.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="25c296dbb79c352dbe6d473db62bb9a4"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:35.000000Z"/>
+</wc-entries>

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/kernel/linux/arch/mips/mips-boards/generic"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   committed-rev="3"
+   name="time.c"
+   text-time="2008-02-22T08:22:57.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="c3fa028550469f855420ebc926382bca"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:57.000000Z"/>
+<entry
+   committed-rev="3"
+   name="printf.c"
+   text-time="2008-02-22T08:22:57.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="b7b39371ec3b5e6e01eabd4d06863f3a"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:57.000000Z"/>
+<entry
+   committed-rev="3"
+   name="reset.c"
+   text-time="2008-02-22T08:22:57.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="500958d1940cbc875bbf386e673b5417"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:57.000000Z"/>
+<entry
+   committed-rev="3"
+   name="init.c"
+   text-time="2008-02-22T08:22:57.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="f67310fd3dff707dae984b59b092fbd2"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:57.000000Z"/>
+<entry
+   committed-rev="3"
+   name="mipsIRQ.S"
+   text-time="2008-02-22T08:22:57.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="2213253eeabddbf31c7b006441ec7c06"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:57.000000Z"/>
+<entry
+   committed-rev="3"
+   name="display.c"
+   text-time="2008-02-22T08:22:57.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="cec68bc4d5bf61c8b286f11d1726d7ba"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:57.000000Z"/>
+<entry
+   committed-rev="3"
+   name="memory.c"
+   text-time="2008-02-22T08:22:57.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="0ff43f9661d47ccced2788b88ba6c1e9"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:57.000000Z"/>
+<entry
+   name="CVS"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="cmdline.c"
+   text-time="2008-02-22T08:22:57.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="7d2c069aebf9f65e2f8359979aee05c2"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:57.000000Z"/>
+<entry
+   committed-rev="3"
+   name="pci.c"
+   text-time="2008-02-22T08:22:57.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="9e0cd9cbe217346317c11531f095bd14"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:57.000000Z"/>
+<entry
+   committed-rev="3"
+   name=".cvsignore"
+   text-time="2008-02-22T08:22:57.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="d8b65572e25962faaf07c20bb34d224e"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:57.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Makefile"
+   text-time="2008-02-22T08:22:57.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="950e325817e587497c05ae2e4f42106c"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:57.000000Z"/>
+<entry
+   committed-rev="3"
+   name="gdb_hook.c"
+   text-time="2008-02-22T08:22:57.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="c84751e111e8ecae8b3cf688ddab104b"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:57.000000Z"/>
+</wc-entries>

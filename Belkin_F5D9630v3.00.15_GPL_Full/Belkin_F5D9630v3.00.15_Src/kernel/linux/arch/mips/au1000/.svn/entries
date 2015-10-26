@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/kernel/linux/arch/mips/au1000"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   name="hydrogen3"
+   kind="dir"/>
+<entry
+   name="pb1000"
+   kind="dir"/>
+<entry
+   name="pb1100"
+   kind="dir"/>
+<entry
+   name="mtx-1"
+   kind="dir"/>
+<entry
+   name="pb1500"
+   kind="dir"/>
+<entry
+   name="common"
+   kind="dir"/>
+<entry
+   name="xxs1500"
+   kind="dir"/>
+<entry
+   name="CVS"
+   kind="dir"/>
+<entry
+   name="pb1550"
+   kind="dir"/>
+<entry
+   name="csb250"
+   kind="dir"/>
+<entry
+   name="db1x00"
+   kind="dir"/>
+</wc-entries>

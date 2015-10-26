@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/kernel/linux/arch/ppc/amiga"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   committed-rev="3"
+   name="time.c"
+   text-time="2008-02-22T08:22:22.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="a145b5cb12ca5289c5427d6e0c13aaa0"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:22.000000Z"/>
+<entry
+   committed-rev="3"
+   name="amisound.c"
+   text-time="2008-02-22T08:22:22.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="8d88ab09d87829e60a4bd08f957e8336"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:22.000000Z"/>
+<entry
+   committed-rev="3"
+   name="bootinfo.c"
+   text-time="2008-02-22T08:22:22.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="9041fd588aa2774b9f7327de4e4ef0f9"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:22.000000Z"/>
+<entry
+   committed-rev="3"
+   name="chipram.c"
+   text-time="2008-02-22T08:22:22.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="0be35ecfb06cdf35c946b33f56044b0b"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:22.000000Z"/>
+<entry
+   committed-rev="3"
+   name="amiga_ksyms.c"
+   text-time="2008-02-22T08:22:22.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="89cf3a8355a6a0ae905badc21c391fcd"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:22.000000Z"/>
+<entry
+   committed-rev="3"
+   name="amiints.c"
+   text-time="2008-02-22T08:22:22.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="7d0196aead0e4c127bf09deec2afbccd"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:22.000000Z"/>
+<entry
+   committed-rev="3"
+   name="config.c"
+   text-time="2008-02-22T08:22:22.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="cecf839da75810dc21da0f9362611b01"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:22.000000Z"/>
+<entry
+   name="CVS"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="Makefile"
+   text-time="2008-02-22T08:22:22.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="9536cb4e6d71c2c16e93a52941594bf8"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:22.000000Z"/>
+<entry
+   committed-rev="3"
+   name="cia.c"
+   text-time="2008-02-22T08:22:22.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="7ef1f3b487ba2cc6b01c20452f1ce5d4"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:22.000000Z"/>
+<entry
+   committed-rev="3"
+   name="pcmcia.c"
+   text-time="2008-02-22T08:22:22.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="a1d19262553c1db2bbaf860e8eab0170"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:22.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ints.c"
+   text-time="2008-02-22T08:22:22.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="b7b7c62f7e8c95acbfc8c96d06047209"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:22.000000Z"/>
+</wc-entries>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/kernel/linux/drivers/scsi/aic7xxx_old"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   committed-rev="3"
+   name="aic7xxx_proc.c"
+   text-time="2008-02-22T08:24:25.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="dc705321c363c8c0721f0b43745dd33c"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:25.000000Z"/>
+<entry
+   committed-rev="3"
+   name="sequencer.h"
+   text-time="2008-02-22T08:24:25.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="dee8020074f7c1ea8480965f31a97c6e"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:25.000000Z"/>
+<entry
+   committed-rev="3"
+   name="aic7xxx.h"
+   text-time="2008-02-22T08:24:25.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="de6c5c79c27445212f2be2194812728b"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:25.000000Z"/>
+<entry
+   committed-rev="3"
+   name="aic7xxx.seq"
+   text-time="2008-02-22T08:24:25.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="3774f13dad4c94b1d5f0150fefc49889"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:25.000000Z"/>
+<entry
+   committed-rev="3"
+   name="aic7xxx_seq.c"
+   text-time="2008-02-22T08:24:25.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="9befcb8733394480acd844b48dab14d7"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:25.000000Z"/>
+<entry
+   committed-rev="3"
+   name="aic7xxx.reg"
+   text-time="2008-02-22T08:24:25.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="473e63266ca64bbe3e20b32a554b63b6"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:25.000000Z"/>
+<entry
+   name="CVS"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="scsi_message.h"
+   text-time="2008-02-22T08:24:25.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="2287a6bef62a311ecaa278c047eb8d72"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:25.000000Z"/>
+<entry
+   committed-rev="3"
+   name="aic7xxx_reg.h"
+   text-time="2008-02-22T08:24:25.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="8865bcb5a4e9edbe3481cbf895729eab"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:25.000000Z"/>
+</wc-entries>

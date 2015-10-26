@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/kernel/linux/arch/ppc/8xx_io"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   committed-rev="3"
+   name="Kconfig"
+   text-time="2008-02-22T08:22:22.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="a11d62d66f01f84a802c4b12e8169564"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:22.000000Z"/>
+<entry
+   committed-rev="3"
+   name="commproc.c"
+   text-time="2008-02-22T08:22:22.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="a9e6b56ca5ca0268a13d7401c4594515"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:22.000000Z"/>
+<entry
+   committed-rev="3"
+   name="cs4218_tdm.c"
+   text-time="2008-02-22T08:22:22.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="2dec422ec8c820c4e337cfb8eda91105"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:22.000000Z"/>
+<entry
+   committed-rev="3"
+   name="cs4218.h"
+   text-time="2008-02-22T08:22:22.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="d577211600f932e0f819793e5b7af224"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:22.000000Z"/>
+<entry
+   committed-rev="3"
+   name="micropatch.c"
+   text-time="2008-02-22T08:22:22.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="b0527f7c344f647b0e1bc2b2023953e5"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:22.000000Z"/>
+<entry
+   name="CVS"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="enet.c"
+   text-time="2008-02-22T08:22:22.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="a3ec29197fbab50770dd5ac59302f242"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:22.000000Z"/>
+<entry
+   committed-rev="3"
+   name="uart.c"
+   text-time="2008-02-22T08:22:22.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="9296abbf2077d7b4cf49ba0fb004c41e"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:22.000000Z"/>
+<entry
+   committed-rev="3"
+   name=".cvsignore"
+   text-time="2008-02-22T08:22:22.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="d8b65572e25962faaf07c20bb34d224e"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:22.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Makefile"
+   text-time="2008-02-22T08:22:22.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="c4819416eea8e83d2b4917e52beccbb9"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:22.000000Z"/>
+<entry
+   committed-rev="3"
+   name="fec.c"
+   text-time="2008-02-22T08:22:22.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="5959cb9c97efb37683444a981336efe8"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:22.000000Z"/>
+</wc-entries>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/kernel/linux/Documentation/i386"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   committed-rev="3"
+   name="IO-APIC.txt"
+   text-time="2008-02-22T08:22:00.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="e1e93e272a80292bf0c2bf81d327ca86"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:00.000000Z"/>
+<entry
+   committed-rev="3"
+   name="boot.txt"
+   text-time="2008-02-22T08:22:00.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="68db70cb5818003960afe79ec3d45d39"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:00.000000Z"/>
+<entry
+   committed-rev="3"
+   name="usb-legacy-support.txt"
+   text-time="2008-02-22T08:22:00.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="3175f70749b31dd19f5ad70e54ca6770"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:00.000000Z"/>
+<entry
+   committed-rev="3"
+   name="zero-page.txt"
+   text-time="2008-02-22T08:22:00.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="ef6025e25ab04457f43e357579c18206"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:00.000000Z"/>
+<entry
+   name="CVS"
+   kind="dir"/>
+</wc-entries>

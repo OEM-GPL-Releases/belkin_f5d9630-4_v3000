@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/kernel/linux/kernel/power"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   committed-rev="3"
+   name="process.c"
+   text-time="2008-02-22T08:21:05.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="b7e48df237980af313cfffa7facfa60c"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:04.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Kconfig"
+   text-time="2008-02-22T08:21:05.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="bc7a4c0487e7587e0bb28fa8b3873981"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:04.000000Z"/>
+<entry
+   committed-rev="3"
+   name="smp.c"
+   text-time="2008-02-22T08:21:05.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="cba695d4e7805c14d2c694f57b9c7ece"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:04.000000Z"/>
+<entry
+   committed-rev="3"
+   name="power.h"
+   text-time="2008-02-22T08:21:05.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="0a11e17428db2c5dc600953d93b34d93"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:04.000000Z"/>
+<entry
+   committed-rev="3"
+   name="console.c"
+   text-time="2008-02-22T08:21:05.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="9c34de749021f3bf23e1440bd5663074"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:04.000000Z"/>
+<entry
+   committed-rev="3"
+   name="main.c"
+   text-time="2008-02-22T08:21:05.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="b5977fc59ffbf4e8318da265e71a33a9"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:04.000000Z"/>
+<entry
+   committed-rev="3"
+   name="swsusp.c"
+   text-time="2008-02-22T08:21:05.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="356a003b7e5e7d0ea825a472eb8d49e4"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:04.000000Z"/>
+<entry
+   committed-rev="3"
+   name="pmdisk.c"
+   text-time="2008-02-22T08:21:05.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="78e5432e46bb10d9c9ccf00807e20a7a"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:04.000000Z"/>
+<entry
+   committed-rev="3"
+   name="poweroff.c"
+   text-time="2008-02-22T08:21:05.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="6b7e1a21d4b575375697a576d92e6170"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:04.000000Z"/>
+<entry
+   name="CVS"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="disk.c"
+   text-time="2008-02-22T08:21:05.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="81bf5b9c9096abac6679ae387eb388e9"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:04.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Makefile"
+   text-time="2008-02-22T08:21:05.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="b31c6a416a7c23f272e30447c2d1388b"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:05.000000Z"/>
+<entry
+   committed-rev="3"
+   name="pm.c"
+   text-time="2008-02-22T08:21:05.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="04738c22b7ffa69751256e2ef638631b"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:05.000000Z"/>
+</wc-entries>

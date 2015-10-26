@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/kernel/linux/drivers/usb/input"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   committed-rev="3"
+   name="hid-tmff.c"
+   text-time="2008-02-22T08:24:15.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="5c3da42494a45a8983543335a3bbccfe"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:15.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Kconfig"
+   text-time="2008-02-22T08:24:15.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="d8ed76d3b2071865d87aafccff383e8e"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:15.000000Z"/>
+<entry
+   committed-rev="3"
+   name="hid-input.c"
+   text-time="2008-02-22T08:24:15.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="3db4af12a50e838d310f4a66674055d4"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:15.000000Z"/>
+<entry
+   committed-rev="3"
+   name="usbmouse.c"
+   text-time="2008-02-22T08:24:15.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="54ab16d3fcae719096d3da986a3df80d"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:15.000000Z"/>
+<entry
+   committed-rev="3"
+   name="powermate.c"
+   text-time="2008-02-22T08:24:16.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="a2738e77e646aa47ac0cfea570dff41f"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:15.000000Z"/>
+<entry
+   committed-rev="3"
+   name="hiddev.c"
+   text-time="2008-02-22T08:24:16.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="2cbea25a6c972e34b228d4043be9e82c"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:15.000000Z"/>
+<entry
+   committed-rev="3"
+   name="touchkitusb.c"
+   text-time="2008-02-22T08:24:16.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="1f09b74791061f25a1a6f60f42bae9bd"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:15.000000Z"/>
+<entry
+   committed-rev="3"
+   name="wacom.c"
+   text-time="2008-02-22T08:24:16.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="5a564aabbdd57b66647c58a8de18358b"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:15.000000Z"/>
+<entry
+   committed-rev="3"
+   name="mtouchusb.c"
+   text-time="2008-02-22T08:24:16.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="7b98eb8455f77d53a1facc6afc06d7dd"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:15.000000Z"/>
+<entry
+   committed-rev="3"
+   name="hid.h"
+   text-time="2008-02-22T08:24:16.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="85364fb7648d9876b6cd5d49665ac689"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:15.000000Z"/>
+<entry
+   committed-rev="3"
+   name="usbkbd.c"
+   text-time="2008-02-22T08:24:16.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="ee42b8955b954fa5b651ec94dd99565a"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:15.000000Z"/>
+<entry
+   name="CVS"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="pid.c"
+   text-time="2008-02-22T08:24:16.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="3f543dd636552f0cd28687b68736d48e"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:15.000000Z"/>
+<entry
+   committed-rev="3"
+   name="aiptek.c"
+   text-time="2008-02-22T08:24:16.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="51ce19be2d4e23854d18bf21d9871533"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:15.000000Z"/>
+<entry
+   committed-rev="3"
+   name="hid-lgff.c"
+   text-time="2008-02-22T08:24:16.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="75d77192b0a02d9227c959d8b7bce18b"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:15.000000Z"/>
+<entry
+   committed-rev="3"
+   name="fixp-arith.h"
+   text-time="2008-02-22T08:24:16.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="f7388aceffd731ae6f978ffa73055dfd"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:15.000000Z"/>
+<entry
+   committed-rev="3"
+   name="pid.h"
+   text-time="2008-02-22T08:24:16.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="357bed763833a0eaeeb0f0e85c15568d"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:15.000000Z"/>
+<entry
+   committed-rev="3"
+   name="kbtab.c"
+   text-time="2008-02-22T08:24:16.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="94555217abbcbeec1862eaeb3e865356"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:15.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ati_remote.c"
+   text-time="2008-02-22T08:24:16.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="7c748bf4fc29bc0928415a2968531165"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:15.000000Z"/>
+<entry
+   committed-rev="3"
+   name="hid-core.c"
+   text-time="2008-02-22T08:24:16.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="564f62690aab6ef840643a23e98d5697"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:15.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Makefile"
+   text-time="2008-02-22T08:24:16.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="ab96f81dcb8775c3cc76bf9ce8217210"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:15.000000Z"/>
+<entry
+   committed-rev="3"
+   name=".cvsignore"
+   text-time="2008-02-22T08:24:16.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="735ab631b67b75d07a52edc9e01aed4c"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:15.000000Z"/>
+<entry
+   committed-rev="3"
+   name="xpad.c"
+   text-time="2008-02-22T08:24:16.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="3000bad57d3b792efdb0eacad686e979"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:15.000000Z"/>
+<entry
+   committed-rev="3"
+   name="hid-ff.c"
+   text-time="2008-02-22T08:24:16.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="e57fc452b4563f8ba6ad3a9770e06c4d"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:15.000000Z"/>
+<entry
+   committed-rev="3"
+   name="hid-debug.h"
+   text-time="2008-02-22T08:24:16.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="f0522d8df2adc43287d422223ae38864"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:15.000000Z"/>
+</wc-entries>

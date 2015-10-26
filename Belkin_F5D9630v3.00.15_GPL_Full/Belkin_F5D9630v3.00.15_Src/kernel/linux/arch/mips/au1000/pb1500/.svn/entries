@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/kernel/linux/arch/mips/au1000/pb1500"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   committed-rev="3"
+   name="init.c"
+   text-time="2008-02-22T08:23:02.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="0b5877bdc9bdac26804a5a739fcc705e"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:02.000000Z"/>
+<entry
+   committed-rev="3"
+   name="board_setup.c"
+   text-time="2008-02-22T08:23:02.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="38e330804da66937eb2cb3bcde2f89ea"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:02.000000Z"/>
+<entry
+   committed-rev="3"
+   name="irqmap.c"
+   text-time="2008-02-22T08:23:02.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="d15bbff590a5f4209af29b725862d763"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:02.000000Z"/>
+<entry
+   name="CVS"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="Makefile"
+   text-time="2008-02-22T08:23:02.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="f7a8e000cc3fac6d164eee6f6f455c64"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:02.000000Z"/>
+</wc-entries>

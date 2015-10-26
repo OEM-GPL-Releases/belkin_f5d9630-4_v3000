@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/kernel/linux/include/asm-sh/mpc1211"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   committed-rev="3"
+   name="pci.h"
+   text-time="2008-02-22T08:21:16.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="23a172d7a156a04b2cd92464c9cedd3f"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:16.000000Z"/>
+<entry
+   committed-rev="3"
+   name="m1543c.h"
+   text-time="2008-02-22T08:21:16.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="4828ac7b1f0fc28d0ea5271d28d45ccf"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:16.000000Z"/>
+<entry
+   committed-rev="3"
+   name="keyboard.h"
+   text-time="2008-02-22T08:21:16.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="eabbd8bb695d15d898d12d4d6d6700d6"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:16.000000Z"/>
+<entry
+   committed-rev="3"
+   name="dma.h"
+   text-time="2008-02-22T08:21:16.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="9f7fca6e9ae1b01cf50be018fe84cdae"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:16.000000Z"/>
+<entry
+   committed-rev="3"
+   name="mc146818rtc.h"
+   text-time="2008-02-22T08:21:16.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="c0d72f4c8837e5109f439ade65d387eb"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:16.000000Z"/>
+<entry
+   committed-rev="3"
+   name="mpc1211.h"
+   text-time="2008-02-22T08:21:16.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="84a3ddbac91d784cc429f00c57a5e5cc"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:16.000000Z"/>
+<entry
+   name="CVS"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="io.h"
+   text-time="2008-02-22T08:21:16.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="aec6217fadaee840fa96670ffc78938d"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:16.000000Z"/>
+</wc-entries>

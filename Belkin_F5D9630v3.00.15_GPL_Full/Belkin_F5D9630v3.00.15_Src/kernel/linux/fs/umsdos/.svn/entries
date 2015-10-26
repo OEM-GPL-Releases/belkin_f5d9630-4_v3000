@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/kernel/linux/fs/umsdos"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   committed-rev="3"
+   name="dir.c"
+   text-time="2008-02-22T08:21:53.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="b9ff8d8d852ea9750c2ea91c5e8dd42b"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:53.000000Z"/>
+<entry
+   committed-rev="3"
+   name="inode.c"
+   text-time="2008-02-22T08:21:53.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="fd9c5c99e20ba8a913a32aee032f0348"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:53.000000Z"/>
+<entry
+   committed-rev="3"
+   name="rdir.c"
+   text-time="2008-02-22T08:21:53.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="957b801c5462747240b9b8bf95ae97bb"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:53.000000Z"/>
+<entry
+   committed-rev="3"
+   name="mangle.c"
+   text-time="2008-02-22T08:21:53.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="9c5d79fa46d688eb3a2b2c280c5af367"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:53.000000Z"/>
+<entry
+   committed-rev="3"
+   name="emd.c"
+   text-time="2008-02-22T08:21:53.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="78768432a42fff891a7337991b3bf644"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:53.000000Z"/>
+<entry
+   committed-rev="3"
+   name="README-WIP.txt"
+   text-time="2008-02-22T08:21:53.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="6eef2b838fc25547b47d1cc2b43160b7"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:53.000000Z"/>
+<entry
+   committed-rev="3"
+   name="notes"
+   text-time="2008-02-22T08:21:53.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="280ea404be0182dee26815e5841f5bc9"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:53.000000Z"/>
+<entry
+   committed-rev="3"
+   name="namei.c"
+   text-time="2008-02-22T08:21:53.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="cf1245bb8f102f8ecbbfa4de579b8330"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:53.000000Z"/>
+<entry
+   name="CVS"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="ioctl.c"
+   text-time="2008-02-22T08:21:53.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="397d456f1f02ec566790fce8f791719d"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:53.000000Z"/>
+<entry
+   committed-rev="3"
+   name=".cvsignore"
+   text-time="2008-02-22T08:21:53.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="d8b65572e25962faaf07c20bb34d224e"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:53.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Makefile"
+   text-time="2008-02-22T08:21:53.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="351a012e734f9abd09063c4bf83d4f3f"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:53.000000Z"/>
+<entry
+   committed-rev="3"
+   name="specs"
+   text-time="2008-02-22T08:21:53.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="2c2568f7e0f3c26e906bb2ccb94ef753"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:53.000000Z"/>
+</wc-entries>

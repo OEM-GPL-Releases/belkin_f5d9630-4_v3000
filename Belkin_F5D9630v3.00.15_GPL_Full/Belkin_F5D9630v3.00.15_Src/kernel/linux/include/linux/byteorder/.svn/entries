@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/kernel/linux/include/linux/byteorder"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   committed-rev="3"
+   name="little_endian.h"
+   text-time="2008-02-22T08:21:21.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="245654bd6d12a797312c5dc24cfa35bf"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:21.000000Z"/>
+<entry
+   committed-rev="3"
+   name="generic.h"
+   text-time="2008-02-22T08:21:21.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="00617a934a462f97fecc4cac789295e2"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:21.000000Z"/>
+<entry
+   committed-rev="3"
+   name="swab.h"
+   text-time="2008-02-22T08:21:21.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="e94e8cb538d2d79e994683dce80c3aa1"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:21.000000Z"/>
+<entry
+   committed-rev="3"
+   name="swabb.h"
+   text-time="2008-02-22T08:21:21.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="fd829554cf07b382bc8169aa89e7f1a0"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:21.000000Z"/>
+<entry
+   committed-rev="3"
+   name="big_endian.h"
+   text-time="2008-02-22T08:21:21.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="5fd82589ad2af60e391797b8106ae877"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:21.000000Z"/>
+<entry
+   committed-rev="3"
+   name="pdp_endian.h"
+   text-time="2008-02-22T08:21:21.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="ad4e9586bc36319a1b4a1f6f2a9afae5"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:21.000000Z"/>
+<entry
+   name="CVS"
+   kind="dir"/>
+</wc-entries>

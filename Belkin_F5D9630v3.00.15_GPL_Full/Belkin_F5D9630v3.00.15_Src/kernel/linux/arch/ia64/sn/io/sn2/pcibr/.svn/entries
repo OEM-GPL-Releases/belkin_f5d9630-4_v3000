@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/kernel/linux/arch/ia64/sn/io/sn2/pcibr"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   committed-rev="3"
+   name="pcibr_slot.c"
+   text-time="2008-02-22T08:22:53.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="de2a04b079e33fcdbb0eef53b60829d4"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:53.000000Z"/>
+<entry
+   committed-rev="3"
+   name="pcibr_config.c"
+   text-time="2008-02-22T08:22:53.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="4d5e3f9a9a1200b9554bb65bb5aa0bbe"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:53.000000Z"/>
+<entry
+   committed-rev="3"
+   name="pcibr_hints.c"
+   text-time="2008-02-22T08:22:53.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="7c6fd09bdbcd618369d05986b4242c05"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:53.000000Z"/>
+<entry
+   committed-rev="3"
+   name="pcibr_rrb.c"
+   text-time="2008-02-22T08:22:53.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="9cbd0cb7442ca60652276d11a1cb5a0f"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:53.000000Z"/>
+<entry
+   committed-rev="3"
+   name="pcibr_ate.c"
+   text-time="2008-02-22T08:22:53.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="da374d7d0ad5dc0475739e4e139d7775"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:53.000000Z"/>
+<entry
+   committed-rev="3"
+   name="pcibr_error.c"
+   text-time="2008-02-22T08:22:53.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="83db1214561eaf46bf0de4cb438cace6"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:53.000000Z"/>
+<entry
+   name="CVS"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="pcibr_dvr.c"
+   text-time="2008-02-22T08:22:53.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="fcd96ebfb269c035feb814f9dddb4a2e"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:53.000000Z"/>
+<entry
+   committed-rev="3"
+   name="pcibr_intr.c"
+   text-time="2008-02-22T08:22:53.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="8c1fcff248f12edaa151a51112d27114"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:53.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Makefile"
+   text-time="2008-02-22T08:22:53.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="e0619b331d9d73ea1f0c0b99ea5d28dc"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:53.000000Z"/>
+<entry
+   committed-rev="3"
+   name="pcibr_reg.c"
+   text-time="2008-02-22T08:22:53.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="a655c0d07380f0c9bc6d3a5192fc2547"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:53.000000Z"/>
+</wc-entries>

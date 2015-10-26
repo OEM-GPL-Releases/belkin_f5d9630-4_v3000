@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/kernel/linux/fs/cramfs"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   committed-rev="3"
+   name="inode.c"
+   text-time="2008-02-22T08:21:53.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="6918839ab53419cd0e864f76b8c42839"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:53.000000Z"/>
+<entry
+   committed-rev="3"
+   name="uncompress.c"
+   text-time="2008-02-22T08:21:53.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="6c1dba4e9624dcde8b1b9fade77f9943"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:53.000000Z"/>
+<entry
+   name="inflate"
+   kind="dir"/>
+<entry
+   name="CVS"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name=".cvsignore"
+   text-time="2008-02-22T08:21:53.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="735ab631b67b75d07a52edc9e01aed4c"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:53.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Makefile"
+   text-time="2008-02-22T08:21:53.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="32db9a84f8e9a389a3ca6e8d10a6c425"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:53.000000Z"/>
+<entry
+   committed-rev="3"
+   name="README"
+   text-time="2008-02-22T08:21:53.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="54f3da391203e2efdd9b1d425801f46b"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:21:53.000000Z"/>
+</wc-entries>

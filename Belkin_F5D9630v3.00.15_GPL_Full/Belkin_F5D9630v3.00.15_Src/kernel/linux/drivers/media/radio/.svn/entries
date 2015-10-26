@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/kernel/linux/drivers/media/radio"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   committed-rev="3"
+   name="miropcm20-rds.c"
+   text-time="2008-02-22T08:23:25.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="8826820de7c532ca65260558c9ec54fd"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:25.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Kconfig"
+   text-time="2008-02-22T08:23:25.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="9edfebb9c51935db975433875cb5ff41"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:25.000000Z"/>
+<entry
+   committed-rev="3"
+   name="radio-sf16fmr2.c"
+   text-time="2008-02-22T08:23:25.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="acbcf4be2fbc43feb92a97f295f34b06"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:25.000000Z"/>
+<entry
+   committed-rev="3"
+   name="miropcm20-radio.c"
+   text-time="2008-02-22T08:23:25.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="8cdcd51838a537cc4b2cb4b6841b4dc2"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:25.000000Z"/>
+<entry
+   committed-rev="3"
+   name="radio-aimslab.c"
+   text-time="2008-02-22T08:23:25.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="c35e97f0e31a31317f4e600f651f2120"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:25.000000Z"/>
+<entry
+   committed-rev="3"
+   name="radio-rtrack2.c"
+   text-time="2008-02-22T08:23:25.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="080b66715a15f9f77c6741444dff996c"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:25.000000Z"/>
+<entry
+   committed-rev="3"
+   name="radio-terratec.c"
+   text-time="2008-02-22T08:23:25.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="968c5df03fa87e822ac03a62d608beb5"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:25.000000Z"/>
+<entry
+   committed-rev="3"
+   name="radio-maestro.c"
+   text-time="2008-02-22T08:23:25.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="86bbd11b58796abaae821b2b95586936"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:25.000000Z"/>
+<entry
+   committed-rev="3"
+   name="radio-zoltrix.c"
+   text-time="2008-02-22T08:23:25.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="f3491a5e8e6f99ca9fb2f13ff52a954a"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:25.000000Z"/>
+<entry
+   committed-rev="3"
+   name="radio-sf16fmi.c"
+   text-time="2008-02-22T08:23:25.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="db82fd247b7f5a7978aec0c71227b201"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:25.000000Z"/>
+<entry
+   committed-rev="3"
+   name="radio-gemtek.c"
+   text-time="2008-02-22T08:23:25.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="a2cce34ec6fc402af98ca47904629bb0"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:25.000000Z"/>
+<entry
+   committed-rev="3"
+   name="radio-maxiradio.c"
+   text-time="2008-02-22T08:23:25.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="2d4c1f628619a756751636cb6d3500e0"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:25.000000Z"/>
+<entry
+   committed-rev="3"
+   name="radio-aztech.c"
+   text-time="2008-02-22T08:23:25.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="0bbf820b022863453d49ec1abb3b12dd"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:25.000000Z"/>
+<entry
+   name="CVS"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="radio-cadet.c"
+   text-time="2008-02-22T08:23:25.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="1fa06a63362418af84eca0acc7fbb92a"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:25.000000Z"/>
+<entry
+   committed-rev="3"
+   name="radio-trust.c"
+   text-time="2008-02-22T08:23:25.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="2778b25432bd05403de72821862eda08"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:25.000000Z"/>
+<entry
+   committed-rev="3"
+   name="radio-gemtek-pci.c"
+   text-time="2008-02-22T08:23:25.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="f19cc48351eea6707666006804db9eee"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:25.000000Z"/>
+<entry
+   committed-rev="3"
+   name="miropcm20-rds-core.c"
+   text-time="2008-02-22T08:23:25.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="12a9e791733aeb1e8b219474e571d376"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:25.000000Z"/>
+<entry
+   committed-rev="3"
+   name="miropcm20-rds-core.h"
+   text-time="2008-02-22T08:23:25.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="3f6d498ab123c6005efc90d29120c564"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:25.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Makefile"
+   text-time="2008-02-22T08:23:25.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="a1b4fe255950d3c944b493432d5281f4"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:25.000000Z"/>
+<entry
+   committed-rev="3"
+   name=".cvsignore"
+   text-time="2008-02-22T08:23:25.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="d8b65572e25962faaf07c20bb34d224e"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:25.000000Z"/>
+<entry
+   committed-rev="3"
+   name="radio-typhoon.c"
+   text-time="2008-02-22T08:23:25.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="951570e6e4c84b1b16fb4e6dce097a81"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:25.000000Z"/>
+</wc-entries>

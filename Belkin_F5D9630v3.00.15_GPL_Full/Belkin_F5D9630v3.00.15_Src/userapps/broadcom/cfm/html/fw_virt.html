@@ -1,0 +1,1577 @@
+<html>
+   <head>
+      <meta HTTP-EQUIV='Pragma' CONTENT='no-cache'>
+	  <meta http-equiv="refresh" content="<%ejGet(timeout_refresh)%>">
+         <link rel="stylesheet" href="main_router.css" type='text/css'>
+		 
+		<%ejGet("curLanguage")%>
+		<SCRIPT>assign_var();</SCRIPT>
+		 
+<SCRIPT language=JavaScript src="showMenu.js"></SCRIPT>
+            <script language="javascript" src="util.js"></script>
+            <script language="javascript">
+<!-- hide
+
+strHtml='<title>'+fwm_1+' &gt; '+fwvs_1+'</title>';
+dw(strHtml);
+
+
+var autoup = '<%ejGet(autoUpgrade_flag)%>';
+
+if(autoup == '1')
+{
+	newwin=window.open("checkfw.html","Firmware","toolbar=no,location=no,directories=no,status=no,menubar=no,scrollbars=yes,width=395,height=200,resizable=0");
+	newwin.focus();
+}
+
+var lanip = '<%ejGet(ethIpAddress)%>'.split("."); 
+//var lanip='192.168.2.1'.split(".");
+var pre_ip = lanip[0] + '.' + lanip[1] + '.' + lanip[2] + '.';
+
+
+TOTAL_ROW = 12
+TOTAL_APP = 134
+var usedName = '';
+remain = 20;
+//remain = <%ejGet(glbEntryCt)%>;
+var enblRmtMng = '<%ejGet(enblRmtMng)%>';
+FIRST_APP = "Select One";
+RE_ALL_MSG = 'Require BOTH Inbound/Private port range(Start/End values)';
+
+var entry_used = 0;
+
+	var array0 = new Array(<%ejGet(vs_0)%>);
+	var array1 = new Array(<%ejGet(vs_1)%>);
+	var array2 = new Array(<%ejGet(vs_2)%>);
+	var array3 = new Array(<%ejGet(vs_3)%>);
+	var array4 = new Array(<%ejGet(vs_4)%>);
+	var array5 = new Array(<%ejGet(vs_5)%>);
+	var array6 = new Array(<%ejGet(vs_6)%>);
+	var array7 = new Array(<%ejGet(vs_7)%>);
+	var array8 = new Array(<%ejGet(vs_8)%>);
+	var array9 = new Array(<%ejGet(vs_9)%>);
+	var array10 = new Array(<%ejGet(vs_10)%>);
+	var array11 = new Array(<%ejGet(vs_11)%>);
+	var array12 = new Array(<%ejGet(vs_12)%>);
+	var array13 = new Array(<%ejGet(vs_13)%>);
+	var array14 = new Array(<%ejGet(vs_14)%>);
+	var array15 = new Array(<%ejGet(vs_15)%>);
+	var array16 = new Array(<%ejGet(vs_16)%>);
+	var array17 = new Array(<%ejGet(vs_17)%>);
+	var array18 = new Array(<%ejGet(vs_18)%>);
+	var array19 = new Array(<%ejGet(vs_19)%>);
+
+// Declare an array (TOTAL_APP) of vs applications 
+var v = new Array(TOTAL_APP);
+
+v[0] = new cV("Active Worlds",4);
+v[0].e[0] = new iVe("3000", "3000", "1", "3000", "3000");
+v[0].e[1] = new iVe("5670", "5670", "1", "5670", "5670");
+v[0].e[2] = new iVe("7777", "7777", "1", "7777", "7777");
+v[0].e[3] = new iVe("7000", "7000", "1", "7000", "7000");
+
+v[1] = new cV("Age of Empires",4);
+v[1].e[0] = new iVe("47624", "47624", "1", "47624", "47624");
+v[1].e[1] = new iVe("6073",   "6073", "1", "6073", "6073");
+v[1].e[2] = new iVe("2300",   "2400", "1", "2300", "2400");
+v[1].e[3] = new iVe("2300",   "2400", "2", "2300", "2400");                        
+
+v[2] = new cV("Age of Empires Expansion: The Rise of Rome",4);
+v[2].e[0] = new iVe("47624", "47624", "1", "47624", "47624");
+v[2].e[1] = new iVe("6073", "6073", "1", "6073", "6073");
+v[2].e[2] = new iVe("2300", "2400", "1", "2300", "2400");
+v[2].e[3] = new iVe("2300", "2400", "2", "2300", "2400");   
+
+v[3] = new cV("Age of Empires II Expansion: The Conquerors",4);
+v[3].e[0] = new iVe("47624", "47624", "1", "47624", "47624");
+v[3].e[1] = new iVe("6073", "6073", "1", "6073", "6073");
+v[3].e[2] = new iVe("2300", "2400", "1", "2300", "2400");
+v[3].e[3] = new iVe("2300", "2400", "2", "2300", "2400");
+
+v[4] = new cV("Age of Empires II: The Age of Kings",4);
+v[4].e[0] = new iVe("47624", "47624", "1", "47624", "47624");
+v[4].e[1] = new iVe("6073", "6073", "1", "6073", "6073");
+v[4].e[2] = new iVe("2300", "2400", "1", "2300", "2400");
+v[4].e[3] = new iVe("2300", "2400", "2", "2300", "2400");
+
+v[5] = new cV("Age of Kings",4);
+v[5].e[0] = new iVe("47624", "47624", "1", "47624", "47624");
+v[5].e[1] = new iVe("6073", "6073", "1", "6073", "6073");
+v[5].e[2] = new iVe("2300", "2400", "1", "2300", "2400");
+v[5].e[3] = new iVe("2300", "2400", "2", "2300", "2400");
+
+v[6] = new cV("Age of Wonders",4);
+v[6].e[0] = new iVe("47624", "47624", "1", "47624", "47624");
+v[6].e[1] = new iVe("6073", "6073", "1", "6073", "6073");
+v[6].e[2] = new iVe("2300", "2400", "1", "2300", "2400");
+v[6].e[3] = new iVe("2300", "2400", "2", "2300", "2400");
+
+v[7] = new cV("Aliens vs. Predator",3);
+v[7].e[0] = new iVe("80", "80", "2", "80", "80");
+v[7].e[1] = new iVe("2300", "2400", "2", "2300", "2400");
+v[7].e[2] = new iVe("8000", "8999", "2", "8000", "8999");
+v[7].e[3] = new iVe("2300", "2400", "2", "2300", "2400");
+
+v[8] = new cV("AOL Instant Messenger",1);
+v[8].e[0] = new iVe("443", "443", "1", "443", "443");
+
+v[9] = new cV("Audiogalaxy Satellite",2);
+v[9].e[0] = new iVe("41000", "50000", "1", "41000", "50000");
+v[9].e[1] = new iVe("1117", "5190", "1", "1117", "5190");
+ 
+v[10] = new cV("AUTH",1);
+v[10].e[0] = new iVe("113", "113", "1", "113", "113");
+
+v[11] = new cV("Baldur's Gate",2);
+v[11].e[0] = new iVe("47624", "47624", "1", "47624", "47624");
+v[11].e[1] = new iVe("47624", "47624", "2", "47624", "47624");
+
+v[12] = new cV("BattleCom",4);
+v[12].e[0] = new iVe("47624", "47624", "1", "47624", "47624");
+v[12].e[1] = new iVe("47624", "47624", "2", "47624", "47624");
+v[12].e[2] = new iVe("2300", "2400", "1", "2300", "2400");
+v[12].e[3] = new iVe("2300", "2400", "2", "2300", "2400");
+
+v[13] = new cV("Battlefield Communicator",2);
+v[13].e[0] = new iVe("47624", "47624", "1", "47624", "47624");
+v[13].e[1] = new iVe("47624", "47624", "2", "47624", "47624");
+
+v[14] = new cV("Black and White",4);
+v[14].e[0] = new iVe("2611", "2612", "1", "2611", "2612");
+v[14].e[1] = new iVe("6667", "6667", "1", "6667", "6667");
+v[14].e[2] = new iVe("6500", "6500", "2", "6500", "6500");
+v[14].e[3] = new iVe("27900", "27900", "2", "27900", "27900");
+
+v[15] = new cV("Blizzard Battle.net",3);
+v[15].e[0] = new iVe("4000", "4000", "1", "4000", "4000");
+v[15].e[1] = new iVe("6112", "6112", "1", "6112", "6112");
+v[15].e[2] = new iVe("6112", "6112", "2", "6112", "6112");
+
+v[16] = new cV("Buddy Phone",1);
+v[16].e[0] = new iVe("700", "701", "2", "700", "701");
+
+v[17] = new cV("Bungie.net",1);
+v[17].e[0] = new iVe("3453", "3453", "1", "3453", "3453");
+
+v[18] = new cV("Camerades",2);
+v[18].e[0] = new iVe("2047", "2048", "1", "2047", "2048");
+v[18].e[1] = new iVe("2047", "2048", "2", "2047", "2048");
+
+v[19] = new cV("CART Precision Racing",4);
+v[19].e[0] = new iVe("47624", "47624", "1", "47624", "47624");
+v[19].e[1] = new iVe("6073", "6073", "1", "6073", "6073");
+v[19].e[2] = new iVe("2300", "2400", "1", "2300", "2400");
+v[19].e[3] = new iVe("2300", "2400", "2", "2300", "2400");
+
+v[20] = new cV("Close Combat for Windows",4);
+v[20].e[0] = new iVe("47624", "47624", "1", "47624", "47624");
+v[20].e[1] = new iVe("6073", "6073", "1", "6073", "6073");
+v[20].e[2] = new iVe("2300", "2400", "1", "2300", "2400");
+v[20].e[3] = new iVe("2300", "2400", "2", "2300", "2400");
+
+v[21] = new cV("Close Combat III: The Russian Front",4);
+v[21].e[0] = new iVe("47624", "47624", "1", "47624", "47624");
+v[21].e[1] = new iVe("6073", "6073", "1", "6073", "6073");
+v[21].e[2] = new iVe("2300", "2400", "1", "2300", "2400");
+v[21].e[3] = new iVe("2300", "2400", "2", "2300", "2400");
+
+v[22] = new cV("Close Combat: A Bridge Too Far",4);
+v[22].e[0] = new iVe("47624", "47624", "1", "47624", "47624");
+v[22].e[1] = new iVe("6073", "6073", "1", "6073", "6073");
+v[22].e[2] = new iVe("2300", "2400", "1", "2300", "2400");
+v[22].e[3] = new iVe("2300", "2400", "2", "2300", "2400");
+
+v[23] = new cV("Combat Flight Simulator 2: WWII Pacific Theater",4);
+v[23].e[0] = new iVe("47624", "47624", "1", "47624", "47624");
+v[23].e[1] = new iVe("6073", "6073", "1", "6073", "6073");
+v[23].e[2] = new iVe("2300", "2400", "1", "2300", "2400");
+v[23].e[3] = new iVe("2300", "2400", "2", "2300", "2400");
+
+v[24] = new cV("Combat Flight Simulator: WWII Europe Series",4);
+v[24].e[0] = new iVe("47624", "47624", "1", "47624", "47624");
+v[24].e[1] = new iVe("6073", "6073", "1", "6073", "6073");
+v[24].e[2] = new iVe("2300", "2400", "1", "2300", "2400");
+v[24].e[3] = new iVe("2300", "2400", "2", "2300", "2400");
+
+v[25] = new cV("Crimson Skies",4);
+v[25].e[0] = new iVe("28805", "28805", "1", "28805", "28805");
+v[25].e[1] = new iVe("28801", "28801", "1", "28801", "28801");
+v[25].e[2] = new iVe("3040", "3040", "1", "3040", "3040");
+v[25].e[3] = new iVe("1121", "1121", "1", "1121", "1121");
+
+v[26] = new cV("CuSeeMe",12);
+v[26].e[0] = new iVe("24032", "24032", "2", "24032", "24032"); 
+v[26].e[1] = new iVe("1414", "1414", "2", "1414", "1414");
+v[26].e[2] = new iVe("1424", "1424", "2", "1424", "1424");
+v[26].e[3] = new iVe("1503", "1503", "1", "1503", "1503");
+v[26].e[4] = new iVe("1720", "1720", "1", "1720", "1720");
+v[26].e[5] = new iVe("1812", "1813", "2", "1812", "1813"); 
+v[26].e[6] = new iVe("7640", "7640", "2", "7640", "7640"); 
+v[26].e[7] = new iVe("7642", "7642", "1", "7642", "7642");
+v[26].e[8] = new iVe("7648", "7648", "1", "7648", "7648");
+v[26].e[9] = new iVe("7648", "7648", "2", "7648", "7648");
+v[26].e[10] = new iVe("7649", "7649", "1", "7649", "7649");
+v[26].e[11] = new iVe("56800", "56800", "2", "56800", "56800");
+
+v[27] = new cV("Dark Reign 2",2);
+v[27].e[0] = new iVe("26214", "26214", "1", "26214", "26214");
+v[27].e[1] = new iVe("26214", "26214", "2", "26214", "26214"); 
+
+v[28] = new cV("Delta Force 2",1);
+v[28].e[0] = new iVe("3568", "3569", "2", "3568", "3569");
+
+v[29] = new cV("Delta Three PC to Phone",6);
+v[29].e[0] = new iVe("12053", "12053", "1", "12053", "12053");
+v[29].e[1] = new iVe("12083", "12083", "1", "12083", "12083");
+v[29].e[2] = new iVe("12080", "12080", "2", "12080", "12080");
+v[29].e[3] = new iVe("12120", "12120", "2", "12120", "12120"); 
+v[29].e[4] = new iVe("12122", "12122", "2", "12122", "12122");
+v[29].e[5] = new iVe("24150", "24179", "2", "24150", "24179");
+
+v[30] = new cV("Descent 3",3);
+v[30].e[0] = new iVe("7170", "7170", "1", "7170", "7170");
+v[30].e[1] = new iVe("2092", "2092", "2", "2092", "2092");
+v[30].e[2] = new iVe("3445", "3445", "2", "3445", "3445");
+
+v[31] = new cV("Descent Freespace",5);
+v[31].e[0] = new iVe("3999", "3999", "1", "3999", "3999");
+v[31].e[1] = new iVe("4000", "4000", "2", "4000", "4000");
+v[31].e[2] = new iVe("7000", "7000", "2", "7000", "7000");
+v[31].e[3] = new iVe("3493", "3493", "2", "3493", "3493"); 
+v[31].e[4] = new iVe("3440", "3440", "2", "3440", "3440");
+
+v[32] = new cV("Diablo I",2);
+v[32].e[0] = new iVe("6112", "6112", "1", "6112", "6112");
+v[32].e[1] = new iVe("6112", "6112", "2", "6112", "6112");
+
+v[33] = new cV("Diablo II",2);
+v[33].e[0] = new iVe("4000", "4000", "1", "4000", "4000");
+v[33].e[1] = new iVe("6112", "6119", "2", "6112", "6119");
+
+v[34] = new cV("DialPad.Com",5);
+v[34].e[0] = new iVe("51200", "51201", "2", "51200", "51201");
+v[34].e[1] = new iVe("7175", "7175", "1", "7175", "7175");
+v[34].e[2] = new iVe("51210", "51210", "1", "51210", "51210");
+v[34].e[3] = new iVe("8680", "8686", "1", "8680", "8686"); 
+v[34].e[4] = new iVe("1584", "1585", "1", "1584", "1585");
+
+v[35] = new cV("DirectX 7 Games",3);
+v[35].e[0] = new iVe("47624", "47624", "1", "47624", "47624");
+v[35].e[1] = new iVe("2300", "2400", "1", "2300", "2400");
+v[35].e[2] = new iVe("2300", "2400", "2", "2300", "2400");
+
+v[36] = new cV("DirectX 8 Games",2);
+v[36].e[0] = new iVe("6073", "6073", "1", "6073", "6073");
+v[36].e[1] = new iVe("2300", "2400", "2", "2300", "2400");
+
+v[37] = new cV("Domain Name Server (DNS)",2);
+v[37].e[0] = new iVe("53", "53", "1", "53", "53");
+v[37].e[1] = new iVe("53", "53", "2", "53", "53");
+
+v[38] = new cV("Doom",2);
+v[38].e[0] = new iVe("666", "666", "1", "666", "666");
+v[38].e[1] = new iVe("666", "666", "2", "666", "666");
+
+v[39] = new cV("Dune 2000",2);
+v[39].e[0] = new iVe("4000", "4000", "1", "4000", "4000");
+v[39].e[1] = new iVe("1140", "1234", "2", "1140", "1234");
+
+v[40] = new cV("Dwyco Video Conferencing",4);
+v[40].e[0] = new iVe("12000", "16090", "2", "12000", "16090");
+v[40].e[1] = new iVe("1024", "5000", "1", "1024", "5000");
+v[40].e[2] = new iVe("6700", "6702", "1", "6700", "6702");
+v[40].e[3] = new iVe("6880", "6880", "1", "6880", "6880");
+
+v[41] = new cV("Elite Force",4);
+v[41].e[0] = new iVe("26000", "26000", "2", "26000", "26000");
+v[41].e[1] = new iVe("27500", "27500", "2", "27500", "27500");
+v[41].e[2] = new iVe("27910", "27910", "2", "27910", "27910");
+v[41].e[3] = new iVe("27960", "27960", "2", "27960", "27960");
+
+v[42] = new cV("Everquest",3);
+v[42].e[0] = new iVe("1024", "6000", "1", "1024", "6000");
+v[42].e[1] = new iVe("1024", "6000", "2", "1024", "6000");
+v[42].e[2] = new iVe("6001", "7000", "1", "6001", "7000");
+
+v[43] = new cV("F-16",1);
+v[43].e[0] = new iVe("3862", "3863", "2", "3862", "3863");
+
+v[44] = new cV("F-22 Lightning 3",3);
+v[44].e[0] = new iVe("3875", "3875", "2", "3875", "3875");
+v[44].e[1] = new iVe("4533", "4534", "2", "4533", "4534");
+v[44].e[2] = new iVe("4660", "4670", "2", "4660", "4670");
+
+v[45] = new cV("F-22 Raptor",1);
+v[45].e[0] = new iVe("3874", "3875", "2", "3874", "3875");
+
+v[46] = new cV("F22 Raptor (Novalogic)",1);
+v[46].e[0] = new iVe("3874", "3874", "2", "3874", "3874");
+
+v[47] = new cV("Falcon 4.0",1);
+v[47].e[0] = new iVe("2934", "2935", "2", "2934", "2935");
+
+v[48] = new cV("Fighter Ace II",6);
+v[48].e[0] = new iVe("50000", "50100", "1", "50000", "50100");
+v[48].e[1] = new iVe("50000", "50100", "2", "50000", "50100");
+v[48].e[2] = new iVe("47624", "47624", "1", "47624", "47624");
+v[48].e[3] = new iVe("6073", "6073", "1", "6073", "6073");
+v[48].e[4] = new iVe("2300", "2400", "1", "2300", "2400");
+v[48].e[5] = new iVe("2300", "2400", "2", "2300", "2400");
+
+v[49] = new cV("Flight Simulator 2000",4);
+v[49].e[0] = new iVe("47624", "47624", "1", "47624", "47624");
+v[49].e[1] = new iVe("6073", "6073", "1", "6073", "6073");
+v[49].e[2] = new iVe("2300", "2400", "1", "2300", "2400");
+v[49].e[3] = new iVe("2300", "2400", "2", "2300", "2400");
+
+v[50] = new cV("Freetel",1);
+v[50].e[0] = new iVe("21300", "21303", "2", "21300", "21303");
+
+v[51] = new cV("FTP Server",1);
+v[51].e[0] = new iVe("21", "21", "1", "21", "21");
+
+v[52] = new cV("GNUtella",2);
+v[52].e[0] = new iVe("6346", "6347", "1", "6346", "6347");
+v[52].e[1] = new iVe("6346", "6347", "2", "6346", "6347");
+
+v[53] = new cV("Golf 2001 Edition",4);
+v[53].e[0] = new iVe("47624", "47624", "1", "47624", "47624");
+v[53].e[1] = new iVe("6073", "6073", "1", "6073", "6073");
+v[53].e[2] = new iVe("2300", "2400", "1", "2300", "2400");
+v[53].e[3] = new iVe("2300", "2400", "2", "2300", "2400");
+
+v[54] = new cV("Go2Call",2);
+v[54].e[0] = new iVe("2090", "2091", "2", "2090", "2091");
+v[54].e[1] = new iVe("2090", "2090", "1", "2090", "2090");
+
+v[55] = new cV("Half Life",6);
+v[55].e[0] = new iVe("6003", "6003", "1", "6003", "6003");
+v[55].e[1] = new iVe("6003", "6003", "2", "6003", "6003");
+v[55].e[2] = new iVe("7001", "7001", "1", "7001", "7001");
+v[55].e[3] = new iVe("7001", "7001", "2", "7001", "7001");
+v[55].e[4] = new iVe("27005", "27005", "2", "27005", "27005");
+v[55].e[5] = new iVe("27010", "27015", "2", "27010", "27015");
+
+v[56] = new cV("Half Life Server",1);
+v[56].e[0] = new iVe("27015", "27015", "2", "27015", "27015");
+
+v[57] = new cV("Heretic II Server",2);
+v[57].e[0] = new iVe("28910", "28910", "1", "28910", "28910");
+v[57].e[1] = new iVe("28910", "28910", "2", "28910", "28910");
+
+v[58] = new cV("I76",1);
+v[58].e[0] = new iVe("21154", "21156", "2", "21154", "21156");
+        
+v[59] = new cV("ICUII Client",6);
+v[59].e[0] = new iVe("2019", "2019", "1", "2019", "2019"); 
+v[59].e[1] = new iVe("2000", "2038", "1", "2000", "2038");
+v[59].e[2] = new iVe("2050", "2051", "1", "2050", "2051");
+v[59].e[3] = new iVe("2069", "2069", "1", "2069", "2069");
+v[59].e[4] = new iVe("2085", "2085", "1", "2085", "2085");
+v[59].e[5] = new iVe("3010", "3030", "1", "3010", "3030");  
+        
+v[60] = new cV("IPSEC",1); 
+v[60].e[0] = new iVe("500", "500", "2", "500", "500"); 
+       
+v[61] = new cV("Ivisit",2);
+v[61].e[0] = new iVe("9943", "9943", "2", "9943", "9943");
+v[61].e[1] = new iVe("56768", "56768", "2", "56768", "56768");
+
+v[62] = new cV("IRC",3);
+v[62].e[0] = new iVe("1024", "5000", "1", "1024", "5000");
+v[62].e[1] = new iVe("6660", "6669", "1", "6660", "6669");
+v[62].e[2] = new iVe("113", "113", "2", "113", "113");
+
+v[63] = new cV("IStreamVideo2HP",2);
+v[63].e[0] = new iVe("8076", "8077", "1", "8076", "8077");
+v[63].e[1] = new iVe("8076", "8077", "2", "8076", "8077");
+
+v[64] = new cV("KaZaA",1);
+v[64].e[0] = new iVe("1024", "1024", "1", "1024", "1024");
+
+v[65] = new cV("Kohan Immortal Sovereigns",4);
+v[65].e[0] = new iVe("3855", "3855", "1", "3855", "3855");
+v[65].e[1] = new iVe("3855", "3855", "2", "3855", "3855");
+v[65].e[2] = new iVe("17437", "17437", "1", "17437", "113");
+v[65].e[3] = new iVe("17437", "17437", "2", "17437", "113");
+
+v[66] = new cV("LapLink Gold",1);
+v[66].e[0] = new iVe("1547", "1547", "1", "1547", "1547");
+
+v[67] = new cV("Links 2001",4);
+v[67].e[0] = new iVe("47624", "47624", "1", "47624", "47624");
+v[67].e[1] = new iVe("6073", "6073", "1", "6073", "6073");
+v[67].e[2] = new iVe("2300", "2400", "1", "2300", "2400");
+v[67].e[3] = new iVe("2300", "2400", "2", "2300", "2400");
+
+v[68] = new cV("Lotus Notes Server",1);
+v[68].e[0] = new iVe("1352", "1352", "1", "1352", "1352");
+
+v[69] = new cV("Mail (POP3)",1);
+v[69].e[0] = new iVe("110", "110", "1", "110", "110");
+
+v[70] = new cV("Mail (SMTP)",1);
+v[70].e[0] = new iVe("25", "25", "1", "25", "25");
+
+v[71] = new cV("MechCommander 2.0",4);
+v[71].e[0] = new iVe("47624", "47624", "1", "47624", "47624");
+v[71].e[1] = new iVe("6073", "6073", "1", "6073", "6073");
+v[71].e[2] = new iVe("2300", "2400", "1", "2300", "2400");
+v[71].e[3] = new iVe("2300", "2400", "2", "2300", "2400");
+
+v[72] = new cV("MechWarrior 4",4);
+v[72].e[0] = new iVe("47624", "47624", "1", "47624", "47624");
+v[72].e[1] = new iVe("6073", "6073", "1", "6073", "6073");
+v[72].e[2] = new iVe("2300", "2400", "1", "2300", "2400");
+v[72].e[3] = new iVe("2300", "2400", "2", "2300", "2400");
+
+v[73] = new cV("Media Player 7",2);
+v[73].e[0] = new iVe("1755", "1755", "1", "1755", "1755");
+v[73].e[1] = new iVe("70", "7000", "2", "70", "7000");
+
+v[74] = new cV("Midtown Madness 2",4);
+v[74].e[0] = new iVe("47624", "47624", "1", "47624", "47624");
+v[74].e[1] = new iVe("6073", "6073", "1", "6073", "6073");
+v[74].e[2] = new iVe("2300", "2400", "1", "2300", "2400");
+v[74].e[3] = new iVe("2300", "2400", "2", "2300", "2400");
+
+v[75] = new cV("Mig 29",1);
+v[75].e[0] = new iVe("3862", "3863", "2", "3862", "3863");
+
+v[76] = new cV("Monster Truck Madness 2",4);
+v[76].e[0] = new iVe("47624", "47624", "1", "47624", "47624");
+v[76].e[1] = new iVe("6073", "6073", "1", "6073", "6073");
+v[76].e[2] = new iVe("2300", "2400", "1", "2300", "2400");
+v[76].e[3] = new iVe("2300", "2400", "2", "2300", "2400");
+
+v[77] = new cV("Motocross Madness 2",4);   
+v[77].e[0] = new iVe("47624", "47624", "1", "47624", "47624");
+v[77].e[1] = new iVe("6073", "6073", "1", "6073", "6073");
+v[77].e[2] = new iVe("2300", "2400", "1", "2300", "2400");
+v[77].e[3] = new iVe("2300", "2400", "2", "2300", "2400");
+
+v[78] = new cV("Motorhead Server",2);   
+v[78].e[0] = new iVe("16000", "16000", "1", "16000", "16000");
+v[78].e[1] = new iVe("16000", "16000", "2", "16000", "16000");
+
+v[79] = new cV("MSN Gaming Zone",6);
+v[79].e[0] = new iVe("6667", "6667", "1", "6667", "6667");
+v[79].e[1] = new iVe("28800", "29000", "1", "28800", "29000");
+v[79].e[2] = new iVe("47624", "47624", "1", "47624", "47624");
+v[79].e[3] = new iVe("6073", "6073", "1", "6073", "6073");
+v[79].e[4] = new iVe("2300", "2400", "1", "2300", "2400");
+v[79].e[5] = new iVe("2300", "2400", "2", "2300", "2400");
+
+v[80] = new cV("MSN Messenger",5);
+v[80].e[0] = new iVe("6891", "6901", "1", "6891", "6901");
+v[80].e[1] = new iVe("1863", "1963", "1", "1863", "1963");
+v[80].e[2] = new iVe("1863", "1863", "2", "1863", "1863");
+v[80].e[3] = new iVe("5190", "5190", "2", "5190", "5190");
+v[80].e[4] = new iVe("6901", "6901", "2", "6901", "6901");
+
+v[81] = new cV("Myth",1);
+v[81].e[0] = new iVe("3453", "3453", "1", "3453", "3453");
+
+v[82] = new cV("Myth II Server",1);
+v[82].e[0] = new iVe("3453", "3453", "1", "3453", "3453"); 
+
+v[83] = new cV("Myth: The Fallen Lords",1);
+v[83].e[0] = new iVe("3453", "3453", "1", "3453", "3453");
+
+v[84] = new cV("Need for Speed",2);
+v[84].e[0] = new iVe("9442", "9442", "1", "9442", "9442"); 
+v[84].e[1] = new iVe("6112", "6112", "2", "6112", "6112"); 
+
+v[85] = new cV("NetMech",1);
+v[85].e[0] = new iVe("21154", "21156", "2", "21154", "21156"); 
+
+v[86] = new cV("Netmeeting 2.0, 3.0, Intel Video Phone",6);
+v[86].e[0] = new iVe("1024", "65534", "2", "1024", "65534"); 
+v[86].e[1] = new iVe("1024", "1502", "1", "1024", "1502");
+v[86].e[2] = new iVe("1504", "1730", "1", "1504", "1730");
+v[86].e[3] = new iVe("1732", "65534", "1", "1732", "65534");
+v[86].e[4] = new iVe("1503", "1503", "1", "1503", "1503");
+v[86].e[5] = new iVe("1731", "1731", "1", "1731", "1731"); 
+
+v[87] = new cV("Network Time Protocol (NTP)",1);
+v[87].e[0] = new iVe("123", "123", "2", "123", "123"); 
+
+v[88] = new cV("News Server (NNTP)",1);
+v[88].e[0] = new iVe("119", "119", "1", "119", "119");
+
+v[89] = new cV("OKWeb",3);
+v[89].e[0] = new iVe("80", "80", "1", "80", "80"); 
+v[89].e[1] = new iVe("443", "443", "1", "443", "443");
+v[89].e[2] = new iVe("5210", "5220", "1", "5210", "5220");
+
+v[90] = new cV("OKWin",3);
+v[90].e[0] = new iVe("1729", "1729", "1", "1729", "1729"); 
+v[90].e[1] = new iVe("1909", "1909", "1", "1909", "1909");
+v[90].e[2] = new iVe("80", "80", "1", "80", "80");
+
+v[91] = new cV("Outlaws",2);
+v[91].e[0] = new iVe("5310", "5310", "1", "5310", "5310"); 
+v[91].e[1] = new iVe("5310", "5310", "2", "5310", "5310");
+
+v[92] = new cV("Pal Talk",5);
+v[92].e[0] = new iVe("2090", "2090", "2", "2090", "2090"); 
+v[92].e[1] = new iVe("2091", "2091", "2", "2091", "2091");
+v[92].e[2] = new iVe("2090", "2090", "1", "2090", "2090");
+v[92].e[3] = new iVe("2091", "2091", "1", "2091", "2091");
+v[92].e[4] = new iVe("2095", "2095", "1", "2095", "2095");
+
+v[93] = new cV("pcAnywhere v7.5",2);
+v[93].e[0] = new iVe("5631", "5631", "1", "5631", "5631"); 
+v[93].e[1] = new iVe("5631", "5631", "2", "5631", "5631");
+
+v[94] = new cV("PhoneFree",5);
+v[94].e[0] = new iVe("1034", "1035", "1", "1034", "1035"); 
+v[94].e[1] = new iVe("1034", "1035", "2", "1034", "1035"); 
+v[94].e[2] = new iVe("9900", "9901", "2", "9900", "9901"); 
+v[94].e[3] = new iVe("2644", "2644", "1", "2644", "2644");
+v[94].e[4] = new iVe("8000", "8000", "1", "8000", "8000");
+
+v[95] = new cV("Polycom ViaVideo H.323",1);
+v[95].e[0] = new iVe("3230", "3235", "1", "3230", "3235");
+
+v[96] = new cV("Polycom ViaVideo H.324",1);
+v[96].e[0] = new iVe("3230", "3235", "2", "3230", "3235");
+      
+v[97] = new cV("PPTP",1);
+v[97].e[0] = new iVe("1723", "1723", "1", "1723", "1723");
+            
+v[98] = new cV("Quake",2);
+v[98].e[0] = new iVe("26000", "26000", "1", "26000", "26000");
+v[98].e[1] = new iVe("26000", "26000", "2", "26000", "26000");
+
+v[99] = new cV("Quake II (Client/Server)",1);
+v[99].e[0] = new iVe("27910", "27910", "2", "27910", "27910");
+
+v[100] = new cV("Quake III",1);
+v[100].e[0] = new iVe("27660", "27680", "2", "27660", "27680");
+
+v[101] = new cV("Red Alert",1);
+v[101].e[0] = new iVe("5009", "5009", "2", "5009", "5009");
+
+v[102] = new cV("RealAudio",1);
+v[102].e[0] = new iVe("6790", "32000", "2", "6790", "32000");
+
+v[103] = new cV("Real Player 8 Plus",1);
+v[103].e[0] = new iVe("7070", "7070", "2", "7070", "7070");
+
+v[104] = new cV("Rise of Rome",2);
+v[104].e[0] = new iVe("47624", "47624", "1", "47624", "47624");
+v[104].e[1] = new iVe("47624", "47624", "2", "47624", "47624");
+
+v[105] = new cV("Roger Wilco",2);
+v[105].e[0] = new iVe("3782", "3782", "1", "3782", "3782");
+v[105].e[1] = new iVe("3782", "3783", "2", "3782", "3783"); 
+
+v[106] = new cV("Rogue Spear",1);
+v[106].e[0] = new iVe("2346", "2346", "1", "2346", "2346"); 
+
+v[107] = new cV("Secure Shell Server (SSH)",1);
+v[107].e[0] = new iVe("22", "22", "1", "22", "22");
+
+v[108] = new cV("Secure Web Server (HTTPS)",1);
+v[108].e[0] = new iVe("443", "443", "1", "443", "443");
+
+v[109] = new cV("ShoutCast",1);
+v[109].e[0] = new iVe("8000", "8005", "1", "8000", "8005");
+
+v[110] = new cV("SNMP",1);
+v[110].e[0] = new iVe("161", "161", "2", "161", "161");
+
+v[111] = new cV("SNMP Trap",1);
+v[111].e[0] = new iVe("162", "162", "2", "162", "162");
+
+v[112] = new cV("Speak Freely",1);
+v[112].e[0] = new iVe("2074", "2076", "2", "2074", "2076");
+
+v[113] = new cV("StarCraft",1);
+v[113].e[0] = new iVe("6112", "6112", "2", "6112", "6112"); 
+
+v[114] = new cV("Starfleet Command",4);   
+v[114].e[0] = new iVe("47624", "47624", "1", "47624", "47624");
+v[114].e[1] = new iVe("6073", "6073", "1", "6073", "6073");
+v[114].e[2] = new iVe("2300", "2400", "1", "2300", "2400");
+v[114].e[3] = new iVe("2300", "2400", "2", "2300", "2400");
+
+v[115] = new cV("StarLancer",4);   
+v[115].e[0] = new iVe("47624", "47624", "1", "47624", "47624");
+v[115].e[1] = new iVe("6073", "6073", "1", "6073", "6073");
+v[115].e[2] = new iVe("2300", "2400", "1", "2300", "2400");
+v[115].e[3] = new iVe("2300", "2400", "2", "2300", "2400");
+
+v[116] = new cV("SWAT3",2);   
+v[116].e[0] = new iVe("16639", "16639", "1", "16639", "16639");
+v[116].e[1] = new iVe("16638", "16638", "2", "16638", "16638");
+
+v[117] = new cV("Telnet Server",1);   
+v[117].e[0] = new iVe("23", "23", "1", "23", "23");
+        
+v[118] = new cV("TFTP",1);   
+v[118].e[0] = new iVe("69", "69", "2", "69", "69");
+        
+v[119] = new cV("The 4th Coming",2);   
+v[119].e[0] = new iVe("11677", "11677", "2", "11677", "11677");
+v[119].e[1] = new iVe("11679", "11679", "2", "11679", "11679");
+
+v[120] = new cV("Tiberian Sun: C&C III",1);   
+v[120].e[0] = new iVe("1234", "1234", "2", "1234", "1234");
+
+v[121] = new cV("Total Annihilation",1);   
+v[121].e[0] = new iVe("47624", "47624", "2", "47624", "47624"); 
+
+v[122] = new cV("Ultima",5);
+v[122].e[0] = new iVe("5001", "5010", "1", "5001", "5010"); 
+v[122].e[1] = new iVe("7775", "7777", "1", "7775", "7777"); 
+v[122].e[2] = new iVe("8800", "8900", "1", "8800", "8900"); 
+v[122].e[3] = new iVe("9999", "9999", "1", "9999", "9999");
+v[122].e[4] = new iVe("7875", "7875", "1", "7875", "7875"); 
+
+v[123] = new cV("Unreal Tournament",3);
+v[123].e[0] = new iVe("7777", "7790", "2", "7777", "7790"); 
+v[123].e[1] = new iVe("27900", "27900", "2", "27900", "27900"); 
+v[123].e[2] = new iVe("8080", "8080", "1", "8080", "8080");
+
+v[124] = new cV("Urban Assault",4);
+v[124].e[0] = new iVe("47624", "47624", "1", "47624", "47624"); 
+v[124].e[1] = new iVe("6073", "6073", "1", "6073", "6073"); 
+v[124].e[2] = new iVe("2300", "2400", "1", "2300", "2400"); 
+v[124].e[3] = new iVe("2300", "2400", "2", "2300", "2400");
+
+v[125] = new cV("VoxPhone 3.0",2);
+v[125].e[0] = new iVe("12380", "12380", "1", "12380", "12380"); 
+v[125].e[1] = new iVe("12380", "12380", "2", "12380", "12380"); 
+
+v[126] = new cV("Warbirds 2",1);
+v[126].e[0] = new iVe("912", "912", "1", "912", "912");
+
+v[127] = new cV("Web Server (HTTP)",1);
+v[127].e[0] = new iVe("80", "80", "1", "80", "80");
+
+v[128] = new cV("WebPhone 3.0",1);
+v[128].e[0] = new iVe("21845", "21845", "1", "21845", "21845");
+
+v[129] = new cV("Westwood Online",3);
+v[129].e[0] = new iVe("4000", "4000", "2", "4000", "4000"); 
+v[129].e[1] = new iVe("1140", "1234", "1", "1140", "1234");
+v[129].e[2] = new iVe("1140", "1234", "2", "1140", "1234");
+
+v[130] = new cV("Windows 2000 Terminal Server",2);
+v[130].e[0] = new iVe("3389", "3389", "1", "3389", "3389"); 
+v[130].e[1] = new iVe("3389", "3389", "2", "3389", "3389");
+
+v[131] = new cV("X Windows",2);
+v[131].e[0] = new iVe("6000", "6000", "1", "6000", "6000"); 
+v[131].e[1] = new iVe("6000", "6000", "2", "6000", "6000");
+
+v[132] = new cV("Yahoo Pager",1);
+v[132].e[0] = new iVe("5050", "5050", "1", "5050", "5050");
+
+v[133] = new cV("Yahoo Messenger Chat",2);
+v[133].e[0] = new iVe("5000", "5001", "1", "5000", "5001"); 
+v[133].e[1] = new iVe("5055", "5055", "2", "5055", "5055");
+
+function cV(name, entryNum)
+{   
+   this.name = name;
+   this.eNum = entryNum;
+   this.e = new Array(5);
+}
+   
+function iVe(eStart, eEnd, proto, iStart, iEnd)
+{
+   this.eStart = eStart;
+   this.eEnd = eEnd;
+   this.proto = proto;
+   this.iStart = iStart;
+   this.iEnd = iEnd;
+}
+
+function clearAll()
+{
+   with (document.vsFrm) {
+      for (i = 0; i < TOTAL_ROW; i++) {
+         eval("vs_2_"+i+".value = vs_3_"+i+".value = vs_6_"+i+".value = vs_7_"+i+".value = ''");
+         eval("vs_4_"+i+".value = 1");
+      }
+   }
+}
+
+function AppAdd() 
+{
+	var name;
+
+
+   with (document.vsFrm) 
+   {   
+   
+   	  name = srvName[srvName.selectedIndex].value;
+   
+      if (name == FIRST_APP) 
+	  {
+         usedName = '';
+         return;
+      }
+      
+	  for(i = 0; i < TOTAL_APP; i++) 
+	  { 
+    	   if(v[i].name == name) 
+		   {
+            var entryNum = v[i].eNum;
+            usedName = name;
+			
+    	    	for (j = 0; j < entryNum; j++) 
+				{
+					if(entry_used == remain)
+					{
+						alert(fwvs_137);
+						return;
+            }
+				    else
+					{
+					   eval("vs_1_"+entry_used+".value = v[i].name");
+					   eval("vs_0_"+entry_used+".checked = true");
+					   eval("vs_2_"+entry_used+".value = v[i].e[j].eStart");
+					   eval("vs_3_"+entry_used+".value = v[i].e[j].eEnd");
+					   eval("vs_6_"+entry_used+".value = v[i].e[j].iStart");
+					   eval("vs_7_"+entry_used+".value = v[i].e[j].iEnd");
+					   eval("vs_4_"+entry_used+".value = v[i].e[j].proto");
+					   entry_used++;	
+				    }
+            	}
+            
+            break;
+         }
+      }
+   }
+}
+
+function btnApply() 
+{
+   	var loc = 'scvrtsrv.cmd?';
+   	var k;
+
+	var exStart, exEnd, inStart, inEnd, type;
+	var exStart_j, exEnd_j;
+	var i=0;
+	var lan_ipaddr ='192.168.2.1';
+	var tmp = lan_ipaddr.split(".");
+	var lan_ipaddr_prefix = tmp[0] + "." + tmp[1] + "." + tmp[2] + ".";
+	var tmp_ipaddr4;
+	var ip_addr;
+   
+  
+   	with (document.vsFrm) 
+   	{
+		for(k=0;k<20;k++)
+		{
+			if(!(isBlank(eval("vs_5_"+k+".value"))) || 
+			   !(isBlank(eval("vs_1_"+k+".value"))) || 
+			   !(isBlank(eval("vs_2_"+k+".value"))) || 
+			   !(isBlank(eval("vs_3_"+k+".value"))) ||
+			   !(isBlank(eval("vs_6_"+k+".value"))) ||
+			   !(isBlank(eval("vs_7_"+k+".value"))) )
+			{
+				if (isNValidIP(eval("vs_5_"+k+".value")))
+				{ 
+					alert("Either you have not entered all of the ip addresses \n or some of the numbers you entered are invalid. \n The number in ip address entry box should be between 1 - 254."); 
+            		return;
+         		}
+			
+				if (isNValidPort(eval("vs_6_"+k+".value")) || isNValidPort(eval("vs_2_"+k+".value")))
+				{ 
+					alert("The port numbers you entered are invalid."); 
+					return; 
+      			}
+			
+				if (isNValidPort(eval("vs_7_"+k+".value")) || isNValidPort(eval("vs_3_"+k+".value")))
+				{ 
+					alert("The port numbers you entered are invalid."); 
+            		return;
+         		}
+				
+			    if ((parseInt(eval("vs_2_"+k+".value")) > parseInt(eval("vs_3_"+k+".value")))) 
+				{ 
+					alert("The Inbound port range is not correct."); 
+					return; 
+      			}
+      
+				if ( parseInt(eval("vs_6_"+k+".value")) > parseInt(eval("vs_7_"+k+".value")) ) 
+				{ 
+					alert("The Private port range is not correct.");
+         			return;
+      			}  
+
+				var PortNo_1 =  parseInt(eval("vs_3_"+k+".value")) - parseInt(eval("vs_2_"+k+".value"))
+				var PortNo_2 =  parseInt(eval("vs_7_"+k+".value")) - parseInt(eval("vs_6_"+k+".value"))
+				
+				if(PortNo_2 != PortNo_1)
+				{
+					alert("The port number is not match.");
+					return;
+				}	
+				
+			
+			}
+		
+		}
+		
+
+		while(i<20)
+		{								
+			exStart=eval("vs_2_"+i+".value");
+			exEnd=eval("vs_3_"+i+".value");
+			inStart=eval("vs_6_"+i+".value");
+			inEnd=eval("vs_7_"+i+".value");
+			type=eval("vs_4_"+i+".value;");
+			ip_addr=eval("vs_5_"+i+".value;");			
+			
+
+			if(ip_addr!='')
+			{
+				ip_addr = pre_ip + ip_addr;
+				vs_ip_addr.value = ip_addr;
+
+			    if ( isValidIpAddress(vs_ip_addr.value) == false ) 
+	  			{
+         			alert(ls_37);
+         			return;
+      			}
+				
+				for (j=0;j<i;j++)
+				{
+					if (eval("vs_4_"+j+".value")==type)
+					{
+						exStart_j=eval("vs_2_"+j+".value");
+						exEnd_j=eval("vs_3_"+j+".value");	
+												
+		 
+							if ((exStart_j-0)>=exStart&&(exStart_j-0)<=exEnd
+							 || (exEnd_j-0)>=exEnd&&(exEnd_j-0)<=exEnd
+							 || (exStart-0)>=exStart_j&&(exStart-0)<=exEnd_j
+							 || (exEnd-0)>=exStart_j&&(exStart-0)<=exEnd_j) 
+							{
+								j++;
+								i++;
+								alert("Entry "+j+" and "+i+" have same protocol and overlapped port range.");
+								j--;
+								i--;								
+								eval("vs_2_"+i+".focus();"); 
+         						return;
+      						}
+      				}    
+         		}
+			}
+			else
+				vs_ip_addr.value = '0';
+			
+			
+			
+			eval("srvName_"+i+".value = encodeUrl(vs_1_"+i+".value)");
+			eval("srvAddr_"+i+".value = vs_ip_addr.value");
+			if(eval("vs_0_"+i+".checked == true"))
+				eval("srvEnbl_"+i+".value = 1");
+			else	
+				eval("srvEnbl_"+i+".value = 0");	
+									
+			eval("proto_"+i+".value = vs_4_"+i+".value");
+			eval("eStart_"+i+".value = vs_2_"+i+".value");
+			eval("eEnd_"+i+".value = vs_3_"+i+".value");
+			eval("iStart_"+i+".value = vs_6_"+i+".value");
+			eval("iEnd_"+i+".value = vs_7_"+i+".value");
+			eval("index_"+i+".value ="+i);
+
+		    i++;			
+         }
+
+   }
+   document.forms[0].submit();
+}
+
+function isBlank(s) 
+{
+	for(i=0;i<s.length;i++)	
+	{
+		c=s.charAt(i);
+		if((c!=' ')&&(c!='\n')&&(c!='\t'))
+			return false;
+      }               
+	return true;
+   }
+
+function isNValidIP(s)
+{
+	if((isBlank(s))||(isNaN(s))||(s<=0||s>=255)) 
+		return true;
+	else 
+		return false;
+}
+
+function isNValidPort(s)
+{
+	if((isBlank(s))||(isNaN(s)) || (s>65535) || (s<1)) 
+		return true;
+	else	
+		return false;
+}
+
+
+
+
+function frmLoad() 
+{
+	ethIp = '<%ejGet(ethIpAddress)%>';
+   	ethMask = '<%ejGet(ethSubnetMask)%>';
+   	mask = ethMask.split('.');
+   	lan = ethIp.split('.');
+	
+	entry_used = 0;
+	
+	with(document.forms[0])
+	{
+		var i;
+		
+		for(i=0;i<20;i++)
+		{
+						
+			if(eval("array"+i+"[0] == '1'"))
+				eval("vs_0_"+i+".checked = true;")	
+			else	
+				eval("vs_0_"+i+".checked = false;")	
+				
+			
+			eval("vs_1_"+i+".value =array"+i+"[1]");
+			eval("vs_2_"+i+".value =array"+i+"[2]");
+			eval("vs_3_"+i+".value =array"+i+"[3]");
+			eval("vs_4_"+i+".selectedIndex =array"+i+"[4]");
+			if(eval("array"+i+"[5] == 0"))			
+				eval("vs_5_"+i+".value = ''");
+			else
+			{
+				var ip_addr;
+				eval("ip_addr = array"+i+"[5].split('.')");			
+				eval("vs_5_"+i+".value = ip_addr[3]");
+			}
+			eval("vs_6_"+i+".value =array"+i+"[6]");
+			eval("vs_7_"+i+".value =array"+i+"[7]");
+			
+			if(eval("vs_1_"+i+".value != '' "))
+				entry_used++;
+
+		
+		}	
+	
+	
+	}
+	
+
+
+   document.vsFrm.srvName.selectedIndex = 0;
+}
+
+function setiPt(flgEnd, i)   
+{
+   if (flgEnd) 
+      document.vsFrm.iEnd[i].value = document.vsFrm.eEnd[i].value
+   else         
+      document.vsFrm.iStart[i].value = document.vsFrm.eStart[i].value
+}
+
+function AppClear()
+{
+
+	with(document.forms[0])
+	{
+		var num = clear_entry[clear_entry.selectedIndex].value;
+
+		if(num == 'all')
+		{
+			if(confirm(fwvs_152))
+			{
+				var i;
+				for(i=0; i<20; i++)
+				{
+				
+					eval("vs_1_"+i+".value = ''");
+					eval("vs_0_"+i+".checked = false");
+					eval("vs_2_"+i+".value = ''");
+					eval("vs_3_"+i+".value = ''");
+					eval("vs_6_"+i+".value = ''");
+					eval("vs_7_"+i+".value = ''");
+					eval("vs_4_"+i+".selectedIndex = '1'");
+					eval("vs_5_"+i+".value = ''");
+				}
+				entry_used =0;		
+			}
+		}	
+		else
+		{
+			var id=num;
+			id++;
+			
+			if(confirm(fwvs_153+" "+id+"?"))
+			{		
+				if( (eval("vs_1_"+num).value == '') 
+				    && (eval("vs_2_"+num).value == '')
+					&& (eval("vs_3_"+num).value == '')
+				    && (eval("vs_5_"+num).value == '')
+					&& (eval("vs_6_"+num).value == '')
+					&& (eval("vs_7_"+num).value == '') )
+				{
+					eval("vs_0_"+num+".checked = false");	
+					eval("vs_4_"+num+".selectedIndex = '1'");
+					return;
+				}					
+				else
+				{	
+					if(id == 20)
+					{
+						eval("vs_1_"+num+".value = ''");
+						eval("vs_0_"+num+".checked = false");
+						eval("vs_2_"+num+".value = ''");
+						eval("vs_3_"+num+".value = ''");
+						eval("vs_5_"+num+".value = ''");
+						eval("vs_6_"+num+".value = ''");
+						eval("vs_7_"+num+".value = ''");
+						eval("vs_4_"+num+".selectedIndex = '1'");
+					}
+					else
+					{				
+					for(i=id;i<20;i++)
+					{
+							if(eval("vs_0_"+i+".checked == true"))
+								eval("vs_0_"+(i-1)+".checked = true");
+							else
+								eval("vs_0_"+(i-1)+".checked = false");
+							
+							eval("vs_1_"+(i-1)+".value = vs_1_"+i+".value");
+							eval("vs_2_"+(i-1)+".value = vs_2_"+i+".value");							
+							eval("vs_3_"+(i-1)+".value = vs_3_"+i+".value");							
+							eval("vs_4_"+(i-1)+".selectedIndex = vs_4_"+i+".selectedIndex");
+							eval("vs_5_"+(i-1)+".value = vs_5_"+i+".value");							
+							eval("vs_6_"+(i-1)+".value = vs_6_"+i+".value");							
+							eval("vs_7_"+(i-1)+".value = vs_7_"+i+".value");							
+
+							eval("vs_1_"+i+".value = ''");
+							eval("vs_0_"+i+".checked = false");
+							eval("vs_2_"+i+".value = ''");
+							eval("vs_3_"+i+".value = ''");
+							eval("vs_5_"+i+".value = ''");
+							eval("vs_6_"+i+".value = ''");
+							eval("vs_7_"+i+".value = ''");
+							eval("vs_4_"+i+".selectedIndex = '1'");
+
+					}
+					}
+					entry_used--;
+					
+				}
+			}
+		}
+	
+	}
+
+}
+
+function write_virtApp()
+{
+	with(document.forms[0])
+	{
+		document.write("<option value=\"FIRST_APP\">"+fwvs_139+"</option>");
+		document.write("<option value=\"Active Worlds\">"+fwvs_2+"</option>");
+		document.write("<option value=\"Age of Empires\">"+fwvs_3+"</option>");
+		document.write("<option value=\"Age of Empires Expansion: The Rise of Rome\">"+fwvs_4+"</option>");
+		document.write("<option value=\"Age of Empires II Expansion: The Conquerors\">"+fwvs_5+"</option>");
+		document.write("<option value=\"Age of Empires II: The Age of Kings\">"+fwvs_6+"</option>");
+		document.write("<option value=\"Age of Kings\">"+fwvs_7+"</option>");
+		document.write("<option value=\"Age of Wonders\">"+fwvs_8+"</option>");
+		document.write("<option value=\"Aliens vs. Predator\">"+fwvs_9+"</option>");
+		document.write("<option value=\"AOL Instant Messenger\">"+fwvs_10+"</option>");
+		document.write("<option value=\"Audiogalaxy Satellite\">"+fwvs_12+"</option>");
+		document.write("<option value=\"AUTH\">"+fwvs_13+"</option>");
+		document.write("<option value=\"Baldur's Gate\">"+fwvs_14+"</option>");
+		document.write("<option value=\"BattleCom\">"+fwvs_15+"</option>");
+		document.write("<option value=\"Battlefield Communicator\">"+fwvs_16+"</option>");
+		document.write("<option value=\"Black and White\">"+fwvs_17+"</option>");
+		document.write("<option value=\"Blizzard Battle.net\">"+fwvs_18+"</option>");
+		document.write("<option value=\"Buddy Phone\">"+fwvs_19+"</option>");
+		document.write("<option value=\"Bungie.net\">"+fwvs_20+"</option>");
+		document.write("<option value=\"Camerades\">"+fwvs_21+"</option>");
+		document.write("<option value=\"CART Precision Racing\">"+fwvs_22+"</option>");
+		document.write("<option value=\"Close Combat for Windows\">"+fwvs_23+"</option>");
+		document.write("<option value=\"Close Combat III: The Russian Front\">"+fwvs_24+"</option>");
+		document.write("<option value=\"Close Combat: A Bridge Too Far\">"+fwvs_25+"</option>");
+		document.write("<option value=\"Combat Flight Simulator 2: WWII Pacific Theater\">"+fwvs_26+"</option>");
+		document.write("<option value=\"Combat Flight Simulator: WWII Europe Series\">"+fwvs_27+"</option>");
+		document.write("<option value=\"Crimson Skies\">"+fwvs_28+"</option>");
+		document.write("<option value=\"CuSeeMe\">"+fwvs_29+"</option>");
+		document.write("<option value=\"Dark Reign 2\">"+fwvs_30+"</option>");
+		document.write("<option value=\"Delta Force 2\">"+fwvs_31+"</option>");
+		document.write("<option value=\"Delta Three PC to Phone\">"+fwvs_32+"</option>");
+		document.write("<option value=\"Descent 3\">"+fwvs_33+"</option>");
+		document.write("<option value=\"Descent Freespace\">"+fwvs_34+"</option>");
+		document.write("<option value=\"Diablo I\">"+fwvs_35+"</option>");
+		document.write("<option value=\"Diablo II\">"+fwvs_36+"</option>");
+		document.write("<option value=\"DialPad.Com\">"+fwvs_37+"</option>");
+		document.write("<option value=\"DirectX 7 Games\">"+fwvs_38+"</option>");
+		document.write("<option value=\"DirectX 8 Games\">"+fwvs_39+"</option>");
+		document.write("<option value=\"Domain Name Server (DNS)\">"+fwvs_40+"</option>");
+		document.write("<option value=\"Doom\">"+fwvs_41+"</option>");
+		document.write("<option value=\"Dune 2000\">"+fwvs_42+"</option>");
+		document.write("<option value=\"Dwyco Video Conferencing\">"+fwvs_43+"</option>");
+		document.write("<option value=\"Elite Force\">"+fwvs_44+"</option>");
+		document.write("<option value=\"Everquest\">"+fwvs_45+"</option>");
+		document.write("<option value=\"F-16\">"+fwvs_46+"</option>");
+		document.write("<option value=\"F-22 Lightning 3\">"+fwvs_47+"</option>");
+		document.write("<option value=\"F-22 Raptor\">"+fwvs_48+"</option>");
+		document.write("<option value=\"F22 Raptor (Novalogic)\">"+fwvs_49+"</option>");
+		document.write("<option value=\"Falcon 4.0\">"+fwvs_50+"</option>");
+		document.write("<option value=\"Fighter Ace II\">"+fwvs_51+"</option>");
+		document.write("<option value=\"Flight Simulator 2000\">"+fwvs_52+"</option>");
+		document.write("<option value=\"Freetel\">"+fwvs_53+"</option>");
+		document.write("<option value=\"FTP Server\">"+fwvs_54+"</option>");
+		document.write("<option value=\"GNUtella\">"+fwvs_55+"</option>");
+		document.write("<option value=\"Golf 2001 Edition\">"+fwvs_56+"</option>");
+		document.write("<option value=\"Go2Call\">"+fwvs_57+"</option>");
+		document.write("<option value=\"Half Life\">"+fwvs_58+"</option>");
+		document.write("<option value=\"Half Life Server\">"+fwvs_59+"</option>");
+		document.write("<option value=\"Heretic II Server\">"+fwvs_60+"</option>");
+		document.write("<option value=\"I76\">"+fwvs_61+"</option>");
+		document.write("<option value=\"ICUII Client\">"+fwvs_62+"</option>");
+		document.write("<option value=\"Ivisit\">"+fwvs_63+"</option>");
+		document.write("<option value=\"IPSEC\">"+fwvs_64+"</option>");
+		document.write("<option value=\"IRC\">"+fwvs_65+"</option>");
+		document.write("<option value=\"IStreamVideo2HP\">"+fwvs_66+"</option>");
+		document.write("<option value=\"KaZaA\">"+fwvs_67+"</option>");
+		document.write("<option value=\"Kohan Immortal Sovereigns\">"+fwvs_68+"</option>");
+		document.write("<option value=\"LapLink Gold\">"+fwvs_69+"</option>");
+		document.write("<option value=\"Links 2001\">"+fwvs_70+"</option>");
+		document.write("<option value=\"Lotus Notes Server\">"+fwvs_71+"</option>");
+		document.write("<option value=\"Mail (POP3)\">"+fwvs_72+"</option>");
+		document.write("<option value=\"Mail (SMTP)\">"+fwvs_73+"</option>");
+		document.write("<option value=\"MechCommander 2.0\">"+fwvs_74+"</option>");
+		document.write("<option value=\"MechWarrior 4\">"+fwvs_75+"</option>");
+		document.write("<option value=\"Media Player 7\">"+fwvs_76+"</option>");
+		document.write("<option value=\"Midtown Madness 2\">"+fwvs_77+"</option>");
+		document.write("<option value=\"Mig 29\">"+fwvs_78+"</option>");
+		document.write("<option value=\"Monster Truck Madness 2\">"+fwvs_79+"</option>");
+		document.write("<option value=\"Motocross Madness 2\">"+fwvs_80+"</option>");
+		document.write("<option value=\"Motorhead Server\">"+fwvs_81+"</option>");
+		document.write("<option value=\"MSN Gaming Zone\">"+fwvs_82+"</option>");
+		document.write("<option value=\"MSN Messenger\">"+fwvs_83+"</option>");
+		document.write("<option value=\"Myth\">"+fwvs_84+"</option>");
+		document.write("<option value=\"Myth II Server\">"+fwvs_85+"</option>");
+		document.write("<option value=\"Myth: The Fallen Lords\">"+fwvs_86+"</option>");
+		document.write("<option value=\"Need for Speed\">"+fwvs_87+"</option>");
+		document.write("<option value=\"NetMech\">"+fwvs_88+"</option>");
+		document.write("<option value=\"Netmeeting 2.0, 3.0, Intel Video Phone\">"+fwvs_89+"</option>");
+		document.write("<option value=\"Network Time Protocol (NTP)\">"+fwvs_90+"</option>");
+		document.write("<option value=\"News Server (NNTP)\">"+fwvs_91+"</option>");
+		document.write("<option value=\"OKWeb\">"+fwvs_92+"</option>");
+		document.write("<option value=\"OKWin\">"+fwvs_93+"</option>");
+		document.write("<option value=\"Outlaws\">"+fwvs_94+"</option>");
+		document.write("<option value=\"Pal Talk\">"+fwvs_95+"</option>");
+		document.write("<option value=\"pcAnywhere v7.5\">"+fwvs_96+"</option>");
+		document.write("<option value=\"PhoneFree\">"+fwvs_97+"</option>");
+		document.write("<option value=\"Polycom ViaVideo H.323\">"+fwvs_98+"</option>");
+		document.write("<option value=\"Polycom ViaVideo H.324\">"+fwvs_99+"</option>");
+		document.write("<option value=\"PPTP\">"+fwvs_100+"</option>");
+		document.write("<option value=\"Quake\">"+fwvs_101+"</option>");
+		document.write("<option value=\"Quake II (Client and Server)\">"+fwvs_102+"</option>");
+		document.write("<option value=\"Quake III\">"+fwvs_103+"</option>");
+		document.write("<option value=\"RealAudio\">"+fwvs_104+"</option>");
+		document.write("<option value=\"Real Player 8 Plus\">"+fwvs_105+"</option>");
+		document.write("<option value=\"Red Alert\">"+fwvs_106+"</option>");
+		document.write("<option value=\"Rise of Rome\">"+fwvs_107+"</option>");
+		document.write("<option value=\"Roger Wilco\">"+fwvs_108+"</option>");
+		document.write("<option value=\"Rogue Spear\">"+fwvs_109+"</option>");
+		document.write("<option value=\"Secure Shell Server (SSH)\">"+fwvs_110+"</option>");
+		document.write("<option value=\"Secure Web Server (HTTPS)\">"+fwvs_111+"</option>");
+		document.write("<option value=\"ShoutCast\">"+fwvs_112+"</option>");
+		document.write("<option value=\"SNMP\">"+fwvs_113+"</option>");
+		document.write("<option value=\"SNMP Trap\">"+fwvs_114+"</option>");
+		document.write("<option value=\"Speak Freely\">"+fwvs_115+"</option>");
+		document.write("<option value=\"StarCraft\">"+fwvs_116+"</option>");
+		document.write("<option value=\"Starfleet Command\">"+fwvs_117+"</option>");
+		document.write("<option value=\"StarLancer\">"+fwvs_118+"</option>");
+		document.write("<option value=\"SWAT3\">"+fwvs_119+"</option>");
+		document.write("<option value=\"Telnet Server\">"+fwvs_120+"</option>");
+		document.write("<option value=\"The 4th Coming\">"+fwvs_121+"</option>");
+		document.write("<option value=\"TFTP\">"+fwvs_122+"</option>");
+		document.write("<option value=\"Tiberian Sun: C&C III\">"+fwvs_123+"</option>");
+		document.write("<option value=\"Total Annihilation\">"+fwvs_124+"</option>");
+		document.write("<option value=\"Ultima\">"+fwvs_125+"</option>");
+		document.write("<option value=\"Unreal Tournament\">"+fwvs_126+"</option>");
+		document.write("<option value=\"Urban Assault\">"+fwvs_127+"</option>");
+		document.write("<option value=\"VoxPhone 3.0\">"+fwvs_128+"</option>");
+		document.write("<option value=\"Warbirds 2\">"+fwvs_129+"</option>");
+		document.write("<option value=\"Web Server (HTTP)\">"+fwvs_130+"</option>");
+		document.write("<option value=\"WebPhone 3.0\">"+fwvs_131+"</option>");
+		document.write("<option value=\"Westwood Online\">"+fwvs_132+"</option>");
+		document.write("<option value=\"Windows 2000 Terminal Server\">"+fwvs_133+"</option>");
+		document.write("<option value=\"X Windows\">"+fwvs_134+"</option>");
+		document.write("<option value=\"Yahoo Pager\">"+fwvs_135+"</option>");
+		document.write("<option value=\"Yahoo Messenger Chat\">"+fwvs_136+"</option>");
+	}
+}
+
+function setPosit(idx,posit)
+{
+	with(document.forms[0])
+	{
+		if(posit == 0)	//Inbound Port start
+			eval("vs_6_"+idx+".value = vs_2_"+idx+".value");
+		else	//Inbound Port end
+			eval("vs_7_"+idx+".value = vs_3_"+idx+".value");
+	}
+
+}
+
+// done hiding -->
+ </script>
+   </head>
+   
+   
+   
+   <body onLoad='frmLoad()' bgColor="#ffffff" leftMargin="0" topMargin="0" marginheight="0" marginwidth="0">
+         <form name="vsFrm" action="post.cgi" method="post">
+		 <input type="hidden" name="page" value="fw_virt">
+		 		 
+		 <input type="hidden" name="srvName_0">
+		 <input type="hidden" name="srvAddr_0">
+		 <input type="hidden" name="srvEnbl_0">
+		 <input type="hidden" name="proto_0">
+		 <input type="hidden" name="eStart_0">
+		 <input type="hidden" name="eEnd_0">
+		 <input type="hidden" name="iStart_0">
+		 <input type="hidden" name="iEnd_0">
+		 <input type="hidden" name="index_0">
+
+		 <input type="hidden" name="srvName_1">
+		 <input type="hidden" name="srvAddr_1">
+		 <input type="hidden" name="srvEnbl_1">
+		 <input type="hidden" name="proto_1">
+		 <input type="hidden" name="eStart_1">
+		 <input type="hidden" name="eEnd_1">
+		 <input type="hidden" name="iStart_1">
+		 <input type="hidden" name="iEnd_1">
+		 <input type="hidden" name="index_1">
+
+		 <input type="hidden" name="srvName_2">
+		 <input type="hidden" name="srvAddr_2">
+		 <input type="hidden" name="srvEnbl_2">
+		 <input type="hidden" name="proto_2">
+		 <input type="hidden" name="eStart_2">
+		 <input type="hidden" name="eEnd_2">
+		 <input type="hidden" name="iStart_2">
+		 <input type="hidden" name="iEnd_2">
+		 <input type="hidden" name="index_2">
+
+		 <input type="hidden" name="srvName_3">
+		 <input type="hidden" name="srvAddr_3">
+		 <input type="hidden" name="srvEnbl_3">
+		 <input type="hidden" name="proto_3">
+		 <input type="hidden" name="eStart_3">
+		 <input type="hidden" name="eEnd_3">
+		 <input type="hidden" name="iStart_3">
+		 <input type="hidden" name="iEnd_3">
+		 <input type="hidden" name="index_3">
+
+		 <input type="hidden" name="srvName_4">
+		 <input type="hidden" name="srvAddr_4">
+		 <input type="hidden" name="srvEnbl_4">
+		 <input type="hidden" name="proto_4">
+		 <input type="hidden" name="eStart_4">
+		 <input type="hidden" name="eEnd_4">
+		 <input type="hidden" name="iStart_4">
+		 <input type="hidden" name="iEnd_4">
+		 <input type="hidden" name="index_4">
+		 
+		 <input type="hidden" name="srvName_5">
+		 <input type="hidden" name="srvAddr_5">
+		 <input type="hidden" name="srvEnbl_5">
+		 <input type="hidden" name="proto_5">
+		 <input type="hidden" name="eStart_5">
+		 <input type="hidden" name="eEnd_5">
+		 <input type="hidden" name="iStart_5">
+		 <input type="hidden" name="iEnd_5">
+		 <input type="hidden" name="index_5">
+
+		 <input type="hidden" name="srvName_6">
+		 <input type="hidden" name="srvAddr_6">
+		 <input type="hidden" name="srvEnbl_6">
+		 <input type="hidden" name="proto_6">
+		 <input type="hidden" name="eStart_6">
+		 <input type="hidden" name="eEnd_6">
+		 <input type="hidden" name="iStart_6">
+		 <input type="hidden" name="iEnd_6">
+		 <input type="hidden" name="index_6">
+
+		 <input type="hidden" name="srvName_7">
+		 <input type="hidden" name="srvAddr_7">
+		 <input type="hidden" name="srvEnbl_7">
+		 <input type="hidden" name="proto_7">
+		 <input type="hidden" name="eStart_7">
+		 <input type="hidden" name="eEnd_7">
+		 <input type="hidden" name="iStart_7">
+		 <input type="hidden" name="iEnd_7">
+		 <input type="hidden" name="index_7">
+
+		 <input type="hidden" name="srvName_8">
+		 <input type="hidden" name="srvAddr_8">
+		 <input type="hidden" name="srvEnbl_8">
+		 <input type="hidden" name="proto_8">
+		 <input type="hidden" name="eStart_8">
+		 <input type="hidden" name="eEnd_8">
+		 <input type="hidden" name="iStart_8">
+		 <input type="hidden" name="iEnd_8">
+		 <input type="hidden" name="index_8">
+
+		 <input type="hidden" name="srvName_9">
+		 <input type="hidden" name="srvAddr_9">
+		 <input type="hidden" name="srvEnbl_9">
+		 <input type="hidden" name="proto_9">
+		 <input type="hidden" name="eStart_9">
+		 <input type="hidden" name="eEnd_9">
+		 <input type="hidden" name="iStart_9">
+		 <input type="hidden" name="iEnd_9">
+		 <input type="hidden" name="index_9">
+
+		 <input type="hidden" name="srvName_10">
+		 <input type="hidden" name="srvAddr_10">
+		 <input type="hidden" name="srvEnbl_10">
+		 <input type="hidden" name="proto_10">
+		 <input type="hidden" name="eStart_10">
+		 <input type="hidden" name="eEnd_10">
+		 <input type="hidden" name="iStart_10">
+		 <input type="hidden" name="iEnd_10">
+		 <input type="hidden" name="index_10">
+
+		 <input type="hidden" name="srvName_11">
+		 <input type="hidden" name="srvAddr_11">
+		 <input type="hidden" name="srvEnbl_11">
+		 <input type="hidden" name="proto_11">
+		 <input type="hidden" name="eStart_11">
+		 <input type="hidden" name="eEnd_11">
+		 <input type="hidden" name="iStart_11">
+		 <input type="hidden" name="iEnd_11">
+		 <input type="hidden" name="index_11">
+
+		 <input type="hidden" name="srvName_12">
+		 <input type="hidden" name="srvAddr_12">
+		 <input type="hidden" name="srvEnbl_12">
+		 <input type="hidden" name="proto_12">
+		 <input type="hidden" name="eStart_12">
+		 <input type="hidden" name="eEnd_12">
+		 <input type="hidden" name="iStart_12">
+		 <input type="hidden" name="iEnd_12">
+		 <input type="hidden" name="index_12">
+
+		 <input type="hidden" name="srvName_13">
+		 <input type="hidden" name="srvAddr_13">
+		 <input type="hidden" name="srvEnbl_13">
+		 <input type="hidden" name="proto_13">
+		 <input type="hidden" name="eStart_13">
+		 <input type="hidden" name="eEnd_13">
+		 <input type="hidden" name="iStart_13">
+		 <input type="hidden" name="iEnd_13">
+		 <input type="hidden" name="index_13">
+
+		 <input type="hidden" name="srvName_14">
+		 <input type="hidden" name="srvAddr_14">
+		 <input type="hidden" name="srvEnbl_14">
+		 <input type="hidden" name="proto_14">
+		 <input type="hidden" name="eStart_14">
+		 <input type="hidden" name="eEnd_14">
+		 <input type="hidden" name="iStart_14">
+		 <input type="hidden" name="iEnd_14">
+		 <input type="hidden" name="index_14">
+		 
+		 <input type="hidden" name="srvName_15">
+		 <input type="hidden" name="srvAddr_15">
+		 <input type="hidden" name="srvEnbl_15">
+		 <input type="hidden" name="proto_15">
+		 <input type="hidden" name="eStart_15">
+		 <input type="hidden" name="eEnd_15">
+		 <input type="hidden" name="iStart_15">
+		 <input type="hidden" name="iEnd_15">
+		 <input type="hidden" name="index_15">
+
+		 <input type="hidden" name="srvName_16">
+		 <input type="hidden" name="srvAddr_16">
+		 <input type="hidden" name="srvEnbl_16">
+		 <input type="hidden" name="proto_16">
+		 <input type="hidden" name="eStart_16">
+		 <input type="hidden" name="eEnd_16">
+		 <input type="hidden" name="iStart_16">
+		 <input type="hidden" name="iEnd_16">
+		 <input type="hidden" name="index_16">
+
+		 <input type="hidden" name="srvName_17">
+		 <input type="hidden" name="srvAddr_17">
+		 <input type="hidden" name="srvEnbl_17">
+		 <input type="hidden" name="proto_17">
+		 <input type="hidden" name="eStart_17">
+		 <input type="hidden" name="eEnd_17">
+		 <input type="hidden" name="iStart_17">
+		 <input type="hidden" name="iEnd_17">
+		 <input type="hidden" name="index_17">
+
+		 <input type="hidden" name="srvName_18">
+		 <input type="hidden" name="srvAddr_18">
+		 <input type="hidden" name="srvEnbl_18">
+		 <input type="hidden" name="proto_18">
+		 <input type="hidden" name="eStart_18">
+		 <input type="hidden" name="eEnd_18">
+		 <input type="hidden" name="iStart_18">
+		 <input type="hidden" name="iEnd_18">
+		 <input type="hidden" name="index_18">
+
+		 <input type="hidden" name="srvName_19">
+		 <input type="hidden" name="srvAddr_19">
+		 <input type="hidden" name="srvEnbl_19">
+		 <input type="hidden" name="proto_19">
+		 <input type="hidden" name="eStart_19">
+		 <input type="hidden" name="eEnd_19">
+		 <input type="hidden" name="iStart_19">
+		 <input type="hidden" name="iEnd_19">
+		 <input type="hidden" name="index_19">
+		 		 
+		 <input type="hidden" name="vs_ip_addr">
+		 
+       <SCRIPT language=JavaScript>
+	var helpItem 	='Virtual Servers';
+	var menuSection	='Fire';
+	var menuItem	='Virtual Servers';
+	var isAPmode = '<%ejGet(enblNat)%>';
+		
+	var wanStatus = '<%ejGetOther(isUp)%>';
+	showHead(wanStatus,helpItem);
+	showMenu(menuSection,menuItem,isAPmode)
+	</SCRIPT>  
+<TD class=head_bold width="90%" valign="top"><Br>
+
+
+
+            <font class="head_bold"><b>&nbsp;&nbsp;&nbsp;<script>dw(fwm_1);</script>  &gt; <script>dw(fwvs_1);</script></b></font>
+			<br><br>
+			
+               <table width="600" height="24" border="0" cellpadding="0" cellspacing="0">
+                  <tr>
+				  	 <Td width="48"></Td>
+                     <td width="552" class="copy_1"><script>dw(fwvs_138);</script> <a  href="javascript:void(0);" onClick="window.open('glossary.html#VCSVR','help','toolbar=0,status=0,menubar=0,scrollbars=1,resizable=1, width=640,height=400,left=150,top=150');"><b><font style="FONT-SIZE: 11px;" color="#0066FF"><script>dw(wd_8);</script></font></b></a>					 
+				    </td>
+				 </tr>	 
+	</table>
+			
+            
+			<br>
+
+	        <table width="600" height="24" border="0" cellpadding="0" cellspacing="0" >
+				<tr>
+					<td width="156"></td>
+					<td width="444" >
+						<script>
+							var info = "<input type='button' style='width:180px' onClick='frmLoad()' value='"+wd_9+"' class='submitBtn'><input type='button' style='width:180px' onClick='btnApply()' value='"+wd_10+"' class='submitBtn'>";
+							dw(info);						
+						</script>
+                  		
+				  </td>
+				</tr>
+	</table>
+			<br>
+			<table width="628" height="24" border="0" cellpadding="0" cellspacing="0" >		
+                  <tr>
+				  	 <Td width="101"></Td>
+                     <td width="76" class="copy_1"><b>
+                    <script>dw(wlmac_3);</script></b></td>
+                    <td width="305" class="copy_1"><select name='srvName' size="1"><script language="javascript">write_virtApp()</script></select></td>
+					 <td width="129">
+					<script>
+						var info ="<input type='button' value='"+wlmac_3+"' style='width:70px' class='submitBtn' onClick='AppAdd()'>";
+						dw(info);
+					</script>
+                    </td>
+                  </tr>
+               <tr>
+				  	 <Td width="101"><Br></Td>
+                     <td width="76" class="copy_1"><Br>
+                     <b>Clear entry</b></td>
+                 <td width="305" class="copy_1"><Br>
+					 	<select name="clear_entry">
+							<option value="0">1</option>
+							<option value="1">2</option>
+							<option value="2">3</option>
+							<option value="3">4</option>
+							<option value="4">5</option>
+							<option value="5">6</option>
+							<option value="6">7</option>
+							<option value="7">8</option>
+							<option value="8">9</option>
+							<option value="9">10</option>
+							<option value="10">11</option>
+							<option value="11">12</option>
+							<option value="12">13</option>
+							<option value="13">14</option>
+							<option value="14">15</option>
+							<option value="15">16</option>
+							<option value="16">17</option>
+							<option value="17">18</option>
+							<option value="18">19</option>
+							<option value="19">20</option>
+							<option value="all" selected>all</option>
+					 	</select>					 
+			     </td>
+					<td><Br>
+				 <script>
+				 	var info = "<input type='button' style='width:70px' value='"+fwvs_140+"' class='submitBtn' onClick='AppClear()'>";
+					dw(info);				 
+				 </script>
+				 </td>
+               </tr>
+				
+    </table>
+						
+		<Br>
+
+            <table border='0' cellpadding='0' cellspacing='0' width="758">
+			<Tr>
+			<Td width="39"></Td>
+			<Td width="719">
+            <table border='0' cellpadding='0' cellspacing='1' width="716">
+               <tr align='center'>
+               <td width="17"  height="26" style="background-color: #666666"></td>
+			   <td width="49"  height="26" class='copy_1' align="center"  style="background-color: #666666"><font style="color:#ffffff"><b><script>dw(wlap_3);</script></b></font></td>			               <td width="101"  height="26" class='copy_1' align="center" style="background-color: #666666"><font style="color:#ffffff"><b>Description</b></font></td>			   			  <td width="172"  height="26" class='copy_1' align="center" style="background-color: #666666"><font style="color:#ffffff"><b>Inbound Port</b></font></td>
+               <td width="43"  height="26" class='copy_1' align='center' style="background-color: #666666"><font style="color:#ffffff"><b><script>dw(fwvs_151);</script></b></font></td>
+        <td width="133"  height="26" class='copy_1' align="center" style="background-color: #666666"><font style="color:#ffffff"><b>Private IP Address</b></font></td>
+              <td width="169"  height="26" class='copy_1' align="center" style="background-color: #666666"><font style="color:#ffffff"><b>Private Port</b></font></td>
+			</tr>
+		<script>
+			var i;
+			for(i=0;i<20;i++)
+			{
+				document.write("<tr>\n");		
+				document.write("<td style='background-color: #CCCCCC' class='copy_1' align='center'>"+eval("i+1")+".</td>\n");		
+				document.write("<td style='background-color: #CCCCCC' class='copy_1' align='center'><input type='checkbox' name='vs_0_"+i+"'></td>\n");		
+	document.write("<td style='background-color: #CCCCCC' class='copy_1' align='center'><input type='text' size='12' maxlength='50' name='vs_1_"+i+"'></td>\n");		
+			document.write("<td style='background-color: #CCCCCC' class='copy_1' align='center'><input type='text' onchange='setPosit("+i+",0)' size='6' maxlength='5' name='vs_2_"+i+"'>-");		
+				document.write("<input type='text' onchange='setPosit("+i+",1)' size='6' maxlength='5' name='vs_3_"+i+"'>\n");		                
+				document.write("<td style='background-color: #CCCCCC' class='copy_1' align='center'><select name='vs_4_"+i+"'>");		
+				document.write("<option value='0'>TCP/UDP</option>\n<option value='1' selected>TCP</option>\n<option value='2'>UDP</option>\n");		
+				document.write("</select></td>\n");	
+				document.write("<td style='background-color: #CCCCCC' class='copy_1' align='center'>"+pre_ip);														
+				document.write("<input type='text' size='2' maxlength='3' name='vs_5_"+i+"'></td>");		
+			document.write("<td style='background-color: #CCCCCC' class='copy_1' align='center'><input type='text' size='6' maxlength='5' name='vs_6_"+i+"'>-");		
+				document.write("<input type='text' size='6' maxlength='5' name='vs_7_"+i+"'>\n");			
+			}
+		</script>			
+	</table>
+			
+ </TD></TR></TBODY></TABLE></TD>
+
+         </form>
+   </body>
+</html>

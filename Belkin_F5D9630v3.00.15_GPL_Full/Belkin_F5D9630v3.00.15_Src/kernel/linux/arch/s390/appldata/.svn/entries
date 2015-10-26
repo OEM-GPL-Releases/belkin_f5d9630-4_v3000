@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/kernel/linux/arch/s390/appldata"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   committed-rev="3"
+   name="appldata_base.c"
+   text-time="2008-02-22T08:22:38.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="4bd31ea262ad2b24db698030ff95308d"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:38.000000Z"/>
+<entry
+   committed-rev="3"
+   name="appldata_net_sum.c"
+   text-time="2008-02-22T08:22:38.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="344bbe301b03510f0918d4ea6f331df2"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:38.000000Z"/>
+<entry
+   committed-rev="3"
+   name="appldata_mem.c"
+   text-time="2008-02-22T08:22:38.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="fa6ccc1f617fbc4f602cc17cb5289d0c"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:38.000000Z"/>
+<entry
+   committed-rev="3"
+   name="appldata_os.c"
+   text-time="2008-02-22T08:22:38.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="8c14c373249bdc9c12a95aafaa037a24"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:38.000000Z"/>
+<entry
+   name="CVS"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="appldata.h"
+   text-time="2008-02-22T08:22:38.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="447c3f556a1ae7ddcaeb69ff9323d4a8"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:38.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Makefile"
+   text-time="2008-02-22T08:22:38.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="b7de796da04d7de3b8ff8080bf0811cb"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:38.000000Z"/>
+</wc-entries>

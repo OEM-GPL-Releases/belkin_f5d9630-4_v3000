@@ -1,0 +1,219 @@
+<html>
+   <head>
+      <meta HTTP-EQUIV='Pragma' CONTENT='no-cache'>
+	  <meta http-equiv="refresh" content="<%ejGet(timeout_refresh)%>">
+         <link rel="stylesheet" href="main_router.css" type='text/css'>
+
+		<%ejGet("curLanguage")%>
+		<SCRIPT>assign_var();</SCRIPT>
+		 
+		 <SCRIPT language=JavaScript src="showMenu.js"></SCRIPT>
+            <script language="javascript" src="util.js"></script>
+            <script language="javascript">
+<!-- hide
+strHtml='<title>'+wc_1+' &gt; '+wc_2+' &gt; '+wcm_1+'</title>';
+dw(strHtml);
+
+var service = '<%ejGet(serviceName)%>';
+var vpi = '<%ejGet(atmVpi)%>';
+var vci = '<%ejGet(atmVci)%>';
+var qs = '<%ejGet(quickSetup)%>';
+var isWizard = '<%ejGet(wizardType)%>';
+var eMode = '<%ejGet(encapMode)%>';
+
+function btnNext() {
+   var loc;
+   if (isWizard== '1')
+     loc = 'wizard_wireless.cgi?';
+   else
+     loc = 'ntwksum2.cgi?';
+
+   //if ( qs == '1' )
+   //   loc = 'lancfgbr.cgi?';
+
+   // protocol is bridge
+   loc += 'ntwkPrtcl=3';
+
+   with ( document.forms[0] ) {
+     
+      if ( isNaN(atmVpi.value) == true || isValidNum(atmVpi.value) == false) {
+         alert('VPI "' + atmVpi.value + '" is invalid.');
+         return;
+      }
+      if ( isNaN(atmVci.value) == true || isValidNum(atmVci.value) == false) {
+         alert('VCI "' + atmVci.value + '" is invalid.');
+         return;
+      }
+      vpi = parseInt(atmVpi.value);
+      if ( vpi < 0 || vpi > 255 ) {
+         alert('VPI "' + atmVpi.value + '" is out of range [0-255].');
+         return;
+      }
+      vci = parseInt(atmVci.value);
+      if ( vci < 32 || vci > 65535 ) {
+         alert('VCI "' + atmVci.value + '" is out of range [32-65535].');
+         return;
+      }
+      
+      loc += '&atmVpi=' + atmVpi.value;
+      loc += '&atmVci=' + atmVci.value;
+      
+      if ( enblService.checked == true )
+         loc += '&enblService=1';
+      else
+         loc += '&enblService=0';
+      loc += '&serviceName=' + encodeUrl(serviceName.value);
+
+      loc += '&encapMode=' + encSel.options[encSel.selectedIndex].value;      
+
+
+	  
+   }
+   loc += '&defaultGateway=0.0.0.0';
+   loc += '&wanIfName=';
+   loc += '&enblAuto=1';
+   loc += '&usrPassword=Modem'
+   window.location = loc;
+}
+
+
+function btnBack() {
+  var isWizard = '<%ejGet(wizardType)%>';
+  if (isWizard== '1')
+    window.location = 'ispcountry.html';
+  else
+    window.location = 'ntwkprtcl.html';
+//  window.history.back();
+}
+
+function frmLoad() {
+   var enableService = '<%ejGet(enblService)%>';
+
+   with ( document.forms[0] ) {
+      if ( enableService == '1' )
+         enblService.checked = true;
+      else
+         enblService.checked = false;
+
+      atmVpi.value = vpi;
+      atmVci.value = vci;
+      
+      if ( service == '' )
+         service = 'br_' + vpi + '_' + vci;
+      serviceName.value = service;
+	  
+	  encDisplay(eMode);
+	  
+   }
+}
+
+function encDisplay(mode)
+{
+   with ( document.forms[0] ) {
+         if (mode == 1)
+            encSel.selectedIndex = 1;
+		 else
+		 	encSel.selectedIndex = 0;
+
+	}
+}
+
+function write_encSel()
+{
+	with(document.write)
+	{
+		document.write("<option value=\"0\">"+wcp_12+"</option>");
+		document.write("<option value=\"1\">"+wcp_13+"</option>");
+	}
+}
+// done hiding -->
+</script>
+   </head>
+   <body onLoad='frmLoad()' bgColor="#ffffff" leftMargin="0" topMargin="0" marginheight="0" marginwidth="0">
+         <form>
+    <SCRIPT language=JavaScript>
+	var helpItem 	='Connection Type';
+	var menuSection	='WAN';
+	var menuItem	='Connection Type';
+	var isAPmode = '<%ejGet(enblNat)%>';	
+	var wanStatus = '<%ejGetOther(isUp)%>';
+	showHead(wanStatus,helpItem);
+	showMenu(menuSection,menuItem,isAPmode)
+	</SCRIPT>  
+<TD class=head_bold width="90%" valign="top"><Br>
+            <b><font class="head_bold">
+			<script language="javascript">
+			if (isWizard== '1')
+			  document.write("Wizard > Parameter Setting > Modem Only (Disable Internet Sharing)");
+			else
+			  document.write("&nbsp;&nbsp;"+wc_1+" &gt; "+wc_2+" &gt; "+wcm_1);
+			</script>
+
+			</font></b>
+			
+			<br><br>
+
+      		<TABLE class=copy_1 cellSpacing=0 cellPadding=0 width=620  border=0>
+        		<TR>
+          			<TD vAlign=top><SPAN>&nbsp;&nbsp;<script>dw(wcm_2);</script>
+					<br><Br></SPAN>
+					</TD>
+				</TR>
+			
+				<tr>
+					<td>
+
+            			<table width="500" border="0" cellpadding="4" cellspacing="0">
+               				<tr>
+                  				<td class="copy_1"><br>&nbsp;&nbsp;<b><script>dw(wcm_3);</script> &gt;</b></td>
+                  				<td width='271' height="30"><br>
+               				  <input type='checkbox' name='enblService' checked value="ON"></td>
+               				</tr>
+							
+               				<tr>
+                  				<td width="213" class="copy_1"><Br>
+               				  &nbsp;&nbsp;<b><script>dw(wcp_10);</script> &gt;</b></td>
+                  				<td width="271"><br>
+                  				  <input type='text' name='atmVpi' size='4' value="0" maxlength="3"> /
+                  								<input type='text' name='atmVci' size='4' value="38" maxlength="5">
+								</td>
+               				</tr>
+
+               				<tr>
+                  				<td width="213" class="copy_1"><Br>
+               				  &nbsp;&nbsp;<b><script>dw(wcp_11);</script> &gt;</b></td>
+                  				<td width="271"><br>
+                  				  <select name='encSel' id='encSel'><script language="javascript">write_encSel()</script></select>
+								</td>
+               				</tr>
+							
+               				<tr>
+                  				<td></td>
+                  				<td><input type="hidden" name="serviceName" size="20"></td>
+               				</tr>
+            		</table>
+					
+					
+					<Br><br><br>
+					
+              		<table border="0" cellpadding="0" cellspacing="0" width="500">
+               			<tr>
+				  			<td align="center">
+							<script>
+								var info = "<input type='button' class='submitBtn' style='height:22px;width:180px;' onClick='frmLoad()' value='"+wd_9+"'><input type='button' class='submitBtn' style='height:22px;width:180px;' onClick='btnNext()' value='"+wd_10+"'>";				  
+								dw(info);
+							</script>
+               				
+				  			</td>
+               			</tr>
+            		</table>
+					
+					</td>
+				</tr>
+
+			</TABLE>
+			
+			</TD></TR></TBODY></TABLE></TD>
+         </form>
+   </body>
+</html>

@@ -1,0 +1,370 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/kernel/linux/drivers/net/wireless"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   committed-rev="3"
+   name="arlan-proc.c"
+   text-time="2008-02-22T08:24:03.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="f5a3ef96ac9f897943577534a44dde54"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:02.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Kconfig"
+   text-time="2008-02-22T08:24:03.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="283333aceb294b4ea2866f706b1f2740"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:02.000000Z"/>
+<entry
+   committed-rev="3"
+   name="wavelan.p.h"
+   text-time="2008-02-22T08:24:03.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="e0441df520fae2628dcd7facdf661fd6"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:02.000000Z"/>
+<entry
+   committed-rev="3"
+   name="wl3501.h"
+   text-time="2008-02-22T08:24:03.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="7f68a063d34f801a23f469614bdff0e6"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:02.000000Z"/>
+<entry
+   committed-rev="3"
+   name="arlan.h"
+   text-time="2008-02-22T08:24:03.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="b095c6569c0eb2c240d9ddc2fa8e9baf"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:02.000000Z"/>
+<entry
+   committed-rev="3"
+   name="atmel.c"
+   text-time="2008-02-22T08:24:03.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="8938834ec17310cf1119d8225647fdeb"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:02.000000Z"/>
+<entry
+   committed-rev="3"
+   name="todo.txt"
+   text-time="2008-02-22T08:24:03.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="f18c1b40f9818767fdbc8dd4405a839f"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:02.000000Z"/>
+<entry
+   committed-rev="3"
+   name="rayctl.h"
+   text-time="2008-02-22T08:24:03.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="43923d97e137b78decdbb683724a3e3e"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:02.000000Z"/>
+<entry
+   committed-rev="3"
+   name="orinoco_pci.c"
+   text-time="2008-02-22T08:24:03.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="e7dbd242b4e67d3dad78ceaa2d25c145"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:02.000000Z"/>
+<entry
+   committed-rev="3"
+   name="i82593.h"
+   text-time="2008-02-22T08:24:03.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="36a793e6fa6113c8009e723b58362320"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:02.000000Z"/>
+<entry
+   committed-rev="3"
+   name="orinoco_tmd.c"
+   text-time="2008-02-22T08:24:03.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="c89ad511f0a35189182dc07c71e4db14"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:02.000000Z"/>
+<entry
+   committed-rev="3"
+   name="airo_cs.c"
+   text-time="2008-02-22T08:24:03.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="71f7f736f1f0fee86a4859f3fd8afd68"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:02.000000Z"/>
+<entry
+   committed-rev="3"
+   name="arlan-main.c"
+   text-time="2008-02-22T08:24:03.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="72408ef09a7d66caa74d3810ded2a496"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:02.000000Z"/>
+<entry
+   committed-rev="3"
+   name="wl3501_cs.c"
+   text-time="2008-02-22T08:24:03.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="2f5bd59ebec96daa09e4760c0579e39a"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:02.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ray_cs.c"
+   text-time="2008-02-22T08:24:03.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="8989a17f04165339316e83fcc4e61fd9"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:02.000000Z"/>
+<entry
+   name="prism54"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="wavelan_cs.p.h"
+   text-time="2008-02-22T08:24:03.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="589184824ea546e9f81b7d2229a85bcc"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:02.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ray_cs.h"
+   text-time="2008-02-22T08:24:03.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="709ca295fc13bf84d5de4bedffdd2b56"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:02.000000Z"/>
+<entry
+   committed-rev="3"
+   name="hermes_rid.h"
+   text-time="2008-02-22T08:24:03.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="b93ac051c2100d0e702394a885724aef"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:02.000000Z"/>
+<entry
+   committed-rev="3"
+   name="airo.c"
+   text-time="2008-02-22T08:24:03.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="4dc508df43205496e36d5c1115ca6820"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:03.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Makefile"
+   text-time="2008-02-22T08:24:03.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="bf5ccf9b030238ef740d19aaca7eb2b2"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:03.000000Z"/>
+<entry
+   committed-rev="3"
+   name=".cvsignore"
+   text-time="2008-02-22T08:24:03.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="d8b65572e25962faaf07c20bb34d224e"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:03.000000Z"/>
+<entry
+   committed-rev="3"
+   name="wavelan.c"
+   text-time="2008-02-22T08:24:03.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="798bffdb92ea80617912bd2dc2d8a068"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:03.000000Z"/>
+<entry
+   committed-rev="3"
+   name="atmel_pci.c"
+   text-time="2008-02-22T08:24:03.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="e7421f66bccecdc17986748b478256f6"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:03.000000Z"/>
+<entry
+   committed-rev="3"
+   name="orinoco_cs.c"
+   text-time="2008-02-22T08:24:03.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="4d1ce2ef746bc3a30f72a521405b839c"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:03.000000Z"/>
+<entry
+   committed-rev="3"
+   name="netwave_cs.c"
+   text-time="2008-02-22T08:24:03.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="36d315a2d57de987ce9e1036f6aa9026"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:03.000000Z"/>
+<entry
+   committed-rev="3"
+   name="strip.c"
+   text-time="2008-02-22T08:24:03.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="8519b834e486a3df4373917dc7c40a72"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:03.000000Z"/>
+<entry
+   committed-rev="3"
+   name="wavelan.h"
+   text-time="2008-02-22T08:24:03.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="fd64b3d5388c52d4ac7df2029cfb5a56"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:03.000000Z"/>
+<entry
+   committed-rev="3"
+   name="ieee802_11.h"
+   text-time="2008-02-22T08:24:03.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="14f9636fb3d6f8b48e326ab01d8d5dd1"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:03.000000Z"/>
+<entry
+   committed-rev="3"
+   name="orinoco.c"
+   text-time="2008-02-22T08:24:03.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="e19ee480ea561874a4c33f0a2088917e"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:03.000000Z"/>
+<entry
+   name="CVS"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="i82586.h"
+   text-time="2008-02-22T08:24:03.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="c29427432347f075072e30cc924e84ee"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:03.000000Z"/>
+<entry
+   committed-rev="3"
+   name="README"
+   text-time="2008-02-22T08:24:03.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="06fd1ef6236abd4d856644ed085006da"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:03.000000Z"/>
+<entry
+   committed-rev="3"
+   name="orinoco.h"
+   text-time="2008-02-22T08:24:03.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="c2df2c8f96021d8cb7fa42020069f8f3"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:03.000000Z"/>
+<entry
+   committed-rev="3"
+   name="airport.c"
+   text-time="2008-02-22T08:24:03.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="10e190d474e9397e3525ffaf0ecbbe6b"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:03.000000Z"/>
+<entry
+   committed-rev="3"
+   name="wavelan_cs.c"
+   text-time="2008-02-22T08:24:03.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="52236ef05eeef13d477b8ed6271c6f09"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:03.000000Z"/>
+<entry
+   committed-rev="3"
+   name="hermes.c"
+   text-time="2008-02-22T08:24:03.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="10e48fcb7f950f8d0e96a801403f5e66"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:03.000000Z"/>
+<entry
+   committed-rev="3"
+   name="atmel_cs.c"
+   text-time="2008-02-22T08:24:03.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="cc42851a14c9fe743ce4493dc9b2c776"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:03.000000Z"/>
+<entry
+   committed-rev="3"
+   name="wavelan_cs.h"
+   text-time="2008-02-22T08:24:03.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="7ab895ab2e7df9d2d94902ada141275f"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:03.000000Z"/>
+<entry
+   committed-rev="3"
+   name="hermes.h"
+   text-time="2008-02-22T08:24:03.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="fc5f8f3e1bc89d0f464251349a2fd0a5"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:03.000000Z"/>
+<entry
+   committed-rev="3"
+   name="orinoco_plx.c"
+   text-time="2008-02-22T08:24:03.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="3d2a3f5e80e1954acc925745cddee3f0"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:03.000000Z"/>
+</wc-entries>

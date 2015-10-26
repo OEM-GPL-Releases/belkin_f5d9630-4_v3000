@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/kernel/linux/drivers/usb/misc"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   committed-rev="3"
+   name="Kconfig"
+   text-time="2008-02-22T08:24:13.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="6584052f6c5f9b48595a8952683dcd1a"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:13.000000Z"/>
+<entry
+   committed-rev="3"
+   name="emi62_fw_m.h"
+   text-time="2008-02-22T08:24:13.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="cfb750983b35a9acc1465ff615d60105"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:13.000000Z"/>
+<entry
+   committed-rev="3"
+   name="speedtch.c"
+   text-time="2008-02-22T08:24:13.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="94337d728f339201b6822e933eb45720"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:13.000000Z"/>
+<entry
+   committed-rev="3"
+   name="uss720.c"
+   text-time="2008-02-22T08:24:13.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="5493f5635f9cde5605382506026c9167"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:13.000000Z"/>
+<entry
+   committed-rev="3"
+   name="phidgetservo.c"
+   text-time="2008-02-22T08:24:13.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="8e03004fadf8b537180b36dbb2aed30a"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:13.000000Z"/>
+<entry
+   committed-rev="3"
+   name="emi62_fw_s.h"
+   text-time="2008-02-22T08:24:13.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="f2549e0f0d1b2102eb6d4be8c606b365"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:13.000000Z"/>
+<entry
+   committed-rev="3"
+   name="tiglusb.c"
+   text-time="2008-02-22T08:24:13.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="b473bb9b7c494ca422f736839f3596df"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:13.000000Z"/>
+<entry
+   name="CVS"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="cytherm.c"
+   text-time="2008-02-22T08:24:13.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="4187f365e8647042636ca54110803b4d"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:13.000000Z"/>
+<entry
+   committed-rev="3"
+   name="usblcd.c"
+   text-time="2008-02-22T08:24:13.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="abcb329574dbfafbc9f6dd0db9d03795"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:13.000000Z"/>
+<entry
+   committed-rev="3"
+   name="usbled.c"
+   text-time="2008-02-22T08:24:13.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="0845f88dc37dcca27c38d7ec308ddc1f"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:13.000000Z"/>
+<entry
+   committed-rev="3"
+   name="tiglusb.h"
+   text-time="2008-02-22T08:24:13.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="3fc9497c8e1b3a49e9b01f591979c614"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:13.000000Z"/>
+<entry
+   committed-rev="3"
+   name="rio500.c"
+   text-time="2008-02-22T08:24:13.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="7594f75e76934d9176379e529b259142"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:13.000000Z"/>
+<entry
+   committed-rev="3"
+   name="legousbtower.c"
+   text-time="2008-02-22T08:24:13.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="c5ef46725f81d3d67341d4f74c3239ac"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:13.000000Z"/>
+<entry
+   committed-rev="3"
+   name="emi62.c"
+   text-time="2008-02-22T08:24:13.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="909544be0838b06a69f2534a21745f92"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:13.000000Z"/>
+<entry
+   committed-rev="3"
+   name="emi26.c"
+   text-time="2008-02-22T08:24:13.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="aecb0ede69c7b824c1a3dfa420af126a"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:13.000000Z"/>
+<entry
+   committed-rev="3"
+   name="emi26_fw.h"
+   text-time="2008-02-22T08:24:13.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="8b5bf3e2fa85845663265b18f9d20b93"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:13.000000Z"/>
+<entry
+   committed-rev="3"
+   name="auerswald.c"
+   text-time="2008-02-22T08:24:13.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="58b1a4d0c42e7a8846332477c7cde4a7"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:13.000000Z"/>
+<entry
+   committed-rev="3"
+   name="usbtest.c"
+   text-time="2008-02-22T08:24:13.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="a06792477a9bbe658c73b3ab1a0b76e6"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:13.000000Z"/>
+<entry
+   committed-rev="3"
+   name="rio500_usb.h"
+   text-time="2008-02-22T08:24:13.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="dda88ac77a0063088a7610f16ca24525"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:13.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Makefile"
+   text-time="2008-02-22T08:24:13.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="8d81623cf102a44dd52a004d0fc04b1e"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:13.000000Z"/>
+<entry
+   committed-rev="3"
+   name=".cvsignore"
+   text-time="2008-02-22T08:24:13.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="735ab631b67b75d07a52edc9e01aed4c"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:13.000000Z"/>
+</wc-entries>

@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/userapps/opensource/oprofile/daemon/liblegacy"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   committed-rev="3"
+   name="opd_parse_proc.c"
+   text-time="2008-02-22T08:24:58.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="f97b560daa6dd8932663d81752603d31"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:58.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Makefile.in"
+   text-time="2008-02-22T08:24:58.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="1ac3e0ac1c578adf1a549d2305f2c67d"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:58.000000Z"/>
+<entry
+   committed-rev="3"
+   name="opd_mapping.h"
+   text-time="2008-02-22T08:24:58.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="648d01ae6d76d351157289ad103f1085"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:58.000000Z"/>
+<entry
+   committed-rev="3"
+   name="init.c"
+   text-time="2008-02-22T08:24:58.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="e8e606494c35304c0296574f2b22cea4"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:58.000000Z"/>
+<entry
+   committed-rev="3"
+   name="opd_parse_proc.h"
+   text-time="2008-02-22T08:24:58.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="bb893677095e3c647620989af1a1021a"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:58.000000Z"/>
+<entry
+   committed-rev="3"
+   name="opd_sample_files.c"
+   text-time="2008-02-22T08:24:58.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="ed8820ad5caaa1300ad265125aa79089"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:58.000000Z"/>
+<entry
+   committed-rev="3"
+   name="opd_24_stats.c"
+   text-time="2008-02-22T08:24:58.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="61c058c0a7c1cbbd780a662d34423353"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:58.000000Z"/>
+<entry
+   committed-rev="3"
+   name="opd_proc.c"
+   text-time="2008-02-22T08:24:58.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="7b2383d07d03d397785da4fcdd0e92fc"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:58.000000Z"/>
+<entry
+   committed-rev="3"
+   name="p_module.h"
+   text-time="2008-02-22T08:24:58.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="d76e5a965d2c0d6601392f7d7850068c"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:58.000000Z"/>
+<entry
+   committed-rev="3"
+   name="opd_sample_files.h"
+   text-time="2008-02-22T08:24:58.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="18980cdeaebdf232244fe4961c133c79"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:58.000000Z"/>
+<entry
+   committed-rev="3"
+   name="opd_proc.h"
+   text-time="2008-02-22T08:24:58.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="dd3fe326bbe15f8075626d07d660b5f9"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:58.000000Z"/>
+<entry
+   committed-rev="3"
+   name="opd_24_stats.h"
+   text-time="2008-02-22T08:24:58.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="6318a6e9a593e59cdbfa097040219b9c"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:58.000000Z"/>
+<entry
+   committed-rev="3"
+   name="opd_kernel.c"
+   text-time="2008-02-22T08:24:58.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="84e5439c013ab5c30d1c650030d330a2"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:58.000000Z"/>
+<entry
+   committed-rev="3"
+   name="opd_image.c"
+   text-time="2008-02-22T08:24:58.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="a75a86635693219488cb155418f2fb50"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:58.000000Z"/>
+<entry
+   committed-rev="3"
+   name="opd_kernel.h"
+   text-time="2008-02-22T08:24:58.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="97567f9d5d1b719c24898815b63cead6"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:58.000000Z"/>
+<entry
+   name=".deps"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="Makefile.am"
+   text-time="2008-02-22T08:24:58.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="d64438d4b9343da85022b9aeb30ae934"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:58.000000Z"/>
+<entry
+   committed-rev="3"
+   name="opd_image.h"
+   text-time="2008-02-22T08:24:58.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="e0d0a0b4197c3aae76d516d574cee469"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:58.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Makefile"
+   text-time="2008-02-22T08:24:58.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="d42acbc5088b8397ae90c55df33430dc"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:58.000000Z"/>
+<entry
+   committed-rev="3"
+   name="opd_mapping.c"
+   text-time="2008-02-22T08:24:58.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="c39b36c14c029e43e80d77e1855557da"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:58.000000Z"/>
+</wc-entries>

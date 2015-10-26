@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/userapps/opensource/oprofile/libabi"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   committed-rev="3"
+   name="op_abi.h"
+   text-time="2008-02-22T08:24:57.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="f6310748b0af1f257cd3b3ede1f4b3d8"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:57.000000Z"/>
+<entry
+   committed-rev="3"
+   name="abi.h"
+   text-time="2008-02-22T08:24:57.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="13fa0f477732113ba244acc97c02d92d"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:57.000000Z"/>
+<entry
+   name="tests"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="Makefile.in"
+   text-time="2008-02-22T08:24:57.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="6fdcc13229a45ecf991fdb33617e5711"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:57.000000Z"/>
+<entry
+   name=".deps"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="Makefile.am"
+   text-time="2008-02-22T08:24:57.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="ccf54b329a93641a370b16372f2e31bf"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:57.000000Z"/>
+<entry
+   committed-rev="3"
+   name="op_abi.cpp"
+   text-time="2008-02-22T08:24:57.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="81172170f73b1af2b7cb6e049c33449f"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:57.000000Z"/>
+<entry
+   committed-rev="3"
+   name="opimport.cpp"
+   text-time="2008-02-22T08:24:57.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="9a12a7ea788c8bdb439339b59dc22384"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:57.000000Z"/>
+<entry
+   committed-rev="3"
+   name="abi.cpp"
+   text-time="2008-02-22T08:24:57.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="fd96040297a64e1e74708bfb88a5e901"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:57.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Makefile"
+   text-time="2008-02-22T08:24:57.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="4d31238ea6ab7510e5474607de10384e"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:57.000000Z"/>
+</wc-entries>

@@ -1,0 +1,112 @@
+<html>
+<head>
+            <meta http-equiv="Pragma" content="no-cache">
+			<meta http-equiv="refresh" content="<%ejGet(timeout_refresh)%>">
+         	<link rel="stylesheet" href="main_router.css" type='text/css'>
+			<%ejGet("curLanguage")%>
+			<SCRIPT>assign_var();</SCRIPT>
+		 		 
+			<SCRIPT language=JavaScript src="showMenu.js"></SCRIPT>
+            <base target="_self">
+
+<script language="javascript">
+<!-- hide
+
+function frmLoad() {
+   document.forms[0].mode[eval('<%ejGetTest(adslTestMode)%>')].checked = true;
+}
+
+function applyClick() {
+   var loc = 'adslcfgadv.cmd?adslTestMode=';
+   
+   for (i = 0; i < 5; i++)
+      if (document.forms[0].mode[i].checked == true)
+         break;
+   loc += i;
+   var code = 'location="' + loc + '"';
+   eval(code);
+}
+
+function toneClick() {
+   var options;
+
+   options = 'menubar=no,resizable=no,scrollbars=yes,titlebar=yes,toolbar=no,width=680,height=460';
+
+   window.open('adslcfgtone.html', 'BCM963xxDSLCfgTone', options);
+}
+
+// done hiding -->
+</script>
+</head>
+
+<body bgColor="#ffffff" leftMargin="0" topMargin="0" marginheight="0" marginwidth="0" onLoad='frmLoad()'>
+       <SCRIPT language=JavaScript>
+
+
+strHtml='<title>DSL Advanced Settings &gt;</title>';
+dw(strHtml);
+
+
+var autoup = '0';
+
+if(autoup == '1')
+{
+	newwin=window.open("checkfw.html","Firmware","toolbar=no,location=no,directories=no,status=no,menubar=no,scrollbars=yes,width=395,height=200,resizable=0");
+	newwin.focus();
+}
+
+	   
+	var helpItem 	='DSL Adv settings';
+	var menuSection	='DSL';
+	var menuItem	='DSL Adv settings';
+	var isAPmode = '1';
+		
+	var wanStatus = 'No settings';
+	showHead(wanStatus,helpItem);
+	showMenu(menuSection,menuItem,isAPmode)
+	</SCRIPT>  
+	
+<TD class=head_bold width="90%" valign="top"><Br>
+
+         <b><font color="#004263" face="Verdana" class="head_bold">&nbsp;&nbsp;DSL Advanced Settings &gt; </font></b>
+<form>
+<br>
+			<table border="0" cellpadding="0" cellspacing="0" width="737">
+				<Tr>
+				 	<td width="48"></td>	
+                  	<td width="689"  class="copy_1"><b>Select the test mode below</b></td>
+				</Tr>
+				
+				<Tr>
+					<td width="48"></td>
+					<td>
+<table border="0" cellpadding="4" cellspacing="0">
+						  <tr><td class="copy_1"><input type="radio" name="mode" checked>Normal</td></tr>
+						  <tr><td class="copy_1"><input type="radio" name="mode">Reverb</td></tr>
+						  <tr><td class="copy_1"><input type="radio" name="mode">Medley</td></tr>
+						  <tr><td class="copy_1"><input type="radio" name="mode">No retrain</td></tr>
+						  <tr><td class="copy_1"><input type="radio" name="mode">L3</td></tr>
+						</table>					
+					
+					</td>
+				
+				</Tr>
+			</table>
+
+<br><br>
+<center>
+<input type='button' style='width:180px' class='submitBtn' onClick='applyClick()' value='Apply'>
+<input type='button' style='width:180px' class='submitBtn' onClick='toneClick()' value='Tone Selection'>
+</center>
+</form>
+					</TD>			
+
+		 		</tr>
+		 	</TABLE>
+		 </TD></TR></TBODY></TABLE></TD>
+		 
+
+</body>
+</html>
+
+

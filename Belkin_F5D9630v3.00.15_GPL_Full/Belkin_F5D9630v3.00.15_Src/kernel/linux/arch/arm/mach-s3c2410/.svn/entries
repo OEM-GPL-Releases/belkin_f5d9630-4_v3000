@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/kernel/linux/arch/arm/mach-s3c2410"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   committed-rev="3"
+   name="bast.h"
+   text-time="2008-02-22T08:22:10.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="2fcecec5251b937dc753420c8cf40e4f"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:10.000000Z"/>
+<entry
+   committed-rev="3"
+   name="gpio.c"
+   text-time="2008-02-22T08:22:10.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="44e529f5479a1f2c4d65e526b6f1050c"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:10.000000Z"/>
+<entry
+   committed-rev="3"
+   name="mach-vr1000.c"
+   text-time="2008-02-22T08:22:10.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="583d2b095183be91970159bce7f2d144"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:10.000000Z"/>
+<entry
+   committed-rev="3"
+   name="time.c"
+   text-time="2008-02-22T08:22:10.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="71346978f2ffba500c1750f672ba143d"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:10.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Kconfig"
+   text-time="2008-02-22T08:22:10.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="0b52c1c84f74d0b1e6d6f9023154bcde"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:10.000000Z"/>
+<entry
+   committed-rev="3"
+   name="mach-bast.c"
+   text-time="2008-02-22T08:22:10.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="117ef4058a1b3d953576794de82cb8cb"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:10.000000Z"/>
+<entry
+   committed-rev="3"
+   name="s3c2410.c"
+   text-time="2008-02-22T08:22:10.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="aadf6c30c8a3efa6206bb976f92f8f34"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:10.000000Z"/>
+<entry
+   committed-rev="3"
+   name="bast-irq.c"
+   text-time="2008-02-22T08:22:10.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="156c304fcbd5bd84b5d3d91a9233c61f"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:10.000000Z"/>
+<entry
+   committed-rev="3"
+   name="s3c2410.h"
+   text-time="2008-02-22T08:22:10.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="22f21e9bd6a4a91d8a4f7df810cd6996"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:10.000000Z"/>
+<entry
+   name="CVS"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="irq.c"
+   text-time="2008-02-22T08:22:10.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="65fdd3d33d71897c0d26e9b96223f0de"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:10.000000Z"/>
+<entry
+   committed-rev="3"
+   name="mach-h1940.c"
+   text-time="2008-02-22T08:22:10.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="5f6e0348cb27dfad1fc9a49bed3e6065"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:10.000000Z"/>
+<entry
+   committed-rev="3"
+   name="mach-smdk2410.c"
+   text-time="2008-02-22T08:22:10.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="9af57676eb154c2d1f41714392f10cf9"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:10.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Makefile"
+   text-time="2008-02-22T08:22:10.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="ed064b81fcbcc732ccc363254539c065"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:22:10.000000Z"/>
+</wc-entries>

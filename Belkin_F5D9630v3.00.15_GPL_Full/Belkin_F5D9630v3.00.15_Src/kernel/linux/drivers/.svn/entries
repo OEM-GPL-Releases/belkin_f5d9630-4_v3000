@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="90"
+   name=""
+   committed-date="2007-12-27T06:23:26.516015Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/kernel/linux/drivers"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   name="media"
+   kind="dir"/>
+<entry
+   name="oprofile"
+   kind="dir"/>
+<entry
+   name="serial"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="Kconfig"
+   text-time="2008-02-22T08:24:36.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="e0cb72684d4db83e17fbd6a867b2c921"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:25.000000Z"/>
+<entry
+   name="atm"
+   kind="dir"/>
+<entry
+   name="mtd"
+   kind="dir"/>
+<entry
+   name="message"
+   kind="dir"/>
+<entry
+   name="w1"
+   kind="dir"/>
+<entry
+   name="i2o"
+   kind="dir"/>
+<entry
+   name="isdn"
+   kind="dir"/>
+<entry
+   name="pnp"
+   kind="dir"/>
+<entry
+   name="s390"
+   kind="dir"/>
+<entry
+   name="input"
+   kind="dir"/>
+<entry
+   name="mca"
+   kind="dir"/>
+<entry
+   name="ap1000"
+   kind="dir"/>
+<entry
+   name="cpufreq"
+   kind="dir"/>
+<entry
+   name="bluetooth"
+   kind="dir"/>
+<entry
+   name="video"
+   kind="dir"/>
+<entry
+   name="tc"
+   kind="dir"/>
+<entry
+   name="telephony"
+   kind="dir"/>
+<entry
+   name="zorro"
+   kind="dir"/>
+<entry
+   name="pci"
+   kind="dir"/>
+<entry
+   name="dio"
+   kind="dir"/>
+<entry
+   name="fc4"
+   kind="dir"/>
+<entry
+   name="char"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name=".cvsignore"
+   text-time="2008-02-22T08:24:36.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="d8b65572e25962faaf07c20bb34d224e"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:49.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Makefile"
+   text-time="2008-02-22T08:24:36.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="4ce1a27f21f29c76d7869d311c44a93d"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:49.000000Z"/>
+<entry
+   name="parisc"
+   kind="dir"/>
+<entry
+   name="eisa"
+   kind="dir"/>
+<entry
+   name="macintosh"
+   kind="dir"/>
+<entry
+   name="net"
+   kind="dir"/>
+<entry
+   name="parport"
+   kind="dir"/>
+<entry
+   name="ieee1394"
+   kind="dir"/>
+<entry
+   name="usb"
+   kind="dir"/>
+<entry
+   name="block"
+   kind="dir"/>
+<entry
+   name="misc"
+   kind="dir"/>
+<entry
+   name="CVS"
+   kind="dir"/>
+<entry
+   name="nubus"
+   kind="dir"/>
+<entry
+   name="pcmcia"
+   kind="dir"/>
+<entry
+   name="md"
+   kind="dir"/>
+<entry
+   name="ide"
+   kind="dir"/>
+<entry
+   name="scsi"
+   kind="dir"/>
+<entry
+   name="acorn"
+   kind="dir"/>
+<entry
+   name="cdrom"
+   kind="dir"/>
+<entry
+   name="base"
+   kind="dir"/>
+<entry
+   name="firmware"
+   kind="dir"/>
+<entry
+   name="acpi"
+   kind="dir"/>
+<entry
+   name="sbus"
+   kind="dir"/>
+<entry
+   name="i2c"
+   kind="dir"/>
+</wc-entries>

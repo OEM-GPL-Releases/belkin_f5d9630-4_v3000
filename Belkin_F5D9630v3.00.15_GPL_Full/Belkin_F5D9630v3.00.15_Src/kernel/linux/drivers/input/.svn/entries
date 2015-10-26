@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/kernel/linux/drivers/input"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   committed-rev="3"
+   name="Kconfig"
+   text-time="2008-02-22T08:23:43.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="078b24f459fbd107288d534532b93e5d"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:40.000000Z"/>
+<entry
+   committed-rev="3"
+   name="input.c"
+   text-time="2008-02-22T08:23:43.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="b3cd36312fbee4c42c8aed1aeddc7827"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:40.000000Z"/>
+<entry
+   committed-rev="3"
+   name="joydev.c"
+   text-time="2008-02-22T08:23:43.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="ba81d785cded49d19f499d4fcefc75b5"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:40.000000Z"/>
+<entry
+   name="serio"
+   kind="dir"/>
+<entry
+   name="touchscreen"
+   kind="dir"/>
+<entry
+   name="mouse"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="evbug.c"
+   text-time="2008-02-22T08:23:43.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="73a3b19f18310059fda9e2d8c36370c6"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:40.000000Z"/>
+<entry
+   committed-rev="3"
+   name="evdev.c"
+   text-time="2008-02-22T08:23:43.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="feb8423b13c682f8f5c9a91202c5cf32"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:40.000000Z"/>
+<entry
+   name="CVS"
+   kind="dir"/>
+<entry
+   name="misc"
+   kind="dir"/>
+<entry
+   name="joystick"
+   kind="dir"/>
+<entry
+   name="keyboard"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="tsdev.c"
+   text-time="2008-02-22T08:23:43.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="57dc705275ed7cc91b97d502bb59b74c"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:41.000000Z"/>
+<entry
+   committed-rev="3"
+   name="mousedev.c"
+   text-time="2008-02-22T08:23:43.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="a6460f31e3dc5b0218b13bc225ea0540"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:41.000000Z"/>
+<entry
+   committed-rev="3"
+   name="power.c"
+   text-time="2008-02-22T08:23:43.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="de33fb234601cf9874914a730c9907ac"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:41.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Makefile"
+   text-time="2008-02-22T08:23:43.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="8032365d63f8e8d9508b6db23064a9f8"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:41.000000Z"/>
+<entry
+   committed-rev="3"
+   name=".cvsignore"
+   text-time="2008-02-22T08:23:43.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="d8b65572e25962faaf07c20bb34d224e"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:23:41.000000Z"/>
+<entry
+   name="gameport"
+   kind="dir"/>
+</wc-entries>

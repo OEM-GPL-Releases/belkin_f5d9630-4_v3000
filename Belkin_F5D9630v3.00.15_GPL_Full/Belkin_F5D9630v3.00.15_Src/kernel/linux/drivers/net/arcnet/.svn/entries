@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-07-10T10:34:01.610987Z"
+   url="svn://10.5.1.123/belkin9630v5/release_version/5.00.15_v3/src/kernel/linux/drivers/net/arcnet"
+   last-author="alex"
+   kind="dir"
+   uuid="ed9188f2-e334-0410-83fa-ad071bb174ad"
+   revision="106"/>
+<entry
+   committed-rev="3"
+   name="rfc1201.c"
+   text-time="2008-02-22T08:24:06.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="bda25b03bb2ccdb0d3598ae39935dfda"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:06.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Kconfig"
+   text-time="2008-02-22T08:24:06.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="17a8dd36c3ac18a900d05fb657adc1c0"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:06.000000Z"/>
+<entry
+   committed-rev="3"
+   name="com90io.c"
+   text-time="2008-02-22T08:24:06.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="15fcab82ed1510ab9f75d01359884e36"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:06.000000Z"/>
+<entry
+   committed-rev="3"
+   name="arc-rawmode.c"
+   text-time="2008-02-22T08:24:06.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="ac8121582b49decca5ce29518c26b7ed"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:06.000000Z"/>
+<entry
+   committed-rev="3"
+   name="rfc1051.c"
+   text-time="2008-02-22T08:24:06.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="6872c1c0de6d408901faea68b99b20f8"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:06.000000Z"/>
+<entry
+   committed-rev="3"
+   name="com20020.c"
+   text-time="2008-02-22T08:24:06.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="555da28464fcb5948d5b1a36ca7033b0"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:06.000000Z"/>
+<entry
+   committed-rev="3"
+   name="arc-rimi.c"
+   text-time="2008-02-22T08:24:06.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="37a26a4721dd97be4231a0dec0ad7e92"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:06.000000Z"/>
+<entry
+   committed-rev="3"
+   name="com90xx.c"
+   text-time="2008-02-22T08:24:06.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="1a3bdade8ec6878d32d11676734e36a8"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:06.000000Z"/>
+<entry
+   name="CVS"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="com20020-pci.c"
+   text-time="2008-02-22T08:24:06.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="0f9120caa2fb5848e1b58711e8a338cb"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:06.000000Z"/>
+<entry
+   committed-rev="3"
+   name=".cvsignore"
+   text-time="2008-02-22T08:24:06.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="d8b65572e25962faaf07c20bb34d224e"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:06.000000Z"/>
+<entry
+   committed-rev="3"
+   name="Makefile"
+   text-time="2008-02-22T08:24:06.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="62ed6103b4a410894fed2ee11709ad8c"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:06.000000Z"/>
+<entry
+   committed-rev="3"
+   name="arcnet.c"
+   text-time="2008-02-22T08:24:06.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="6976f96248c3f491ff05867b2e4b3399"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:06.000000Z"/>
+<entry
+   committed-rev="3"
+   name="com20020-isa.c"
+   text-time="2008-02-22T08:24:06.000000Z"
+   committed-date="2007-07-10T10:34:01.610987Z"
+   checksum="a3940a31f2f83a8b69bda8bdeb983471"
+   last-author="alex"
+   kind="file"
+   prop-time="2008-02-22T08:24:06.000000Z"/>
+</wc-entries>
